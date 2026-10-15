@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-10-15 | The AK-12 is its own family, not sharing mastery or cosmetics with the AK-74 | [Rules](../rules.md#versions) |
+| 2026-10-15 | Battle rifles are the next category; the possible assault rifle additions wait | [Queue](queue.md) |
 | 2026-10-14 | Versions keep their real fire modes: semi-auto-only versions stay in the pool for every gun, including the ACR's four semi-auto calibers | [Rules](../rules.md#versions) |
 | 2026-10-14 | The HK416 is its own family, not sharing mastery or cosmetics with the M16 / M4 | [Rules](../rules.md#versions) |
 | 2026-10-12 | The wiki moves to GitHub (this repo) | [Home](../index.md) |

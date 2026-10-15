@@ -9,7 +9,8 @@
 | [SMGs](smgs/index.md) | 16 | Queue done |
 | [Assault rifles](assault-rifles/index.md) | 27 | Queue done; possible additions on the [queue](../planning/queue.md) page |
 | [Crate weapons](crate/index.md) | 1 | Open |
-| Battle rifles, LMGs, DMRs, snipers, special | 0 | Not started |
+| Battle rifles | 0 | Next; draft list on the [queue](../planning/queue.md) page |
+| LMGs, DMRs, snipers, special | 0 | Not started |
 
 ## Every gun page has
 

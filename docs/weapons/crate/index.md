@@ -2,7 +2,7 @@
 
 An exclusive pool of guns too powerful or special for the ground pool. They arrive by air drop.
 
-1 roster entries.
+1 roster entry.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |

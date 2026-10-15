@@ -52,6 +52,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **SIG MCX offshoots:** MCX-SPEAR / M7 (scaled-up MCX in 6.8×51mm Common Cartridge, the US Army's NGSW rifle since 2022; battle rifle category), MCX-MR (7.62×51mm, 16 in fluted barrel, 20-round SR-25 mags, select-fire; failed Army CSASS entry; DMR or battle rifle category), and the SIG MPX (9×19 submachine gun whose piston system the MCX grew from; SMG category).
 - **AK-12 offshoots:** AK-308 (7.62×51mm, 20-round mags, based on the AK-15) and AKV-721 (civilian two-receiver 7.62×51mm design) for the battle rifle category, the RPL-20 (belt-fed 5.45mm prototype that fires from an open bolt; LMG category), the AKV-521 (civilian semi-auto two-receiver design; caliber to look up), and the AK-22 (2023 prototype in 6.02×41mm, Russia's answer to the US NGSW; possible addition).
 - **AM-17:** Kalashnikov's AKS-74U replacement, a separate design from the AK-12, based on Dragunov's MA: short-stroke piston, hinged two-part polymer receiver, 230 mm barrel, 2.5 kg, about 850 RPM, 30-round 5.45mm mags; first batch September 2025. Its AMB-17 is integrally suppressed in 9×39mm. Possible assault rifle addition.
+- **Mondragón M1893 and M1894:** Manuel Mondragón's straight-pull bolt-action rifles, built by SIG (50 and then 200 made), in 6.5×48mm or 5.2×68mm Rubin, fed from fixed 8-round en-bloc clips; a rapid setting fires the shot as the bolt closes (sniper or special category).
 
 ## Rifles to review later
 

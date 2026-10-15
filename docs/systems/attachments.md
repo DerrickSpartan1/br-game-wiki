@@ -19,7 +19,7 @@ Attachments are universal within weapon families instead of gun-specific, to kee
 - **Shotguns:** shared barrel and silencer attachments.
 - **DMRs & snipers:** shared silencer and barrel attachments.
 
-Battle rifles and DMRs share one roster category, but each gun uses the family that fits it: select-fire battle rifles take the AR family, and semi-auto marksman rifles take the DMR family. Each gun page says which.
+Battle rifles and DMRs share one roster category, but each gun uses the family that fits it: battle rifles (a soldier's main rifle, select-fire or not) take the AR family, and scoped marksman rifles take the DMR family. Each gun page says which.
 
 Some pistols, like the C96, also have a shoulder stock slot that takes the gun's real stock or a makeshift one.
 

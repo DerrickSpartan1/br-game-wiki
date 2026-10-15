@@ -1,6 +1,6 @@
 # Gun queue
 
-Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles & DMRs, now one category, are next; their draft list is below.
+Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles & DMRs, one category, are in progress.
 
 ## Assault rifles
 
@@ -36,37 +36,37 @@ Guns get added one at a time, researched from real sources. The assault rifle qu
 
 Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India), CZ Bren 2 (Czech Republic), QBZ-191 (China).
 
-## Battle rifles & DMRs (draft, to review)
+## Battle rifles & DMRs (in progress)
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs). In rough order of when each came out. Bolt-action and heavy precision rifles go to snipers, and automatic rifles like the BAR go to LMGs.
 
 | # | Gun | Origin and cartridge | Status |
 | --- | --- | --- | --- |
-| 1 | Mondragón rifle | Mexico, 1908; 7×57mm Mauser | Proposed |
-| 2 | M1 Garand | USA, 1936; .30-06 Springfield | Proposed |
-| 3 | SVT-40 | USSR, 1940; 7.62×54mmR | Proposed |
-| 4 | FG 42 | Germany, 1942; 7.92×57mm Mauser | Proposed |
-| 5 | Gewehr 43 | Germany, 1943; 7.92×57mm Mauser | Proposed |
-| 6 | SKS | USSR, 1945; 7.62×39mm | Proposed |
-| 7 | MAS-49 | France, 1949; 7.5×54mm French | Proposed |
-| 8 | FN FAL | Belgium, 1953; 7.62×51mm | Proposed |
-| 9 | AR-10 | USA, 1956; 7.62×51mm | Proposed |
-| 10 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | Proposed |
-| 11 | CETME | Spain, 1958; 7.62×51mm | Proposed |
-| 12 | M14 | USA, 1959; 7.62×51mm | Proposed |
-| 13 | HK G3 | West Germany, 1959; 7.62×51mm | Proposed |
-| 14 | BM 59 | Italy, 1959; 7.62×51mm | Proposed |
-| 15 | SVD Dragunov | USSR, 1963; 7.62×54mmR | Proposed |
-| 16 | Ruger Mini-14 | USA, 1973; 5.56×45mm | Proposed |
-| 17 | VSS Vintorez | USSR, 1987; 9×39mm | Proposed |
-| 18 | SR-25 / M110 | USA, 1990s; 7.62×51mm | Proposed |
-| 19 | QBU-88 | China, 1997; 5.8×42mm | Proposed |
-| 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | Proposed |
-| 21 | FN SCAR-H | Belgium, 2004; 7.62×51mm | Proposed |
-| 22 | HK417 | Germany, 2005; 7.62×51mm | Proposed |
-| 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Proposed |
-| 24 | AK-308 | Russia, 2018; 7.62×51mm | Proposed |
-| 25 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Proposed |
+| 1 | [Mondragón rifle](../weapons/battle-rifles/mondragon.md) | Mexico, 1908; 7×57mm Mauser | Added |
+| 2 | M1 Garand | USA, 1936; .30-06 Springfield | **Next** |
+| 3 | SVT-40 | USSR, 1940; 7.62×54mmR | Queued |
+| 4 | FG 42 | Germany, 1942; 7.92×57mm Mauser | Queued |
+| 5 | Gewehr 43 | Germany, 1943; 7.92×57mm Mauser | Queued |
+| 6 | SKS | USSR, 1945; 7.62×39mm | Queued |
+| 7 | MAS-49 | France, 1949; 7.5×54mm French | Queued |
+| 8 | FN FAL | Belgium, 1953; 7.62×51mm | Queued |
+| 9 | AR-10 | USA, 1956; 7.62×51mm | Queued |
+| 10 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | Queued |
+| 11 | CETME | Spain, 1958; 7.62×51mm | Queued |
+| 12 | M14 | USA, 1959; 7.62×51mm | Queued |
+| 13 | HK G3 | West Germany, 1959; 7.62×51mm | Queued |
+| 14 | BM 59 | Italy, 1959; 7.62×51mm | Queued |
+| 15 | SVD Dragunov | USSR, 1963; 7.62×54mmR | Queued |
+| 16 | Ruger Mini-14 | USA, 1973; 5.56×45mm | Queued |
+| 17 | VSS Vintorez | USSR, 1987; 9×39mm | Queued |
+| 18 | SR-25 / M110 | USA, 1990s; 7.62×51mm | Queued |
+| 19 | QBU-88 | China, 1997; 5.8×42mm | Queued |
+| 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | Queued |
+| 21 | FN SCAR-H | Belgium, 2004; 7.62×51mm | Queued |
+| 22 | HK417 | Germany, 2005; 7.62×51mm | Queued |
+| 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Queued |
+| 24 | AK-308 | Russia, 2018; 7.62×51mm | Queued |
+| 25 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Queued |
 
 Possible additions: Cei-Rigotti (Italy, 1900; early select-fire, few made), Ljungman AG m/42 (Sweden, 1942), Johnson M1941 (USA, 1941), Howa Type 64 (Japan, 1964), PSL (Romania, 1974), FA-MAS Type 62 and the Sterling rifle (prototypes), KelTec RFB and Desert Tech MDRX (bullpups), the AKV-721, the MCX-MR, and the DMR offshoots already on the [add-later list](add-later.md).
 

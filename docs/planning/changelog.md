@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-15 | Started battle rifles & DMRs with the [Mondragón rifle](../weapons/battle-rifles/mondragon.md) (2 versions); 7×57mm Mauser and 7.5×55mm Swiss are new to the ammo pool; the M1893 and M1894 went to the add-later list |
 | 2026-10-15 | Merged battle rifles and DMRs into one category and grew its draft queue to 25 guns; the CETME stays apart from the G3 |
 | 2026-10-15 | Drafted the battle rifle queue (18 guns); the AK-12 stays its own family, apart from the AK-74 |
 | 2026-10-15 | Added the [AK-12](../weapons/assault-rifles/ak-12.md) (9 versions, with the AK-15, AK-19, and TR3), finishing the assault rifle queue; AK-308, AKV-721, RPL-20, AK-22, and AM-17 went to the add-later list |

@@ -8,6 +8,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H will sit in battle rifles ([FN SCAR-L](../weapons/assault-rifles/scar-l.md)).
+- **Mondragón manual mode:** whether its real gas cut-off (semi-auto to straight-pull manual) goes on the selector key as flavor ([Mondragón rifle](../weapons/battle-rifles/mondragon.md)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
 - **Wear:** whether some items wear out. Current ideas: the makeshift suppressor and the StG 44's Krummlauf curved barrel (about 300 rounds in real life). Guns themselves never jam or overheat.
 

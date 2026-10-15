@@ -28,8 +28,8 @@ Guns get added one at a time, researched from real sources. Assault rifles are i
 | 20 | [HK G36](../weapons/assault-rifles/g36.md) | Germany, 1997; 5.56×45mm | Added |
 | 21 | [Beryl wz. 96](../weapons/assault-rifles/beryl.md) | Poland, 1997; 5.56×45mm | Added |
 | 22 | [IWI Tavor](../weapons/assault-rifles/tavor.md) | Israel, 2001; 5.56×45mm | Added |
-| 23 | FN SCAR-L | Belgium, 2004; 5.56×45mm | **Next** |
-| 24 | HK416 | Germany, 2004; 5.56×45mm | Queued |
+| 23 | [FN SCAR-L](../weapons/assault-rifles/scar-l.md) | Belgium, 2004; 5.56×45mm | Added |
+| 24 | HK416 | Germany, 2004; 5.56×45mm | **Next** |
 | 25 | ACR | USA, 2007; 5.56×45mm | Queued |
 | 26 | SIG MCX | USA, 2015; 5.56×45mm and .300 Blackout | Queued |
 | 27 | AK-12 | Russia, 2018; 5.45×39mm | Queued |

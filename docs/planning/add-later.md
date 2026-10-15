@@ -47,6 +47,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **QBZ-95 offshoots:** QJB-95, QJB-95-1, and QJB-97 squad machine guns (bipod, heavier barrel, 75- or 80-round drums; LMG category), the K12 PUMA (12-gauge bullpup shotgun styled after the QBZ-95; shotgun category), and the QBZ-191 (China's newer conventional-layout rifle; possible AR addition).
 - **G36 offshoots:** MG36 (heavy barrel squad machine gun with the C-Mag; LMG category), SL8 (semi-auto sporting rifle with a thumbhole stock, 20.1 in heavy barrel, and 10-round mags; possible DMR), the HK XM8 (US prototype rifle based on the G36), and the Mexican FX-05 Xiuhcoatl.
 - **Tavor offshoots:** Tavor 7 (7.62×51mm bullpup with 17 in or 20 in barrel; battle rifle category).
+- **SCAR offshoots:** SCAR-H / Mk 17 and the civilian SCAR 17S (7.62×51mm, 20-round mags, 550 RPM, CQC, STD, and LB barrels; battle rifle category), Mk 17 Mod 1 (6.5mm Creedmoor), SCAR-H PR, Mk 20 SSR, and SCAR 20S in 7.62×51mm and 6.5mm Creedmoor (semi-auto precision rifles; DMR or sniper category), HAMR IAR (switched from closed bolt to open bolt as the barrel heated; lost the Marine IAR contest to the HK416-based M27; LMG category), and HAMR NGSW (6.8mm entry in the Army's Next Generation Squad Weapon program).
 
 ## Rifles to review later
 

@@ -2,7 +2,7 @@
 
 Pistols, machine pistols carried like pistols, and stockless pistol versions of long guns. Any gun typically carried in a pistol holster goes in the 3rd slot.
 
-22 roster entries.
+23 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -28,3 +28,4 @@ Pistols, machine pistols carried like pistols, and stockless pistol versions of 
 | [M1 Carbine Enforcer](m1-carbine-enforcer.md) | .30 Carbine | 1 |
 | [AR-180SP](ar-180sp.md) | 5.56×45mm | 1 |
 | [SIG P556](sig-p556.md) | 5.56×45mm | 1 |
+| [FN SCAR 15P](scar-15p.md) | 5.56×45mm | 1 |

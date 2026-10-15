@@ -97,6 +97,7 @@ nav:
         - "M1 Carbine Enforcer": weapons/pistols/m1-carbine-enforcer.md
         - "AR-180SP": weapons/pistols/ar-180sp.md
         - "SIG P556": weapons/pistols/sig-p556.md
+        - "FN SCAR 15P": weapons/pistols/scar-15p.md
       - Shotguns:
         - weapons/shotguns/index.md
         - "Saiga-12": weapons/shotguns/saiga-12.md
@@ -147,6 +148,7 @@ nav:
         - "HK G36": weapons/assault-rifles/g36.md
         - "Beryl wz. 96": weapons/assault-rifles/beryl.md
         - "IWI Tavor (TAR-21)": weapons/assault-rifles/tavor.md
+        - "FN SCAR-L": weapons/assault-rifles/scar-l.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

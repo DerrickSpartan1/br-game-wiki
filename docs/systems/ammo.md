@@ -70,8 +70,8 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | 7.62×51mm NATO | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md), [AR-18](../weapons/assault-rifles/ar-18.md), [Stoner 63](../weapons/assault-rifles/stoner-63.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md), [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | 7.62×54mmR | Rifle | [SVT-40](../weapons/battle-rifles/svt-40.md) |
 | 7.7×58mm Arisaka | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
-| 7.92×33mm Kurz | Rifle | [StG 44](../weapons/assault-rifles/stg-44.md) |
-| 7.92×57mm Mauser | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
+| 7.92×33mm Kurz | Rifle | [StG 44](../weapons/assault-rifles/stg-44.md), [FG 42](../weapons/battle-rifles/fg-42.md) |
+| 7.92×57mm Mauser | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md), [FG 42](../weapons/battle-rifles/fg-42.md) |
 | 9×39mm | Rifle | [AK-74](../weapons/assault-rifles/ak-74.md), [AS Val](../weapons/assault-rifles/as-val.md), [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md) |
 | 10 gauge | Shotgun | [Winchester Model 1887 / 1901](../weapons/shotguns/winchester-1887.md) |
 | 12 gauge | Shotgun | [AA-12](../weapons/crate/aa-12.md), [Saiga-12](../weapons/shotguns/saiga-12.md), [Franchi SPAS-12](../weapons/shotguns/spas-12.md), [Winchester Model 1887 / 1901](../weapons/shotguns/winchester-1887.md), [KelTec KSG](../weapons/shotguns/ksg.md), [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [Ithaca 37 Stakeout](../weapons/pistols/ithaca-37-stakeout.md) |

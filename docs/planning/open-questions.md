@@ -28,6 +28,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **AK-109:** exact stats ([AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md)).
 - **HK416N:** barrel lengths of Norway's N and K, to confirm which versions they merge into ([HK416](../weapons/assault-rifles/hk416.md)).
 - **AK-12K, AK-15K, and AK-19:** whether their selectors have the 2-round burst ([AK-12](../weapons/assault-rifles/ak-12.md)).
+- **FG 42 replicas:** modern semi-auto replicas like Sport-Systeme Dittrich's BD 42, as a possible civilian version ([FG 42](../weapons/battle-rifles/fg-42.md)).
 - **UMP pistol:** calibers and versions ([UMP pistol](../weapons/pistols/ump-pistol.md)).
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.
 - **Owen .38 prototype:** sources disagree on the exact .38 round.

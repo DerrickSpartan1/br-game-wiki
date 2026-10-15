@@ -55,6 +55,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Mondragón M1893 and M1894:** Manuel Mondragón's straight-pull bolt-action rifles, built by SIG (50 and then 200 made), in 6.5×48mm or 5.2×68mm Rubin, fed from fixed 8-round en-bloc clips; a rapid setting fires the shot as the bolt closes (sniper or special category).
 - **M1 Garand offshoots:** T25 .30 Light Rifle (7.62×49mm prototype on the road to the M14; could fold into the M14 page) and the T31 bullpup prototype (possible battle rifle).
 - **SVT-40 offshoots:** Simonov's AVS-36 (1936 select-fire 7.62×54mmR rifle, used in the Winter War and withdrawn in 1941; possible battle rifle) and Tokarev's AT-44 (scaled-down 7.62×41mm assault rifle prototype with a bipod and pistol grip; assault rifle category).
+- **FG 42 offshoots:** the US M60 (LMG category) and the Swiss Stgw 52 prototype, both of which drew on its design. Walther's G 41(W), the Army rifle offered in its place, could fold into the Gewehr 43 page.
 
 ## Rifles to review later
 

@@ -16,7 +16,7 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 10 versions (see [Versions](#versions) below). Like the [FN SCAR-L](scar-l.md), its real barrel and caliber swaps don't happen mid-match: each barrel length and caliber is its own version, so the spawned version is the gun you keep. The off-caliber versions were only made as semi-auto Bushmaster civilians, so they roll semi-auto only.
+One roster entry that rolls one of 10 versions (see [Versions](#versions) below). Like the [FN SCAR-L](scar-l.md), its real barrel and caliber swaps don't happen mid-match: each barrel length and caliber is its own version, so the spawned version is the gun you keep. The off-caliber versions were only made as semi-auto Bushmaster civilians, so they roll semi-auto only (see [Rules](../../rules.md#versions)).
 
 ## Attachments
 

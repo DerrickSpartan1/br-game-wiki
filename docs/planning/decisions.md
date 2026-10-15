@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-10-15 | Battle rifles and DMRs are one category (example map max 3, the old 1 + 2) | [Weapon pool](../systems/weapon-pool.md) |
+| 2026-10-15 | The CETME stays its own gun, apart from the G3 family | [Queue](queue.md) |
 | 2026-10-15 | The AK-12 is its own family, not sharing mastery or cosmetics with the AK-74 | [Rules](../rules.md#versions) |
 | 2026-10-15 | Battle rifles are the next category; the possible assault rifle additions wait | [Queue](queue.md) |
 | 2026-10-14 | Versions keep their real fire modes: semi-auto-only versions stay in the pool for every gun, including the ACR's four semi-auto calibers | [Rules](../rules.md#versions) |

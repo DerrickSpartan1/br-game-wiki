@@ -24,9 +24,8 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Shotguns | Ground | 2 |
 | SMGs | Ground | 2 |
 | Assault rifles | Ground | 3 |
-| Battle rifles | Ground | 1 |
+| Battle rifles & DMRs (one category) | Ground | 3 |
 | LMGs | Ground | 1 |
-| DMRs | Ground | 2 |
 | Snipers | Ground | 2 |
 | Special (launchers, bows/crossbows, mortars, more later) | Ground | 2 |
 | Throwables (a good random mix) | Ground | Not set yet |
@@ -47,6 +46,8 @@ Specific guns are listed in the [weapon roster](../weapons/index.md).
 9mm guns will appear across categories, not just pistols and SMGs. Example: 9mm conversions of the AR-15 platform.
 
 Categories are loose on purpose: a gun doesn't have to fit its category exactly.
+
+**Battle rifles & DMRs:** one category. Battle rifles are a soldier's main rifle in a full-power round (FAL, M14, G3), usually with an auto mode and iron sights. DMRs are semi-auto marksman rifles for longer range, often built from those same battle rifles (the M14 into the Mk 14, the HK417 into the G28) and in the same rounds. They overlap too much to split, and original PUBG grouped them the same way (its SLR is a FAL, its Mk14 an M14). Bolt-action and heavy precision rifles stay in snipers.
 
 **Gun versions:** a gun with several versions, like the C96, is one roster entry. The randomizer picks the gun, then rolls one version for that match.
 

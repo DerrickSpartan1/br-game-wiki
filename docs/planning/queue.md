@@ -1,6 +1,6 @@
 # Gun queue
 
-Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles are next; their draft list is below.
+Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles & DMRs, now one category, are next; their draft list is below.
 
 ## Assault rifles
 
@@ -36,9 +36,9 @@ Guns get added one at a time, researched from real sources. The assault rifle qu
 
 Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India), CZ Bren 2 (Czech Republic), QBZ-191 (China).
 
-## Battle rifles (draft, to review)
+## Battle rifles & DMRs (draft, to review)
 
-Rifles in full-power rounds (7.62×51mm NATO, .30-06, 7.62×54mmR, 7.92×57mm Mauser, and similar) that soldiers carried as their main rifle, in rough order of when each came out. Scoped precision models go to DMRs and snipers, and automatic rifles like the BAR go to LMGs.
+One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs). In rough order of when each came out. Bolt-action and heavy precision rifles go to snipers, and automatic rifles like the BAR go to LMGs.
 
 | # | Gun | Origin and cartridge | Status |
 | --- | --- | --- | --- |
@@ -47,25 +47,34 @@ Rifles in full-power rounds (7.62×51mm NATO, .30-06, 7.62×54mmR, 7.92×57mm Ma
 | 3 | SVT-40 | USSR, 1940; 7.62×54mmR | Proposed |
 | 4 | FG 42 | Germany, 1942; 7.92×57mm Mauser | Proposed |
 | 5 | Gewehr 43 | Germany, 1943; 7.92×57mm Mauser | Proposed |
-| 6 | MAS-49 | France, 1949; 7.5×54mm French | Proposed |
-| 7 | FN FAL | Belgium, 1953; 7.62×51mm | Proposed |
-| 8 | AR-10 | USA, 1956; 7.62×51mm | Proposed |
-| 9 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | Proposed |
-| 10 | CETME | Spain, 1958; 7.62×51mm | Proposed |
-| 11 | M14 | USA, 1959; 7.62×51mm | Proposed |
-| 12 | HK G3 | West Germany, 1959; 7.62×51mm | Proposed |
-| 13 | BM 59 | Italy, 1959; 7.62×51mm | Proposed |
-| 14 | FN SCAR-H | Belgium, 2004; 7.62×51mm | Proposed |
-| 15 | HK417 | Germany, 2005; 7.62×51mm | Proposed |
-| 16 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Proposed |
-| 17 | AK-308 | Russia, 2018; 7.62×51mm | Proposed |
-| 18 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Proposed |
+| 6 | SKS | USSR, 1945; 7.62×39mm | Proposed |
+| 7 | MAS-49 | France, 1949; 7.5×54mm French | Proposed |
+| 8 | FN FAL | Belgium, 1953; 7.62×51mm | Proposed |
+| 9 | AR-10 | USA, 1956; 7.62×51mm | Proposed |
+| 10 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | Proposed |
+| 11 | CETME | Spain, 1958; 7.62×51mm | Proposed |
+| 12 | M14 | USA, 1959; 7.62×51mm | Proposed |
+| 13 | HK G3 | West Germany, 1959; 7.62×51mm | Proposed |
+| 14 | BM 59 | Italy, 1959; 7.62×51mm | Proposed |
+| 15 | SVD Dragunov | USSR, 1963; 7.62×54mmR | Proposed |
+| 16 | Ruger Mini-14 | USA, 1973; 5.56×45mm | Proposed |
+| 17 | VSS Vintorez | USSR, 1987; 9×39mm | Proposed |
+| 18 | SR-25 / M110 | USA, 1990s; 7.62×51mm | Proposed |
+| 19 | QBU-88 | China, 1997; 5.8×42mm | Proposed |
+| 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | Proposed |
+| 21 | FN SCAR-H | Belgium, 2004; 7.62×51mm | Proposed |
+| 22 | HK417 | Germany, 2005; 7.62×51mm | Proposed |
+| 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Proposed |
+| 24 | AK-308 | Russia, 2018; 7.62×51mm | Proposed |
+| 25 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Proposed |
 
-Possible additions: Cei-Rigotti (Italy, 1900; early select-fire, few made), Ljungman AG m/42 (Sweden, 1942), Johnson M1941 (USA, 1941), Howa Type 64 (Japan, 1964), FA-MAS Type 62 and the Sterling rifle (prototypes), KelTec RFB and Desert Tech MDRX (bullpups), the AKV-721, and the MCX-MR.
+Possible additions: Cei-Rigotti (Italy, 1900; early select-fire, few made), Ljungman AG m/42 (Sweden, 1942), Johnson M1941 (USA, 1941), Howa Type 64 (Japan, 1964), PSL (Romania, 1974), FA-MAS Type 62 and the Sterling rifle (prototypes), KelTec RFB and Desert Tech MDRX (bullpups), the AKV-721, the MCX-MR, and the DMR offshoots already on the [add-later list](add-later.md).
 
-Planned as versions, not separate guns: the L1A1, C1, and DSA SA58 under the FAL; the M1A and Mk 14 EBR under the M14; the HK91 and PTR-91 under the G3; the SCAR 17S under the SCAR-H. The Galil's 7.62×51mm models already sit on the [Galil](../weapons/assault-rifles/galil.md) page.
+Planned as versions, not separate guns: the L1A1, C1, and DSA SA58 under the FAL; the M1A, M21, and Mk 14 EBR under the M14; the HK91, PTR-91, and G3SG/1 under the G3; the M110 under the SR-25; the G28 under the HK417; the SCAR 17S under the SCAR-H. The Galil's 7.62×51mm models already sit on the [Galil](../weapons/assault-rifles/galil.md) page.
 
-Going elsewhere: BAR and FN MAG (LMGs); SKS, SVD, M21, G3SG/1, SR-25, G28, and M110 (DMRs); PSG1 (snipers).
+The CETME stays its own gun, apart from the G3: the G3 family is already full, and the CETME brings its own models and history.
+
+Going elsewhere: BAR and FN MAG (LMGs); PSG1 and bolt-action rifles (snipers).
 
 ## Shotguns (done)
 
@@ -77,4 +86,4 @@ Going elsewhere: BAR and FN MAG (LMGs); SKS, SVD, M21, G3SG/1, SR-25, G28, and M
 
 ## Categories not started
 
-LMGs, DMRs, snipers, and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).
+LMGs, snipers, and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).

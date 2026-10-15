@@ -19,6 +19,8 @@ Attachments are universal within weapon families instead of gun-specific, to kee
 - **Shotguns:** shared barrel and silencer attachments.
 - **DMRs & snipers:** shared silencer and barrel attachments.
 
+Battle rifles and DMRs share one roster category, but each gun uses the family that fits it: select-fire battle rifles take the AR family, and semi-auto marksman rifles take the DMR family. Each gun page says which.
+
 Some pistols, like the C96, also have a shoulder stock slot that takes the gun's real stock or a makeshift one.
 
 **Revolvers:** instead of mag tiers, revolvers get reload attachments like speedloaders (and similar, such as speed strips and moon clips) for faster reloads at the same capacity. If a revolver has a real higher-capacity cylinder, like 10 rounds where the normal one holds 8, that cylinder counts as its extended mag. This goes by whatever the real-world info supports.

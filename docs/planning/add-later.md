@@ -1,6 +1,6 @@
 # Guns to add later
 
-Guns and offshoots found while researching, waiting for their turn. Offshoots name the category they'd likely go in.
+Guns and offshoots found while researching, waiting for their turn. Offshoots name the category they'd likely go in. Battle rifles and DMRs are now one category, so offshoots marked for either go there.
 
 - **Tokarev TT-33:** its cartridge was derived from the C96's 7.63mm, so they could share ammo.
 - **Stechkin APS:** Soviet machine pistol with a holster-stock.

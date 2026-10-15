@@ -2,7 +2,7 @@
 
 Assault rifles in rough order of when each came out, including early automatic rifles and borderline carbines.
 
-23 roster entries.
+24 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -29,3 +29,4 @@ Assault rifles in rough order of when each came out, including early automatic r
 | [Beryl wz. 96](beryl.md) | 5.56×45mm (main), 7.62×39mm, or 5.45×39mm | 5 |
 | [IWI Tavor (TAR-21)](tavor.md) | 5.56×45mm (main), 9×19, 5.45×39mm, or .300 Blackout | 7 |
 | [FN SCAR-L](scar-l.md) | 5.56×45mm (main) or .300 Blackout | 6 |
+| [HK416](hk416.md) | 5.56×45mm (main) or .22 LR | 6 |

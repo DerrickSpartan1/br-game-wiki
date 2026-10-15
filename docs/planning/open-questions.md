@@ -8,6 +8,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H will sit in battle rifles ([FN SCAR-L](../weapons/assault-rifles/scar-l.md)).
+- **HK416 and M16 / M4:** whether they share one mastery track and cosmetics. The HK416 keeps the AR-15 layout and its civilian MR556A1 fits standard AR-15 lowers, but it runs on a gas piston and is built by a different maker ([HK416](../weapons/assault-rifles/hk416.md)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
 - **Wear:** whether some items wear out. Current ideas: the makeshift suppressor and the StG 44's Krummlauf curved barrel (about 300 rounds in real life). Guns themselves never jam or overheat.
 
@@ -26,6 +27,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Beryl wz. 96:** whether its selector has the Tantal's 3-round burst ([Beryl](../weapons/assault-rifles/beryl.md)); the Beryl Commando has no details yet.
 - **HK R8:** caliber of the G36 family's straight-pull funny version ([G36](../weapons/assault-rifles/g36.md)).
 - **AK-109:** exact stats ([AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md)).
+- **HK416N:** barrel lengths of Norway's N and K, to confirm which versions they merge into ([HK416](../weapons/assault-rifles/hk416.md)).
 - **UMP pistol:** calibers and versions ([UMP pistol](../weapons/pistols/ump-pistol.md)).
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.
 - **Owen .38 prototype:** sources disagree on the exact .38 round.

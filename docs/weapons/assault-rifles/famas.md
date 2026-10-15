@@ -4,7 +4,7 @@
 | --- | --- |
 | Category | Assault rifle (bullpup) |
 | Cartridge | 5.56×45mm |
-| History | France; developed 1967–1971 at MAS under General Paul Tellié; French service rifle from 1978, being replaced by the HK416F since 2017; about 400,000 F1s and 10,000–15,000 G2s made; nicknamed "Le Clairon" (the Bugle) for its shape |
+| History | France; developed 1967–1971 at MAS under General Paul Tellié; French service rifle from 1978, being replaced by the [HK416F](hk416.md) since 2017; about 400,000 F1s and 10,000–15,000 G2s made; nicknamed "Le Clairon" (the Bugle) for its shape |
 | Magazine (rounds) | 25-round proprietary box (F1) or 30-round STANAG (G2) |
 | Fire mode / rate | Semi, 3-round burst, and full auto (built in: a second selector behind the magazine picks burst or full auto); about 900–1,100 RPM, one of the fastest-firing rifles in the roster; lever-delayed blowback |
 | Damage | TBD |

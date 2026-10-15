@@ -2,7 +2,7 @@
 
 Pistols, machine pistols carried like pistols, and stockless pistol versions of long guns. Any gun typically carried in a pistol holster goes in the 3rd slot.
 
-24 roster entries.
+25 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -30,3 +30,4 @@ Pistols, machine pistols carried like pistols, and stockless pistol versions of 
 | [SIG P556](sig-p556.md) | 5.56×45mm | 1 |
 | [FN SCAR 15P](scar-15p.md) | 5.56×45mm | 1 |
 | [HK416 .22 pistol](hk416-22-pistol.md) | .22 LR | 1 |
+| [SIG MCX pistol](sig-mcx-pistol.md) | 5.56×45mm or .300 Blackout | 2 |

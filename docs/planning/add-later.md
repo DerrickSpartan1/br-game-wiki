@@ -49,6 +49,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Tavor offshoots:** Tavor 7 (7.62×51mm bullpup with 17 in or 20 in barrel; battle rifle category).
 - **SCAR offshoots:** SCAR-H / Mk 17 and the civilian SCAR 17S (7.62×51mm, 20-round mags, 550 RPM, CQC, STD, and LB barrels; battle rifle category), Mk 17 Mod 1 (6.5mm Creedmoor), SCAR-H PR, Mk 20 SSR, and SCAR 20S in 7.62×51mm and 6.5mm Creedmoor (semi-auto precision rifles; DMR or sniper category), HAMR IAR (switched from closed bolt to open bolt as the barrel heated; lost the Marine IAR contest to the [HK416](../weapons/assault-rifles/hk416.md)-based M27; LMG category), and HAMR NGSW (6.8mm entry in the Army's Next Generation Squad Weapon program).
 - **HK416 offshoots:** M38 SDMR (the M27 with a Leupold 2.5–8×36 scope and QDSS suppressor, select-fire, used to 600 m) and Norway's HK416N S sharpshooter (DMR category), the HK417 (7.62×51mm; battle rifle category), and the HK433 (H&K's newer modular rifle; possible assault rifle addition).
+- **SIG MCX offshoots:** MCX-SPEAR / M7 (scaled-up MCX in 6.8×51mm Common Cartridge, the US Army's NGSW rifle since 2022; battle rifle category), MCX-MR (7.62×51mm, 16 in fluted barrel, 20-round SR-25 mags, select-fire; failed Army CSASS entry; DMR or battle rifle category), and the SIG MPX (9×19 submachine gun whose piston system the MCX grew from; SMG category).
 
 ## Rifles to review later
 

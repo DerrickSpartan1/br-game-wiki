@@ -2,7 +2,7 @@
 
 Assault rifles in rough order of when each came out, including early automatic rifles and borderline carbines.
 
-26 roster entries.
+27 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -32,3 +32,4 @@ Assault rifles in rough order of when each came out, including early automatic r
 | [HK416](hk416.md) | 5.56×45mm (main) or .22 LR | 6 |
 | [ACR (Adaptive Combat Rifle)](acr.md) | 5.56×45mm (main), 6.8mm Remington SPC, 7.62×39mm, .450 Bushmaster, or .300 Blackout | 10 |
 | [SIG MCX](sig-mcx.md) | 5.56×45mm (main), .300 Blackout, or 7.62×39mm | 9 |
+| [AK-12](ak-12.md) | 5.45×39mm (main), 7.62×39mm, or 5.56×45mm | 9 |

@@ -154,6 +154,7 @@ nav:
         - "HK416": weapons/assault-rifles/hk416.md
         - "ACR (Adaptive Combat Rifle)": weapons/assault-rifles/acr.md
         - "SIG MCX": weapons/assault-rifles/sig-mcx.md
+        - "AK-12": weapons/assault-rifles/ak-12.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

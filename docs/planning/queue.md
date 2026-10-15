@@ -1,6 +1,6 @@
 # Gun queue
 
-Guns get added one at a time, researched from real sources. Assault rifles are in progress, in rough order of when each came out. Battle rifles (FAL, G3, M14, SCAR-H) wait for their own category.
+Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles (FAL, G3, M14, SCAR-H) wait for their own category.
 
 ## Assault rifles
 
@@ -32,7 +32,7 @@ Guns get added one at a time, researched from real sources. Assault rifles are i
 | 24 | [HK416](../weapons/assault-rifles/hk416.md) | Germany, 2004; 5.56×45mm | Added |
 | 25 | [ACR](../weapons/assault-rifles/acr.md) | USA, 2007; 5.56×45mm | Added |
 | 26 | [SIG MCX](../weapons/assault-rifles/sig-mcx.md) | USA, 2015; 5.56×45mm and .300 Blackout | Added |
-| 27 | AK-12 | Russia, 2018; 5.45×39mm | **Next** |
+| 27 | [AK-12](../weapons/assault-rifles/ak-12.md) | Russia, 2018; 5.45×39mm | Added |
 
 Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India), CZ Bren 2 (Czech Republic), QBZ-191 (China).
 

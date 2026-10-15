@@ -8,6 +8,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H will sit in battle rifles ([FN SCAR-L](../weapons/assault-rifles/scar-l.md)).
+- **AK-12 and AK-74:** whether they share one mastery track and cosmetics. The AK-12 takes AK-74 mags and keeps the Kalashnikov action, but it has a new receiver and is its own roster entry ([AK-12](../weapons/assault-rifles/ak-12.md)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
 - **Wear:** whether some items wear out. Current ideas: the makeshift suppressor and the StG 44's Krummlauf curved barrel (about 300 rounds in real life). Guns themselves never jam or overheat.
 
@@ -27,6 +28,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **HK R8:** caliber of the G36 family's straight-pull funny version ([G36](../weapons/assault-rifles/g36.md)).
 - **AK-109:** exact stats ([AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md)).
 - **HK416N:** barrel lengths of Norway's N and K, to confirm which versions they merge into ([HK416](../weapons/assault-rifles/hk416.md)).
+- **AK-12K, AK-15K, and AK-19:** whether their selectors have the 2-round burst ([AK-12](../weapons/assault-rifles/ak-12.md)).
 - **UMP pistol:** calibers and versions ([UMP pistol](../weapons/pistols/ump-pistol.md)).
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.
 - **Owen .38 prototype:** sources disagree on the exact .38 round.

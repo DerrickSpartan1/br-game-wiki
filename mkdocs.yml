@@ -151,6 +151,7 @@ nav:
         - "IWI Tavor (TAR-21)": weapons/assault-rifles/tavor.md
         - "FN SCAR-L": weapons/assault-rifles/scar-l.md
         - "HK416": weapons/assault-rifles/hk416.md
+        - "ACR (Adaptive Combat Rifle)": weapons/assault-rifles/acr.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

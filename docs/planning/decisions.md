@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-10-14 | The HK416 is its own family, not sharing mastery or cosmetics with the M16 / M4 | [Rules](../rules.md#versions) |
 | 2026-10-12 | The wiki moves to GitHub (this repo) | [Home](../index.md) |
 | 2026-10-12 | Recoil is random with no learnable spray patterns, but each gun has its own recoil personality (climb, drift, settle) | [Rules](../rules.md#random-recoil) |
 | 2026-10-12 | No overheating: sustained fire never costs accuracy | [Rules](../rules.md#no-overheating) |

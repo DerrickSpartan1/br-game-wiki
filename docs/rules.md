@@ -58,6 +58,6 @@ Any gun typically carried in a pistol holster goes in the pistol / 3rd slot. Tha
 - **One entry, many versions:** a gun with several versions is one roster entry. The randomizer picks the gun, then rolls one version for that match.
 - **Rarity:** follows how many of each version were actually made.
 - **Merging:** versions that fire the same round and differ only in small details are merged into one, with the differences noted.
-- **Family sharing:** versions share the gun's mastery track and cosmetics. A modernized model on the same action and mags (like the Galil ACE or the AK-103) stays in its family.
+- **Family sharing:** versions share the gun's mastery track and cosmetics. A modernized model on the same action and mags (like the Galil ACE or the AK-103) stays in its family. A different maker's gun on the same layout is its own family, like the [HK416](weapons/assault-rifles/hk416.md) next to the [M16 / M4](weapons/assault-rifles/m16-m4.md).
 
 Details on the [weapon pool](systems/weapon-pool.md) page.

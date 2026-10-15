@@ -30,8 +30,8 @@ Guns get added one at a time, researched from real sources. Assault rifles are i
 | 22 | [IWI Tavor](../weapons/assault-rifles/tavor.md) | Israel, 2001; 5.56×45mm | Added |
 | 23 | [FN SCAR-L](../weapons/assault-rifles/scar-l.md) | Belgium, 2004; 5.56×45mm | Added |
 | 24 | [HK416](../weapons/assault-rifles/hk416.md) | Germany, 2004; 5.56×45mm | Added |
-| 25 | ACR | USA, 2007; 5.56×45mm | **Next** |
-| 26 | SIG MCX | USA, 2015; 5.56×45mm and .300 Blackout | Queued |
+| 25 | [ACR](../weapons/assault-rifles/acr.md) | USA, 2007; 5.56×45mm | Added |
+| 26 | SIG MCX | USA, 2015; 5.56×45mm and .300 Blackout | **Next** |
 | 27 | AK-12 | Russia, 2018; 5.45×39mm | Queued |
 
 Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India), CZ Bren 2 (Czech Republic), QBZ-191 (China).

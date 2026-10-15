@@ -2,7 +2,7 @@
 
 Assault rifles in rough order of when each came out, including early automatic rifles and borderline carbines.
 
-24 roster entries.
+25 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -30,3 +30,4 @@ Assault rifles in rough order of when each came out, including early automatic r
 | [IWI Tavor (TAR-21)](tavor.md) | 5.56×45mm (main), 9×19, 5.45×39mm, or .300 Blackout | 7 |
 | [FN SCAR-L](scar-l.md) | 5.56×45mm (main) or .300 Blackout | 6 |
 | [HK416](hk416.md) | 5.56×45mm (main) or .22 LR | 6 |
+| [ACR (Adaptive Combat Rifle)](acr.md) | 5.56×45mm (main), 6.8mm Remington SPC, 7.62×39mm, .450 Bushmaster, or .300 Blackout | 10 |

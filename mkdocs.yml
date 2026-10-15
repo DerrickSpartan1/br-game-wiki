@@ -1,0 +1,160 @@
+site_name: Battle Royale Game Wiki
+site_description: Design wiki for a PC battle royale inspired by 2018 PUBG, with a gun and ammo pool that changes every match.
+site_url: https://derrickspartan1.github.io/br-game-wiki/
+repo_url: https://github.com/DerrickSpartan1/br-game-wiki
+repo_name: br-game-wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    logo: material/crosshairs
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - pymdownx.superfences
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn
+
+nav:
+  - Home: index.md
+  - Rules: rules.md
+  - Systems:
+      - Weapon pool: systems/weapon-pool.md
+      - Ammo: systems/ammo.md
+      - Attachments: systems/attachments.md
+      - Time to kill: systems/ttk.md
+      - Gameplay: systems/gameplay.md
+      - Armor and gear: systems/armor.md
+      - Class items: systems/class-items.md
+      - Crafting: systems/crafting.md
+      - Skins and mastery: systems/skins.md
+      - Seasons: systems/seasons.md
+      - Maps: systems/maps.md
+      - Servers: systems/servers.md
+  - Weapons:
+      - weapons/index.md
+      - Pistols / 3rd slot:
+        - weapons/pistols/index.md
+        - "SIG Sauer M17 / M18": weapons/pistols/m17-m18.md
+        - "Glisenti Model 1910": weapons/pistols/glisenti-1910.md
+        - "FP-45 Liberator": weapons/pistols/fp-45-liberator.md
+        - "Mauser C96 (\"Broomhandle\")": weapons/pistols/c96.md
+        - "Garrucha": weapons/pistols/garrucha.md
+        - "Janz revolvers": weapons/pistols/janz.md
+        - "M1911 / M1911A1": weapons/pistols/m1911.md
+        - "Luger (Parabellum, P08)": weapons/pistols/luger.md
+        - "Glock 17 / Glock 18": weapons/pistols/glock-17-18.md
+        - "Ithaca 37 Stakeout": weapons/pistols/ithaca-37-stakeout.md
+        - "Thompson pistol": weapons/pistols/thompson-pistol.md
+        - "MP 40 pistol": weapons/pistols/mp40-pistol.md
+        - "Uzi pistol": weapons/pistols/uzi-pistol.md
+        - "MAC pistol": weapons/pistols/mac-pistol.md
+        - "Sterling Para-pistol": weapons/pistols/sterling-para-pistol.md
+        - "Škorpion vz. 61": weapons/pistols/skorpion-vz61.md
+        - "MP5 pistol": weapons/pistols/mp5-pistol.md
+        - "UMP pistol": weapons/pistols/ump-pistol.md
+        - "Vector pistol": weapons/pistols/vector-pistol.md
+        - "M1 Carbine Enforcer": weapons/pistols/m1-carbine-enforcer.md
+        - "AR-180SP": weapons/pistols/ar-180sp.md
+        - "SIG P556": weapons/pistols/sig-p556.md
+      - Shotguns:
+        - weapons/shotguns/index.md
+        - "Saiga-12": weapons/shotguns/saiga-12.md
+        - "Franchi SPAS-12": weapons/shotguns/spas-12.md
+        - "Winchester Model 1887 / 1901": weapons/shotguns/winchester-1887.md
+        - "KelTec KSG": weapons/shotguns/ksg.md
+        - "Remington 870": weapons/shotguns/remington-870.md
+        - "Ithaca 37": weapons/shotguns/ithaca-37.md
+      - SMGs:
+        - weapons/smgs/index.md
+        - "MP 18 / MP 28 (Bergmann)": weapons/smgs/mp18.md
+        - "Thompson": weapons/smgs/thompson.md
+        - "MP 40": weapons/smgs/mp40.md
+        - "PPSh-41": weapons/smgs/ppsh-41.md
+        - "Sten": weapons/smgs/sten.md
+        - "M3 \"Grease Gun\"": weapons/smgs/m3-grease-gun.md
+        - "Owen": weapons/smgs/owen.md
+        - "Uzi": weapons/smgs/uzi.md
+        - "MAC-10 / MAC-11": weapons/smgs/mac-10-11.md
+        - "Sterling": weapons/smgs/sterling.md
+        - "MP5": weapons/smgs/mp5.md
+        - "P90": weapons/smgs/p90.md
+        - "MP7": weapons/smgs/mp7.md
+        - "UMP": weapons/smgs/ump.md
+        - "KRISS Vector": weapons/smgs/kriss-vector.md
+        - "PP-19 Bizon": weapons/smgs/pp-19-bizon.md
+      - Assault rifles:
+        - weapons/assault-rifles/index.md
+        - "Fedorov Avtomat": weapons/assault-rifles/fedorov-avtomat.md
+        - "StG 44": weapons/assault-rifles/stg-44.md
+        - "M1/M2 Carbine": weapons/assault-rifles/m1-m2-carbine.md
+        - "AK-47 / AKM": weapons/assault-rifles/ak-47-akm.md
+        - "vz. 58": weapons/assault-rifles/vz-58.md
+        - "AR-18": weapons/assault-rifles/ar-18.md
+        - "Stoner 63": weapons/assault-rifles/stoner-63.md
+        - "M16 / M4": weapons/assault-rifles/m16-m4.md
+        - "HK33": weapons/assault-rifles/hk33.md
+        - "Galil (incl. Galil ACE)": weapons/assault-rifles/galil.md
+        - "AK-74": weapons/assault-rifles/ak-74.md
+        - "Steyr AUG": weapons/assault-rifles/steyr-aug.md
+        - "FAMAS": weapons/assault-rifles/famas.md
+        - "SA80 / L85": weapons/assault-rifles/sa80.md
+        - "AS Val": weapons/assault-rifles/as-val.md
+        - "SIG SG 550": weapons/assault-rifles/sg-550.md
+        - "OTs-14 Groza": weapons/assault-rifles/ots-14-groza.md
+        - "AN-94 \"Abakan\"": weapons/assault-rifles/an-94.md
+        - "QBZ-95": weapons/assault-rifles/qbz-95.md
+        - "HK G36": weapons/assault-rifles/g36.md
+        - "Beryl wz. 96": weapons/assault-rifles/beryl.md
+        - "IWI Tavor (TAR-21)": weapons/assault-rifles/tavor.md
+      - Crate weapons:
+        - weapons/crate/index.md
+        - "AA-12": weapons/crate/aa-12.md
+  - Planning:
+      - Gun queue: planning/queue.md
+      - Guns to add later: planning/add-later.md
+      - Open questions: planning/open-questions.md
+      - Decision log: planning/decisions.md
+      - Idea inbox: planning/idea-inbox.md
+      - Changelog: planning/changelog.md
+      - Gun page template: planning/gun-page-template.md

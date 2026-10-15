@@ -51,7 +51,9 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | .460 S&W | Revolver | [Janz revolvers](../weapons/pistols/janz.md) |
 | .500 S&W | Revolver | [Janz revolvers](../weapons/pistols/janz.md) |
 | .222 Remington | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md) |
+| .276 Pedersen | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | .30 Carbine | Rifle | [M3 "Grease Gun"](../weapons/smgs/m3-grease-gun.md), [M1/M2 Carbine](../weapons/assault-rifles/m1-m2-carbine.md), [M1 Carbine Enforcer](../weapons/pistols/m1-carbine-enforcer.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md) |
+| .30-06 Springfield | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | .300 Blackout | Rifle | [M16 / M4](../weapons/assault-rifles/m16-m4.md), [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [SIG SG 550](../weapons/assault-rifles/sg-550.md), [IWI Tavor (TAR-21)](../weapons/assault-rifles/tavor.md), [FN SCAR-L](../weapons/assault-rifles/scar-l.md), [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md), [SIG MCX](../weapons/assault-rifles/sig-mcx.md), [SIG MCX pistol](../weapons/pistols/sig-mcx-pistol.md) |
 | .450 Bushmaster | Rifle | [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md) |
 | 4.85×49mm | Rifle | [SA80 / L85](../weapons/assault-rifles/sa80.md) |
@@ -65,8 +67,10 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | 7×57mm Mauser | Rifle | [Mondragón rifle](../weapons/battle-rifles/mondragon.md) |
 | 7.5×55mm Swiss | Rifle | [Mondragón rifle](../weapons/battle-rifles/mondragon.md) |
 | 7.62×39mm | Rifle | [AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md), [vz. 58](../weapons/assault-rifles/vz-58.md), [M16 / M4](../weapons/assault-rifles/m16-m4.md), [HK33](../weapons/assault-rifles/hk33.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md), [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [SIG SG 550](../weapons/assault-rifles/sg-550.md), [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md), [Beryl wz. 96](../weapons/assault-rifles/beryl.md), [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md), [SIG MCX](../weapons/assault-rifles/sig-mcx.md), [AK-12](../weapons/assault-rifles/ak-12.md) |
-| 7.62×51mm NATO | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md), [AR-18](../weapons/assault-rifles/ar-18.md), [Stoner 63](../weapons/assault-rifles/stoner-63.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md) |
+| 7.62×51mm NATO | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md), [AR-18](../weapons/assault-rifles/ar-18.md), [Stoner 63](../weapons/assault-rifles/stoner-63.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md), [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
+| 7.7×58mm Arisaka | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | 7.92×33mm Kurz | Rifle | [StG 44](../weapons/assault-rifles/stg-44.md) |
+| 7.92×57mm Mauser | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | 9×39mm | Rifle | [AK-74](../weapons/assault-rifles/ak-74.md), [AS Val](../weapons/assault-rifles/as-val.md), [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md) |
 | 10 gauge | Shotgun | [Winchester Model 1887 / 1901](../weapons/shotguns/winchester-1887.md) |
 | 12 gauge | Shotgun | [AA-12](../weapons/crate/aa-12.md), [Saiga-12](../weapons/shotguns/saiga-12.md), [Franchi SPAS-12](../weapons/shotguns/spas-12.md), [Winchester Model 1887 / 1901](../weapons/shotguns/winchester-1887.md), [KelTec KSG](../weapons/shotguns/ksg.md), [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [Ithaca 37 Stakeout](../weapons/pistols/ithaca-37-stakeout.md) |

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-10-15 | The Mondragón's gas cut-off goes on the selector key: semi-auto or straight-pull manual | [Rules](../rules.md#fixed-triggers) |
 | 2026-10-15 | Battle rifles and DMRs are one category (example map max 3, the old 1 + 2) | [Weapon pool](../systems/weapon-pool.md) |
 | 2026-10-15 | The CETME stays its own gun, apart from the G3 family | [Queue](queue.md) |
 | 2026-10-15 | The AK-12 is its own family, not sharing mastery or cosmetics with the AK-74 | [Rules](../rules.md#versions) |

@@ -158,6 +158,7 @@ nav:
       - Battle rifles & DMRs:
         - weapons/battle-rifles/index.md
         - "Mondragón rifle": weapons/battle-rifles/mondragon.md
+        - "M1 Garand": weapons/battle-rifles/m1-garand.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

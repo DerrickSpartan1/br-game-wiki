@@ -43,8 +43,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | # | Gun | Origin and cartridge | Status |
 | --- | --- | --- | --- |
 | 1 | [Mondragón rifle](../weapons/battle-rifles/mondragon.md) | Mexico, 1908; 7×57mm Mauser | Added |
-| 2 | M1 Garand | USA, 1936; .30-06 Springfield | **Next** |
-| 3 | SVT-40 | USSR, 1940; 7.62×54mmR | Queued |
+| 2 | [M1 Garand](../weapons/battle-rifles/m1-garand.md) | USA, 1936; .30-06 Springfield | Added |
+| 3 | SVT-40 | USSR, 1940; 7.62×54mmR | **Next** |
 | 4 | FG 42 | Germany, 1942; 7.92×57mm Mauser | Queued |
 | 5 | Gewehr 43 | Germany, 1943; 7.92×57mm Mauser | Queued |
 | 6 | SKS | USSR, 1945; 7.62×39mm | Queued |

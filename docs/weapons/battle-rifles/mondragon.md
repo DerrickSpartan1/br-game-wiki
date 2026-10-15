@@ -16,7 +16,7 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 2 versions (see [Versions](#versions) below). Plays semi-auto. Its real gas cut-off, which turns it into a straight-pull manual rifle, could sit on the selector key as flavor, the way the [Steyr AUG](../assault-rifles/steyr-aug.md)'s semi/auto switch does (TBD).
+One roster entry that rolls one of 2 versions (see [Versions](#versions) below). Plays semi-auto. Its real gas cut-off sits on the fire-mode selector key, switching between semi-auto and straight-pull manual, the way the [Steyr AUG](../assault-rifles/steyr-aug.md)'s semi/auto switch does (see [Rules](../../rules.md#fixed-triggers)).
 
 ## Attachments
 

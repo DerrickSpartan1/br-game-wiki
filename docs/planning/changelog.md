@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-15 | New rule for en bloc clips (M1 Garand): an audible ping when empty, and no topping off |
 | 2026-10-15 | Added the [M1 Garand](../weapons/battle-rifles/m1-garand.md) (8 versions); .30-06, 7.92×57mm Mauser, 7.7×58mm Arisaka, and .276 Pedersen are new to the ammo pool; the Mondragón's gas cut-off goes on the selector key |
 | 2026-10-15 | Started battle rifles & DMRs with the [Mondragón rifle](../weapons/battle-rifles/mondragon.md) (2 versions); 7×57mm Mauser and 7.5×55mm Swiss are new to the ammo pool; the M1893 and M1894 went to the add-later list |
 | 2026-10-15 | Merged battle rifles and DMRs into one category and grew its draft queue to 25 guns; the CETME stays apart from the G3 |

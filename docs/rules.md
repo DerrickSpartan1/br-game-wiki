@@ -49,6 +49,13 @@ Open-bolt guns have a slight delay between the trigger pull and the shot. New gu
 
 **Never has it:** closed-bolt guns like the Škorpion, MP5, P90, MP7, UMP, KRISS Vector, and PP-19 Bizon. Closed-bolt versions of the guns above don't have it either: the Micro Uzi, Uzi Pro, Uzi carbine, MAC pistol, Sterling Mk 6 and PAWS ZX-7, the Stoner 63 rifle and carbine, and semi-auto replicas.
 
+## En bloc clips
+
+Guns that load fixed en bloc clips, like the [M1 Garand](weapons/battle-rifles/m1-garand.md), keep two real quirks:
+
+- **Ping:** when the last round fires, the empty clip flies out with its real "ping", and nearby players can hear it, so they know you're empty.
+- **No topping off:** you can't add rounds to a partial clip. Reloading early ejects the partial clip, and its leftover rounds go back to your inventory.
+
 ## 3rd slot
 
 Any gun typically carried in a pistol holster goes in the pistol / 3rd slot. That includes sawed-offs, other odd pistol-likes, stockless pistol versions of SMGs and rifles, and machine pistols that come from a main pistol, like the C96 Schnellfeuer and the Glock 18.

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-10-15 | En bloc clips ping when they fly out, loud enough for nearby players to hear, and can't be topped off: reloading early ejects the partial clip and its rounds go back to inventory | [Rules](../rules.md#en-bloc-clips) |
 | 2026-10-15 | The Mondragón's gas cut-off goes on the selector key: semi-auto or straight-pull manual | [Rules](../rules.md#fixed-triggers) |
 | 2026-10-15 | Battle rifles and DMRs are one category (example map max 3, the old 1 + 2) | [Weapon pool](../systems/weapon-pool.md) |
 | 2026-10-15 | The CETME stays its own gun, apart from the G3 family | [Queue](queue.md) |

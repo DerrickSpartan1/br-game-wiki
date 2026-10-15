@@ -16,7 +16,7 @@ About 4.31 kg; 1,105 mm long; 24 in barrel; about 853 m/s; rear aperture sight a
 
 ## In-game traits
 
-One roster entry that rolls one of 8 versions (see [Versions](#versions) below).
+One roster entry that rolls one of 8 versions (see [Versions](#versions) below). The en bloc versions keep the clip's quirks (see [Rules](../../rules.md#en-bloc-clips)): the empty clip pings loud enough for nearby players to hear, and reloading early ejects the partial clip, with its leftover rounds going back to your inventory. The T20 (box mag) and the Type 4 (internal mag) don't have these quirks.
 
 ## Attachments
 

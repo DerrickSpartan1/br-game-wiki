@@ -5,7 +5,7 @@ This repo is the design wiki for a PC battle royale (2018 PUBG feel, rotating gu
 ## Layout
 
 - `docs/index.md`: home page and core concept.
-- `docs/rules.md`: rules that apply to every gun (fixed versions, fixed triggers, no jamming, no overheating, random recoil, open-bolt delay, 3rd slot, versions).
+- `docs/rules.md`: rules that apply to every gun (fixed versions, fixed triggers, no jamming, no overheating, random recoil, open-bolt delay, en bloc clips, 3rd slot, versions).
 - `docs/systems/`: one page per game system (weapon pool, ammo, attachments, TTK, gameplay, armor, class items, crafting, skins, seasons, maps, servers).
 - `docs/weapons/<category>/`: one page per gun family plus an `index.md` table per category. Categories: `pistols`, `shotguns`, `smgs`, `assault-rifles`, `crate`. Add a folder when a new category starts (`battle-rifles` for battle rifles & DMRs, which are one category, then LMGs, snipers, special).
 - `docs/planning/`: gun queue, add-later list, open questions, decision log, idea inbox, changelog, gun page template.

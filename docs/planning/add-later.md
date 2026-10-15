@@ -54,6 +54,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **AM-17:** Kalashnikov's AKS-74U replacement, a separate design from the AK-12, based on Dragunov's MA: short-stroke piston, hinged two-part polymer receiver, 230 mm barrel, 2.5 kg, about 850 RPM, 30-round 5.45mm mags; first batch September 2025. Its AMB-17 is integrally suppressed in 9×39mm. Possible assault rifle addition.
 - **Mondragón M1893 and M1894:** Manuel Mondragón's straight-pull bolt-action rifles, built by SIG (50 and then 200 made), in 6.5×48mm or 5.2×68mm Rubin, fed from fixed 8-round en-bloc clips; a rapid setting fires the shot as the bolt closes (sniper or special category).
 - **M1 Garand offshoots:** T25 .30 Light Rifle (7.62×49mm prototype on the road to the M14; could fold into the M14 page) and the T31 bullpup prototype (possible battle rifle).
+- **SVT-40 offshoots:** Simonov's AVS-36 (1936 select-fire 7.62×54mmR rifle, used in the Winter War and withdrawn in 1941; possible battle rifle) and Tokarev's AT-44 (scaled-down 7.62×41mm assault rifle prototype with a bipod and pistol grip; assault rifle category).
 
 ## Rifles to review later
 

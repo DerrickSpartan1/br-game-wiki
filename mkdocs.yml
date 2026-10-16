@@ -161,6 +161,7 @@ nav:
         - "M1 Garand": weapons/battle-rifles/m1-garand.md
         - "SVT-40": weapons/battle-rifles/svt-40.md
         - "FG 42": weapons/battle-rifles/fg-42.md
+        - "Gewehr 43": weapons/battle-rifles/gewehr-43.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

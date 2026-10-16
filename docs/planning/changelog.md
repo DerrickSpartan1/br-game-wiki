@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-15 | Added the [Gewehr 43](../weapons/battle-rifles/gewehr-43.md) (4 versions, with the K43 and G 41(W) merged in); the G 41(M) and Gerät 03 went to the add-later list |
 | 2026-10-15 | Added the [FG 42](../weapons/battle-rifles/fg-42.md) (3 versions), tagged open-bolt on auto only; M60 and Stgw 52 went to the add-later list |
 | 2026-10-15 | Added the [SVT-40](../weapons/battle-rifles/svt-40.md) (6 versions, SVT-38 merged in); 7.62×54mmR is new to the ammo pool; AVS-36 and AT-44 went to the add-later list |
 | 2026-10-15 | New rule for en bloc clips (M1 Garand): an audible ping when empty, and no topping off |

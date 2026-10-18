@@ -47,8 +47,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 3 | [SVT-40](../weapons/battle-rifles/svt-40.md) | USSR, 1940; 7.62×54mmR | Added |
 | 4 | [FG 42](../weapons/battle-rifles/fg-42.md) | Germany, 1942; 7.92×57mm Mauser | Added |
 | 5 | [Gewehr 43](../weapons/battle-rifles/gewehr-43.md) | Germany, 1943; 7.92×57mm Mauser | Added |
-| 6 | SKS | USSR, 1945; 7.62×39mm | **Next** |
-| 7 | MAS-49 | France, 1949; 7.5×54mm French | Queued |
+| 6 | [SKS](../weapons/battle-rifles/sks.md) | USSR, 1945; 7.62×39mm | Added |
+| 7 | MAS-49 | France, 1949; 7.5×54mm French | **Next** |
 | 8 | FN FAL | Belgium, 1953; 7.62×51mm | Queued |
 | 9 | AR-10 | USA, 1956; 7.62×51mm | Queued |
 | 10 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | Queued |

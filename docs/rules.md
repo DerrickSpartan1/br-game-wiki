@@ -47,6 +47,7 @@ Open-bolt guns have a slight delay between the trigger pull and the shot. New gu
 - [Stoner 63](weapons/assault-rifles/stoner-63.md): the Automatic Rifle (and its belt-fed configurations later)
 - [M16 / M4](weapons/assault-rifles/m16-m4.md): the M231 FPW funny version only
 - [FG 42](weapons/battle-rifles/fg-42.md): on auto only, since semi-auto fires from a closed bolt
+- [CETME](weapons/battle-rifles/cetme.md): the Model A prototype on auto only; later models are closed-bolt
 
 **Never has it:** closed-bolt guns like the Škorpion, MP5, P90, MP7, UMP, KRISS Vector, and PP-19 Bizon. Closed-bolt versions of the guns above don't have it either: the Micro Uzi, Uzi Pro, Uzi carbine, MAC pistol, Sterling Mk 6 and PAWS ZX-7, the Stoner 63 rifle and carbine, and semi-auto replicas.
 

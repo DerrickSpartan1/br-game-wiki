@@ -62,6 +62,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **FN FAL offshoots:** the heavy-barrel squad versions with bipods and 30-round mags (FAL 50.42 / FALO, Canadian C2 and C2A1, Australian L2A1, South African R1 HB, and Israel's Makle'a; LMG category), the 5.56mm FN CAL (an unsuccessful FAL-like assault rifle; assault rifle category), and Brazil's IMBEL IA2 and MD97 (assault rifle category).
 - **AR-10 offshoots:** belt-fed AR-10 LMG prototypes (feed problems never solved; LMG category), and other makers' 7.62mm AR-10-pattern rifles, each its own gun (battle rifle & DMR category): IWI Zion-25, LMT LM308MWS, Colt CM901 / LE901, SIG Sauer 716i, Smith & Wesson M&P10, Ruger SR-762, Sako M23, and BCL 102. The SR-25 / M110 and HK417 are already queued.
 - **SG 510 predecessors:** the Swiss SK 46 (gas-operated) and AK 53 (blow-forward: the barrel moves forward instead of the bolt moving back); possible battle rifles, and the AK 53 could be a funny gun.
+- **CETME offshoots:** the CETME Model L, a downsized 5.56×45mm rifle that was Spain's service rifle from 1984 until the G36 replaced it in 1999 (assault rifle category).
 
 ## Rifles to review later
 

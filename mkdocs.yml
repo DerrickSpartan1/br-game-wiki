@@ -168,6 +168,7 @@ nav:
         - "FN FAL": weapons/battle-rifles/fn-fal.md
         - "AR-10": weapons/battle-rifles/ar-10.md
         - "SIG SG 510 (Stgw 57)": weapons/battle-rifles/sg-510.md
+        - "CETME": weapons/battle-rifles/cetme.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

@@ -52,10 +52,10 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | .500 S&W | Revolver | [Janz revolvers](../weapons/pistols/janz.md) |
 | .222 Remington | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md) |
 | .276 Pedersen | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
-| .366 TKM | Rifle | [SKS](../weapons/battle-rifles/sks.md) |
 | .30 Carbine | Rifle | [M3 "Grease Gun"](../weapons/smgs/m3-grease-gun.md), [M1/M2 Carbine](../weapons/assault-rifles/m1-m2-carbine.md), [M1 Carbine Enforcer](../weapons/pistols/m1-carbine-enforcer.md), [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md) |
 | .30-06 Springfield | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | .300 Blackout | Rifle | [M16 / M4](../weapons/assault-rifles/m16-m4.md), [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [SIG SG 550](../weapons/assault-rifles/sg-550.md), [IWI Tavor (TAR-21)](../weapons/assault-rifles/tavor.md), [FN SCAR-L](../weapons/assault-rifles/scar-l.md), [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md), [SIG MCX](../weapons/assault-rifles/sig-mcx.md), [SIG MCX pistol](../weapons/pistols/sig-mcx-pistol.md) |
+| .366 TKM | Rifle | [SKS](../weapons/battle-rifles/sks.md) |
 | .450 Bushmaster | Rifle | [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md) |
 | 4.85×49mm | Rifle | [SA80 / L85](../weapons/assault-rifles/sa80.md) |
 | 5.45×39mm | Rifle | [Galil (incl. Galil ACE)](../weapons/assault-rifles/galil.md), [AK-74](../weapons/assault-rifles/ak-74.md), [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md), [AN-94 "Abakan"](../weapons/assault-rifles/an-94.md), [Beryl wz. 96](../weapons/assault-rifles/beryl.md), [IWI Tavor (TAR-21)](../weapons/assault-rifles/tavor.md), [AK-12](../weapons/assault-rifles/ak-12.md) |

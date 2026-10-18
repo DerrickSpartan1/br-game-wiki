@@ -163,6 +163,7 @@ nav:
         - "FG 42": weapons/battle-rifles/fg-42.md
         - "Gewehr 43": weapons/battle-rifles/gewehr-43.md
         - "SKS": weapons/battle-rifles/sks.md
+        - "MAS-49": weapons/battle-rifles/mas-49.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

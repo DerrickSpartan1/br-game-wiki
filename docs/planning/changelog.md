@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-18 | Added the [MAS-49](../weapons/battle-rifles/mas-49.md) (5 versions, with the MAS-49/56); 7.5×54mm French is new to the ammo pool; the MAS-54 went to the add-later list |
 | 2026-10-17 | Added the [SKS](../weapons/battle-rifles/sks.md) (7 versions, with the Chinese Type 56 and other copies merged in); .366 TKM is new to the ammo pool; Type 63 and PTRS-41 went to the add-later list |
 | 2026-10-15 | Added the [Gewehr 43](../weapons/battle-rifles/gewehr-43.md) (4 versions, with the K43 and G 41(W) merged in); the G 41(M) and Gerät 03 went to the add-later list |
 | 2026-10-15 | Added the [FG 42](../weapons/battle-rifles/fg-42.md) (3 versions), tagged open-bolt on auto only; M60 and Stgw 52 went to the add-later list |

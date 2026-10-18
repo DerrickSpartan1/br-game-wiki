@@ -2,7 +2,7 @@
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs), in rough order of when each came out. See the [weapon pool](../../systems/weapon-pool.md) page for why they share a category.
 
-8 roster entries.
+9 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -14,3 +14,4 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [SKS](sks.md) | 7.62×39mm (main), 7.62×54mmR, or .366 TKM | 7 |
 | [MAS-49](mas-49.md) | 7.5×54mm French (main) or 7.62×51mm | 5 |
 | [FN FAL](fn-fal.md) | 7.62×51mm (main), .280 British, 7.92×33mm Kurz, or 7×49.15mm Optimum 2 | 8 |
+| [AR-10](ar-10.md) | 7.62×51mm (main), 7.62×39mm, or 6.5mm Creedmoor | 7 |

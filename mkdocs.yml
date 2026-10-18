@@ -166,6 +166,7 @@ nav:
         - "SKS": weapons/battle-rifles/sks.md
         - "MAS-49": weapons/battle-rifles/mas-49.md
         - "FN FAL": weapons/battle-rifles/fn-fal.md
+        - "AR-10": weapons/battle-rifles/ar-10.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

@@ -60,6 +60,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **SKS offshoots:** the Chinese Type 63 (early-1960s assault rifle meant to replace the Type 56 carbine; failed PLA standards; assault rifle category) and Simonov's PTRS-41 anti-tank rifle, whose mechanism the SKS borrowed (special category).
 - **MAS-49 offshoots:** the MAS-54, a 7.62×51mm rifle meant to replace the MAS-49 that never succeeded (possible battle rifle; the FA-MAS Type 62 under the FAMAS offshoots was the other attempt).
 - **FN FAL offshoots:** the heavy-barrel squad versions with bipods and 30-round mags (FAL 50.42 / FALO, Canadian C2 and C2A1, Australian L2A1, South African R1 HB, and Israel's Makle'a; LMG category), the 5.56mm FN CAL (an unsuccessful FAL-like assault rifle; assault rifle category), and Brazil's IMBEL IA2 and MD97 (assault rifle category).
+- **AR-10 offshoots:** belt-fed AR-10 LMG prototypes (feed problems never solved; LMG category), and other makers' 7.62mm AR-10-pattern rifles, each its own gun (battle rifle & DMR category): IWI Zion-25, LMT LM308MWS, Colt CM901 / LE901, SIG Sauer 716i, Smith & Wesson M&P10, Ruger SR-762, Sako M23, and BCL 102. The SR-25 / M110 and HK417 are already queued.
 
 ## Rifles to review later
 

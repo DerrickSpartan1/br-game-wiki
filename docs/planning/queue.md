@@ -51,8 +51,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 7 | [MAS-49](../weapons/battle-rifles/mas-49.md) | France, 1949; 7.5×54mm French | Added |
 | 8 | [FN FAL](../weapons/battle-rifles/fn-fal.md) | Belgium, 1953; 7.62×51mm | Added |
 | 9 | [AR-10](../weapons/battle-rifles/ar-10.md) | USA, 1956; 7.62×51mm | Added |
-| 10 | SIG SG 510 | Switzerland, 1957; 7.5×55mm Swiss | **Next** |
-| 11 | CETME | Spain, 1958; 7.62×51mm | Queued |
+| 10 | [SIG SG 510](../weapons/battle-rifles/sg-510.md) | Switzerland, 1957; 7.5×55mm Swiss | Added |
+| 11 | CETME | Spain, 1958; 7.62×51mm | **Next** |
 | 12 | M14 | USA, 1959; 7.62×51mm | Queued |
 | 13 | HK G3 | West Germany, 1959; 7.62×51mm | Queued |
 | 14 | BM 59 | Italy, 1959; 7.62×51mm | Queued |

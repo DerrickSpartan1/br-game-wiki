@@ -59,6 +59,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Gewehr 43 offshoots:** Mauser's G 41(M) (the only design that met the 1940 rules: striker-fired, rotating bolt, muzzle-trap gas system; 6,673 made, nearly 1,700 sent back as unusable; possible battle rifle) and Mauser's Gerät 03 (pressed-steel roller-locked prototype that passed a 5,000-round trial and led to roller-delayed blowback; ties to the StG 45(M) above).
 - **SKS offshoots:** the Chinese Type 63 (early-1960s assault rifle meant to replace the Type 56 carbine; failed PLA standards; assault rifle category) and Simonov's PTRS-41 anti-tank rifle, whose mechanism the SKS borrowed (special category).
 - **MAS-49 offshoots:** the MAS-54, a 7.62×51mm rifle meant to replace the MAS-49 that never succeeded (possible battle rifle; the FA-MAS Type 62 under the FAMAS offshoots was the other attempt).
+- **FN FAL offshoots:** the heavy-barrel squad versions with bipods and 30-round mags (FAL 50.42 / FALO, Canadian C2 and C2A1, Australian L2A1, South African R1 HB, and Israel's Makle'a; LMG category), the 5.56mm FN CAL (an unsuccessful FAL-like assault rifle; assault rifle category), and Brazil's IMBEL IA2 and MD97 (assault rifle category).
 
 ## Rifles to review later
 

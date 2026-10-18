@@ -13,6 +13,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Systems
 
+- **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The wiki keeps real names either way.
+- **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, the MAS-49/56 and M59/66 grenade cut-offs) also get the Mondragón's manual mode on the selector key.
 - **Maps:** not decided yet ([Maps](../systems/maps.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

@@ -100,6 +100,7 @@ nav:
         - "FN SCAR 15P": weapons/pistols/scar-15p.md
         - "HK416 .22 pistol": weapons/pistols/hk416-22-pistol.md
         - "SIG MCX pistol": weapons/pistols/sig-mcx-pistol.md
+        - "DSA SA58 pistol": weapons/pistols/sa58-pistol.md
       - Shotguns:
         - weapons/shotguns/index.md
         - "Saiga-12": weapons/shotguns/saiga-12.md
@@ -164,6 +165,7 @@ nav:
         - "Gewehr 43": weapons/battle-rifles/gewehr-43.md
         - "SKS": weapons/battle-rifles/sks.md
         - "MAS-49": weapons/battle-rifles/mas-49.md
+        - "FN FAL": weapons/battle-rifles/fn-fal.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

@@ -4,7 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
-| 2026-10-19 | Added the [M14](../weapons/battle-rifles/m14.md) (8 versions, with the M14A1, Mk 14 EBR, M21, M1A, and Taiwan's Type 57) |
+| 2026-10-18 | Added the [M14](../weapons/battle-rifles/m14.md) (8 versions, with the M14A1, Mk 14 EBR, M21, M1A, and Taiwan's Type 57) |
 | 2026-10-18 | Added the [CETME](../weapons/battle-rifles/cetme.md) (5 versions), tagged open-bolt on auto for the Model A only; 7.92×41mm CETME is new to the ammo pool; the Model L went to the add-later list |
 | 2026-10-18 | Added the [SIG SG 510 (Stgw 57)](../weapons/battle-rifles/sg-510.md) (6 versions); the SK 46 and AK 53 went to the add-later list |
 | 2026-10-18 | Added the [AR-10](../weapons/battle-rifles/ar-10.md) (7 versions); 6.5mm Creedmoor is new to the ammo pool; belt-fed prototypes and other makers' AR-10-pattern rifles went to the add-later list |

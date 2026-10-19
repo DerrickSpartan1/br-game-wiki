@@ -2,7 +2,7 @@
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs), in rough order of when each came out. See the [weapon pool](../../systems/weapon-pool.md) page for why they share a category.
 
-13 roster entries.
+14 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -19,3 +19,4 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [CETME](cetme.md) | 7.62×51mm (main) or 7.92×41mm CETME | 5 |
 | [M14](m14.md) | 7.62×51mm (main) or 7.62×39mm | 8 |
 | [HK G3](hk-g3.md) | 7.62×51mm (main), 7.62×39mm, or 12 gauge | 9 |
+| [Beretta BM 59](bm-59.md) | 7.62×51mm | 5 |

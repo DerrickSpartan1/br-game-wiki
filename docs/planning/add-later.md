@@ -65,6 +65,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **CETME offshoots:** the CETME Model L, a downsized 5.56×45mm rifle that was Spain's service rifle from 1984 until the G36 replaced it in 1999 (assault rifle category).
 - **HK G3 offshoots:** the HK21 and HK11 light machine guns built on the G3 system, and Myanmar's BA64 (LMG category), the PSG1 (semi-auto precision rifle with a 650 mm barrel; sniper category), and France's Carabine Mitrailleuse Modèle 1950 (Löffler's roller-delayed design from the same wartime roots; possible battle rifle).
 - **BM 59 offshoots:** the Beretta AR70/90, Italy's 5.56mm rifle that replaced the BM 59 from about 1990 (assault rifle category).
+- **SVD-like rifles (DMR category):** the Chukavin SVCh, Russia's SVD replacement from 2023 (takes SVD mags), Yugoslavia's Zastava M76 (7.92×57mm), and Serbia's Zastava M91 (7.62×54mmR). Romania's PSL is already a possible addition on the queue.
 
 ## Rifles to review later
 

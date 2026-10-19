@@ -172,6 +172,7 @@ nav:
         - "M14": weapons/battle-rifles/m14.md
         - "HK G3": weapons/battle-rifles/hk-g3.md
         - "Beretta BM 59": weapons/battle-rifles/bm-59.md
+        - "SVD Dragunov": weapons/battle-rifles/svd.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

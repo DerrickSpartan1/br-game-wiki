@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-19 | Added the [HK G3](../weapons/battle-rifles/hk-g3.md) (9 versions, with license-built G3s, the G3SG/1, MSG90, and HK91); HK21, HK11, PSG1, and the French Modèle 1950 went to the add-later list; noted the fully kitted crate gun idea |
 | 2026-10-18 | Added the [M14](../weapons/battle-rifles/m14.md) (8 versions, with the M14A1, Mk 14 EBR, M21, M1A, and Taiwan's Type 57) |
 | 2026-10-18 | Added the [CETME](../weapons/battle-rifles/cetme.md) (5 versions), tagged open-bolt on auto for the Model A only; 7.92×41mm CETME is new to the ammo pool; the Model L went to the add-later list |
 | 2026-10-18 | Added the [SIG SG 510 (Stgw 57)](../weapons/battle-rifles/sg-510.md) (6 versions); the SK 46 and AK 53 went to the add-later list |

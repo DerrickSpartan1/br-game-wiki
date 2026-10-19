@@ -8,7 +8,7 @@ Like PUBG, whatever version spawns is the gun you have for the match. Only attac
 
 ## Fixed triggers
 
-Guns that had swappable trigger packs in real life (HK's [MP5](weapons/smgs/mp5.md), [UMP](weapons/smgs/ump.md), and [HK33](weapons/assault-rifles/hk33.md) families) don't merge every fire mode into one gun. Each version gets one fixed trigger, mostly the standard semi/auto, with burst mixed into a few. Guns whose real selector already includes burst (M16A2, M4, KRISS Vector, Micro Galil, FAMAS, SG 550) keep it.
+Guns that had swappable trigger packs in real life (HK's [MP5](weapons/smgs/mp5.md), [UMP](weapons/smgs/ump.md), [HK33](weapons/assault-rifles/hk33.md), and [G3](weapons/battle-rifles/hk-g3.md) families) don't merge every fire mode into one gun. Each version gets one fixed trigger, mostly the standard semi/auto, with burst mixed into a few. Guns whose real selector already includes burst (M16A2, M4, KRISS Vector, Micro Galil, FAMAS, SG 550) keep it.
 
 The [Steyr AUG](weapons/assault-rifles/steyr-aug.md)'s real progressive trigger (half pull for semi, full pull for auto) plays as a normal semi/auto switch on the fire-mode selector key. The [Mondragón rifle](weapons/battle-rifles/mondragon.md)'s real gas cut-off goes on the same key, switching between semi-auto and straight-pull manual.
 

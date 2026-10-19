@@ -170,6 +170,7 @@ nav:
         - "SIG SG 510 (Stgw 57)": weapons/battle-rifles/sg-510.md
         - "CETME": weapons/battle-rifles/cetme.md
         - "M14": weapons/battle-rifles/m14.md
+        - "HK G3": weapons/battle-rifles/hk-g3.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

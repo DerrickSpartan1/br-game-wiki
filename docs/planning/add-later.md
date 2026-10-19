@@ -63,6 +63,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **AR-10 offshoots:** belt-fed AR-10 LMG prototypes (feed problems never solved; LMG category), and other makers' 7.62mm AR-10-pattern rifles, each its own gun (battle rifle & DMR category): IWI Zion-25, LMT LM308MWS, Colt CM901 / LE901, SIG Sauer 716i, Smith & Wesson M&P10, Ruger SR-762, Sako M23, and BCL 102. The SR-25 / M110 and HK417 are already queued.
 - **SG 510 predecessors:** the Swiss SK 46 (gas-operated) and AK 53 (blow-forward: the barrel moves forward instead of the bolt moving back); possible battle rifles, and the AK 53 could be a funny gun.
 - **CETME offshoots:** the CETME Model L, a downsized 5.56×45mm rifle that was Spain's service rifle from 1984 until the G36 replaced it in 1999 (assault rifle category).
+- **HK G3 offshoots:** the HK21 and HK11 light machine guns built on the G3 system, and Myanmar's BA64 (LMG category), the PSG1 (semi-auto precision rifle with a 650 mm barrel; sniper category), and France's Carabine Mitrailleuse Modèle 1950 (Löffler's roller-delayed design from the same wartime roots; possible battle rifle).
 
 ## Rifles to review later
 

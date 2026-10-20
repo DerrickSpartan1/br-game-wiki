@@ -176,6 +176,7 @@ nav:
         - "Ruger Mini-14": weapons/battle-rifles/mini-14.md
         - "VSS Vintorez": weapons/battle-rifles/vss.md
         - "SR-25 / M110": weapons/battle-rifles/sr-25.md
+        - "QBU-88": weapons/battle-rifles/qbu-88.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

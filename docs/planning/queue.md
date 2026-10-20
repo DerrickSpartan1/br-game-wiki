@@ -60,8 +60,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 16 | [Ruger Mini-14](../weapons/battle-rifles/mini-14.md) | USA, 1973; 5.56×45mm | Added |
 | 17 | [VSS Vintorez](../weapons/battle-rifles/vss.md) | USSR, 1987; 9×39mm | Added |
 | 18 | [SR-25 / M110](../weapons/battle-rifles/sr-25.md) | USA, 1990s; 7.62×51mm | Added |
-| 19 | QBU-88 | China, 1997; 5.8×42mm | **Next** |
-| 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | Queued |
+| 19 | [QBU-88](../weapons/battle-rifles/qbu-88.md) | China, 1997; 5.8×42mm | Added |
+| 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | **Next** |
 | 21 | FN SCAR-H | Belgium, 2004; 7.62×51mm | Queued |
 | 22 | HK417 | Germany, 2005; 7.62×51mm (G28 / M110A1 as versions) | Queued |
 | 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Queued |

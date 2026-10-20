@@ -10,7 +10,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H will sit in battle rifles ([FN SCAR-L](../weapons/assault-rifles/scar-l.md)).
 - **Crate weapons:** how a gun earns a crate spot is undecided, and crate balancing comes later. One idea: a crate gun could be a normal gun that drops fully kitted with attachments ([Crate weapons](../weapons/crate/index.md)).
 - **M14 selector:** the standard M14 is select-fire for now, though most US rifles were issued locked to semi ([M14](../weapons/battle-rifles/m14.md)).
-- **AS Val and VSS:** whether they share one mastery track and cosmetics. They're twins from the same designers, with the same action and magazines, but they sit in different categories ([VSS Vintorez](../weapons/battle-rifles/vss.md)).
+- **AS Val and VSS:** whether they share one mastery track and cosmetics. They're twins from the same designers, with the same action and magazines, but they sit in different categories ([VSS Vintorez](../weapons/battle-rifles/vss.md)). One idea: twin guns in different categories share one mastery track while keeping separate roster entries ([Skins and mastery](../systems/skins.md#weapon-mastery)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
 - **Wear:** whether some items wear out. Current ideas: the makeshift suppressor and the StG 44's Krummlauf curved barrel (about 300 rounds in real life). Guns themselves never jam or overheat.
 

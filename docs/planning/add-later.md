@@ -35,7 +35,7 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **AR-18 offshoots:** AR-18 LSW prototype (quick-change barrel, later converted to 7.62×39mm; possible LMG), Singapore's SAR-80, SAR-87, and SR-88, and the Australian Bushmaster M17S bullpup. The Howa Type 89 is already on the possible-additions list.
 - **Stoner 63 LMG configurations (LMG category):** belt-fed LMG (open bolt, 75-, 100-, or 150-round belt containers, quick-change barrel), tripod MMG, vehicle fixed machine gun, and the SEALs' Commando / Mk 23 Mod 0 (100-round box, no quick-change barrel).
 - **Stoner 63 descendants:** Knight's Armament Stoner LMG (based on the later Stoner 86) and the semi-auto Robinson Armament M96 Expeditionary Rifle.
-- **M16 / M4 offshoots:** Colt 9mm SMG (SMG category), Mk 12 SPR and M16A1 Special High and Low Profile (DMR category), Philippine Marine Scout Sniper Rifle, Taiwan's T65, T86, and T91, and Iran's KH-2002 bullpup.
+- **M16 / M4 offshoots:** Colt 9mm SMG (SMG category), Taiwan's T65, T86, and T91, and Iran's KH-2002 bullpup. The marksman versions (Mk 12, SAM-R, SDM-R, MSSR, M16A1 Special) are on the [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) page.
 - **HK33 offshoots:** HK33SG/1 marksman rifle (DMR category), and the HK13 light machine gun (box or 100-round drum, quick-change barrel), belt-fed HK23, and Myanmar MA-12 (LMG category).
 - **Galil offshoots:** Galatz / Galil Sniper (semi-auto 7.62×51mm with a heavy match barrel and two-stage trigger), its SR-99 update and Vietnamese SBT-7.62VN clone (sniper or DMR category), and the 5.56mm Marksman Assault Rifle Mk 1 (DMR category).
 - **AK-74 offshoots:** RPK-74 and RPK-16 (LMG category), and the AM-17 compact (see its own entry below).

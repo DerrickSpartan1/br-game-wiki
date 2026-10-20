@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-20 | Added the [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) (7 versions), which now holds the M16-based marksman rifles (SAM-R, SDM-R, SEAL Recon Rifle, Philippine MSSR, M16A1 Special) |
 | 2026-10-20 | Added the [QBU-88](../weapons/battle-rifles/qbu-88.md) (2 versions); the QBU-191, QBU-141, and CS/LR4 went to the add-later list |
 | 2026-10-20 | Added the [SR-25 / M110](../weapons/battle-rifles/sr-25.md) (5 versions, with the Mk 11 and M110A2); the M110A1 will go with the HK417 |
 | 2026-10-20 | Added notes from more reference photos to the [robot character concept](idea-inbox.md#robot-character-concept) |

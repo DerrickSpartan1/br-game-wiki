@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-20 | Added notes from more reference photos to the [robot character concept](idea-inbox.md#robot-character-concept) |
 | 2026-10-20 | Filed the robot player character concept in the [idea inbox](idea-inbox.md) |
 | 2026-10-20 | Noted the idea of one mastery track shared by twin guns in different categories (AS Val and VSS, SCAR-L and SCAR-H); still open |
 | 2026-10-20 | Added the [VSS Vintorez](../weapons/battle-rifles/vss.md) (3 versions, with the VSSM and KO VSS), the AS Val's suppressed sniper twin |

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-20 | Added the [SR-25 / M110](../weapons/battle-rifles/sr-25.md) (5 versions, with the Mk 11 and M110A2); the M110A1 will go with the HK417 |
 | 2026-10-20 | Added notes from more reference photos to the [robot character concept](idea-inbox.md#robot-character-concept) |
 | 2026-10-20 | Filed the robot player character concept in the [idea inbox](idea-inbox.md) |
 | 2026-10-20 | Noted the idea of one mastery track shared by twin guns in different categories (AS Val and VSS, SCAR-L and SCAR-H); still open |

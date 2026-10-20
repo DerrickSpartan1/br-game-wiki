@@ -175,6 +175,7 @@ nav:
         - "SVD Dragunov": weapons/battle-rifles/svd.md
         - "Ruger Mini-14": weapons/battle-rifles/mini-14.md
         - "VSS Vintorez": weapons/battle-rifles/vss.md
+        - "SR-25 / M110": weapons/battle-rifles/sr-25.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

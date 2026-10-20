@@ -2,7 +2,7 @@
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs), in rough order of when each came out. See the [weapon pool](../../systems/weapon-pool.md) page for why they share a category.
 
-16 roster entries.
+17 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -22,3 +22,4 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [Beretta BM 59](bm-59.md) | 7.62×51mm | 5 |
 | [SVD Dragunov](svd.md) | 7.62×54mmR (main), 7.62×51mm, .30-06 Springfield, 9.3×64mm Brenneke, or .366 TKM | 11 |
 | [Ruger Mini-14](mini-14.md) | 5.56×45mm (main), 7.62×39mm, 6.8mm Remington SPC, .300 Blackout, .222 Remington, or 7.62×51mm | 10 |
+| [VSS Vintorez](vss.md) | 9×39mm (subsonic) | 3 |

@@ -24,7 +24,7 @@ AR/LMG/battle rifle family attachments, but no muzzle or suppressor slot on the 
 
 ## Versions
 
-2 versions after merging. 9×39mm is now shared with the AK-74 family's 9×39 versions. The VSS Vintorez (the Val's sniper twin), its modernized VSSM, and the civilian KO VSS went on the guns-to-add-later list for the DMR or sniper category.
+2 versions after merging. 9×39mm is now shared with the AK-74 family's 9×39 versions. The Val's sniper twin, the [VSS Vintorez](../battle-rifles/vss.md), has its own page in battle rifles & DMRs.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |

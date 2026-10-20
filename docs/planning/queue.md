@@ -57,8 +57,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 13 | [HK G3](../weapons/battle-rifles/hk-g3.md) | West Germany, 1959; 7.62×51mm | Added |
 | 14 | [BM 59](../weapons/battle-rifles/bm-59.md) | Italy, 1959; 7.62×51mm | Added |
 | 15 | [SVD Dragunov](../weapons/battle-rifles/svd.md) | USSR, 1963; 7.62×54mmR | Added |
-| 16 | Ruger Mini-14 | USA, 1973; 5.56×45mm | **Next** |
-| 17 | VSS Vintorez | USSR, 1987; 9×39mm | Queued |
+| 16 | [Ruger Mini-14](../weapons/battle-rifles/mini-14.md) | USA, 1973; 5.56×45mm | Added |
+| 17 | VSS Vintorez | USSR, 1987; 9×39mm | **Next** |
 | 18 | SR-25 / M110 | USA, 1990s; 7.62×51mm | Queued |
 | 19 | QBU-88 | China, 1997; 5.8×42mm | Queued |
 | 20 | Mk 12 SPR | USA, 2002; 5.56×45mm | Queued |

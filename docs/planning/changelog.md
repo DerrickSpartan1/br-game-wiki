@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-19 | Added the [Ruger Mini-14](../weapons/battle-rifles/mini-14.md) (10 versions, with the AC-556 and Mini Thirty) |
 | 2026-10-19 | Added the [SVD Dragunov](../weapons/battle-rifles/svd.md) (11 versions, with the SVDS, SVDM, SVU, Tigr, and Chinese copies); 9.3×64mm Brenneke is new to the ammo pool; the SVCh, M76, and M91 went to the add-later list |
 | 2026-10-19 | Added the [Beretta BM 59](../weapons/battle-rifles/bm-59.md) (5 versions), its own family apart from the M1 Garand; the AR70/90 went to the add-later list |
 | 2026-10-19 | Added the [HK G3](../weapons/battle-rifles/hk-g3.md) (9 versions, with license-built G3s, the G3SG/1, MSG90, and HK91); HK21, HK11, PSG1, and the French Modèle 1950 went to the add-later list; noted the fully kitted crate gun idea |

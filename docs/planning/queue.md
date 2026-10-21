@@ -62,8 +62,8 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 18 | [SR-25 / M110](../weapons/battle-rifles/sr-25.md) | USA, 1990s; 7.62×51mm | Added |
 | 19 | [QBU-88](../weapons/battle-rifles/qbu-88.md) | China, 1997; 5.8×42mm | Added |
 | 20 | [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) | USA, 2002; 5.56×45mm | Added |
-| 21 | FN SCAR-H | Belgium, 2004; 7.62×51mm | **Next** |
-| 22 | HK417 | Germany, 2005; 7.62×51mm (G28 / M110A1 as versions) | Queued |
+| 21 | [FN SCAR-H](../weapons/battle-rifles/scar-h.md) | Belgium, 2004; 7.62×51mm | Added |
+| 22 | HK417 | Germany, 2005; 7.62×51mm (G28 / M110A1 as versions) | **Next** |
 | 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | Queued |
 | 24 | AK-308 | Russia, 2018; 7.62×51mm | Queued |
 | 25 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Queued |

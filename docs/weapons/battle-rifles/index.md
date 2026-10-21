@@ -2,7 +2,7 @@
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs), in rough order of when each came out. See the [weapon pool](../../systems/weapon-pool.md) page for why they share a category.
 
-20 roster entries.
+21 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -26,3 +26,4 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [SR-25 / M110](sr-25.md) | 7.62×51mm (main) or 6.5mm Creedmoor | 5 |
 | [QBU-88](qbu-88.md) | 5.8×42mm (main) or 5.56×45mm | 2 |
 | [Mk 12 SPR](mk-12.md) | 5.56×45mm | 7 |
+| [FN SCAR-H](scar-h.md) | 7.62×51mm (main) or 6.5mm Creedmoor | 6 |

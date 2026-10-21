@@ -178,6 +178,7 @@ nav:
         - "SR-25 / M110": weapons/battle-rifles/sr-25.md
         - "QBU-88": weapons/battle-rifles/qbu-88.md
         - "Mk 12 SPR": weapons/battle-rifles/mk-12.md
+        - "FN SCAR-H": weapons/battle-rifles/scar-h.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

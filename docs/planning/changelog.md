@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-22 | Added the [HK417](../weapons/battle-rifles/hk417.md) (6 versions, G28 and M110A1 included); the HK416 and HK417 joined the shared-mastery candidates on [Skins](../systems/skins.md) |
 | 2026-10-22 | Real conversion kits now count as versions ([Rules](../rules.md#spawned-version-is-fixed)); the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) gained the Mk 17 5.56 (7 versions) and the [M1 Garand](../weapons/battle-rifles/m1-garand.md) a box-mag conversion (9 versions) |
 | 2026-10-21 | Added the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) (6 versions, Mk 20 SSR and SCAR-H PR merged in); the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) page now notes FN's 2026 civilian line |
 | 2026-10-20 | Added the [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) (7 versions), which now holds the M16-based marksman rifles (SAM-R, SDM-R, SEAL Recon Rifle, Philippine MSSR, M16A1 Special) |

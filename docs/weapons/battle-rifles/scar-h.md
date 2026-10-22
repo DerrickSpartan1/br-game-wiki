@@ -3,7 +3,7 @@
 | Spec | Detail |
 | --- | --- |
 | Category | Battle rifle |
-| Cartridge | Varies by version: 7.62×51mm (main) or 6.5mm Creedmoor |
+| Cartridge | Varies by version: 7.62×51mm (main), 6.5mm Creedmoor, or 5.56×45mm |
 | History | Belgium / USA; designed by FN Herstal in 2004 for US Special Operations Command, which asked for rifles in two calibers sharing parts and ergonomics, so it is the 7.62mm twin of the [FN SCAR-L](../assault-rifles/scar-l.md); finished low-rate initial production testing in June 2007, and the first SCARs reached units in April 2009; when SOCOM dropped the 5.56mm Mk 16 in June 2010, after buying 850 Mk 16s and 750 Mk 17s, it kept the Mk 17, the Mk 13 grenade launcher, and the Mk 20 marksman rifle; used widely by US special operations in Afghanistan, and its Mk 20 replaced the [SR-25](sr-25.md)-based Mk 11 by 2017; also used by Peru, Portugal, France, Chile, Kenya, Lithuania, Malaysia, Belgium, Norway's Delta police unit, and the São Paulo Military Police; FN ended civilian SCAR production in October 2025, then brought out a next-generation civilian line in 2026 |
 | Magazine (rounds) | 20-round steel box; 10-round on some civilian models |
 | Fire mode / rate | Semi and auto, about 550–600 RPM (sources differ); the marksman, 6.5mm, and civilian versions are semi-auto only; fully ambidextrous controls; short-stroke gas piston with a rotating bolt, closed bolt, so no open-bolt delay |
@@ -16,15 +16,15 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 6 versions (see [Versions](#versions) below). Like the SCAR-L, each barrel length is its own version, so the spawned version is the gun you keep. The Mk 20 spawns with a scope. Versions keep their real fire modes (see [Rules](../../rules.md#versions)): the CQC, STD, and LB are select-fire, and the Mk 20, 6.5 Creedmoor, and civilian versions roll semi-auto only. Whether it shares a mastery track with the SCAR-L is an [open question](../../planning/open-questions.md).
+One roster entry that rolls one of 7 versions (see [Versions](#versions) below). Like the SCAR-L, each barrel length is its own version, so the spawned version is the gun you keep. The Mk 20 spawns with a scope. Versions keep their real fire modes (see [Rules](../../rules.md#versions)): the CQC, STD, LB, and Mk 17 5.56 are select-fire, and the Mk 20, 6.5 Creedmoor, and civilian versions roll semi-auto only. Whether it shares a mastery track with the SCAR-L is an [open question](../../planning/open-questions.md).
 
 ## Attachments
 
-AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom; M-LOK slots on the 2026 civilian rifles and the SCAR 20S). Unique: the FN40GL / Mk 13 EGLM 40mm launcher on the bottom rail, the Mk 20's quick-detach suppressor mount on its flash hider, and the French SCAR-H PR's Schmidt & Bender 1–8×24 scope and bipod. Mag tiers (best guess, review later): 20 standard; higher tiers TBD
+AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom; M-LOK slots on the 2026 civilian rifles and the SCAR 20S). Unique: the FN40GL / Mk 13 EGLM 40mm launcher on the bottom rail, the Mk 20's quick-detach suppressor mount on its flash hider, and the French SCAR-H PR's Schmidt & Bender 1–8×24 scope and bipod. Mag tiers (best guess, review later): 20 standard; higher tiers TBD; the 5.56 kit's mags TBD
 
 ## Versions
 
-6 versions after merging. The real field-swap barrels become separate versions. The Mk 17's 5.56mm conversion kit isn't a version, since the game has no conversion kits, and the 7.62×39mm version named in SOCOM's first request was never offered. The HAMR automatic rifles stay on the [guns to add later](../../planning/add-later.md) list.
+7 versions after merging. The real field-swap barrels become separate versions, and the Mk 17's 5.56mm conversion kit is its own version (see [Rules](../../rules.md#spawned-version-is-fixed)). The 7.62×39mm version named in SOCOM's first request was never offered. The HAMR automatic rifles stay on the [guns to add later](../../planning/add-later.md) list.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |
@@ -34,6 +34,7 @@ AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom; M-
 | 4 | Mk 20 SSR | Precision rifle: 20 in heavy barrel, longer receiver, two-stage trigger; semi-auto only | 7.62×51mm | Unknown; includes France's 2,620 SCAR-H PRs | Mk 20 Mod 0 Sniper Support Rifle (SCAR-H TPR; full-rate production approved October 2010, fielded from May 2011), SCAR-H PR (folding stock; France's FPSA from 2020, replacing the FR-F2 bolt-action, plus Lithuania, Portugal, and Belgium), SCAR 20S (civilian, 2019; 10-round mags; new model in 2026) |
 | 5 | 6.5 Creedmoor | Precision rifle in 6.5mm Creedmoor; semi-auto only | 6.5mm Creedmoor | Unknown | Mk 17 Mod 1 (SOCOM Mid-Range Gas Gun entry), SCAR 20S 6.5CM (2020), SCAR 17S DMR (limited run, 2023: 16.25 in barrel, Geissele two-stage trigger, SSR stock), 2026 SCAR 17S and 20S in 6.5mm Creedmoor |
 | 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.6 kg (8.0 lb) | 7.62×51mm | Unknown; the original run ended October 2025 | SCAR 17S, next-generation SCAR 17S (2026; 8.9 lb) |
+| 7 | Mk 17 5.56 | Mk 17 fitted with FN's 5.56mm conversion kit; semi and auto | 5.56×45mm | Unknown; kit finalized late 2010, SOCOM orders from mid-2011 | Mk 17 5.56mm conversion kit |
 
 ## Sources
 

@@ -7,7 +7,7 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
 | [Mondragón rifle](mondragon.md) | 7×57mm Mauser (main) or 7.5×55mm Swiss | 2 |
-| [M1 Garand](m1-garand.md) | .30-06 Springfield (main), 7.62×51mm, 7.92×57mm Mauser, 7.7×58mm Arisaka, or .276 Pedersen | 8 |
+| [M1 Garand](m1-garand.md) | .30-06 Springfield (main), 7.62×51mm, 7.92×57mm Mauser, 7.7×58mm Arisaka, or .276 Pedersen | 9 |
 | [SVT-40](svt-40.md) | 7.62×54mmR (main), 7.62×39mm, or 7.5×55mm Swiss | 6 |
 | [FG 42](fg-42.md) | 7.92×57mm Mauser (main) or 7.92×33mm Kurz | 3 |
 | [Gewehr 43](gewehr-43.md) | 7.92×57mm Mauser (main) or 7.92×33mm Kurz | 4 |
@@ -26,4 +26,4 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [SR-25 / M110](sr-25.md) | 7.62×51mm (main) or 6.5mm Creedmoor | 5 |
 | [QBU-88](qbu-88.md) | 5.8×42mm (main) or 5.56×45mm | 2 |
 | [Mk 12 SPR](mk-12.md) | 5.56×45mm | 7 |
-| [FN SCAR-H](scar-h.md) | 7.62×51mm (main) or 6.5mm Creedmoor | 6 |
+| [FN SCAR-H](scar-h.md) | 7.62×51mm (main), 6.5mm Creedmoor, or 5.56×45mm | 7 |

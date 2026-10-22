@@ -26,7 +26,7 @@ AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom). U
 
 ## Versions
 
-6 versions after merging. The real field-swap barrels become separate versions. The 7.62mm [FN SCAR-H](../battle-rifles/scar-h.md), with the Mk 20 SSR and SCAR 20S marksman rifles, has its own page, and the HAMR automatic rifles went on the [guns to add later](../../planning/add-later.md) list. The Mk 17's 5.56 conversion kit isn't a version, since the game has no conversion kits.
+6 versions after merging. The real field-swap barrels become separate versions. The 7.62mm [FN SCAR-H](../battle-rifles/scar-h.md), with the Mk 20 SSR and SCAR 20S marksman rifles, has its own page, and the HAMR automatic rifles went on the [guns to add later](../../planning/add-later.md) list. The Mk 17's 5.56 conversion kit is a version on the SCAR-H page, since it's still a Mk 17.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |

@@ -24,7 +24,7 @@ AR/LMG/battle rifle family attachments; native top rail, plus handguard rails (f
 
 ## Versions
 
-10 versions after merging. No production numbers were found for any of them; the 16.5 in 5.56 rifles were the main models. Caliber conversion kits (Remington's 6.8 SPC kit, Templar Precision's 7.62×39 kit) aren't separate versions, since the game has no conversion kits; they're listed under the factory rifle of the same caliber. A 6.5mm Grendel version was planned but never made.
+10 versions after merging. No production numbers were found for any of them; the 16.5 in 5.56 rifles were the main models. Caliber conversion kits (Remington's 6.8 SPC kit, Templar Precision's 7.62×39 kit) merge into the factory rifle of the same caliber (see [Rules](../../rules.md#spawned-version-is-fixed)). A 6.5mm Grendel version was planned but never made.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |

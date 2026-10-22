@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-10-22 | Real conversion kits now count as versions ([Rules](../rules.md#spawned-version-is-fixed)); the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) gained the Mk 17 5.56 (7 versions) and the [M1 Garand](../weapons/battle-rifles/m1-garand.md) a box-mag conversion (9 versions) |
 | 2026-10-21 | Added the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) (6 versions, Mk 20 SSR and SCAR-H PR merged in); the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) page now notes FN's 2026 civilian line |
 | 2026-10-20 | Added the [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) (7 versions), which now holds the M16-based marksman rifles (SAM-R, SDM-R, SEAL Recon Rifle, Philippine MSSR, M16A1 Special) |
 | 2026-10-20 | Added the [QBU-88](../weapons/battle-rifles/qbu-88.md) (2 versions); the QBU-191, QBU-141, and CS/LR4 went to the add-later list |

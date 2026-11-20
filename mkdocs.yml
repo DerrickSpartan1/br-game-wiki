@@ -205,6 +205,7 @@ nav:
   - Planning:
       - Getting started: planning/getting-started.md
       - First steps in Unreal: planning/first-steps.md
+      - Gun art and sound: planning/art-and-sound.md
       - Gun queue: planning/queue.md
       - Guns to add later: planning/add-later.md
       - Open questions: planning/open-questions.md

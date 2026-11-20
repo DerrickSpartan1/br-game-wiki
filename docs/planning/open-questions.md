@@ -28,6 +28,13 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with wire cutters (a melee item) or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md)).
 - **Briefcase spawns:** an idea, not decided. The AS Val and OTs-14 Groza came in real carry cases, so they could spawn as a briefcase find.
 
+## Art and sound
+
+- **Tube shotgun reloads:** shell by shell, like PUBG's S1897, or one instant refill like a box mag ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [Gun art and sound](art-and-sound.md#reload-styles)).
+- **Reload style on gun pages:** whether every gun page gets a "Reload style" row from the [list](art-and-sound.md#reload-styles), so the game can pick each gun's animation set from the weapon data instead of a hand-made list.
+- **Distant shots:** whether sound travels at real speed (about 343 m/s, so a shot 300 m away arrives almost a second late) and whether supersonic bullets crack as they pass you, as two extra cues for finding a shooter.
+- **Art budget:** free tools only, or a paid AI 3D generator or Cascadeur plan if the free route is too slow ([Gun art and sound](art-and-sound.md#who-does-what)).
+
 ## Lookups
 
 - **Beryl wz. 96:** whether its selector has the Tantal's 3-round burst ([Beryl](../weapons/assault-rifles/beryl.md)); the Beryl Commando has no details yet.

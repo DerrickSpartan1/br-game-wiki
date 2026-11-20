@@ -44,7 +44,7 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 
 ## Sound
 
-Sound is a major focus.
+Sound is a major focus. How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
 
 ## Anti-cheat
 

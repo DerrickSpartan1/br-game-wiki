@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Gun art and sound aim for "good enough to get the feel down" for now (real size and shape, working parts, plain materials, sounds that tell guns and distances apart); polished art comes later | [Gun art and sound](art-and-sound.md) |
 | 2026-11-20 | Gun tuning waits until the guns have real models, since recoil is too hard to judge on gray-box placeholders; the target is the gun feel of PUBG in 2017–2018 | [First steps](first-steps.md) |
 | 2026-11-20 | Ammo and reloading work like PUBG: loose rounds of each caliber in the backpack, and a reload instantly refills the mag, belt, or drum from the backpack, topping off what's left (a 100-round belt with 40 left plus 40 in the backpack reloads to 80); en bloc clips stay the one exception | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
 | 2026-11-20 | The M1918A2 BAR's slow and fast auto and the MG 34's two-part trigger (semi and auto) both go on the fire-mode selector key | [Rules](../rules.md#fixed-triggers) |

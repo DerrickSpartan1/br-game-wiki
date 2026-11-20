@@ -97,8 +97,9 @@ These steps follow Epic's docs for 5.9, where the feature is newer; 5.8's experi
 
 - [ ] Start with Unreal's mannequins, then model the robot characters in Blender ([robot concept](idea-inbox.md#robot-character-concept)).
 - [ ] Mock up the HUD, inventory, and menus before building them in Unreal.
+- [ ] Give the guns models, animations, and sounds by following [Gun art and sound](art-and-sound.md).
 
-**Claude:** the Design artifact type for HUD and menu mockups, the Whiteboard type for map layouts and system diagrams, and Claude Code for Blender Python scripts that batch-export models.
+**Claude:** the Design artifact type for HUD and menu mockups, the Whiteboard type for map layouts and system diagrams, and the Blender connector (in Claude Code or the Claude desktop app) for building, rigging, and exporting models.
 
 ## 9. Online services and release prep
 
@@ -116,6 +117,7 @@ These steps follow Epic's docs for 5.9, where the feature is newer; 5.8's experi
 | Claude chat | Design decisions, gun research, filing ideas, and keeping this wiki up to date |
 | Claude Code (desktop app or terminal) | Game C++ code, build scripts, git, the weapon data table, and code reviews |
 | Unreal MCP and Epic's Unreal Engine Skills plugin | Letting Claude Code work inside the Unreal editor |
+| Blender connector | Letting Claude build, clean up, rig, and export gun models in Blender ([Gun art and sound](art-and-sound.md)) |
 | Sheets | Damage, TTK, armor, and loot-weight tables |
 | Design | HUD, inventory, and menu mockups |
 | Whiteboard | Map layouts, system diagrams, and brainstorms |

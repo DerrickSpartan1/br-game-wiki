@@ -36,6 +36,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **M8 carbine:** its fire modes, likely semi and auto like the M7 ([SIG MCX-SPEAR (M7)](../weapons/battle-rifles/mcx-spear.md)).
 - **FG 42 replicas:** modern semi-auto replicas like Sport-Systeme Dittrich's BD 42, as a possible civilian version ([FG 42](../weapons/battle-rifles/fg-42.md)).
 - **UMP pistol:** calibers and versions ([UMP pistol](../weapons/pistols/ump-pistol.md)).
+- **Vector pistol:** which of the Vector's calibers the SDP pistols came in ([Vector pistol](../weapons/pistols/vector-pistol.md)).
+- **Janz revolvers:** the exact caliber list for the EM and E frames, which then need their own rows on the ammo page (.32, .38, .357 Magnum, and others) ([Janz](../weapons/pistols/janz.md)).
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.
 - **Owen .38 prototype:** sources disagree on the exact .38 round.
 - **Uzi 9×21:** details to research.

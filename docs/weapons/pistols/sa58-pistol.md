@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | SA58 pistol | Semi-auto, no stock | 7.62×51mm | Unknown | DS Arms SA58 pistol |
+
 ## Sources
 
 See the [FN FAL](../battle-rifles/fn-fal.md) page.

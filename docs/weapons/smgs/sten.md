@@ -28,11 +28,11 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 32 standard
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Mk II | Standard Sten; removable barrel; mag housing rotates for carrying | 9×19 | About 2 million, plus about 877,000 Mk IIIs | Mk I, Mk I\*, Mk II, Mk III, Canadian Mk II, wooden-stock Mk II, Chinese M38 (9mm), German Gerät Potsdam and MP 3008, Belgian, Argentine C.4, resistance-made copies (Polish, Danish, Norwegian, Israeli, Indonesian, Vietnamese) |
-| 2 | Mk V | Wooden pistol grip and stock, bayonet mount, better build quality | 9×19 | Unknown | Mk V, French Gnome et Rhône R5 |
-| 3 | Suppressed | Integral suppressor and ported barrel make it subsonic; overheats, so it's fired in short bursts or single shots; heaviest version | 9×19 | Rare | Mk II(S), Mk VI |
+| 1 | Mk II | Standard Sten; removable barrel; mag housing rotates for carrying | 9×19mm | About 2 million, plus about 877,000 Mk IIIs | Mk I, Mk I\*, Mk II, Mk III, Canadian Mk II, wooden-stock Mk II, Chinese M38 (9mm), German Gerät Potsdam and MP 3008, Belgian, Argentine C.4, resistance-made copies (Polish, Danish, Norwegian, Israeli, Indonesian, Vietnamese) |
+| 2 | Mk V | Wooden pistol grip and stock, bayonet mount, better build quality | 9×19mm | Unknown | Mk V, French Gnome et Rhône R5 |
+| 3 | Suppressed | Integral suppressor and ported barrel make it subsonic; overheats, so it's fired in short bursts or single shots; heaviest version | 9×19mm | Rare | Mk II(S), Mk VI |
 | 4 | 7.62 conversion | Converted barrel and bolt; takes curved PPS-style mags | 7.62×25mm Tokarev | Unknown | Long Branch Mk IIs for Nationalist China, Chinese communist conversions, Chinese M38 (7.62) |
-| 5 | Sputter Gun (funny gun version) | No trigger: once the bolt is released, it fires until the mag is empty | 9×19 | Prototype, 1983 | — |
+| 5 | Sputter Gun (funny gun version) | No trigger: once the bolt is released, it fires until the mag is empty | 9×19mm | Prototype, 1983 | — |
 
 ## Sources
 

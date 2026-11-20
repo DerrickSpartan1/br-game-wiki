@@ -30,7 +30,7 @@ Pistol/SMG family attachments; AK side mount for optics (adapter mount). Mag tie
 | --- | --- | --- | --- | --- | --- |
 | 1 | Bizon | Standard SMG | 9×18mm Makarov | Unknown | Bizon-1, Bizon-2, Bizon-3, Bizon-2-04 semi-auto carbine |
 | 2 | Bizon-2-03 | Integral suppressor | 9×18mm Makarov | Unknown | — |
-| 3 | 9×19 | 53-round helical mag | 9×19 | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P |
+| 3 | 9×19 | 53-round helical mag | 9×19mm | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P |
 | 4 | .380 | 64-round helical mag | .380 ACP | Unknown | Bizon-2-02, Bizon-2-06 carbine |
 | 5 | Bizon-2-07 | Trades the helical mag for a 35-round box mag | 7.62×25mm Tokarev | Unknown | Bizon-2-07, Vietnamese SN7P |
 

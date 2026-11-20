@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | HK416 .22 LR pistol | 8.5 in barrel; blowback | .22 LR | Unknown | — |
+
 ## Sources
 
 - [KY Gunco: HK USA HK416 .22 LR 8.5 in pistol](https://kygunco.com/product/heckler-and-koch-hk-usa-81000403-hk416-22-lr-8.5-20rd-black)

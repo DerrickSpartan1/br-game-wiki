@@ -39,3 +39,16 @@ One roster entry that rolls one of <N> versions (see [Versions](#versions) below
 
 - [Wikipedia: <Gun>](https://en.wikipedia.org/wiki/<Gun>)
 ````
+
+## Reading pages as data
+
+The game repo turns these pages into data tables with a script, so every gun page keeps the same shape:
+
+- The spec table always has these seven rows, in this order: Category, Cartridge, History, Magazine (rounds), Fire mode / rate, Damage, Effective range.
+- Every gun page, pistol / 3rd-slot pages included, has a `## Versions` table with exactly these six columns: `#`, `Version`, `What's different`, `Cartridge`, `Made`, `Merged from`. A gun with one version still gets a one-row table.
+- Each Cartridge cell holds exactly one name from the Caliber column on the [Ammo](../systems/ammo.md) page, or `TBD`. Notes about the cartridge go in "What's different", never in the Cartridge cell. Other spellings go in the ammo page's "Also called" column.
+- `(rare)` after a version name marks a rare spawn.
+- Fire modes are written in plain words in "What's different" (for example "semi and auto" or "semi-auto only"). A version that doesn't say uses the page's Fire mode / rate row.
+- `TBD` means not set yet, `Unknown` (in Made) means the sources don't say, and `—` means none.
+- Pistol / 3rd-slot pages name their parent long gun in their first line.
+

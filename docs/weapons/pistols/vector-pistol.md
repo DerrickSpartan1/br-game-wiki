@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other SMG pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+Versions TBD: they follow the Vector's calibers, to be listed.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB |
+
 ## Sources
 
 See the [KRISS Vector](../smgs/kriss-vector.md) page.

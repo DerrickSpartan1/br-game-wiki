@@ -31,12 +31,12 @@ Pistol/SMG family attachments; native top rail; shares mags with the Glock famil
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Vector .45 | The original military and police SMG | .45 ACP | Limited | Gen I, Gen II, Gen III (slimmer, M-LOK), semi-auto SBR, K10 prototype |
-| 2 | Vector 9mm | SMG on Glock 17/18 mags | 9×19 | Limited | Gen II 9mm lower, 9mm SBR |
+| 2 | Vector 9mm | SMG on Glock 17/18 mags | 9×19mm | Limited | Gen II 9mm lower, 9mm SBR |
 | 3 | CRB | Semi-auto carbine; a shroud extends the barrel to 16 in | .45 ACP | Unknown | CRB, Canadian 18.6 in CRB, Enhanced, California featureless |
 | 4 | .40 | Civilian lower; semi-auto only; Glock 22 mags | .40 S&W | Unknown | — |
 | 5 | 10mm | Civilian lower; semi-auto only; Glock 20 mags | 10mm Auto | Unknown | — |
 | 6 | .357 SIG | Civilian lower; semi-auto only; Glock 31 mags | .357 SIG | Unknown | — |
-| 7 | 9×21 | Italian civilian model; semi-auto only; Glock 17 mags | 9×21mm IMI | Unknown | — |
+| 7 | 9×21 | Italian civilian model; semi-auto only; Glock 17 mags | 9×21mm | Unknown | — |
 | 8 | Vector 22 | Simple straight blowback instead of the Super V; 10-round mag; semi-auto only | .22 LR | Unknown | — |
 
 ## Sources

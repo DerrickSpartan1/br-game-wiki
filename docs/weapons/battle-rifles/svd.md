@@ -37,7 +37,7 @@ DMR/sniper family attachments; native Warsaw Pact side rail (Picatinny on the SV
 | 7 | .308 | Civilian and export rifles in .308 | 7.62×51mm | Small numbers of Chinese exports | Norinco NDM-86 and EM-351, Tigr in .308 |
 | 8 | Tigr .30-06 (rare) | Civilian Tigr in .30-06 | .30-06 Springfield | Unknown | — |
 | 9 | SVDK (rare) | Experimental military rifle in a heavy hunting round, based on the Tigr-9 | 9.3×64mm Brenneke | Few | SVDK (7N33 ammo), Tigr-9 |
-| 10 | TG3 (rare) | Civilian rifle that is legally a shotgun in Russia; 5-round mag; 3.9 kg | .366 TKM (9.6×53mm Lancaster) | Unknown; shown in 2018 | — |
+| 10 | TG3 (rare) | Civilian rifle that is legally a shotgun in Russia; 5-round mag; 3.9 kg | .366 TKM | Unknown; shown in 2018 | — |
 | 11 | V-70 (rare) | 1968 automatic prototype: shorter barrel, new bipod, 15- and 20-round mags | 7.62×54mmR | Few | — |
 
 ## Sources

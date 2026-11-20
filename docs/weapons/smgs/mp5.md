@@ -30,11 +30,11 @@ Pistol/SMG family attachments; native claw mount for scopes. Mag tiers (best gue
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |
-| 1 | MP5 | Full-size standard | 9×19 | Most | HK54, MP5, A1 to A5, MP5N, MP5F, MP5 MLI, and licensed copies and clones (Greek EMP5, Iranian Tondar, Pakistani MP5P, Turkish MKE, Saudi, Mexican, UK Enfield, Swiss BT-96, Chinese NR-08, Indian Anamika, Sudanese Tihraga) |
-| 2 | MP5SD | Integral two-stage suppressor; subsonic and still works when wet | 9×19 | Unknown | SD1 to SD6, SDN-1, SDN-2 |
-| 3 | MP5K | Compact (4.5 in barrel), about 900 RPM, built-in foregrip | 9×19 | Unknown | KA1, KA4, KA5, K-N, K-PDW, Egyptian Helwan, Iranian Tondar Light |
-| 4 | MP5K Operational Briefcase (funny gun version) | Fires from inside a briefcase with a trigger in the handle; you have to open the case to reload, or shed it to use the gun normally | 9×19 | Rare | Operational Briefcase, Special Bag, Falling Case |
-| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19 | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 |
+| 1 | MP5 | Full-size standard | 9×19mm | Most | HK54, MP5, A1 to A5, MP5N, MP5F, MP5 MLI, and licensed copies and clones (Greek EMP5, Iranian Tondar, Pakistani MP5P, Turkish MKE, Saudi, Mexican, UK Enfield, Swiss BT-96, Chinese NR-08, Indian Anamika, Sudanese Tihraga) |
+| 2 | MP5SD | Integral two-stage suppressor; subsonic and still works when wet | 9×19mm | Unknown | SD1 to SD6, SDN-1, SDN-2 |
+| 3 | MP5K | Compact (4.5 in barrel), about 900 RPM, built-in foregrip | 9×19mm | Unknown | KA1, KA4, KA5, K-N, K-PDW, Egyptian Helwan, Iranian Tondar Light |
+| 4 | MP5K Operational Briefcase (funny gun version) | Fires from inside a briefcase with a trigger in the handle; you have to open the case to reload, or shed it to use the gun normally | 9×19mm | Rare | Operational Briefcase, Special Bag, Falling Case |
+| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19mm | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 |
 | 6 | MP5/10 | 2-round burst; bolt locks open when empty; used by the FBI Hostage Rescue Team | 10mm Auto | Made 1992 to 2000 | — |
 | 7 | MP5/40 | Full auto without burst; bolt locks open when empty | .40 S&W | Made 1992 to 2000 | — |
 | 8 | MP5/45 | Made on request for a US task force | .45 ACP | Rare | — |

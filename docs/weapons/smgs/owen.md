@@ -28,10 +28,10 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 33 standard
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Owen Mk 1 | Standard service Owen | 9×19 | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns |
+| 1 | Owen Mk 1 | Standard service Owen | 9×19mm | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns |
 | 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — |
 | 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — |
-| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round | .38 ACP (to confirm) | Prototype | — |
+| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — |
 | 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 |
 
 ## Sources

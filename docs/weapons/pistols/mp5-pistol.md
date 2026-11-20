@@ -18,11 +18,20 @@ Civilian semi-auto MP5s with no stock; the SP89 swaps the MP5K's foregrip for a 
 
 ## In-game traits
 
-2 versions (9×19, .22 LR); moved to the 3rd slot like the other SMG pistols
+One roster entry that rolls one of 2 versions (see [Versions](#versions) below); moved to the 3rd slot like the other SMG pistols
 
 ## Attachments
 
 Pistol/SMG family attachments
+
+## Versions
+
+2 versions after merging.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | SP89, SP5K, SP5K-PDW, US clones (PTR, Zenith, Century), POF-5 pistols |
+| 2 | .22 LR | Semi-auto, no stock | .22 LR | Unknown | HK's .22 LR MP5 pistol |
 
 ## Sources
 

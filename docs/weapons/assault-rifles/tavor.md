@@ -31,7 +31,7 @@ AR/LMG/battle rifle family attachments; native rails. Unique: ITL MARS sight (re
 | 1 | TAR-21 | Standard 18 in rifle | 5.56×45mm | Unknown (Thailand alone has 76,000) | TAR-21, GTAR-21, STAR-21, Tavor TAR Flattop, Indian GTAR-21 |
 | 2 | CTAR-21 | Compact 15 in barrel; became more popular than the TAR-21 in the IDF | 5.56×45mm | Unknown | CTAR-21 |
 | 3 | X95 (Micro Tavor) | Shorter, IDF standard from 2013; 13 in barrel (later 15 in) with a lighter trigger | 5.56×45mm | Unknown | X95, MTAR-21 |
-| 4 | Tavor 9mm | X95 SMG conversion (comes with a suppressor) | 9×19 | Unknown | X95 9mm kit, TSB17-9 |
+| 4 | Tavor 9mm | X95 SMG conversion (comes with a suppressor) | 9×19mm | Unknown | X95 9mm kit, TSB17-9 |
 | 5 | Fort-221 | Ukrainian license-built version | 5.45×39mm | Small numbers, adopted 2014 | Fort-221, Fort-224 |
 | 6 | Tavor .300 BLK | Civilian Blackout model | .300 Blackout | Unknown | TSB16-BLK |
 | 7 | Civilian | Semi-auto only | 5.56×45mm | 50,000+ in the US by 2016 | Tavor SAR (TSB16, TSB16L, TSB18, TSB18RS, TSIDF16), Canadian TC-21, Czech Zeleny Sport TC-21 |

@@ -24,6 +24,14 @@ Slam-fire; merges the NYPD Emergency Service Unit version
 
 TBD
 
+## Versions
+
+1 version, with slam-fire like the full-size Ithaca 37.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) |
+
 ## Sources
 
 See the [Ithaca 37](../shotguns/ithaca-37.md) page.

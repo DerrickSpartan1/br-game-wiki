@@ -22,6 +22,14 @@ More damage per shot than the M17, to make up for its small magazine and otherwi
 
 No real-world accessories. In-game: pistol/SMG barrel attachments (probably), pistol/SMG mags (maybe); suppressor and sight TBD after seeing how it fires, since either may make it too powerful given its higher damage
 
+## Versions
+
+1 version. The real 9mm Glisenti load plays as standard 9×19mm.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) |
+
 ## Sources
 
 - [Wikipedia: Glisenti Model 1910](https://en.wikipedia.org/wiki/Glisenti_Model_1910)

@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Enforcer | Pistol version of the M1 carbine | .30 Carbine | Unknown | Universal Enforcer, Iver Johnson Enforcer |
+
 ## Sources
 
 See the [M1/M2 Carbine](../assault-rifles/m1-m2-carbine.md) page.

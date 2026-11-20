@@ -33,8 +33,8 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the M3 infr
 | 1 | M1 | Semi-auto | .30 Carbine | Most of 6.1 million+ | M1, M1A1 paratrooper (folding stock, about 150,000), M1A2, M1A3 (underfolder), Japanese Howa copies, German-captured Selbstladekarabiner 455(a), commercial copies (Universal, Plainfield, Inland, Auto-Ordnance) |
 | 2 | M2 | Select-fire, 750 to 775 RPM | .30 Carbine | About 600,000, plus field conversions | M2, M2A2 (folding stock), T4, T17/T18 conversion kits, M3 (its sniperscope is now an attachment) |
 | 3 | 7.62 clone | Vietnamese copies using 35-round mags | 7.62×25mm Tokarev | Unknown | — |
-| 4 | 9mm carbine | Commercial semi-auto 9mm versions | 9×19 | Unknown | Iver Johnson 9mm carbine (Hi-Power mags), Chiappa M1-9 (blowback, Beretta mags) |
-| 5 | Spitfire | Melvin Johnson's conversion to a small, fast round | 5.7mm Johnson (.22 Spitfire) | Few made | — |
+| 4 | 9mm carbine | Commercial semi-auto 9mm versions | 9×19mm | Unknown | Iver Johnson 9mm carbine (Hi-Power mags), Chiappa M1-9 (blowback, Beretta mags) |
+| 5 | Spitfire | Melvin Johnson's conversion to a small, fast round | 5.7mm Johnson | Few made | — |
 
 ## Sources
 

@@ -31,7 +31,7 @@ TBD
 | 1 | Model 1887, long | 28 to 32 in barrel | 12 gauge | Most of 64,855 Model 1887s (both gauges) | Model 1887 12 gauge (30 in standard, 32 in special order), Chiappa long reproductions, ADI trial run |
 | 2 | Model 1887, short | 18.5 to 20 in barrel. Merged difference: Chiappa also made a rifled-barrel version | 12 gauge | Unknown | 20 in Model 1887 (from 1888), Norinco / IAC 20 in, Chiappa short reproductions |
 | 3 | 10 gauge | 30 to 32 in barrel. Merged differences: the Model 1901 was strengthened for smokeless shells, 32 in barrel only, with a two-piece lever and trigger block | 10 gauge | Part of the 64,855 Model 1887s, plus 13,500 Model 1901s | Model 1887 10 gauge, Model 1901 |
-| 4 | Pistol grip | Chiappa model with a pistol grip | Not checked | Unknown | Chiappa's two pistol-grip models |
+| 4 | Pistol grip | Chiappa model with a pistol grip; cartridge not checked yet | TBD | Unknown | Chiappa's two pistol-grip models |
 
 ## Sources
 

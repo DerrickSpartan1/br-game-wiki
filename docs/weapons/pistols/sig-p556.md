@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | SIG P556 | 10 in barrel, semi-auto | 5.56×45mm | Unknown | — |
+
 ## Sources
 
 See the [SIG SG 550](../assault-rifles/sg-550.md) page.

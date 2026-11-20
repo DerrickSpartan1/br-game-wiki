@@ -31,7 +31,7 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 35 standard
 | 1 | PPSh-41 | Select-fire, wooden stock | 7.62×25mm Tokarev | Most of about 6 million | PPSh-41, Type 50, Type 49, 48M, wz.41, Md. 1952, Iranian copy, Šokac, MP 717(r) |
 | 2 | K-50M | North Vietnamese rework: shortened barrel jacket, AK-style front sight, pistol grip, wire stock; about 500 g lighter; drum only fits with the stock extended | 7.62×25mm Tokarev | Made 1958 to 1964 | — |
 | 3 | PPSh-45 | Late-war version: full auto only, folding stock that doubles as a grip, no wood | 7.62×25mm Tokarev | Rare | — |
-| 4 | MP 41(r) | German conversion with an adapter for MP 40 mags; slightly slower fire rate | 9×19 | Unknown | — |
+| 4 | MP 41(r) | German conversion with an adapter for MP 40 mags; slightly slower fire rate | 9×19mm | Unknown | — |
 
 ## Sources
 

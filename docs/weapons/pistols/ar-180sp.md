@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | AR-180SP (rare) | Pistol version of the short AR-18S | 5.56×45mm | A single prototype (1982) | — |
+
 ## Sources
 
 See the [AR-18](../assault-rifles/ar-18.md) page.

@@ -18,11 +18,21 @@ Later versions switched to a closed bolt after the ATF ruled open-bolt semi-auto
 
 ## In-game traits
 
-3 versions, one per cartridge; moved to the 3rd slot like the other SMG pistols
+One roster entry that rolls one of 3 versions (see [Versions](#versions) below), one per cartridge; moved to the 3rd slot like the other SMG pistols
 
 ## Attachments
 
 Pistol/SMG family attachments
+
+## Versions
+
+3 versions after merging, one per cartridge.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | Civilian 9mm MAC-10 and M-11/9 pistols (RPB, SWD, Cobray, Leinad) |
+| 2 | .45 ACP | Semi-auto, no stock | .45 ACP | Unknown | Civilian .45 MAC-10 pistols |
+| 3 | .380 ACP | Semi-auto, no stock | .380 ACP | Unknown | Cobray M-12 |
 
 ## Sources
 

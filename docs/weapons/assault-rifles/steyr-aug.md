@@ -33,7 +33,7 @@ AR/LMG/battle rifle family attachments; the AUG A1's built-in Swarovski 1.5× sc
 | 3 | AUG Carbine | 15 or 16.4 in barrel, no bayonet lug; semi and 3-round burst | 5.56×45mm | Unknown | F88C, F88SA1C, Steyr carbine barrels |
 | 4 | EF88 / F90 | Australian upgrade: fixed fluted barrel, long top, side, and bottom rails, folding cocking handle, bolt release on the buttstock, about 740 RPM, SL40 launcher | 5.56×45mm | 38,500+ for Australia | EF88, F90, F90MBR (STANAG mags), Korean DSR-90 |
 | 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | AUG P, AUG SA, AUG Z, Z Sport, Z A3, Z A3 SE, USR (thumbhole), A3 SA USA, A3 SA NATO, A3 M1, A3 M2, Microtech STG-556, TPD AXR, Oberland OA-UG |
-| 6 | AUG 9mm | Blowback SMG version; Steyr MPi 69 mags (25 or 32); 650–720 RPM; 2.97 kg | 9×19 | Unknown | AUG Para, A3 9mm XS, AUG Z A3 9mm |
+| 6 | AUG 9mm | Blowback SMG version; Steyr MPi 69 mags (25 or 32); 650–720 RPM; 2.97 kg | 9×19mm | Unknown | AUG Para, A3 9mm XS, AUG Z A3 9mm |
 | 7 | AUG 40 | SMG version that takes Glock mags; 13.1 in barrel | .40 S&W | Few (São Paulo police) | — |
 | 8 | AUG .300 BLK | A3 in .300 Blackout (2019) | .300 Blackout | Few | — |
 | 9 | AUG 7.62×39 | Unveiled in 2025 | 7.62×39mm | Few | — |

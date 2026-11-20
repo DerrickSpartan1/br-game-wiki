@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other SMG pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Sterling Mark 7 | Short, stockless Sterling | 9×19mm | Unknown | — |
+
 ## Sources
 
 See the [Sterling](../smgs/sterling.md) page.

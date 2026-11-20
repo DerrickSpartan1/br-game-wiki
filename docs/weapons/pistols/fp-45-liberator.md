@@ -22,6 +22,14 @@ Higher damage, single shot, slow reload. Comes pre-loaded when picked up: one ro
 
 None
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | FP-45 Liberator | Single shot, smoothbore; 10 spare rounds stored in the grip | .45 ACP | About 1 million | — |
+
 ## Sources
 
 - [Wikipedia: FP-45 Liberator](https://en.wikipedia.org/wiki/FP-45_Liberator)

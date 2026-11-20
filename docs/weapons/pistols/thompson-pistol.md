@@ -24,6 +24,14 @@ Merges the 1927A5 and TA5
 
 Pistol/SMG family attachments; same drum tiers as the Thompson (100-round extended, 50-round extended quick)
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Thompson pistol | Semi-auto, no stock | .45 ACP | Unknown | Auto-Ordnance 1927A5, Kahr TA5 |
+
 ## Sources
 
 See the [Thompson](../smgs/thompson.md) page.

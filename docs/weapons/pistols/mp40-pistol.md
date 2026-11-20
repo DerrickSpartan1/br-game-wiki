@@ -24,6 +24,14 @@ Moved to the 3rd slot like the Thompson pistol
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | GSG MP40 pistol | Semi-auto, no stock | 9×19mm | Unknown | German Sport Guns MP40 pistol (imported by ATI since 2016) |
+
 ## Sources
 
 See the [MP 40](../smgs/mp40.md) page.

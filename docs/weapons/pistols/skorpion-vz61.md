@@ -31,7 +31,7 @@ Pistol/SMG family attachments; takes a suppressor. Mag tiers (best guess, review
 | 1 | vz. 61 | The original | .32 ACP | Most of about 200,000 | vz. 61, vz. 61E export, Serbian Zastava M84, 2009+ Czech Small Arms production |
 | 2 | .380 | Export model | .380 ACP | Unknown | vz. 64 (curved mags), vz. 83 (straight mags) |
 | 3 | 9×18 | Export model | 9×18mm Makarov | Unknown | vz. 65 (curved mags), vz. 82 (4.4 in barrel, straight mags) |
-| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19 | Unknown | — |
+| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19mm | Unknown | — |
 
 ## Sources
 

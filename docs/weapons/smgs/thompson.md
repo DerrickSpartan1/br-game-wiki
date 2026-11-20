@@ -36,7 +36,7 @@ Pistol/SMG family attachments; the 100-round drum is the extended mag and the 50
 | 4 | M1919 | Early prototype with a very high fire rate, up to 1,500 RPM; some had no stock or sights | .45 ACP | About 40 | — |
 | 5 | M1923 | Heavier gun with a 14 in barrel, bipod, and bayonet lug | .45 Remington–Thompson | Not adopted; few | — |
 | 6 | FBI 10mm | Limited FBI conversions | 10mm Auto | Limited | — |
-| 7 | 9mm | British BSA licensed version and early experiments | 9×19 | Small numbers | BSA Model 1926 (9mm), M1919 experiments |
+| 7 | 9mm | British BSA licensed version and early experiments | 9×19mm | Small numbers | BSA Model 1926 (9mm), M1919 experiments |
 | 8 | 7.63mm | British BSA licensed version | 7.63×25mm Mauser | Small numbers | BSA Model 1926 (7.63mm) |
 | 9 | Viet Cong copy | Jungle-workshop clones | 7.62×25mm Tokarev | Unknown | — |
 | 10 | .22 | Semi-auto .22 version and early experiments | .22 LR | Unknown | 1927A3, M1919 experiments |

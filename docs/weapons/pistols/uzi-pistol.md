@@ -24,6 +24,14 @@ One entry (Uzi pistol and Uzi Pro pistol merged); moved to the 3rd slot like the
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Uzi pistol | Semi-auto, no stock | 9×19mm | Unknown | IMI Uzi pistol (1984–1993), IWI Uzi Pro pistol |
+
 ## Sources
 
 See the [Uzi](../smgs/uzi.md) page.

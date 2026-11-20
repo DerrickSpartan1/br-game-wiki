@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Made every gun page machine-readable for the game's data script: version tables on all 101 pages (18 pistol pages gained one, 7 older tables moved to six columns), cartridge names matched to the [Ammo](../systems/ammo.md) page, which gained an "Also called" column, and a "Reading pages as data" section on the [gun page template](gun-page-template.md) |
 | 2026-11-20 | Decided on Unreal Engine 5.8 (C++); added [First steps in Unreal](first-steps.md), a hands-on walkthrough with Claude Code prompts |
 | 2026-11-20 | [Getting started](getting-started.md): ticked the finished steps, noted the private game repo, and added an engine comparison (Unreal, Unity, Godot) |
 | 2026-11-20 | Added the [Getting started](getting-started.md) checklist: what to download, build order, and which parts of Claude help at each step |

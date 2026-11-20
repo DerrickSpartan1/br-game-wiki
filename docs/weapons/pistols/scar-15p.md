@@ -24,6 +24,14 @@ Moved to the 3rd slot like the other long-gun pistols
 
 Pistol/SMG family attachments
 
+## Versions
+
+1 version.
+
+| # | Version | What's different | Cartridge | Made | Merged from |
+| --- | --- | --- | --- | --- | --- |
+| 1 | SCAR 15P | Semi-auto pistol version of the SCAR-SC | 5.56×45mm | Unknown | — |
+
 ## Sources
 
 See the [FN SCAR-L](../assault-rifles/scar-l.md) page.

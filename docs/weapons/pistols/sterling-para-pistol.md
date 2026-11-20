@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sterling Mark 7 | Short, stockless Sterling | 9×19mm | Unknown | — | TBD | TBD | TBD | side mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Sterling Mark 7 | Short, stockless Sterling | 9×19mm | Unknown | — | TBD | TBD | TBD | side mag | TBD |
 
 ## Sources
 

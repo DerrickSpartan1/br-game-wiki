@@ -26,10 +26,10 @@ Tube extension attachment (real extension tubes held 5 to 8 shells); other attac
 
 2 versions after merging. Its single-mode sister guns merge in, following the AA-12 precedent. Skins: the original wooden detachable stock, the folding metal stock with hook, and the fixed synthetic "Sporting Purpose" stock.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SPAS-12 | 21.5 in barrel; switches between semi-auto and pump. Merged differences: the LAW-12 was semi-auto only and lighter; the SAS-12 was pump only and took 3 in shells; the UK version had a 24 in barrel (21.5 in with a brazed-on choke) | 12 gauge | Most of about 37,000 | SPAS-12 standard, LAW-12, SAS-12, UK 24 in version | semi, pump | TBD | No | tube |
-| 2 | SPAS-12 short | 18 in or 19⅞ in barrel, made for police and military; the 18 in French model had a pistol grip safety | 12 gauge | Very rare | 18 in "shorty", 19⅞ in "AL" | semi, pump | TBD | No | tube |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SPAS-12 | 21.5 in barrel; switches between semi-auto and pump. Merged differences: the LAW-12 was semi-auto only and lighter; the SAS-12 was pump only and took 3 in shells; the UK version had a 24 in barrel (21.5 in with a brazed-on choke) | 12 gauge | Most of about 37,000 | SPAS-12 standard, LAW-12, SAS-12, UK 24 in version | semi, pump | TBD | No | tube | TBD |
+| 2 | SPAS-12 short | 18 in or 19⅞ in barrel, made for police and military; the 18 in French model had a pistol grip safety | 12 gauge | Very rare | 18 in "shorty", 19⅞ in "AL" | semi, pump | TBD | No | tube | TBD |
 
 ## Sources
 

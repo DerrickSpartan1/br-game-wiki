@@ -28,11 +28,11 @@ Pistol/SMG family attachments
 
 3 versions after merging, one per cartridge.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | Civilian 9mm MAC-10 and M-11/9 pistols (RPB, SWD, Cobray, Leinad) | semi | TBD | No | grip mag |
-| 2 | .45 ACP | Semi-auto, no stock | .45 ACP | Unknown | Civilian .45 MAC-10 pistols | semi | TBD | No | grip mag |
-| 3 | .380 ACP | Semi-auto, no stock | .380 ACP | Unknown | Cobray M-12 | semi | TBD | No | grip mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | Civilian 9mm MAC-10 and M-11/9 pistols (RPB, SWD, Cobray, Leinad) | semi | TBD | No | grip mag | 32 |
+| 2 | .45 ACP | Semi-auto, no stock | .45 ACP | Unknown | Civilian .45 MAC-10 pistols | semi | TBD | No | grip mag | 30 |
+| 3 | .380 ACP | Semi-auto, no stock | .380 ACP | Unknown | Cobray M-12 | semi | TBD | No | grip mag | 16 |
 
 ## Sources
 

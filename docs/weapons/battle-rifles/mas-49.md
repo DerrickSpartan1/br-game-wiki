@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; native side scope rail (left of the rece
 
 5 versions after merging. Production numbers for the MAS-49 differ a lot between sources. The 7.62×51mm MAS-54 went on the [guns to add later](../../planning/add-later.md) list; the FA-MAS Type 62 was already there.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi | TBD | No | box mag |
-| 2 | MAS-49 | Original rifle: 4.7 kg, 1,100 mm, 580 mm barrel; built-in grenade launcher | 7.5×54mm French | About 20,600–80,000 (sources differ), including Syria's 6,000 | MAS-49, Syrian contract rifles (1953; MAS-36-style spike bayonet, different stock) | semi | TBD | No | box mag |
-| 3 | MAS-44 (rare) | Postwar precursor, mostly used by navy commandos in Indochina | 7.5×54mm French | 6,200 delivered | MAS-44, 44A, 44B, 44C | semi | TBD | No | box mag |
-| 4 | MAS-40 (rare) | Prewar prototype with a 5-round internal magazine | 7.5×54mm French | Few | MAS-40, MAS-38/39 | semi | TBD | No | TBD |
-| 5 | .308 conversion (rare) | Civilian rifles rebuilt by Century Arms for 7.62×51mm (details not in the sources) | 7.62×51mm | Unknown | Century Arms conversions | semi | TBD | No | box mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi | TBD | No | box mag | 10 |
+| 2 | MAS-49 | Original rifle: 4.7 kg, 1,100 mm, 580 mm barrel; built-in grenade launcher | 7.5×54mm French | About 20,600–80,000 (sources differ), including Syria's 6,000 | MAS-49, Syrian contract rifles (1953; MAS-36-style spike bayonet, different stock) | semi | TBD | No | box mag | 10 |
+| 3 | MAS-44 (rare) | Postwar precursor, mostly used by navy commandos in Indochina | 7.5×54mm French | 6,200 delivered | MAS-44, 44A, 44B, 44C | semi | TBD | No | box mag | 10 |
+| 4 | MAS-40 (rare) | Prewar prototype with a 5-round internal magazine | 7.5×54mm French | Few | MAS-40, MAS-38/39 | semi | TBD | No | TBD | 5 |
+| 5 | .308 conversion (rare) | Civilian rifles rebuilt by Century Arms for 7.62×51mm (details not in the sources) | 7.62×51mm | Unknown | Century Arms conversions | semi | TBD | No | box mag | TBD |
 
 ## Sources
 

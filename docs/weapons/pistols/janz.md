@@ -26,12 +26,12 @@ Revolver reload attachments (speedloaders and similar); caliber cylinders and ba
 
 4 versions after merging. The quick-change models share the EM and E frames, so every EM and E frame Janz can swap caliber cylinders and barrels in real life; the MA frame has no quick-change version. In-game, each spawns in one caliber and keeps it. The fixed-barrel frames are documented as caliber ranges, not exact lists.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | EM frame | Small frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels; spawns in one caliber from .22 LR up to .44 Magnum (exact list TBD) | TBD | Unknown | EM, EM-S quick change | revolver | TBD | No | revolver |
-| 2 | E frame | Medium frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels (.22 LR, .32, .38, 9mm Para, .357 Magnum, .44 Magnum, up to .454 Casull). Merged difference: the sport models have adjustable sights; spawns in one of those calibers (exact list TBD) | TBD | Unknown | E, E-S quick change, sport revolvers (.357 and .44 Magnum) | revolver | TBD | No | revolver |
-| 3 | MA frame | Large frame; 4 to 12 in barrels | .460 S&W | Unknown | — | revolver | TBD | No | revolver |
-| 4 | MA frame | Same | .500 S&W | Unknown | — | revolver | TBD | No | revolver |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | EM frame | Small frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels; spawns in one caliber from .22 LR up to .44 Magnum (exact list TBD) | TBD | Unknown | EM, EM-S quick change | revolver | TBD | No | revolver | TBD |
+| 2 | E frame | Medium frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels (.22 LR, .32, .38, 9mm Para, .357 Magnum, .44 Magnum, up to .454 Casull). Merged difference: the sport models have adjustable sights; spawns in one of those calibers (exact list TBD) | TBD | Unknown | E, E-S quick change, sport revolvers (.357 and .44 Magnum) | revolver | TBD | No | revolver | TBD |
+| 3 | MA frame | Large frame; 4 to 12 in barrels | .460 S&W | Unknown | — | revolver | TBD | No | revolver | TBD |
+| 4 | MA frame | Same | .500 S&W | Unknown | — | revolver | TBD | No | revolver | TBD |
 
 Quick-change barrel lengths: 3, 4, 5, 6.5, 7, 8, 8.75, 10, and 12 in. Janz also makes a 9mm semi-auto, the Janz-Schuknecht Pistole, which could be its own pistol entry later.
 

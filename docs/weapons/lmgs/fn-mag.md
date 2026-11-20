@@ -26,14 +26,14 @@ AR/LMG/battle rifle family attachments; adapter scope mount (Picatinny rail on t
 
 6 versions after merging. Vehicle and aircraft guns (the M240, M240C, M240D, M240E1, M240H, M240N, L8, L37, MAG 60.30, and MAG 60.40) are left out.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | MAG 58 | Standard infantry gun with three gas settings | 7.62×51mm | Most MAGs (totals not given) | MAG 60.20 / MAG 58, MAG 2000, the UK's L7A1 and L7A2, Canada's C6, the US Marines' M240G, Egypt's Helwan 920, Indonesia's SPM2, Taiwan's Type 74, China's XY, Brazil's M971, Turkey's SAR 762 MT, and Argentine, Indian, and Singaporean production | auto | 650–1,000 | Yes | belt |
-| 2 | M240B | US infantry gun: hydraulic buffer, Picatinny rail, one slower gas setting; 12.25 kg | 7.62×51mm | Unknown | M240B (once M240E4) | auto | 550–650 | Yes | belt |
-| 3 | M240L | Titanium receiver, 18% lighter (10.1 kg); option of a short barrel and collapsible stock | 7.62×51mm | Unknown | M240L (once M240E6), M240P, Barrett 240LW and 240LWS | auto | TBD | Yes | belt |
-| 4 | Ksp 58 (rare) | Sweden's first MAG | 6.5×55mm Swedish | Unknown | Ksp 58 | auto | TBD | Yes | belt |
-| 5 | OOW240 (rare) | Ohio Ordnance Works gun with a select-fire trigger group | 7.62×51mm | Unknown | OOW240 GPMG, OOW240P (shorter patrol version) | semi, auto | TBD | TBD | belt |
-| 6 | Civilian | Semi-auto only, fired from a closed bolt | 7.62×51mm | Unknown | M240-SLR | semi | TBD | No | belt |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | MAG 58 | Standard infantry gun with three gas settings | 7.62×51mm | Most MAGs (totals not given) | MAG 60.20 / MAG 58, MAG 2000, the UK's L7A1 and L7A2, Canada's C6, the US Marines' M240G, Egypt's Helwan 920, Indonesia's SPM2, Taiwan's Type 74, China's XY, Brazil's M971, Turkey's SAR 762 MT, and Argentine, Indian, and Singaporean production | auto | 650–1,000 | Yes | belt | 100 |
+| 2 | M240B | US infantry gun: hydraulic buffer, Picatinny rail, one slower gas setting; 12.25 kg | 7.62×51mm | Unknown | M240B (once M240E4) | auto | 550–650 | Yes | belt | 100 |
+| 3 | M240L | Titanium receiver, 18% lighter (10.1 kg); option of a short barrel and collapsible stock | 7.62×51mm | Unknown | M240L (once M240E6), M240P, Barrett 240LW and 240LWS | auto | TBD | Yes | belt | 100 |
+| 4 | Ksp 58 (rare) | Sweden's first MAG | 6.5×55mm Swedish | Unknown | Ksp 58 | auto | TBD | Yes | belt | 100 |
+| 5 | OOW240 (rare) | Ohio Ordnance Works gun with a select-fire trigger group | 7.62×51mm | Unknown | OOW240 GPMG, OOW240P (shorter patrol version) | semi, auto | TBD | TBD | belt | 100 |
+| 6 | Civilian | Semi-auto only, fired from a closed bolt | 7.62×51mm | Unknown | M240-SLR | semi | TBD | No | belt | 100 |
 
 ## Sources
 

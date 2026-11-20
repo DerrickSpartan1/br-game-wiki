@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; native top Picatinny rail. Unique: Palla
 
 5 versions after merging. The Polish wz. 88 Tantal it came from merged into the AK-74 family's first version. The Beryl Commando is listed as a variant but has no details yet (TBD).
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wz. 96 Beryl | Standard rifle | 5.56×45mm | Most of about 86,000 in Polish service | wz. 96A, 96B (fixed foregrip and rails), 96C (telescopic stock, new rails and handguard), 96D (mix-and-match), wz. 1991 (5.56 Tantal), Lithuanian wz. 96A | semi, auto | 700 | No | box mag |
-| 2 | Mini-Beryl | Carbine: 9.3 in barrel, 3.0 kg; still fires rifle grenades with live ammo | 5.56×45mm | Unknown | wz. 96 Mini-Beryl | semi, auto | 700 | No | box mag |
-| 3 | Beryl M762 | Export version on the 96C; takes AK-47 mags | 7.62×39mm | 3,200+ (Nigeria) | Beryl M762 | semi, auto | 700 | No | box mag |
-| 4 | Beryl M545 | Proposed export version; takes AK-74 mags | 5.45×39mm | Prototypes only | Beryl M545 | semi, auto | 700 | No | box mag |
-| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | TBD | No | box mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | wz. 96 Beryl | Standard rifle | 5.56×45mm | Most of about 86,000 in Polish service | wz. 96A, 96B (fixed foregrip and rails), 96C (telescopic stock, new rails and handguard), 96D (mix-and-match), wz. 1991 (5.56 Tantal), Lithuanian wz. 96A | semi, auto | 700 | No | box mag | 30 |
+| 2 | Mini-Beryl | Carbine: 9.3 in barrel, 3.0 kg; still fires rifle grenades with live ammo | 5.56×45mm | Unknown | wz. 96 Mini-Beryl | semi, auto | 700 | No | box mag | 30 |
+| 3 | Beryl M762 | Export version on the 96C; takes AK-47 mags | 7.62×39mm | 3,200+ (Nigeria) | Beryl M762 | semi, auto | 700 | No | box mag | 30 |
+| 4 | Beryl M545 | Proposed export version; takes AK-74 mags | 5.45×39mm | Prototypes only | Beryl M545 | semi, auto | 700 | No | box mag | 30 |
+| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | TBD | No | box mag | 30 |
 
 ## Sources
 

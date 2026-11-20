@@ -28,17 +28,17 @@ AR/LMG/battle rifle family attachments; native top rail, plus a KeyMod or M-LOK 
 
 9 versions after merging, split by caliber, barrel length, and whether it's select-fire. No production numbers were found, and the police and military orders (Berlin 460, Schleswig-Holstein 531, Royal Marines 1,500, and others) aren't split by barrel or caliber. The [MCX-SPEAR / M7](../battle-rifles/mcx-spear.md) has its own page, and the MCX-MR and the MPX went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Short | 9 in barrel; select-fire | 5.56×45mm | Unknown | MCX LT 9 in (military SPEAR LT), LVAW "Black Mamba" (short, suppressed; military and police only), Rattler in 5.56 (5.5 in barrel) | semi, auto | 800–900 | No | box mag |
-| 2 | Carbine | 11.5 in barrel; select-fire | 5.56×45mm | Unknown | Military and police MCX, VIRTUS, and SPEAR LT with 11.5 in barrels | semi, auto | 800–900 | No | box mag |
-| 3 | Rifle | 14.5 or 16 in barrel; select-fire | 5.56×45mm | Unknown | MCX LT 14.5 in (military SPEAR LT), military and police 16 in models | semi, auto | 800–900 | No | box mag |
-| 4 | SURG | Integrally suppressed upper on an M4A1 lower; select-fire | 5.56×45mm | Unknown; USSOCOM contract from July 2018 | USSOCOM Suppressed Upper Receiver Group | semi, auto | 800–900 | No | box mag |
-| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | MCX Patrol (16 in), MCX SBR (9 in), VIRTUS Patrol (16 in; Matchlite Duo trigger, 5-position folding stock), VIRTUS SBR (11.5 in), MCX-SPEAR LT (11.5 or 16 in) | semi | TBD | No | box mag |
-| 6 | Rattler | 5.5 in barrel PDW; compact or folding stock; select-fire | .300 Blackout | Unknown; USSOCOM evaluation kits in 2018, then its compact PDW contract in 2022 | MCX Rattler, Rattler LT (SPEAR LT features) | semi, auto | 800–900 | No | box mag |
-| 7 | .300 BLK | Short barrel (9 in on the VIRTUS SBR); select-fire | .300 Blackout | Unknown | Military and police .300 Blackout MCXs: Netherlands MARSOF and DSI (suppressed uppers), Poland's GROM, Formoza, ABW, and SOP (VIRTUS and Rattler), and Australia's NSW Police TOU and Victoria Police SOG | semi, auto | 800–900 | No | box mag |
-| 8 | .300 BLK civilian | Semi-auto only | .300 Blackout | Unknown | VIRTUS SBR in .300 Blackout (5.5 or 9 in), MCX-SPEAR LT in .300 Blackout (11.5 or 16 in) | semi | TBD | No | box mag |
-| 9 | 7.62×39 | Semi-auto only; 28-round AR-pattern mags | 7.62×39mm | Unknown | MCX-SPEAR LT in 7.62×39 (11.5 or 16 in) | semi | TBD | No | box mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Short | 9 in barrel; select-fire | 5.56×45mm | Unknown | MCX LT 9 in (military SPEAR LT), LVAW "Black Mamba" (short, suppressed; military and police only), Rattler in 5.56 (5.5 in barrel) | semi, auto | 800–900 | No | box mag | 30 |
+| 2 | Carbine | 11.5 in barrel; select-fire | 5.56×45mm | Unknown | Military and police MCX, VIRTUS, and SPEAR LT with 11.5 in barrels | semi, auto | 800–900 | No | box mag | 30 |
+| 3 | Rifle | 14.5 or 16 in barrel; select-fire | 5.56×45mm | Unknown | MCX LT 14.5 in (military SPEAR LT), military and police 16 in models | semi, auto | 800–900 | No | box mag | 30 |
+| 4 | SURG | Integrally suppressed upper on an M4A1 lower; select-fire | 5.56×45mm | Unknown; USSOCOM contract from July 2018 | USSOCOM Suppressed Upper Receiver Group | semi, auto | 800–900 | No | box mag | 30 |
+| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | MCX Patrol (16 in), MCX SBR (9 in), VIRTUS Patrol (16 in; Matchlite Duo trigger, 5-position folding stock), VIRTUS SBR (11.5 in), MCX-SPEAR LT (11.5 or 16 in) | semi | TBD | No | box mag | 30 |
+| 6 | Rattler | 5.5 in barrel PDW; compact or folding stock; select-fire | .300 Blackout | Unknown; USSOCOM evaluation kits in 2018, then its compact PDW contract in 2022 | MCX Rattler, Rattler LT (SPEAR LT features) | semi, auto | 800–900 | No | box mag | 30 |
+| 7 | .300 BLK | Short barrel (9 in on the VIRTUS SBR); select-fire | .300 Blackout | Unknown | Military and police .300 Blackout MCXs: Netherlands MARSOF and DSI (suppressed uppers), Poland's GROM, Formoza, ABW, and SOP (VIRTUS and Rattler), and Australia's NSW Police TOU and Victoria Police SOG | semi, auto | 800–900 | No | box mag | 30 |
+| 8 | .300 BLK civilian | Semi-auto only | .300 Blackout | Unknown | VIRTUS SBR in .300 Blackout (5.5 or 9 in), MCX-SPEAR LT in .300 Blackout (11.5 or 16 in) | semi | TBD | No | box mag | 30 |
+| 9 | 7.62×39 | Semi-auto only; 28-round AR-pattern mags | 7.62×39mm | Unknown | MCX-SPEAR LT in 7.62×39 (11.5 or 16 in) | semi | TBD | No | box mag | 28 |
 
 ## Sources
 

@@ -26,13 +26,13 @@ Pistol/SMG family attachments; AK side mount for optics (adapter mount). Mag tie
 
 5 versions after merging. Skins: the Bizon-3's over-the-top folding stock and peep sight, and the Vietnamese SN9P's Galil-style stock. The 7.62 version can also load 7.63mm Mauser under the shared ammo rule. Its box-mag successors, the PP-19-01 Vityaz and PPK-20, went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bizon | Standard SMG | 9×18mm Makarov | Unknown | Bizon-1, Bizon-2, Bizon-3, Bizon-2-04 semi-auto carbine | semi, auto | 680 | No | box mag |
-| 2 | Bizon-2-03 | Integral suppressor | 9×18mm Makarov | Unknown | — | semi, auto | 680 | No | box mag |
-| 3 | 9×19 | 53-round helical mag | 9×19mm | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P | semi, auto | 700–750 | No | box mag |
-| 4 | .380 | 64-round helical mag | .380 ACP | Unknown | Bizon-2-02, Bizon-2-06 carbine | semi, auto | TBD | No | box mag |
-| 5 | Bizon-2-07 | Trades the helical mag for a 35-round box mag | 7.62×25mm Tokarev | Unknown | Bizon-2-07, Vietnamese SN7P | semi, auto | 700–750 | No | box mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Bizon | Standard SMG | 9×18mm Makarov | Unknown | Bizon-1, Bizon-2, Bizon-3, Bizon-2-04 semi-auto carbine | semi, auto | 680 | No | box mag | 64 |
+| 2 | Bizon-2-03 | Integral suppressor | 9×18mm Makarov | Unknown | — | semi, auto | 680 | No | box mag | 64 |
+| 3 | 9×19 | 53-round helical mag | 9×19mm | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P | semi, auto | 700–750 | No | box mag | 53 |
+| 4 | .380 | 64-round helical mag | .380 ACP | Unknown | Bizon-2-02, Bizon-2-06 carbine | semi, auto | TBD | No | box mag | 64 |
+| 5 | Bizon-2-07 | Trades the helical mag for a 35-round box mag | 7.62×25mm Tokarev | Unknown | Bizon-2-07, Vietnamese SN7P | semi, auto | 700–750 | No | box mag | 35 |
 
 ## Sources
 

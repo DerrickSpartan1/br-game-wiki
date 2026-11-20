@@ -26,9 +26,9 @@ No real-world accessories. In-game: pistol/SMG barrel attachments (probably), pi
 
 1 version. The real 9mm Glisenti load plays as standard 9×19mm.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | TBD | No | grip mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | TBD | No | grip mag | 7 |
 
 ## Sources
 

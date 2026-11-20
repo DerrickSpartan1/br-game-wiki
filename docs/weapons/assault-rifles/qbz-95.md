@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; dovetail scope mount in the carry handle
 
 5 versions after merging. 5.8×42mm is new to the ammo pool. Triggers (game choice): the QBZ-97 gets semi, 3-round burst, and auto (as on the real 97A); the other military versions are semi/auto; the civilian version is semi-only. The QJB-95 and QJB-97 squad machine guns, the K12 PUMA bullpup shotgun, and the QBZ-191 went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | QBZ-95 | Standard rifle; the 95-1 upgrade moved the safety to the thumb, ejects forward, and has a longer, heavier barrel | 5.8×42mm | Most of about 3 million | QBZ-95, QBZ-95-1 ("Gai"), Picatinny-rail mods (Long Bow, ACP Peak) | semi, auto | 650 | No | bullpup mag |
-| 2 | QBZ-95B | Carbine with a foregrip, Krinkov-style muzzle booster, and front sight on the carry handle; no grenade launcher or bayonet | 5.8×42mm | Unknown (navy, special forces) | QBZ-95B, QBZ-95B-1 | semi, auto | 650 | No | bullpup mag |
-| 3 | QBZ-97 | Export version in NATO caliber with its own mags | 5.56×45mm | Unknown | QBZ-97, QBZ-97A (adds burst and bolt hold-open), Sudanese UBGL variant | semi, 3-round burst, auto | 650 | No | bullpup mag |
-| 4 | QBZ-97B | Export carbine | 5.56×45mm | Unknown | QBZ-97B (NQZ03B) | semi, auto | 650 | No | bullpup mag |
-| 5 | Civilian | Semi-auto sporters that take STANAG mags | 5.56×45mm | Unknown | Type 97, Type 97A, T97NSR, T97NSR-A, EM3516, flat-top builds | semi | TBD | No | bullpup mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | QBZ-95 | Standard rifle; the 95-1 upgrade moved the safety to the thumb, ejects forward, and has a longer, heavier barrel | 5.8×42mm | Most of about 3 million | QBZ-95, QBZ-95-1 ("Gai"), Picatinny-rail mods (Long Bow, ACP Peak) | semi, auto | 650 | No | bullpup mag | 30 |
+| 2 | QBZ-95B | Carbine with a foregrip, Krinkov-style muzzle booster, and front sight on the carry handle; no grenade launcher or bayonet | 5.8×42mm | Unknown (navy, special forces) | QBZ-95B, QBZ-95B-1 | semi, auto | 650 | No | bullpup mag | 30 |
+| 3 | QBZ-97 | Export version in NATO caliber with its own mags | 5.56×45mm | Unknown | QBZ-97, QBZ-97A (adds burst and bolt hold-open), Sudanese UBGL variant | semi, 3-round burst, auto | 650 | No | bullpup mag | 30 |
+| 4 | QBZ-97B | Export carbine | 5.56×45mm | Unknown | QBZ-97B (NQZ03B) | semi, auto | 650 | No | bullpup mag | 30 |
+| 5 | Civilian | Semi-auto sporters that take STANAG mags | 5.56×45mm | Unknown | Type 97, Type 97A, T97NSR, T97NSR-A, EM3516, flat-top builds | semi | TBD | No | bullpup mag | 30 |
 
 ## Sources
 

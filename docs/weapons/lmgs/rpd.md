@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments; adapter scope mount (rails on the DS Arm
 
 2 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | RPD | Standard gun | 7.62×39mm | Unknown | Early RPD, later RPD (folding charging handle, feed-port dust cover), RPDM (longer gas cylinder and a recoil buffer), China's Type 56 and 56-1, North Korea's Type 62 | auto | 650–750 | Yes | belt |
-| 2 | Civilian | Semi-auto only; DS Arms' RPD Carbine adds a fluted 17.5 in barrel, rails, and an M4-style stock | 7.62×39mm | Unknown | Semi-auto RPDs built from de-milled parts, DS Arms RPD Carbine | semi | TBD | No | belt |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | RPD | Standard gun | 7.62×39mm | Unknown | Early RPD, later RPD (folding charging handle, feed-port dust cover), RPDM (longer gas cylinder and a recoil buffer), China's Type 56 and 56-1, North Korea's Type 62 | auto | 650–750 | Yes | belt | 100 |
+| 2 | Civilian | Semi-auto only; DS Arms' RPD Carbine adds a fluted 17.5 in barrel, rails, and an M4-style stock | 7.62×39mm | Unknown | Semi-auto RPDs built from de-milled parts, DS Arms RPD Carbine | semi | TBD | No | belt | 100 |
 
 ## Sources
 

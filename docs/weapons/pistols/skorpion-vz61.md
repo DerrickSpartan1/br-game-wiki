@@ -26,12 +26,12 @@ Pistol/SMG family attachments; takes a suppressor. Mag tiers (best guess, review
 
 4 versions after merging, one per cartridge. The whole Škorpion sits in the pistol / 3rd slot, since it was carried in a pistol holster. Semi-auto civilian guns (the CZ-91S and Czech Small Arms' modern vz. 61 pistol) merge into their caliber's version, with the CZ-91S's stainless receiver as a skin. 9×18mm Makarov is new to the ammo pool, and the Stechkin APS and PP-19 Bizon later in the queue use it too.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | vz. 61 | The original | .32 ACP | Most of about 200,000 | vz. 61, vz. 61E export, Serbian Zastava M84, 2009+ Czech Small Arms production | semi, auto | 850 | No | box mag |
-| 2 | .380 | Export model | .380 ACP | Unknown | vz. 64 (curved mags), vz. 83 (straight mags) | semi, auto | 850 | No | box mag |
-| 3 | 9×18 | Export model | 9×18mm Makarov | Unknown | vz. 65 (curved mags), vz. 82 (4.4 in barrel, straight mags) | semi, auto | 850 | No | box mag |
-| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19mm | Unknown | — | semi, auto | 850 | No | box mag |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | vz. 61 | The original | .32 ACP | Most of about 200,000 | vz. 61, vz. 61E export, Serbian Zastava M84, 2009+ Czech Small Arms production | semi, auto | 850 | No | box mag | 20 |
+| 2 | .380 | Export model | .380 ACP | Unknown | vz. 64 (curved mags), vz. 83 (straight mags) | semi, auto | 850 | No | box mag | 24 |
+| 3 | 9×18 | Export model | 9×18mm Makarov | Unknown | vz. 65 (curved mags), vz. 82 (4.4 in barrel, straight mags) | semi, auto | 850 | No | box mag | 24 |
+| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19mm | Unknown | — | semi, auto | 850 | No | box mag | TBD |
 
 ## Sources
 

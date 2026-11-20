@@ -185,6 +185,20 @@ nav:
         - "IWI Tavor 7": weapons/battle-rifles/tavor-7.md
         - "AK-308": weapons/battle-rifles/ak-308.md
         - "SIG MCX-SPEAR (M7)": weapons/battle-rifles/mcx-spear.md
+      - LMGs:
+        - weapons/lmgs/index.md
+        - "M1918 BAR": weapons/lmgs/bar.md
+        - "Bren / ZB vz. 26": weapons/lmgs/bren.md
+        - "DP-27": weapons/lmgs/dp-27.md
+        - "MG 34": weapons/lmgs/mg-34.md
+        - "MG 42 / MG3": weapons/lmgs/mg-42.md
+        - "RPD": weapons/lmgs/rpd.md
+        - "M60": weapons/lmgs/m60.md
+        - "FN MAG / M240": weapons/lmgs/fn-mag.md
+        - "RPK": weapons/lmgs/rpk.md
+        - "PK / PKM": weapons/lmgs/pk.md
+        - "FN Minimi / M249": weapons/lmgs/minimi.md
+        - "IWI Negev": weapons/lmgs/negev.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

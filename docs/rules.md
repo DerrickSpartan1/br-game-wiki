@@ -50,8 +50,19 @@ Open-bolt guns have a slight delay between the trigger pull and the shot. New gu
 - [M16 / M4](weapons/assault-rifles/m16-m4.md): the M231 FPW funny version only
 - [FG 42](weapons/battle-rifles/fg-42.md): on auto only, since semi-auto fires from a closed bolt
 - [CETME](weapons/battle-rifles/cetme.md): the Model A prototype on auto only; later models are closed-bolt
+- [M1918 BAR](weapons/lmgs/bar.md): every version but the civilian one
+- [Bren / ZB vz. 26](weapons/lmgs/bren.md)
+- [DP-27](weapons/lmgs/dp-27.md)
+- [MG 34](weapons/lmgs/mg-34.md): every version but the civilian one
+- [MG 42 / MG3](weapons/lmgs/mg-42.md)
+- [RPD](weapons/lmgs/rpd.md): the military version only
+- [M60](weapons/lmgs/m60.md): every version but the civilian one
+- [FN MAG / M240](weapons/lmgs/fn-mag.md): every version but the civilian M240-SLR (the OOW240 is TBD)
+- [PK / PKM](weapons/lmgs/pk.md)
+- [FN Minimi / M249](weapons/lmgs/minimi.md)
+- [IWI Negev](weapons/lmgs/negev.md)
 
-**Never has it:** closed-bolt guns like the Škorpion, MP5, P90, MP7, UMP, KRISS Vector, and PP-19 Bizon. Closed-bolt versions of the guns above don't have it either: the Micro Uzi, Uzi Pro, Uzi carbine, MAC pistol, Sterling Mk 6 and PAWS ZX-7, the Stoner 63 rifle and carbine, and semi-auto replicas.
+**Never has it:** closed-bolt guns like the Škorpion, MP5, P90, MP7, UMP, KRISS Vector, PP-19 Bizon, and the [RPK](weapons/lmgs/rpk.md). Closed-bolt versions of the guns above don't have it either: the Micro Uzi, Uzi Pro, Uzi carbine, MAC pistol, Sterling Mk 6 and PAWS ZX-7, the Stoner 63 rifle and carbine, and semi-auto replicas.
 
 ## En bloc clips
 

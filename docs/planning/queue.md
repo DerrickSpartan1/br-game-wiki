@@ -1,6 +1,6 @@
 # Gun queue
 
-Guns get added one at a time, researched from real sources. The assault rifle and battle rifle & DMR queues are done, each in rough order of when the guns came out. LMGs are the next category; their list isn't drafted yet.
+Guns get added one at a time, researched from real sources. The assault rifle and battle rifle & DMR queues are done, each in rough order of when the guns came out. LMGs are in progress.
 
 ## Assault rifles
 
@@ -76,6 +76,47 @@ The CETME stays its own gun, apart from the G3: the G3 family is already full, a
 
 Going elsewhere: BAR and FN MAG (LMGs); PSG1 and bolt-action rifles (snipers).
 
+## LMGs (in progress)
+
+Light machine guns, squad automatic weapons, and general-purpose machine guns one player can carry, in rough order of when each came out. Mounted heavy machine guns go to special weapons. Dates for queued guns are rough until each is researched.
+
+| # | Gun | Origin and cartridge | Status |
+| --- | --- | --- | --- |
+| 1 | Madsen | Denmark, 1902; many calibers | **Next** |
+| 2 | Lewis gun | UK, 1914; .303 British | Queued |
+| 3 | Chauchat | France, 1915; 8×50mmR Lebel | Queued |
+| 4 | [M1918 BAR](../weapons/lmgs/bar.md) | USA, 1918; .30-06 Springfield | Added |
+| 5 | Type 11 | Japan, 1922; 6.5×50mm Arisaka | Queued |
+| 6 | [Bren / ZB vz. 26](../weapons/lmgs/bren.md) | Czechoslovakia / UK, 1926; 7.92×57mm Mauser / .303 British | Added |
+| 7 | Lahti-Saloranta M/26 | Finland, 1926; 7.62×54mmR | Queued |
+| 8 | [DP-27](../weapons/lmgs/dp-27.md) | USSR, 1928; 7.62×54mmR | Added |
+| 9 | Breda 30 | Italy, 1930; 6.5×52mm Carcano | Queued |
+| 10 | [MG 34](../weapons/lmgs/mg-34.md) | Germany, 1934; 7.92×57mm Mauser | Added |
+| 11 | Type 96 / Type 99 | Japan, 1936; 6.5×50mm / 7.7×58mm Arisaka | Queued |
+| 12 | [MG 42 / MG3](../weapons/lmgs/mg-42.md) | Germany, 1942; 7.92×57mm Mauser / 7.62×51mm | Added |
+| 13 | [RPD](../weapons/lmgs/rpd.md) | USSR, 1944; 7.62×39mm | Added |
+| 14 | [M60](../weapons/lmgs/m60.md) | USA, 1957; 7.62×51mm | Added |
+| 15 | [FN MAG / M240](../weapons/lmgs/fn-mag.md) | Belgium, 1958; 7.62×51mm | Added |
+| 16 | [RPK](../weapons/lmgs/rpk.md) | USSR, 1961; 7.62×39mm / 5.45×39mm | Added |
+| 17 | [PK / PKM](../weapons/lmgs/pk.md) | USSR, 1961; 7.62×54mmR | Added |
+| 18 | HK21 family (HK11, HK13, HK21, HK23) | West Germany, 1961; 7.62×51mm / 5.56×45mm | Queued |
+| 19 | Stoner 63 LMG | USA, 1963; 5.56×45mm | Queued |
+| 20 | [FN Minimi / M249](../weapons/lmgs/minimi.md) | Belgium, 1974; 5.56×45mm | Added |
+| 21 | Ultimax 100 | Singapore, 1982; 5.56×45mm | Queued |
+| 22 | L86 LSW | UK, 1985; 5.56×45mm | Queued |
+| 23 | Daewoo K3 | South Korea, 1989; 5.56×45mm | Queued |
+| 24 | QJB-95 | China, 1995; 5.8×42mm | Queued |
+| 25 | MG36 | Germany, 1995; 5.56×45mm | Queued |
+| 26 | [IWI Negev](../weapons/lmgs/negev.md) | Israel, 1997; 5.56×45mm | Added |
+| 27 | QJY-88 | China, 1988; 5.8×42mm | Queued |
+| 28 | HK MG4 | Germany, 2005; 5.56×45mm | Queued |
+| 29 | HK MG5 | Germany, 2015; 7.62×51mm | Queued |
+| 30 | M250 | USA, 2022; 6.8×51mm | Queued |
+
+Possible additions: the Johnson M1941 LMG, M1919A6, Vickers-Berthier, Vektor SS-77 and Mini-SS, CETME Ameli, Knight's Stoner LMG, the HAMR, RPL-20, AUG HBAR, the FAL's heavy-barrel squad versions, the vz. 58 KLEČ, the AR-18 LSW, and the other LMG offshoots on the [add-later list](add-later.md).
+
+Planned as versions, not separate guns: the M249 under the Minimi, the M240 and L7 under the FN MAG, the MG3 under the MG 42, the RPK-74 and RPK-16 under the RPK, the PKM and Pecheneg under the PK, and the RP-46 under the DP-27. The M27 is already a version of the [HK416](../weapons/assault-rifles/hk416.md).
+
 ## Shotguns (done)
 
 [AA-12](../weapons/crate/aa-12.md) (crate), [Saiga-12](../weapons/shotguns/saiga-12.md), [SPAS-12](../weapons/shotguns/spas-12.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md), [KelTec KSG](../weapons/shotguns/ksg.md), [Remington 870](../weapons/shotguns/remington-870.md), and [Ithaca 37](../weapons/shotguns/ithaca-37.md). Still to look at: the SPAS-15, the box-mag-fed successor to the SPAS-12.
@@ -86,4 +127,4 @@ Going elsewhere: BAR and FN MAG (LMGs); PSG1 and bolt-action rifles (snipers).
 
 ## Categories not started
 
-LMGs (next), snipers, and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).
+Snipers (next) and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).

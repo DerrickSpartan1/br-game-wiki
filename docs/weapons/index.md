@@ -1,6 +1,6 @@
 # Weapons
 
-101 roster entries so far, each one gun family with its own page. When a gun is rolled for a match, it also rolls one of that family's versions.
+113 roster entries so far, each one gun family with its own page. When a gun is rolled for a match, it also rolls one of that family's versions.
 
 | Category | Entries | Status |
 | --- | --- | --- |
@@ -10,7 +10,8 @@
 | [Assault rifles](assault-rifles/index.md) | 27 | Queue done; possible additions on the [queue](../planning/queue.md) page |
 | [Crate weapons](crate/index.md) | 1 | Open |
 | [Battle rifles & DMRs](battle-rifles/index.md) | 25 | Queue done; possible additions on the [queue](../planning/queue.md) page |
-| LMGs, snipers, special | 0 | Not started; LMGs are next |
+| [LMGs](lmgs/index.md) | 12 | In progress; see the [queue](../planning/queue.md) |
+| Snipers, special | 0 | Not started; snipers are next |
 
 ## Every gun page has
 

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Added PUBG's attachment set to [Attachments](../systems/attachments.md#attachment-slots), slot by slot: muzzles, grips and a laser, generic-named sights, and stocks including ammo loops; new open questions on attachment effects and add-on stocks |
 | 2026-11-20 | Added PUBG's June 2018 damage, multipliers, armor, and time to kill for 18 guns to [TTK](../systems/ttk.md#pubg-in-2018-for-reference) as a reference; decided where [bipods](../systems/attachments.md#bipods) come from |
 | 2026-11-20 | Added a Mag column to every gun's Versions table (573 versions, now eleven columns), filled from each page's magazine notes and mag tiers; 154 versions stay TBD where the sources don't give a standard. The wording is on the [gun page template](gun-page-template.md#reading-pages-as-data) |
 | 2026-11-20 | Decided that stripper-clip guns reload like PUBG's Kar98k (a full clip from empty, one round at a time to top off) and that pressing fire stops any one-round-at-a-time reload; added to [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) and [Gun art and sound](art-and-sound.md#reload-styles), and both questions came off the open questions page |

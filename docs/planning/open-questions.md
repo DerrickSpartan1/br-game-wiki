@@ -5,6 +5,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Balance
 
 - **Damage and in-game range:** TBD on every gun page. [TTK](../systems/ttk.md) needs more discussion first.
+- **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H sits in battle rifles & DMRs ([FN SCAR-L](../weapons/assault-rifles/scar-l.md), [FN SCAR-H](../weapons/battle-rifles/scar-h.md)).
@@ -16,6 +17,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Systems
 
+- **Add-on stocks and the 3rd slot:** whether a stockless pistol with an add-on stock stays in the pistol / 3rd slot, as PUBG's Skorpion does ([Attachments](../systems/attachments.md#attachment-slots), [Rules](../rules.md#3rd-slot)).
 - **Bipods and LMG handling:** whether bipods deploy when prone or on cover, whether a built-in bipod leaves room for a foregrip, whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Where bipods come from is decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The wiki keeps real names either way.

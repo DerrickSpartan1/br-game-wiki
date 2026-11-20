@@ -10,6 +10,46 @@ Mounts never depend on crafting.
 - **Adapter mount:** older guns that historically took clamp-on rails or side mounts, like the Mosin, M1 Garand, or AK. The scope sits higher or off to the side, so it's a bit clunkier.
 - **No historical mount:** guns like a WWI SMG just come with a mount in the game's version, trading a little realism.
 
+## Attachment slots
+
+Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. The set below comes from PUBG. Each attachment fits by family (see [Universal attachments](#universal-attachments)), and each gun page lists what it can take. How much each one helps is TBD.
+
+**Muzzle** (the "barrel attachments" in the families below):
+
+- **Suppressor:** quieter shots.
+- **Compensator:** less recoil.
+- **Flash hider:** hides your muzzle flash, with slightly less recoil.
+- **Choke:** shotguns only; tighter spread.
+- **Duckbill:** shotguns only; a flatter, wider spread (see below).
+
+**Foregrip.** Grips shift a gun's recoil tendencies from the [Rules](../rules.md#random-recoil): climb, sideways drift, and how fast it settles.
+
+- **Vertical grip:** less climb.
+- **Angled grip:** less drift and faster aim down sights.
+- **Half grip:** less climb and drift, and settles faster.
+- **Thumb grip:** less climb, but more drift and slower settling.
+- **Light grip:** settles faster, but kicks harder.
+- **Laser sight:** tighter hip fire; also fits pistols.
+- **Bipod:** see [Bipods](#bipods).
+
+**Sight.** Generic names, with no brands. Every sight needs a mount (see [Scope mounts](#scope-mounts)).
+
+- **Red dot** and **holographic:** 1x.
+- **2x, 3x, and 4x** scopes.
+- **3–6x:** variable.
+- **8x** and **15x:** the 15x is for snipers only.
+- **Canted iron sights:** a second sight set off to the side for close range.
+- **Thermal:** crate-only.
+
+**Stock:**
+
+- **Tactical stock:** less recoil and sway.
+- **Cheek pad:** DMRs and snipers; steadier aim.
+- **Add-on stocks:** for stockless guns, like the [Uzi](../weapons/smgs/uzi.md) or [Skorpion](../weapons/pistols/skorpion-vz61.md), and the [C96](../weapons/pistols/c96.md)'s shoulder stock (see below).
+- **Ammo loops:** faster one-round-at-a-time reloads, for tubes and stripper-clip guns ([Ammo](ammo.md#how-ammo-and-reloading-work)).
+
+**Magazine:** the four tiers below.
+
 ## Bipods
 
 - **Built in:** a gun whose real standard version came with a bipod, like most LMGs, has it built in.

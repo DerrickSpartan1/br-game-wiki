@@ -30,10 +30,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Art and sound
 
-- **Tube shotgun reloads:** shell by shell, like PUBG's S1897, or one instant refill like a box mag ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [Gun art and sound](art-and-sound.md#reload-styles)).
-- **Reload style on gun pages:** whether every gun page gets a "Reload style" row from the [list](art-and-sound.md#reload-styles), so the game can pick each gun's animation set from the weapon data instead of a hand-made list.
-- **Distant shots:** whether sound travels at real speed (about 343 m/s, so a shot 300 m away arrives almost a second late) and whether supersonic bullets crack as they pass you, as two extra cues for finding a shooter.
-- **Art budget:** free tools only, or a paid AI 3D generator or Cascadeur plan if the free route is too slow ([Gun art and sound](art-and-sound.md#who-does-what)).
+- **Cutting a tube reload short:** whether firing stops a shell-by-shell reload, so you can shoot with only a few shells in ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work)).
+- **Stripper clips:** whether fixed-mag guns (`stripper clip` in the Reload column, like the [SKS](../weapons/battle-rifles/sks.md) and [C96](../weapons/pistols/c96.md), and the bolt-action snipers next) reload like PUBG's Kar98k, a full clip when empty and one round at a time otherwise, or refill instantly like a box mag.
 
 ## Lookups
 
@@ -49,6 +47,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Janz revolvers:** the exact caliber list for the EM and E frames, which then need their own rows on the ammo page (.32, .38, .357 Magnum, and others) ([Janz](../weapons/pistols/janz.md)).
 - **BAR export fire modes:** semi and auto or auto only on the FN Model D, Poland's wz. 28, Sweden's Kg m/21 and m/37, the FN Model 1930, and the 7.62mm DA1 ([M1918 BAR](../weapons/lmgs/bar.md)); also the Bren's Japanese Type 97 ([Bren / ZB vz. 26](../weapons/lmgs/bren.md)) and Vietnam's 7.62×39mm Negev copy ([IWI Negev](../weapons/lmgs/negev.md)).
 - **UKM-2000:** Poland's PKM-based gun; confirm its caliber (likely 7.62×51mm) before it joins a version ([PK / PKM](../weapons/lmgs/pk.md)).
+- **Bullet speeds:** a speed for each caliber on the [Ammo](../systems/ammo.md) page, so the game knows which bullets crack ([Gameplay](../systems/gameplay.md#sound)). Many gun pages already list muzzle velocity in Real-world notes.
+- **Reload TBDs:** how the [Mondragón](../weapons/battle-rifles/mondragon.md) feeds (sources differ: stripper clips into a fixed 10-round mag or a detachable 8-round box), plus the MAS-40, SKS-41, and the C96's rate-reducer and 9mm trench carbine versions.
 - **LMG rates of fire:** the M249, M60E3 and later, M240L, Pecheneg, DPM, RP-46, and the export versions have no rate in the sources checked so far.
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.
 - **Owen .38 prototype:** sources disagree on the exact .38 round.

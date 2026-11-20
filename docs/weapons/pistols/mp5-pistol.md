@@ -28,10 +28,10 @@ Pistol/SMG family attachments
 
 2 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | SP89, SP5K, SP5K-PDW, US clones (PTR, Zenith, Century), POF-5 pistols | semi | TBD | No |
-| 2 | .22 LR | Semi-auto, no stock | .22 LR | Unknown | HK's .22 LR MP5 pistol | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 9mm | Semi-auto, no stock | 9×19mm | Unknown | SP89, SP5K, SP5K-PDW, US clones (PTR, Zenith, Century), POF-5 pistols | semi | TBD | No | box mag |
+| 2 | .22 LR | Semi-auto, no stock | .22 LR | Unknown | HK's .22 LR MP5 pistol | semi | TBD | No | box mag |
 
 ## Sources
 

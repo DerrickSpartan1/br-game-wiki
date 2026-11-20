@@ -26,15 +26,15 @@ AR/LMG/battle rifle family attachments; adapter scope mount, except the marksman
 
 7 versions after merging. The Soviet SKS-45 and the many foreign copies differ only in small details (steel, stamped parts, bayonet type, stock), so they merge into one version. The Chinese Type 63 assault rifle and the PTRS-41 anti-tank rifle went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SKS | Standard carbine; fixed 10-round mag | 7.62×39mm | Most of 12 million or more (2.5–2.7 million Soviet, 9 million+ Chinese, plus others) | Soviet SKS-45 (Tula and Izhevsk; early spike bayonets and non-chrome bores), Chinese Type 56 (stamped-receiver run of about 12,000, fiberglass "jungle" stocks), Albanian Type 56-1 (longer stock, AK-style charging handle), Yugoslav M59 "Papovka", Romanian M56, East German Karabiner-S, Polish ksS, North Korean Type 63, Vietnamese Type 1 (about 6,000) and Viet Cong copies, Russian OP-SKS hunting carbines | semi | TBD | No |
-| 2 | M59/66 | Built-in 22mm rifle grenade launcher on the muzzle with a ladder sight and gas cut-off | 7.62×39mm | Unknown; Yugoslav production 1967–1989 | Yugoslav M59/66, M59/66A1 (night sights), North Korean Type 63 grenade-launcher model | semi | TBD | No |
-| 3 | AK-mag sporter | Semi-auto civilian carbine that takes detachable AK magazines | 7.62×39mm | Unknown | Chinese Type 56 Model D, Model M (no bayonet lug), Norinco Model M (Monte Carlo stock, 30-round AK mags), Type 56 Model 84 (short barrel, AK-style mag) | semi | TBD | No |
-| 4 | Auto prototype (rare) | Automatic fire, detachable box mag, detachable bayonet, new muzzle brake | 7.62×39mm | 1 or a few | SKS M1953 (select-fire), SKS M1950 (full auto), SKS M1951 (detachable mag) | semi, auto | TBD | No |
-| 5 | Marksman (rare) | Late-1950s prototype; spawns with a PU scope on a side rail; failed its accuracy tests and lost out to the SVD | 7.62×39mm | Few | — | semi | TBD | No |
-| 6 | SKS-41 (rare) | 1941 full-power prototype with a big muzzle brake and a 5- or 10-round mag; criticized for recoil and muzzle blast | 7.62×54mmR | About 50 ordered for trials, plus a 1944 trial batch | SKS-41, AKS-36-P41 | semi | TBD | No |
-| 7 | VPO-208 (rare) | Russian civilian smoothbore that fires .366 TKM | .366 TKM | Unknown | — | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SKS | Standard carbine; fixed 10-round mag | 7.62×39mm | Most of 12 million or more (2.5–2.7 million Soviet, 9 million+ Chinese, plus others) | Soviet SKS-45 (Tula and Izhevsk; early spike bayonets and non-chrome bores), Chinese Type 56 (stamped-receiver run of about 12,000, fiberglass "jungle" stocks), Albanian Type 56-1 (longer stock, AK-style charging handle), Yugoslav M59 "Papovka", Romanian M56, East German Karabiner-S, Polish ksS, North Korean Type 63, Vietnamese Type 1 (about 6,000) and Viet Cong copies, Russian OP-SKS hunting carbines | semi | TBD | No | stripper clip |
+| 2 | M59/66 | Built-in 22mm rifle grenade launcher on the muzzle with a ladder sight and gas cut-off | 7.62×39mm | Unknown; Yugoslav production 1967–1989 | Yugoslav M59/66, M59/66A1 (night sights), North Korean Type 63 grenade-launcher model | semi | TBD | No | stripper clip |
+| 3 | AK-mag sporter | Semi-auto civilian carbine that takes detachable AK magazines | 7.62×39mm | Unknown | Chinese Type 56 Model D, Model M (no bayonet lug), Norinco Model M (Monte Carlo stock, 30-round AK mags), Type 56 Model 84 (short barrel, AK-style mag) | semi | TBD | No | box mag |
+| 4 | Auto prototype (rare) | Automatic fire, detachable box mag, detachable bayonet, new muzzle brake | 7.62×39mm | 1 or a few | SKS M1953 (select-fire), SKS M1950 (full auto), SKS M1951 (detachable mag) | semi, auto | TBD | No | box mag |
+| 5 | Marksman (rare) | Late-1950s prototype; spawns with a PU scope on a side rail; failed its accuracy tests and lost out to the SVD | 7.62×39mm | Few | — | semi | TBD | No | stripper clip |
+| 6 | SKS-41 (rare) | 1941 full-power prototype with a big muzzle brake and a 5- or 10-round mag; criticized for recoil and muzzle blast | 7.62×54mmR | About 50 ordered for trials, plus a 1944 trial batch | SKS-41, AKS-36-P41 | semi | TBD | No | TBD |
+| 7 | VPO-208 (rare) | Russian civilian smoothbore that fires .366 TKM | .366 TKM | Unknown | — | semi | TBD | No | stripper clip |
 
 ## Sources
 

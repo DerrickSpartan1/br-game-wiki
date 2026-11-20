@@ -4,6 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Tubes load one shell at a time, like PUBG: a reload adds shells until the tube is full or the backpack runs out | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
+| 2026-11-20 | Every version gets a reload style in a new Reload column on its Versions table, which picks its animation set | [Gun page template](gun-page-template.md#reading-pages-as-data) |
+| 2026-11-20 | Sound travels at its real speed, and bullets still faster than sound crack as they fly past | [Gameplay](../systems/gameplay.md#sound) |
+| 2026-11-20 | Art and sound use free tools first, with some room for paid tools if a step stalls | [Gun art and sound](art-and-sound.md#who-does-what) |
 | 2026-11-20 | Gun art and sound aim for "good enough to get the feel down" for now (real size and shape, working parts, plain materials, sounds that tell guns and distances apart); polished art comes later | [Gun art and sound](art-and-sound.md) |
 | 2026-11-20 | Gun tuning waits until the guns have real models, since recoil is too hard to judge on gray-box placeholders; the target is the gun feel of PUBG in 2017–2018 | [First steps](first-steps.md) |
 | 2026-11-20 | Ammo and reloading work like PUBG: loose rounds of each caliber in the backpack, and a reload instantly refills the mag, belt, or drum from the backpack, topping off what's left (a 100-round belt with 40 left plus 40 in the backpack reloads to 80); en bloc clips stay the one exception | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |

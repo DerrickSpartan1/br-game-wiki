@@ -26,13 +26,13 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 33 standard
 
 5 versions after merging: the service gun plus four ultra-rare prototypes, one per cartridge. Skins: the Mk 1/42's wire stock, the Mk 1/43's wooden stock, and wartime camouflage paint.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Owen Mk 1 | Standard service Owen | 9×19mm | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns | semi, auto | 700 | Yes |
-| 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — | semi, auto | 700 | Yes |
-| 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — | semi, auto | 700 | Yes |
-| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — | semi, auto | 700 | Yes |
-| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | TBD | Yes |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Owen Mk 1 | Standard service Owen | 9×19mm | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns | semi, auto | 700 | Yes | top mag |
+| 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — | semi, auto | 700 | Yes | top mag |
+| 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — | semi, auto | 700 | Yes | top mag |
+| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — | semi, auto | 700 | Yes | top mag |
+| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | TBD | Yes | top mag |
 
 ## Sources
 

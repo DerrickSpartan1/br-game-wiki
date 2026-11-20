@@ -26,11 +26,11 @@ DMR/sniper family attachments, but no muzzle or suppressor slot, since the suppr
 
 3 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | VSS | Standard rifle with a PSO-1-1 scope | 9×39mm | Low (special forces only) | VSS (6P29) | semi, auto | 800–900 | No |
-| 2 | VSSM | Modernized: Picatinny rail on the dust cover, removable rail over the suppressor, aluminum stock with an adjustable cheek rest and butt pad, 30-round mag and 1P86 1×/4× scope as standard | 9×39mm | Unknown; deliveries from 2018 | VSSM (6P29M) | semi, auto | 800–900 | No |
-| 3 | KO VSS | Civilian, semi-auto only | 9×39mm | Unknown | KO VSS (Picatinny rail), KO VSS-01 (dovetail mount) | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | VSS | Standard rifle with a PSO-1-1 scope | 9×39mm | Low (special forces only) | VSS (6P29) | semi, auto | 800–900 | No | box mag |
+| 2 | VSSM | Modernized: Picatinny rail on the dust cover, removable rail over the suppressor, aluminum stock with an adjustable cheek rest and butt pad, 30-round mag and 1P86 1×/4× scope as standard | 9×39mm | Unknown; deliveries from 2018 | VSSM (6P29M) | semi, auto | 800–900 | No | box mag |
+| 3 | KO VSS | Civilian, semi-auto only | 9×39mm | Unknown | KO VSS (Picatinny rail), KO VSS-01 (dovetail mount) | semi | TBD | No | box mag |
 
 ## Sources
 

@@ -26,10 +26,10 @@ DMR/sniper family attachments; short proprietary dovetail rail on the receiver. 
 
 2 versions after merging. The QBU-191 marksman rifle (built on the QBZ-191) and the QBU-141 and CS/LR4 bolt-action sniper rifles are separate guns; they went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | QBU-88 | Standard rifle | 5.8×42mm | Unknown | QBU-88 (Type 88) | semi | TBD | No |
-| 2 | QBU-97A | Export version for foreign security forces; modified QBU-88 magazine | 5.56×45mm | Unknown | QBU-97A (Type 97), NQU03 (newer designation; may be the same rifle) | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | QBU-88 | Standard rifle | 5.8×42mm | Unknown | QBU-88 (Type 88) | semi | TBD | No | bullpup mag |
+| 2 | QBU-97A | Export version for foreign security forces; modified QBU-88 magazine | 5.56×45mm | Unknown | QBU-97A (Type 97), NQU03 (newer designation; may be the same rifle) | semi | TBD | No | bullpup mag |
 
 ## Sources
 

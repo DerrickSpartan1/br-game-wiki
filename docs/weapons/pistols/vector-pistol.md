@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 Versions TBD: they follow the Vector's calibers, to be listed.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | TBD | No | box mag |
 
 ## Sources
 

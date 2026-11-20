@@ -28,9 +28,9 @@ TBD
 
 1 version, with slam-fire like the full-size Ithaca 37.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | TBD | No | tube |
 
 ## Sources
 

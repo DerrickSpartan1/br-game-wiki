@@ -4,7 +4,10 @@
 
 Like PUBG. Ammo is loose rounds of each caliber, carried in the backpack. Reloading pulls rounds from the backpack into the gun's mag, belt, or drum instantly, with no filling one round at a time, and tops off whatever is still in the gun. For example, with 100 rounds of 5.56 in the backpack, emptying a 30-round M4 mag and reloading puts 30 in the gun and leaves 70. With a 100-round belt that has 40 left and 40 more in the backpack, reloading leaves 80 in the gun and none in the backpack.
 
-The one exception is [en bloc clips](../rules.md#en-bloc-clips): they can't be topped off, so reloading early ejects the partial clip and its rounds go back to the backpack.
+There are two exceptions:
+
+- **[En bloc clips](../rules.md#en-bloc-clips)** can't be topped off, so reloading early ejects the partial clip and its rounds go back to the backpack.
+- **Tubes** load one shell at a time, like PUBG's shotguns, so a reload adds shells until the tube is full or the backpack runs out. Each version's reload style is in the Reload column of its gun page ([Gun art and sound](../planning/art-and-sound.md#reload-styles)).
 
 ## Spawning and special rounds
 

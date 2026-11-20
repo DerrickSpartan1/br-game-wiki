@@ -28,24 +28,27 @@ The roster has 113 families and 573 versions, so models are shared:
 
 ## Reload styles
 
-Animations are shared by reload style, not made per gun. A hand-IK rig moves the off hand to each gun's own grip and magazine points, so one rifle reload fits both an M16 and an AK. Every reload follows the [PUBG-style ammo rules](../systems/ammo.md#how-ammo-and-reloading-work): swap the mag, belt, or drum and it comes back full.
+Animations are shared by reload style, not made per gun. Each version's style is in the Reload column of its Versions table ([template](gun-page-template.md#reading-pages-as-data)), so the game picks the animation set from the weapon data. Box mags cover 340 of the 573 versions; the other 12 styles cover the rest.
 
-| Reload style | What the hands do | Examples |
+A hand-IK rig moves the off hand to each gun's own grip and magazine points, so one rifle reload fits both an M16 and an AK. Reloads follow the [PUBG-style ammo rules](../systems/ammo.md#how-ammo-and-reloading-work): swap the mag, belt, or pan and it comes back full. Tubes and en bloc clips are the exceptions.
+
+| Reload | What the hands do | Examples |
 | --- | --- | --- |
-| Box mag, rifle | Mag out, mag in; an empty reload also works the bolt or charging handle | [M16 / M4](../weapons/assault-rifles/m16-m4.md), [AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md), [FN FAL](../weapons/battle-rifles/fn-fal.md), [MP5](../weapons/smgs/mp5.md) |
-| Grip mag | Mag drops from the grip; an empty reload also racks or drops the slide or bolt | [M1911](../weapons/pistols/m1911.md), [Glock 17 / 18](../weapons/pistols/glock-17-18.md), [Uzi](../weapons/smgs/uzi.md), [MAC-10 / 11](../weapons/smgs/mac-10-11.md) |
-| Bullpup | The mag sits behind the grip, so the off hand reaches back | [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [QBZ-95](../weapons/assault-rifles/qbz-95.md), [Tavor](../weapons/assault-rifles/tavor.md), [FAMAS](../weapons/assault-rifles/famas.md), [SA80](../weapons/assault-rifles/sa80.md) |
-| Side or top mag | Mag goes in from the side or the top | [Sten](../weapons/smgs/sten.md), [FG 42](../weapons/battle-rifles/fg-42.md), [Bren](../weapons/lmgs/bren.md), [P90](../weapons/smgs/p90.md) |
-| Pan on top | Lift the empty pan off and set a full one on | [DP-27](../weapons/lmgs/dp-27.md) |
-| Belt with feed cover | Open the cover, lay the belt in, close it, cock | [MG 42 / MG3](../weapons/lmgs/mg-42.md), [M60](../weapons/lmgs/m60.md), [PK / PKM](../weapons/lmgs/pk.md), [FN Minimi / M249](../weapons/lmgs/minimi.md), [RPD](../weapons/lmgs/rpd.md) |
-| Tube, shell by shell | Shells go in one at a time | [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [KSG](../weapons/shotguns/ksg.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md) |
-| Stripper clip | Bolt back, rounds pushed down from a clip | [SKS](../weapons/battle-rifles/sks.md), [C96](../weapons/pistols/c96.md) |
-| En bloc | Clip pushed in from the top; it pings out when empty ([Rules](../rules.md#en-bloc-clips)) | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
-| Break action and single shot | Open, swap rounds, close | [Garrucha](../weapons/pistols/garrucha.md), [FP-45 Liberator](../weapons/pistols/fp-45-liberator.md) |
-| Revolver | Open the cylinder, dump, reload | [Janz](../weapons/pistols/janz.md) |
-| Bolt action | Bolt up, back, forward, down | Snipers, the next category |
+| `box mag` | Mag out, mag in, under or ahead of the grip; an empty reload also works the bolt or charging handle | [M16 / M4](../weapons/assault-rifles/m16-m4.md), [AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md), [FN FAL](../weapons/battle-rifles/fn-fal.md), [MP5](../weapons/smgs/mp5.md) |
+| `grip mag` | Mag drops from the grip; an empty reload also racks or drops the slide or bolt | [M1911](../weapons/pistols/m1911.md), [Glock 17 / 18](../weapons/pistols/glock-17-18.md), [Uzi](../weapons/smgs/uzi.md), [MAC-10 / 11](../weapons/smgs/mac-10-11.md) |
+| `bullpup mag` | The mag sits behind the grip, so the off hand reaches back | [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [QBZ-95](../weapons/assault-rifles/qbz-95.md), [Tavor](../weapons/assault-rifles/tavor.md), [FAMAS](../weapons/assault-rifles/famas.md), [SA80](../weapons/assault-rifles/sa80.md) |
+| `side mag` | Mag goes in from the side | [Sten](../weapons/smgs/sten.md), [Sterling](../weapons/smgs/sterling.md), [MP 18](../weapons/smgs/mp18.md), [FG 42](../weapons/battle-rifles/fg-42.md) |
+| `top mag` | Mag goes in from the top | [Bren](../weapons/lmgs/bren.md), [Owen](../weapons/smgs/owen.md), [P90](../weapons/smgs/p90.md) |
+| `pan` | Lift the empty pan off and set a full one on | [DP-27](../weapons/lmgs/dp-27.md) |
+| `belt` | Open the feed cover, lay the belt in, close it, cock | [MG 42 / MG3](../weapons/lmgs/mg-42.md), [M60](../weapons/lmgs/m60.md), [PK / PKM](../weapons/lmgs/pk.md), [FN Minimi / M249](../weapons/lmgs/minimi.md), [RPD](../weapons/lmgs/rpd.md) |
+| `tube` | One shell at a time, like PUBG | [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [KSG](../weapons/shotguns/ksg.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md) |
+| `stripper clip` | Bolt back, rounds pushed down into a fixed mag | [SKS](../weapons/battle-rifles/sks.md), [C96](../weapons/pistols/c96.md) |
+| `en bloc` | Clip pushed in from the top; it pings out when empty ([Rules](../rules.md#en-bloc-clips)) | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
+| `break action` | Open, swap shells, close | [Garrucha](../weapons/pistols/garrucha.md) |
+| `single shot` | Open the breech, swap the round | [FP-45 Liberator](../weapons/pistols/fp-45-liberator.md) |
+| `revolver` | Open the cylinder, dump, reload | [Janz](../weapons/pistols/janz.md) |
 
-Every gun also needs equip, holster, and fire-mode switch moves. Versions that cycle by hand (pump, lever, straight-pull, two-pull) add one "work the action" move after each shot.
+Some versions take two, like the Minimi's belt or M16 mags, listed as `belt, box mag`; the second comes with another mag tier. Every gun also needs equip, holster, and fire-mode switch moves. Versions that cycle by hand (pump, lever, straight-pull, two-pull, and the bolt-action snipers to come) add one "work the action" move after each shot.
 
 ## Steps for each gun
 
@@ -84,6 +87,7 @@ Claude can't listen to audio, so you pick sounds by ear. Claude finds them, chec
 - **Report:** the bang. Shared by caliber, with a small pitch change per family, so a 7.62×39mm RPD and AKM sound related but not the same.
 - **Tail:** the echo, set by the surroundings: open ground, forest, town, or indoors.
 - **Distant:** separate mid and far recordings that blend in by distance, rather than the close shot turned down. A shot turned down just sounds weak.
+- **Crack:** supersonic bullets crack as they fly past you. Sound travels at its real speed, so far shots arrive late and the crack lands before the bang ([Gameplay](../systems/gameplay.md#sound)).
 - **Suppressed:** its own report for suppressed versions and attachments.
 
 Each layer gets several takes, and every shot picks one at random with a slight pitch change, so a long burst never repeats the same sound. Claude Code builds one shared gunshot MetaSound that does this, and every gun plugs its sounds into it.
@@ -118,7 +122,7 @@ Audacity (free) is enough to trim, fade, and level sounds. Keep raw sound librar
 
 The Blender connector runs Claude's code in Blender with no safety checks, so save the file before each step, the same way the game repo commits before bulk changes through Unreal MCP. In the Claude desktop app it's under Settings, then Connectors. Claude Code needs one setup command, which it can run for you.
 
-**Cost:** everything above has a free route: Blender, Unreal and its template and sample content, Sonniss, Freesound, and free Fab assets. Paid tools are optional: AI 3D generators ran about $20 to $150 a month in April 2026, plus Cascadeur Indie and paid Fab packs.
+**Cost:** free tools first, with some room for paid tools if a step stalls. Everything above has a free route: Blender, Unreal and its template and sample content, Sonniss, Freesound, and free Fab assets. If paid help is needed: AI 3D generators ran about $20 to $150 a month in April 2026, plus Cascadeur Indie and paid Fab packs.
 
 ## Pilot: four guns first
 
@@ -145,7 +149,7 @@ before you do it:
    whether it needs a credit.
 2. Write the gun model conventions into this repo: units, origin and
    axes (match BRBlockGun and the template rifle), bone and socket
-   names for each reload style on the wiki page, the polygon budget
+   names for each reload style in the wiki's Reload column, the polygon budget
    (start from the template rifle), shared materials, and export
    settings.
 3. Help me connect the Blender connector to Claude Code.

@@ -28,9 +28,9 @@ Pistol/SMG family attachments; same drum tiers as the Thompson (100-round extend
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Thompson pistol | Semi-auto, no stock | .45 ACP | Unknown | Auto-Ordnance 1927A5, Kahr TA5 | TBD | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Thompson pistol | Semi-auto, no stock | .45 ACP | Unknown | Auto-Ordnance 1927A5, Kahr TA5 | TBD | TBD | No | box mag |
 
 ## Sources
 

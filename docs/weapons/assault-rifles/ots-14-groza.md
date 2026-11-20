@@ -26,12 +26,12 @@ AR/LMG/battle rifle family attachments; scope mount on the carry handle plus a n
 
 4 versions after merging. Its real configurations (foregrip rifle, suppressor-ready carbine, scoped "sniper" kit, grenade launcher) are just attachment setups, so they merge into each caliber version. The OTs-12 Tiss it grew out of is already a 9×39 version in the AK-74 family.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Groza-4 | Original subsonic version; 9.4 in barrel; 20-round mag; 200 m | 9×39mm | Most made | OTs-14-4A, -4A-01 (foregrip), -4A-02 (suppressor-ready carbine), -4A-03 (scoped) | semi, auto | 700–750 | No |
-| 2 | Groza-1 | Supersonic version on an AKM receiver with an AK-74-style flash hider; takes AK mags; more power and range (300 m) | 7.62×39mm | Fewer (Army adoption in 1998, then funding cut) | OTs-14-1A (TKB-0239), -1A-01, -1A-02, -1A-03, -1A-04 (GP-30), Special Mission Configuration | semi, auto | 700–750 | No |
-| 3 | OTs-14-2A | Experimental | 5.45×39mm | Prototypes only | — | semi, auto | 700–750 | No |
-| 4 | OTs-14-3A | Experimental | 5.56×45mm | Prototypes only | — | semi, auto | 700–750 | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Groza-4 | Original subsonic version; 9.4 in barrel; 20-round mag; 200 m | 9×39mm | Most made | OTs-14-4A, -4A-01 (foregrip), -4A-02 (suppressor-ready carbine), -4A-03 (scoped) | semi, auto | 700–750 | No | bullpup mag |
+| 2 | Groza-1 | Supersonic version on an AKM receiver with an AK-74-style flash hider; takes AK mags; more power and range (300 m) | 7.62×39mm | Fewer (Army adoption in 1998, then funding cut) | OTs-14-1A (TKB-0239), -1A-01, -1A-02, -1A-03, -1A-04 (GP-30), Special Mission Configuration | semi, auto | 700–750 | No | bullpup mag |
+| 3 | OTs-14-2A | Experimental | 5.45×39mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag |
+| 4 | OTs-14-3A | Experimental | 5.56×45mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag |
 
 ## Sources
 

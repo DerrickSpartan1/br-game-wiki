@@ -44,7 +44,12 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 
 ## Sound
 
-Sound is a major focus. How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
+Sound is a major focus.
+
+- **Real sound travel:** sound moves at its real speed, about 343 m/s, so a shot 300 m away is heard almost a second after it's fired.
+- **Bullet crack:** bullets still faster than sound crack as they fly past you. The crack lands before the bang, so the gap between them hints at how far away the shooter is. Subsonic rounds, like .45 ACP and the [VSS](../weapons/battle-rifles/vss.md)'s 9×39mm, don't crack.
+
+How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
 
 ## Anti-cheat
 

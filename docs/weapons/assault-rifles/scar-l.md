@@ -28,14 +28,14 @@ AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom). U
 
 6 versions after merging. The real field-swap barrels become separate versions. The 7.62mm [FN SCAR-H](../battle-rifles/scar-h.md), with the Mk 20 SSR and SCAR 20S marksman rifles, has its own page, and the HAMR automatic rifles went on the [guns to add later](../../planning/add-later.md) list. The Mk 17's 5.56 conversion kit is a version on the SCAR-H page, since it's still a Mk 17.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SCAR-L STD | Standard 14 in barrel; 500 m | 5.56×45mm | Most military SCAR-Ls; 850 Mk 16s for SOCOM, plus Belgium, Portugal, and others (totals not split from the SCAR-H) | Mk 16 Mod 0 STD, FNAC (FN Advanced Carbine prototype: bayonet lug, non-reciprocating charging handle, 140 g lighter) | semi, auto | 625–650 | No |
-| 2 | SCAR-L CQC | 10 in barrel; 400 m | 5.56×45mm | Unknown | Mk 16 Mod 0 CQC | semi, auto | 625–650 | No |
-| 3 | SCAR-L LB | 18 in long barrel | 5.56×45mm | Unknown | Mk 16 Mod 0 LB | semi, auto | 625–650 | No |
-| 4 | SCAR-SC | Subcompact (2018): 7.5 in barrel, 3.1 kg, 200 m | 5.56×45mm | Unknown | SCAR-SC, SCAR PDW (6.7 in barrel; discontinued, replaced by the SC) | semi, auto | 625–650 | No |
-| 5 | SCAR-SC .300 BLK | Subcompact in .300 Blackout | .300 Blackout | Unknown | — | semi, auto | 625–650 | No |
-| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.29 kg (7.25 lb), folding front and rear iron sights | 5.56×45mm | Unknown; the original run ended October 2025 | SCAR 16S, next-generation SCAR 16S (2026: hydraulically buffered bolt carrier, M-LOK rail, non-reciprocating charging handle, 8.7 lb) | semi | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SCAR-L STD | Standard 14 in barrel; 500 m | 5.56×45mm | Most military SCAR-Ls; 850 Mk 16s for SOCOM, plus Belgium, Portugal, and others (totals not split from the SCAR-H) | Mk 16 Mod 0 STD, FNAC (FN Advanced Carbine prototype: bayonet lug, non-reciprocating charging handle, 140 g lighter) | semi, auto | 625–650 | No | box mag |
+| 2 | SCAR-L CQC | 10 in barrel; 400 m | 5.56×45mm | Unknown | Mk 16 Mod 0 CQC | semi, auto | 625–650 | No | box mag |
+| 3 | SCAR-L LB | 18 in long barrel | 5.56×45mm | Unknown | Mk 16 Mod 0 LB | semi, auto | 625–650 | No | box mag |
+| 4 | SCAR-SC | Subcompact (2018): 7.5 in barrel, 3.1 kg, 200 m | 5.56×45mm | Unknown | SCAR-SC, SCAR PDW (6.7 in barrel; discontinued, replaced by the SC) | semi, auto | 625–650 | No | box mag |
+| 5 | SCAR-SC .300 BLK | Subcompact in .300 Blackout | .300 Blackout | Unknown | — | semi, auto | 625–650 | No | box mag |
+| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.29 kg (7.25 lb), folding front and rear iron sights | 5.56×45mm | Unknown; the original run ended October 2025 | SCAR 16S, next-generation SCAR 16S (2026: hydraulically buffered bolt carrier, M-LOK rail, non-reciprocating charging handle, 8.7 lb) | semi | TBD | No | box mag |
 
 ## Sources
 

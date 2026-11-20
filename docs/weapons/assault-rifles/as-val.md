@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments, but no muzzle or suppressor slot on the 
 
 2 versions after merging. 9×39mm is now shared with the AK-74 family's 9×39 versions. The Val's sniper twin, the [VSS Vintorez](../battle-rifles/vss.md), has its own page in battle rifles & DMRs.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AS Val | Built-in suppressor, side-folding stock, 20-round mag | 9×39mm | Low (special forces only) | AS Val (6P30), ASM (6P30M: rail dust cover, rail over the suppressor, 30-round mag standard) | semi, auto | 800–900 | No |
-| 2 | SR-3 Vikhr | Compact Val with no built-in suppressor: 6.1 in barrel, top-folding stock, 2 kg, 700–900 RPM, 200 m; the SR-3M adds a folding foregrip and its own quick-detach suppressor (unique attachment) | 9×39mm | Few (FSB and Spetsnaz; too costly for mass issue) | SR-3, SR-3M, SR-3MP (dovetail and side rails) | semi, auto | 700–900 | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | AS Val | Built-in suppressor, side-folding stock, 20-round mag | 9×39mm | Low (special forces only) | AS Val (6P30), ASM (6P30M: rail dust cover, rail over the suppressor, 30-round mag standard) | semi, auto | 800–900 | No | box mag |
+| 2 | SR-3 Vikhr | Compact Val with no built-in suppressor: 6.1 in barrel, top-folding stock, 2 kg, 700–900 RPM, 200 m; the SR-3M adds a folding foregrip and its own quick-detach suppressor (unique attachment) | 9×39mm | Few (FSB and Spetsnaz; too costly for mass issue) | SR-3, SR-3M, SR-3MP (dovetail and side rails) | semi, auto | 700–900 | No | box mag |
 
 ## Sources
 

@@ -28,16 +28,16 @@ AR/LMG/battle rifle family attachments; adapter scope mount, native rails on the
 
 8 versions after merging. Most license-built FALs differ only in small details, so they merge by type. The heavy-barrel squad versions, the 5.56mm FN CAL, and Brazil's IMBEL IA2 and MD97 went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | FAL | Standard metric rifle; select-fire; 533 mm barrel | 7.62×51mm | Most of about 7 million | FAL 50.00, 50.41 (synthetic stock), 50.61 (folding stock, full barrel), Austrian StG 58 (integral bipod, grenade launcher), West German G1 (100,000), South African R1, Argentine FAL M5, FAMA, FAMCa, and FAMTD, Brazilian FAL and IMBEL M964 family (M964A1 with a rail), Israeli Romat, Dutch FAL, Mexican and Venezuelan rifles | semi, auto | 650–700 | No |
-| 2 | L1A1 SLR | Commonwealth inch-pattern rifle; semi-auto only | 7.62×51mm | Unknown; Canada alone made 80,000–90,000 C1s | British L1A1, Australian L1A1 (1959), Canadian C1 and C1A1, Indian copies, Century Arms L1A1 (civilian) | semi | TBD | No |
-| 3 | Para | Folding stock and a short 440–457 mm barrel; folding charging handle on the 50.63 | 7.62×51mm | Unknown | FAL 50.63 Para (for Belgian paratroopers, to fit the door of the C-119), FAL 50.64 / South African R2 (lightweight folding stock), 457 mm Paratrooper, R1 Para Carbine | semi, auto | 650–700 | No |
-| 4 | Civilian | Semi-auto only; 279–533 mm barrels | 7.62×51mm | Unknown | DSA SA58 (from 1997; aluminum lower), SA58 CTC, OSW, and Kommando, Springfield Armory SAR-48 and SAR-4800, the Peruvian Casanave derivative (2010) | semi | TBD | No |
-| 5 | Marksman | Semi-auto only; fluted heavy barrel; 10-round mags | 7.62×51mm | Unknown | DSA SA58 SPR (19 in barrel), SA58 DMR (16.25 in heavy barrel), South African R1 Sniper | semi | TBD | No |
-| 6 | Venezuelan 7mm (rare) | Venezuela's first 5,000 FN rifles, later rebarreled to 7.62 NATO | 7×49.15mm Optimum 2 | 5,000 (1954) | — | semi, auto | 650–700 | No |
-| 7 | .280 prototype (rare) | 1951 Experimental Automatic Carbine tested at Aberdeen | .280 British | Few | FAL .280 Long Model, FAL .280 Short Model (bullpup frame) | semi, auto | TBD | No |
-| 8 | Universal Carbine (rare) | 1947 prototype in the StG 44 round | 7.92×33mm Kurz | Few | — | semi, auto | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | FAL | Standard metric rifle; select-fire; 533 mm barrel | 7.62×51mm | Most of about 7 million | FAL 50.00, 50.41 (synthetic stock), 50.61 (folding stock, full barrel), Austrian StG 58 (integral bipod, grenade launcher), West German G1 (100,000), South African R1, Argentine FAL M5, FAMA, FAMCa, and FAMTD, Brazilian FAL and IMBEL M964 family (M964A1 with a rail), Israeli Romat, Dutch FAL, Mexican and Venezuelan rifles | semi, auto | 650–700 | No | box mag |
+| 2 | L1A1 SLR | Commonwealth inch-pattern rifle; semi-auto only | 7.62×51mm | Unknown; Canada alone made 80,000–90,000 C1s | British L1A1, Australian L1A1 (1959), Canadian C1 and C1A1, Indian copies, Century Arms L1A1 (civilian) | semi | TBD | No | box mag |
+| 3 | Para | Folding stock and a short 440–457 mm barrel; folding charging handle on the 50.63 | 7.62×51mm | Unknown | FAL 50.63 Para (for Belgian paratroopers, to fit the door of the C-119), FAL 50.64 / South African R2 (lightweight folding stock), 457 mm Paratrooper, R1 Para Carbine | semi, auto | 650–700 | No | box mag |
+| 4 | Civilian | Semi-auto only; 279–533 mm barrels | 7.62×51mm | Unknown | DSA SA58 (from 1997; aluminum lower), SA58 CTC, OSW, and Kommando, Springfield Armory SAR-48 and SAR-4800, the Peruvian Casanave derivative (2010) | semi | TBD | No | box mag |
+| 5 | Marksman | Semi-auto only; fluted heavy barrel; 10-round mags | 7.62×51mm | Unknown | DSA SA58 SPR (19 in barrel), SA58 DMR (16.25 in heavy barrel), South African R1 Sniper | semi | TBD | No | box mag |
+| 6 | Venezuelan 7mm (rare) | Venezuela's first 5,000 FN rifles, later rebarreled to 7.62 NATO | 7×49.15mm Optimum 2 | 5,000 (1954) | — | semi, auto | 650–700 | No | box mag |
+| 7 | .280 prototype (rare) | 1951 Experimental Automatic Carbine tested at Aberdeen | .280 British | Few | FAL .280 Long Model, FAL .280 Short Model (bullpup frame) | semi, auto | TBD | No | box mag |
+| 8 | Universal Carbine (rare) | 1947 prototype in the StG 44 round | 7.92×33mm Kurz | Few | — | semi, auto | TBD | No | box mag |
 
 ## Sources
 

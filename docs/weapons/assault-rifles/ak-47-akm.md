@@ -26,15 +26,15 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 
 7 versions after merging; the AKM should be the most common roll, and the balanced-recoil AK-109 a rare one. 7.62×39mm and 5.56×45mm are new to the ammo pool. Skins: the Romanian PM md. 63's built-in vertical foregrip, laminate and polymer furniture, and the Yugoslav M70. The RPK goes in the LMG category later. The Galil, Beryl, and vz. 58 already have their own spots in the AR queue, and the INSAS is a possible addition.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AK-47 | Original milled receiver; heavier but a bit more accurate | 7.62×39mm | Fewer than the AKM | Type 1, 2, and 3 receivers, AKS (underfolding stock), AKN (night sight rail), early Chinese Type 56, North Korean Type 58, Bulgarian AKK, East German MPi-K, Polish PMK, Iranian KLS/KLF, Hungarian AK-55 | semi, auto | 600 | No |
-| 2 | AKM | Stamped, about a third lighter, slanted muzzle brake, rate reducer | 7.62×39mm | The most produced AK | AKM, AKMS, AKMN, later Chinese Type 56, North Korean Type 68, East German MPi-KM, Polish kbk AKM, Romanian PM md. 63/65, Hungarian AKM-63, Yugoslav M70 series, Iraqi Tabuk, Egyptian Misr and Maadi, Albanian ASH-78/82, Vietnamese AKM-1, Pakistani PK-10 and Khyber Pass copies, Finnish Rk 62, US semi-auto builds (Century, PSA, Arsenal) | semi, auto | 600 | No |
-| 3 | Short AK | Shortened barrel and folding stock | 7.62×39mm | Unknown | Hungarian AMD-65, Bulgarian AKS-47S and AKS-47UF, East German MPi-KMS-K, Iraqi Tabuk Short, Albanian short AKMS | semi, auto | 600 | No |
-| 4 | AK-103 | Modern 100-series: polymer furniture, side-folding stock, optics side rail | 7.62×39mm | Unknown | AK-103, AK-104 (short), AK-203, AK-204, Ethiopian Et-97/1 | semi, auto | 600 | No |
-| 5 | 5.56 AK | AK-47/AKM pattern in NATO caliber | 5.56×45mm | Unknown | Bulgarian AK-47MA1/AR-M1, AKS-47M1, and AR-SF, Hungarian NGM-81 | semi, auto | 600 | No |
-| 6 | .22 trainer | Training rifles; East Germany's was select-fire | .22 LR | Unknown | Bulgarian AKT-47, East German KK-MPi Mod.69 | semi, auto | TBD | No |
-| 7 | AK-109 (rare) | Balanced-recoil AK (same action as the AK-107: near-zero felt recoil, faster fire, heavier); exact stats TBD, needs a separate lookup | 7.62×39mm | Few | — | TBD | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | AK-47 | Original milled receiver; heavier but a bit more accurate | 7.62×39mm | Fewer than the AKM | Type 1, 2, and 3 receivers, AKS (underfolding stock), AKN (night sight rail), early Chinese Type 56, North Korean Type 58, Bulgarian AKK, East German MPi-K, Polish PMK, Iranian KLS/KLF, Hungarian AK-55 | semi, auto | 600 | No | box mag |
+| 2 | AKM | Stamped, about a third lighter, slanted muzzle brake, rate reducer | 7.62×39mm | The most produced AK | AKM, AKMS, AKMN, later Chinese Type 56, North Korean Type 68, East German MPi-KM, Polish kbk AKM, Romanian PM md. 63/65, Hungarian AKM-63, Yugoslav M70 series, Iraqi Tabuk, Egyptian Misr and Maadi, Albanian ASH-78/82, Vietnamese AKM-1, Pakistani PK-10 and Khyber Pass copies, Finnish Rk 62, US semi-auto builds (Century, PSA, Arsenal) | semi, auto | 600 | No | box mag |
+| 3 | Short AK | Shortened barrel and folding stock | 7.62×39mm | Unknown | Hungarian AMD-65, Bulgarian AKS-47S and AKS-47UF, East German MPi-KMS-K, Iraqi Tabuk Short, Albanian short AKMS | semi, auto | 600 | No | box mag |
+| 4 | AK-103 | Modern 100-series: polymer furniture, side-folding stock, optics side rail | 7.62×39mm | Unknown | AK-103, AK-104 (short), AK-203, AK-204, Ethiopian Et-97/1 | semi, auto | 600 | No | box mag |
+| 5 | 5.56 AK | AK-47/AKM pattern in NATO caliber | 5.56×45mm | Unknown | Bulgarian AK-47MA1/AR-M1, AKS-47M1, and AR-SF, Hungarian NGM-81 | semi, auto | 600 | No | box mag |
+| 6 | .22 trainer | Training rifles; East Germany's was select-fire | .22 LR | Unknown | Bulgarian AKT-47, East German KK-MPi Mod.69 | semi, auto | TBD | No | box mag |
+| 7 | AK-109 (rare) | Balanced-recoil AK (same action as the AK-107: near-zero felt recoil, faster fire, heavier); exact stats TBD, needs a separate lookup | 7.62×39mm | Few | — | TBD | TBD | No | box mag |
 
 ## Sources
 

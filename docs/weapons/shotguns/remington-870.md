@@ -26,16 +26,16 @@ Tube extension attachment; assault rifle family mags on the box-mag version; oth
 
 8 versions after merging, out of hundreds of factory models. Rifled slug barrels merge in because slugs are an ammo type, and 3½ in Super Magnum chambers merge into the 12 gauge. Skins: Wingmaster walnut and blued steel, Express, camo turkey and waterfowl finishes, the corrosion-resistant Marine Magnum finish, and Norinco copies.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 870, long | 21 to 30 in barrel | 12 gauge | Unknown | Wingmaster, Express, Fieldmaster, Super Magnum, SPS, turkey and waterfowl models, rifled slug guns | pump | TBD | No |
-| 2 | 870, short | 18 to 20 in barrel | 12 gauge | Unknown | Police models, Marine Magnum, U.S. military M870, short deer guns | pump | TBD | No |
-| 3 | 870, breacher | 14 in barrel | 12 gauge | Unknown | Short-barrel breaching models | pump | TBD | No |
-| 4 | 870, box magazine | 6+1 detachable box instead of the tube | 12 gauge | Unknown | — | pump | TBD | No |
-| 5 | 870, 16 gauge | — | 16 gauge | Unknown | — | pump | TBD | No |
-| 6 | 870, 20 gauge | Smaller receiver from 1972 | 20 gauge | Unknown | 20 gauge Wingmaster, Fieldmaster, and Lightweight | pump | TBD | No |
-| 7 | 870, 28 gauge | Smaller receiver (1969) | 28 gauge | Unknown | — | pump | TBD | No |
-| 8 | 870, .410 | Smaller receiver (1969) | .410 bore | Unknown | .410 Wingmaster, .410 Turkey TSS | pump | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 870, long | 21 to 30 in barrel | 12 gauge | Unknown | Wingmaster, Express, Fieldmaster, Super Magnum, SPS, turkey and waterfowl models, rifled slug guns | pump | TBD | No | tube |
+| 2 | 870, short | 18 to 20 in barrel | 12 gauge | Unknown | Police models, Marine Magnum, U.S. military M870, short deer guns | pump | TBD | No | tube |
+| 3 | 870, breacher | 14 in barrel | 12 gauge | Unknown | Short-barrel breaching models | pump | TBD | No | tube |
+| 4 | 870, box magazine | 6+1 detachable box instead of the tube | 12 gauge | Unknown | — | pump | TBD | No | box mag |
+| 5 | 870, 16 gauge | — | 16 gauge | Unknown | — | pump | TBD | No | tube |
+| 6 | 870, 20 gauge | Smaller receiver from 1972 | 20 gauge | Unknown | 20 gauge Wingmaster, Fieldmaster, and Lightweight | pump | TBD | No | tube |
+| 7 | 870, 28 gauge | Smaller receiver (1969) | 28 gauge | Unknown | — | pump | TBD | No | tube |
+| 8 | 870, .410 | Smaller receiver (1969) | .410 bore | Unknown | .410 Wingmaster, .410 Turkey TSS | pump | TBD | No | tube |
 
 ## Sources
 

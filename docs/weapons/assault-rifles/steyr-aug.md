@@ -26,19 +26,19 @@ AR/LMG/battle rifle family attachments; the AUG A1's built-in Swarovski 1.5× sc
 
 11 versions after merging, including a funny version. Triggers (game choice): most versions use the progressive trigger, played as semi/auto on the normal fire-mode selector key; the AUG Carbine gets semi plus 3-round burst; the civilian version and F88T trainer are semi-only. The AUG HBAR (heavy barrel, bipod, open bolt) goes in the LMG category later, and the experimental AICW went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AUG A1 | 20 in barrel with the built-in 1.5× scope (can't swap optics) | 5.56×45mm | Most made | AUG A1, Austrian StG 77, F88 and F88S Austeyr, New Zealand IW Steyr, Irish AUG A1, Uruguayan A2UR, Malaysian SME AUG, Taiwanese Type 68 (iron-sight skin) | semi, auto | 680–750 | No |
-| 2 | AUG A3 | Rail receiver that takes any optic, bolt release button | 5.56×45mm | Unknown | AUG A2, A3, A3 SF, A3-CQC prototype, Austrian StG 77 KPE, A1 MP, A1 MOD, Nightfighter, A2 Kommando, Irish Mod 14, F88SA1 and F88SA2 | semi, auto | 680–750 | No |
-| 3 | AUG Carbine | 15 or 16.4 in barrel, no bayonet lug; semi and 3-round burst | 5.56×45mm | Unknown | F88C, F88SA1C, Steyr carbine barrels | semi, 3-round burst | 680–750 | No |
-| 4 | EF88 / F90 | Australian upgrade: fixed fluted barrel, long top, side, and bottom rails, folding cocking handle, bolt release on the buttstock, about 740 RPM, SL40 launcher | 5.56×45mm | 38,500+ for Australia | EF88, F90, F90MBR (STANAG mags), Korean DSR-90 | semi, auto | 740 | No |
-| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | AUG P, AUG SA, AUG Z, Z Sport, Z A3, Z A3 SE, USR (thumbhole), A3 SA USA, A3 SA NATO, A3 M1, A3 M2, Microtech STG-556, TPD AXR, Oberland OA-UG | semi | TBD | No |
-| 6 | AUG 9mm | Blowback SMG version; Steyr MPi 69 mags (25 or 32); 650–720 RPM; 2.97 kg | 9×19mm | Unknown | AUG Para, A3 9mm XS, AUG Z A3 9mm | semi, auto | 650–720 | No |
-| 7 | AUG 40 | SMG version that takes Glock mags; 13.1 in barrel | .40 S&W | Few (São Paulo police) | — | semi, auto | TBD | No |
-| 8 | AUG .300 BLK | A3 in .300 Blackout (2019) | .300 Blackout | Few | — | semi, auto | 680–750 | No |
-| 9 | AUG 7.62×39 | Unveiled in 2025 | 7.62×39mm | Few | — | semi, auto | TBD | No |
-| 10 | F88T | Australian .22 training rifle (1999) | .22 LR | Unknown | — | semi | TBD | No |
-| 11 | AUG Z SP (funny version) | UK straight-pull only: you cycle the action by hand after every shot | 5.56×45mm | Few | — | straight-pull | TBD | No |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | AUG A1 | 20 in barrel with the built-in 1.5× scope (can't swap optics) | 5.56×45mm | Most made | AUG A1, Austrian StG 77, F88 and F88S Austeyr, New Zealand IW Steyr, Irish AUG A1, Uruguayan A2UR, Malaysian SME AUG, Taiwanese Type 68 (iron-sight skin) | semi, auto | 680–750 | No | bullpup mag |
+| 2 | AUG A3 | Rail receiver that takes any optic, bolt release button | 5.56×45mm | Unknown | AUG A2, A3, A3 SF, A3-CQC prototype, Austrian StG 77 KPE, A1 MP, A1 MOD, Nightfighter, A2 Kommando, Irish Mod 14, F88SA1 and F88SA2 | semi, auto | 680–750 | No | bullpup mag |
+| 3 | AUG Carbine | 15 or 16.4 in barrel, no bayonet lug; semi and 3-round burst | 5.56×45mm | Unknown | F88C, F88SA1C, Steyr carbine barrels | semi, 3-round burst | 680–750 | No | bullpup mag |
+| 4 | EF88 / F90 | Australian upgrade: fixed fluted barrel, long top, side, and bottom rails, folding cocking handle, bolt release on the buttstock, about 740 RPM, SL40 launcher | 5.56×45mm | 38,500+ for Australia | EF88, F90, F90MBR (STANAG mags), Korean DSR-90 | semi, auto | 740 | No | bullpup mag |
+| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | AUG P, AUG SA, AUG Z, Z Sport, Z A3, Z A3 SE, USR (thumbhole), A3 SA USA, A3 SA NATO, A3 M1, A3 M2, Microtech STG-556, TPD AXR, Oberland OA-UG | semi | TBD | No | bullpup mag |
+| 6 | AUG 9mm | Blowback SMG version; Steyr MPi 69 mags (25 or 32); 650–720 RPM; 2.97 kg | 9×19mm | Unknown | AUG Para, A3 9mm XS, AUG Z A3 9mm | semi, auto | 650–720 | No | bullpup mag |
+| 7 | AUG 40 | SMG version that takes Glock mags; 13.1 in barrel | .40 S&W | Few (São Paulo police) | — | semi, auto | TBD | No | bullpup mag |
+| 8 | AUG .300 BLK | A3 in .300 Blackout (2019) | .300 Blackout | Few | — | semi, auto | 680–750 | No | bullpup mag |
+| 9 | AUG 7.62×39 | Unveiled in 2025 | 7.62×39mm | Few | — | semi, auto | TBD | No | bullpup mag |
+| 10 | F88T | Australian .22 training rifle (1999) | .22 LR | Unknown | — | semi | TBD | No | bullpup mag |
+| 11 | AUG Z SP (funny version) | UK straight-pull only: you cycle the action by hand after every shot | 5.56×45mm | Few | — | straight-pull | TBD | No | bullpup mag |
 
 ## Sources
 

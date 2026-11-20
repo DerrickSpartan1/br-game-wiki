@@ -28,11 +28,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with wire cutters (a melee item) or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md)).
 - **Briefcase spawns:** an idea, not decided. The AS Val and OTs-14 Groza came in real carry cases, so they could spawn as a briefcase find.
 
-## Art and sound
-
-- **Cutting a tube reload short:** whether firing stops a shell-by-shell reload, so you can shoot with only a few shells in ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work)).
-- **Stripper clips:** whether fixed-mag guns (`stripper clip` in the Reload column, like the [SKS](../weapons/battle-rifles/sks.md) and [C96](../weapons/pistols/c96.md), and the bolt-action snipers next) reload like PUBG's Kar98k, a full clip when empty and one round at a time otherwise, or refill instantly like a box mag.
-
 ## Lookups
 
 - **Beryl wz. 96:** whether its selector has the Tantal's 3-round burst ([Beryl](../weapons/assault-rifles/beryl.md)); the Beryl Commando has no details yet.

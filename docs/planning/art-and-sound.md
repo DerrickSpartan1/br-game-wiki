@@ -30,7 +30,7 @@ The roster has 113 families and 573 versions, so models are shared:
 
 Animations are shared by reload style, not made per gun. Each version's style is in the Reload column of its Versions table ([template](gun-page-template.md#reading-pages-as-data)), so the game picks the animation set from the weapon data. Box mags cover 340 of the 573 versions; the other 12 styles cover the rest.
 
-A hand-IK rig moves the off hand to each gun's own grip and magazine points, so one rifle reload fits both an M16 and an AK. Reloads follow the [PUBG-style ammo rules](../systems/ammo.md#how-ammo-and-reloading-work): swap the mag, belt, or pan and it comes back full. Tubes and en bloc clips are the exceptions.
+A hand-IK rig moves the off hand to each gun's own grip and magazine points, so one rifle reload fits both an M16 and an AK. Reloads follow the [PUBG-style ammo rules](../systems/ammo.md#how-ammo-and-reloading-work): swap the mag, belt, or pan and it comes back full. Tubes, stripper clips, and en bloc clips are the exceptions ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work)).
 
 | Reload | What the hands do | Examples |
 | --- | --- | --- |
@@ -41,14 +41,14 @@ A hand-IK rig moves the off hand to each gun's own grip and magazine points, so 
 | `top mag` | Mag goes in from the top | [Bren](../weapons/lmgs/bren.md), [Owen](../weapons/smgs/owen.md), [P90](../weapons/smgs/p90.md) |
 | `pan` | Lift the empty pan off and set a full one on | [DP-27](../weapons/lmgs/dp-27.md) |
 | `belt` | Open the feed cover, lay the belt in, close it, cock | [MG 42 / MG3](../weapons/lmgs/mg-42.md), [M60](../weapons/lmgs/m60.md), [PK / PKM](../weapons/lmgs/pk.md), [FN Minimi / M249](../weapons/lmgs/minimi.md), [RPD](../weapons/lmgs/rpd.md) |
-| `tube` | One shell at a time, like PUBG | [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [KSG](../weapons/shotguns/ksg.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md) |
-| `stripper clip` | Bolt back, rounds pushed down into a fixed mag | [SKS](../weapons/battle-rifles/sks.md), [C96](../weapons/pistols/c96.md) |
+| `tube` | One shell at a time, like PUBG; pressing fire stops the reload | [Remington 870](../weapons/shotguns/remington-870.md), [Ithaca 37](../weapons/shotguns/ithaca-37.md), [KSG](../weapons/shotguns/ksg.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md) |
+| `stripper clip` | From empty, bolt back and a full clip pushed down into the fixed mag; topping off loads one round at a time, like PUBG's Kar98k | [SKS](../weapons/battle-rifles/sks.md), [C96](../weapons/pistols/c96.md) |
 | `en bloc` | Clip pushed in from the top; it pings out when empty ([Rules](../rules.md#en-bloc-clips)) | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | `break action` | Open, swap shells, close | [Garrucha](../weapons/pistols/garrucha.md) |
 | `single shot` | Open the breech, swap the round | [FP-45 Liberator](../weapons/pistols/fp-45-liberator.md) |
 | `revolver` | Open the cylinder, dump, reload | [Janz](../weapons/pistols/janz.md) |
 
-Some versions take two, like the Minimi's belt or M16 mags, listed as `belt, box mag`; the second comes with another mag tier. Every gun also needs equip, holster, and fire-mode switch moves. Versions that cycle by hand (pump, lever, straight-pull, two-pull, and the bolt-action snipers to come) add one "work the action" move after each shot.
+Some versions take two, like the Minimi's belt or M16 mags, listed as `belt, box mag`; the second comes with another mag tier. Tube and stripper-clip guns need a one-round insert that can stop partway. Every gun also needs equip, holster, and fire-mode switch moves. Versions that cycle by hand (pump, lever, straight-pull, two-pull, and the bolt-action snipers to come) add one "work the action" move after each shot.
 
 ## Steps for each gun
 

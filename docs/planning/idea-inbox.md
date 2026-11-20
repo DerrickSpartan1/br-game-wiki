@@ -5,7 +5,7 @@ Ideas that don't fit a section yet land here until they're sorted.
 | Date | Idea | Move to |
 | --- | --- | --- |
 | 2026-10-07 | Make a wiki for all of this at some point, probably on GitHub | Done: this wiki (2026-10-14) |
-| 2026-11-20 | Armor goes up to level 4, with more vest and helmet types beyond the level number, such as heavier pieces, modeled on Escape from Tarkov's armor and helmets, which have already done the real-world research. Keep it balanced and realistic. Needs research into which real pieces to use and how levels map to PUBG-style damage reduction. | [Armor and gear](../systems/armor.md), once researched |
+| 2026-11-20 | Armor goes up to level 4, with more vest and helmet types beyond the level number, such as heavier pieces, modeled on Escape from Tarkov's armor and helmets, which have already done the real-world research. Keep it balanced and realistic. Needs research into which real pieces to use and how levels map to PUBG-style damage reduction. | Done: [Armor and gear](../systems/armor.md) (2026-11-20) |
 | 2026-10-20 | Concept thought: player characters could be robots instead of humans, in the style of small, highly articulated military mecha model kits. The owner thinks the look is great. See [Robot character concept](#robot-character-concept) below. | [Skins and mastery](../systems/skins.md) (player character and wardrobe), once decided |
 
 ## Robot character concept

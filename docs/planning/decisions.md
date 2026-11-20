@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Armor and helmets come in four tiers, filled with Escape from Tarkov's real-world pieces (57 vests and 26 helmets so far); each piece has its own movement and ADS slowdown, starting from Tarkov's penalties | [Armor and gear](../systems/armor.md) |
 | 2026-11-20 | A pistol with an add-on stock stays in the pistol / 3rd slot | [Rules](../rules.md#3rd-slot) |
 | 2026-11-20 | Parts a version comes with stay on for the match and fill their slot: a built-in bipod means no foregrip, and a version with a stock (like the Mini Uzi) can't remove or swap it | [Attachments](../systems/attachments.md#built-in-parts) |
 | 2026-11-20 | PUBG's attachment set joins the game: compensator, flash hider, and choke; vertical, angled, half, thumb, and light grips and a laser sight; red dot, holographic, 2x, 3x, 4x, 3–6x, 8x, 15x (snipers only), canted, and crate-only thermal sights; tactical stock, cheek pad, add-on stocks, and ammo loops | [Attachments](../systems/attachments.md#attachment-slots) |

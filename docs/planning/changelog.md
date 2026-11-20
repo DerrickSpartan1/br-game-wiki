@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Reworked [Armor and gear](../systems/armor.md): four tiers mapped to Tarkov's armor classes, per-piece movement and ADS slowdowns, and lists of 57 vests and 26 helmets; the armor idea moved out of the idea inbox; five new open questions (damage reduction per tier, hearing loss, visors, neck and groin, armored rigs) |
 | 2026-11-20 | Decided that a pistol with an add-on stock stays in the pistol / 3rd slot ([Rules](../rules.md#3rd-slot), [Attachments](../systems/attachments.md#attachment-slots)); the question came off the open questions page |
 | 2026-11-20 | Decided that built-in parts stay on and fill their slot ([Attachments](../systems/attachments.md#built-in-parts), [Rules](../rules.md#spawned-version-is-fixed)); the bipod-and-foregrip question came off the open questions page |
 | 2026-11-20 | Filed the idea of armor up to level 4 with Tarkov-style vest and helmet types in the [idea inbox](idea-inbox.md) |

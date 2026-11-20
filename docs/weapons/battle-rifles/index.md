@@ -2,7 +2,7 @@
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs), in rough order of when each came out. See the [weapon pool](../../systems/weapon-pool.md) page for why they share a category.
 
-22 roster entries.
+25 roster entries.
 
 | Gun | Cartridge | Versions |
 | --- | --- | --- |
@@ -28,3 +28,6 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | [Mk 12 SPR](mk-12.md) | 5.56×45mm | 7 |
 | [FN SCAR-H](scar-h.md) | 7.62×51mm (main), 6.5mm Creedmoor, or 5.56×45mm | 7 |
 | [HK417](hk417.md) | 7.62×51mm | 6 |
+| [IWI Tavor 7](tavor-7.md) | 7.62×51mm | 3 |
+| [AK-308](ak-308.md) | 7.62×51mm | 2 |
+| [SIG MCX-SPEAR (M7)](mcx-spear.md) | 6.8×51mm (main), 7.62×51mm, or 6.5mm Creedmoor | 5 |

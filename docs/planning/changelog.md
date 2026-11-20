@@ -4,6 +4,9 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Added the [SIG MCX-SPEAR (M7)](../weapons/battle-rifles/mcx-spear.md) (5 versions; new 6.8×51mm ammo), finishing the battle rifle & DMR queue |
+| 2026-11-20 | Added the [AK-308](../weapons/battle-rifles/ak-308.md) (2 versions) |
+| 2026-11-20 | Added the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md) (3 versions) |
 | 2026-10-22 | Added the [HK417](../weapons/battle-rifles/hk417.md) (6 versions, G28 and M110A1 included); the HK416 and HK417 joined the shared-mastery candidates on [Skins](../systems/skins.md) |
 | 2026-10-22 | Real conversion kits now count as versions ([Rules](../rules.md#spawned-version-is-fixed)); the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) gained the Mk 17 5.56 (7 versions) and the [M1 Garand](../weapons/battle-rifles/m1-garand.md) a box-mag conversion (9 versions) |
 | 2026-10-21 | Added the [FN SCAR-H](../weapons/battle-rifles/scar-h.md) (6 versions, Mk 20 SSR and SCAR-H PR merged in); the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) page now notes FN's 2026 civilian line |

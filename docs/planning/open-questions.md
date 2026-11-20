@@ -17,7 +17,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Systems
 
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The wiki keeps real names either way.
-- **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md)) also get the Mondragón's manual mode on the selector key.
+- **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
 - **Maps:** not decided yet ([Maps](../systems/maps.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
@@ -33,6 +33,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **AK-109:** exact stats ([AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md)).
 - **HK416N:** barrel lengths of Norway's N and K, to confirm which versions they merge into ([HK416](../weapons/assault-rifles/hk416.md)).
 - **AK-12K, AK-15K, and AK-19:** whether their selectors have the 2-round burst ([AK-12](../weapons/assault-rifles/ak-12.md)).
+- **M8 carbine:** its fire modes, likely semi and auto like the M7 ([SIG MCX-SPEAR (M7)](../weapons/battle-rifles/mcx-spear.md)).
 - **FG 42 replicas:** modern semi-auto replicas like Sport-Systeme Dittrich's BD 42, as a possible civilian version ([FG 42](../weapons/battle-rifles/fg-42.md)).
 - **UMP pistol:** calibers and versions ([UMP pistol](../weapons/pistols/ump-pistol.md)).
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.

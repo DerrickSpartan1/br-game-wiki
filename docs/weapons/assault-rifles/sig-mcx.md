@@ -4,7 +4,7 @@
 | --- | --- |
 | Category | Assault rifle |
 | Cartridge | Varies by version: 5.56×45mm (main), .300 Blackout, or 7.62×39mm |
-| History | USA; designed by SIG USA in New Hampshire from 2013 and launched at SHOT Show 2015; three generations: MCX (2015–2017), MCX VIRTUS (2017–2022), and MCX-SPEAR LT (2022 on); USSOCOM chose an MCX-based integrally suppressed upper (SURG) for its M4A1s in July 2018, and the Rattler won SOCOM's compact PDW contract in May 2022; the scaled-up MCX-SPEAR became the US Army's M7 in 2022; used by UK police and special forces (replacing the MP5SD3) and the Royal Marines (L143A2; 1,500 ordered in March 2025), German state police, Australian special forces from 2024 (replacing the MP5), and special units in 20+ other countries |
+| History | USA; designed by SIG USA in New Hampshire from 2013 and launched at SHOT Show 2015; three generations: MCX (2015–2017), MCX VIRTUS (2017–2022), and MCX-SPEAR LT (2022 on); USSOCOM chose an MCX-based integrally suppressed upper (SURG) for its M4A1s in July 2018, and the Rattler won SOCOM's compact PDW contract in May 2022; the scaled-up [MCX-SPEAR](../battle-rifles/mcx-spear.md) won the US Army's rifle contest in 2022 and became its M7 in 2025; used by UK police and special forces (replacing the MP5SD3) and the Royal Marines (L143A2; 1,500 ordered in March 2025), German state police, Australian special forces from 2024 (replacing the MP5), and special units in 20+ other countries |
 | Magazine (rounds) | 30-round STANAG box (same as the M16) for 5.56 and .300 Blackout; 28-round AR-pattern mags for 7.62×39 |
 | Fire mode / rate | Semi and auto on military and police models, about 800–900 RPM; semi-auto only on civilian models; short-stroke piston with a rotating bolt, closed bolt, so no open-bolt delay |
 | Damage | TBD |
@@ -26,7 +26,7 @@ AR/LMG/battle rifle family attachments; native top rail, plus a KeyMod or M-LOK 
 
 ## Versions
 
-9 versions after merging, split by caliber, barrel length, and whether it's select-fire. No production numbers were found, and the police and military orders (Berlin 460, Schleswig-Holstein 531, Royal Marines 1,500, and others) aren't split by barrel or caliber. The MCX-SPEAR / M7, the MCX-MR, and the MPX went on the [guns to add later](../../planning/add-later.md) list.
+9 versions after merging, split by caliber, barrel length, and whether it's select-fire. No production numbers were found, and the police and military orders (Berlin 460, Schleswig-Holstein 531, Royal Marines 1,500, and others) aren't split by barrel or caliber. The [MCX-SPEAR / M7](../battle-rifles/mcx-spear.md) has its own page, and the MCX-MR and the MPX went on the [guns to add later](../../planning/add-later.md) list.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |

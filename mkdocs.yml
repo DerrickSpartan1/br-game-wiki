@@ -180,6 +180,9 @@ nav:
         - "Mk 12 SPR": weapons/battle-rifles/mk-12.md
         - "FN SCAR-H": weapons/battle-rifles/scar-h.md
         - "HK417": weapons/battle-rifles/hk417.md
+        - "IWI Tavor 7": weapons/battle-rifles/tavor-7.md
+        - "AK-308": weapons/battle-rifles/ak-308.md
+        - "SIG MCX-SPEAR (M7)": weapons/battle-rifles/mcx-spear.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

@@ -1,6 +1,6 @@
 # Gun queue
 
-Guns get added one at a time, researched from real sources. The assault rifle queue is done, in rough order of when each came out. Battle rifles & DMRs, one category, are in progress.
+Guns get added one at a time, researched from real sources. The assault rifle and battle rifle & DMR queues are done, each in rough order of when the guns came out. LMGs are the next category; their list isn't drafted yet.
 
 ## Assault rifles
 
@@ -36,7 +36,7 @@ Guns get added one at a time, researched from real sources. The assault rifle qu
 
 Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India), CZ Bren 2 (Czech Republic), QBZ-191 (China).
 
-## Battle rifles & DMRs (in progress)
+## Battle rifles & DMRs (done)
 
 One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs). In rough order of when each came out. Bolt-action and heavy precision rifles go to snipers, and automatic rifles like the BAR go to LMGs.
 
@@ -64,9 +64,9 @@ One category: rifles in full-power rounds that soldiers carried as their main ri
 | 20 | [Mk 12 SPR](../weapons/battle-rifles/mk-12.md) | USA, 2002; 5.56×45mm | Added |
 | 21 | [FN SCAR-H](../weapons/battle-rifles/scar-h.md) | Belgium, 2004; 7.62×51mm | Added |
 | 22 | [HK417](../weapons/battle-rifles/hk417.md) | Germany, 2005; 7.62×51mm (G28 / M110A1 as versions) | Added |
-| 23 | IWI Tavor 7 | Israel, 2017; 7.62×51mm | **Next** |
-| 24 | AK-308 | Russia, 2018; 7.62×51mm | Queued |
-| 25 | SIG MCX-SPEAR (M7) | USA, 2022; 6.8×51mm | Queued |
+| 23 | [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md) | Israel, 2017; 7.62×51mm | Added |
+| 24 | [AK-308](../weapons/battle-rifles/ak-308.md) | Russia, 2018; 7.62×51mm | Added |
+| 25 | [SIG MCX-SPEAR (M7)](../weapons/battle-rifles/mcx-spear.md) | USA, 2022; 6.8×51mm | Added |
 
 Possible additions: Cei-Rigotti (Italy, 1900; early select-fire, few made), Ljungman AG m/42 (Sweden, 1942), Johnson M1941 (USA, 1941), Howa Type 64 (Japan, 1964), PSL (Romania, 1974), FA-MAS Type 62 and the Sterling rifle (prototypes), KelTec RFB and Desert Tech MDRX (bullpups), the AKV-721, the MCX-MR, and the DMR offshoots already on the [add-later list](add-later.md).
 
@@ -86,4 +86,4 @@ Going elsewhere: BAR and FN MAG (LMGs); PSG1 and bolt-action rifles (snipers).
 
 ## Categories not started
 
-LMGs, snipers, and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).
+LMGs (next), snipers, and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).

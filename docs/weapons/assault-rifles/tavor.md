@@ -24,7 +24,7 @@ AR/LMG/battle rifle family attachments; native rails. Unique: ITL MARS sight (re
 
 ## Versions
 
-7 versions after merging. The GTAR-21 (grenade launcher) and STAR-21 (bipod and ACOG) are attachment setups, so they merge into the TAR-21. Civilian 9mm and .300 Blackout models fold into those caliber versions. The Tavor 7 (7.62×51mm) went on the guns-to-add-later list for the battle rifle category.
+7 versions after merging. The GTAR-21 (grenade launcher) and STAR-21 (bipod and ACOG) are attachment setups, so they merge into the TAR-21. Civilian 9mm and .300 Blackout models fold into those caliber versions. The 7.62×51mm [IWI Tavor 7](../battle-rifles/tavor-7.md) has its own page.
 
 | # | Version | What's different | Cartridge | Made | Merged from |
 | --- | --- | --- | --- | --- | --- |

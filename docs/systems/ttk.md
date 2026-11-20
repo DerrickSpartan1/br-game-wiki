@@ -29,4 +29,59 @@ Higher damage keeps the Glisenti's TTK close to the M17's, while its 7-round mag
 
 Sources: [CSDB: CS2 damage calculator](https://csdb.gg/damage-calculator/) · [Insider Gaming: Warzone TTK](https://insider-gaming.com/warzone-devs-address-fast-time-to-kill-concerns-on-verdansk/) · [Steam forum: PUBG armor values](https://steamcommunity.com/app/578080/discussions/1/1471966894874045224)
 
+## PUBG in 2018, for reference
+
+These are PUBG PC's numbers from June 2018 (Patch 1.0 #15), from LeNutch's community spreadsheet. PUBG never published official values, so treat them as close, not exact. Targets have 100 health. Times assume every shot lands on the chest; the shot count is in brackets.
+
+**Hit-zone multipliers:**
+
+| Class | Head | Body | Arms and legs |
+| --- | --- | --- | --- |
+| Pistols | 2.0 | 1.0 | 1.0 |
+| Shotguns | 1.5 | 1.0 | 0.9 |
+| SMGs | 1.8 | 1.0 | 1.2 |
+| ARs | 2.35 | 1.0 | 0.9 |
+| DMRs | 2.35 | 1.05 | 1.15 |
+| Snipers | 2.5 | 1.1 | 0.95 |
+
+The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and helmets cut damage by 30%, 40%, and 55%. Helmets hold 80, 150, and 230 durability; vests hold 200, 220, and 250.
+
+**Time to kill, chest hits:**
+
+| Gun | Class | Damage | Fire rate (RPM) | No vest | Level 1 vest | Level 2 vest | Level 3 vest | Head shots to kill (no helmet, level 1, 2, 3) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| M416 | AR | 43 | 698 | 0.17 s (3) | 0.26 s (4) | 0.26 s (4) | 0.43 s (6) | 1, 2, 2, 3 |
+| SCAR-L | AR | 43 | 625 | 0.19 s (3) | 0.29 s (4) | 0.29 s (4) | 0.48 s (6) | 1, 2, 2, 3 |
+| M16A4¹ | AR | 43 | 800 | 0.15 s (3) | 0.22 s (4) | 0.22 s (4) | 0.38 s (6) | 1, 2, 2, 3 |
+| AKM | AR | 49 | 600 | 0.20 s (3) | 0.20 s (3) | 0.30 s (4) | 0.40 s (5) | 1, 2, 2, 2 |
+| Groza | AR | 49 | 750 | 0.16 s (3) | 0.16 s (3) | 0.24 s (4) | 0.32 s (5) | 1, 2, 2, 2 |
+| AUG A3² | AR | 43 | 700 | 0.17 s (3) | 0.26 s (4) | 0.26 s (4) | 0.43 s (6) | 1, 2, 2, 3 |
+| Beryl M762²³ | AR | 47 | 698 | 0.17 s (3) | 0.26 s (4) | 0.26 s (4) | 0.34 s (5) | 1, 2, 2, 3 |
+| M249⁴ | AR | 45 | 800 | 0.15 s (3) | 0.22 s (4) | 0.22 s (4) | 0.30 s (5) | 1, 2, 2, 3 |
+| UMP9 | SMG | 39 | 652 | 0.18 s (3) | 0.28 s (4) | 0.37 s (5) | 0.46 s (6) | 2, 3, 3, 4 |
+| Vector | SMG | 34 | 1,091 | 0.11 s (3) | 0.22 s (5) | 0.22 s (5) | 0.33 s (7) | 2, 3, 3, 4 |
+| Micro Uzi | SMG | 26 | 1,250 | 0.14 s (4) | 0.24 s (6) | 0.29 s (7) | 0.38 s (9) | 3, 4, 4, 5 |
+| Tommy Gun | SMG | 40 | 698 | 0.17 s (3) | 0.26 s (4) | 0.34 s (5) | 0.43 s (6) | 2, 2, 3, 4 |
+| Mini 14¹ | DMR | 46 | 600 | 0.20 s (3) | 0.20 s (3) | 0.30 s (4) | 0.40 s (5) | 1, 2, 2, 3 |
+| SKS¹ | DMR | 53 | 667 | 0.09 s (2) | 0.18 s (3) | 0.18 s (3) | 0.27 s (4) | 1, 2, 2, 2 |
+| Mk14 EBR | DMR | 61 | 667 | 0.09 s (2) | 0.18 s (3) | 0.18 s (3) | 0.27 s (4) | 1, 1, 2, 2 |
+| Kar98k¹ | Sniper | 75 | 32 | 1.90 s (2) | 1.90 s (2) | 3.80 s (3) | 3.80 s (3) | 1, 1, 1, 2 |
+| M24¹ | Sniper | 79 | 33 | 1.80 s (2) | 1.80 s (2) | 1.80 s (2) | 3.60 s (3) | 1, 1, 1, 2 |
+| AWM¹ | Sniper | 120 | 32 | Instant (1) | 1.85 s (2) | 1.85 s (2) | 1.85 s (2) | 1, 1, 1, 1 |
+
+1. Semi-auto, burst, or bolt-action: the fire rate is the fastest it can shoot, so real times depend on how fast you click.
+2. Fire rate from pubg.wiki.gg's current values; the 2018 sheet left it blank.
+3. Damage from Gamepressure's 2019 guide; the June 2018 sheet came out before the Beryl.
+4. Assumes the AR multipliers; the sheet has no LMG column.
+
+**What stands out:**
+
+- **Armor matters more than the gun.** The M416 kills in 3 chest shots with no vest and 6 against a level 3 vest.
+- **Breakpoints decide fights.** The AKM's 49 damage kills through a level 1 vest in 3 shots; the M416's 43 needs 4. That's why the AKM hits harder but the M416 fires faster.
+- **Head shots are huge.** Every AR kills an unhelmeted head in one shot. The Kar98k and M24 one-shot heads up to a level 2 helmet, and only the AWM one-shots a level 3 helmet.
+- **Close calls:** the Kar98k's chest hit against a level 2 vest does 49.5, so two hits leave 1 health.
+- **Perfect hits kill fast.** Against a level 2 vest, the automatic guns kill in about 0.2 to 0.4 seconds of perfect chest hits. Recoil and misses make real fights much longer, which is where gun feel comes in.
+
+Sources: [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
+
 Reliability: guns never jam or overheat (see [Rules](../rules.md)). Whether some items wear out is still open; the makeshift suppressor and the StG 44's Krummlauf are the current wear ideas.

@@ -10,6 +10,12 @@ Mounts never depend on crafting.
 - **Adapter mount:** older guns that historically took clamp-on rails or side mounts, like the Mosin, M1 Garand, or AK. The scope sits higher or off to the side, so it's a bit clunkier.
 - **No historical mount:** guns like a WWI SMG just come with a mount in the game's version, trading a little realism.
 
+## Bipods
+
+- **Built in:** a gun whose real standard version came with a bipod, like most LMGs, has it built in.
+- **Attachment:** any other gun that can take one, like a sniper rifle, uses a bipod as a foregrip attachment, in the foregrip's place.
+- When bipods deploy, and whether a built-in bipod leaves room for a foregrip, are still [open questions](../planning/open-questions.md#systems).
+
 ## Universal attachments
 
 Attachments are universal within weapon families instead of gun-specific, to keep things simple.

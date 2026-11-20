@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Bipods are built in on guns whose real standard version came with one, like most LMGs; any other gun that can take one, like a sniper rifle, uses a bipod as a foregrip attachment | [Attachments](../systems/attachments.md#bipods) |
 | 2026-11-20 | Every version lists the rounds it spawns with in a Mag column (tubes add the chambered round, like `5+1`); only versions that reload with a mag, pan, or belt take mag attachments | [Gun page template](gun-page-template.md#reading-pages-as-data) |
 | 2026-11-20 | Stripper-clip guns reload like PUBG's Kar98k: a full clip from empty, fast and easy, or one round at a time to top off a partly full gun | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
 | 2026-11-20 | Pressing fire stops any reload that loads one round at a time (tubes, and stripper-clip guns topping off); the rounds already loaded stay in | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |

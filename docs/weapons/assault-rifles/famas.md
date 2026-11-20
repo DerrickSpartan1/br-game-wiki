@@ -26,12 +26,12 @@ AR/LMG/battle rifle family attachments; adapter mount on the carry handle, rails
 
 4 versions after merging. All keep the real semi, 3-round burst, and auto modes. The FA-MAS Type 62 (an earlier 7.62×51mm prototype) and the Croatian HS Produkt VHS bullpup went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | F1 | Original: 25-round proprietary mag, 300 m | 5.56×45mm | About 400,000 | FAMAS F1, G1 (better grips, bigger trigger guard), FAMAS Infanterie (top rail for optics), F1 with the lowered Félin-style carry handle |
-| 2 | G2 | Takes 30-round STANAG mags, bigger trigger guard, fiberglass handguards, 450 m, handles brass ammo | 5.56×45mm | 10,000–15,000 | FAMAS G2, FAMAS Félin |
-| 3 | Commando | Short 11.2 in barrel, no bipod | 5.56×45mm | Prototypes only (French Interior Ministry) | — |
-| 4 | MAS .223 | Civilian semi-auto | 5.56×45mm | Unknown | — |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | F1 | Original: 25-round proprietary mag, 300 m | 5.56×45mm | About 400,000 | FAMAS F1, G1 (better grips, bigger trigger guard), FAMAS Infanterie (top rail for optics), F1 with the lowered Félin-style carry handle | semi, 3-round burst, auto | 900–1,100 | No |
+| 2 | G2 | Takes 30-round STANAG mags, bigger trigger guard, fiberglass handguards, 450 m, handles brass ammo | 5.56×45mm | 10,000–15,000 | FAMAS G2, FAMAS Félin | semi, 3-round burst, auto | 900–1,100 | No |
+| 3 | Commando | Short 11.2 in barrel, no bipod | 5.56×45mm | Prototypes only (French Interior Ministry) | — | semi, 3-round burst, auto | 900–1,100 | No |
+| 4 | MAS .223 | Civilian semi-auto | 5.56×45mm | Unknown | — | semi | TBD | No |
 
 ## Sources
 

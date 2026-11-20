@@ -28,12 +28,12 @@ Pistol/SMG family attachments; four native Picatinny rails (top, both sides, bot
 
 4 versions after merging. Triggers are fixed per version (game choice, not historical): the UMP45 and UMP9 use the standard semi/auto trigger; the UMP40 gets the burst pack (semi and 2-round burst); the USC is semi-only. Semi-auto UMP-clone pistols moved to the 3rd slot as the UMP pistol. Skin: the USC's original grey finish.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | UMP45 | The original; slowest at about 600 to 700 RPM; 25-round mag | .45 ACP | Unknown | — |
-| 2 | UMP40 | 30-round straight mag | .40 S&W | Unknown | — |
-| 3 | UMP9 | 30-round curved mag; about 0.2 kg lighter than an MP5; the only version still made | 9×19mm | Unknown | — |
-| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | UMP45 | The original; slowest at about 600 to 700 RPM; 25-round mag | .45 ACP | Unknown | — | semi, auto | 600–700 | No |
+| 2 | UMP40 | 30-round straight mag | .40 S&W | Unknown | — | semi, 2-round burst | 600–750 | No |
+| 3 | UMP9 | 30-round curved mag; about 0.2 kg lighter than an MP5; the only version still made | 9×19mm | Unknown | — | semi, auto | 600–750 | No |
+| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — | semi | TBD | No |
 
 ## Sources
 

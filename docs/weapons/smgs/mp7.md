@@ -26,9 +26,9 @@ Pistol/SMG family attachments; native rails; its suppressor doesn't hurt accurac
 
 1 version after merging, in 4.6×30mm, which is new to the ammo pool and only used by this gun. The cancelled HK UCP pistol in the same round and the MP7-style PSA X5.7 PDW went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | MP7 | Compact PDW with rails, a folding foregrip, and a 3-position stock | 4.6×30mm | Not public | 1999 PDW prototype, MP7, MP7A1, MP7A2 (rail instead of the folding grip), UK semi-auto MP7-SF |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | MP7 | Compact PDW with rails, a folding foregrip, and a 3-position stock | 4.6×30mm | Not public | 1999 PDW prototype, MP7, MP7A1, MP7A2 (rail instead of the folding grip), UK semi-auto MP7-SF | semi, auto | 950 | No |
 
 ## Sources
 

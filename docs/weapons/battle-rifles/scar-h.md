@@ -26,15 +26,15 @@ AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom; M-
 
 7 versions after merging. The real field-swap barrels become separate versions, and the Mk 17's 5.56mm conversion kit is its own version (see [Rules](../../rules.md#spawned-version-is-fixed)). The 7.62×39mm version named in SOCOM's first request was never offered. The HAMR automatic rifles stay on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | SCAR-H STD | Standard 16 in barrel; semi and auto | 7.62×51mm | Most military SCAR-Hs: 750 Mk 17s for SOCOM by June 2010, Peru's 8,110, Kenya's about 1,000, and others (totals not split from the SCAR-L) | Mk 17 Mod 0 STD |
-| 2 | SCAR-H CQC | 13 in barrel; semi and auto | 7.62×51mm | Unknown | Mk 17 CQC |
-| 3 | SCAR-H LB | 20 in long barrel; semi and auto | 7.62×51mm | Unknown | Mk 17 LB |
-| 4 | Mk 20 SSR | Precision rifle: 20 in heavy barrel, longer receiver, two-stage trigger; semi-auto only | 7.62×51mm | Unknown; includes France's 2,620 SCAR-H PRs | Mk 20 Mod 0 Sniper Support Rifle (SCAR-H TPR; full-rate production approved October 2010, fielded from May 2011), SCAR-H PR (folding stock; France's FPSA from 2020, replacing the FR-F2 bolt-action, plus Lithuania, Portugal, and Belgium), SCAR 20S (civilian, 2019; 10-round mags; new model in 2026) |
-| 5 | 6.5 Creedmoor | Precision rifle in 6.5mm Creedmoor; semi-auto only | 6.5mm Creedmoor | Unknown | Mk 17 Mod 1 (SOCOM Mid-Range Gas Gun entry), SCAR 20S 6.5CM (2020), SCAR 17S DMR (limited run, 2023: 16.25 in barrel, Geissele two-stage trigger, SSR stock), 2026 SCAR 17S and 20S in 6.5mm Creedmoor |
-| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.6 kg (8.0 lb) | 7.62×51mm | Unknown; the original run ended October 2025 | SCAR 17S, next-generation SCAR 17S (2026; 8.9 lb) |
-| 7 | Mk 17 5.56 | Mk 17 fitted with FN's 5.56mm conversion kit; semi and auto | 5.56×45mm | Unknown; kit finalized late 2010, SOCOM orders from mid-2011 | Mk 17 5.56mm conversion kit |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SCAR-H STD | Standard 16 in barrel; semi and auto | 7.62×51mm | Most military SCAR-Hs: 750 Mk 17s for SOCOM by June 2010, Peru's 8,110, Kenya's about 1,000, and others (totals not split from the SCAR-L) | Mk 17 Mod 0 STD | semi, auto | 550–600 | No |
+| 2 | SCAR-H CQC | 13 in barrel; semi and auto | 7.62×51mm | Unknown | Mk 17 CQC | semi, auto | 550–600 | No |
+| 3 | SCAR-H LB | 20 in long barrel; semi and auto | 7.62×51mm | Unknown | Mk 17 LB | semi, auto | 550–600 | No |
+| 4 | Mk 20 SSR | Precision rifle: 20 in heavy barrel, longer receiver, two-stage trigger; semi-auto only | 7.62×51mm | Unknown; includes France's 2,620 SCAR-H PRs | Mk 20 Mod 0 Sniper Support Rifle (SCAR-H TPR; full-rate production approved October 2010, fielded from May 2011), SCAR-H PR (folding stock; France's FPSA from 2020, replacing the FR-F2 bolt-action, plus Lithuania, Portugal, and Belgium), SCAR 20S (civilian, 2019; 10-round mags; new model in 2026) | semi | TBD | No |
+| 5 | 6.5 Creedmoor | Precision rifle in 6.5mm Creedmoor; semi-auto only | 6.5mm Creedmoor | Unknown | Mk 17 Mod 1 (SOCOM Mid-Range Gas Gun entry), SCAR 20S 6.5CM (2020), SCAR 17S DMR (limited run, 2023: 16.25 in barrel, Geissele two-stage trigger, SSR stock), 2026 SCAR 17S and 20S in 6.5mm Creedmoor | semi | TBD | No |
+| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.6 kg (8.0 lb) | 7.62×51mm | Unknown; the original run ended October 2025 | SCAR 17S, next-generation SCAR 17S (2026; 8.9 lb) | semi | TBD | No |
+| 7 | Mk 17 5.56 | Mk 17 fitted with FN's 5.56mm conversion kit; semi and auto | 5.56×45mm | Unknown; kit finalized late 2010, SOCOM orders from mid-2011 | Mk 17 5.56mm conversion kit | semi, auto | 550–600 | No |
 
 ## Sources
 

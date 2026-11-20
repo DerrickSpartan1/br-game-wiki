@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Unique: the fo
 
 2 versions after merging. The German Fl.-S.-K. 15 is the same M1908 rifle, so it merges in; its 30-round drum becomes a mag tier. Mondragón's earlier straight-pull bolt-action rifles, the M1893 and M1894, went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | M1908 | Standard rifle; bipod and spade bayonet | 7×57mm Mauser | Most of about 4,000; about 40 reached Mexico, Germany bought the rest | M1908 "Fusil Porfirio Díaz", Fl.-S.-K. 15 (German aircrews; 30-round Blum drum or 32-round Trommelmagazin 08), German front-line rifles (8- or 20-round boxes) |
-| 2 | Swiss | 12-round mag and a brass catcher | 7.5×55mm Swiss | Unknown; Swiss service from 1917 | Swiss self-loading Mondragón (used in the Häfeli DH and Blériot two-seaters) |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M1908 | Standard rifle; bipod and spade bayonet | 7×57mm Mauser | Most of about 4,000; about 40 reached Mexico, Germany bought the rest | M1908 "Fusil Porfirio Díaz", Fl.-S.-K. 15 (German aircrews; 30-round Blum drum or 32-round Trommelmagazin 08), German front-line rifles (8- or 20-round boxes) | semi, straight-pull | TBD | No |
+| 2 | Swiss | 12-round mag and a brass catcher | 7.5×55mm Swiss | Unknown; Swiss service from 1917 | Swiss self-loading Mondragón (used in the Häfeli DH and Blériot two-seaters) | semi, straight-pull | TBD | No |
 
 ## Sources
 

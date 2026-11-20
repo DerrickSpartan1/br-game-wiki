@@ -26,17 +26,17 @@ AR/LMG/battle rifle family attachments; adapter scope mount, except the sniper v
 
 9 versions after merging. Commercial "Tanker" Garands, built on welded surplus receivers, merge into the short version. Ceremonial and demilitarized rifles aren't versions. Floro International's kit and the Brazilian and Argentine rifles converted to take box mags merge into one box-mag version (see [Rules](../../rules.md#spawned-version-is-fixed)). Beretta's BM 59 and the M14 grew from the Garand but are their own entries in the [queue](../../planning/queue.md); the T25 and T31 prototypes went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | M1 | Standard rifle | .30-06 Springfield | Most of 5,468,772 | Springfield Armory, Winchester, International Harvester, and Harrington & Richardson rifles, Beretta Model 1952 (about 100,000) and Breda rifles, pre-1940 gas-trap rifles, winter-trigger rifles, postwar civilian rifles (Springfield Armory, Inc., McCann Industries) |
-| 2 | Sniper | Spawns with a scope on an offset mount | .30-06 Springfield | About 12,767 M1Cs (7,971 in WWII, 4,796 in Korea) and 21,380 M1Ds | M1C (receiver-mounted Griffin & Howe mount, 1944), M1D (barrel-mounted mount), MC52 (Marine M1C with a Kollmorgen scope, 1951) |
-| 3 | Short (rare) | 18 in barrel | .30-06 Springfield | About 150 military rifles plus prototypes | PWB rifle (shortened foregrip; 150 made in the Pacific, a 15,000 order cancelled after Japan surrendered), M1E5 (folding stock and pistol grip; 1 made), T26 (1 prototype), commercial "Tanker" Garands |
-| 4 | T20 (rare) | Select-fire, about 700 RPM; 20-round BAR mags | .30-06 Springfield | Few; a limited buy in May 1945 was cut to 100, and the project ended in 1948 | T20, T20E1, T20E2, T20E2HB, T22 series (Remington's automatic, mag-fed versions) |
-| 5 | 7.62 NATO | Rechambered for 7.62×51mm; a few Navy rifles have a 10-round internal mag | 7.62×51mm | Unknown | M1E14 / Navy Mk 2 Mod 0, T35 / Navy Mk 2 Mod 1, US Navy M1 Mod 0 and Mod 1, Danish and Indonesian conversions, Springfield Armory's "Beretta Garand" (shortened for 7.62×51mm on Beretta machinery) |
-| 6 | Pakistani 7.92 (rare) | Rechambered for 7.92×57mm during a .30-06 shortage | 7.92×57mm Mauser | Unknown | — |
-| 7 | Type 4 (rare) | Japanese copy; 10-round internal mag; never entered service | 7.7×58mm Arisaka | About 250 | Type 4, "Type 5" |
-| 8 | T3E2 (rare) | Garand's original 1931 trials rifle | .276 Pedersen | 20 | — |
-| 9 | Box-mag conversion (rare) | Rechambered for 7.62×51mm and converted to take 20-round detachable box mags, so no en bloc clip | 7.62×51mm | Unknown | Floro International kit (Philippines; 20-round mags supplied), Brazilian rifles converted to take FN FAL mags, Argentine rifles converted to take BM 59 mags (1960s) |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M1 | Standard rifle | .30-06 Springfield | Most of 5,468,772 | Springfield Armory, Winchester, International Harvester, and Harrington & Richardson rifles, Beretta Model 1952 (about 100,000) and Breda rifles, pre-1940 gas-trap rifles, winter-trigger rifles, postwar civilian rifles (Springfield Armory, Inc., McCann Industries) | semi | TBD | No |
+| 2 | Sniper | Spawns with a scope on an offset mount | .30-06 Springfield | About 12,767 M1Cs (7,971 in WWII, 4,796 in Korea) and 21,380 M1Ds | M1C (receiver-mounted Griffin & Howe mount, 1944), M1D (barrel-mounted mount), MC52 (Marine M1C with a Kollmorgen scope, 1951) | semi | TBD | No |
+| 3 | Short (rare) | 18 in barrel | .30-06 Springfield | About 150 military rifles plus prototypes | PWB rifle (shortened foregrip; 150 made in the Pacific, a 15,000 order cancelled after Japan surrendered), M1E5 (folding stock and pistol grip; 1 made), T26 (1 prototype), commercial "Tanker" Garands | semi | TBD | No |
+| 4 | T20 (rare) | Select-fire, about 700 RPM; 20-round BAR mags | .30-06 Springfield | Few; a limited buy in May 1945 was cut to 100, and the project ended in 1948 | T20, T20E1, T20E2, T20E2HB, T22 series (Remington's automatic, mag-fed versions) | semi, auto | 700 | No |
+| 5 | 7.62 NATO | Rechambered for 7.62×51mm; a few Navy rifles have a 10-round internal mag | 7.62×51mm | Unknown | M1E14 / Navy Mk 2 Mod 0, T35 / Navy Mk 2 Mod 1, US Navy M1 Mod 0 and Mod 1, Danish and Indonesian conversions, Springfield Armory's "Beretta Garand" (shortened for 7.62×51mm on Beretta machinery) | semi | TBD | No |
+| 6 | Pakistani 7.92 (rare) | Rechambered for 7.92×57mm during a .30-06 shortage | 7.92×57mm Mauser | Unknown | — | semi | TBD | No |
+| 7 | Type 4 (rare) | Japanese copy; 10-round internal mag; never entered service | 7.7×58mm Arisaka | About 250 | Type 4, "Type 5" | semi | TBD | No |
+| 8 | T3E2 (rare) | Garand's original 1931 trials rifle | .276 Pedersen | 20 | — | semi | TBD | No |
+| 9 | Box-mag conversion (rare) | Rechambered for 7.62×51mm and converted to take 20-round detachable box mags, so no en bloc clip | 7.62×51mm | Unknown | Floro International kit (Philippines; 20-round mags supplied), Brazilian rifles converted to take FN FAL mags, Argentine rifles converted to take BM 59 mags (1960s) | semi | TBD | No |
 
 ## Sources
 

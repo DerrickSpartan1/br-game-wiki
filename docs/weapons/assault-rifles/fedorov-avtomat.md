@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Mag tiers (bes
 
 2 versions. 6.5×50mm Arisaka is new to the ammo pool, and Japan's Arisaka rifles use it too. The 1913 prototype's 6.5mm Fedorov would be an ultra-rare round. Quirk: both versions reload through the top with 5-round stripper clips, so you can top off the mag without swapping it. Overheating stays a flavor note.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Fedorov Avtomat | Select-fire with a 25-round detachable mag | 6.5×50mm Arisaka | About 3,200 | WWI and 1920s production |
-| 2 | 1913 prototype | Semi-auto with a fixed mag loaded by stripper clips, in Fedorov's own rimless round | 6.5mm Fedorov | Prototypes only | — |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Fedorov Avtomat | Select-fire with a 25-round detachable mag | 6.5×50mm Arisaka | About 3,200 | WWI and 1920s production | semi, auto | 600 | No |
+| 2 | 1913 prototype | Semi-auto with a fixed mag loaded by stripper clips, in Fedorov's own rimless round | 6.5mm Fedorov | Prototypes only | — | semi | TBD | No |
 
 ## Sources
 

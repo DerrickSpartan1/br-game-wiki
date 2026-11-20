@@ -28,17 +28,17 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 9mm: 32 sta
 
 9 versions after merging. The 9mm guns split by size; every other caliber is one version covering all sizes. Skins: the early IDF and Dutch wooden stocks, and Germany's MP2 with its DES selector. The semi-auto Uzi pistol and Uzi Pro pistol moved to the pistol / 3rd slot.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Uzi | Full-size, open bolt, 600 RPM | 9×19mm | Most of 2 million+ | IMI and FN Uzis, German MP2/MP2A1, South African S1, Rhodesian Uzi, Croatian Ero, Myanmar BA93/BA94, early wooden-stock Uzis |
-| 2 | Mini Uzi | Shorter (7.8 in barrel), 950 RPM, forward-folding stock | 9×19mm | Unknown | Mini Uzi, Serbian Zastava M97/M97K |
-| 3 | Micro Uzi | Smallest (4.6 in barrel), closed bolt, about 1,200 RPM | 9×19mm | Unknown | Micro Uzi, Vietnamese TK-K12, Croatian Mini-Ero |
-| 4 | Uzi Pro | Polymer update of the Micro with four Picatinny rails and a side charging handle; closed bolt | 9×19mm | Limited | — |
-| 5 | Uzi carbine | 16 in barrel, closed bolt, semi-auto only | 9×19mm | Unknown | Model A, Model B, Mini Uzi carbine, Norinco Model 320, Group Industries and Vector copies |
-| 6 | .45 Uzi | Slower at 500 RPM; smaller mags | .45 ACP | Unknown | .45 kits, .45 Mini and Micro Uzi, .45 carbine |
-| 7 | .41 AE | Conversion kit: new barrel and mag only | .41 AE | Rare | .41 AE kit and carbine |
-| 8 | .22 | Conversion kit; used by Belgian forces | .22 LR | Rare | IMI insert kit, Action Arms kit, .22 carbine |
-| 9 | 9×21 | Listed caliber; details to research | 9×21mm | Unknown | — |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Uzi | Full-size, open bolt, 600 RPM | 9×19mm | Most of 2 million+ | IMI and FN Uzis, German MP2/MP2A1, South African S1, Rhodesian Uzi, Croatian Ero, Myanmar BA93/BA94, early wooden-stock Uzis | semi, auto | 600 | Yes |
+| 2 | Mini Uzi | Shorter (7.8 in barrel), 950 RPM, forward-folding stock | 9×19mm | Unknown | Mini Uzi, Serbian Zastava M97/M97K | semi, auto | 950 | Yes |
+| 3 | Micro Uzi | Smallest (4.6 in barrel), closed bolt, about 1,200 RPM | 9×19mm | Unknown | Micro Uzi, Vietnamese TK-K12, Croatian Mini-Ero | semi, auto | 1,200 | No |
+| 4 | Uzi Pro | Polymer update of the Micro with four Picatinny rails and a side charging handle; closed bolt | 9×19mm | Limited | — | semi, auto | TBD | No |
+| 5 | Uzi carbine | 16 in barrel, closed bolt, semi-auto only | 9×19mm | Unknown | Model A, Model B, Mini Uzi carbine, Norinco Model 320, Group Industries and Vector copies | semi | TBD | No |
+| 6 | .45 Uzi | Slower at 500 RPM; smaller mags | .45 ACP | Unknown | .45 kits, .45 Mini and Micro Uzi, .45 carbine | semi, auto | 500 | Yes |
+| 7 | .41 AE | Conversion kit: new barrel and mag only | .41 AE | Rare | .41 AE kit and carbine | semi, auto | 600 | Yes |
+| 8 | .22 | Conversion kit; used by Belgian forces | .22 LR | Rare | IMI insert kit, Action Arms kit, .22 carbine | semi, auto | TBD | Yes |
+| 9 | 9×21 | Listed caliber; details to research | 9×21mm | Unknown | — | TBD | TBD | TBD |
 
 ## Sources
 

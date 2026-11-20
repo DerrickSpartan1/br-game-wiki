@@ -14,7 +14,7 @@ This repo is the design wiki for a PC battle royale (2018 PUBG feel, rotating gu
 ## Adding a gun
 
 1. Research it (Wikipedia first, then manufacturer or reference pages). Open every page you take numbers from and cite it.
-2. Build the page from `docs/planning/gun-page-template.md`. Merge versions that fire the same round and differ only in small details; note what merged and how many were made. Unset numbers stay `TBD`; mag tiers are "best guess, review later" unless all real mags. Every page gets the six-column Versions table, even with one version, and each Cartridge cell is exactly a Caliber name from `docs/systems/ammo.md` or `TBD` (see "Reading pages as data" on the template), since the game repo parses these pages.
+2. Build the page from `docs/planning/gun-page-template.md`. Merge versions that fire the same round and differ only in small details; note what merged and how many were made. Unset numbers stay `TBD`; mag tiers are "best guess, review later" unless all real mags. Every page gets the nine-column Versions table, even with one version: each Cartridge cell is exactly a Caliber name from `docs/systems/ammo.md` or `TBD`, and the Fire modes, RPM, and Open bolt columns use the template's fixed wording (see "Reading pages as data" on the template), since the game repo parses these pages.
 3. Tag open-bolt guns and list them on `docs/rules.md`.
 4. Update, in the same commit: the category `index.md` table, the caliber table on `docs/systems/ammo.md`, `docs/planning/queue.md`, offshoots on `docs/planning/add-later.md`, the `nav` in `mkdocs.yml`, the entry count on `docs/weapons/index.md`, and `docs/planning/changelog.md`.
 

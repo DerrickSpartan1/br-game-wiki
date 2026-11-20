@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 Versions TBD until the calibers are confirmed.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | UMP pistol | Semi-auto, no stock; calibers to confirm | TBD | Unknown | Omega Gideon Shadow, S5 Tactical clones |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | UMP pistol | Semi-auto, no stock; calibers to confirm | TBD | Unknown | Omega Gideon Shadow, S5 Tactical clones | semi | TBD | No |
 
 ## Sources
 

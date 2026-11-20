@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; adapter scope mount (the Dutch 63A1 had 
 
 5 versions after merging. Only the magazine-fed configurations are here. The belt-fed LMG, tripod-mounted MMG, vehicle-mounted fixed machine gun, and SEALs' Commando (Mk 23 Mod 0) go in the LMG category later. The Stoner LMG from Knight's Armament and the Robinson M96 went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Rifle | Standard closed-bolt rifle fed from below | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Rifle (XM22, XM22E1, XM22E2), Dutch NWM 63A1 rifle and heavy-barrel rifle, Stoner 93 (Thai trials rework), Stoner 66 (semi-auto civilian, never sold) |
-| 2 | Carbine | Shorter 15.7 in barrel and folding stock | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Carbine (XM23, XM23E1, XM23E2), Dutch NWM 63A1 carbine |
-| 3 | Automatic Rifle | Top-mounted 30-round mag, sights offset left, open bolt, full-auto only | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Automatic Rifle |
-| 4 | Survival Rifle | Aircrew survival gun: cut-down grip, no handguard, short barrel and receiver | 5.56×45mm | 1 prototype | — |
-| 5 | Stoner 62 | Earlier full-power prototypes | 7.62×51mm | Prototypes only | Stoner M69W, Stoner 62 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Rifle | Standard closed-bolt rifle fed from below | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Rifle (XM22, XM22E1, XM22E2), Dutch NWM 63A1 rifle and heavy-barrel rifle, Stoner 93 (Thai trials rework), Stoner 66 (semi-auto civilian, never sold) | semi, auto | 700–900 | No |
+| 2 | Carbine | Shorter 15.7 in barrel and folding stock | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Carbine (XM23, XM23E1, XM23E2), Dutch NWM 63A1 carbine | semi, auto | 700–900 | No |
+| 3 | Automatic Rifle | Top-mounted 30-round mag, sights offset left, open bolt, full-auto only | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Automatic Rifle | auto | 700–900 | Yes |
+| 4 | Survival Rifle | Aircrew survival gun: cut-down grip, no handguard, short barrel and receiver | 5.56×45mm | 1 prototype | — | semi, auto | 700–900 | No |
+| 5 | Stoner 62 | Earlier full-power prototypes | 7.62×51mm | Prototypes only | Stoner M69W, Stoner 62 | semi, auto | TBD | No |
 
 ## Sources
 

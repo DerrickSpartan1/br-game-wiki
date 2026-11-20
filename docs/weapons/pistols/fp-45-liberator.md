@@ -26,9 +26,9 @@ None
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from |
-| --- | --- | --- | --- | --- | --- |
-| 1 | FP-45 Liberator | Single shot, smoothbore; 10 spare rounds stored in the grip | .45 ACP | About 1 million | — |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | FP-45 Liberator | Single shot, smoothbore; 10 spare rounds stored in the grip | .45 ACP | About 1 million | — | single shot | TBD | No |
 
 ## Sources
 

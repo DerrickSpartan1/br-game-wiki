@@ -45,6 +45,8 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 validation:
   nav:
@@ -187,6 +189,7 @@ nav:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md
   - Planning:
+      - Getting started: planning/getting-started.md
       - Gun queue: planning/queue.md
       - Guns to add later: planning/add-later.md
       - Open questions: planning/open-questions.md

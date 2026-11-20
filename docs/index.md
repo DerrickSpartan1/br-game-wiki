@@ -20,6 +20,7 @@ A PC battle royale that brings back the feel of original 2018 PUBG, with one twi
 | [Attachments](systems/attachments.md) | Attachment families, scope mounts, and the four magazine tiers |
 | [Weapons](weapons/index.md) | One page per gun family, by category |
 | [Other systems](systems/gameplay.md) | Gameplay, armor, class items, crafting, skins, seasons, maps, and servers (all under Systems) |
+| [Getting started](planning/getting-started.md) | A checklist for building the first playable: what to download, in what order, and which parts of Claude help at each step |
 | [Planning](planning/queue.md) | The gun queue, guns to add later, open questions, the decision log, and the changelog |
 
 ## How this wiki works

@@ -105,7 +105,7 @@ Do these in order, and test and commit after each one.
     test it.
     ```
 
-- [ ] **Tune it:** play, then tell Claude Code what feels wrong in plain words ("it climbs too fast", "burst feels slow"). Commit when it feels right.
+- [ ] **Tune it:** play, then tell Claude Code what feels wrong in plain words ("it climbs too fast", "burst feels slow"). Commit when it feels right. Aim for how guns felt in PUBG in 2017–2018. **On hold until the guns have real models:** recoil is too hard to judge on the gray-box placeholders. The test range (`Content/Range/Lvl_Range` in the game repo) is where tuning will happen: every gun on its rack, targets out to 300 m, and a recoil wall that measures each spray.
 - [ ] **Two players:**
 
     ```text

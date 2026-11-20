@@ -1,9 +1,9 @@
 # Battle Royale Game Wiki
 
-A PC battle royale that brings back the feel of original 2018 PUBG, with one twist: the guns and ammo change every match.
+A PC battle royale that brings back the feel of original 2017–2018 PUBG, with one twist: the guns and ammo change every match.
 
 - **Platform:** PC only, not mobile.
-- **Feel:** scavenging, a slower pace, and deep guns and attachments, like PUBG in 2018.
+- **Feel:** scavenging, a slower pace, and deep guns and attachments, like PUBG in 2017–2018.
 - **Signature hook:** no two matches have the same gun and ammo pool.
 - **Build approach:** built solo with AI-assisted coding until it's functional; real developers come later.
 - **Engine:** Unreal Engine 5.8, as a C++ project ([Getting started](planning/getting-started.md)).

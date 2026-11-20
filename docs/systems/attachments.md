@@ -54,7 +54,18 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 
 - **Built in:** a gun whose real standard version came with a bipod, like most LMGs, has it built in.
 - **Attachment:** any other gun that can take one, like a sniper rifle, uses a bipod as a foregrip attachment, in the foregrip's place.
-- When bipods deploy, and whether a built-in bipod leaves room for a foregrip, are still [open questions](../planning/open-questions.md#systems).
+- A built-in bipod fills the foregrip slot, so that gun can't take a foregrip (see [Built-in parts](#built-in-parts)).
+- When bipods deploy is still an [open question](../planning/open-questions.md#systems).
+
+## Built-in parts
+
+A version that comes with an attachment already on it keeps it for the match. The part fills its slot, so it can't be removed or swapped for another:
+
+- A gun with a built-in bipod can't take a foregrip.
+- A [Mini Uzi](../weapons/smgs/uzi.md) comes with its folding stock, so it can't drop it or take a different stock.
+- The [AS Val](../weapons/assault-rifles/as-val.md)'s built-in suppressor fills its muzzle slot.
+
+This follows the rule that the [spawned version is fixed](../rules.md#spawned-version-is-fixed).
 
 ## Universal attachments
 

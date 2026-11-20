@@ -8,6 +8,8 @@ Like PUBG, whatever version spawns is the gun you have for the match. Only attac
 
 A gun converted with a real kit still counts. It can spawn as its own version, or merge into the factory version in the same caliber, like the [Uzi](weapons/smgs/uzi.md)'s .41 AE and .22 kits, the [FN SCAR-H](weapons/battle-rifles/scar-h.md)'s 5.56mm kit, and the [M1 Garand](weapons/battle-rifles/m1-garand.md)'s box-mag kits. It just can't swap mid-match.
 
+Parts a version comes with, like a built-in bipod, stock, or suppressor, stay on for the match and fill their attachment slot ([Attachments](systems/attachments.md#built-in-parts)).
+
 ## Fixed triggers
 
 Guns that had swappable trigger packs in real life (HK's [MP5](weapons/smgs/mp5.md), [UMP](weapons/smgs/ump.md), [HK33](weapons/assault-rifles/hk33.md), and [G3](weapons/battle-rifles/hk-g3.md) families) don't merge every fire mode into one gun. Each version gets one fixed trigger, mostly the standard semi/auto, with burst mixed into a few. Guns whose real selector already includes burst (M16A2, M4, KRISS Vector, Micro Galil, FAMAS, SG 550) keep it.

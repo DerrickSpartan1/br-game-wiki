@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Decided that built-in parts stay on and fill their slot ([Attachments](../systems/attachments.md#built-in-parts), [Rules](../rules.md#spawned-version-is-fixed)); the bipod-and-foregrip question came off the open questions page |
 | 2026-11-20 | Filed the idea of armor up to level 4 with Tarkov-style vest and helmet types in the [idea inbox](idea-inbox.md) |
 | 2026-11-20 | Added PUBG's attachment set to [Attachments](../systems/attachments.md#attachment-slots), slot by slot: muzzles, grips and a laser, generic-named sights, and stocks including ammo loops; new open questions on attachment effects and add-on stocks |
 | 2026-11-20 | Added PUBG's June 2018 damage, multipliers, armor, and time to kill for 18 guns to [TTK](../systems/ttk.md#pubg-in-2018-for-reference) as a reference; decided where [bipods](../systems/attachments.md#bipods) come from |

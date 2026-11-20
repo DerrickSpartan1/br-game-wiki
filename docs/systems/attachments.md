@@ -45,7 +45,7 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 
 - **Tactical stock:** less recoil and sway.
 - **Cheek pad:** DMRs and snipers; steadier aim.
-- **Add-on stocks:** for stockless guns, like the [Uzi](../weapons/smgs/uzi.md) or [Skorpion](../weapons/pistols/skorpion-vz61.md), and the [C96](../weapons/pistols/c96.md)'s shoulder stock (see below).
+- **Add-on stocks:** for stockless guns, like the [Uzi](../weapons/smgs/uzi.md) or [Skorpion](../weapons/pistols/skorpion-vz61.md), and the [C96](../weapons/pistols/c96.md)'s shoulder stock (see below). A pistol with an add-on stock stays in the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)).
 - **Ammo loops:** faster one-round-at-a-time reloads, for tubes and stripper-clip guns ([Ammo](ammo.md#how-ammo-and-reloading-work)).
 
 **Magazine:** the four tiers below.

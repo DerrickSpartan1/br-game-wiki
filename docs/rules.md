@@ -75,7 +75,7 @@ Guns that load fixed en bloc clips, like the [M1 Garand](weapons/battle-rifles/m
 
 ## 3rd slot
 
-Any gun typically carried in a pistol holster goes in the pistol / 3rd slot. That includes sawed-offs, other odd pistol-likes, stockless pistol versions of SMGs and rifles, and machine pistols that come from a main pistol, like the C96 Schnellfeuer and the Glock 18.
+Any gun typically carried in a pistol holster goes in the pistol / 3rd slot. That includes sawed-offs, other odd pistol-likes, stockless pistol versions of SMGs and rifles, and machine pistols that come from a main pistol, like the C96 Schnellfeuer and the Glock 18. Putting an add-on stock on a pistol doesn't change that: it stays in the pistol / 3rd slot ([Attachments](systems/attachments.md#attachment-slots)).
 
 ## Versions
 

@@ -12,7 +12,7 @@ A gun converted with a real kit still counts. It can spawn as its own version, o
 
 Guns that had swappable trigger packs in real life (HK's [MP5](weapons/smgs/mp5.md), [UMP](weapons/smgs/ump.md), [HK33](weapons/assault-rifles/hk33.md), and [G3](weapons/battle-rifles/hk-g3.md) families) don't merge every fire mode into one gun. Each version gets one fixed trigger, mostly the standard semi/auto, with burst mixed into a few. Guns whose real selector already includes burst (M16A2, M4, KRISS Vector, Micro Galil, FAMAS, SG 550) keep it.
 
-The [Steyr AUG](weapons/assault-rifles/steyr-aug.md)'s real progressive trigger (half pull for semi, full pull for auto) plays as a normal semi/auto switch on the fire-mode selector key. The [Mondragón rifle](weapons/battle-rifles/mondragon.md)'s real gas cut-off goes on the same key, switching between semi-auto and straight-pull manual.
+The [Steyr AUG](weapons/assault-rifles/steyr-aug.md)'s real progressive trigger (half pull for semi, full pull for auto) plays as a normal semi/auto switch on the fire-mode selector key. The [Mondragón rifle](weapons/battle-rifles/mondragon.md)'s real gas cut-off goes on the same key, switching between semi-auto and straight-pull manual. So do the [M1918 BAR](weapons/lmgs/bar.md)'s M1918A2 slow and fast auto rates, and the [MG 34](weapons/lmgs/mg-34.md)'s two-part trigger (top half semi, bottom half auto), which plays as a normal semi/auto switch.
 
 ## No jamming
 
@@ -69,7 +69,7 @@ Open-bolt guns have a slight delay between the trigger pull and the shot. New gu
 Guns that load fixed en bloc clips, like the [M1 Garand](weapons/battle-rifles/m1-garand.md), keep two real quirks:
 
 - **Ping:** when the last round fires, the empty clip flies out with its real "ping", and nearby players can hear it, so they know you're empty.
-- **No topping off:** you can't add rounds to a partial clip. Reloading early ejects the partial clip, and its leftover rounds go back to your inventory.
+- **No topping off:** you can't add rounds to a partial clip. Reloading early ejects the partial clip, and its leftover rounds go back to your inventory. This is the one exception to the normal top-off reload (see [Ammo](systems/ammo.md#how-ammo-and-reloading-work)).
 
 ## 3rd slot
 

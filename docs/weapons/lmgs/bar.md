@@ -29,7 +29,7 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the M1918A2
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | M1918 | Original: fixed wooden stock, no bipod | .30-06 Springfield | About 102,000 in 1918–1919 | M1918, M1918A1 (1937; light bipod, hinged butt plate; few converted), M1922 (cavalry; heavy ribbed barrel, bipod, monopod) | semi, auto | TBD | Yes |
-| 2 | M1918A2 | Squad automatic: skid-foot bipod, heat shield, flash hider, shorter handguard; slow and fast auto instead of semi | .30-06 Springfield | Most: 188,380 from 1941 plus 61,000 for Korea | M1918A2 | auto | 450–650 | Yes |
+| 2 | M1918A2 | Squad automatic: skid-foot bipod, heat shield, flash hider, shorter handguard; slow and fast auto instead of semi | .30-06 Springfield | Most: 188,380 from 1941 plus 61,000 for Korea | M1918A2 | auto, slow auto | 650; slow auto 450 | Yes |
 | 3 | Colt Monitor (rare) | Police and FBI version: no bipod, pistol grip, 18 in barrel, Cutts compensator, 7.34 kg; one source calls it semi-auto | .30-06 Springfield | About 125 | Colt Monitor (R80) | semi, auto | 500 | Yes |
 | 4 | FN Model D | Belgian: quick-change barrel, shoulder rest, simpler takedown | .30-06 Springfield | Unknown | FN Mle D (Belgium) | TBD | TBD | Yes |
 | 5 | 7.92mm export | Poland's wz. 28 (pistol grip, longer barrel) and FN guns for China and Egypt | 7.92×57mm Mauser | About 20,000 wz. 28s in Polish service in 1939, plus 29,550 FN guns for China | wz. 28, FN Mle 1930 (China), FN Mle D (Egypt) | TBD | TBD | Yes |

@@ -16,8 +16,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Systems
 
-- **LMG handling:** how belts, pans, and drums reload in game (slower than a rifle mag? can a part-used belt be topped off?), whether bipods deploy when prone or on cover, and whether LMGs move and aim slower than rifles ([LMGs](../weapons/lmgs/index.md)).
-- **Two-rate and two-trigger guns:** the M1918A2 BAR has slow and fast auto on its selector, and the MG 34's top trigger fires semi while the bottom fires auto. Both sit on the selector key for now; the data format has no way yet to mark two auto rates ([M1918 BAR](../weapons/lmgs/bar.md), [MG 34](../weapons/lmgs/mg-34.md)).
+- **LMG handling:** whether bipods deploy when prone or on cover, whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The wiki keeps real names either way.
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.

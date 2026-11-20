@@ -1,5 +1,13 @@
 # Ammo
 
+## How ammo and reloading work
+
+Like PUBG. Ammo is loose rounds of each caliber, carried in the backpack. Reloading pulls rounds from the backpack into the gun's mag, belt, or drum instantly, with no filling one round at a time, and tops off whatever is still in the gun. For example, with 100 rounds of 5.56 in the backpack, emptying a 30-round M4 mag and reloading puts 30 in the gun and leaves 70. With a 100-round belt that has 40 left and 40 more in the backpack, reloading leaves 80 in the gun and none in the backpack.
+
+The one exception is [en bloc clips](../rules.md#en-bloc-clips): they can't be topped off, so reloading early ejects the partial clip and its rounds go back to the backpack.
+
+## Spawning and special rounds
+
 Ammo spawns with each gun, so only the calibers of the guns in that match appear. With limited guns per match, ammo for them should be plentiful, like original PUBG, where you'd often fill your backpack with 5.56 or 7.62 near where you land.
 
 **Shared ammo:** 7.63mm Mauser ammo also works in 7.62×25mm Tokarev guns, like Germany's captured PPSh-41s. It's one way only: Tokarev ammo doesn't work in 7.63mm guns, since it's the hotter load. That links the PPSh-41, the C96, the M1911 and Thompson Tokarev versions, and a future TT-33, so those calibers are easier to find ammo for. They stay separate rounds, so the randomizer's same-cartridge bonus doesn't count them as a match.

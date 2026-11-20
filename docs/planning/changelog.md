@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | [Getting started](getting-started.md): ticked the finished steps, noted the private game repo, and added an engine comparison (Unreal, Unity, Godot) |
 | 2026-11-20 | Added the [Getting started](getting-started.md) checklist: what to download, build order, and which parts of Claude help at each step |
 | 2026-11-20 | Added the [SIG MCX-SPEAR (M7)](../weapons/battle-rifles/mcx-spear.md) (5 versions; new 6.8×51mm ammo), finishing the battle rifle & DMR queue |
 | 2026-11-20 | Added the [AK-308](../weapons/battle-rifles/ak-308.md) (2 versions) |

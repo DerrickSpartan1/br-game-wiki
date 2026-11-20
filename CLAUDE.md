@@ -1,6 +1,6 @@
 # Wiki maintenance guide
 
-This repo is the design wiki for a PC battle royale (2018 PUBG feel, rotating gun and ammo pools). Claude maintains it from conversations with the owner. Pages live in `docs/` and publish to GitHub Pages through MkDocs Material.
+This repo is the design wiki for a PC battle royale (2018 PUBG feel, rotating gun and ammo pools). Claude maintains it from conversations with the owner. Pages live in `docs/` and publish to GitHub Pages through MkDocs Material. The game's code lives in the private repo `DerrickSpartan1/br-game`, which has its own `CLAUDE.md`; this wiki stays the design source of truth.
 
 ## Layout
 

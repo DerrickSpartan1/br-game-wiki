@@ -2,7 +2,7 @@
 
 A checklist for going from this wiki to a first playable build. It's advice, not a decision log: anything here becomes a decision only once it's on the [decision log](decisions.md). Facts were checked in November 2026; versions and prices change, so recheck before buying anything.
 
-Each step says which parts of Claude help with it. A table of every part is at the [bottom](#claude-parts-at-a-glance).
+Ticked boxes are done. Each step says which parts of Claude help with it. A table of every part is at the [bottom](#claude-parts-at-a-glance).
 
 ## What's current
 
@@ -10,6 +10,16 @@ Each step says which parts of Claude help with it. A table of every part is at t
 - **Version:** Unreal Engine 5.8 (June 2026) is the current release and the last planned major UE5 release. 5.9 is in preview. Unreal Engine 6 is aiming for early access at the end of 2027, with full release 12–18 months after that. Early UE6 keeps Actors and Blueprints, and conversion tools come later, so build on 5.8 now and plan a move to UE6 later.
 - **Cost:** Unreal is free until a game earns $1 million gross, then the royalty is 5%. Sales on the Epic Games Store are royalty-free.
 - **Servers:** dedicated servers need a source build of the engine, which is free but takes a linked GitHub account and a long compile.
+
+## Other engines
+
+Checked in November 2026. Unreal stays the recommendation; Unity is the only close alternative.
+
+| Engine | Cost | Fit for this game |
+| --- | --- | --- |
+| Unreal Engine 5.8 | Free until $1 million gross, then 5% | Best fit: Epic's shooter sample, dedicated servers, Iris replication, Epic Online Services, and Epic's own Claude Code plugin. The costs are C++, long compiles, a heavy PC, and a move to UE6 later |
+| Unity 6.3 LTS (December 2025, two years of support) | Personal is free up to $200,000 in revenue and funding; Pro is $2,310 a year per seat | C# is easier than C++, and Unity's official Claude Code plugin (September 2026) bundles its MCP server, CLI, and 29 skills. Its 100+ player sample, Megacity Metro, is a third-person shooter built on Netcode for Entities and DOTS, a harder data-oriented way of coding |
+| Godot 4.6 | Free and open source (MIT); you own your game | Light and free, with Jolt physics by default, but it has no 100-player shooter sample, and the sources checked don't cover large-scale multiplayer |
 
 ## 1. Check your PC
 
@@ -23,33 +33,36 @@ Each step says which parts of Claude help with it. A table of every part is at t
 
 ## 2. Make accounts
 
-- [ ] An Epic Games account.
+- [x] An Epic Games account.
 - [ ] A GitHub account, linked in your Epic account under Connections, then Accounts. Accept the @EpicGames invite email within seven days. This unlocks the engine source code, which dedicated servers need.
 - [ ] A Claude plan that includes Claude Code: Pro, Max, Team, or Enterprise. The free plan doesn't include it.
 - [ ] Later: the Epic Developer Portal for Epic Online Services (free), and Steamworks ($100 per game, paid back once the game makes $1,000 adjusted gross revenue).
 
 ## 3. Download and install
 
-- [ ] **Epic Games Launcher**, then **Unreal Engine 5.8** from it.
-- [ ] **Visual Studio 2026**, which Epic recommends for general development, with the C++ game development workload. Rider and VS Code also work.
-- [ ] **Git for Windows** with **Git LFS**. Claude Code also uses Git for Windows for its Bash tool.
-- [ ] **Blender 5.2 LTS** (supported until July 2028) for models: robot characters, guns, and props.
-- [ ] **The Claude desktop app**, which includes Claude Code. The terminal version installs from [Claude Code setup](https://code.claude.com/docs/en/setup); run `claude doctor` to check it.
+- [x] **Epic Games Launcher**, then **Unreal Engine 5.8** from it.
+- [x] **Visual Studio 2026**, which Epic recommends for general development, with the C++ game development workload. Rider and VS Code also work.
+- [x] **Git for Windows** with **Git LFS**. Claude Code also uses Git for Windows for its Bash tool.
+- [x] **Blender 5.2 LTS** (supported until July 2028) for models: robot characters, guns, and props.
+- [x] **The Claude desktop app**, which includes Claude Code. The terminal version installs from [Claude Code setup](https://code.claude.com/docs/en/setup); run `claude doctor` to check it.
 - [ ] Later: the engine source from GitHub, built in Visual Studio, for the dedicated server.
 
 ## 4. Learn from Lyra, then start your own project
 
 - [ ] Add the **Lyra Starter Game** from Fab to your library and create a project from it in the launcher. Epic calls it a learning resource: a multiplayer shooter sample with a weapon system, the Gameplay Ability System, and Epic Online Services support. Play it and read how its weapons and abilities work.
-- [ ] Create the game's own project as a **C++ project**, not Blueprint-only. Code lives in text files that Claude Code can read, write, and review. Blueprints are binary assets, though Claude Code can still edit them through Unreal MCP (step 6).
-- [ ] Add a `CLAUDE.md` to the project with the code rules, like this wiki has. Claude Code reads it every session.
+- [ ] Create the game's own project as a **C++ project** from the First Person template, not Blueprint-only, inside the cloned repo folder. Use a name without spaces or dashes, like `BRGame`. Code lives in text files that Claude Code can read, write, and review. Blueprints are binary assets, though Claude Code can still edit them through Unreal MCP (step 6).
+- [x] Add a `CLAUDE.md` to the project with the code rules, like this wiki has. Claude Code reads it every session. (Done in the game repo; see step 5.)
 
 **Claude:** Claude Code sets up the C++ project files, the `CLAUDE.md`, and the first classes.
 
 ## 5. Set up version control
 
-- [ ] Make a **private** GitHub repo for the game, separate from this public wiki.
-- [ ] Use Git LFS for `.uasset` and `.umap` files, with file locking. These files are binary and can't be merged, which is why Unreal's own Perforce workflow locks them while you edit. Perforce is the other option if the team grows.
-- [ ] Ignore the folders Unreal rebuilds: `Binaries`, `Intermediate`, `Saved`, and `DerivedDataCache`.
+- [x] Make a **private** GitHub repo for the game, separate from this public wiki.
+- [x] Use Git LFS for `.uasset` and `.umap` files, with file locking. These files are binary and can't be merged, which is why Unreal's own Perforce workflow locks them while you edit. Perforce is the other option if the team grows.
+- [x] Ignore the folders Unreal rebuilds: `Binaries`, `Intermediate`, `Saved`, and `DerivedDataCache`.
+- [ ] On each PC, run `git lfs install` once, then clone the repo.
+
+The private repo is `br-game`. Its `.gitignore` and `.gitattributes` already hold these rules, and they work whether the `.uproject` sits at the repo root or in a subfolder like `BRGame/`. Its `README.md` has the setup steps, and its `CLAUDE.md` holds the code rules.
 
 **Claude:** Claude Code writes the `.gitignore` and `.gitattributes`, sets up LFS, and makes commits with clear messages.
 
@@ -129,3 +142,9 @@ These steps follow Epic's docs for 5.9, where the feature is newer; 5.8's experi
 - [Epic Online Services: Licensing](https://onlineservices.epicgames.com/licensing)
 - [PC Gamer: Epic has made Easy Anti-Cheat free for game developers (2021)](https://pcgamer.com/epic-has-made-easy-anti-cheat-free-for-game-developers)
 - [Steamworks: Steam Direct fee](https://partner.steamgames.com/doc/gettingstarted/appfee)
+- [Unity: Subscription plans and pricing](https://unity.com/products/pricing-updates)
+- [Unity: Unity 6.3 LTS is now available](https://unity.com/blog/unity-6-3-lts-is-now-available)
+- [GameDev.net: Official Unity plugin for Claude Code (September 2026)](https://gamedev.net/news/5704-official-unity-plugin-for-claude-code/)
+- [Unity: Megacity Metro multiplayer sample](https://unity.com/demos/megacity-competitive-action-sample)
+- [Godot 4.6 release](https://godotengine.org/releases/4.6/)
+- [Godot: License](https://godotengine.org/license/)

@@ -2,18 +2,18 @@
 
 A checklist for going from this wiki to a first playable build. It's advice, not a decision log: anything here becomes a decision only once it's on the [decision log](decisions.md). Facts were checked in November 2026; versions and prices change, so recheck before buying anything.
 
-Ticked boxes are done. Each step says which parts of Claude help with it. A table of every part is at the [bottom](#claude-parts-at-a-glance).
+Ticked boxes are done. Each step says which parts of Claude help with it. For the hands-on version of steps 4 to 7, with prompts to paste into Claude Code, see [First steps in Unreal](first-steps.md). A table of every part is at the [bottom](#claude-parts-at-a-glance).
 
 ## What's current
 
-- **Engine (recommended, not decided):** Unreal Engine. Original PUBG was built on Unreal Engine 4, Epic ships a multiplayer shooter sample (Lyra), Unreal supports dedicated servers, and its new Unreal MCP plugin lets Claude Code work inside the editor. The choice is on the [open questions](open-questions.md) page.
+- **Engine (decided 2026-11-20):** Unreal Engine. Original PUBG was built on Unreal Engine 4, Epic ships a multiplayer shooter sample (Lyra), Unreal supports dedicated servers, and its new Unreal MCP plugin lets Claude Code work inside the editor. The decision is on the [decision log](decisions.md).
 - **Version:** Unreal Engine 5.8 (June 2026) is the current release and the last planned major UE5 release. 5.9 is in preview. Unreal Engine 6 is aiming for early access at the end of 2027, with full release 12–18 months after that. Early UE6 keeps Actors and Blueprints, and conversion tools come later, so build on 5.8 now and plan a move to UE6 later.
 - **Cost:** Unreal is free until a game earns $1 million gross, then the royalty is 5%. Sales on the Epic Games Store are royalty-free.
 - **Servers:** dedicated servers need a source build of the engine, which is free but takes a linked GitHub account and a long compile.
 
 ## Other engines
 
-Checked in November 2026. Unreal stays the recommendation; Unity is the only close alternative.
+Checked in November 2026, before choosing Unreal. Unity was the only close alternative.
 
 | Engine | Cost | Fit for this game |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ Checked in November 2026. Unreal stays the recommendation; Unity is the only clo
 
 ## 4. Learn from Lyra, then start your own project
 
-- [ ] Add the **Lyra Starter Game** from Fab to your library and create a project from it in the launcher. Epic calls it a learning resource: a multiplayer shooter sample with a weapon system, the Gameplay Ability System, and Epic Online Services support. Play it and read how its weapons and abilities work.
+- [ ] Optional, once the basics make sense: add the **Lyra Starter Game** from Fab to your library and create a project from it in the launcher. Epic calls it a learning resource: a multiplayer shooter sample with a weapon system, the Gameplay Ability System, and Epic Online Services support. Play it and read how its weapons and abilities work.
 - [ ] Create the game's own project as a **C++ project** from the First Person template, not Blueprint-only, inside the cloned repo folder. Use a name without spaces or dashes, like `BRGame`. Code lives in text files that Claude Code can read, write, and review. Blueprints are binary assets, though Claude Code can still edit them through Unreal MCP (step 6).
 - [x] Add a `CLAUDE.md` to the project with the code rules, like this wiki has. Claude Code reads it every session. (Done in the game repo; see step 5.)
 

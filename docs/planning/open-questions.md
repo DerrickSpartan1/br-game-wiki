@@ -2,10 +2,6 @@
 
 Everything still undecided or still to look up. When one is settled, it moves to the right page and gets a line in the [decision log](decisions.md).
 
-## Project
-
-- **Engine:** Unreal Engine 5.8 is the recommendation on [Getting started](getting-started.md), with a move to Unreal Engine 6 later; not decided.
-
 ## Balance
 
 - **Damage and in-game range:** TBD on every gun page. [TTK](../systems/ttk.md) needs more discussion first.

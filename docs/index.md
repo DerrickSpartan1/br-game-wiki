@@ -6,6 +6,7 @@ A PC battle royale that brings back the feel of original 2018 PUBG, with one twi
 - **Feel:** scavenging, a slower pace, and deep guns and attachments, like PUBG in 2018.
 - **Signature hook:** no two matches have the same gun and ammo pool.
 - **Build approach:** built solo with AI-assisted coding until it's functional; real developers come later.
+- **Engine:** Unreal Engine 5.8, as a C++ project ([Getting started](planning/getting-started.md)).
 - **Release:** early access at $30.
 
 **Guiding rule:** grounded, but not all the way. The game should stay fun and easy. No single gun should win every fight.

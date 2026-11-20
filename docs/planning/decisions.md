@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Engine: Unreal Engine 5.8 as a C++ project, moving to Unreal Engine 6 later; Unity and Godot were compared and passed over | [Getting started](getting-started.md#other-engines) |
 | 2026-10-22 | Real conversion kits count as versions: a kit-converted gun can spawn as its own version or merge into the matching factory version, but never swaps mid-match | [Rules](../rules.md#spawned-version-is-fixed) |
 | 2026-10-15 | En bloc clips ping when they fly out, loud enough for nearby players to hear, and can't be topped off: reloading early ejects the partial clip and its rounds go back to inventory | [Rules](../rules.md#en-bloc-clips) |
 | 2026-10-15 | The Mondragón's gas cut-off goes on the selector key: semi-auto or straight-pull manual | [Rules](../rules.md#fixed-triggers) |

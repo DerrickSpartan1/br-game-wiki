@@ -190,6 +190,7 @@ nav:
         - "AA-12": weapons/crate/aa-12.md
   - Planning:
       - Getting started: planning/getting-started.md
+      - First steps in Unreal: planning/first-steps.md
       - Gun queue: planning/queue.md
       - Guns to add later: planning/add-later.md
       - Open questions: planning/open-questions.md

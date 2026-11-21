@@ -86,12 +86,20 @@ Random, like PUBG's:
 
 Apex Legends added locked vaults to World's Edge in 2019. Keys came from roaming cargo drones; holding one marked every vault on your map; opening took 3 seconds, and the doors stayed open for anyone after. Vaults held top-tier armor, backpacks, attachments, and heals, but no weapons or ammo.
 
-Ours (first pass):
+Ours:
 
-- **Vaults:** 3 per map, in bunkers and basements.
-- **Keys:** rare, from some care packages and from Military loot areas ([Loot](loot.md)). Holding one shows every vault on your map.
+- **Vaults:** 4 to 6 per map, spread out. On the first map: one under the Military Outpost, one in each big town (Ischia Porto and Forio), and one on the coast (Marina's waterfront); the Prison armory is a suggested fifth ([Maps](maps.md#marina-farms-and-vaults)).
+- **Keys:** only 2 or 3 per match, spawning at random, so most vaults stay shut in any given match.
 - **Opening:** 3 seconds. The key is used up, the door stays open, and an alarm sounds nearby, so others know.
 - **Inside:** like Apex, no weapons: tier 3 armor and helmets, the best backpacks, scopes, and mag tiers, meds, and throwables. Crate weapons stay crate-only.
+
+**How keys could work (first pass, for review):**
+
+- **One kind of key:** any key opens any vault once, and holding one shows every vault on your map, like Apex.
+- **Where they spawn:** each match picks 2 or 3 spots at random from a longer list of possible key spots (desks, lockers, and safes in offices, the Hospital, the Port, the Prison, and similar), at least 2 km apart. Players learn the likely places but can't farm one spot.
+- **Dropped on death:** a key drops with your loot, so a key holder is worth hunting.
+
+**Other ideas, not decided:** keys that each open only one named vault; a drill that opens any vault in about 45 seconds but loudly; or one key in a care package instead of on the ground.
 
 ## Time of day and weather
 

@@ -65,7 +65,7 @@ Armor and gear > Carry weight, and TTK > Hit zones.
 Then the build order that's left:
 
 - [ ] **The plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): a random plane path, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
-- [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, squashed hills and the plateau, ring road, town spots, and our own spots ([Maps](../systems/maps.md#the-first-map-ischia)).
+- [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, squashed hills and the plateau, ring road, town spots, Marina, farm huts and tracks, our own spots, and the vaults ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Zone events, care packages, and vaults** ([Match flow](../systems/match-flow.md#zone-events)).
@@ -84,7 +84,8 @@ In rough order of what the game needs first:
 - [x] **The first map's island:** Ischia ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [x] **First map scale:** 10 × 8 km, Ischia at true scale with ocean on the edges ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [x] **Monte Epomeo:** squashed to a plateau ([Maps](../systems/maps.md#heights-squashed-with-a-plateau)).
-- [ ] **Review the v2 map mockup:** the spots, tunnel, and tracks, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#our-own-spots-first-pass-for-review)).
+- [x] **Review the map spots:** approved on the v3 mockup ([Maps](../systems/maps.md#our-own-spots)).
+- [ ] **Vaults and keys:** the Prison armory as a fifth vault, and how keys spawn ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)); plus the per-map caps for throwables and crate weapons.
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

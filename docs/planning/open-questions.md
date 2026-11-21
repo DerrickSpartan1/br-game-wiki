@@ -24,7 +24,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
-- **First map spots:** the first-pass spots on the v2 mockup (outpost and bunker, tunnel, prison, port, fishing dock, fortress, quarry, spa, hospital, school, farm) are for review ([Maps](../systems/maps.md#our-own-spots-first-pass-for-review)).
+- **Vaults:** whether the Prison armory is a fifth vault on the first map, and how keys work: one kind of key from random key spots, or one of the other ideas ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each zone event's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

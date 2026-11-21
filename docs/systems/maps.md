@@ -38,9 +38,9 @@ Ischia is almost all mountain, and a 789 m peak in a 10 km map would let whoever
 - **Walkable:** no slope steeper than about 37° in the mock-up's terrain.
 - **No sniper nest:** a tree line rings the plateau, so the middle doesn't see the whole island.
 
-### Our own spots (first pass, for review)
+### Our own spots
 
-Placed on the v2 mockup; every position can move.
+Approved on the v3 mockup.
 
 | Spot | Where | Notes |
 | --- | --- | --- |
@@ -56,7 +56,13 @@ Placed on the v2 mockup; every position can move.
 | School | Between Barano and Ischia | — |
 | Farm | The fields near Cuotto | — |
 
-With the 11 towns and villages, that's 22 named places, against Erangel's 25.
+### Marina, farms, and vaults
+
+- **Marina:** a new coastal town of our own on the southeast bay, between Barano and the east coast, with a small pier. A side road links it to the ring road near Barano and runs up the east coast to Ischia Ponte.
+- **Farms and huts:** about 70 small farmsteads of 1 to 4 huts and barns are scattered across the open ground, each with a dirt track to the nearest road, plus a few longer farm tracks through the fields.
+- **Vaults:** under the Military Outpost, in Ischia Porto and Forio, and on Marina's waterfront; the Prison armory is a suggested fifth ([Vaults and keys](match-flow.md#vaults-and-keys)).
+
+With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
 ### Turning Ischia into terrain
 

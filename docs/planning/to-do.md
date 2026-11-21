@@ -14,16 +14,25 @@ Set up the [AI team](ai-team.md): the workers, the lead, and reaching the lead f
 - [ ] **Connect your phone:** in the Claude app, tap Code and pick "BR Lead" (green dot means online). After a restart, run `claude --continue` in the game repo to bring it back.
 - [ ] **Optional:** turn on Require trusted devices in your claude.ai account settings.
 - [ ] **First job:** from your phone, tell the lead "check the planner's list."
+- [ ] **Accept the Epic Games invite on GitHub:** your Epic account is linked to GitHub, but the EpicGames organization invite is still pending, so the Unreal source stays hidden. Open <https://github.com/orgs/EpicGames/invitation> while signed in as DerrickSpartan1 and press Join (or use the invite email from GitHub). The dedicated server build needs it.
 
 ## You: art
 
-- [ ] **Build the M16 / M4 model** with the [M16 / M4 model guide](m16-m4-model.md), starting with its setup prompt.
+- [ ] **Build the M16 / M4 model** with the [M16 / M4 model guide](m16-m4-model.md), starting with its setup prompt. Started 2026-11-21: the lead runs the steps with its workers; you judge each check by eye and OK the reference downloads.
 - [ ] **Then the other three pilot guns:** the [M1911](../weapons/pistols/m1911.md), [Minimi / M249](../weapons/lmgs/minimi.md), and [M1 Garand](../weapons/battle-rifles/m1-garand.md) ([Pilot](art-and-sound.md#pilot-four-guns-first)).
 - [ ] **Pick gunshot and gun sounds by ear** as each pilot gun goes in ([Sound](art-and-sound.md#sound)).
 
 ## For the lead (Claude Code)
 
 When you tell the lead "check the planner's list," it works through this section in order and tells you what's done.
+
+**Lead's report, 2026-11-21** (for the planner to check against the game repo's commits and tick):
+
+- Done: catching the game up with the wiki (`f5dbd13`, `6cf8d67`); handling, weights, and hit zones (`c2b386b`, `cac2e83`); the plane, parachutes, and zone (`b3aeab8`, `932027f`, data tables imported in `c7dffc8`); red zones, care packages, and vaults (`d85b077`, `1df5faf`).
+- Not done yet from "the lobby, plane, parachutes, and zone": the pre-match lobby and its 60-second countdown. The lead is building it now.
+- Next for the lead, in order: the graybox map, healing with variants, then time of day and weather.
+- Waiting on the owner: the dedicated server build, until the Epic Games invite on GitHub is accepted (see You: setup). The M4 model has started (see You: art).
+- Waiting on the planner: how bots fill empty slots (see Planner).
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
@@ -101,6 +110,7 @@ In rough order of what the game needs first:
 - [ ] **Next guns:** the Madsen ([LMG queue](queue.md#lmgs-in-progress)) and the Arisaka ([sniper queue](queue.md#snipers-in-progress)), then start the special category: bows, crossbows, and mortars.
 - [ ] **Lookups:** energies for the rounds behind the 32 versions with no damage yet, each version's real bullet speed, the missing LMG fire rates, and attachment lists for the 5 gun pages without one ([Lookups](open-questions.md#lookups)).
 - [ ] **Mockups:** the HUD, inventory, and menus as designs before they're built in Unreal.
+- [ ] **Bots:** how bots fill the lobby and stay to fill empty slots ([Pre-match lobby](../systems/match-flow.md#pre-match-lobby)): how they move, loot, fight, and how good they are. The lead's lobby code leaves a spot for them.
 
 ## Later
 

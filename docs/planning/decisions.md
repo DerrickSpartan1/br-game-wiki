@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | Slot 4 holds class items and slot 5 throwables; melee gets its own button instead of a slot | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | The HUD and inventory follow PUBG's 2017–2018 layout with the game's own look, items are picked up by looking and pressing F, and the inventory shows each gun's rolled version | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | Armor and helmets come in four tiers, filled with Escape from Tarkov's real-world pieces (57 vests and 26 helmets so far); each piece has its own movement and ADS slowdown, starting from Tarkov's penalties | [Armor and gear](../systems/armor.md) |

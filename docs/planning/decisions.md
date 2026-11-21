@@ -5,6 +5,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Visors can't flip up; there's no face hitbox, so a visor stays as it is | [Armor and gear](../systems/armor.md#debuffs) |
 | 2026-11-20 | Helmets that cover the ears muffle hearing, more at higher tiers; helmets with a visor or face cover block some vision (never all, amount to balance) and prevent ADS | [Armor and gear](../systems/armor.md#debuffs) |
 | 2026-11-20 | Slot 4 holds class items and slot 5 throwables; melee gets its own button instead of a slot | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | The HUD and inventory follow PUBG's 2017–2018 layout with the game's own look, items are picked up by looking and pressing F, and the inventory shows each gun's rolled version | [Gameplay](../systems/gameplay.md#hud-and-inventory) |

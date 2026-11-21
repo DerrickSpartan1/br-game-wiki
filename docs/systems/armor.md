@@ -25,7 +25,7 @@ Every piece has its own movement and ADS (aim down sights) slowdown, as a percen
 - **Coverage costs speed.** A light plate carrier covers only the chest and barely slows you; a full kit covers the chest, stomach, arms, neck, and groin and slows you down.
 - **Arm armor slows ADS the most,** so a light vest keeps ADS quick but leaves the arms open.
 - **Hearing:** a helmet that covers the ears muffles sound, and the higher its tier, the more it muffles: a tier 2 helmet over the ears muffles less than a tier 3. Helmets that leave the ears open don't muffle anything. How much each tier muffles is TBD.
-- **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 4 helmets and the DEVTAC Ronin.
+- **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 4 helmets and the DEVTAC Ronin. Visors can't flip up: there's no separate face hitbox, so a visor stays as it is.
 
 ## Vests
 

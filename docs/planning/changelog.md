@@ -5,6 +5,7 @@ Every update to the wiki, newest first.
 | Date | Change |
 | --- | --- |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Decided that visors can't flip up, since there's no face hitbox ([Armor and gear](../systems/armor.md#debuffs)); the visor question came off the open questions page |
 | 2026-11-20 | Decided helmet hearing and vision rules on [Armor and gear](../systems/armor.md#debuffs): ear coverage muffles sound by tier, and visors or face covers block some vision and prevent ADS; dropped the Tarkov deafening column |
 | 2026-11-20 | Added [HUD and inventory](../systems/gameplay.md#hud-and-inventory) to Gameplay: PUBG-style layout, slots 1–5 (4 class item, 5 throwable), melee on its own button, F to pick up |
 | 2026-11-20 | Reworked [Armor and gear](../systems/armor.md): four tiers mapped to Tarkov's armor classes, per-piece movement and ADS slowdowns, and lists of 57 vests and 26 helmets; the armor idea moved out of the idea inbox; five new open questions (damage reduction per tier, hearing loss, visors, neck and groin, armored rigs) |

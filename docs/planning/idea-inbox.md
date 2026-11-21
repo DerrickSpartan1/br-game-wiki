@@ -4,9 +4,27 @@ Ideas that don't fit a section yet land here until they're sorted.
 
 | Date | Idea | Move to |
 | --- | --- | --- |
+| 2026-11-21 | Run the game's AI helpers as a team of workers: a 3D modeler, a texture artist, an animator, and a coder, with a group leader the owner talks to, who plans the work and hands it out. See [AI team of workers](#ai-team-of-workers) below | [To-do](to-do.md) once settled |
 | 2026-10-07 | Make a wiki for all of this at some point, probably on GitHub | Done: this wiki (2026-10-14) |
 | 2026-11-20 | Armor goes up to level 4, with more vest and helmet types beyond the level number, such as heavier pieces, modeled on Escape from Tarkov's armor and helmets, which have already done the real-world research. Keep it balanced and realistic. Needs research into which real pieces to use and how levels map to PUBG-style damage reduction. | Done: [Armor and gear](../systems/armor.md) (2026-11-20) |
 | 2026-10-20 | Concept thought: player characters could be robots instead of humans, in the style of small, highly articulated military mecha model kits. The owner thinks the look is great. See [Robot character concept](#robot-character-concept) below. | [Skins and mastery](../systems/skins.md) (player character and wardrobe), once decided |
+
+## AI team of workers
+
+Being discussed, not decided. The owner talks to one lead, who plans the work and hands it to specialists. The coder already works in Claude Code in the game repo.
+
+Claude Code supports this two ways:
+
+- **Subagents (the simpler start):** each worker is a file in the game repo's `.claude/agents/` folder with its own instructions, tools, and model, and the lead is the main session run as an agent (`claude --agent lead`, or `"agent": "lead"` in `.claude/settings.json`). The lead hands out work and gets results back. Subagents can keep their own project memory, so each worker remembers its lessons.
+- **Agent teams (experimental):** the lead and each worker are full Claude Code sessions with a shared task list, and they message each other. You can talk to any worker directly. They use more tokens, can't be resumed, and on Windows run inside one terminal window.
+
+Workers to start with: a lead (plans from the wiki, splits work, asks the owner to judge looks and sounds), a modeler (Blender), a materials and texture worker, a rigger and animator, the coder (C++ and Unreal), a sound worker, and a reviewer who checks each result against the wiki and the gun conventions without having made it.
+
+Things that shape it:
+
+- **One Blender and one Unreal editor** are shared, so only one worker can drive each at a time. The lead runs art jobs one after another while the coder works on code.
+- **Workers need eyes:** art workers render a preview image and look at it before reporting, and the reviewer compares it to the reference photos.
+- **Files are the contract:** the wiki, the gun conventions file, each gun's brief, and the asset log. Each worker owns its own folders, so two never edit the same file.
 
 ## Robot character concept
 

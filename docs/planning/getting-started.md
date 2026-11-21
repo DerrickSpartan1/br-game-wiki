@@ -35,7 +35,7 @@ Checked in November 2026, before choosing Unreal. Unity was the only close alter
 
 - [x] An Epic Games account.
 - [ ] A GitHub account, linked in your Epic account under Connections, then Accounts. Accept the @EpicGames invite email within seven days. This unlocks the engine source code, which dedicated servers need.
-- [ ] A Claude plan that includes Claude Code: Pro, Max, Team, or Enterprise. The free plan doesn't include it.
+- [x] A Claude plan that includes Claude Code: Pro, Max, Team, or Enterprise. The free plan doesn't include it.
 - [ ] Later: the Epic Developer Portal for Epic Online Services (free), and Steamworks ($100 per game, paid back once the game makes $1,000 adjusted gross revenue).
 
 ## 3. Download and install
@@ -50,7 +50,7 @@ Checked in November 2026, before choosing Unreal. Unity was the only close alter
 ## 4. Learn from Lyra, then start your own project
 
 - [ ] Optional, once the basics make sense: add the **Lyra Starter Game** from Fab to your library and create a project from it in the launcher. Epic calls it a learning resource: a multiplayer shooter sample with a weapon system, the Gameplay Ability System, and Epic Online Services support. Play it and read how its weapons and abilities work.
-- [ ] Create the game's own project as a **C++ project** from the First Person template, not Blueprint-only, inside the cloned repo folder. Use a name without spaces or dashes, like `BRGame`. Code lives in text files that Claude Code can read, write, and review. Blueprints are binary assets, though Claude Code can still edit them through Unreal MCP (step 6).
+- [x] Create the game's own project as a **C++ project** from the First Person template, not Blueprint-only, inside the cloned repo folder. Use a name without spaces or dashes, like `BRGame`. Code lives in text files that Claude Code can read, write, and review. Blueprints are binary assets, though Claude Code can still edit them through Unreal MCP (step 6).
 - [x] Add a `CLAUDE.md` to the project with the code rules, like this wiki has. Claude Code reads it every session. (Done in the game repo; see step 5.)
 
 **Claude:** Claude Code sets up the C++ project files, the `CLAUDE.md`, and the first classes.
@@ -60,7 +60,7 @@ Checked in November 2026, before choosing Unreal. Unity was the only close alter
 - [x] Make a **private** GitHub repo for the game, separate from this public wiki.
 - [x] Use Git LFS for `.uasset` and `.umap` files, with file locking. These files are binary and can't be merged, which is why Unreal's own Perforce workflow locks them while you edit. Perforce is the other option if the team grows.
 - [x] Ignore the folders Unreal rebuilds: `Binaries`, `Intermediate`, `Saved`, and `DerivedDataCache`.
-- [ ] On each PC, run `git lfs install` once, then clone the repo.
+- [x] On each PC, run `git lfs install` once, then clone the repo.
 
 The private repo is `br-game`. Its `.gitignore` and `.gitattributes` already hold these rules, and they work whether the `.uproject` sits at the repo root or in a subfolder like `BRGame/`. Its `README.md` has the setup steps, and its `CLAUDE.md` holds the code rules.
 
@@ -68,10 +68,10 @@ The private repo is `br-game`. Its `.gitignore` and `.gitattributes` already hol
 
 ## 6. Connect Claude Code to the editor
 
-- [ ] In the editor, go to Edit, then Plugins, and turn on **Unreal MCP** and **All Toolsets**. Restart the editor.
-- [ ] In Editor Preferences, under Agentic Workflows, then Model Context Protocol, check that the server auto-starts. Under MCP Client, pick Claude Code and click **Generate Client Config**. That writes a `.mcp.json` file into the project.
+- [x] In the editor, go to Edit, then Plugins, and turn on **Unreal MCP** and **All Toolsets**. Restart the editor.
+- [x] In Editor Preferences, under Agentic Workflows, then Model Context Protocol, check that the server auto-starts. Under MCP Client, pick Claude Code and click **Generate Client Config**. That writes a `.mcp.json` file into the project.
 - [ ] Or install Epic's **Unreal Engine Skills** plugin for Claude Code from Claude's plugin directory. It bundles the MCP server, a startup hook that loads Unreal context, and safety rules.
-- [ ] Open Claude Code from the project folder while the editor is running.
+- [x] Open Claude Code from the project folder while the editor is running.
 - [ ] Keep it local. The server listens only on your own machine and has no password, so never open it to the network. Commit before big changes, since the plugin is experimental.
 
 These steps follow Epic's docs for 5.9, where the feature is newer; 5.8's experimental plugin may name things a little differently.
@@ -81,12 +81,12 @@ These steps follow Epic's docs for 5.9, where the feature is newer; 5.8's experi
 ## 7. Build the first playable, in this order
 
 - [ ] **Movement and camera:** first person, with third person only while parachuting ([Gameplay](../systems/gameplay.md)).
-- [ ] **One gun, end to end:** pick one family, like the [M16 / M4](../weapons/assault-rifles/m16-m4.md). Build real fire modes, random recoil, reloads, and the selector key from the [Rules](../rules.md).
-- [ ] **Weapon data:** turn the wiki's gun pages into an Unreal data table (CSV or JSON) of families, versions, cartridges, fire modes, and mags, so no gun is typed in by hand.
-- [ ] **Inventory:** the main weapon slots plus the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)).
-- [ ] **Damage, armor, and TTK:** settle the numbers in a spreadsheet first ([TTK](../systems/ttk.md), [Armor](../systems/armor.md)).
-- [ ] **Loot:** spawn guns, versions, and ammo from the match's rolled pool ([Weapon pool](../systems/weapon-pool.md), [Ammo](../systems/ammo.md)).
-- [ ] **Multiplayer:** get replication working with a listen server first, then build a dedicated server from the engine source. Iris, Unreal's newer replication system, is production-ready in 5.8.
+- [x] **One gun, end to end:** pick one family, like the [M16 / M4](../weapons/assault-rifles/m16-m4.md). Build real fire modes, random recoil, reloads, and the selector key from the [Rules](../rules.md).
+- [x] **Weapon data:** turn the wiki's gun pages into an Unreal data table (CSV or JSON) of families, versions, cartridges, fire modes, and mags, so no gun is typed in by hand.
+- [x] **Inventory:** the main weapon slots plus the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)).
+- [x] **Damage, armor, and TTK:** settle the numbers in a spreadsheet first ([TTK](../systems/ttk.md), [Armor](../systems/armor.md)).
+- [x] **Loot:** spawn guns, versions, and ammo from the match's rolled pool ([Weapon pool](../systems/weapon-pool.md), [Ammo](../systems/ammo.md)).
+- [ ] **Multiplayer:** get replication working with a listen server first, then build a dedicated server from the engine source. Iris, Unreal's newer replication system, is production-ready in 5.8. The listen server, backend, and editor-run match servers are done; the source build is on the [To-do](to-do.md) list.
 - [ ] **The zone and the plane drop.**
 - [ ] **A graybox map:** blocks and ramps before art ([Maps](../systems/maps.md)).
 - [ ] **Playtest with friends**, then fix the worst problems before adding more.

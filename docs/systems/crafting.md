@@ -19,3 +19,7 @@ In-match crafting is the scavenger's fallback: rough versions of things you have
 Crafting materials take up backpack space, and crafting takes time, like healing.
 
 Makeshift armor upgrades are also crafted in-match from scrap. The different kinds of scrap are still to be worked out.
+
+## Scrap machine (idea)
+
+Instead of working out how players craft gear, it could be a vending machine: spend scrap to buy armor and other gear. It could sell an expensive [vault drill](match-flow.md#vaults-and-keys). Scrap also pays for [radar stations](match-flow.md#radar-stations), which show the next circle. To think about more later.

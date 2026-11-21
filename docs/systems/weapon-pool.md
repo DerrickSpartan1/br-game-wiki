@@ -31,6 +31,8 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Throwables (a good random mix) | Ground | Not set yet |
 | Crate weapons | Crates (exclusive list) | Not set yet |
 
+Throwable ideas on top of the usual grenades: a blue zone grenade that makes a small damage circle, like PUBG's, an EMP grenade, and a gas grenade.
+
 Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a mortar, never two bows.
 
 Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:

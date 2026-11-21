@@ -64,7 +64,7 @@ Armor and gear > Carry weight, and TTK > Hit zones.
 
 Then the build order that's left:
 
-- [ ] **The plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): a random plane path, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
+- [ ] **The lobby, plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): the pre-match lobby and countdown, a random plane path from off the map, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
 - [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, squashed hills and the plateau, ring road, town spots, Marina, farm huts and tracks, our own spots, and the vaults ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
@@ -88,6 +88,8 @@ In rough order of what the game needs first:
 - [x] **Vault keys:** one key fits all, used up on opening, dropped on death, with a small chance in care packages ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
 - [x] **Prison armory:** the first map's fifth vault ([Maps](../systems/maps.md#marina-farms-and-vaults)).
 - [ ] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
+- [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
+- [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

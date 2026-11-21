@@ -1,10 +1,21 @@
 # Match flow
 
-How a match runs, from the plane to the last circle: the plane and parachutes, the zone, zone events, care packages, vaults, time of day and weather, and the wrist watch. PUBG's 2017–2018 match is the base. Numbers marked "our pick" are first passes to tune in play testing; TBD numbers aren't set yet.
+How a match runs, from the lobby to the last circle: the pre-match lobby, the plane and parachutes, the zone, zone events, care packages, vaults, time of day and weather, and the wrist watch. PUBG's 2017–2018 match is the base. Numbers marked "our pick" are first passes to tune in play testing; TBD numbers aren't set yet.
+
+## Pre-match lobby
+
+There's no separate lobby island: players spawn on the match's own map and wait there.
+
+- **Filling up:** the lobby fills with bots, and real players take their places as they join.
+- **Countdown:** once 10 players have joined, a 60-second countdown starts.
+- **Rolling the match:** the countdown gives the server time to make the match's random choices: the gun pool and versions, vault keys, time of day, and weather.
+- **Loot:** ground loot only loads once everyone is moved into the plane.
+- **Open:** whether bots stay in the match to fill empty slots, and what players carry while they wait.
 
 ## The plane
 
-- **Random path:** every match, the plane flies a straight line across the map between two random edges, like PUBG. The path shows on the map before the doors open.
+- **Random path:** every match, the plane flies in from off the map and crosses it in a straight line between two random edges, like PUBG. The path shows on the map before the doors open.
+- **Crates:** crates drop from the plane along its path (how many is TBD).
 - **Jumping:** jump any time along the path. Anyone still aboard is pushed out near the end.
 - **Squads:** teammates can follow one player's jump and land together (our pick).
 - **Altitude and speed:** TBD.
@@ -59,6 +70,10 @@ Time from full health to dead, with no healing:
 
 If camping still pays in play tests, the next lever is weaker healing outside the zone.
 
+### Radar stations
+
+Spend scrap at a radar station to see the next circle early. Stations sit at the Military Outpost and at other spots around the map. Cost and locations are TBD ([Crafting](crafting.md)).
+
 ## Zone events
 
 PUBG's red zone, plus variants. One event at a time, at a random spot on the map once the match starts, including outside the safe circle. Each event rolls its type:
@@ -82,6 +97,16 @@ Random, like PUBG's:
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.
 
+**Satellite crashes (idea, later):** a satellite comes down somewhere during the match, with rewards that carry out of the match.
+
+## Moving loot
+
+Loot that moves around the map, like PUBG's loot truck or Apex's train: a supply truck that drives the ring road and can be stopped for what it carries. Trains can do the same on maps with rail.
+
+## Wanted players
+
+Contracts like Warzone's Most Wanted: a player gets marked on the map, and if they survive a set time, their team gets a reward. Details TBD.
+
 ## Vaults and keys
 
 Apex Legends added locked vaults to World's Edge in 2019. Keys came from roaming cargo drones; holding one marked every vault on your map; opening took 3 seconds, and the doors stayed open for anyone after. Vaults held top-tier armor, backpacks, attachments, and heals, but no weapons or ammo.
@@ -102,7 +127,7 @@ Ours:
 - **Away from the vaults:** a key lands in the same named place as a vault only about 1% of the time, so a place like the Farm is more likely to hold a key than the Prison is. Finding the key and reaching a vault are two separate trips.
 - **Care packages:** a 5% chance of a key per package, on top of the ground keys, to tune later.
 
-**Later:** a drill that opens any vault in about 45 seconds, but loudly.
+**Later:** a drill that opens any vault in about 45 seconds, but loudly. It could be an expensive item in the scrap machine ([Crafting](crafting.md#scrap-machine-idea)).
 
 ## Time of day and weather
 

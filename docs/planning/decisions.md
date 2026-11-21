@@ -5,6 +5,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Crates hold anti-vehicle and heavy snipers (a head shot kills through any helmet, like PUBG's AWM), rocket launchers like the RPG (moved from special), lethal grenade launchers, and a flash shield with 1 to 3 charges that breaks quickly | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |
+| 2026-11-20 | Normal ballistic shields spawn in the world and go in the class slot | [Class items](../systems/class-items.md) |
 | 2026-11-20 | Heavy and anti-materiel sniper rifles, like .50-caliber ones, are crate-only; lever guns like the Winchester 1894 stay in snipers | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |
 | 2026-11-20 | Full-auto and semi-auto conversions of bolt-action rifles, like the Charlton and the Pedersen device, stay as rare versions; guns without a detachable mag load the way the real one did | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
 | 2026-11-20 | Bolt-action guns whose fixed mag loads without clips (like the M24) load one round at a time, like tubes, and pressing fire stops the reload | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |

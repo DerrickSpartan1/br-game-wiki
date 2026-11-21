@@ -51,6 +51,8 @@ Our best guess at PUBG's method, used here:
 | LMGs | M249 45 (5.56mm), DP-28 51 |
 | Snipers | Win94 66, Kar98k 75, M24 79, AWM 120 |
 
+Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 4 included ([Weapon pool](weapon-pool.md#how-the-randomness-works)).
+
 ## Bullet speed
 
 Like PUBG, every gun has its own bullet speed, close to the real gun's muzzle velocity, and bullets slow down and drop over distance. PUBG's AKM fires at 715 m/s and its M416 at 880 m/s. Its AWM leaves the barrel at 945 m/s and is down to about 769 m/s at 500 m.

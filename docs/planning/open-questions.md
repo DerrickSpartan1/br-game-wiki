@@ -10,7 +10,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H sits in battle rifles & DMRs ([FN SCAR-L](../weapons/assault-rifles/scar-l.md), [FN SCAR-H](../weapons/battle-rifles/scar-h.md)).
-- **Crate weapons:** how a gun earns a crate spot is mostly undecided (heavy and anti-materiel snipers are crate-only), and crate balancing comes later. One idea: a crate gun could be a normal gun that drops fully kitted with attachments ([Crate weapons](../weapons/crate/index.md)).
+- **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, and lethal grenade launchers, but other guns' spots are undecided, and crate balancing comes later. One idea: a crate gun could be a normal gun that drops fully kitted with attachments ([Crate weapons](../weapons/crate/index.md)).
+- **AWM:** whether the [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md)'s magnum versions should be crate-only like PUBG's AWM, or stay ground snipers.
 - **M14 selector:** the standard M14 is select-fire for now, though most US rifles were issued locked to semi ([M14](../weapons/battle-rifles/m14.md)).
 - **AS Val and VSS:** whether they share one mastery track and cosmetics. They're twins from the same designers, with the same action and magazines, but they sit in different categories ([VSS Vintorez](../weapons/battle-rifles/vss.md)). One idea: twin guns in different categories share one mastery track while keeping separate roster entries ([Skins and mastery](../systems/skins.md#weapon-mastery)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
@@ -19,6 +20,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Systems
 
 - **LMG handling:** whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
+- **Shields:** what you can use while holding one (a pistol, as in Rainbow Six Siege?), how much damage a normal shield takes, and whether the flash shield really uses the class slot ([Class items](../systems/class-items.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
 - **Neck and groin:** whether they're hit zones of their own, since many vests cover them.

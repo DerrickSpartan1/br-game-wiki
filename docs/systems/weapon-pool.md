@@ -27,17 +27,18 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Battle rifles & DMRs (one category) | Ground | 3 |
 | LMGs | Ground | 1 |
 | Snipers | Ground | 2 |
-| Special (launchers, bows/crossbows, mortars, more later) | Ground | 2 |
+| Special (bows/crossbows, mortars, more later) | Ground | 2 |
 | Throwables (a good random mix) | Ground | Not set yet |
 | Crate weapons | Crates (exclusive list) | Not set yet |
 
-Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a launcher and a bow, never two launchers.
+Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a mortar, never two bows.
 
-Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. Heavy and anti-materiel sniper rifles, like .50-caliber ones, are crate-only.
+Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:
 
-Lethal grenade launchers are too powerful for the ground pool, so they go in crates; non-lethal ones go in the class item pool.
-
-Rocket launchers stay in special: they're heavy, slow, and take up a primary slot.
+- **Anti-vehicle and heavy snipers:** anti-materiel rifles like .50-caliber ones, and other heavy sniper rifles. Like PUBG's crate AWM, which one-shot level 3 helmets, a crate sniper's head shot kills through any helmet, tier 4 included ([TTK](ttk.md#how-damage-is-set)).
+- **Rocket launchers,** like the RPG. They're heavy, slow, and take up a primary slot.
+- **Lethal grenade launchers,** which are too powerful for the ground pool. Non-lethal ones go in the [class item](class-items.md) pool.
+- **The flash shield,** a ballistic shield with flashbangs on the front ([Class items](class-items.md)).
 
 Specific guns are listed in the [weapon roster](../weapons/index.md). Where they spawn on the map, and how often, is on [Loot and spawning](loot.md).
 

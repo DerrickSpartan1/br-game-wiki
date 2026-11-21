@@ -10,3 +10,5 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Recon drone:** short battery life; scouts one building or compound.
 - **Bomb drone:** one-time use. Reviving exists, so being taken out by a bomb drone shouldn't feel like a total game over.
 - **Non-lethal grenade launchers:** these go in the class item pool; lethal ones are crate-only.
+- **Ballistic shield:** a handheld shield that spawns in the world.
+- **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.

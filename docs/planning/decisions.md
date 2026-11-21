@@ -5,6 +5,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Bolt-action guns whose fixed mag loads without clips (like the M24) load one round at a time, like tubes, and pressing fire stops the reload | [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
 | 2026-11-20 | Damage is set per gun version, not per caliber, balanced the way PUBG appears to: start from a PUBG anchor, keep damage times fire rate in a band per class, adjust for trade-offs, and check breakpoints | [TTK](../systems/ttk.md#how-damage-is-set) |
 | 2026-11-20 | Like PUBG, every gun has its own bullet speed from the real muzzle velocity, and bullets slow and drop over distance | [TTK](../systems/ttk.md#bullet-speed) |
 | 2026-11-20 | Bipods deploy on cover or when prone, with their own deploy button | [Attachments](../systems/attachments.md#bipods) |

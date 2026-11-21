@@ -74,3 +74,10 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Luger rifle:** a semi-auto rifle using the Luger's toggle action, in 7.92×57mm Mauser; only one survives.
 - **Sterling rifle:** a 7.62×51mm NATO prototype built from Sterling SMG parts, using lever-delayed blowback and 30-round Bren mags; only two were made, one set up as an LMG.
 - **Thompson rifle variants:** a .30-06 version meant to rival the BAR, a .30 Carbine version, and the "Calibre .30 Short Rifle".
+- **Kar98k / Mauser 98 offshoots (snipers):** Austria's scoped SSG 98k (7.62×51mm, 1958) and the foreign Mauser 98 rifles, like Czechoslovakia's vz. 24, Belgium's FN 24/30, China's Chiang Kai-shek rifle, and Poland's wz. 29, plus the paratrooper folding-stock and takedown experiments.
+- **Mosin–Nagant offshoots (snipers):** the Obrez (cut-down pistol version, pistol / 3rd slot), the M1907 carbine, Finland's M24, M27, M28, M28/30, and M39, China's Type 53, and the Winchester 1895 Russian contract rifle.
+- **Lee–Enfield offshoots (snipers):** the Magazine Lee-Enfield and Lee-Metford, the L42A1 (7.62×51mm sniper), the De Lisle carbine (.45 ACP with a built-in suppressor), the Ekins and Howell automatic conversions, Australia's No. 6 carbine, and the Enfield Envoy.
+- **M1903 offshoots (snipers):** the Air Service model, NRA sporters, and Bannerman rifles.
+- **Remington 700 offshoots (snipers):** the Model Seven carbine (18.5 in barrel) and the USMC's Mk 13 Mod 7 (.300 Winchester Magnum), which replaced the M40.
+- **AI offshoots (snipers):** the AX series (AXMC, AX308, AX50, AXSR) and the US Navy's Mk 13.
+- **Winchester 1894 offshoots (snipers):** the Big Bore models (.307, .356, and .375 Winchester, .444 and .450 Marlin), 7-30 Waters, the .38-40, .44-40, .38 Special, and .44 Special models, and the Model 9410 .410 shotgun.

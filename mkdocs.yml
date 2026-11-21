@@ -200,6 +200,15 @@ nav:
         - "PK / PKM": weapons/lmgs/pk.md
         - "FN Minimi / M249": weapons/lmgs/minimi.md
         - "IWI Negev": weapons/lmgs/negev.md
+      - Snipers:
+        - weapons/snipers/index.md
+        - "Mosin–Nagant": weapons/snipers/mosin-nagant.md
+        - "Winchester Model 1894": weapons/snipers/winchester-1894.md
+        - "Kar98k / Gewehr 98": weapons/snipers/kar98k.md
+        - "M1903 Springfield": weapons/snipers/m1903.md
+        - "Lee–Enfield": weapons/snipers/lee-enfield.md
+        - "Remington 700 / M24": weapons/snipers/remington-700.md
+        - "Accuracy International AW / AWM": weapons/snipers/ai-arctic-warfare.md
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md

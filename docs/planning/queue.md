@@ -117,6 +117,43 @@ Possible additions: the Johnson M1941 LMG, M1919A6, Vickers-Berthier, Vektor SS-
 
 Planned as versions, not separate guns: the M249 under the Minimi, the M240 and L7 under the FN MAG, the MG3 under the MG 42, the RPK-74 and RPK-16 under the RPK, the PKM and Pecheneg under the PK, and the RP-46 under the DP-27. The M27 is already a version of the [HK416](../weapons/assault-rifles/hk416.md).
 
+## Snipers (in progress)
+
+Bolt-action, lever-action, and heavy precision rifles, in rough order of when each came out. Semi-auto marksman rifles go to battle rifles & DMRs. Dates for queued guns are rough until each is researched.
+
+| # | Gun | Origin and cartridge | Status |
+| --- | --- | --- | --- |
+| 1 | Lebel Model 1886 | France, 1886; 8×50mmR Lebel | Queued |
+| 2 | Krag–Jørgensen | Norway, 1886; .30-40 Krag / 6.5×55mm | Queued |
+| 3 | [Mosin–Nagant](../weapons/snipers/mosin-nagant.md) | Russia, 1891; 7.62×54mmR | Added |
+| 4 | Carcano | Italy, 1891; 6.5×52mm Carcano | Queued |
+| 5 | Mauser 1893 / 1896 | Spain and Sweden, 1893; 7×57mm / 6.5×55mm | Queued |
+| 6 | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) | USA, 1894; .30-30 Winchester | Added |
+| 7 | Mannlicher M1895 | Austria-Hungary, 1895; 8×50mmR (straight-pull, en bloc) | Queued |
+| 8 | Winchester Model 1895 | USA, 1895; .30-06 / 7.62×54mmR | Queued |
+| 9 | [Kar98k / Gewehr 98](../weapons/snipers/kar98k.md) | Germany, 1898; 7.92×57mm Mauser | Added |
+| 10 | [M1903 Springfield](../weapons/snipers/m1903.md) | USA, 1903; .30-06 Springfield | Added |
+| 11 | Arisaka Type 38 / Type 99 | Japan, 1905; 6.5×50mm / 7.7×58mm Arisaka | **Next** |
+| 12 | Ross rifle | Canada, 1905; .303 British (straight-pull) | Queued |
+| 13 | [Lee–Enfield](../weapons/snipers/lee-enfield.md) | UK, 1907; .303 British | Added |
+| 14 | M1917 Enfield | USA, 1917; .30-06 Springfield | Queued |
+| 15 | Schmidt–Rubin K31 | Switzerland, 1931; 7.5×55mm Swiss (straight-pull) | Queued |
+| 16 | MAS-36 | France, 1936; 7.5×54mm French | Queued |
+| 17 | [Remington 700 / M24](../weapons/snipers/remington-700.md) | USA, 1962; 7.62×51mm | Added |
+| 18 | Steyr SSG 69 | Austria, 1969; 7.62×51mm | Queued |
+| 19 | HK PSG1 | West Germany, 1972; 7.62×51mm (semi-auto precision) | Queued |
+| 20 | [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) | UK, 1982; 7.62×51mm / .300 Win Mag / .338 Lapua | Added |
+| 21 | Barrett M82 / M107 | USA, 1982; .50 BMG (semi-auto) | Queued |
+| 22 | Sako TRG | Finland, 1989; 7.62×51mm / .338 Lapua | Queued |
+| 23 | Blaser R93 | Germany, 1993; many calibers (straight-pull) | Queued |
+| 24 | SV-98 | Russia, 1998; 7.62×54mmR / 7.62×51mm | Queued |
+| 25 | DSR-1 | Germany, 2000; 7.62×51mm / .338 Lapua (bullpup) | Queued |
+| 26 | CheyTac M200 | USA, 2001; .408 CheyTac | Queued |
+| 27 | Barrett MRAD | USA, 2011; .338 Lapua / .300 Win Mag | Queued |
+| 28 | Orsis T-5000 | Russia, 2011; .338 Lapua / 7.62×51mm | Queued |
+
+Planned as versions, not separate guns: the M24 and M40 under the Remington 700, the L96A1 and AWM under the AI AW family, and the Gewehr 98 and Kar98a under the Kar98k. The [SVD](../weapons/battle-rifles/svd.md) stays in battle rifles & DMRs.
+
 ## Shotguns (done)
 
 [AA-12](../weapons/crate/aa-12.md) (crate), [Saiga-12](../weapons/shotguns/saiga-12.md), [SPAS-12](../weapons/shotguns/spas-12.md), [Winchester 1887](../weapons/shotguns/winchester-1887.md), [KelTec KSG](../weapons/shotguns/ksg.md), [Remington 870](../weapons/shotguns/remington-870.md), and [Ithaca 37](../weapons/shotguns/ithaca-37.md). Still to look at: the SPAS-15, the box-mag-fed successor to the SPAS-12.
@@ -127,4 +164,4 @@ Planned as versions, not separate guns: the M249 under the Minimi, the M240 and 
 
 ## Categories not started
 
-Snipers (next) and special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).
+Special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).

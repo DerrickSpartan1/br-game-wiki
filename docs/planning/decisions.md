@@ -4,8 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The first map's layout comes from Ischia (Italy): its coastline, hills, ring road, and town spots, reskinned in the game's own style. The other shortlisted islands are kept for future maps | [Maps](../systems/maps.md#the-first-map-ischia) |
+| 2026-11-21 | Carry space is 6 capacity per Tarkov slot, a third of a frag grenade, so an average rig carries about what PUBG's vest and belt did | [Carry weight](../systems/armor.md#carry-weight) |
 | 2026-11-21 | Six hit zones: head, neck, chest and stomach, groin, arms, and legs. No lucky one-shots: one health pool, no armor gaps, no random penetration, and the neck at 0.7 of a head hit so no ground automatic gun kills with one neck hit | [TTK](../systems/ttk.md#hit-zones) |
-| 2026-11-21 | The first map takes its layout (terrain, roads, and town spots) from a real island of about Erangel's size, then gets reskinned; the island is still open | [Maps](../systems/maps.md#real-islands-to-base-it-on) |
+| 2026-11-21 | The first map takes its layout (terrain, roads, and town spots) from a real island of about Erangel's size, then gets reskinned; the island is still open | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | The first map is Erangel's size, with terrain based on a real island (which one is still open) and towns in the game's own Soviet-era style | [Maps](../systems/maps.md) |
 | 2026-11-21 | Matches run like PUBG's: a random plane path, PUBG-style parachutes, PUBG's Erangel zone phases, and random care packages. Zone damage grows the farther outside the zone you are and the later the phase, so zone camping doesn't pay | [Match flow](../systems/match-flow.md) |
 | 2026-11-21 | Zone events: PUBG's red zone plus a smoke zone and a poison zone, one at a time at random | [Match flow](../systems/match-flow.md#zone-events) |

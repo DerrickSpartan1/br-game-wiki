@@ -65,7 +65,7 @@ Armor and gear > Carry weight, and TTK > Hit zones.
 Then the build order that's left:
 
 - [ ] **The plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): a random plane path, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
-- [ ] **A graybox map:** 8 × 8 km of blocks and ramps before art ([Maps](../systems/maps.md)).
+- [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, hills, ring road, and town spots ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Zone events, care packages, and vaults** ([Match flow](../systems/match-flow.md#zone-events)).
@@ -79,9 +79,10 @@ In rough order of what the game needs first:
 - [ ] **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - [x] **Neck and groin:** both are hit zones now, with rules against lucky one-shots ([Hit zones](../systems/ttk.md#hit-zones)).
 - [ ] **Shields:** check the first pass (2,900 damage, half an M60 belt; pistol only) and whether the flash shield uses the class slot ([Shields](../systems/class-items.md#shields)).
-- [ ] **Carry space:** 6 capacity per Tarkov slot (first pass and the planner's pick) or one frag grenade, 18, per slot (triples rig space) ([Carry weight](../systems/armor.md#carry-weight)).
+- [x] **Carry space:** 6 capacity per Tarkov slot ([Carry weight](../systems/armor.md#carry-weight)).
 - [ ] **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, and FRAG-12's damage to vehicles.
-- [ ] **The first map's island:** Gozo (suggested, a 14 × 8 km map) or Ischia (stays square), plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#real-islands-to-base-it-on)).
+- [x] **The first map's island:** Ischia ([Maps](../systems/maps.md#the-first-map-ischia)).
+- [ ] **First map scale and caps:** Ischia at true size or scaled up, and the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

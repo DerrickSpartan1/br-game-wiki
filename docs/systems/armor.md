@@ -219,7 +219,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | Gear | Capacity | Basis |
 | --- | --- | --- |
 | Backpack, levels 1, 2, 3 | 150, 200, 250 | PUBG's backpacks |
-| Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 150, about 96 for an average rig | Our pick |
+| Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 150, about 96 for an average rig | Decided: a third of a frag grenade per slot |
 | No gear | TBD | — |
 
 | Item | Weight | Basis |

@@ -26,11 +26,11 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each zone event's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
-- **Pre-match lobby:** whether bots stay in the match to fill empty slots, and what players carry while they wait ([Match flow](../systems/match-flow.md#pre-match-lobby)).
+- **Pre-match lobby:** what players carry while they wait ([Match flow](../systems/match-flow.md#pre-match-lobby)).
 - **Comeback:** the comeback fight is filed, but the owner isn't sure what form a Gulag-style comeback should take ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - **Scrap machine:** whether a scrap vending machine replaces in-match crafting for armor and gear, what it sells, and prices ([Crafting](../systems/crafting.md#scrap-machine-idea)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
-- **Match details:** radar station cost and spots, how many crates the plane drops, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
+- **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).
 - **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with wire cutters (a melee item) or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md)).

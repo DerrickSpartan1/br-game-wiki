@@ -6,16 +6,15 @@ How a match runs, from the lobby to the last circle: the pre-match lobby, the pl
 
 There's no separate lobby island: players spawn on the match's own map and wait there.
 
-- **Filling up:** the lobby fills with bots, and real players take their places as they join.
+- **Filling up:** the lobby fills with bots, and real players take their places as they join. Bots stay in the match to fill any empty slots.
 - **Countdown:** once 10 players have joined, a 60-second countdown starts.
 - **Rolling the match:** the countdown gives the server time to make the match's random choices: the gun pool and versions, vault keys, time of day, and weather.
 - **Loot:** ground loot only loads once everyone is moved into the plane.
-- **Open:** whether bots stay in the match to fill empty slots, and what players carry while they wait.
+- **Open:** what players carry while they wait.
 
 ## The plane
 
 - **Random path:** every match, the plane flies in from off the map and crosses it in a straight line between two random edges, like PUBG. The path shows on the map before the doors open.
-- **Crates:** crates drop from the plane along its path (how many is TBD).
 - **Jumping:** jump any time along the path. Anyone still aboard is pushed out near the end.
 - **Squads:** teammates can follow one player's jump and land together (our pick).
 - **Altitude and speed:** TBD.

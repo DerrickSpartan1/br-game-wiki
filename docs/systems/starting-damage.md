@@ -1,42 +1,116 @@
 # Starting damage and the crate line
 
-How each round gets a starting damage number, and when a gun is too much for ground loot. Starting damage is step 1 of [how damage is set](ttk.md#how-damage-is-set): fire rate, trade-offs, and breakpoints still adjust each gun after.
+How each gun version gets its first-pass damage, how that keeps every gun useful for its job ([Roles by category](ttk.md#roles-by-category)), and when a gun is too much for ground loot. Each version's number is in the Damage column of its gun page's Versions table. Recoil, handling, and play testing still tune them after.
 
 ## The method
 
-1. **A baseline per category:** a PUBG gun and its round, with PUBG's June 2018 damage and head multiplier ([TTK](ttk.md#pubg-in-2018-for-reference)).
-2. **Scale by energy:** starting damage = baseline damage × √(round's energy ÷ baseline round's energy). The square root keeps big rounds strong without making them absurd: a .50 BMG has about 4.4 times a 7.62 NATO's energy but gets about 2.1 times the damage.
-3. **The crate line:** a version is crate-only if one head shot at its starting damage kills through a tier 4 helmet: damage × head multiplier × 0.4 (the helmet's 60% cut) reaches 100 health. That's where PUBG drew its line: its ground snipers couldn't one-shot a level 3 helmet, and only the crate AWM could.
-4. **Crate-only versions** are marked `(crate)` after their name and never spawn on the ground. The rest of their family still does.
+1. **Pick the table for the round.** Each round class has its own table, whatever category the gun is in, so the same bullet doesn't hit absurdly hard just because it's in an unusual gun. See [Which table a round uses](#which-table-a-round-uses).
+2. **Scale by energy:** damage = the table's baseline damage × √(round's energy ÷ baseline round's energy). The square root keeps big rounds strong without making them absurd.
+3. **Fit the fire-rate band:** semi-auto and automatic versions keep damage × fire rate inside their category's band, so fast guns hit lighter and slow guns hit harder, as PUBG did ([Fire-rate bands](#fire-rate-bands)).
+4. **Pass the role test:** manual-action guns, which the band doesn't cover, must still do their job, like a shotgun one-shotting up close ([Role tests](#role-tests)).
+5. **Check the crate line:** a version is crate-only if one head shot kills through a tier 4 helmet ([Baselines and crate lines](#baselines-and-crate-lines)). Crate-only versions are marked `(crate)` and never spawn on the ground; the rest of their family still does.
 
-Energies are typical full-power loads from Wikipedia's cartridge table; short barrels and subsonic loads hit less. Damage rounds to whole numbers. The method lands close to PUBG on several guns: 7.62×39mm comes out at 48 for assault rifles (PUBG's AKM: 49), and .45 ACP at 41 for SMGs (Tommy Gun: 40).
+Energies are typical full-power loads, mostly from Wikipedia's cartridge table. Damage rounds to whole numbers. The method lands close to PUBG on many guns: the AKM 48 (PUBG: 49), the Thompson 40 (Tommy Gun: 40), the Mini-14 45 (Mini 14: 46), the MG3 42 (PUBG today: 42), and the Winchester 1894 in .30-30 65 (Win94: 66).
+
+## Which table a round uses
+
+| Round class | Examples | Table |
+| --- | --- | --- |
+| Pistol rounds, in the 3rd slot | 9mm, .45 ACP, .500 S&W | Pistol table |
+| Pistol rounds, in any other gun | 9mm SMGs, a 9mm AR-15, a .22 LR trainer | SMG table |
+| Intermediate rifle rounds (under 2,800 J), outside LMGs and snipers | 5.56mm, 7.62×39mm, 5.45mm, .30 Carbine | Assault rifle table |
+| Intermediate rifle rounds, in LMGs | 5.56mm in the M249 | LMG table |
+| Full-power rifle rounds (2,800 J or more), outside snipers | 7.62 NATO in battle rifles, ARs, LMGs, and pistols | Battle rifle table |
+| Any round in a manual-action sniper | 7.62 NATO in the M24, .45 Colt in a lever rifle | Sniper table |
+| Semi-auto or automatic versions of a sniper family | The Pedersen device, the Charlton | Treated as battle rifles & DMRs, with the table for their round |
+| Shotgun shells | Buckshot, slugs, crate ammo | [Shotgun tables](#shotguns) |
+
+- **Why:** the old per-category tables stretched one baseline across rounds far from it. A 7.62 NATO pistol came out at 104 and a 5.56 pistol at 65, both stronger than a 5.56 rifle's 43. A .22 LR rifle came out at 15, far weaker than a .22 SMG. Each class now scales from a baseline close to it.
+- **LMGs in full-power rounds** use the battle rifle table, not the LMG table: PUBG's DP-28 hit 51, close to the battle rifle table's 55, while the LMG table would give 68.
+- **Subsonic 9×39mm** uses PUBG's VSS, 41, since energy undersells its heavy bullet (its 677 J would give 28).
+- **.351 WSL** is a rifle round (the Winchester 1907's), so it counts as intermediate.
+
+## Fire-rate bands
+
+PUBG kept each category's damage × fire rate in a band, which is why its Vector hit 34 and its UMP9 39. Semi-auto and automatic versions here do the same.
+
+| Category | Band (damage per minute) | PUBG basis |
+| --- | --- | --- |
+| Pistols / 3rd slot, semi-auto | 15,000–23,000 | P92: 35 × 450 = 15,750; the top is our pick |
+| Pistols / 3rd slot, automatic | 18,000–25,000 | P18C: 23 × 1,000 = 23,000 |
+| SMGs | 25,000–37,000 | UMP9 (25,400) to Vector (37,100) |
+| Assault rifles | 27,000–37,000 | SCAR-L (26,900) to Groza (36,750) |
+| Battle rifles & DMRs | 27,000–37,000 | Mini 14 (27,600) to SKS (35,400); the Mk14 (40,700) was crate-only |
+| LMGs | 27,000–40,000 | Our pick, a step above ARs to pay for LMG handling; PUBG's M249 hit 36,000 and its MG3 39,600, both crate-only at the time |
+
+- **Fire rate used:** a range counts as its middle, so the M249's 700–1,150 counts as 925. Semi-only versions count at most 600 (450 for pistols), PUBG's top semi rates and about as fast as anyone clicks, so a semi-only civilian rifle isn't cut for an auto rate it can't use.
+- **Limits:** damage moves to the edge of the band, but rises by at most 25% and drops to no less than 60% of its table value. PUBG's deepest cuts were about two thirds: the Micro Uzi does 67% of the UMP9's damage, and the P18C 66% of the P92's.
+- **Still under after +25%:** the version gets the lowest recoil in its category, true to life for these small rounds and slow-firing guns, so more of its shots land. That's 28 versions: the .22 LR trainers and conversions, the M3 Grease Gun, the MP 18, the Owen .32 prototype, and the .380 MAC pistol. The .22s are also quiet.
+- **Still over at 60%:** a crate candidate ([below](#crate-check-for-fast-firing-guns)).
+
+## Role tests
+
+Manual-action guns aren't limited by fire rate in the same way, so each passes a test for its job instead.
+
+| Guns | Test | Who failed and what changed |
+| --- | --- | --- |
+| Shotguns (buckshot, any category) | A full hit at point blank kills through a tier 2 vest (167 or more), or the next shot comes within 0.25 s (240 RPM or faster, as PUBG's S12K) | The two .410 pumps (Remington 870 and KSG410): 16 → 19 per pellet (171) |
+| Snipers: bolt, lever, straight-pull, and single shot | One head shot kills through a tier 1 helmet at 200 m (59 or more), as PUBG's 2018 Win94 did | The Winchester 1894's .25-35, .32-40, .38-55, .357 Magnum, .44 Magnum, and .45 Colt versions and the .22 Mauser KKW go to 59, like PUBG's Win94, which fired .45 ACP but hit 66 |
+| 3rd-slot revolvers, single shots, break actions, and two-pulls | One head shot kills an unarmored target (50 or more), since they get few shots before a long reload | The FP-45 Liberator (36 → 50) and the .22 Garrucha (22 → 50) |
+
+Guns raised by a test keep their real handling, bullet speed, and drop, so they still feel different: a .45 Colt lever rifle fires a slow bullet that drops hard at range.
+
+## What the check changed
+
+The table value is the number from steps 1 and 2; the band and tests moved 196 of the 593 versions that have one (the two crate AA-12s are left out below). 32 versions stay TBD: their round's energy or cartridge isn't set yet.
+
+| Category | Unchanged | Raised | Lowered | Examples |
+| --- | --- | --- | --- | --- |
+| Pistols / 3rd slot | 48 | 7 | 9 | 9mm pistols 35; SA58 pistol 51; C96 machine pistols 26; Škorpion vz. 61 22 |
+| Shotguns | 26 | 2 | 0 | 12 gauge pumps 24 × 9; .410 pumps 19 × 9 |
+| SMGs | 24 | 37 | 21 | MP5 39; UMP45 40; Uzi 42; MP 40 48; Vector 30; Micro Uzi 30 |
+| Assault rifles | 109 | 37 | 15 | M4 and AKM unchanged at 43 and 48; AK-74 42; StG 44 50; FAMAS 37; semi-only civilian 5.56 rifles 45 |
+| Battle rifles & DMRs | 108 | 12 | 21 | G3 58; FAL 54; M14 51; FG 42 Type E 41; Mini-14 and Mk 12 45; VSS 41 |
+| LMGs | 36 | 5 | 22 | PKM 55; Bren 53; M240 48; MG 34 47; M249 43; MG3 42 |
+| Snipers | 44 | 8 | 0 | M24 79; Kar98k 81; Winchester 1894 .30-30 65, handgun calibers 59 |
+
+### Crate check for fast-firing guns
+
+These seven versions are still over their band at 60% of their table value. PUBG kept its fastest belt-fed guns out of ground loot: the MG3 is care-package-only, and the M249 was too until 2020, when PUBG cut its damage from 45 to 40 and moved it to the ground. For now they spawn on the ground at the 60% number; where they belong is an [open question](../planning/open-questions.md).
+
+| Version | Fire rate (RPM) | Damage now | Damage per minute | Band top |
+| --- | --- | --- | --- | --- |
+| [MG 42](../weapons/lmgs/mg-42.md) and its .30-06 version | 900–1,500 | 36 | 43,200 | 40,000 |
+| [MG 34/41](../weapons/lmgs/mg-34.md) | 1,200–1,500 | 36 | 48,600 | 40,000 |
+| [PPSh-41](../weapons/smgs/ppsh-41.md), K-50M, and PPSh-45 | 1,250 | 33 | 41,250 | 37,000 |
+| [Glock 18](../weapons/pistols/glock-17-18.md) | 1,100–1,400 | 21 | 26,250 | 25,000 |
 
 ## Baselines and crate lines
 
-| Category | Baseline | Head multiplier | Crate line | Energy that crosses it | Strongest round now | Crosses? |
+The crate line: one head shot at starting damage × head multiplier × 0.4 (a tier 4 helmet's 60% cut) reaches 100 health. That's where PUBG drew its line: its ground snipers couldn't one-shot a level 3 helmet, and only the crate AWM could.
+
+| Table | Baseline | Head multiplier | Crate line | Energy that crosses it | Strongest round now | Crosses? |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Pistols / 3rd slot](../weapons/pistols/index.md) | P92 35 (9×19mm, 464 J) | 2× | 125 | About 5,900 J | 7.62×51mm, 104 | No |
-| [SMGs](../weapons/smgs/index.md) | UMP9 39 (9×19mm, 464 J) | 1.8× | 139 | About 5,900 J | .30 Carbine, 66 | No |
-| [Assault rifles](../weapons/assault-rifles/index.md) | M416 43 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 10,000 J | 7.62×51mm, 68 | No |
-| [Battle rifles & DMRs](../weapons/battle-rifles/index.md) | SLR 58 (7.62×51mm, 4,063 J) | 2.35× | 107 | About 13,800 J | 9.3×64mm Brenneke, 70 | No |
-| [LMGs](../weapons/lmgs/index.md) | M249 45 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 9,200 J | .30-06 Springfield, 73 | No |
-| [Snipers](../weapons/snipers/index.md) | M24 79 (7.62×51mm, 4,063 J) | 2.5× | 100 | About 6,500 J | .338 Lapua Magnum, 100 | Yes: the .338 Lapua versions (M24A3, AWM .338) go to crates |
+| Pistol | P92 35 (9×19mm, 464 J) | 2× | 125 | About 5,900 J | .500 S&W, 95 | No |
+| SMG | UMP9 39 (9×19mm, 464 J) | 1.8× | 139 | About 5,900 J | 10mm Auto, 55 | No |
+| Assault rifle | M416 43 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 10,000 J | .276 Pedersen and .280 British, 56 | No |
+| Battle rifle | SLR 58 (7.62×51mm, 4,063 J) | 2.35× | 107 | About 13,800 J | 9.3×64mm Brenneke, 70 (61 after the band) | No |
+| LMG | M249 45 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 9,200 J | .280 British, 58 | No |
+| Sniper | M24 79 (7.62×51mm, 4,063 J) | 2.5× | 100 | About 6,500 J | .338 Lapua Magnum, 100 | Yes: the .338 Lapua versions (M24A3, AWM .338) go to crates |
 
 - **Only the .338 Lapua crosses,** and only just: it lands at about 99.6, which rounds to 100. The .300 Winchester Magnum stays on the ground at 90; it one-shots tier 3 helmets but not tier 4.
 - **The .50 BMG** would start at 166 as a sniper, far over the line, so .50-caliber rifles are crate weapons.
-- **Everything else is well under its line,** so damage alone doesn't push any other ground gun into crates.
-- **Watch the rifle-caliber pistols:** the strongest 3rd-slot gun is the [SA58 pistol](../weapons/pistols/sa58-pistol.md) in 7.62×51mm, at 104. That one-shots heads through a tier 3 helmet, still under the line, though its short barrel really loses a lot of energy. The .500 S&W [Janz](../weapons/pistols/janz.md) starts at 95 and one-shots through tier 2, like PUBG's Kar98k did up to level 2.
-- **Shotguns** have their own scale, below.
-- **A second check comes later** for fast-firing guns, once fire rates are set, since PUBG also crated guns for how fast they killed, like the Groza and the M249.
+- **Nothing raised by the band or the tests crosses a line.** The strongest 3rd-slot gun is now the .500 S&W [Janz](../weapons/pistols/janz.md) at 95, which one-shots heads through a tier 2 helmet, like PUBG's Kar98k did up to level 2. The [SA58 pistol](../weapons/pistols/sa58-pistol.md) uses the battle rifle table now and lands at 51.
 
 ## Shotguns
 
-Shotguns get their own scale, since their damage is split across pellets. The base is PUBG's June 2018 pump and double-barrel shotguns, the S1897 and S686: 9 pellets of 24 damage, 216 in all. Every shell here fires 9 pellets, as PUBG's do.
+Shotguns get their own scale, since their damage is split across pellets. The base is PUBG's June 2018 pump and double-barrel shotguns, the S1897 and S686: 9 pellets of 24 damage, 216 in all. Every shell fires 9 pellets, as PUBG's do. Damage cells on gun pages read `24 × 9`: damage per pellet × pellets.
 
-1. **By gauge:** per-pellet damage scales by the square root of the shell's standard shot load, like the rest of this page: 12 gauge's 1⅛ oz is the base.
+1. **By gauge:** per-pellet damage scales by the square root of the shell's standard shot load: 12 gauge's 1⅛ oz is the base.
 2. **By action:** semi-auto and automatic shotguns hit about 8% lighter per pellet, as PUBG's S12K (22 per pellet in 2018) did next to its pumps. Pumps, levers, and break actions hit full.
-3. **Short barrels,** like sawed-offs and the [Ithaca 37 Stakeout](../weapons/pistols/ithaca-37-stakeout.md), hit about 20% lighter, as PUBG's sawed-off (21 per pellet today, against 26 for its full-length guns) does.
-4. **Slugs** are one projectile worth a quarter of a full buckshot hit, about one big DMR shot (PUBG's SKS: 53), with much less falloff over range.
+3. **Short barrels** (14 in or shorter, like sawed-offs, the [Ithaca 37 Stakeout](../weapons/pistols/ithaca-37-stakeout.md), and the 870 breacher) hit about 20% lighter, as PUBG's sawed-off (21 per pellet today, against 26 for its full-length guns) does.
+4. **Slugs** are one projectile worth a quarter of a full buckshot hit, about one big DMR shot (PUBG's SKS: 53), with much less falloff ([Damage falloff](ttk.md#damage-falloff)).
+5. **The .410 floor:** .410 pumps take 19 per pellet so a full hit still kills through a tier 2 vest ([Role tests](#role-tests)). The full-auto [Saiga-410](../weapons/shotguns/saiga-12.md) keeps 15: its fast follow-up passes the test instead.
 
 | Gauge | Standard shot load | Pump, lever, or break action (per pellet × 9) | Semi or auto (per pellet × 9) | Slug |
 | --- | --- | --- | --- | --- |
@@ -45,26 +119,42 @@ Shotguns get their own scale, since their damage is split across pellets. The ba
 | 16 gauge | 1 oz | 23 × 9 = 207 | 21 × 9 = 189 | 52 |
 | 20 gauge | ⅞ oz | 21 × 9 = 189 | 19 × 9 = 171 | 47 |
 | 28 gauge | ¾ oz | 20 × 9 = 180 | 18 × 9 = 162 | 45 |
-| .410 bore | ½ oz | 16 × 9 = 144 | 15 × 9 = 135 | 36 |
+| .410 bore | ½ oz | 19 × 9 = 171 (floor; 16 by load) | 15 × 9 = 135 | 36 |
 
-Short-barrel versions take 80% of these. Shotgun head shots use PUBG's 2018 multiplier of 1.5. At that multiplier, a full buckshot hit is never crate-level: the crate line would need 167 damage in one projectile. The crate-only FRAG-12 and dragon's breath rounds are TBD.
+Short-barrel versions take 80% of these. Shotgun head shots use PUBG's 2018 multiplier of 1.5. At that multiplier, a full buckshot hit is never crate-level: the crate line would need 167 damage in one projectile.
 
-## Starting damage by category
+### Crate shotgun ammo
 
-TBD rounds aren't in the energy table yet; none of them are strong enough to come near a crate line.
+Crate shotguns, like the [AA-12](../weapons/crate/aa-12.md), can roll two special ammo types on top of buckshot and slugs. Each is a different job, not a straight upgrade: buckshot stays the best close-range one-shot.
 
-### Pistols / 3rd slot
+**FRAG-12 (high explosive).** The real round is a 12-gauge shell with a 50 mm metal body, four folding fins, and 3.4 g of high explosive. It arms 3 m from the muzzle, explodes on impact, and reaches 200 m (about 175 m effective). It was made for breaching, light vehicles, and roadside bombs, and sold poorly for its cost. An armor-piercing version can punch through ½ in steel plate.
 
-Baseline: PUBG's P92, 35 damage in 9×19mm. Crate line: 125.
+- **Flight:** one fin-stabilized projectile that flies like a slug, out to about 175 m.
+- **Arming:** inside 3 m it doesn't explode; it hits as a plain slug (54). Rushing a FRAG-12 shooter is the counter.
+- **Direct hit:** a slug hit (armor applies) plus the blast.
+- **Blast:** 50 at the point of impact, falling to 0 at 2 m. Blast damage isn't cut by vests or helmets, like PUBG's grenades.
+- **What that does:** a direct hit kills an unarmored target (104). Against a tier 4 vest a direct hit does 72, so two kill, at 300 RPM. A miss by 1 m still does 25.
+- **Also:** it breaks doors and light cover and hits vehicles hard (the multiplier is TBD). The blast can hurt the shooter, but the arming distance keeps that rare.
+
+**Dragon's breath (incendiary).** The real round is a 12-gauge shell loaded mostly with magnesium pellets that burn at about 1,650 to 2,200 °C. Its sparks and flames reach about 30 m (some sources claim 91 m), hot enough to set a person or a house on fire. Its combat use is undocumented, and it's banned in several US states.
+
+- **Hit:** 9 burning pellets of 10 (90 at point blank). They fall off faster than buckshot and do nothing past 20 m, though the sparks show out to 30 m.
+- **Burning:** any hit sets the target on fire for 10 damage a second over 4 seconds, like PUBG's Molotov burn. Fire isn't cut by armor. New hits restart the 4 seconds instead of stacking.
+- **While burning,** you can't ADS, PUBG's Molotov rule.
+- **Ground fire:** pellets light grass and bushes for a few seconds (how long is TBD), doing 12.5 a second inside, like PUBG's Molotov flames.
+- **Tell:** the huge muzzle flame gives the shooter away.
+- **What that does:** one close hit on an unarmored target is 90 plus 40 burning, so they die within a second or two. Against a tier 4 vest it's 36 plus the burn per shot, about three shots against buckshot's two, but the burn keeps hurting through armor and behind cover, and the target can't aim back.
+
+## Starting damage by table
+
+These are the table values from steps 1 and 2, before the fire-rate band and role tests. Each version's final first-pass number is in its gun page's Damage column. "Versions" counts the versions that use that row. TBD rounds don't have an energy yet.
+
+### Pistol table
 
 | Round | Energy (J) | Starting damage | Versions |
 | --- | --- | --- | --- |
-| 7.62×51mm | 4,063 | 104 | 1 |
 | .500 S&W | 3,434 | 95 | 1 |
 | .460 S&W | 2,914 | 88 | 1 |
-| .300 Blackout | 2,016 | 73 | 1 |
-| 5.56×45mm | 1,622 | 65 | 4 |
-| .30 Carbine | 1,325 | 59 | 1 |
 | 7.62×25mm Tokarev | 881 | 48 | 1 |
 | .400 Corbon | 797 | 46 | 1 |
 | .38 Super | 678 | 42 | 1 |
@@ -86,29 +176,26 @@ Baseline: PUBG's P92, 35 damage in 9×19mm. Crate line: 125.
 | 9×21mm | TBD | TBD | 1 |
 | 9×25mm Mauser | TBD | TBD | 1 |
 
-### SMGs
-
-Baseline: PUBG's UMP9, 39 damage in 9×19mm. Crate line: 139.
+### SMG table
 
 | Round | Energy (J) | Starting damage | Versions |
 | --- | --- | --- | --- |
-| .30 Carbine | 1,325 | 66 | 1 |
-| .351 WSL | 1,330 | 66 | 1 |
 | 10mm Auto | 922 | 55 | 3 |
-| 7.62×25mm Tokarev | 881 | 54 | 6 |
+| 7.62×25mm Tokarev | 881 | 54 | 7 |
 | .357 SIG | 681 | 47 | 1 |
-| .40 S&W | 649 | 46 | 4 |
+| .40 S&W | 649 | 46 | 5 |
 | .41 AE | 620 | 45 | 1 |
 | 4.6×30mm | 542 | 42 | 1 |
 | 5.7×28mm | 542 | 42 | 3 |
 | 7.63×25mm Mauser | 508 | 41 | 2 |
 | .45 ACP | 500 | 40 | 16 |
-| 9×19mm | 464 | 39 | 29 |
+| 9×19mm | 464 | 39 | 33 |
 | 7.65×21mm Parabellum | 441 | 38 | 1 |
+| .30-18 Auto | 416 | 37 | 1 |
 | 9mm Browning Long | 407 | 37 | 1 |
 | 9×18mm Makarov | 287 | 31 | 2 |
 | .380 ACP | 271 | 30 | 2 |
-| .22 LR | 186 | 25 | 6 |
+| .22 LR | 186 | 25 | 13 |
 | .32 ACP | 175 | 24 | 2 |
 | .38 ACP | TBD | TBD | 2 |
 | .45 Remington–Thompson | TBD | TBD | 1 |
@@ -116,88 +203,61 @@ Baseline: PUBG's UMP9, 39 damage in 9×19mm. Crate line: 139.
 | 9×21mm | TBD | TBD | 2 |
 | 9×25mm Mauser | TBD | TBD | 1 |
 
-### Assault rifles
-
-Baseline: PUBG's M416, 43 damage in 5.56×45mm. Crate line: 107.
+### Assault rifle table
 
 | Round | Energy (J) | Starting damage | Versions |
 | --- | --- | --- | --- |
-| 7.62×51mm | 4,063 | 68 | 5 |
-| .450 Bushmaster | 3,720 | 65 | 1 |
+| .276 Pedersen | 2,790 | 56 | 1 |
+| .280 British | 2,737 | 56 | 1 |
 | 6.5×50mm Arisaka | 2,666 | 55 | 1 |
-| 6.8mm Remington SPC | 2,187 | 50 | 1 |
-| .300 Blackout | 2,016 | 48 | 9 |
-| 7.62×39mm | 2,062 | 48 | 20 |
-| 5.8×42mm | 1,891 | 46 | 2 |
-| 7.92×33mm Kurz | 1,769 | 45 | 2 |
-| 5.56×45mm | 1,622 | 43 | 85 |
-| .222 Remington | 1,490 | 41 | 1 |
+| 6.8mm Remington SPC | 2,187 | 50 | 2 |
+| 7.62×39mm | 2,062 | 48 | 31 |
+| .300 Blackout | 2,016 | 48 | 11 |
+| 5.8×42mm | 1,891 | 46 | 3 |
+| 7.92×33mm Kurz | 1,769 | 45 | 5 |
+| 5.56×45mm | 1,622 | 43 | 103 |
+| .222 Remington | 1,490 | 41 | 2 |
 | 5.45×39mm | 1,426 | 40 | 14 |
-| .30 Carbine | 1,325 | 39 | 3 |
-| 7.62×25mm Tokarev | 881 | 32 | 1 |
-| .40 S&W | 649 | 27 | 1 |
-| 9×19mm | 464 | 23 | 4 |
-| .22 LR | 186 | 15 | 7 |
+| .351 WSL | 1,330 | 39 | 1 |
+| .30 Carbine | 1,325 | 39 | 5 |
+| 9×39mm | 677 | 41 (PUBG's VSS) | 7 |
+| .366 TKM | TBD | TBD | 2 |
 | 4.85×49mm | TBD | TBD | 1 |
 | 5.7mm Johnson | TBD | TBD | 1 |
 | 6.5mm Fedorov | TBD | TBD | 1 |
-| 9×39mm | TBD | TBD | 4 |
-
-### Battle rifles & DMRs
-
-Baseline: PUBG's SLR, 58 damage in 7.62×51mm. Crate line: 107.
-
-| Round | Energy (J) | Starting damage | Versions |
-| --- | --- | --- | --- |
-| 9.3×64mm Brenneke | 5,853 | 70 | 1 |
-| .30-06 Springfield | 4,309 | 60 | 6 |
-| 7.92×57mm Mauser | 4,299 | 60 | 6 |
-| 7.62×51mm | 4,063 | 58 | 61 |
-| 7.5×55mm Swiss | 3,964 | 57 | 4 |
-| 7.62×54mmR | 3,678 | 55 | 12 |
-| 6.5mm Creedmoor | 3,380 | 53 | 4 |
-| 7.7×58mm Arisaka | 3,403 | 53 | 1 |
-| 7×57mm Mauser | 3,188 | 51 | 1 |
-| 7.5×54mm French | 3,026 | 50 | 4 |
-| .280 British | 2,737 | 48 | 1 |
-| 6.8mm Remington SPC | 2,187 | 43 | 1 |
-| .300 Blackout | 2,016 | 41 | 1 |
-| 7.62×39mm | 2,062 | 41 | 11 |
-| 5.8×42mm | 1,891 | 40 | 1 |
-| 7.92×33mm Kurz | 1,769 | 38 | 3 |
-| 5.56×45mm | 1,622 | 37 | 14 |
-| .222 Remington | 1,490 | 35 | 1 |
-| .276 Pedersen | TBD | TBD | 1 |
-| .366 TKM | TBD | TBD | 2 |
-| 6.8×51mm | TBD | TBD | 3 |
 | 7.92×41mm CETME | TBD | TBD | 1 |
 | 7×49.15mm Optimum 2 | TBD | TBD | 1 |
-| 9×39mm | TBD | TBD | 3 |
 
-### LMGs
-
-Baseline: PUBG's M249, 45 damage in 5.56×45mm. Crate line: 107.
+### LMG table
 
 | Round | Energy (J) | Starting damage | Versions |
 | --- | --- | --- | --- |
-| .30-06 Springfield | 4,309 | 73 | 8 |
-| 7.92×57mm Mauser | 4,299 | 73 | 6 |
-| 7.62×51mm | 4,063 | 71 | 17 |
-| 7.62×54mmR | 3,678 | 68 | 6 |
-| 6.5mm Creedmoor | 3,380 | 65 | 1 |
-| 7.7×58mm Arisaka | 3,403 | 65 | 1 |
-| .303 British | 3,255 | 64 | 2 |
-| 6.5×55mm Swedish | 3,152 | 63 | 2 |
-| 7×57mm Mauser | 3,188 | 63 | 1 |
 | .280 British | 2,737 | 58 | 1 |
 | 7.62×39mm | 2,062 | 51 | 5 |
 | 5.56×45mm | 1,622 | 45 | 9 |
 | 5.45×39mm | 1,426 | 42 | 2 |
-| 7.65×53mm Mauser | TBD | TBD | 2 |
 
-### Snipers
+### Battle rifle table
 
-Baseline: PUBG's M24, 79 damage in 7.62×51mm. Crate line: 100.
+| Round | Energy (J) | Starting damage | Versions |
+| --- | --- | --- | --- |
+| 9.3×64mm Brenneke | 5,853 | 70 | 1 |
+| .30-06 Springfield | 4,309 | 60 | 14 |
+| 7.92×57mm Mauser | 4,299 | 60 | 12 |
+| 7.62×51mm | 4,063 | 58 | 84 |
+| 7.5×55mm Swiss | 3,964 | 57 | 4 |
+| .450 Bushmaster | 3,720 | 55 | 1 |
+| 7.62×54mmR | 3,678 | 55 | 18 |
+| 6.8×51mm | 3,483 | 54 | 3 |
+| 7.65×53mm Mauser | 3,445 | 53 | 2 |
+| 7.7×58mm Arisaka | 3,403 | 53 | 2 |
+| 6.5mm Creedmoor | 3,380 | 53 | 5 |
+| .303 British | 3,255 | 52 | 3 |
+| 7×57mm Mauser | 3,188 | 51 | 2 |
+| 6.5×55mm Swedish | 3,152 | 51 | 2 |
+| 7.5×54mm French | 3,026 | 50 | 4 |
+
+### Sniper table
 
 | Round | Energy (J) | Starting damage | Versions |
 | --- | --- | --- | --- |
@@ -205,25 +265,29 @@ Baseline: PUBG's M24, 79 damage in 7.62×51mm. Crate line: 100.
 | .300 Winchester Magnum | 5,278 | 90 | 3 |
 | .30-06 Springfield | 4,309 | 81 | 6 |
 | 7.92×57mm Mauser | 4,299 | 81 | 7 |
+| 8×63mm Swedish | 4,101 | 79 | 1 |
 | 7.62×51mm | 4,063 | 79 | 12 |
 | 7.62×54mmR | 3,678 | 75 | 5 |
-| .303 British | 3,255 | 71 | 5 |
+| .303 British | 3,255 | 71 | 4 |
+| 8×50mmR Mannlicher | 3,042 | 68 | 1 |
 | .30-30 Winchester | 2,774 | 65 | 1 |
 | .32 Winchester Special | 2,370 | 60 | 1 |
+| .25-35 Winchester | 1,958 | 55 | 1 |
 | .38-55 Winchester | 1,580 | 49 | 1 |
 | .44 Magnum | 1,354 | 46 | 1 |
+| .32-40 Winchester | 1,030 | 40 | 1 |
 | .357 Magnum | 846 | 36 | 1 |
 | .45 Colt | 624 | 31 | 1 |
 | .22 LR | 186 | 17 | 1 |
-| .25-35 Winchester | TBD | TBD | 1 |
-| .30-18 Auto | TBD | TBD | 1 |
-| .32-40 Winchester | TBD | TBD | 1 |
-| 8×50mmR Mannlicher | TBD | TBD | 1 |
-| 8×63mm Swedish | TBD | TBD | 1 |
 
 ## Sources
 
 - [Wikipedia: Table of handgun and rifle cartridges](https://en.wikipedia.org/wiki/Table_of_handgun_and_rifle_cartridges)
+- Energies added in this pass: [9×39mm](https://en.wikipedia.org/wiki/9%C3%9739mm) (SP-5), [.25-35 Winchester](https://en.wikipedia.org/wiki/.25-35_Winchester) (117 gr), [.32-40 Ballard](https://en.wikipedia.org/wiki/.32-40_Ballard) (factory 165 gr), [8×50mmR Mannlicher](https://en.wikipedia.org/wiki/8%C3%9750mmR_Mannlicher) (M93), [.277 Fury / 6.8×51mm](https://en.wikipedia.org/wiki/.277_Fury) (113 gr military ball), [.276 Pedersen](https://en.wikipedia.org/wiki/.276_Pedersen), [7.65×53mm Mauser](https://www.wikiwand.com/en/articles/7.65x53mm_Mauser) (spitzer ball), and [.30-18 Auto](https://en.wikipedia.org/wiki/7.65%C3%9720mm_Long) (worked out from its 5.2 g bullet at 400 m/s). The 8×63mm Swedish now uses the table's m/32 load.
 - [Chuck Hawks: Introduction to shotgun gauges and shells](https://chuckhawks.com/intro_gauges.htm)
 - [PUBG Wiki: Shotguns](https://pubg.wiki.gg/wiki/Shotguns)
+- [PUBG Wiki: MG3](https://pubg.wiki.gg/wiki/MG3) · [PUBG Wiki: M249](https://pubg.wiki.gg/wiki/M249) · [PUBG Wiki: Molotov Cocktail](https://pubg.wiki.gg/wiki/Molotov_Cocktail)
+- [Sportskeeda: Frag grenades in PUBG](https://www.sportskeeda.com/esports/frag-grenade-how-to-use-them-in-pubg) (armor doesn't reduce grenade damage)
 - [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true)
+- [Wikipedia: FRAG-12](https://en.wikipedia.org/wiki/FRAG-12) · [American Shooting Journal: Frag 12 exploding shotgun shell](https://americanshootingjournal.com/frag-12-exploding-shotgun-shell)
+- [Wikipedia: Dragon's breath (ammunition)](https://en.wikipedia.org/wiki/Dragon%27s_breath_(ammunition))

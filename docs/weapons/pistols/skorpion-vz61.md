@@ -7,7 +7,7 @@
 | History | Czechoslovakia; designed 1959 by Miroslav Rybář; made by CZ 1961 to 1979 and again from 2009 by Czech Small Arms; about 200,000 made; also made in Serbia as the Zastava M84 |
 | Magazine (rounds) | .32: 10- or 20-round curved mag; .380 and 9×18: 12, 24, or 30 rounds; later versions use straight mags |
 | Fire mode / rate | Select-fire (selector marked 0, 1, and 20), about 850 RPM; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 50 to 150 m (.32); in-game TBD |
 
 ## Real-world notes
@@ -26,12 +26,12 @@ Pistol/SMG family attachments; takes a suppressor. Mag tiers (best guess, review
 
 4 versions after merging, one per cartridge. The whole Škorpion sits in the pistol / 3rd slot, since it was carried in a pistol holster. Semi-auto civilian guns (the CZ-91S and Czech Small Arms' modern vz. 61 pistol) merge into their caliber's version, with the CZ-91S's stainless receiver as a skin. 9×18mm Makarov is new to the ammo pool, and the Stechkin APS and PP-19 Bizon later in the queue use it too.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | vz. 61 | The original | .32 ACP | Most of about 200,000 | vz. 61, vz. 61E export, Serbian Zastava M84, 2009+ Czech Small Arms production | semi, auto | 850 | No | box mag | 20 |
-| 2 | .380 | Export model | .380 ACP | Unknown | vz. 64 (curved mags), vz. 83 (straight mags) | semi, auto | 850 | No | box mag | 24 |
-| 3 | 9×18 | Export model | 9×18mm Makarov | Unknown | vz. 65 (curved mags), vz. 82 (4.4 in barrel, straight mags) | semi, auto | 850 | No | box mag | 24 |
-| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19mm | Unknown | — | semi, auto | 850 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | vz. 61 | The original | .32 ACP | Most of about 200,000 | vz. 61, vz. 61E export, Serbian Zastava M84, 2009+ Czech Small Arms production | semi, auto | 850 | No | box mag | 20 | 22 |
+| 2 | .380 | Export model | .380 ACP | Unknown | vz. 64 (curved mags), vz. 83 (straight mags) | semi, auto | 850 | No | box mag | 24 | 27 |
+| 3 | 9×18 | Export model | 9×18mm Makarov | Unknown | vz. 65 (curved mags), vz. 82 (4.4 in barrel, straight mags) | semi, auto | 850 | No | box mag | 24 | 28 |
+| 4 | vz. 68 | Slightly larger to handle 9mm; straight mags | 9×19mm | Unknown | — | semi, auto | 850 | No | box mag | TBD | 29 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | USA; SIG Sauer's scaled-up [SIG MCX](../assault-rifles/sig-mcx.md), built for the US Army's Next Generation Squad Weapon program, which began in January 2019 to replace the M4 carbine and M249; SIG entered it in September 2019 in .277 Fury, later named the 6.8 Common Cartridge, because better body armor was expected to blunt 5.56mm and 7.62mm; it won on 19 April 2022 alongside the XM250 machine gun, first as the XM5, renamed XM7 in January 2023 to avoid a trademark clash with Colt's M5 carbine; tested by the 101st Airborne and the 75th Ranger Regiment from September 2023 and first fielded in March 2024 (1st Battalion, 506th Infantry); type-classified as the M7 in May 2025, with about 50,000 delivered; the Army then moved to the lighter M8 carbine, approved for production in December 2025: it bought no M7s in fiscal 2026, took its first M8s in April 2026, asked for 14,944 M8s and no M7s for fiscal 2027, and starts fielding the M8 in December 2026; the Marines and SOCOM haven't adopted it; also sold to civilians |
 | Magazine (rounds) | 20-round SR-25-pattern box (all-metal AR-10-style mags on later civilian rifles); 25-round mags are planned for the Army's rifles |
 | Fire mode / rate | Semi and auto on the M7; civilian rifles are semi-auto only; the M8's selector isn't in the sources checked (TBD); rate not given in the sources; short-stroke gas piston with a two-position gas regulator and a rotating bolt; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not given in the sources checked; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; full-length Picatinny rail on top and a 
 
 5 versions after merging. The civilian rifle changes caliber with a barrel swap, so each caliber is its own version (see [Rules](../../rules.md#spawned-version-is-fixed)). The 5.56mm MCX-SPEAR LT is on the [SIG MCX](../assault-rifles/sig-mcx.md) page, and the M250 machine gun went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M7 | Army rifle: 13 in barrel, folding stock; semi and auto | 6.8×51mm | About 50,000 delivered; the Army had planned up to 107,000 | XM5 / XM7 / M7, PIE M7 (product-improved, 13.5 in barrel; shown October 2025) | semi, auto | 650 | No | box mag | 20 |
-| 2 | M8 | Carbine: about 3.5 in shorter and over 1 lb lighter than the M7, fixed stock, stiffer handguard; selector TBD | 6.8×51mm | Unknown; first delivered April 2026, 14,944 requested for fiscal 2027 | XM8 / M8, improved M7 (shown September 2025; 10.5 in barrel, 3.4 kg with suppressor), M7 carbine (shown October 2025; 10 in barrel) | TBD | TBD | No | box mag | 20 |
-| 3 | Civilian | 13 or 16 in barrel; semi-auto only | 6.8×51mm | Unknown | MCX-SPEAR in .277 SIG Fury (13 in, first production run), MCX-SPEAR in 6.8×51mm (16 in carbine and 13 in SBR, 2024) | semi | 600 | No | box mag | 20 |
-| 4 | 7.62 NATO | Civilian rifle with SIG's 7.62×51mm barrel; semi-auto only | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | 20 |
-| 5 | 6.5 Creedmoor | Civilian rifle with SIG's 6.5mm Creedmoor barrel; semi-auto only | 6.5mm Creedmoor | Unknown | — | semi | 600 | No | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M7 | Army rifle: 13 in barrel, folding stock; semi and auto | 6.8×51mm | About 50,000 delivered; the Army had planned up to 107,000 | XM5 / XM7 / M7, PIE M7 (product-improved, 13.5 in barrel; shown October 2025) | semi, auto | 650 | No | box mag | 20 | 54 |
+| 2 | M8 | Carbine: about 3.5 in shorter and over 1 lb lighter than the M7, fixed stock, stiffer handguard; selector TBD | 6.8×51mm | Unknown; first delivered April 2026, 14,944 requested for fiscal 2027 | XM8 / M8, improved M7 (shown September 2025; 10.5 in barrel, 3.4 kg with suppressor), M7 carbine (shown October 2025; 10 in barrel) | TBD | TBD | No | box mag | 20 | 54 |
+| 3 | Civilian | 13 or 16 in barrel; semi-auto only | 6.8×51mm | Unknown | MCX-SPEAR in .277 SIG Fury (13 in, first production run), MCX-SPEAR in 6.8×51mm (16 in carbine and 13 in SBR, 2024) | semi | 600 | No | box mag | 20 | 54 |
+| 4 | 7.62 NATO | Civilian rifle with SIG's 7.62×51mm barrel; semi-auto only | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | 20 | 58 |
+| 5 | 6.5 Creedmoor | Civilian rifle with SIG's 6.5mm Creedmoor barrel; semi-auto only | 6.5mm Creedmoor | Unknown | — | semi | 600 | No | box mag | 20 | 53 |
 
 ## Sources
 

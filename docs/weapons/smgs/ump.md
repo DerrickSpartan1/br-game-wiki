@@ -7,7 +7,7 @@
 | History | Germany; Heckler & Koch; designed in the 1990s as a lighter, cheaper MP5 successor aimed at the US .45 market; made since 2000, though only the 9mm is still in production |
 | Magazine (rounds) | .45: 25-round straight; .40: 30-round straight; 9mm: 30-round curved |
 | Fire mode / rate | Fixed trigger per version (no swappable trigger groups): mostly semi and full auto, with a 2-round burst on one (see [Versions](#versions)); about 600 to 750 RPM; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 100 m (9mm), 65 m (.45); in-game TBD |
 
 **Pistol / 3rd-slot version:** [UMP pistol](../pistols/ump-pistol.md)
@@ -28,12 +28,12 @@ Pistol/SMG family attachments; four native Picatinny rails (top, both sides, bot
 
 4 versions after merging. Triggers are fixed per version (game choice, not historical): the UMP45 and UMP9 use the standard semi/auto trigger; the UMP40 gets the burst pack (semi and 2-round burst); the USC is semi-only. Semi-auto UMP-clone pistols moved to the 3rd slot as the UMP pistol. Skin: the USC's original grey finish.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | UMP45 | The original; slowest at about 600 to 700 RPM; 25-round mag | .45 ACP | Unknown | — | semi, auto | 600–700 | No | box mag | 25 |
-| 2 | UMP40 | 30-round straight mag | .40 S&W | Unknown | — | semi, 2-round burst | 600–750 | No | box mag | 30 |
-| 3 | UMP9 | 30-round curved mag; about 0.2 kg lighter than an MP5; the only version still made | 9×19mm | Unknown | — | semi, auto | 600–750 | No | box mag | 30 |
-| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — | semi | 600–700 | No | box mag | 10 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | UMP45 | The original; slowest at about 600 to 700 RPM; 25-round mag | .45 ACP | Unknown | — | semi, auto | 600–700 | No | box mag | 25 | 40 |
+| 2 | UMP40 | 30-round straight mag | .40 S&W | Unknown | — | semi, 2-round burst | 600–750 | No | box mag | 30 | 46 |
+| 3 | UMP9 | 30-round curved mag; about 0.2 kg lighter than an MP5; the only version still made | 9×19mm | Unknown | — | semi, auto | 600–750 | No | box mag | 30 | 39 |
+| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — | semi | 600–700 | No | box mag | 10 | 42 |
 
 ## Sources
 

@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [Ithaca 37](../shotguns/ithaca-37.md).
 | History | U.S., Ithaca Gun Company; the NYPD Emergency Service Unit used a 13 in version with a forend hand strap |
 | Magazine (rounds) | Tube; capacity not listed |
 | Fire mode / rate | Pump-action with slam-fire |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ TBD
 
 1 version, with slam-fire like the full-size Ithaca 37.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | 80 | No | tube | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | 80 | No | tube | TBD | 19 × 9 |
 
 ## Sources
 

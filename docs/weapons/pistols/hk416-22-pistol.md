@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [HK416](../assault-rifles/hk416.md).
 | History | USA / Germany; HK USA's licensed .22 LR pistol, built with Umarex of Germany, the stockless partner of the HK416 .22 LR rifle |
 | Magazine (rounds) | 20-round box |
 | Fire mode / rate | Semi-auto; blowback |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | HK416 .22 LR pistol | 8.5 in barrel; blowback | .22 LR | Unknown | — | semi | 450 | No | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | HK416 .22 LR pistol | 8.5 in barrel; blowback | .22 LR | Unknown | — | semi | 450 | No | box mag | 20 | 27 |
 
 ## Sources
 

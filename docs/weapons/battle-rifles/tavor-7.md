@@ -7,7 +7,7 @@
 | History | Israel; designed by Israel Weapon Industries (IWI) from 2013 to 2017 as the 7.62mm member of the [Tavor](../assault-rifles/tavor.md) family, partly at customers' request; launched on 1 November 2017 and shown that month at Defense and Security Thailand, Milipol Paris, and Expodefensa Colombia; the US civilian model launched at SHOT Show 2018; pitched to military and police buyers, and a 2019 Jerusalem Post headline said IDF troops might get it, but none of the sources checked name a confirmed military user |
 | Magazine (rounds) | 20-round SR-25-pattern box (Magpul PMAG LR/SR style); 10-, 20-, and 25-round mags fit |
 | Fire mode / rate | Semi and auto at about 600–900 RPM on military rifles; civilian rifles are semi-auto only; short-stroke gas piston (the older Tavors use a long-stroke, Kalashnikov-style system) with a rotating bolt; closed bolt, so no open-bolt delay; four-position gas regulator: regular, adverse, suppressed, and off, where the action doesn't cycle |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not given in the sources checked; in-game TBD |
 
 ## Real-world notes
@@ -26,11 +26,11 @@ AR/LMG/battle rifle family attachments; full-length Picatinny rail on top, M-LOK
 
 3 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Tavor 7 | 17 in barrel; semi and auto | 7.62×51mm | Unknown; no military buyers named | Military Tavor 7 (2017) | semi, auto | 600–900 | No | bullpup mag | 20 |
-| 2 | Tavor 7 20 in (rare) | 20 in barrel, 806 mm long; one source calls it a likely marksman version; semi and auto | 7.62×51mm | Unknown | — | semi, auto | 600–900 | No | bullpup mag | 20 |
-| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi | 600 | No | bullpup mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Tavor 7 | 17 in barrel; semi and auto | 7.62×51mm | Unknown; no military buyers named | Military Tavor 7 (2017) | semi, auto | 600–900 | No | bullpup mag | 20 | 49 |
+| 2 | Tavor 7 20 in (rare) | 20 in barrel, 806 mm long; one source calls it a likely marksman version; semi and auto | 7.62×51mm | Unknown | — | semi, auto | 600–900 | No | bullpup mag | 20 | 49 |
+| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi | 600 | No | bullpup mag | 20 | 58 |
 
 ## Sources
 

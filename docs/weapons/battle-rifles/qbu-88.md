@@ -7,7 +7,7 @@
 | History | China; made by Norinco as the Type 88 and one of the first rifles of China's new generation of small arms, alongside the [QBZ-95](../assault-rifles/qbz-95.md); sources date its adoption to the late 1980s or 1997; a designated marksman rifle rather than a true sniper rifle, giving squads aimed fire past assault rifle range; used by the People's Liberation Army, the People's Armed Police, and Chinese police; being replaced by the QBU-191 (already gone in the Tibet Military District) and, in the PLA Navy Marine Corps, by the CS/LR4; one of original PUBG's DMRs |
 | Magazine (rounds) | 10-round detachable box (its own design; STANAG mags only fit after modification) |
 | Fire mode / rate | Semi-auto; short-stroke gas piston above the barrel with a three-lug rotating bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 500–1,000 m (sources differ: one gives up to 800 m); in-game TBD |
 
 ## Real-world notes
@@ -26,10 +26,10 @@ DMR/sniper family attachments; short proprietary dovetail rail on the receiver. 
 
 2 versions after merging. The QBU-191 marksman rifle (built on the QBZ-191) and the QBU-141 and CS/LR4 bolt-action sniper rifles are separate guns; they went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | QBU-88 | Standard rifle | 5.8×42mm | Unknown | QBU-88 (Type 88) | semi | 600 | No | bullpup mag | 10 |
-| 2 | QBU-97A | Export version for foreign security forces; modified QBU-88 magazine | 5.56×45mm | Unknown | QBU-97A (Type 97), NQU03 (newer designation; may be the same rifle) | semi | 600 | No | bullpup mag | 10 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | QBU-88 | Standard rifle | 5.8×42mm | Unknown | QBU-88 (Type 88) | semi | 600 | No | bullpup mag | 10 | 46 |
+| 2 | QBU-97A | Export version for foreign security forces; modified QBU-88 magazine | 5.56×45mm | Unknown | QBU-97A (Type 97), NQU03 (newer designation; may be the same rifle) | semi | 600 | No | bullpup mag | 10 | 45 |
 
 ## Sources
 

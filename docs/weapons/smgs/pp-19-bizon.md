@@ -7,7 +7,7 @@
 | History | Russia; designed 1993 to 1995 by a team led by Victor Kalashnikov (Mikhail's son) with Alexei Dragunov (Yevgeny's son); made by Izhmash; adopted in December 1996; used by the FSB; largely replaced by the Vityaz |
 | Magazine (rounds) | 64-round helical mag under the barrel (53 rounds in 9×19); the Tokarev version uses a 35-round box |
 | Fire mode / rate | Select-fire, about 680 RPM (9×18) or 700 to 750 RPM (9×19 and 7.62); closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 100 m (9×18), 200 m (9×19); in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ Pistol/SMG family attachments; AK side mount for optics (adapter mount). Mag tie
 
 5 versions after merging. Skins: the Bizon-3's over-the-top folding stock and peep sight, and the Vietnamese SN9P's Galil-style stock. The 7.62 version can also load 7.63mm Mauser under the shared ammo rule. Its box-mag successors, the PP-19-01 Vityaz and PPK-20, went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bizon | Standard SMG | 9×18mm Makarov | Unknown | Bizon-1, Bizon-2, Bizon-3, Bizon-2-04 semi-auto carbine | semi, auto | 680 | No | box mag | 64 |
-| 2 | Bizon-2-03 | Integral suppressor | 9×18mm Makarov | Unknown | — | semi, auto | 680 | No | box mag | 64 |
-| 3 | 9×19 | 53-round helical mag | 9×19mm | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P | semi, auto | 700–750 | No | box mag | 53 |
-| 4 | .380 | 64-round helical mag | .380 ACP | Unknown | Bizon-2-02, Bizon-2-06 carbine | semi, auto | 680 | No | box mag | 64 |
-| 5 | Bizon-2-07 | Trades the helical mag for a 35-round box mag | 7.62×25mm Tokarev | Unknown | Bizon-2-07, Vietnamese SN7P | semi, auto | 700–750 | No | box mag | 35 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Bizon | Standard SMG | 9×18mm Makarov | Unknown | Bizon-1, Bizon-2, Bizon-3, Bizon-2-04 semi-auto carbine | semi, auto | 680 | No | box mag | 64 | 37 |
+| 2 | Bizon-2-03 | Integral suppressor | 9×18mm Makarov | Unknown | — | semi, auto | 680 | No | box mag | 64 | 37 |
+| 3 | 9×19 | 53-round helical mag | 9×19mm | Unknown | Bizon-2-01, Bizon-2-05, Vietnamese SN9P | semi, auto | 700–750 | No | box mag | 53 | 39 |
+| 4 | .380 | 64-round helical mag | .380 ACP | Unknown | Bizon-2-02, Bizon-2-06 carbine | semi, auto | 680 | No | box mag | 64 | 37 |
+| 5 | Bizon-2-07 | Trades the helical mag for a 35-round box mag | 7.62×25mm Tokarev | Unknown | Bizon-2-07, Vietnamese SN7P | semi, auto | 700–750 | No | box mag | 35 | 51 |
 
 ## Sources
 

@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [AR-18](../assault-rifles/ar-18.md).
 | History | UK; Sterling's planned pistol version of the short AR-18S; a single prototype was sent to the ATF in 1982 |
 | Magazine (rounds) | AR-18 mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AR-180SP (rare) | Pistol version of the short AR-18S | 5.56×45mm | A single prototype (1982) | — | semi | 450 | No | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | AR-180SP (rare) | Pistol version of the short AR-18S | 5.56×45mm | A single prototype (1982) | — | semi | 450 | No | box mag | 20 | 43 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | UK; designed 1944 by George Patchett; made 1953 to 1988, 400,000+ built; British Army standard until 1994; also made in Canada (C1) and India |
 | Magazine (rounds) | 34-round curved side-mounted box; also takes Sten and Lanchester mags |
 | Fire mode / rate | Select-fire, about 550 RPM; open bolt |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 200 m (suppressed 50 to 100 m); in-game TBD |
 
 **Pistol / 3rd-slot version:** [Sterling Para-pistol](../pistols/sterling-para-pistol.md)
@@ -28,13 +28,13 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 34 standard
 
 5 versions after merging. The Mk 7 Para-pistol moved to the 3rd slot. Skins: the Canadian C1's removable trigger guard (for gloves) and the Chilean FAMAE PAF's shorter receiver without a barrel shroud. The 7.62×51mm Sterling rifle prototype went to the rifles-to-review list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sterling | Standard select-fire Sterling | 9×19mm | Most of 400,000+ | Patchett Mk 1, L2A1 (Mk 2), L2A2 (Mk 3), L2A3 (Mk 4), Canadian C1, Indian 1A1, Chilean FAMAE PAF | semi, auto | 550 | Yes | side mag | 34 |
-| 2 | Suppressed | Ported barrel inside a suppressor cylinder; used by special forces in Vietnam and the Falklands | 9×19mm | Unknown | L34A1 (Mk 5), Indian 2A1 silent version | semi, auto | 550 | Yes | side mag | 34 |
-| 3 | Mk 6 carbine | Semi-auto only, closed bolt; the US version has a 16 in barrel | 9×19mm | Unknown | Mk 6 "Police", Sterling Sporter, PAWS ZX-5 | semi | 550 | No | side mag | 34 |
-| 4 | PAWS ZX-7 | American closed-bolt .45 version with a rubber grip; takes Grease Gun mags | .45 ACP | Unknown | ZX-7, ZX-8, ZX7SS (suppressed) | semi | 550 | No | side mag | 30 |
-| 5 | .40 prototype | One-off PAWS prototype | .40 S&W | 1 prototype | — | semi | 550 | No | side mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Sterling | Standard select-fire Sterling | 9×19mm | Most of 400,000+ | Patchett Mk 1, L2A1 (Mk 2), L2A2 (Mk 3), L2A3 (Mk 4), Canadian C1, Indian 1A1, Chilean FAMAE PAF | semi, auto | 550 | Yes | side mag | 34 | 46 |
+| 2 | Suppressed | Ported barrel inside a suppressor cylinder; used by special forces in Vietnam and the Falklands | 9×19mm | Unknown | L34A1 (Mk 5), Indian 2A1 silent version | semi, auto | 550 | Yes | side mag | 34 | 46 |
+| 3 | Mk 6 carbine | Semi-auto only, closed bolt; the US version has a 16 in barrel | 9×19mm | Unknown | Mk 6 "Police", Sterling Sporter, PAWS ZX-5 | semi | 550 | No | side mag | 34 | 46 |
+| 4 | PAWS ZX-7 | American closed-bolt .45 version with a rubber grip; takes Grease Gun mags | .45 ACP | Unknown | ZX-7, ZX-8, ZX7SS (suppressed) | semi | 550 | No | side mag | 30 | 46 |
+| 5 | .40 prototype | One-off PAWS prototype | .40 S&W | 1 prototype | — | semi | 550 | No | side mag | TBD | 46 |
 
 ## Sources
 

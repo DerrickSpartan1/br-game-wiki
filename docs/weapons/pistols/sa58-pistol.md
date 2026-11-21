@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [FN FAL](../battle-rifles/fn-fal.md).
 | History | USA; DS Arms' civilian pistol version of its SA58 FAL, sold on the US market |
 | Magazine (rounds) | FAL metric mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SA58 pistol | Semi-auto, no stock | 7.62×51mm | Unknown | DS Arms SA58 pistol | semi | 450 | No | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SA58 pistol | Semi-auto, no stock | 7.62×51mm | Unknown | DS Arms SA58 pistol | semi | 450 | No | box mag | 20 | 51 |
 
 ## Sources
 

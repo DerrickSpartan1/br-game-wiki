@@ -7,7 +7,7 @@
 | History | 1942, U.S.; made to drop to resistance fighters in occupied territory |
 | Magazine (rounds) | 1 (single shot) |
 | Fire mode / rate | Single shot |
-| Damage | TBD (higher than other pistols) |
+| Damage | Higher than other pistols: first pass 50 against 36 for other .45 ACP pistols, so one head shot kills an unarmored target; see the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world max about 7.6 m, built for 1 to 4 yards; in-game TBD |
 
 ## Real-world notes
@@ -26,9 +26,9 @@ None
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | FP-45 Liberator | Single shot, smoothbore; 10 spare rounds stored in the grip | .45 ACP | About 1 million | — | single shot | TBD | No | single shot | 1 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | FP-45 Liberator | Single shot, smoothbore; 10 spare rounds stored in the grip | .45 ACP | About 1 million | — | single shot | TBD | No | single shot | 1 | 50 |
 
 ## Sources
 

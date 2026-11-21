@@ -7,7 +7,7 @@
 | History | U.S., KelTec; introduced 2011; used by France's RAID, South Korea's 707th Special Mission Group, and the U.S. Federal Bureau of Prisons |
 | Magazine (rounds) | Two tubes: 7+7+1 (2¾ in shells) on the standard KSG; up to 24+1 on the KSG-25 |
 | Fire mode / rate | Pump-action; a three-position lever switches between the two tubes (middle position blocks both) |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ Tube extension attachment; rails for optics and accessories; other attachments T
 
 5 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | KSG | 18.5 in barrel; two tubes, 7+7+1 (2¾ in) or 6+6+1 (3 in). Merged differences: Gen 1 to 3 fixes (selector, double feeds, trigger reset); the KSG-NR and Compact have shorter tubes (10+1), and the Compact adds a built-in foregrip light | 12 gauge | Unknown | KSG Gen 1 to 3, KSG-NR, KSG Compact | pump | 80 | No | tube | 14+1 |
-| 2 | KSG short | 13.7 to 16.1 in barrel; 10+1 to 12+1 | 12 gauge | Unknown | KSG Tactical (13.7 in, 10+1), KSG Patrol (16.1 in, 12+1) | pump | 80 | No | tube | TBD |
-| 3 | KSG-25 | 30.5 in barrel; 12+12+1 (2¾ in) or 10+10+1 (3 in); M-LOK slots; launched 2022 | 12 gauge | Unknown | — | pump | 80 | No | tube | 24+1 |
-| 4 | KSG410 | Smaller-bore version; 10+1 | .410 bore | Unknown | — | pump | 80 | No | tube | 10+1 |
-| 5 | KS7 | Single tube, 7+1 (2¾ in) or 6+1 (3 in); 18.5 in barrel; carry handle instead of a top rail; slimmer and lighter | 12 gauge | Unknown | — | pump | 80 | No | tube | 7+1 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | KSG | 18.5 in barrel; two tubes, 7+7+1 (2¾ in) or 6+6+1 (3 in). Merged differences: Gen 1 to 3 fixes (selector, double feeds, trigger reset); the KSG-NR and Compact have shorter tubes (10+1), and the Compact adds a built-in foregrip light | 12 gauge | Unknown | KSG Gen 1 to 3, KSG-NR, KSG Compact | pump | 80 | No | tube | 14+1 | 24 × 9 |
+| 2 | KSG short | 13.7 to 16.1 in barrel; 10+1 to 12+1 | 12 gauge | Unknown | KSG Tactical (13.7 in, 10+1), KSG Patrol (16.1 in, 12+1) | pump | 80 | No | tube | TBD | 24 × 9 |
+| 3 | KSG-25 | 30.5 in barrel; 12+12+1 (2¾ in) or 10+10+1 (3 in); M-LOK slots; launched 2022 | 12 gauge | Unknown | — | pump | 80 | No | tube | 24+1 | 24 × 9 |
+| 4 | KSG410 | Smaller-bore version; 10+1 | .410 bore | Unknown | — | pump | 80 | No | tube | 10+1 | 19 × 9 |
+| 5 | KS7 | Single tube, 7+1 (2¾ in) or 6+1 (3 in); 18.5 in barrel; carry handle instead of a top rail; slimmer and lighter | 12 gauge | Unknown | — | pump | 80 | No | tube | 7+1 | 24 × 9 |
 
 ## Sources
 

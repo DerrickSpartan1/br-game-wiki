@@ -7,7 +7,7 @@
 | History | Belgium / USA; designed in the early 1970s by an FN team led by Ernest Vervier, the designer of the [FN MAG](fn-mag.md); originally drawn up around 7.62mm, then built for 5.56mm; in service from 1974 and made from 1977; the US adopted it as the M249 squad automatic weapon in 1982, built it in South Carolina from 1984, and has used it in every major conflict since Panama in 1989; the Marines partly replaced it with the M27 in 2009, and the Army chose SIG's XM250 to replace it in 2022; used by more than 75 countries by one count in its Wikipedia article (45+ by another), including the UK, Australia (F89), Canada (C9), Italy, Japan, Sweden, and Switzerland, with license builds in Indonesia, Italy, Japan, Greece, and Egypt and copies in Taiwan and China; PUBG's M249 |
 | Magazine (rounds) | 100- or 200-round M27 belts in a pouch or box, or a 30-round STANAG mag (the M16's) as a backup |
 | Fire mode / rate | Auto only; 700–850 RPM on the normal gas setting and 950–1,150 on the adverse setting (about 800 on the 7.62mm version); gas-operated, long-stroke piston, rotating bolt; fires from an open bolt, so it has the open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world sights set from 300 to 1,000 m; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; Picatinny rail on the feed cover of late
 
 5 versions after merging. The vehicle version (no stock, remote trigger) is left out. The Ultimax 100 and Daewoo K3 are separate guns in the LMG [queue](../../planning/queue.md).
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Minimi | Standard Belgian and licensed gun: skeleton stock, two gas settings | 5.56×45mm | Unknown | Minimi Standard, Minimi Mk3 (2013), the UK's L108A1, Canada's C9 and C9A1, Australia's F89, Indonesia's SM-2, Beretta (Italy) and Sumitomo (Japan) builds, Sweden's Ksp 90, Switzerland's LMG 05, Greek and Egyptian builds, Taiwan's T75, China's CS/LM8 and XY copies | auto | 700–1,150 | Yes | belt, box mag | 100 |
-| 2 | M249 | US version: synthetic stock, single gas setting, M16A2-style flash hider, heat guard, carry handle | 5.56×45mm | Unknown | M249, M249 PIP | auto | 700–1,150 | Yes | belt, box mag | 100 |
-| 3 | Para | 349 mm barrel and collapsible stock | 5.56×45mm | Unknown | Minimi Para, M249 Para, the UK's L110A2 and L110A3, Canada's C9A2 (shorter second barrel, C8-style stock) | auto | 700–1,150 | Yes | belt, box mag | 100 |
-| 4 | Mk 46 / SPW | Lightened special operations version: no mag well, railed handguard; the Mod 1 adds a titanium bipod | 5.56×45mm | Unknown | Mk 46 Mod 0 and Mod 1, M249 SPW | auto | 700–1,150 | Yes | belt | 100 |
-| 5 | Minimi 7.62 | 7.62mm version with a self-regulating gas system and hydraulic buffer | 7.62×51mm | Unknown; the UK ordered up to 176 | Minimi 7.62, 7.62 TR, 7.62 Para, Mk3 7.62, Mk 48 | auto | 800 | Yes | belt | 100 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Minimi | Standard Belgian and licensed gun: skeleton stock, two gas settings | 5.56×45mm | Unknown | Minimi Standard, Minimi Mk3 (2013), the UK's L108A1, Canada's C9 and C9A1, Australia's F89, Indonesia's SM-2, Beretta (Italy) and Sumitomo (Japan) builds, Sweden's Ksp 90, Switzerland's LMG 05, Greek and Egyptian builds, Taiwan's T75, China's CS/LM8 and XY copies | auto | 700–1,150 | Yes | belt, box mag | 100 | 43 |
+| 2 | M249 | US version: synthetic stock, single gas setting, M16A2-style flash hider, heat guard, carry handle | 5.56×45mm | Unknown | M249, M249 PIP | auto | 700–1,150 | Yes | belt, box mag | 100 | 43 |
+| 3 | Para | 349 mm barrel and collapsible stock | 5.56×45mm | Unknown | Minimi Para, M249 Para, the UK's L110A2 and L110A3, Canada's C9A2 (shorter second barrel, C8-style stock) | auto | 700–1,150 | Yes | belt, box mag | 100 | 43 |
+| 4 | Mk 46 / SPW | Lightened special operations version: no mag well, railed handguard; the Mod 1 adds a titanium bipod | 5.56×45mm | Unknown | Mk 46 Mod 0 and Mod 1, M249 SPW | auto | 700–1,150 | Yes | belt | 100 | 43 |
+| 5 | Minimi 7.62 | 7.62mm version with a self-regulating gas system and hydraulic buffer | 7.62×51mm | Unknown; the UK ordered up to 176 | Minimi 7.62, 7.62 TR, 7.62 Para, Mk3 7.62, Mk 48 | auto | 800 | Yes | belt | 100 | 50 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | Italy; made by Franchi 1979 to 2000; used by police and special forces worldwide, including France's GIGN and Austria's EKO Cobra |
 | Magazine (rounds) | Tube: 5+1 to 8+1 depending on the extension tube |
 | Fire mode / rate | Switchable: semi-auto or pump-action, set with a button under the fore-grip |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Depends on ammo (not listed); in-game TBD |
 
 ## Real-world notes
@@ -26,10 +26,10 @@ Tube extension attachment (real extension tubes held 5 to 8 shells); other attac
 
 2 versions after merging. Its single-mode sister guns merge in, following the AA-12 precedent. Skins: the original wooden detachable stock, the folding metal stock with hook, and the fixed synthetic "Sporting Purpose" stock.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SPAS-12 | 21.5 in barrel; switches between semi-auto and pump. Merged differences: the LAW-12 was semi-auto only and lighter; the SAS-12 was pump only and took 3 in shells; the UK version had a 24 in barrel (21.5 in with a brazed-on choke) | 12 gauge | Most of about 37,000 | SPAS-12 standard, LAW-12, SAS-12, UK 24 in version | semi, pump | 240 | No | tube | TBD |
-| 2 | SPAS-12 short | 18 in or 19⅞ in barrel, made for police and military; the 18 in French model had a pistol grip safety | 12 gauge | Very rare | 18 in "shorty", 19⅞ in "AL" | semi, pump | 240 | No | tube | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SPAS-12 | 21.5 in barrel; switches between semi-auto and pump. Merged differences: the LAW-12 was semi-auto only and lighter; the SAS-12 was pump only and took 3 in shells; the UK version had a 24 in barrel (21.5 in with a brazed-on choke) | 12 gauge | Most of about 37,000 | SPAS-12 standard, LAW-12, SAS-12, UK 24 in version | semi, pump | 240 | No | tube | TBD | 22 × 9 |
+| 2 | SPAS-12 short | 18 in or 19⅞ in barrel, made for police and military; the 18 in French model had a pistol grip safety | 12 gauge | Very rare | 18 in "shorty", 19⅞ in "AL" | semi, pump | 240 | No | tube | TBD | 22 × 9 |
 
 ## Sources
 

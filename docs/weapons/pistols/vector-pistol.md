@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [KRISS Vector](../smgs/kriss-vector.md).
 | History | USA; Vector SDP and SDP-SB (with an arm brace) |
 | Magazine (rounds) | Glock mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 Versions TBD: they follow the Vector's calibers, to be listed.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | 450 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | 450 | No | box mag | TBD | TBD |
 
 ## Sources
 

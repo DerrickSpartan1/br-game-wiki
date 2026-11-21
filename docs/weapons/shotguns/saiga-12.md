@@ -7,7 +7,7 @@
 | History | Produced 1997 to present by Kalashnikov Concern, Russia; military 18.5 KS-K carbine adopted by Russia's Ministry of Internal Affairs |
 | Magazine (rounds) | Detachable box (factory 5, 7, or 8; aftermarket 2 to 12) or drum (10 to 30) |
 | Fire mode / rate | 12 gauge versions are semi-auto; the 20 gauge and .410 versions are full auto in-game to balance their lower damage (the real gun is full auto only if converted) |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 70 m; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ Mag-fed shotgun, so it uses assault rifle family mags (drum as extended); other 
 
 5 versions after merging. Stocks and furniture (wooden hunting stocks, SVD-style stocks, folding stocks) become skins, and magazine sizes are covered by the mag attachments.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Saiga-12 (long) | 22.8 in barrel. Merged differences: stock and furniture styles; the ver. 340 has an improved gas system and a muzzle brake | 12 gauge | Unknown | Saiga-12 ver. 75, 261, 278, and 340; Saiga-12S / 12C (folding stock) ver. 10 and 031; long Taktika | semi | 240 | No | box mag | TBD |
-| 2 | Saiga-12K | 16.9 in barrel. Merged differences: stock styles, magazine-well receivers, hinged Picatinny top cover, and the Taktika mod 040's own 8-round mag | 12 gauge | Unknown | Saiga-12K ver. 10, 030, 040, and 043; EXP-01; 18.5 KS-K (military); short Taktika; IZ109T (U.S., 18 in barrel with brake) | semi | 240 | No | box mag | TBD |
-| 3 | Saiga-12K ver. 033 | Shortened 13 in barrel; released in 2016 | 12 gauge | Unknown | — | semi | 240 | No | box mag | TBD |
-| 4 | Saiga-20 | 20-gauge version; full auto in-game to balance its lower damage | 20 gauge | Unknown | — | auto | 300 | No | box mag | TBD |
-| 5 | Saiga-410 | .410 bore version; full auto in-game to balance its lower damage | .410 bore | Unknown | — | auto | 300 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Saiga-12 (long) | 22.8 in barrel. Merged differences: stock and furniture styles; the ver. 340 has an improved gas system and a muzzle brake | 12 gauge | Unknown | Saiga-12 ver. 75, 261, 278, and 340; Saiga-12S / 12C (folding stock) ver. 10 and 031; long Taktika | semi | 240 | No | box mag | TBD | 22 × 9 |
+| 2 | Saiga-12K | 16.9 in barrel. Merged differences: stock styles, magazine-well receivers, hinged Picatinny top cover, and the Taktika mod 040's own 8-round mag | 12 gauge | Unknown | Saiga-12K ver. 10, 030, 040, and 043; EXP-01; 18.5 KS-K (military); short Taktika; IZ109T (U.S., 18 in barrel with brake) | semi | 240 | No | box mag | TBD | 22 × 9 |
+| 3 | Saiga-12K ver. 033 | Shortened 13 in barrel; released in 2016 | 12 gauge | Unknown | — | semi | 240 | No | box mag | TBD | 18 × 9 |
+| 4 | Saiga-20 | 20-gauge version; full auto in-game to balance its lower damage | 20 gauge | Unknown | — | auto | 300 | No | box mag | TBD | 19 × 9 |
+| 5 | Saiga-410 | .410 bore version; full auto in-game to balance its lower damage | .410 bore | Unknown | — | auto | 300 | No | box mag | TBD | 15 × 9 |
 
 ## Sources
 

@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [Uzi](../smgs/uzi.md).
 | History | Israel; IMI Uzi pistol made 1984 to 1993; IWI Uzi Pro pistol made today |
 | Magazine (rounds) | Uzi mags |
 | Fire mode / rate | Semi-auto, closed bolt |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Uzi pistol | Semi-auto, no stock | 9×19mm | Unknown | IMI Uzi pistol (1984–1993), IWI Uzi Pro pistol | semi | 450 | No | grip mag | 32 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Uzi pistol | Semi-auto, no stock | 9×19mm | Unknown | IMI Uzi pistol (1984–1993), IWI Uzi Pro pistol | semi | 450 | No | grip mag | 32 | 35 |
 
 ## Sources
 

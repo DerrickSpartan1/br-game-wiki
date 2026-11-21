@@ -7,7 +7,7 @@
 | History | Poland; designed 1995–1996 by FB "Łucznik" Radom from the wz. 88 Tantal (a Polish AK-74 copy); adopted 1997, serial production from 1999; Poland's standard rifle (about 86,000 in service); also Lithuania and Nigeria; the same factory now also makes the modular MSBS Grot |
 | Magazine (rounds) | 20- or 30-round plastic box (its own design, not Tantal mags); takes STANAG mags with an adapter; M762 takes AK-47 mags, M545 takes AK-74 mags |
 | Fire mode / rate | About 700 RPM; AK-style action (gas piston, rotating bolt), closed bolt, so no open-bolt delay; unlike an AK, the big safety lever only does safety and a separate switch on the other side picks the fire mode (semi and auto; whether it also has the Tantal's 3-round burst needs a lookup) |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world max 600 m; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; native top Picatinny rail. Unique: Palla
 
 5 versions after merging. The Polish wz. 88 Tantal it came from merged into the AK-74 family's first version. The Beryl Commando is listed as a variant but has no details yet (TBD).
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wz. 96 Beryl | Standard rifle | 5.56×45mm | Most of about 86,000 in Polish service | wz. 96A, 96B (fixed foregrip and rails), 96C (telescopic stock, new rails and handguard), 96D (mix-and-match), wz. 1991 (5.56 Tantal), Lithuanian wz. 96A | semi, auto | 700 | No | box mag | 30 |
-| 2 | Mini-Beryl | Carbine: 9.3 in barrel, 3.0 kg; still fires rifle grenades with live ammo | 5.56×45mm | Unknown | wz. 96 Mini-Beryl | semi, auto | 700 | No | box mag | 30 |
-| 3 | Beryl M762 | Export version on the 96C; takes AK-47 mags | 7.62×39mm | 3,200+ (Nigeria) | Beryl M762 | semi, auto | 700 | No | box mag | 30 |
-| 4 | Beryl M545 | Proposed export version; takes AK-74 mags | 5.45×39mm | Prototypes only | Beryl M545 | semi, auto | 700 | No | box mag | 30 |
-| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | 700 | No | box mag | 30 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | wz. 96 Beryl | Standard rifle | 5.56×45mm | Most of about 86,000 in Polish service | wz. 96A, 96B (fixed foregrip and rails), 96C (telescopic stock, new rails and handguard), 96D (mix-and-match), wz. 1991 (5.56 Tantal), Lithuanian wz. 96A | semi, auto | 700 | No | box mag | 30 | 43 |
+| 2 | Mini-Beryl | Carbine: 9.3 in barrel, 3.0 kg; still fires rifle grenades with live ammo | 5.56×45mm | Unknown | wz. 96 Mini-Beryl | semi, auto | 700 | No | box mag | 30 | 43 |
+| 3 | Beryl M762 | Export version on the 96C; takes AK-47 mags | 7.62×39mm | 3,200+ (Nigeria) | Beryl M762 | semi, auto | 700 | No | box mag | 30 | 48 |
+| 4 | Beryl M545 | Proposed export version; takes AK-74 mags | 5.45×39mm | Prototypes only | Beryl M545 | semi, auto | 700 | No | box mag | 30 | 40 |
+| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | 700 | No | box mag | 30 | 45 |
 
 ## Sources
 

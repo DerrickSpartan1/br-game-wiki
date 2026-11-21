@@ -7,7 +7,7 @@
 | History | Mexico / Switzerland; designed by General Manuel Mondragón, a Mexican artillery officer, who began with straight-pull bolt-action rifles in the 1890s and patented the self-loading design in 1907; Mexico adopted it in 1908 as the "Fusil Porfirio Díaz Sistema Mondragón" and had SIG build it in Switzerland, since Mexico had no factory that could; Mexico ordered 4,000, but only about 40 arrived before the order was cancelled over ammo problems and the price (160 Swiss francs each); a few were used in the Mexican Revolution; in 1915 Germany bought the rest and issued them to aircrews as the Fl.-S.-K. 15, two per crew, until synchronized machine guns took over; most survivors then went to the German navy; Switzerland used a 7.5×55mm version from 1917; about 4,000 made |
 | Magazine (rounds) | Sources differ: 10 rounds loaded from 5-round stripper clips, or a detachable 8-round box; Germany also used 20-round boxes, and its aircrews 30-round drums |
 | Fire mode / rate | Semi-auto; long-stroke gas piston with a rotating bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 800 m; in-game TBD |
 
 ## Real-world notes
@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Unique: the fo
 
 2 versions after merging. The German Fl.-S.-K. 15 is the same M1908 rifle, so it merges in; its 30-round drum becomes a mag tier. Mondragón's earlier straight-pull bolt-action rifles, the M1893 and M1894, went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M1908 | Standard rifle; bipod and spade bayonet | 7×57mm Mauser | Most of about 4,000; about 40 reached Mexico, Germany bought the rest | M1908 "Fusil Porfirio Díaz", Fl.-S.-K. 15 (German aircrews; 30-round Blum drum or 32-round Trommelmagazin 08), German front-line rifles (8- or 20-round boxes) | semi, straight-pull | 600 | No | TBD | 10 |
-| 2 | Swiss | 12-round mag and a brass catcher | 7.5×55mm Swiss | Unknown; Swiss service from 1917 | Swiss self-loading Mondragón (used in the Häfeli DH and Blériot two-seaters) | semi, straight-pull | 600 | No | TBD | 12 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M1908 | Standard rifle; bipod and spade bayonet | 7×57mm Mauser | Most of about 4,000; about 40 reached Mexico, Germany bought the rest | M1908 "Fusil Porfirio Díaz", Fl.-S.-K. 15 (German aircrews; 30-round Blum drum or 32-round Trommelmagazin 08), German front-line rifles (8- or 20-round boxes) | semi, straight-pull | 600 | No | TBD | 10 | 51 |
+| 2 | Swiss | 12-round mag and a brass catcher | 7.5×55mm Swiss | Unknown; Swiss service from 1917 | Swiss self-loading Mondragón (used in the Häfeli DH and Blériot two-seaters) | semi, straight-pull | 600 | No | TBD | 12 | 57 |
 
 ## Sources
 

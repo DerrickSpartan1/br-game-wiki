@@ -7,7 +7,7 @@
 | History | Russian Empire / USSR; designed by Vladimir Fyodorov, with Vasily Degtyaryov assisting; made 1913 to 1925 at Kovrov; about 3,200 made, mostly in the 1920s; used in WWI, the Russian Civil War, and the Winter War |
 | Magazine (rounds) | 25-round curved box |
 | Fire mode / rate | Select-fire, about 600 RPM; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world burst fire effective to about 500 m; in-game TBD |
 
 ## Real-world notes
@@ -26,10 +26,10 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Mag tiers (bes
 
 2 versions. 6.5×50mm Arisaka is new to the ammo pool, and Japan's Arisaka rifles use it too. The 1913 prototype's 6.5mm Fedorov would be an ultra-rare round. Quirk: both versions reload through the top with 5-round stripper clips, so you can top off the mag without swapping it. Overheating stays a flavor note.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Fedorov Avtomat | Select-fire with a 25-round detachable mag | 6.5×50mm Arisaka | About 3,200 | WWI and 1920s production | semi, auto | 600 | No | box mag | 25 |
-| 2 | 1913 prototype | Semi-auto with a fixed mag loaded by stripper clips, in Fedorov's own rimless round | 6.5mm Fedorov | Prototypes only | — | semi | 600 | No | stripper clip | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Fedorov Avtomat | Select-fire with a 25-round detachable mag | 6.5×50mm Arisaka | About 3,200 | WWI and 1920s production | semi, auto | 600 | No | box mag | 25 | 55 |
+| 2 | 1913 prototype | Semi-auto with a fixed mag loaded by stripper clips, in Fedorov's own rimless round | 6.5mm Fedorov | Prototypes only | — | semi | 600 | No | stripper clip | TBD | TBD |
 
 ## Sources
 

@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [M1/M2 Carbine](../assault-rifles/m1-m2-carbine
 | History | USA; Universal's and Iver Johnson's pistol version of the M1 carbine |
 | Magazine (rounds) | Carbine mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Enforcer | Pistol version of the M1 carbine | .30 Carbine | Unknown | Universal Enforcer, Iver Johnson Enforcer | semi | 450 | No | box mag | 15 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Enforcer | Pistol version of the M1 carbine | .30 Carbine | Unknown | Universal Enforcer, Iver Johnson Enforcer | semi | 450 | No | box mag | 15 | 39 |
 
 ## Sources
 

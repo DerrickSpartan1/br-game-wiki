@@ -7,7 +7,7 @@
 | History | Spain; designed 1948–1950 at CETME, Spain's state weapons research center, by German engineer Ludwig Vorgrimler, based on the German StG 45(M) and the French AME 49; first built for CETME's own 7.92×41mm round (shown in 1953), then a lighter-loaded 7.62×51mm CETME round, and finally full 7.62×51mm NATO after West Germany's Border Guard asked for it; tested at Aberdeen in 1954, and 400 Model As went to the West German Bundeswehr in December 1956; adopted by the Spanish Army in September 1957 as the Model 1958, made in Spain from 1961; its Model B became the basis for H&K's G3; the Model C was Spain's standard rifle by 1964, until the 5.56mm CETME Model L took over from 1984; used in the Ifni War, Western Sahara, the Congo Crisis, the Nigerian Civil War, and Lebanon, and by France's navy commandos |
 | Magazine (rounds) | 20-round detachable box |
 | Fire mode / rate | Semi and auto, about 550–650 RPM; semi-auto only on civilian rifles; roller-delayed blowback with a fixed barrel; fires from a closed bolt, except the Model A, which fires from an open bolt on auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD (the original requirement was 1,000 m) |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the Model B
 
 5 versions after merging. The Model B and Model C differ only in small details, and Spain converted every B to NATO ammo by 1971, so they merge. The light-load 7.62×51mm CETME round is the same size as NATO's, so it plays as standard 7.62×51mm in-game, the same way the [Glisenti](../pistols/glisenti-1910.md) plays as standard 9×19. The 5.56mm Model L went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Model C | Standard Spanish rifle; select-fire | 7.62×51mm | Most made (totals not given) | Model C, Model B (bipod, steel handguard; first production model), Model 58-64-C (Bs converted to NATO) | semi, auto | 550–650 | No | box mag | 20 |
-| 2 | Civilian | Semi-auto only | 7.62×51mm | Unknown | Spanish-made B and C rifles imported by Mars Equipment (1960s), Century Arms CETME Sporter (late 1990s on) | semi | 600 | No | box mag | 20 |
-| 3 | Model A (rare) | Prototype in CETME's own round; bipod; rear sight folds into a foregrip; open bolt on auto | 7.92×41mm CETME | At least 400 (for West Germany), plus Spain's limited 1954 issue | Model A | semi, auto | 550–650 | Auto only | box mag | TBD |
-| 4 | Model E (rare) | Plastic and aluminum parts in place of steel; weaker | 7.62×51mm | Few; quickly dropped | — | semi, auto | 550–650 | No | box mag | 20 |
-| 5 | Model R (rare) | No stock; built to fire from armored vehicles | 7.62×51mm | Unknown | — | semi, auto | 550–650 | No | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Model C | Standard Spanish rifle; select-fire | 7.62×51mm | Most made (totals not given) | Model C, Model B (bipod, steel handguard; first production model), Model 58-64-C (Bs converted to NATO) | semi, auto | 550–650 | No | box mag | 20 | 58 |
+| 2 | Civilian | Semi-auto only | 7.62×51mm | Unknown | Spanish-made B and C rifles imported by Mars Equipment (1960s), Century Arms CETME Sporter (late 1990s on) | semi | 600 | No | box mag | 20 | 58 |
+| 3 | Model A (rare) | Prototype in CETME's own round; bipod; rear sight folds into a foregrip; open bolt on auto | 7.92×41mm CETME | At least 400 (for West Germany), plus Spain's limited 1954 issue | Model A | semi, auto | 550–650 | Auto only | box mag | TBD | TBD |
+| 4 | Model E (rare) | Plastic and aluminum parts in place of steel; weaker | 7.62×51mm | Few; quickly dropped | — | semi, auto | 550–650 | No | box mag | 20 | 58 |
+| 5 | Model R (rare) | No stock; built to fire from armored vehicles | 7.62×51mm | Unknown | — | semi, auto | 550–650 | No | box mag | 20 | 58 |
 
 ## Sources
 

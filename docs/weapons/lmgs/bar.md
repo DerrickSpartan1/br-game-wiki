@@ -7,7 +7,7 @@
 | History | USA; designed by John Browning in 1917; first issued to the American Expeditionary Forces in September 1918 and first used in combat by the 79th Division on 13 September 1918; in US service until 1973, through WWI, WWII, Korea, limited use in Vietnam, and Marine interventions in Haiti and Nicaragua; also used by Belgium, Sweden, Poland, China, the Netherlands, Egypt, and others, and France asked for 15,000 to replace its Chauchats; 351,679 made; Clyde Barrow and Bonnie Parker used M1918s |
 | Magazine (rounds) | 20-round box (40-round mags were used for anti-aircraft work until 1927) |
 | Fire mode / rate | Varies by version: semi and auto on the M1918; the M1918A2 drops semi for two auto rates, about 450 (slow) and 650 (fast), set by a rate reducer in the butt; gas-operated with a rising bolt lock; fires from an open bolt, so it has the open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world sights set from 100 to 1,500 yd (91–1,372 m); in-game TBD |
 
 ## Real-world notes
@@ -26,17 +26,17 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the M1918A2
 
 9 versions after merging. The Cook bullpup prototype and Poland's wz. 37 aircraft gun are left out.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M1918 | Original: fixed wooden stock, no bipod | .30-06 Springfield | About 102,000 in 1918–1919 | M1918, M1918A1 (1937; light bipod, hinged butt plate; few converted), M1922 (cavalry; heavy ribbed barrel, bipod, monopod) | semi, auto | 650 | Yes | box mag | 20 |
-| 2 | M1918A2 | Squad automatic: skid-foot bipod, heat shield, flash hider, shorter handguard; slow and fast auto instead of semi | .30-06 Springfield | Most: 188,380 from 1941 plus 61,000 for Korea | M1918A2 | auto, slow auto | 650; slow auto 450 | Yes | box mag | 20 |
-| 3 | Colt Monitor (rare) | Police and FBI version: no bipod, pistol grip, 18 in barrel, Cutts compensator, 7.34 kg; one source calls it semi-auto | .30-06 Springfield | About 125 | Colt Monitor (R80) | semi, auto | 500 | Yes | box mag | 20 |
-| 4 | FN Model D | Belgian: quick-change barrel, shoulder rest, simpler takedown | .30-06 Springfield | Unknown | FN Mle D (Belgium) | TBD | TBD | Yes | box mag | 20 |
-| 5 | 7.92mm export | Poland's wz. 28 (pistol grip, longer barrel) and FN guns for China and Egypt | 7.92×57mm Mauser | About 20,000 wz. 28s in Polish service in 1939, plus 29,550 FN guns for China | wz. 28, FN Mle 1930 (China), FN Mle D (Egypt) | TBD | TBD | Yes | box mag | 20 |
-| 6 | Swedish (rare) | Based on Colt's Model 1919: spiked bipod and ejection dust covers; the m/37 adds a quick-change barrel | 6.5×55mm Swedish | Unknown; in second-line use until 1980 | Kg m/21, Kg m/37, m/21-37 conversions | TBD | TBD | Yes | box mag | 20 |
-| 7 | FN Model 1930 (rare) | Licensed copy of Colt's R75 with a rate reducer | 7.65×53mm Mauser | Unknown | FN Mle 1930 (Belgium) | TBD | TBD | Yes | box mag | 20 |
-| 8 | 7.62 NATO (rare) | FN's DA1 takes 20-round FAL mags; the T34 was the last US-made version | 7.62×51mm | Unknown | FN Mle D A1, T34 | TBD | TBD | Yes | box mag | 20 |
-| 9 | Civilian | Semi-auto only | .30-06 Springfield | Unknown | Ohio Ordnance 1918A3-SLR, HCAR | semi | 650 | TBD | box mag | 20 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | M1918 | Original: fixed wooden stock, no bipod | .30-06 Springfield | About 102,000 in 1918–1919 | M1918, M1918A1 (1937; light bipod, hinged butt plate; few converted), M1922 (cavalry; heavy ribbed barrel, bipod, monopod) | semi, auto | 650 | Yes | box mag | 20 | 60 |
+| 2 | M1918A2 | Squad automatic: skid-foot bipod, heat shield, flash hider, shorter handguard; slow and fast auto instead of semi | .30-06 Springfield | Most: 188,380 from 1941 plus 61,000 for Korea | M1918A2 | auto, slow auto | 650; slow auto 450 | Yes | box mag | 20 | 60 |
+| 3 | Colt Monitor (rare) | Police and FBI version: no bipod, pistol grip, 18 in barrel, Cutts compensator, 7.34 kg; one source calls it semi-auto | .30-06 Springfield | About 125 | Colt Monitor (R80) | semi, auto | 500 | Yes | box mag | 20 | 60 |
+| 4 | FN Model D | Belgian: quick-change barrel, shoulder rest, simpler takedown | .30-06 Springfield | Unknown | FN Mle D (Belgium) | TBD | TBD | Yes | box mag | 20 | 60 |
+| 5 | 7.92mm export | Poland's wz. 28 (pistol grip, longer barrel) and FN guns for China and Egypt | 7.92×57mm Mauser | About 20,000 wz. 28s in Polish service in 1939, plus 29,550 FN guns for China | wz. 28, FN Mle 1930 (China), FN Mle D (Egypt) | TBD | TBD | Yes | box mag | 20 | 60 |
+| 6 | Swedish (rare) | Based on Colt's Model 1919: spiked bipod and ejection dust covers; the m/37 adds a quick-change barrel | 6.5×55mm Swedish | Unknown; in second-line use until 1980 | Kg m/21, Kg m/37, m/21-37 conversions | TBD | TBD | Yes | box mag | 20 | 51 |
+| 7 | FN Model 1930 (rare) | Licensed copy of Colt's R75 with a rate reducer | 7.65×53mm Mauser | Unknown | FN Mle 1930 (Belgium) | TBD | TBD | Yes | box mag | 20 | 53 |
+| 8 | 7.62 NATO (rare) | FN's DA1 takes 20-round FAL mags; the T34 was the last US-made version | 7.62×51mm | Unknown | FN Mle D A1, T34 | TBD | TBD | Yes | box mag | 20 | 58 |
+| 9 | Civilian | Semi-auto only | .30-06 Springfield | Unknown | Ohio Ordnance 1918A3-SLR, HCAR | semi | 650 | TBD | box mag | 20 | 60 |
 
 ## Sources
 

@@ -20,7 +20,7 @@ Ammo spawns with each gun, so only the calibers of the guns in that match appear
 
 **5.7×28mm:** no armor-penetration trait, since it would be hard to balance. The 5.7 guns (P90, Five-seven, and the others on the add-later list) are balanced through damage instead. The [MP7](../weapons/smgs/mp7.md)'s armor-piercing 4.6×30mm is handled the same way.
 
-**Shotgun ammo:** when a shotgun is rolled, the match also rolls one of its listed gauges and an ammo type for that gauge, such as buckshot or slug. The ammo type mainly changes damage and the shotgun's role, keeping things simple. Special crate shotguns can also roll FRAG-12 high-explosive rounds and dragon's breath. Exception: dual-tube shotguns like the KSG roll two ammo types, one per tube, and switch between them with the select-fire button.
+**Shotgun ammo:** when a shotgun is rolled, the match also rolls one of its listed gauges and an ammo type for that gauge, such as buckshot or slug. The ammo type mainly changes damage and the shotgun's role, keeping things simple. Special crate shotguns can also roll FRAG-12 high-explosive rounds and dragon's breath ([Crate shotgun ammo](starting-damage.md#crate-shotgun-ammo)). Exception: dual-tube shotguns like the KSG roll two ammo types, one per tube, and switch between them with the select-fire button.
 
 **Cartridge weighting:** once one gun is rolled, the other slots lean slightly toward guns sharing its cartridge. Details on the [weapon pool](weapon-pool.md) page.
 
@@ -35,7 +35,6 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | .22 LR | — | Pistol / SMG | [Garrucha](../weapons/pistols/garrucha.md), [Janz revolvers](../weapons/pistols/janz.md), [M1911 / M1911A1](../weapons/pistols/m1911.md), [Thompson](../weapons/smgs/thompson.md), [MP 40](../weapons/smgs/mp40.md), [Owen](../weapons/smgs/owen.md), [Uzi](../weapons/smgs/uzi.md), [MP5](../weapons/smgs/mp5.md), [MP5 pistol](../weapons/pistols/mp5-pistol.md), [KRISS Vector](../weapons/smgs/kriss-vector.md), [StG 44](../weapons/assault-rifles/stg-44.md), [AK-47 / AKM](../weapons/assault-rifles/ak-47-akm.md), [vz. 58](../weapons/assault-rifles/vz-58.md), [Steyr AUG](../weapons/assault-rifles/steyr-aug.md), [SA80 / L85](../weapons/assault-rifles/sa80.md), [SIG SG 550](../weapons/assault-rifles/sg-550.md), [HK416](../weapons/assault-rifles/hk416.md), [HK416 .22 pistol](../weapons/pistols/hk416-22-pistol.md), [Kar98k / Gewehr 98](../weapons/snipers/kar98k.md) |
 | .30-18 Auto | 7.65×20mm Longue | Pistol / SMG | [M1903 Springfield](../weapons/snipers/m1903.md) |
 | .32 ACP | — | Pistol / SMG | [Thompson](../weapons/smgs/thompson.md), [Owen](../weapons/smgs/owen.md), [Škorpion vz. 61](../weapons/pistols/skorpion-vz61.md) |
-| .351 WSL | — | Pistol / SMG | [Thompson](../weapons/smgs/thompson.md) |
 | .38 ACP | — | Pistol / SMG | [Thompson](../weapons/smgs/thompson.md), [Owen](../weapons/smgs/owen.md) |
 | .38 Super | — | Pistol / SMG | [M1911 / M1911A1](../weapons/pistols/m1911.md) |
 | .357 SIG | — | Pistol / SMG | [KRISS Vector](../weapons/smgs/kriss-vector.md) |
@@ -85,6 +84,7 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | .300 Winchester Magnum | 7.62×67mm | Rifle | [Remington 700 / M24](../weapons/snipers/remington-700.md), [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) |
 | .303 British | 7.7×56mmR | Rifle | [Bren / ZB vz. 26](../weapons/lmgs/bren.md), [Lee–Enfield](../weapons/snipers/lee-enfield.md) |
 | .338 Lapua Magnum | — | Rifle | [Remington 700 / M24](../weapons/snipers/remington-700.md), [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) |
+| .351 WSL | — | Rifle | [Thompson](../weapons/smgs/thompson.md) |
 | .366 TKM | 9.6×53mm Lancaster | Rifle | [SKS](../weapons/battle-rifles/sks.md), [SVD Dragunov](../weapons/battle-rifles/svd.md) |
 | .450 Bushmaster | — | Rifle | [ACR (Adaptive Combat Rifle)](../weapons/assault-rifles/acr.md) |
 | 4.85×49mm | — | Rifle | [SA80 / L85](../weapons/assault-rifles/sa80.md) |

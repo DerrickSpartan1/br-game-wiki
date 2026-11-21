@@ -7,7 +7,7 @@
 | History | West Germany; descends from Mauser's wartime Gerät 06H (StG 45(M)) through Ludwig Vorgrimler's Spanish [CETME](cetme.md); West Germany's Border Guard had taken the [FN FAL](fn-fal.md) as the G1, but the Bundeswehr tested the CETME as the "G3" against the [SIG SG 510](sg-510.md) (G2) and the [AR-10](ar-10.md) (G4), and adopted Heckler & Koch's improved version in January 1959; built by H&K and Rheinmetall, with H&K holding sole rights from 1977; Germany's standard rifle until the [G36](../assault-rifles/g36.md) replaced it in the mid-1990s; built under license in about 15 countries, including Pakistan, Iran, Turkey, Greece, Portugal, Norway (AG-3), Sweden (Ak 4), Mexico, Saudi Arabia, Myanmar, and the UK; over 7.8 million made and used by more than 70 countries; Portugal carried it from 1963 to 2020, and US Rangers and Navy SEALs used it too; fought in the Portuguese Colonial War, Rhodesia, the Iran–Iraq War, the Gulf War, the Yugoslav Wars, Afghanistan, Syria, and Ukraine |
 | Magazine (rounds) | 20-round steel or aluminum box as standard; 5-, 10-, 30-, and 40-round boxes and 50- and 100-round drums also exist |
 | Fire mode / rate | Semi and auto, about 500–600 RPM; an optional selector adds a 3-round burst; semi-auto only on the MSG90 and civilian rifles; roller-delayed blowback, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world drum sight set for 200–400 m, 1,000 m maximum; in-game TBD |
 
 ## Real-world notes
@@ -26,17 +26,17 @@ AR/LMG/battle rifle family attachments; HK claw scope mount (same as the MP5 and
 
 9 versions after merging. Fixed-stock (A3) and retractable-stock (A4) rifles, and the many license-built G3s, differ only in small details, so they merge. The G3TGS is an attachment setup (the HK79), not a version. The HK21 and HK11 machine guns, Myanmar's BA64, and the PSG1 sniper rifle went on the [guns to add later](../../planning/add-later.md) list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | G3 | Standard rifle; select-fire | 7.62×51mm | Most of over 7.8 million | G3, G3A1 (retractable stock), G3A2, G3A3, G3A4 (retractable stock, 1974), Norway's AG-3 (253,497), AG-3F1, and AG-3F2 (rails, red dot), Sweden's Ak 4 and Home Guard models, Denmark's G3A5 / Gv M/66 and Gv M/75, Iran's G3A6, Turkey's G3A7, G3A7A1, and M65, Luxembourg's HSG1, Pakistan's G3A3 and G3P4, Myanmar's BA63, Portugal's m/963, Greek, Mexican, and Saudi rifles | semi, auto | 500–600 | No | box mag | 20 |
-| 2 | G3KA4 | Carbine: 322 mm barrel, retractable stock, HK33-style handguard; too short for a bayonet or rifle grenades | 7.62×51mm | Unknown | G3KA4 (UK L100A1), G3KA3 (fixed stock), Myanmar's BA72, Pakistan's G3S and G3M-Tactical | semi, auto | 500–600 | No | box mag | 20 |
-| 3 | G3SG/1 | Hand-picked accurate rifle with a fixed Zeiss 1.5–6×36 scope, a set trigger (semi only), and a cheek riser; still has auto | 7.62×51mm | Unknown | G3SG/1 (1972), G3A3ZF (Hensoldt 4×24 scope), Myanmar's BA100, Pakistan's AZB | semi, auto | 500–600 | No | box mag | 20 |
-| 4 | MSG90 | Lighter marksman rifle with a 600 mm barrel and a PSG1-style trigger; semi-auto only | 7.62×51mm | Unknown | MSG90, MSG3 (1988) | semi | 600 | No | box mag | 20 |
-| 5 | Civilian | Semi-auto only | 7.62×51mm | About 48,000 HK91s imported to the US (1974–1989), plus many clones | HK41, HK91, HK911, SR9 series, PTR 91 (built on Portuguese tooling), Century CA-3, Hellenic SAR-3, Schwaben Arms M41, MKEK T41, LuxDefTec HSG41 | semi | 600 | No | box mag | 20 |
-| 6 | MC51 (rare) | Tiny machine carbine: 230 mm barrel, 3.1 kg, about 690 m/s | 7.62×51mm | Unknown | F.R. Ordnance MC51 (UK special forces), "HK51" aftermarket conversions (Fleming Arms) | semi, auto | 500–600 | No | box mag | 20 |
-| 7 | HK32 (rare) | Experimental version in the AK round; never adopted | 7.62×39mm | Few | — | semi, auto | 500–600 | No | box mag | TBD |
-| 8 | Iranian bullpup (rare) | Iran's bullpup conversion of the G3A3 | 7.62×51mm | Unknown | — | semi, auto | 500–600 | No | box mag | 20 |
-| 9 | G12 (rare) | A civilian 12-gauge shotgun built as a 1:1 G3 clone; uses the shotgun ammo rules | 12 gauge | Unknown | Hunt Group Arms G12 | semi | 600 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | G3 | Standard rifle; select-fire | 7.62×51mm | Most of over 7.8 million | G3, G3A1 (retractable stock), G3A2, G3A3, G3A4 (retractable stock, 1974), Norway's AG-3 (253,497), AG-3F1, and AG-3F2 (rails, red dot), Sweden's Ak 4 and Home Guard models, Denmark's G3A5 / Gv M/66 and Gv M/75, Iran's G3A6, Turkey's G3A7, G3A7A1, and M65, Luxembourg's HSG1, Pakistan's G3A3 and G3P4, Myanmar's BA63, Portugal's m/963, Greek, Mexican, and Saudi rifles | semi, auto | 500–600 | No | box mag | 20 | 58 |
+| 2 | G3KA4 | Carbine: 322 mm barrel, retractable stock, HK33-style handguard; too short for a bayonet or rifle grenades | 7.62×51mm | Unknown | G3KA4 (UK L100A1), G3KA3 (fixed stock), Myanmar's BA72, Pakistan's G3S and G3M-Tactical | semi, auto | 500–600 | No | box mag | 20 | 58 |
+| 3 | G3SG/1 | Hand-picked accurate rifle with a fixed Zeiss 1.5–6×36 scope, a set trigger (semi only), and a cheek riser; still has auto | 7.62×51mm | Unknown | G3SG/1 (1972), G3A3ZF (Hensoldt 4×24 scope), Myanmar's BA100, Pakistan's AZB | semi, auto | 500–600 | No | box mag | 20 | 58 |
+| 4 | MSG90 | Lighter marksman rifle with a 600 mm barrel and a PSG1-style trigger; semi-auto only | 7.62×51mm | Unknown | MSG90, MSG3 (1988) | semi | 600 | No | box mag | 20 | 58 |
+| 5 | Civilian | Semi-auto only | 7.62×51mm | About 48,000 HK91s imported to the US (1974–1989), plus many clones | HK41, HK91, HK911, SR9 series, PTR 91 (built on Portuguese tooling), Century CA-3, Hellenic SAR-3, Schwaben Arms M41, MKEK T41, LuxDefTec HSG41 | semi | 600 | No | box mag | 20 | 58 |
+| 6 | MC51 (rare) | Tiny machine carbine: 230 mm barrel, 3.1 kg, about 690 m/s | 7.62×51mm | Unknown | F.R. Ordnance MC51 (UK special forces), "HK51" aftermarket conversions (Fleming Arms) | semi, auto | 500–600 | No | box mag | 20 | 58 |
+| 7 | HK32 (rare) | Experimental version in the AK round; never adopted | 7.62×39mm | Few | — | semi, auto | 500–600 | No | box mag | TBD | 50 |
+| 8 | Iranian bullpup (rare) | Iran's bullpup conversion of the G3A3 | 7.62×51mm | Unknown | — | semi, auto | 500–600 | No | box mag | 20 | 58 |
+| 9 | G12 (rare) | A civilian 12-gauge shotgun built as a 1:1 G3 clone; uses the shotgun ammo rules | 12 gauge | Unknown | Hunt Group Arms G12 | semi | 240 | No | box mag | TBD | 22 × 9 |
 
 ## Sources
 

@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [UMP](../smgs/ump.md).
 | History | USA; semi-auto UMP clones sold as pistols, such as the Omega Gideon Shadow and S5 Tactical's clones |
 | Magazine (rounds) | UMP mags |
 | Fire mode / rate | Semi-auto, closed bolt |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 Versions TBD until the calibers are confirmed.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | UMP pistol | Semi-auto, no stock; calibers to confirm | TBD | Unknown | Omega Gideon Shadow, S5 Tactical clones | semi | 450 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | UMP pistol | Semi-auto, no stock; calibers to confirm | TBD | Unknown | Omega Gideon Shadow, S5 Tactical clones | semi | 450 | No | box mag | TBD | TBD |
 
 ## Sources
 

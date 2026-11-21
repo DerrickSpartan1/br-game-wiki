@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [FN SCAR-L](../assault-rifles/scar-l.md).
 | History | USA, FN America; civilian semi-auto pistol version of the SCAR-SC; the only civilian SCAR FN kept making after ending the rest in October 2025 |
 | Magazine (rounds) | STANAG mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SCAR 15P | Semi-auto pistol version of the SCAR-SC | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SCAR 15P | Semi-auto pistol version of the SCAR-SC | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 | 43 |
 
 ## Sources
 

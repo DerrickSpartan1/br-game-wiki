@@ -7,7 +7,7 @@
 | History | USSR; built by Mikhail Kalashnikov's team at Izhevsk to a 1955 requirement, beating Nikitin and Sokolov's design partly because it kept working after getting wet; adopted as the PK in 1961 and improved as the PKM in 1969, replacing the SGM and the RP-46 (see [DP-27](dp-27.md)); the PKP Pecheneg followed in 2001; still made in Russia, and reports in June 2024 said the PKZ will eventually replace the PKM; copied or licensed in China (Type 80), Serbia (Zastava M84), Bulgaria, Romania, Poland (UKM-2000), and Ukraine; fought from Vietnam and Afghanistan through the Gulf War, the Yugoslav and Chechen wars, Iraq, Syria, and the Russo-Ukrainian War, where Ukrainian volunteers bought 1,460 PKMs from Bulgaria in 2023 |
 | Magazine (rounds) | Belts in 100-, 200-, or 250-round boxes, built from 25-round sections |
 | Fire mode / rate | Auto only, about 600–800 RPM; gas-operated, long-stroke piston, rotating bolt; fires from an open bolt, so it has the open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 1,000 m; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 
 5 versions after merging. The PKT and PKB vehicle guns are left out. Poland's UKM-2000 waits on a caliber lookup.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | PK | Original: fluted barrel, longer flash suppressor | 7.62×54mmR | Unknown | PK, PKS (on the 6T2 tripod), Serbia's Zastava M84, Bulgaria's Arsenal MG | auto | 600–800 | Yes | belt | 100 |
-| 2 | PKM | 1969 update: lighter, no barrel fluting, shorter flash hider, hinged butt rest | 7.62×54mmR | Unknown | PKM, PKMS, PKMN, PKMSN, China's Type 80, Romania's md. 66, Bulgaria's MG-M1, MG-M1S, and MG-1M, Ukraine's Mayak KM-7.62, Finland's 7.62 KK PKM | auto | 600–800 | Yes | belt | 100 |
-| 3 | PKP Pecheneg | 2001: heavy fixed barrel in a forced-air cooling sleeve | 7.62×54mmR | Unknown | PKP Pecheneg, Pecheneg-N (night-scope rail), Pecheneg-SP | auto | 600–800 | Yes | belt | 100 |
-| 4 | 7.62 NATO (rare) | Export versions in the NATO round | 7.62×51mm | Unknown | Bulgaria's MG-M2 and MG-M2S, China's CS/LM4 | auto | 600–800 | Yes | belt | 100 |
-| 5 | 5.56 (rare) | Serbian PKM copies in 5.56 NATO | 5.56×45mm | Unknown | Zastava M09, M10 (solid stock) | auto | 600–800 | Yes | belt | 100 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | PK | Original: fluted barrel, longer flash suppressor | 7.62×54mmR | Unknown | PK, PKS (on the 6T2 tripod), Serbia's Zastava M84, Bulgaria's Arsenal MG | auto | 600–800 | Yes | belt | 100 | 55 |
+| 2 | PKM | 1969 update: lighter, no barrel fluting, shorter flash hider, hinged butt rest | 7.62×54mmR | Unknown | PKM, PKMS, PKMN, PKMSN, China's Type 80, Romania's md. 66, Bulgaria's MG-M1, MG-M1S, and MG-1M, Ukraine's Mayak KM-7.62, Finland's 7.62 KK PKM | auto | 600–800 | Yes | belt | 100 | 55 |
+| 3 | PKP Pecheneg | 2001: heavy fixed barrel in a forced-air cooling sleeve | 7.62×54mmR | Unknown | PKP Pecheneg, Pecheneg-N (night-scope rail), Pecheneg-SP | auto | 600–800 | Yes | belt | 100 | 55 |
+| 4 | 7.62 NATO (rare) | Export versions in the NATO round | 7.62×51mm | Unknown | Bulgaria's MG-M2 and MG-M2S, China's CS/LM4 | auto | 600–800 | Yes | belt | 100 | 57 |
+| 5 | 5.56 (rare) | Serbian PKM copies in 5.56 NATO | 5.56×45mm | Unknown | Zastava M09, M10 (solid stock) | auto | 600–800 | Yes | belt | 100 | 45 |
 
 ## Sources
 

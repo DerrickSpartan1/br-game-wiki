@@ -4,7 +4,10 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Balance
 
-- **Damage and in-game range:** TBD on every gun page. The method is set ([TTK](../systems/ttk.md#how-damage-is-set)); the numbers come next.
+- **In-game range:** TBD on every gun page. Damage has a first pass on every version ([Starting damage](../systems/starting-damage.md)), to tune in play testing.
+- **Fast-firing crate check:** whether the MG 42 (and its .30-06 version), MG 34/41, PPSh-41 family, and Glock 18 move to crates, as PUBG did with its MG3 and its 2018 M249, or stay on the ground with a deeper damage cut than 40% ([Starting damage](../systems/starting-damage.md#crate-check-for-fast-firing-guns)).
+- **Crate ammo:** how many FRAG-12 and dragon's breath rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo)).
+- **Handling numbers:** hip fire, ADS speed, movement, and swap speed per category. The direction is set on [Roles by category](../systems/ttk.md#roles-by-category): pistols and SMGs fastest, LMGs and snipers slowest.
 - **Carry space:** how Tarkov's slot counts for vests and rigs turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
 - **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
@@ -18,7 +21,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Systems
 
-- **LMG handling:** whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
+- **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **Shields:** what you can use while holding one (a pistol, as in Rainbow Six Siege?), how much damage a normal shield takes, and whether the flash shield really uses the class slot ([Class items](../systems/class-items.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
@@ -46,6 +49,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Janz revolvers:** the exact caliber list for the EM and E frames, which then need their own rows on the ammo page (.32, .38, .357 Magnum, and others) ([Janz](../weapons/pistols/janz.md)).
 - **BAR export fire modes:** semi and auto or auto only on the FN Model D, Poland's wz. 28, Sweden's Kg m/21 and m/37, the FN Model 1930, and the 7.62mm DA1 ([M1918 BAR](../weapons/lmgs/bar.md)); also the Bren's Japanese Type 97 ([Bren / ZB vz. 26](../weapons/lmgs/bren.md)) and Vietnam's 7.62×39mm Negev copy ([IWI Negev](../weapons/lmgs/negev.md)).
 - **UKM-2000:** Poland's PKM-based gun; confirm its caliber (likely 7.62×51mm) before it joins a version ([PK / PKM](../weapons/lmgs/pk.md)).
+- **Round energies:** 32 versions have no damage yet because their round's energy isn't found: .38 ACP, .45 Remington–Thompson, .455 Webley Auto, 8mm Gasser, 8.15×25.2mm Mauser, 9mm Largo, 9mm Steyr, 9×21mm, 9×25mm Mauser, .320 and .380 Revolver, 4.85×49mm, 5.7mm Johnson, 6.5mm Fedorov, .366 TKM, 7.92×41mm CETME, and 7×49.15mm Optimum 2, plus the versions whose cartridge is TBD ([Starting damage](../systems/starting-damage.md#starting-damage-by-table)).
 - **Bullet speeds:** each version's real muzzle velocity ([TTK](../systems/ttk.md#bullet-speed)). Many gun pages already list it in Real-world notes.
 - **Reload TBDs:** how the [Mondragón](../weapons/battle-rifles/mondragon.md) feeds (sources differ: stripper clips into a fixed 10-round mag or a detachable 8-round box), plus the MAS-40, SKS-41, and the C96's rate-reducer and 9mm trench carbine versions.
 - **LMG rates of fire:** the M249, M60E3 and later, M240L, Pecheneg, DPM, RP-46, and the export versions have no rate in the sources checked so far.

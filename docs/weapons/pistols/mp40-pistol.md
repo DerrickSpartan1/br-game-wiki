@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [MP 40](../smgs/mp40.md).
 | History | Modern pistol version from German Sport Guns, imported to the U.S. by ATI since 2016 |
 | Magazine (rounds) | MP 40 mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | GSG MP40 pistol | Semi-auto, no stock | 9×19mm | Unknown | German Sport Guns MP40 pistol (imported by ATI since 2016) | semi | 450 | No | box mag | 32 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | GSG MP40 pistol | Semi-auto, no stock | 9×19mm | Unknown | German Sport Guns MP40 pistol (imported by ATI since 2016) | semi | 450 | No | box mag | 32 | 35 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | France; grew out of 1930s prototypes from the Manufacture d'armes de Saint-Étienne (MAS): the MAS-38/39, tested in March 1939, and the MAS-40; after the war, 50,000 MAS-44s were ordered in January 1945, but only 6,200 arrived, mostly for navy commandos in Indochina; the MAS-49 was adopted in July 1949; production was cut short because the US gave France 200,000 [M1 Garands](m1-garand.md) and 210,000 [M1/M2 Carbines](../assault-rifles/m1-m2-carbine.md) from 1951 to 1960; the shorter, lighter MAS-49/56 came in 1957 for mechanized and airborne troops and was made 1958–1978; used in Indochina, Algeria, Suez, and many former French colonies, and Syria bought 6,000; the 7.62×51mm MAS-54 and FA-MAS Type 62 failed to replace it, and the [FAMAS](../assault-rifles/famas.md) took over from 1978–1979, with the last MAS-49/56s withdrawn by 1990 |
 | Magazine (rounds) | 10-round detachable box (the same mag fits the MAS-44, MAS-49, and MAS-49/56), also loaded from stripper clips through a guide in the bolt; the MAS-40 has a 5-round internal magazine |
 | Fire mode / rate | Semi-auto; direct gas impingement with a rear-locking tilting bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 400 m with iron sights, 800 m with a scope; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ AR/LMG/battle rifle family attachments; native side scope rail (left of the rece
 
 5 versions after merging. Production numbers for the MAS-49 differ a lot between sources. The 7.62×51mm MAS-54 went on the [guns to add later](../../planning/add-later.md) list; the FA-MAS Type 62 was already there.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi | 600 | No | box mag | 10 |
-| 2 | MAS-49 | Original rifle: 4.7 kg, 1,100 mm, 580 mm barrel; built-in grenade launcher | 7.5×54mm French | About 20,600–80,000 (sources differ), including Syria's 6,000 | MAS-49, Syrian contract rifles (1953; MAS-36-style spike bayonet, different stock) | semi | 600 | No | box mag | 10 |
-| 3 | MAS-44 (rare) | Postwar precursor, mostly used by navy commandos in Indochina | 7.5×54mm French | 6,200 delivered | MAS-44, 44A, 44B, 44C | semi | 600 | No | box mag | 10 |
-| 4 | MAS-40 (rare) | Prewar prototype with a 5-round internal magazine | 7.5×54mm French | Few | MAS-40, MAS-38/39 | semi | 600 | No | TBD | 5 |
-| 5 | .308 conversion (rare) | Civilian rifles rebuilt by Century Arms for 7.62×51mm (details not in the sources) | 7.62×51mm | Unknown | Century Arms conversions | semi | 600 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi | 600 | No | box mag | 10 | 50 |
+| 2 | MAS-49 | Original rifle: 4.7 kg, 1,100 mm, 580 mm barrel; built-in grenade launcher | 7.5×54mm French | About 20,600–80,000 (sources differ), including Syria's 6,000 | MAS-49, Syrian contract rifles (1953; MAS-36-style spike bayonet, different stock) | semi | 600 | No | box mag | 10 | 50 |
+| 3 | MAS-44 (rare) | Postwar precursor, mostly used by navy commandos in Indochina | 7.5×54mm French | 6,200 delivered | MAS-44, 44A, 44B, 44C | semi | 600 | No | box mag | 10 | 50 |
+| 4 | MAS-40 (rare) | Prewar prototype with a 5-round internal magazine | 7.5×54mm French | Few | MAS-40, MAS-38/39 | semi | 600 | No | TBD | 5 | 50 |
+| 5 | .308 conversion (rare) | Civilian rifles rebuilt by Century Arms for 7.62×51mm (details not in the sources) | 7.62×51mm | Unknown | Century Arms conversions | semi | 600 | No | box mag | TBD | 58 |
 
 ## Sources
 

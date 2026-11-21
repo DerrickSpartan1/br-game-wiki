@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [SIG MCX](../assault-rifles/sig-mcx.md).
 | History | USA; SIG's civilian pistol versions of the MCX, sold in every generation (MCX, VIRTUS, and SPEAR LT) |
 | Magazine (rounds) | 30-round STANAG mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -26,10 +26,10 @@ Pistol/SMG family attachments
 
 ## Versions
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 5.56 | 9 or 11.5 in barrel | 5.56×45mm | Unknown | MCX Pistol (9 or 11.5 in), VIRTUS Pistol (11.5 in), MCX-SPEAR LT pistol | semi | 450 | No | box mag | 30 |
-| 2 | .300 BLK | 9 in barrel | .300 Blackout | Unknown | VIRTUS Pistol (9 in) | semi | 450 | No | box mag | 30 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 5.56 | 9 or 11.5 in barrel | 5.56×45mm | Unknown | MCX Pistol (9 or 11.5 in), VIRTUS Pistol (11.5 in), MCX-SPEAR LT pistol | semi | 450 | No | box mag | 30 | 43 |
+| 2 | .300 BLK | 9 in barrel | .300 Blackout | Unknown | VIRTUS Pistol (9 in) | semi | 450 | No | box mag | 30 | 48 |
 
 ## Sources
 

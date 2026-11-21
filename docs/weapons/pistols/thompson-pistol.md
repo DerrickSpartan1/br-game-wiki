@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [Thompson](../smgs/thompson.md).
 | History | U.S., Auto-Ordnance 1927A5 (1970s to around 1990); later replaced by the Kahr TA5 |
 | Magazine (rounds) | Thompson box mags and drums |
 | Fire mode / rate | Real gun is semi-auto; in-game TBD |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments; same drum tiers as the Thompson (100-round extend
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Thompson pistol | Semi-auto, no stock | .45 ACP | Unknown | Auto-Ordnance 1927A5, Kahr TA5 | TBD | TBD | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Thompson pistol | Semi-auto, no stock | .45 ACP | Unknown | Auto-Ordnance 1927A5, Kahr TA5 | TBD | TBD | No | box mag | TBD | 36 |
 
 ## Sources
 

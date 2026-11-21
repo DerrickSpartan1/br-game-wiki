@@ -7,7 +7,7 @@
 | History | Civilian pocket pistol, common in Brazil and Argentina; made about 1930s to 1960s by Castelo, Rossi, and Lerap |
 | Magazine (rounds) | 2 (double barrel) or 1 (single barrel) |
 | Fire mode / rate | Break action; the Rossi has two triggers, one per barrel |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 ## Real-world notes
@@ -26,12 +26,12 @@ None
 
 The garrucha is a type of gun made by several makers rather than one model, so documented versions are thin. Only combinations with a source are listed.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Double-barrel, .320 | Side-by-side barrels; one of the two most popular Brazilian chamberings | .320 Revolver | Unknown | — | break action | 300 | No | break action | 2 |
-| 2 | Double-barrel, .380 | Side-by-side barrels; the other most popular Brazilian chambering; not .380 ACP | .380 Revolver | Unknown | — | break action | 300 | No | break action | 2 |
-| 3 | Rossi double-barrel (1950s to 60s) | 2.75 in side-by-side barrels, two triggers, flip-up barrel lever, brass bead front sight | .22 LR | Unknown | — | break action | 300 | No | break action | 2 |
-| 4 | Single-barrel | One barrel; cartridge not documented | TBD | Unknown | — | break action | 300 | No | break action | 1 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Double-barrel, .320 | Side-by-side barrels; one of the two most popular Brazilian chamberings | .320 Revolver | Unknown | — | break action | 300 | No | break action | 2 | TBD |
+| 2 | Double-barrel, .380 | Side-by-side barrels; the other most popular Brazilian chambering; not .380 ACP | .380 Revolver | Unknown | — | break action | 300 | No | break action | 2 | TBD |
+| 3 | Rossi double-barrel (1950s to 60s) | 2.75 in side-by-side barrels, two triggers, flip-up barrel lever, brass bead front sight | .22 LR | Unknown | — | break action | 300 | No | break action | 2 | 50 |
+| 4 | Single-barrel | One barrel; cartridge not documented | TBD | Unknown | — | break action | 300 | No | break action | 1 | TBD |
 
 Still to research: garruchas were also chambered for .32 S&W, .38 S&W, .22 Short, .22 Long, and .32, 8mm, and 9mm Flobert, but which makers and barrel setups used them isn't documented.
 

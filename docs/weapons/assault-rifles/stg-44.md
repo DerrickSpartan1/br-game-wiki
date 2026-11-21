@@ -7,7 +7,7 @@
 | History | Germany; designed 1938 to 1943 by Hugo Schmeisser; made 1943 to 1945; 425,977 made; the first successful mass-produced assault rifle and a big influence on the AK-47; still turned up in the Syrian civil war |
 | Magazine (rounds) | 30-round curved box (troops loaded 25 to spare the spring) |
 | Fire mode / rate | Select-fire, about 500 to 600 RPM; gas-operated with a closed bolt, so no open-bolt delay (except the MKb 42(H) version) |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 300 m on auto, 600 m on semi; in-game TBD |
 
 ## Real-world notes
@@ -26,11 +26,11 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Unique attachm
 
 3 versions after merging. MP 43, MP 44, and StG 44 were different names for essentially the same rifle. 7.92×33mm Kurz is new to the ammo pool. The StG 45(M), Volkssturmgewehr 1-5, and MKb 42(W) went on the guns-to-add-later list.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | StG 44 | The production rifle | 7.92×33mm Kurz | 425,977 (all variants) | MP 43, MP 43/1, MP 44, StG 44, East German MPi.44, Argentine CITEFA trial copies, modern semi-auto reproductions (SSD/HZA Kulmbach, PTR-44) | semi, auto | 500–600 | No | box mag | 30 |
-| 2 | MKb 42(H) | The predecessor; fires from an open bolt | 7.92×33mm Kurz | Part of about 29,500 built with early MP 43/1s by the end of 1943 | — | semi, auto | 500–600 | Yes | box mag | 30 |
-| 3 | .22 replica | German Sport Guns semi-auto replica | .22 LR | Made in large numbers | — | semi | 500–600 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | StG 44 | The production rifle | 7.92×33mm Kurz | 425,977 (all variants) | MP 43, MP 43/1, MP 44, StG 44, East German MPi.44, Argentine CITEFA trial copies, modern semi-auto reproductions (SSD/HZA Kulmbach, PTR-44) | semi, auto | 500–600 | No | box mag | 30 | 50 |
+| 2 | MKb 42(H) | The predecessor; fires from an open bolt | 7.92×33mm Kurz | Part of about 29,500 built with early MP 43/1s by the end of 1943 | — | semi, auto | 500–600 | Yes | box mag | 30 | 50 |
+| 3 | .22 replica | German Sport Guns semi-auto replica | .22 LR | Made in large numbers | — | semi | 500–600 | No | box mag | TBD | 31 |
 
 ## Sources
 

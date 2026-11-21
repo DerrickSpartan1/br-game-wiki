@@ -7,7 +7,7 @@
 | History | USSR; grew from TsNIITochMash's RG-036 prototype of 1981 and was designed by Pyotr Serdyukov and Vladimir Krasnikov from 1983, alongside the [AS Val](../assault-rifles/as-val.md); the KGB and GRU wanted a quiet sniper rifle for Spetsnaz undercover units that could defeat NATO body armor out to 400 m; adopted in 1987 and made at the Tula Arms Plant; used by Russia's Spetsnaz, FSB, and OMON, and by Armenia, Azerbaijan, Belarus, Cuba, Georgia, India's MARCOS commandos, and Ukraine; fought in both Chechen wars, by both sides in the 2008 Russo-Georgian War, by Ukraine's Alpha Group guarding its embassy in Iraq, and in the Russo-Ukrainian War, where many were captured in 2022 |
 | Magazine (rounds) | 10-round box as standard; it shares the AS Val's magazine design, so 20-round Val mags and 30-round SR-3M mags also fit |
 | Fire mode / rate | Semi and auto, about 800–900 RPM, though it's normally fired on semi, with auto kept for emergencies and ambushes; modified Kalashnikov long-stroke action with a rotating bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 400 m by day, 300 m at night; in-game TBD |
 
 ## Real-world notes
@@ -26,11 +26,11 @@ DMR/sniper family attachments, but no muzzle or suppressor slot, since the suppr
 
 3 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | VSS | Standard rifle with a PSO-1-1 scope | 9×39mm | Low (special forces only) | VSS (6P29) | semi, auto | 800–900 | No | box mag | 10 |
-| 2 | VSSM | Modernized: Picatinny rail on the dust cover, removable rail over the suppressor, aluminum stock with an adjustable cheek rest and butt pad, 30-round mag and 1P86 1×/4× scope as standard | 9×39mm | Unknown; deliveries from 2018 | VSSM (6P29M) | semi, auto | 800–900 | No | box mag | 30 |
-| 3 | KO VSS | Civilian, semi-auto only | 9×39mm | Unknown | KO VSS (Picatinny rail), KO VSS-01 (dovetail mount) | semi | 600 | No | box mag | 10 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | VSS | Standard rifle with a PSO-1-1 scope | 9×39mm | Low (special forces only) | VSS (6P29) | semi, auto | 800–900 | No | box mag | 10 | 41 |
+| 2 | VSSM | Modernized: Picatinny rail on the dust cover, removable rail over the suppressor, aluminum stock with an adjustable cheek rest and butt pad, 30-round mag and 1P86 1×/4× scope as standard | 9×39mm | Unknown; deliveries from 2018 | VSSM (6P29M) | semi, auto | 800–900 | No | box mag | 30 | 41 |
+| 3 | KO VSS | Civilian, semi-auto only | 9×39mm | Unknown | KO VSS (Picatinny rail), KO VSS-01 (dovetail mount) | semi | 600 | No | box mag | 10 | 45 |
 
 ## Sources
 

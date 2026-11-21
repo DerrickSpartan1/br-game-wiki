@@ -7,7 +7,7 @@
 | History | 1910, Royal Italian Army; used in WWI and WWII |
 | Magazine (rounds) | 7 |
 | Fire mode / rate | Semi-auto; rate TBD |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; Beretta pistols firing the same cartridge are rated 50 to 55 m; in-game TBD |
 
 ## Real-world notes
@@ -26,9 +26,9 @@ No real-world accessories. In-game: pistol/SMG barrel attachments (probably), pi
 
 1 version. The real 9mm Glisenti load plays as standard 9×19mm.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | 450 | No | grip mag | 7 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | 450 | No | grip mag | 7 | 35 |
 
 ## Sources
 

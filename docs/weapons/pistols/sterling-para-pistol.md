@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [Sterling](../smgs/sterling.md).
 | History | UK; Sterling Mark 7, introduced 1983 for commando and plainclothes intelligence units |
 | Magazine (rounds) | 10- or 15-round short mags (also takes the full 34) |
 | Fire mode / rate | Machine pistol; fire mode details TBD |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sterling Mark 7 | Short, stockless Sterling | 9×19mm | Unknown | — | TBD | TBD | TBD | side mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Sterling Mark 7 | Short, stockless Sterling | 9×19mm | Unknown | — | TBD | TBD | TBD | side mag | TBD | 35 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | West Germany; designed 1964 to 1966 by Heckler & Koch; made since 1966; adopted by 40+ nations with 100+ variants and clones; made famous by the SAS at the 1980 Iranian Embassy siege |
 | Magazine (rounds) | 15- or 30-round curved mag (9mm) |
 | Fire mode / rate | Fixed trigger per version (no swappable trigger groups): mostly semi and full auto, with burst on a few (see [Versions](#versions)); about 800 RPM (MP5K about 900, MP5SD about 700); closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 200 m; in-game TBD |
 
 **Pistol / 3rd-slot version:** [MP5 pistol](../pistols/mp5-pistol.md)
@@ -28,17 +28,17 @@ Pistol/SMG family attachments; native claw mount for scopes. Mag tiers (best gue
 
 9 versions after merging. Stocks (fixed, retractable, none) merge into each version. Triggers are fixed per version (game choice, not historical): the MP5, Operational Briefcase, MP5/40, MP5/45, and .22 use the standard semi/auto trigger; the MP5K gets the 4-position trigger (semi, 3-round burst, auto); the MP5SD gets the burst pack (semi and 3-round burst); the MP5/10 keeps its 2-round burst (semi, 2-round burst, auto); the semi-auto carbine is semi-only. Civilian semi-auto pistols moved to the 3rd slot as the MP5 pistol. Left out: the never-released 6.5×25mm kit and HK's SMG I, SMG II, and MP2000 prototypes.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | MP5 | Full-size standard | 9×19mm | Most | HK54, MP5, A1 to A5, MP5N, MP5F, MP5 MLI, and licensed copies and clones (Greek EMP5, Iranian Tondar, Pakistani MP5P, Turkish MKE, Saudi, Mexican, UK Enfield, Swiss BT-96, Chinese NR-08, Indian Anamika, Sudanese Tihraga) | semi, auto | 800 | No | box mag | 30 |
-| 2 | MP5SD | Integral two-stage suppressor; subsonic and still works when wet | 9×19mm | Unknown | SD1 to SD6, SDN-1, SDN-2 | semi, 3-round burst | 700 | No | box mag | 30 |
-| 3 | MP5K | Compact (4.5 in barrel), about 900 RPM, built-in foregrip | 9×19mm | Unknown | KA1, KA4, KA5, K-N, K-PDW, Egyptian Helwan, Iranian Tondar Light | semi, 3-round burst, auto | 900 | No | box mag | 30 |
-| 4 | MP5K Operational Briefcase (funny gun version) | Fires from inside a briefcase with a trigger in the handle; you have to open the case to reload, or shed it to use the gun normally | 9×19mm | Rare | Operational Briefcase, Special Bag, Falling Case | semi, auto | 900 | No | box mag | 30 |
-| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19mm | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 | semi | 800 | No | box mag | 30 |
-| 6 | MP5/10 | 2-round burst; bolt locks open when empty; used by the FBI Hostage Rescue Team | 10mm Auto | Made 1992 to 2000 | — | semi, 2-round burst, auto | 800 | No | box mag | TBD |
-| 7 | MP5/40 | Full auto without burst; bolt locks open when empty | .40 S&W | Made 1992 to 2000 | — | semi, auto | 800 | No | box mag | TBD |
-| 8 | MP5/45 | Made on request for a US task force | .45 ACP | Rare | — | semi, auto | 800 | No | box mag | TBD |
-| 9 | .22 | Training conversion; about 650 RPM | .22 LR | Rare | .22 conversion kit, MP5 .22 LR rifle | semi, auto | 650 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | MP5 | Full-size standard | 9×19mm | Most | HK54, MP5, A1 to A5, MP5N, MP5F, MP5 MLI, and licensed copies and clones (Greek EMP5, Iranian Tondar, Pakistani MP5P, Turkish MKE, Saudi, Mexican, UK Enfield, Swiss BT-96, Chinese NR-08, Indian Anamika, Sudanese Tihraga) | semi, auto | 800 | No | box mag | 30 | 39 |
+| 2 | MP5SD | Integral two-stage suppressor; subsonic and still works when wet | 9×19mm | Unknown | SD1 to SD6, SDN-1, SDN-2 | semi, 3-round burst | 700 | No | box mag | 30 | 39 |
+| 3 | MP5K | Compact (4.5 in barrel), about 900 RPM, built-in foregrip | 9×19mm | Unknown | KA1, KA4, KA5, K-N, K-PDW, Egyptian Helwan, Iranian Tondar Light | semi, 3-round burst, auto | 900 | No | box mag | 30 | 39 |
+| 4 | MP5K Operational Briefcase (funny gun version) | Fires from inside a briefcase with a trigger in the handle; you have to open the case to reload, or shed it to use the gun normally | 9×19mm | Rare | Operational Briefcase, Special Bag, Falling Case | semi, auto | 900 | No | box mag | 30 | 39 |
+| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19mm | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 | semi | 800 | No | box mag | 30 | 42 |
+| 6 | MP5/10 | 2-round burst; bolt locks open when empty; used by the FBI Hostage Rescue Team | 10mm Auto | Made 1992 to 2000 | — | semi, 2-round burst, auto | 800 | No | box mag | TBD | 46 |
+| 7 | MP5/40 | Full auto without burst; bolt locks open when empty | .40 S&W | Made 1992 to 2000 | — | semi, auto | 800 | No | box mag | TBD | 46 |
+| 8 | MP5/45 | Made on request for a US task force | .45 ACP | Rare | — | semi, auto | 800 | No | box mag | TBD | 40 |
+| 9 | .22 | Training conversion; about 650 RPM | .22 LR | Rare | .22 conversion kit, MP5 .22 LR rifle | semi, auto | 650 | No | box mag | TBD | 31 |
 
 ## Sources
 

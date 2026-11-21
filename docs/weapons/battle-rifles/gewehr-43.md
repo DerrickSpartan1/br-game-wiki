@@ -7,7 +7,7 @@
 | History | Germany; grew out of the 1940 Army contest for a semi-auto rifle, which banned gas ports in the barrel and pushed Mauser and Walther into the fouling-prone "Bang" muzzle-trap system (Germany had been wary of gas guns since the [Mondragón](mondragon.md)); Walther's G 41(W) was heavy and unreliable, so after studying captured [SVT-40s](svt-40.md), Walther gave it a simpler short-stroke piston fed from a barrel port and a detachable box magazine; in production from October 1943, renamed Karabiner 43 (K43) in April 1944 because its barrel was 2 cm shorter than the Kar 98k's; made by Walther, Berlin-Lübecker Maschinenfabrik, and Gustloff-Werke, partly with forced labor from the Neuengamme and Buchenwald concentration camps; about 402,713 made 1943–1945; after the war used by Czechoslovakia, East German border troops and police, and France in Indochina |
 | Magazine (rounds) | 10-round detachable box, also topped up from 5-round stripper clips; the G 41(W) has a fixed 10-round magazine; the Kurz version takes StG 44 mags |
 | Fire mode / rate | Semi-auto; short-stroke gas piston with flapper locking (two flaps that swing out from the bolt), closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 500 m, 800 m with a scope; in-game TBD |
 
 ## Real-world notes
@@ -26,12 +26,12 @@ AR/LMG/battle rifle family attachments; native scope rail on the G43 and K43, ad
 
 4 versions after merging. The G43 and K43 are the same rifle with a different letter stamped on the side, so they merge. Walther's G 41(W) folds in as the rifle the G43 grew from, keeping the same flapper locking. Mauser's rival G 41(M) and its Gerät 03 roller-locked prototype went on the [guns to add later](../../planning/add-later.md) list. Experimental long-barrel rifles exist but weren't detailed in the sources.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | G43 / K43 | Standard rifle | 7.92×57mm Mauser | Most of about 402,713 | G43, K43, East German reworks (sunburst proof mark), Brazil's M954 Mosquetão copy | semi | 600 | No | box mag | 10 |
-| 2 | Sniper | Spawns with a ZF 4 4× scope | 7.92×57mm Mauser | About 50,000–53,435 (sources differ) | G43 and K43 with the ZF 4 (ZF 43) | semi | 600 | No | box mag | 10 |
-| 3 | K43 Kurz (rare) | Late-war rechambering for the [StG 44](../assault-rifles/stg-44.md)'s round; takes StG 44 mags | 7.92×33mm Kurz | Unknown | — | semi | 600 | No | box mag | 30 |
-| 4 | G 41(W) | Walther's 1941 rifle: muzzle-trap gas system, fixed 10-round mag loaded from stripper clips; heavier at 4.9 kg and longer at 1,140 mm; mainly used on the Eastern Front | 7.92×57mm Mauser | Most of up to about 120,000 Gewehr 41s (6,673 were Mauser's G 41(M)) | G 41(W) | semi | 600 | No | stripper clip | 10 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | G43 / K43 | Standard rifle | 7.92×57mm Mauser | Most of about 402,713 | G43, K43, East German reworks (sunburst proof mark), Brazil's M954 Mosquetão copy | semi | 600 | No | box mag | 10 | 60 |
+| 2 | Sniper | Spawns with a ZF 4 4× scope | 7.92×57mm Mauser | About 50,000–53,435 (sources differ) | G43 and K43 with the ZF 4 (ZF 43) | semi | 600 | No | box mag | 10 | 60 |
+| 3 | K43 Kurz (rare) | Late-war rechambering for the [StG 44](../assault-rifles/stg-44.md)'s round; takes StG 44 mags | 7.92×33mm Kurz | Unknown | — | semi | 600 | No | box mag | 30 | 45 |
+| 4 | G 41(W) | Walther's 1941 rifle: muzzle-trap gas system, fixed 10-round mag loaded from stripper clips; heavier at 4.9 kg and longer at 1,140 mm; mainly used on the Eastern Front | 7.92×57mm Mauser | Most of up to about 120,000 Gewehr 41s (6,673 were Mauser's G 41(M)) | G 41(W) | semi | 600 | No | stripper clip | 10 | 60 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | Australia; designed by Evelyn Owen (finalized 1938); made 1942 to 1944 by Lysaght; about 45,000 made; used in WWII, Korea, and Vietnam, and in Australian service until 1971 |
 | Magazine (rounds) | 33-round top-mounted box |
 | Fire mode / rate | Select-fire, about 700 RPM |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world about 123 m; in-game TBD |
 
 ## Real-world notes
@@ -26,13 +26,13 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 33 standard
 
 5 versions after merging: the service gun plus four ultra-rare prototypes, one per cartridge. Skins: the Mk 1/42's wire stock, the Mk 1/43's wooden stock, and wartime camouflage paint.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Owen Mk 1 | Standard service Owen | 9×19mm | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns | semi, auto | 700 | Yes | top mag | 33 |
-| 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
-| 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
-| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
-| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | 700 | Yes | top mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Owen Mk 1 | Standard service Owen | 9×19mm | About 45,000 | Mk 1/42, Mk 1/43 (simplified, lighter), Mk 1/44 (bayonet mount), Mk 2/43 experimental, camouflage-painted guns | semi, auto | 700 | Yes | top mag | 33 | 39 |
+| 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD | 40 |
+| 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD | 30 |
+| 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD | TBD |
+| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | 700 | Yes | top mag | TBD | 31 |
 
 ## Sources
 

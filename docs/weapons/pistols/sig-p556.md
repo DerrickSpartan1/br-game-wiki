@@ -9,7 +9,7 @@ Pistol / 3rd-slot version of the [SIG SG 550](../assault-rifles/sg-550.md).
 | History | USA; SIG's pistol version of the US-made SIG 556 with a 10 in barrel |
 | Magazine (rounds) | STANAG mags |
 | Fire mode / rate | Semi-auto |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | TBD |
 
 ## Real-world notes
@@ -28,9 +28,9 @@ Pistol/SMG family attachments
 
 1 version.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SIG P556 | 10 in barrel, semi-auto | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SIG P556 | 10 in barrel, semi-auto | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 | 43 |
 
 ## Sources
 

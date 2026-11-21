@@ -7,7 +7,7 @@
 | History | USSR; Mikhail Kalashnikov's squad automatic version of the [AKM](../assault-rifles/ak-47-akm.md), chosen in 1961 along with the AKM to replace the [RPD](rpd.md); the 5.45mm RPK-74 followed in 1974 with the [AK-74](../assault-rifles/ak-74.md) and replaced most RPKs in Russian service; the modern RPK-16 got a Russian Ministry of Defence contract in 2018; made in Russia, Bulgaria, Hungary, Romania, and Serbia; the RPK-74 fought in the Soviet–Afghan War, both Chechen wars, the Russo-Georgian War, the 2020 Nagorno-Karabakh war, and the Russo-Ukrainian War |
 | Magazine (rounds) | Varies by version: 40-round box or 75-round drum on the RPK, which also takes AKM mags; 45-round box on the RPK-74, which also takes AK-74 mags; 95-round drum on the RPK-16 |
 | Fire mode / rate | Semi and auto, about 600 RPM (700 on the RPK-16); gas-operated with a rotating bolt; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world sights to 1,000 m (RPK), 800 m accuracy range (RPK-16); in-game TBD |
 
 ## Real-world notes
@@ -26,12 +26,12 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 
 4 versions after merging. The belt-fed RPL-20 prototype stays on the [guns to add later](../../planning/add-later.md) list, and the civilian Vepr rifles and Vepr-12 shotgun built on the RPK receiver went there too.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | RPK | Original: AKM with a long fixed barrel, bipod, and club-foot stock | 7.62×39mm | Unknown | RPK, RPKS (folding stock), RPKN and RPKSN (night-sight rail), RPKM / RPK-203 (export, polymer furniture), Bulgarian, Hungarian, Romanian, and Serbian production | semi, auto | 600 | No | box mag | 40 |
-| 2 | RPK-74 | 5.45mm version built from the AK-74 | 5.45×39mm | Unknown | RPK-74, RPKS-74, RPK-74N, RPK-74M (polymer furniture, side rail) | semi, auto | 600 | No | box mag | 45 |
-| 3 | RPK-201 (rare) | Export RPK-74M in 5.56 NATO | 5.56×45mm | Unknown | RPK-201 | semi, auto | 600 | No | box mag | TBD |
-| 4 | RPK-16 | Modern version: rails, detachable bipod, folding stock, 550 or 370 mm barrel, 95-round drum | 5.45×39mm | Unknown; Russian contract in 2018 | RPK-16 | semi, auto | 700 | No | box mag | 95 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | RPK | Original: AKM with a long fixed barrel, bipod, and club-foot stock | 7.62×39mm | Unknown | RPK, RPKS (folding stock), RPKN and RPKSN (night-sight rail), RPKM / RPK-203 (export, polymer furniture), Bulgarian, Hungarian, Romanian, and Serbian production | semi, auto | 600 | No | box mag | 40 | 51 |
+| 2 | RPK-74 | 5.45mm version built from the AK-74 | 5.45×39mm | Unknown | RPK-74, RPKS-74, RPK-74N, RPK-74M (polymer furniture, side rail) | semi, auto | 600 | No | box mag | 45 | 45 |
+| 3 | RPK-201 (rare) | Export RPK-74M in 5.56 NATO | 5.56×45mm | Unknown | RPK-201 | semi, auto | 600 | No | box mag | TBD | 45 |
+| 4 | RPK-16 | Modern version: rails, detachable bipod, folding stock, 550 or 370 mm barrel, 95-round drum | 5.45×39mm | Unknown; Russian contract in 2018 | RPK-16 | semi, auto | 700 | No | box mag | 95 | 42 |
 
 ## Sources
 

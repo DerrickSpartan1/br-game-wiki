@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added a Damage column to every gun's Versions table (twelve columns now) with a first-pass damage for 593 of 625 versions; rebuilt [Starting damage](../systems/starting-damage.md) around round classes, fire-rate bands, role tests, and the FRAG-12 and dragon's breath rules; added [Roles by category](../systems/ttk.md#roles-by-category), damage falloff, and a role check to TTK; added energies for nine more rounds; set the C96 and Luger semi rates to 450 and the G12's to 240 |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | First pass on fire rates: filled 350 of the 369 unknown RPM cells on the gun pages using PUBG-based rules on [TTK](../systems/ttk.md#fire-rates) (single shots and unknown fire modes stay TBD); added shotgun damage by gauge, action, barrel, and slug to [Starting damage](../systems/starting-damage.md#shotguns) |
 | 2026-11-20 | Added [Starting damage](../systems/starting-damage.md): a baseline and crate line for each category and a starting damage for every round in the roster; marked the [M24A3](../weapons/snipers/remington-700.md) and [AWM .338](../weapons/snipers/ai-arctic-warfare.md) `(crate)`; added the `(crate)` marker to the [gun page template](gun-page-template.md#reading-pages-as-data); the AWM question came off the open questions page |

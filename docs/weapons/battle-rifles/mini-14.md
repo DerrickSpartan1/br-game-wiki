@@ -7,7 +7,7 @@
 | History | USA; designed 1967–1973 by L. James Sullivan and William B. Ruger as a civilian rifle styled like a scaled-down [M14](m14.md), with an action much like the [M1 Garand](m1-garand.md)'s; introduced in 1973 and still made; the select-fire AC-556 was sold to police and military users from 1979 to 1999; used by police and security forces around the world, including the Royal Bermuda Regiment (its standard rifle from 1983 to 2016, replacing the [FN FAL](fn-fal.md)), France's border police and GIGN, the Royal Ulster Constabulary, the NYPD Emergency Service Unit, Hong Kong Police, and US Marine embassy guards; also used by Rhodesian security forces; one of original PUBG's DMRs |
 | Magazine (rounds) | 5-, 10-, 20-, and 30-round factory boxes, with aftermarket 40-round boxes and 90-round drums; the Mini Thirty comes with 5- and 20-round mags only |
 | Fire mode / rate | Semi-auto (about 40 aimed rounds a minute); the AC-556 has semi, 3-round burst, and auto at about 750 RPM; the UK versions are manual straight-pull; gas piston with a two-lug rotating bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 180 m (200 yd); in-game TBD |
 
 ## Real-world notes
@@ -26,18 +26,18 @@ DMR/sniper family attachments; integral scope bases (Picatinny rail on current m
 
 10 versions after merging.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ranch | Standard civilian rifle; semi-auto | 5.56×45mm | Most made (totals not given) | Original Mini-14 (1973), stainless version (1978), Ranch Rifle (1982), 580-series (2003), Tactical Rifle (2009; flash hider, optional collapsible stock), Mini-14 GB (semi-auto with flash hider and bayonet lug; Bermuda's Mini-14GB/20), Mini-14/GB-F (folding stock) | semi | 600 | No | box mag | 20 |
-| 2 | Target | 22 in heavy barrel with an adjustable harmonic tuner; no iron sights; semi-auto | 5.56×45mm | Unknown; from 2007 | Target Rifle | semi | 600 | No | box mag | 20 |
-| 3 | AC-556 | Select-fire with semi, 3-round burst, and auto; 13 or 18 in barrel; slightly longer receiver | 5.56×45mm | Unknown; 1979–1999 | AC-556, France's Mousqueton A.M.D. | semi, 3-round burst, auto | 750 | No | box mag | 20 |
-| 4 | AC-556F | Folding stock, 330 mm barrel; 603 mm folded; select-fire with burst | 5.56×45mm | Unknown | AC-556F, AC-556K | semi, 3-round burst, auto | 750 | No | box mag | 20 |
-| 5 | Mini Thirty | AK round; 16.12 or 18.5 in barrel; semi-auto | 7.62×39mm | Unknown; from 1987 | Mini Thirty, Mini Thirty Tactical (2010) | semi | 600 | No | box mag | 20 |
-| 6 | Mini-6.8 | Semi-auto | 6.8mm Remington SPC | Unknown; 2007–2012 | — | semi | 600 | No | box mag | TBD |
-| 7 | .300 BLK | Tactical Rifle in .300 Blackout; semi-auto | .300 Blackout | Unknown; from 2015 | — | semi | 600 | No | box mag | TBD |
-| 8 | Mini-14/5R (rare) | Overseas civilian rifle | .222 Remington | Unknown; 1980s | — | semi | 600 | No | box mag | TBD |
-| 9 | UK straight-pull (rare) | Manual straight-pull rifle made after the UK's 1988 ban on semi-auto centerfire rifles | 5.56×45mm | A small number | UK straight-pull Mini-14 (a straight-pull Mini Thirty was also made) | straight-pull | 50 | No | box mag | TBD |
-| 10 | XGI (rare) | Listed as a 7.62×51mm version of the Mini-14 | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Ranch | Standard civilian rifle; semi-auto | 5.56×45mm | Most made (totals not given) | Original Mini-14 (1973), stainless version (1978), Ranch Rifle (1982), 580-series (2003), Tactical Rifle (2009; flash hider, optional collapsible stock), Mini-14 GB (semi-auto with flash hider and bayonet lug; Bermuda's Mini-14GB/20), Mini-14/GB-F (folding stock) | semi | 600 | No | box mag | 20 | 45 |
+| 2 | Target | 22 in heavy barrel with an adjustable harmonic tuner; no iron sights; semi-auto | 5.56×45mm | Unknown; from 2007 | Target Rifle | semi | 600 | No | box mag | 20 | 45 |
+| 3 | AC-556 | Select-fire with semi, 3-round burst, and auto; 13 or 18 in barrel; slightly longer receiver | 5.56×45mm | Unknown; 1979–1999 | AC-556, France's Mousqueton A.M.D. | semi, 3-round burst, auto | 750 | No | box mag | 20 | 43 |
+| 4 | AC-556F | Folding stock, 330 mm barrel; 603 mm folded; select-fire with burst | 5.56×45mm | Unknown | AC-556F, AC-556K | semi, 3-round burst, auto | 750 | No | box mag | 20 | 43 |
+| 5 | Mini Thirty | AK round; 16.12 or 18.5 in barrel; semi-auto | 7.62×39mm | Unknown; from 1987 | Mini Thirty, Mini Thirty Tactical (2010) | semi | 600 | No | box mag | 20 | 48 |
+| 6 | Mini-6.8 | Semi-auto | 6.8mm Remington SPC | Unknown; 2007–2012 | — | semi | 600 | No | box mag | TBD | 50 |
+| 7 | .300 BLK | Tactical Rifle in .300 Blackout; semi-auto | .300 Blackout | Unknown; from 2015 | — | semi | 600 | No | box mag | TBD | 48 |
+| 8 | Mini-14/5R (rare) | Overseas civilian rifle | .222 Remington | Unknown; 1980s | — | semi | 600 | No | box mag | TBD | 45 |
+| 9 | UK straight-pull (rare) | Manual straight-pull rifle made after the UK's 1988 ban on semi-auto centerfire rifles | 5.56×45mm | A small number | UK straight-pull Mini-14 (a straight-pull Mini Thirty was also made) | straight-pull | 50 | No | box mag | TBD | 43 |
+| 10 | XGI (rare) | Listed as a 7.62×51mm version of the Mini-14 | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | TBD | 58 |
 
 ## Sources
 

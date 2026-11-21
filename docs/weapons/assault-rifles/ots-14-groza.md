@@ -7,7 +7,7 @@
 | History | Russia; designed by Valery Telesh (who also designed the GP-25 and GP-30 launchers) and Yuri Lebedev at TsKIB SOO in Tula; work began December 1992, adopted by the MVD in 1994, made 1992–1999; also issued to Spetsnaz, airborne, and combat engineers; limited use in the Second Chechen War and Georgia 2008; "Groza" means "Storm" |
 | Magazine (rounds) | 20-round box (9×39) or 30-round AK mags (7.62×39) |
 | Fire mode / rate | Semi and auto (AKS-74U-style selector), about 700–750 RPM; closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 200 m (9×39) or 300 m (7.62×39); in-game TBD |
 
 ## Real-world notes
@@ -26,12 +26,12 @@ AR/LMG/battle rifle family attachments; scope mount on the carry handle plus a n
 
 4 versions after merging. Its real configurations (foregrip rifle, suppressor-ready carbine, scoped "sniper" kit, grenade launcher) are just attachment setups, so they merge into each caliber version. The OTs-12 Tiss it grew out of is already a 9×39 version in the AK-74 family.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Groza-4 | Original subsonic version; 9.4 in barrel; 20-round mag; 200 m | 9×39mm | Most made | OTs-14-4A, -4A-01 (foregrip), -4A-02 (suppressor-ready carbine), -4A-03 (scoped) | semi, auto | 700–750 | No | bullpup mag | 20 |
-| 2 | Groza-1 | Supersonic version on an AKM receiver with an AK-74-style flash hider; takes AK mags; more power and range (300 m) | 7.62×39mm | Fewer (Army adoption in 1998, then funding cut) | OTs-14-1A (TKB-0239), -1A-01, -1A-02, -1A-03, -1A-04 (GP-30), Special Mission Configuration | semi, auto | 700–750 | No | bullpup mag | 30 |
-| 3 | OTs-14-2A | Experimental | 5.45×39mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag | TBD |
-| 4 | OTs-14-3A | Experimental | 5.56×45mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Groza-4 | Original subsonic version; 9.4 in barrel; 20-round mag; 200 m | 9×39mm | Most made | OTs-14-4A, -4A-01 (foregrip), -4A-02 (suppressor-ready carbine), -4A-03 (scoped) | semi, auto | 700–750 | No | bullpup mag | 20 | 41 |
+| 2 | Groza-1 | Supersonic version on an AKM receiver with an AK-74-style flash hider; takes AK mags; more power and range (300 m) | 7.62×39mm | Fewer (Army adoption in 1998, then funding cut) | OTs-14-1A (TKB-0239), -1A-01, -1A-02, -1A-03, -1A-04 (GP-30), Special Mission Configuration | semi, auto | 700–750 | No | bullpup mag | 30 | 48 |
+| 3 | OTs-14-2A | Experimental | 5.45×39mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag | TBD | 40 |
+| 4 | OTs-14-3A | Experimental | 5.56×45mm | Prototypes only | — | semi, auto | 700–750 | No | bullpup mag | TBD | 43 |
 
 ## Sources
 

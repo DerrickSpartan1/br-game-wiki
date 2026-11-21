@@ -7,7 +7,7 @@
 | History | USA; designed by Magpul in about five months in 2006 as the Masada, with no government money, as a replacement for the M16; shown at the 2007 SHOT Show; licensed to Bushmaster in January 2008 and renamed the ACR; Bushmaster made the semi-auto civilian rifles and its sister company Remington the select-fire military and police ones; entered the Army's Individual Carbine contest to replace the M4, which was cancelled in 2013 with no winner; used by Poland's Military Intelligence Service (reportedly in Afghanistan in 2012) and by Ukraine's armed forces; made 2010–2020, ending when parent company Freedom Group went bankrupt; the new Bushmaster kept the name but not the patents, and said in 2023 it wants to bring back a redesigned ACR, with no date set |
 | Magazine (rounds) | 5.56 versions: 30-round STANAG box (same as the M16), issued with Magpul PMags; Bushmaster's mag housing takes AR-15 mags. Other calibers: TBD |
 | Fire mode / rate | Semi and auto on the Remington rifles, about 700 RPM; semi-auto only on the Bushmaster civilians; short-stroke piston with a rotating bolt, closed bolt, so no open-bolt delay |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Real-world 500 m point, 600 m area; in-game TBD |
 
 ## Real-world notes
@@ -26,18 +26,18 @@ AR/LMG/battle rifle family attachments; native top rail, plus handguard rails (f
 
 10 versions after merging. No production numbers were found for any of them; the 16.5 in 5.56 rifles were the main models. Caliber conversion kits (Remington's 6.8 SPC kit, Templar Precision's 7.62×39 kit) merge into the factory rifle of the same caliber (see [Rules](../../rules.md#spawned-version-is-fixed)). A 6.5mm Grendel version was planned but never made.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | PDW | 8.25 in barrel; 19.5 in long with the stock folded; select-fire | 5.56×45mm | Unknown | Remington ACR-PDW (8.25 in), ACR-C PDW (the earlier 9.5 in compact, replaced by the ACR-PDW) | semi, auto | 700 | No | box mag | 30 |
-| 2 | Short | 10.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR-PDW (10.5 in), Poland's Military Intelligence Service rifles with 266 mm barrels | semi, auto | 700 | No | box mag | 30 |
-| 3 | Carbine | 14.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (14.5 in), Poland's Military Intelligence Service rifles with 368 mm barrels | semi, auto | 700 | No | box mag | 30 |
-| 4 | Standard | 16.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (16.5 in), Magpul Masada (2007 prototypes), Improved Individual Carbine version (late 2011; 0.8 kg lighter, magnesium lower, fixed barrel nut instead of quick-change, folding charging handle, collapsible but non-folding stock) | semi, auto | 700 | No | box mag | 30 |
-| 5 | Civilian | Semi-auto only; 16.5 in barrel; polymer handguard | 5.56×45mm | Unknown | Bushmaster ACR Basic, ACR Enhanced, ACR SBR (10.5 in barrel) | semi | 700 | No | box mag | 30 |
-| 6 | DMR | Semi-auto only; 18.5 in barrel, Magpul PRS-based stock, Geissele trigger, 3.97 kg (2014) | 5.56×45mm | Unknown | Bushmaster ACR DMR | semi | 700 | No | box mag | 30 |
-| 7 | 6.8 SPC | Semi-auto only | 6.8mm Remington SPC | Unknown | Bushmaster 6.8 SPC rifles, Remington's 6.8 SPC conversion kit | semi | 700 | No | box mag | TBD |
-| 8 | 7.62×39 | Semi-auto only | 7.62×39mm | Unknown | Bushmaster 7.62×39 rifles, Templar Precision conversion kit | semi | 700 | No | box mag | TBD |
-| 9 | .450 Bushmaster | Semi-auto only; big, slow straight-wall round (495–642 m/s against 800–930 m/s for 5.56) | .450 Bushmaster | Unknown | — | semi | 700 | No | box mag | TBD |
-| 10 | .300 BLK | Semi-auto only | .300 Blackout | Unknown | — | semi | 700 | No | box mag | 30 |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | PDW | 8.25 in barrel; 19.5 in long with the stock folded; select-fire | 5.56×45mm | Unknown | Remington ACR-PDW (8.25 in), ACR-C PDW (the earlier 9.5 in compact, replaced by the ACR-PDW) | semi, auto | 700 | No | box mag | 30 | 43 |
+| 2 | Short | 10.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR-PDW (10.5 in), Poland's Military Intelligence Service rifles with 266 mm barrels | semi, auto | 700 | No | box mag | 30 | 43 |
+| 3 | Carbine | 14.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (14.5 in), Poland's Military Intelligence Service rifles with 368 mm barrels | semi, auto | 700 | No | box mag | 30 | 43 |
+| 4 | Standard | 16.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (16.5 in), Magpul Masada (2007 prototypes), Improved Individual Carbine version (late 2011; 0.8 kg lighter, magnesium lower, fixed barrel nut instead of quick-change, folding charging handle, collapsible but non-folding stock) | semi, auto | 700 | No | box mag | 30 | 43 |
+| 5 | Civilian | Semi-auto only; 16.5 in barrel; polymer handguard | 5.56×45mm | Unknown | Bushmaster ACR Basic, ACR Enhanced, ACR SBR (10.5 in barrel) | semi | 700 | No | box mag | 30 | 45 |
+| 6 | DMR | Semi-auto only; 18.5 in barrel, Magpul PRS-based stock, Geissele trigger, 3.97 kg (2014) | 5.56×45mm | Unknown | Bushmaster ACR DMR | semi | 700 | No | box mag | 30 | 45 |
+| 7 | 6.8 SPC | Semi-auto only | 6.8mm Remington SPC | Unknown | Bushmaster 6.8 SPC rifles, Remington's 6.8 SPC conversion kit | semi | 700 | No | box mag | TBD | 50 |
+| 8 | 7.62×39 | Semi-auto only | 7.62×39mm | Unknown | Bushmaster 7.62×39 rifles, Templar Precision conversion kit | semi | 700 | No | box mag | TBD | 48 |
+| 9 | .450 Bushmaster | Semi-auto only; big, slow straight-wall round (495–642 m/s against 800–930 m/s for 5.56) | .450 Bushmaster | Unknown | — | semi | 700 | No | box mag | TBD | 55 |
+| 10 | .300 BLK | Semi-auto only | .300 Blackout | Unknown | — | semi | 700 | No | box mag | 30 | 48 |
 
 ## Sources
 

@@ -7,7 +7,7 @@
 | History | U.S., Ithaca Gun Company; released 1937, based on John Browning's Remington Model 17 patent; used in WWII, Korea, and Vietnam (Navy SEALs, Green Berets), and by the NYPD (into 2009) and LAPD (1940s to 1990s) |
 | Magazine (rounds) | Tube: 4, 5, or 7 (riot, standard, and extended tubes) |
 | Fire mode / rate | Pump-action; slam-fire on most models up to 1975 (holding the trigger fires each time a new shell is chambered) |
-| Damage | TBD |
+| Damage | First pass per version, in the Damage column under [Versions](#versions) ([Starting damage](../../systems/starting-damage.md)) |
 | Effective range | Not listed; in-game TBD |
 
 **Pistol / 3rd-slot version:** [Ithaca 37 Stakeout](../pistols/ithaca-37-stakeout.md)
@@ -28,13 +28,13 @@ Tube extension attachment; other attachments TBD
 
 5 versions after merging; every version has slam-fire. The Stakeout moved to the pistol / 3rd slot as its own entry. Skins: the Featherlight's classic look, the Ultralite's aluminum receiver, Turkeyslayer camo, 1962 military Parkerized guns, and Argentina's Bataan Modelo 71 copy.
 
-| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ithaca 37, long | Full-length hunting barrel, up to 30 in. Merged difference: the Ultralite is lighter | 12 gauge | Unknown | Featherlight, Ultralite, Turkeyslayer, Model 87 (a temporary rename) | pump (slam-fire) | 80 | No | tube | 5+1 |
-| 2 | Ithaca 37, short | 18 to 20 in barrel. Merged differences: Deerslayer rifle sights; some military guns had a ventilated handguard and bayonet adapter | 12 gauge | Unknown | 1962 U.S. military contract guns, trench-style military guns, DSPS (Deerslayer Police Special), Deerslayer, Defense, NYPD 18 in | pump (slam-fire) | 80 | No | tube | 5+1 |
-| 3 | 16 gauge | — | 16 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD |
-| 4 | 20 gauge | — | 20 gauge | Unknown | 20 gauge Defense | pump (slam-fire) | 80 | No | tube | TBD |
-| 5 | 28 gauge | Built on a 28 gauge receiver | 28 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD |
+| # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Ithaca 37, long | Full-length hunting barrel, up to 30 in. Merged difference: the Ultralite is lighter | 12 gauge | Unknown | Featherlight, Ultralite, Turkeyslayer, Model 87 (a temporary rename) | pump (slam-fire) | 80 | No | tube | 5+1 | 24 × 9 |
+| 2 | Ithaca 37, short | 18 to 20 in barrel. Merged differences: Deerslayer rifle sights; some military guns had a ventilated handguard and bayonet adapter | 12 gauge | Unknown | 1962 U.S. military contract guns, trench-style military guns, DSPS (Deerslayer Police Special), Deerslayer, Defense, NYPD 18 in | pump (slam-fire) | 80 | No | tube | 5+1 | 24 × 9 |
+| 3 | 16 gauge | — | 16 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD | 23 × 9 |
+| 4 | 20 gauge | — | 20 gauge | Unknown | 20 gauge Defense | pump (slam-fire) | 80 | No | tube | TBD | 21 × 9 |
+| 5 | 28 gauge | Built on a 28 gauge receiver | 28 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD | 20 × 9 |
 
 ## Sources
 

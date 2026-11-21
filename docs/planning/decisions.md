@@ -5,6 +5,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Vests roll in steps: a carrier and tier, then a random compatible plate for that tier (unless its plates are fixed), then a random chest rig (unless it has its own pouches); slowdown adds up from all three, with weight driving movement and coverage driving ADS | [Armor and gear](../systems/armor.md#vests) |
 | 2026-11-20 | A vest spawns as a fixed combo of vest and armor tier: plate carriers can roll tier 2, 3, or 4, the model always matches the vest, and the tier's armor adds weight and slowdown; soft armor and armor with its own plates keep their real tiers | [Armor and gear](../systems/armor.md#vests) |
 | 2026-11-20 | Armored rigs carry more than plain vests | [Armor and gear](../systems/armor.md#vests) |
 | 2026-11-20 | Armor damage reduction starts at 30%, 40%, 50%, and 60% for tiers 1 to 4, to tune later | [Armor and gear](../systems/armor.md#tiers) |

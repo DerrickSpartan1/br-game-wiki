@@ -5,6 +5,15 @@ Matches favor scavenging and a slower pace over fast action, in a classic battle
 - **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
 - **Hit zones:** damage differs across four zones: head, chest and stomach (one zone), arms, and legs.
 
+## HUD and inventory
+
+The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG art, icons, or fonts). The mockup is a private Design artifact in the owner's Claude account.
+
+- **Weapon slots:** 1 and 2 hold primaries, 3 is the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)), 4 holds a [class item](class-items.md), and 5 holds a throwable. Melee has its own button instead of a slot.
+- **HUD:** a compass at the top with the heading in yellow; players alive and kills at the top right; the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
+- **Picking up:** look at an item and press F, like PUBG. The prompt names a gun's rolled version, since every gun is one version for the match ([Rules](../rules.md#versions)).
+- **Inventory (Tab):** vicinity, backpack, gear (helmet, vest, backpack, and outfit slots for skins), and the weapons with their attachment slots. Hovering a gun shows its version: cartridge, fire modes, rate, and mag. You can still move with it open.
+
 ## Knockdowns & revives
 
 1. At zero health you're knocked down. You can crawl, but you leave a blood trail.

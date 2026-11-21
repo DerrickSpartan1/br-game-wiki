@@ -14,12 +14,25 @@ Players set skins in a wardrobe menu, one skin per gun per part. In a match, ite
 
 The same wardrobe setup covers gear: armor, helmets, backpacks, and similar items each get their own skins.
 
-The player character has its own wardrobe slots too, and more can be added over time:
+The player character has its own wardrobe slots too, like PUBG's, and more can be added over time:
 
-- Hats, shirts, pants, socks, and shoes
-- Maybe knee and elbow pads
+| Slot | Removable in a match |
+| --- | --- |
+| Hat | Yes |
+| Glasses | Yes |
+| Mask | Yes |
+| Neck | Yes |
+| Over shirt or jacket | Yes |
+| Undershirt | Yes |
+| Gloves | Yes |
+| Pants or legs | Yes |
+| Socks | Yes |
+| Shoes | Yes |
+| Elbow and knee pads | No |
+| Underwear, male or female | No |
 
-Clothes never drop as loot during a match; outfits are set in the wardrobe only.
+- **In a match:** players arrive wearing their outfit and nothing else, and can take clothes off like in PUBG. The pads and underwear always stay on.
+- **No clothing loot:** clothes never drop as loot during a match; outfits are set in the wardrobe only.
 
 ## Weapon mastery
 

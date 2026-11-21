@@ -10,7 +10,7 @@ There's no separate lobby island: players spawn on the match's own map and wait 
 - **Countdown:** once 10 players have joined, a 60-second countdown starts.
 - **Rolling the match:** the countdown gives the server time to make the match's random choices: the gun pool and versions, vault keys, time of day, and weather.
 - **Loot:** ground loot only loads once everyone is moved into the plane.
-- **Open:** what players carry while they wait.
+- **What you have:** only your outfit ([Skins and mastery](skins.md#wardrobe)).
 
 ## The plane
 

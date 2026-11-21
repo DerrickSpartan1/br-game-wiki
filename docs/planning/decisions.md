@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Outfits work like PUBG's: hat, glasses, mask, neck, over shirt or jacket, undershirt, gloves, pants, socks, and shoes, all removable in a match; elbow and knee pads and male or female underwear can't be removed. Players enter the lobby wearing only their outfit | [Skins and mastery](../systems/skins.md#wardrobe) |
 | 2026-11-21 | Squad and anti-cheat basics: a ping system on middle mouse, proximity chat, a death cam and replays, and Easy Anti-Cheat | [Gameplay](../systems/gameplay.md) |
 | 2026-11-21 | Footprints in snow, mud, and similar ground, and tire tracks; cars, boats, water vehicles, and ziplines | [Gameplay](../systems/gameplay.md#vehicles) |
 | 2026-11-21 | Pre-match lobby on the match's own map: it fills with bots and swaps in players, starts a 60-second countdown at 10 players while the match rolls its randomness, and loads ground loot when everyone moves to the plane; bots stay to fill empty slots; the plane flies in from off the map | [Match flow](../systems/match-flow.md#pre-match-lobby) |

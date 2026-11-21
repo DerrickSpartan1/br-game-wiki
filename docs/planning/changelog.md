@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Set the outfit slots on [Skins and mastery](../systems/skins.md#wardrobe) and what players have in the [pre-match lobby](../systems/match-flow.md#pre-match-lobby) |
 | 2026-11-21 | Confirmed trios; bots stay in matches to fill empty slots; dropped the line about the players' plane dropping crates (care packages already come by plane) on [Match flow](../systems/match-flow.md#pre-match-lobby) |
 | 2026-11-21 | Filed ideas from other battle royales: ping, proximity chat, death cam and replays, Easy Anti-Cheat, vehicles, tracks and animals, self-revive, Jailbreak, and trios on [Gameplay](../systems/gameplay.md); the pre-match lobby, radar stations, moving loot, wanted players, and satellite crashes on [Match flow](../systems/match-flow.md); emergency redeploy, deployable zipline, and fortifications on [Class items](../systems/class-items.md); new grenades on [Weapon pool](../systems/weapon-pool.md); the scrap machine on [Crafting](../systems/crafting.md) |
 | 2026-11-21 | Vault keys now spawn anywhere loot spawns, rolled at match start and spread apart, on [Vaults and keys](../systems/match-flow.md#vaults-and-keys); the key spot question is settled |

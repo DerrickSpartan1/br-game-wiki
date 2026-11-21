@@ -28,17 +28,17 @@ DMR/sniper family attachments; native Warsaw Pact side rail (Picatinny on the SV
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SVD | Standard rifle with a PSO-1 scope | 7.62×54mmR | Most made (totals not given) | SVD (1963), SVD-90 (polymer furniture), SVDN night-sight versions, SSV-58 prototype, East Germany's SWD, Finland's TKIV, China's Type 79, Type 85, and CS/LR19, Iran's Nakhjir 3, Iraq's Al-Kadesih (many non-interchangeable parts), Vietnam's SBT-7.62M1 | semi | TBD | No | box mag | 10 |
-| 2 | SVDS | Folding stock and pistol grip, 565 mm barrel, shorter flash hider; 4.68 kg | 7.62×54mmR | Unknown; adopted 1995 | SVDS, SVDSN | semi | TBD | No | box mag | 10 |
-| 3 | SVDM | Modernized: thicker 550 mm barrel, Picatinny dust cover, 1P88-4 variable scope, bipod, quick-detach suppressor; 5.3 kg | 7.62×54mmR | Unknown; in service from 2018 | SVDM, Poland's SWD-M (1998; heavier barrel, bipod, LD-6 scope) | semi | TBD | No | box mag | 10 |
-| 4 | SVU | Bullpup with an improved muzzle brake; semi-auto | 7.62×54mmR | Unknown; for the Interior Ministry from 1991 | SVU (OTs-03), TKB-0172 bullpup prototype | semi | TBD | No | box mag | 10 |
-| 5 | SVU-A (rare) | Select-fire bullpup | 7.62×54mmR | Small numbers | SVU-A (OTs-03A(S)) | semi, auto | TBD | No | box mag | 10 |
-| 6 | Tigr | Civilian rifle, no bayonet lug; 520 or 620 mm barrel | 7.62×54mmR | Unknown; serial production from 1992 | Tigr | semi | TBD | No | box mag | TBD |
-| 7 | .308 | Civilian and export rifles in .308 | 7.62×51mm | Small numbers of Chinese exports | Norinco NDM-86 and EM-351, Tigr in .308 | semi | TBD | No | box mag | TBD |
-| 8 | Tigr .30-06 (rare) | Civilian Tigr in .30-06 | .30-06 Springfield | Unknown | — | semi | TBD | No | box mag | TBD |
-| 9 | SVDK (rare) | Experimental military rifle in a heavy hunting round, based on the Tigr-9 | 9.3×64mm Brenneke | Few | SVDK (7N33 ammo), Tigr-9 | semi | TBD | No | box mag | TBD |
-| 10 | TG3 (rare) | Civilian rifle that is legally a shotgun in Russia; 5-round mag; 3.9 kg | .366 TKM | Unknown; shown in 2018 | — | semi | TBD | No | box mag | 5 |
-| 11 | V-70 (rare) | 1968 automatic prototype: shorter barrel, new bipod, 15- and 20-round mags | 7.62×54mmR | Few | — | semi, auto | TBD | No | box mag | TBD |
+| 1 | SVD | Standard rifle with a PSO-1 scope | 7.62×54mmR | Most made (totals not given) | SVD (1963), SVD-90 (polymer furniture), SVDN night-sight versions, SSV-58 prototype, East Germany's SWD, Finland's TKIV, China's Type 79, Type 85, and CS/LR19, Iran's Nakhjir 3, Iraq's Al-Kadesih (many non-interchangeable parts), Vietnam's SBT-7.62M1 | semi | 600 | No | box mag | 10 |
+| 2 | SVDS | Folding stock and pistol grip, 565 mm barrel, shorter flash hider; 4.68 kg | 7.62×54mmR | Unknown; adopted 1995 | SVDS, SVDSN | semi | 600 | No | box mag | 10 |
+| 3 | SVDM | Modernized: thicker 550 mm barrel, Picatinny dust cover, 1P88-4 variable scope, bipod, quick-detach suppressor; 5.3 kg | 7.62×54mmR | Unknown; in service from 2018 | SVDM, Poland's SWD-M (1998; heavier barrel, bipod, LD-6 scope) | semi | 600 | No | box mag | 10 |
+| 4 | SVU | Bullpup with an improved muzzle brake; semi-auto | 7.62×54mmR | Unknown; for the Interior Ministry from 1991 | SVU (OTs-03), TKB-0172 bullpup prototype | semi | 600 | No | box mag | 10 |
+| 5 | SVU-A (rare) | Select-fire bullpup | 7.62×54mmR | Small numbers | SVU-A (OTs-03A(S)) | semi, auto | 650 | No | box mag | 10 |
+| 6 | Tigr | Civilian rifle, no bayonet lug; 520 or 620 mm barrel | 7.62×54mmR | Unknown; serial production from 1992 | Tigr | semi | 600 | No | box mag | TBD |
+| 7 | .308 | Civilian and export rifles in .308 | 7.62×51mm | Small numbers of Chinese exports | Norinco NDM-86 and EM-351, Tigr in .308 | semi | 600 | No | box mag | TBD |
+| 8 | Tigr .30-06 (rare) | Civilian Tigr in .30-06 | .30-06 Springfield | Unknown | — | semi | 600 | No | box mag | TBD |
+| 9 | SVDK (rare) | Experimental military rifle in a heavy hunting round, based on the Tigr-9 | 9.3×64mm Brenneke | Few | SVDK (7N33 ammo), Tigr-9 | semi | 600 | No | box mag | TBD |
+| 10 | TG3 (rare) | Civilian rifle that is legally a shotgun in Russia; 5-round mag; 3.9 kg | .366 TKM | Unknown; shown in 2018 | — | semi | 600 | No | box mag | 5 |
+| 11 | V-70 (rare) | 1968 automatic prototype: shorter barrel, new bipod, 15- and 20-round mags | 7.62×54mmR | Few | — | semi, auto | 650 | No | box mag | TBD |
 
 ## Sources
 

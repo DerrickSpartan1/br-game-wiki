@@ -29,9 +29,9 @@ AR/LMG/battle rifle family attachments; Picatinny rail on the feed cover of late
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Minimi | Standard Belgian and licensed gun: skeleton stock, two gas settings | 5.56×45mm | Unknown | Minimi Standard, Minimi Mk3 (2013), the UK's L108A1, Canada's C9 and C9A1, Australia's F89, Indonesia's SM-2, Beretta (Italy) and Sumitomo (Japan) builds, Sweden's Ksp 90, Switzerland's LMG 05, Greek and Egyptian builds, Taiwan's T75, China's CS/LM8 and XY copies | auto | 700–1,150 | Yes | belt, box mag | 100 |
-| 2 | M249 | US version: synthetic stock, single gas setting, M16A2-style flash hider, heat guard, carry handle | 5.56×45mm | Unknown | M249, M249 PIP | auto | TBD | Yes | belt, box mag | 100 |
+| 2 | M249 | US version: synthetic stock, single gas setting, M16A2-style flash hider, heat guard, carry handle | 5.56×45mm | Unknown | M249, M249 PIP | auto | 700–1,150 | Yes | belt, box mag | 100 |
 | 3 | Para | 349 mm barrel and collapsible stock | 5.56×45mm | Unknown | Minimi Para, M249 Para, the UK's L110A2 and L110A3, Canada's C9A2 (shorter second barrel, C8-style stock) | auto | 700–1,150 | Yes | belt, box mag | 100 |
-| 4 | Mk 46 / SPW | Lightened special operations version: no mag well, railed handguard; the Mod 1 adds a titanium bipod | 5.56×45mm | Unknown | Mk 46 Mod 0 and Mod 1, M249 SPW | auto | TBD | Yes | belt | 100 |
+| 4 | Mk 46 / SPW | Lightened special operations version: no mag well, railed handguard; the Mod 1 adds a titanium bipod | 5.56×45mm | Unknown | Mk 46 Mod 0 and Mod 1, M249 SPW | auto | 700–1,150 | Yes | belt | 100 |
 | 5 | Minimi 7.62 | 7.62mm version with a self-regulating gas system and hydraulic buffer | 7.62×51mm | Unknown; the UK ordered up to 176 | Minimi 7.62, 7.62 TR, 7.62 Para, Mk3 7.62, Mk 48 | auto | 800 | Yes | belt | 100 |
 
 ## Sources

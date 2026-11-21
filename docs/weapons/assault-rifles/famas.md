@@ -31,7 +31,7 @@ AR/LMG/battle rifle family attachments; adapter mount on the carry handle, rails
 | 1 | F1 | Original: 25-round proprietary mag, 300 m | 5.56×45mm | About 400,000 | FAMAS F1, G1 (better grips, bigger trigger guard), FAMAS Infanterie (top rail for optics), F1 with the lowered Félin-style carry handle | semi, 3-round burst, auto | 900–1,100 | No | bullpup mag | 25 |
 | 2 | G2 | Takes 30-round STANAG mags, bigger trigger guard, fiberglass handguards, 450 m, handles brass ammo | 5.56×45mm | 10,000–15,000 | FAMAS G2, FAMAS Félin | semi, 3-round burst, auto | 900–1,100 | No | bullpup mag | 30 |
 | 3 | Commando | Short 11.2 in barrel, no bipod | 5.56×45mm | Prototypes only (French Interior Ministry) | — | semi, 3-round burst, auto | 900–1,100 | No | bullpup mag | TBD |
-| 4 | MAS .223 | Civilian semi-auto | 5.56×45mm | Unknown | — | semi | TBD | No | bullpup mag | TBD |
+| 4 | MAS .223 | Civilian semi-auto | 5.56×45mm | Unknown | — | semi | 900–1,100 | No | bullpup mag | TBD |
 
 ## Sources
 

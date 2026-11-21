@@ -32,12 +32,12 @@ AR/LMG/battle rifle family attachments; native top rail, plus handguard rails (f
 | 2 | Short | 10.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR-PDW (10.5 in), Poland's Military Intelligence Service rifles with 266 mm barrels | semi, auto | 700 | No | box mag | 30 |
 | 3 | Carbine | 14.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (14.5 in), Poland's Military Intelligence Service rifles with 368 mm barrels | semi, auto | 700 | No | box mag | 30 |
 | 4 | Standard | 16.5 in barrel; select-fire | 5.56×45mm | Unknown | Remington ACR (16.5 in), Magpul Masada (2007 prototypes), Improved Individual Carbine version (late 2011; 0.8 kg lighter, magnesium lower, fixed barrel nut instead of quick-change, folding charging handle, collapsible but non-folding stock) | semi, auto | 700 | No | box mag | 30 |
-| 5 | Civilian | Semi-auto only; 16.5 in barrel; polymer handguard | 5.56×45mm | Unknown | Bushmaster ACR Basic, ACR Enhanced, ACR SBR (10.5 in barrel) | semi | TBD | No | box mag | 30 |
-| 6 | DMR | Semi-auto only; 18.5 in barrel, Magpul PRS-based stock, Geissele trigger, 3.97 kg (2014) | 5.56×45mm | Unknown | Bushmaster ACR DMR | semi | TBD | No | box mag | 30 |
-| 7 | 6.8 SPC | Semi-auto only | 6.8mm Remington SPC | Unknown | Bushmaster 6.8 SPC rifles, Remington's 6.8 SPC conversion kit | semi | TBD | No | box mag | TBD |
-| 8 | 7.62×39 | Semi-auto only | 7.62×39mm | Unknown | Bushmaster 7.62×39 rifles, Templar Precision conversion kit | semi | TBD | No | box mag | TBD |
-| 9 | .450 Bushmaster | Semi-auto only; big, slow straight-wall round (495–642 m/s against 800–930 m/s for 5.56) | .450 Bushmaster | Unknown | — | semi | TBD | No | box mag | TBD |
-| 10 | .300 BLK | Semi-auto only | .300 Blackout | Unknown | — | semi | TBD | No | box mag | 30 |
+| 5 | Civilian | Semi-auto only; 16.5 in barrel; polymer handguard | 5.56×45mm | Unknown | Bushmaster ACR Basic, ACR Enhanced, ACR SBR (10.5 in barrel) | semi | 700 | No | box mag | 30 |
+| 6 | DMR | Semi-auto only; 18.5 in barrel, Magpul PRS-based stock, Geissele trigger, 3.97 kg (2014) | 5.56×45mm | Unknown | Bushmaster ACR DMR | semi | 700 | No | box mag | 30 |
+| 7 | 6.8 SPC | Semi-auto only | 6.8mm Remington SPC | Unknown | Bushmaster 6.8 SPC rifles, Remington's 6.8 SPC conversion kit | semi | 700 | No | box mag | TBD |
+| 8 | 7.62×39 | Semi-auto only | 7.62×39mm | Unknown | Bushmaster 7.62×39 rifles, Templar Precision conversion kit | semi | 700 | No | box mag | TBD |
+| 9 | .450 Bushmaster | Semi-auto only; big, slow straight-wall round (495–642 m/s against 800–930 m/s for 5.56) | .450 Bushmaster | Unknown | — | semi | 700 | No | box mag | TBD |
+| 10 | .300 BLK | Semi-auto only | .300 Blackout | Unknown | — | semi | 700 | No | box mag | 30 |
 
 ## Sources
 

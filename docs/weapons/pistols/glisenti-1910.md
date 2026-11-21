@@ -28,7 +28,7 @@ No real-world accessories. In-game: pistol/SMG barrel attachments (probably), pi
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | TBD | No | grip mag | 7 |
+| 1 | Glisenti Model 1910 | — | 9×19mm | Unknown | Brixia Model 1912 (skin) | semi | 450 | No | grip mag | 7 |
 
 ## Sources
 

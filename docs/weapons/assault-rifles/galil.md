@@ -33,7 +33,7 @@ AR/LMG/battle rifle family attachments; adapter scope mount on the classic Galil
 | 3 | SAR | Short 13.1 in barrel | 5.56×45mm | Part of the classic run | Galil SAR (G'lilon), Bernardelli VB-SR (takes STANAG mags), South African R5 and R6 | semi, auto | 650 | No | box mag | 35 |
 | 4 | Micro Galil | 8.3 in barrel, 2.98 kg, 650–750 RPM; selector adds a 3-round burst; mags clip together | 5.56×45mm | Unknown | MAR, Model 699 | semi, 3-round burst, auto | 650–750 | No | box mag | 35 |
 | 5 | Galil 7.62 | Full-power version; 25-round mag | 7.62×51mm | Unknown | 7.62 AR, ARM, and SAR | semi, auto | 650 | No | box mag | 25 |
-| 6 | Magal | Police Micro Galil that takes M1 carbine mags (or a 27-round mag with bolt hold-open); withdrawn after two years for malfunctions | .30 Carbine | Few (Brazilian police ordered 555) | — | semi | TBD | No | box mag | 15 |
+| 6 | Magal | Police Micro Galil that takes M1 carbine mags (or a 27-round mag with bolt hold-open); withdrawn after two years for malfunctions | .30 Carbine | Few (Brazilian police ordered 555) | — | semi | 650 | No | box mag | 15 |
 | 7 | ACE | Modern version: polymer lower, rails all over, left-side charging handle, lighter, bolt locks open on empty | 5.56×45mm | Unknown | ACE 21, 22, 23, ACE-N models, Gen II, Chilean FAMAE ACE, Colombian Córdova, Indian Jeet, Ukrainian Fort-227 | semi, auto | 650 | No | box mag | 35 |
 | 8 | ACE 7.62x39 | ACE that takes AK mags | 7.62×39mm | Unknown | ACE 31, ACE 32, Vietnamese STV-215 and STV-380 | semi, auto | 650 | No | box mag | 30 |
 | 9 | ACE 7.62 NATO | Full-power ACE; Galil or SR-25 mags | 7.62×51mm | Unknown | ACE 52, ACE 53, ACE-N 52 | semi, auto | 650 | No | box mag | 25 |

@@ -53,6 +53,28 @@ Our best guess at PUBG's method, used here:
 
 Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 4 included. That's the crate line for every category ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 
+## Fire rates
+
+PUBG's automatic guns fire close to the real guns' cyclic rates (AKM 600, SCAR-L 625, M416 698, M16A4 800, Micro Uzi 1,250, and M249 800 RPM in June 2018), and its semi-autos and manual guns have a fixed fastest rate. The first pass here follows the same pattern. Each version's RPM column holds its rate; where the real rate wasn't known, the rules below filled it in, and real numbers replace them as they're found.
+
+| Action | First-pass rate (RPM) | PUBG basis |
+| --- | --- | --- |
+| Automatic and burst | The real cyclic rate; if unknown, a sibling version's; if none, 700 (assault rifles, SMGs), 650 (battle rifles & DMRs, LMGs), 1,000 (machine pistols), or 300 (shotguns) | Real cyclic rates, as above; P18C 1,000 |
+| Semi-only version of an automatic gun | The family's auto rate | PUBG's assault rifles fire single shots at their auto rate |
+| Semi-auto pistol | 450 | P92: 0.135 s between shots |
+| Semi-auto battle rifle, DMR, or sniper | 600 | SKS, SLR, and Mini 14: 0.100 s |
+| Semi-auto shotgun | 240 | S12K: 0.25 s |
+| Bolt action | 32 (Lee–Enfield 40, for its fast bolt) | Kar98k 1.9 s, M24 1.8 s, AWM 1.85 s |
+| Straight-pull | 50 | Our pick: faster than a turned bolt |
+| Lever | 100 | Win94: 0.6 s |
+| Pump | 80 | S1897: 0.75 s |
+| Break action | 300 (between barrels) | S686: 0.2 s |
+| Revolver | 240 | Our pick |
+| Two-pull | 120 | Our pick |
+| Single shot | Stays TBD | Reload-bound |
+
+For semi-autos and manual guns, the rate is the fastest the gun allows; real speed depends on how fast you click.
+
 ## Bullet speed
 
 Like PUBG, every gun has its own bullet speed, close to the real gun's muzzle velocity, and bullets slow down and drop over distance. PUBG's AKM fires at 715 m/s and its M416 at 880 m/s. Its AWM leaves the barrel at 945 m/s and is down to about 769 m/s at 500 m.
@@ -112,6 +134,6 @@ The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and he
 - **Close calls:** the Kar98k's chest hit against a level 2 vest does 49.5, so two hits leave 1 health.
 - **Perfect hits kill fast.** Against a level 2 vest, the automatic guns kill in about 0.2 to 0.4 seconds of perfect chest hits. Recoil and misses make real fights much longer, which is where gun feel comes in.
 
-Sources: [PUBG Wiki: Sniper Rifles](https://pubg.wiki.gg/wiki/Sniper_Rifles) · [Medium: Does bullet velocity really matter in PUBG? (2019)](https://medium.com/@midopooler/does-bullet-velocity-really-matter-in-pubg-cba1d571ce6f) · [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
+Sources: [PUBG Map: DMRs](https://pubgmap.io/weapons/dmr.html) · [PUBG Wiki: Shotguns](https://pubg.wiki.gg/wiki/Shotguns) · [PUBG Wiki: Sniper Rifles](https://pubg.wiki.gg/wiki/Sniper_Rifles) · [Medium: Does bullet velocity really matter in PUBG? (2019)](https://medium.com/@midopooler/does-bullet-velocity-really-matter-in-pubg-cba1d571ce6f) · [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
 
 Reliability: guns never jam or overheat (see [Rules](../rules.md)). Whether some items wear out is still open; the makeshift suppressor and the StG 44's Krummlauf are the current wear ideas.

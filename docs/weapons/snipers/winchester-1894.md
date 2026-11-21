@@ -28,14 +28,14 @@ DMR & sniper family attachments; adapter scope mount. Mag tiers: none, since it'
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | .30-30 | The main version, rifle or carbine | .30-30 Winchester | Most of 7,500,000+ | Rifles, carbines, and Angle Eject models, Model 55 (1924–1932), Model 64 (1933–1957), Sears' Ted Williams Model 100 (1964–1980), the WWI orders | lever | TBD | No | tube | 7+1 |
-| 2 | .32 Special | — | .32 Winchester Special | Unknown | — | lever | TBD | No | tube | 7+1 |
-| 3 | .25-35 (rare) | Added in 1895 | .25-35 Winchester | Unknown | — | lever | TBD | No | tube | 7+1 |
-| 4 | .38-55 (rare) | One of the two original 1894 calibers | .38-55 Winchester | Unknown | — | lever | TBD | No | tube | 7+1 |
-| 5 | .32-40 (rare) | The other original caliber | .32-40 Winchester | Unknown | — | lever | TBD | No | tube | 7+1 |
-| 6 | .44 Magnum | Handgun caliber; more rounds in the tube | .44 Magnum | Unknown | — | lever | TBD | No | tube | TBD |
-| 7 | .357 Magnum | Handgun caliber; more rounds in the tube | .357 Magnum | Unknown | — | lever | TBD | No | tube | TBD |
-| 8 | .45 Colt | Handgun caliber; more rounds in the tube | .45 Colt | Unknown | — | lever | TBD | No | tube | TBD |
+| 1 | .30-30 | The main version, rifle or carbine | .30-30 Winchester | Most of 7,500,000+ | Rifles, carbines, and Angle Eject models, Model 55 (1924–1932), Model 64 (1933–1957), Sears' Ted Williams Model 100 (1964–1980), the WWI orders | lever | 100 | No | tube | 7+1 |
+| 2 | .32 Special | — | .32 Winchester Special | Unknown | — | lever | 100 | No | tube | 7+1 |
+| 3 | .25-35 (rare) | Added in 1895 | .25-35 Winchester | Unknown | — | lever | 100 | No | tube | 7+1 |
+| 4 | .38-55 (rare) | One of the two original 1894 calibers | .38-55 Winchester | Unknown | — | lever | 100 | No | tube | 7+1 |
+| 5 | .32-40 (rare) | The other original caliber | .32-40 Winchester | Unknown | — | lever | 100 | No | tube | 7+1 |
+| 6 | .44 Magnum | Handgun caliber; more rounds in the tube | .44 Magnum | Unknown | — | lever | 100 | No | tube | TBD |
+| 7 | .357 Magnum | Handgun caliber; more rounds in the tube | .357 Magnum | Unknown | — | lever | 100 | No | tube | TBD |
+| 8 | .45 Colt | Handgun caliber; more rounds in the tube | .45 Colt | Unknown | — | lever | 100 | No | tube | TBD |
 
 ## Sources
 

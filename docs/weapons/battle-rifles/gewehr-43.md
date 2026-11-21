@@ -28,10 +28,10 @@ AR/LMG/battle rifle family attachments; native scope rail on the G43 and K43, ad
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | G43 / K43 | Standard rifle | 7.92×57mm Mauser | Most of about 402,713 | G43, K43, East German reworks (sunburst proof mark), Brazil's M954 Mosquetão copy | semi | TBD | No | box mag | 10 |
-| 2 | Sniper | Spawns with a ZF 4 4× scope | 7.92×57mm Mauser | About 50,000–53,435 (sources differ) | G43 and K43 with the ZF 4 (ZF 43) | semi | TBD | No | box mag | 10 |
-| 3 | K43 Kurz (rare) | Late-war rechambering for the [StG 44](../assault-rifles/stg-44.md)'s round; takes StG 44 mags | 7.92×33mm Kurz | Unknown | — | semi | TBD | No | box mag | 30 |
-| 4 | G 41(W) | Walther's 1941 rifle: muzzle-trap gas system, fixed 10-round mag loaded from stripper clips; heavier at 4.9 kg and longer at 1,140 mm; mainly used on the Eastern Front | 7.92×57mm Mauser | Most of up to about 120,000 Gewehr 41s (6,673 were Mauser's G 41(M)) | G 41(W) | semi | TBD | No | stripper clip | 10 |
+| 1 | G43 / K43 | Standard rifle | 7.92×57mm Mauser | Most of about 402,713 | G43, K43, East German reworks (sunburst proof mark), Brazil's M954 Mosquetão copy | semi | 600 | No | box mag | 10 |
+| 2 | Sniper | Spawns with a ZF 4 4× scope | 7.92×57mm Mauser | About 50,000–53,435 (sources differ) | G43 and K43 with the ZF 4 (ZF 43) | semi | 600 | No | box mag | 10 |
+| 3 | K43 Kurz (rare) | Late-war rechambering for the [StG 44](../assault-rifles/stg-44.md)'s round; takes StG 44 mags | 7.92×33mm Kurz | Unknown | — | semi | 600 | No | box mag | 30 |
+| 4 | G 41(W) | Walther's 1941 rifle: muzzle-trap gas system, fixed 10-round mag loaded from stripper clips; heavier at 4.9 kg and longer at 1,140 mm; mainly used on the Eastern Front | 7.92×57mm Mauser | Most of up to about 120,000 Gewehr 41s (6,673 were Mauser's G 41(M)) | G 41(W) | semi | 600 | No | stripper clip | 10 |
 
 ## Sources
 

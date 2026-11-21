@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Uzi pistol | Semi-auto, no stock | 9×19mm | Unknown | IMI Uzi pistol (1984–1993), IWI Uzi Pro pistol | semi | TBD | No | grip mag | 32 |
+| 1 | Uzi pistol | Semi-auto, no stock | 9×19mm | Unknown | IMI Uzi pistol (1984–1993), IWI Uzi Pro pistol | semi | 450 | No | grip mag | 32 |
 
 ## Sources
 

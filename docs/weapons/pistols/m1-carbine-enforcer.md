@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Enforcer | Pistol version of the M1 carbine | .30 Carbine | Unknown | Universal Enforcer, Iver Johnson Enforcer | semi | TBD | No | box mag | 15 |
+| 1 | Enforcer | Pistol version of the M1 carbine | .30 Carbine | Unknown | Universal Enforcer, Iver Johnson Enforcer | semi | 450 | No | box mag | 15 |
 
 ## Sources
 

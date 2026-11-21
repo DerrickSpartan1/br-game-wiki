@@ -28,15 +28,15 @@ DMR & sniper family attachments; native scope base. Unique: the M2010's suppress
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M24 | US Army sniper rifle: long action, 5-round internal mag | 7.62×51mm | Bought until 2010; up to 3,600 were up for upgrade | M24 | bolt action | TBD | No | single rounds | 5 |
-| 2 | M24A2 | Picatinny rails, suppressor-ready barrel, new stock, detachable mag | 7.62×51mm | Unknown; converted M24s | — | bolt action | TBD | No | box mag | 5 |
-| 3 | M24A3 (crate) | .338 Lapua: 686 mm barrel, 1,500 m effective range | .338 Lapua Magnum | Unknown | — | bolt action | TBD | No | box mag | 5 |
-| 4 | M2010 | Full rebuild: new barrel, chassis, suppressor, and scope | .300 Winchester Magnum | 2,558 ordered | M24E1, XM2010, M2010 ESR | bolt action | TBD | No | box mag | 5 |
-| 5 | M40 | USMC rifle with a 5-round internal mag | 7.62×51mm | About 700 Model 40x rifles in the first order | M40 (1966, wooden stock), M40A1 (fiberglass stock, 10× scope), M40A3 (adjustable stock, bipod) | bolt action | TBD | No | single rounds | 5 |
-| 6 | M40A5 | Threaded barrel for a suppressor, detachable mag, night-vision rail | 7.62×51mm | Unknown | M40A5, M40A6 and M40A7 (folding stock) | bolt action | TBD | No | box mag | 10 |
-| 7 | Remington 700 | Civilian and police rifle | 7.62×51mm | Millions | 700 ADL, BDL, SPS, CDL, Mountain LSS, SPS Varmint, 700P (police) | bolt action | TBD | No | single rounds | TBD |
-| 8 | Remington 700 (.30-06) | Long-action hunting rifle | .30-06 Springfield | Unknown | — | bolt action | TBD | No | single rounds | TBD |
-| 9 | Remington 700 (.300 Win Mag) | Magnum long action | .300 Winchester Magnum | Unknown | — | bolt action | TBD | No | single rounds | TBD |
+| 1 | M24 | US Army sniper rifle: long action, 5-round internal mag | 7.62×51mm | Bought until 2010; up to 3,600 were up for upgrade | M24 | bolt action | 32 | No | single rounds | 5 |
+| 2 | M24A2 | Picatinny rails, suppressor-ready barrel, new stock, detachable mag | 7.62×51mm | Unknown; converted M24s | — | bolt action | 32 | No | box mag | 5 |
+| 3 | M24A3 (crate) | .338 Lapua: 686 mm barrel, 1,500 m effective range | .338 Lapua Magnum | Unknown | — | bolt action | 32 | No | box mag | 5 |
+| 4 | M2010 | Full rebuild: new barrel, chassis, suppressor, and scope | .300 Winchester Magnum | 2,558 ordered | M24E1, XM2010, M2010 ESR | bolt action | 32 | No | box mag | 5 |
+| 5 | M40 | USMC rifle with a 5-round internal mag | 7.62×51mm | About 700 Model 40x rifles in the first order | M40 (1966, wooden stock), M40A1 (fiberglass stock, 10× scope), M40A3 (adjustable stock, bipod) | bolt action | 32 | No | single rounds | 5 |
+| 6 | M40A5 | Threaded barrel for a suppressor, detachable mag, night-vision rail | 7.62×51mm | Unknown | M40A5, M40A6 and M40A7 (folding stock) | bolt action | 32 | No | box mag | 10 |
+| 7 | Remington 700 | Civilian and police rifle | 7.62×51mm | Millions | 700 ADL, BDL, SPS, CDL, Mountain LSS, SPS Varmint, 700P (police) | bolt action | 32 | No | single rounds | TBD |
+| 8 | Remington 700 (.30-06) | Long-action hunting rifle | .30-06 Springfield | Unknown | — | bolt action | 32 | No | single rounds | TBD |
+| 9 | Remington 700 (.300 Win Mag) | Magnum long action | .300 Winchester Magnum | Unknown | — | bolt action | 32 | No | single rounds | TBD |
 
 ## Sources
 

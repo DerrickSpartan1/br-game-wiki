@@ -28,11 +28,11 @@ Tube extension attachment; rails for optics and accessories; other attachments T
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | KSG | 18.5 in barrel; two tubes, 7+7+1 (2¾ in) or 6+6+1 (3 in). Merged differences: Gen 1 to 3 fixes (selector, double feeds, trigger reset); the KSG-NR and Compact have shorter tubes (10+1), and the Compact adds a built-in foregrip light | 12 gauge | Unknown | KSG Gen 1 to 3, KSG-NR, KSG Compact | pump | TBD | No | tube | 14+1 |
-| 2 | KSG short | 13.7 to 16.1 in barrel; 10+1 to 12+1 | 12 gauge | Unknown | KSG Tactical (13.7 in, 10+1), KSG Patrol (16.1 in, 12+1) | pump | TBD | No | tube | TBD |
-| 3 | KSG-25 | 30.5 in barrel; 12+12+1 (2¾ in) or 10+10+1 (3 in); M-LOK slots; launched 2022 | 12 gauge | Unknown | — | pump | TBD | No | tube | 24+1 |
-| 4 | KSG410 | Smaller-bore version; 10+1 | .410 bore | Unknown | — | pump | TBD | No | tube | 10+1 |
-| 5 | KS7 | Single tube, 7+1 (2¾ in) or 6+1 (3 in); 18.5 in barrel; carry handle instead of a top rail; slimmer and lighter | 12 gauge | Unknown | — | pump | TBD | No | tube | 7+1 |
+| 1 | KSG | 18.5 in barrel; two tubes, 7+7+1 (2¾ in) or 6+6+1 (3 in). Merged differences: Gen 1 to 3 fixes (selector, double feeds, trigger reset); the KSG-NR and Compact have shorter tubes (10+1), and the Compact adds a built-in foregrip light | 12 gauge | Unknown | KSG Gen 1 to 3, KSG-NR, KSG Compact | pump | 80 | No | tube | 14+1 |
+| 2 | KSG short | 13.7 to 16.1 in barrel; 10+1 to 12+1 | 12 gauge | Unknown | KSG Tactical (13.7 in, 10+1), KSG Patrol (16.1 in, 12+1) | pump | 80 | No | tube | TBD |
+| 3 | KSG-25 | 30.5 in barrel; 12+12+1 (2¾ in) or 10+10+1 (3 in); M-LOK slots; launched 2022 | 12 gauge | Unknown | — | pump | 80 | No | tube | 24+1 |
+| 4 | KSG410 | Smaller-bore version; 10+1 | .410 bore | Unknown | — | pump | 80 | No | tube | 10+1 |
+| 5 | KS7 | Single tube, 7+1 (2¾ in) or 6+1 (3 in); 18.5 in barrel; carry handle instead of a top rail; slimmer and lighter | 12 gauge | Unknown | — | pump | 80 | No | tube | 7+1 |
 
 ## Sources
 

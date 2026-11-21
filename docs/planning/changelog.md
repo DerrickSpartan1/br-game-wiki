@@ -5,6 +5,7 @@ Every update to the wiki, newest first.
 | Date | Change |
 | --- | --- |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | First pass on fire rates: filled 350 of the 369 unknown RPM cells on the gun pages using PUBG-based rules on [TTK](../systems/ttk.md#fire-rates) (single shots and unknown fire modes stay TBD); added shotgun damage by gauge, action, barrel, and slug to [Starting damage](../systems/starting-damage.md#shotguns) |
 | 2026-11-20 | Added [Starting damage](../systems/starting-damage.md): a baseline and crate line for each category and a starting damage for every round in the roster; marked the [M24A3](../weapons/snipers/remington-700.md) and [AWM .338](../weapons/snipers/ai-arctic-warfare.md) `(crate)`; added the `(crate)` marker to the [gun page template](gun-page-template.md#reading-pages-as-data); the AWM question came off the open questions page |
 | 2026-11-20 | Set what every crate holds on [Loot and spawning](../systems/loot.md#changes-from-pubg) and [Crate weapons](../weapons/crate/index.md) |
 | 2026-11-20 | Set the crate rule on [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) and [Crate weapons](../weapons/crate/index.md): anti-vehicle and heavy snipers, rocket launchers (moved out of special), lethal grenade launchers, and the flash shield; added the ballistic and flash shields to [Class items](../systems/class-items.md); new open questions on the AWM and shields |

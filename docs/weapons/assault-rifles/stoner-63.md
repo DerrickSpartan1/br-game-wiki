@@ -32,7 +32,7 @@ AR/LMG/battle rifle family attachments; adapter scope mount (the Dutch 63A1 had 
 | 2 | Carbine | Shorter 15.7 in barrel and folding stock | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Carbine (XM23, XM23E1, XM23E2), Dutch NWM 63A1 carbine | semi, auto | 700–900 | No | box mag | 30 |
 | 3 | Automatic Rifle | Top-mounted 30-round mag, sights offset left, open bolt, full-auto only | 5.56×45mm | Part of about 4,000 total | Stoner 63 and 63A Automatic Rifle | auto | 700–900 | Yes | top mag | 30 |
 | 4 | Survival Rifle | Aircrew survival gun: cut-down grip, no handguard, short barrel and receiver | 5.56×45mm | 1 prototype | — | semi, auto | 700–900 | No | box mag | 30 |
-| 5 | Stoner 62 | Earlier full-power prototypes | 7.62×51mm | Prototypes only | Stoner M69W, Stoner 62 | semi, auto | TBD | No | box mag | TBD |
+| 5 | Stoner 62 | Earlier full-power prototypes | 7.62×51mm | Prototypes only | Stoner M69W, Stoner 62 | semi, auto | 700–900 | No | box mag | TBD |
 
 ## Sources
 

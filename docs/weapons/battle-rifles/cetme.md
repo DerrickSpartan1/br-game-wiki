@@ -29,7 +29,7 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the Model B
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Model C | Standard Spanish rifle; select-fire | 7.62×51mm | Most made (totals not given) | Model C, Model B (bipod, steel handguard; first production model), Model 58-64-C (Bs converted to NATO) | semi, auto | 550–650 | No | box mag | 20 |
-| 2 | Civilian | Semi-auto only | 7.62×51mm | Unknown | Spanish-made B and C rifles imported by Mars Equipment (1960s), Century Arms CETME Sporter (late 1990s on) | semi | TBD | No | box mag | 20 |
+| 2 | Civilian | Semi-auto only | 7.62×51mm | Unknown | Spanish-made B and C rifles imported by Mars Equipment (1960s), Century Arms CETME Sporter (late 1990s on) | semi | 600 | No | box mag | 20 |
 | 3 | Model A (rare) | Prototype in CETME's own round; bipod; rear sight folds into a foregrip; open bolt on auto | 7.92×41mm CETME | At least 400 (for West Germany), plus Spain's limited 1954 issue | Model A | semi, auto | 550–650 | Auto only | box mag | TBD |
 | 4 | Model E (rare) | Plastic and aluminum parts in place of steel; weaker | 7.62×51mm | Few; quickly dropped | — | semi, auto | 550–650 | No | box mag | 20 |
 | 5 | Model R (rare) | No stock; built to fire from armored vehicles | 7.62×51mm | Unknown | — | semi, auto | 550–650 | No | box mag | 20 |

@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | HK416 .22 LR pistol | 8.5 in barrel; blowback | .22 LR | Unknown | — | semi | TBD | No | box mag | 20 |
+| 1 | HK416 .22 LR pistol | 8.5 in barrel; blowback | .22 LR | Unknown | — | semi | 450 | No | box mag | 20 |
 
 ## Sources
 

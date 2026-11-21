@@ -33,7 +33,7 @@ Pistol/SMG family attachments; four native Picatinny rails (top, both sides, bot
 | 1 | UMP45 | The original; slowest at about 600 to 700 RPM; 25-round mag | .45 ACP | Unknown | — | semi, auto | 600–700 | No | box mag | 25 |
 | 2 | UMP40 | 30-round straight mag | .40 S&W | Unknown | — | semi, 2-round burst | 600–750 | No | box mag | 30 |
 | 3 | UMP9 | 30-round curved mag; about 0.2 kg lighter than an MP5; the only version still made | 9×19mm | Unknown | — | semi, auto | 600–750 | No | box mag | 30 |
-| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — | semi | TBD | No | box mag | 10 |
+| 4 | USC | Semi-auto carbine with a thumbhole stock, longer barrel, and 10-round mag | .45 ACP | Made 2000 to 2013, plus a 2018 run | — | semi | 600–700 | No | box mag | 10 |
 
 ## Sources
 

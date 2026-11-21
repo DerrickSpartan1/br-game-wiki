@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SIG P556 | 10 in barrel, semi-auto | 5.56×45mm | Unknown | — | semi | TBD | No | box mag | 30 |
+| 1 | SIG P556 | 10 in barrel, semi-auto | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 |
 
 ## Sources
 

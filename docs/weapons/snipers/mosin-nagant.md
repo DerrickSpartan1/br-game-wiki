@@ -28,14 +28,14 @@ DMR & sniper family attachments; adapter scope mount (the sniper version comes s
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M1891/30 | Main WWII rifle: sights in meters, new bands, 730 mm barrel | 7.62×54mmR | Unknown, as part of 37 million+ | M1891/30 | bolt action | TBD | No | stripper clip | 5 |
-| 2 | M1891 | Original long rifle: 800 mm barrel on the infantry model; updated in 1910 for the pointed bullet | 7.62×54mmR | Unknown | M1891 infantry, dragoon, and Cossack rifles, M1891/10, US-made Remington and New England Westinghouse rifles (1916–1917) | bolt action | TBD | No | stripper clip | 5 |
-| 3 | M1891/30 sniper | PU or PEM scope, bent-down bolt handle | 7.62×54mmR | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 4 | M1938 | Carbine: 514 mm barrel, 3.4 kg, no bayonet | 7.62×54mmR | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 5 | M1944 | Carbine with a side-folding spike bayonet; 4.1 kg | 7.62×54mmR | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 6 | Polish 7.92 (rare) | Polish rifles in the 7.92 Mauser round | 7.92×57mm Mauser | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 7 | Austrian 8mm (rare) | Captured rifles rechambered for Austria's round | 8×50mmR Mannlicher | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 8 | Bannerman .30-06 (rare) | US civilian conversions | .30-06 Springfield | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
+| 1 | M1891/30 | Main WWII rifle: sights in meters, new bands, 730 mm barrel | 7.62×54mmR | Unknown, as part of 37 million+ | M1891/30 | bolt action | 32 | No | stripper clip | 5 |
+| 2 | M1891 | Original long rifle: 800 mm barrel on the infantry model; updated in 1910 for the pointed bullet | 7.62×54mmR | Unknown | M1891 infantry, dragoon, and Cossack rifles, M1891/10, US-made Remington and New England Westinghouse rifles (1916–1917) | bolt action | 32 | No | stripper clip | 5 |
+| 3 | M1891/30 sniper | PU or PEM scope, bent-down bolt handle | 7.62×54mmR | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 4 | M1938 | Carbine: 514 mm barrel, 3.4 kg, no bayonet | 7.62×54mmR | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 5 | M1944 | Carbine with a side-folding spike bayonet; 4.1 kg | 7.62×54mmR | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 6 | Polish 7.92 (rare) | Polish rifles in the 7.92 Mauser round | 7.92×57mm Mauser | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 7 | Austrian 8mm (rare) | Captured rifles rechambered for Austria's round | 8×50mmR Mannlicher | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 8 | Bannerman .30-06 (rare) | US civilian conversions | .30-06 Springfield | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
 
 ## Sources
 

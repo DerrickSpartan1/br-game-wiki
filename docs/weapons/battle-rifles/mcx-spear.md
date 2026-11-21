@@ -28,11 +28,11 @@ AR/LMG/battle rifle family attachments; full-length Picatinny rail on top and a 
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M7 | Army rifle: 13 in barrel, folding stock; semi and auto | 6.8×51mm | About 50,000 delivered; the Army had planned up to 107,000 | XM5 / XM7 / M7, PIE M7 (product-improved, 13.5 in barrel; shown October 2025) | semi, auto | TBD | No | box mag | 20 |
+| 1 | M7 | Army rifle: 13 in barrel, folding stock; semi and auto | 6.8×51mm | About 50,000 delivered; the Army had planned up to 107,000 | XM5 / XM7 / M7, PIE M7 (product-improved, 13.5 in barrel; shown October 2025) | semi, auto | 650 | No | box mag | 20 |
 | 2 | M8 | Carbine: about 3.5 in shorter and over 1 lb lighter than the M7, fixed stock, stiffer handguard; selector TBD | 6.8×51mm | Unknown; first delivered April 2026, 14,944 requested for fiscal 2027 | XM8 / M8, improved M7 (shown September 2025; 10.5 in barrel, 3.4 kg with suppressor), M7 carbine (shown October 2025; 10 in barrel) | TBD | TBD | No | box mag | 20 |
-| 3 | Civilian | 13 or 16 in barrel; semi-auto only | 6.8×51mm | Unknown | MCX-SPEAR in .277 SIG Fury (13 in, first production run), MCX-SPEAR in 6.8×51mm (16 in carbine and 13 in SBR, 2024) | semi | TBD | No | box mag | 20 |
-| 4 | 7.62 NATO | Civilian rifle with SIG's 7.62×51mm barrel; semi-auto only | 7.62×51mm | Unknown | — | semi | TBD | No | box mag | 20 |
-| 5 | 6.5 Creedmoor | Civilian rifle with SIG's 6.5mm Creedmoor barrel; semi-auto only | 6.5mm Creedmoor | Unknown | — | semi | TBD | No | box mag | 20 |
+| 3 | Civilian | 13 or 16 in barrel; semi-auto only | 6.8×51mm | Unknown | MCX-SPEAR in .277 SIG Fury (13 in, first production run), MCX-SPEAR in 6.8×51mm (16 in carbine and 13 in SBR, 2024) | semi | 600 | No | box mag | 20 |
+| 4 | 7.62 NATO | Civilian rifle with SIG's 7.62×51mm barrel; semi-auto only | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | 20 |
+| 5 | 6.5 Creedmoor | Civilian rifle with SIG's 6.5mm Creedmoor barrel; semi-auto only | 6.5mm Creedmoor | Unknown | — | semi | 600 | No | box mag | 20 |
 
 ## Sources
 

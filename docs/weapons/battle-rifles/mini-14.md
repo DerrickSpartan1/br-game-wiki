@@ -28,16 +28,16 @@ DMR/sniper family attachments; integral scope bases (Picatinny rail on current m
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ranch | Standard civilian rifle; semi-auto | 5.56×45mm | Most made (totals not given) | Original Mini-14 (1973), stainless version (1978), Ranch Rifle (1982), 580-series (2003), Tactical Rifle (2009; flash hider, optional collapsible stock), Mini-14 GB (semi-auto with flash hider and bayonet lug; Bermuda's Mini-14GB/20), Mini-14/GB-F (folding stock) | semi | TBD | No | box mag | 20 |
-| 2 | Target | 22 in heavy barrel with an adjustable harmonic tuner; no iron sights; semi-auto | 5.56×45mm | Unknown; from 2007 | Target Rifle | semi | TBD | No | box mag | 20 |
+| 1 | Ranch | Standard civilian rifle; semi-auto | 5.56×45mm | Most made (totals not given) | Original Mini-14 (1973), stainless version (1978), Ranch Rifle (1982), 580-series (2003), Tactical Rifle (2009; flash hider, optional collapsible stock), Mini-14 GB (semi-auto with flash hider and bayonet lug; Bermuda's Mini-14GB/20), Mini-14/GB-F (folding stock) | semi | 600 | No | box mag | 20 |
+| 2 | Target | 22 in heavy barrel with an adjustable harmonic tuner; no iron sights; semi-auto | 5.56×45mm | Unknown; from 2007 | Target Rifle | semi | 600 | No | box mag | 20 |
 | 3 | AC-556 | Select-fire with semi, 3-round burst, and auto; 13 or 18 in barrel; slightly longer receiver | 5.56×45mm | Unknown; 1979–1999 | AC-556, France's Mousqueton A.M.D. | semi, 3-round burst, auto | 750 | No | box mag | 20 |
 | 4 | AC-556F | Folding stock, 330 mm barrel; 603 mm folded; select-fire with burst | 5.56×45mm | Unknown | AC-556F, AC-556K | semi, 3-round burst, auto | 750 | No | box mag | 20 |
-| 5 | Mini Thirty | AK round; 16.12 or 18.5 in barrel; semi-auto | 7.62×39mm | Unknown; from 1987 | Mini Thirty, Mini Thirty Tactical (2010) | semi | TBD | No | box mag | 20 |
-| 6 | Mini-6.8 | Semi-auto | 6.8mm Remington SPC | Unknown; 2007–2012 | — | semi | TBD | No | box mag | TBD |
-| 7 | .300 BLK | Tactical Rifle in .300 Blackout; semi-auto | .300 Blackout | Unknown; from 2015 | — | semi | TBD | No | box mag | TBD |
-| 8 | Mini-14/5R (rare) | Overseas civilian rifle | .222 Remington | Unknown; 1980s | — | semi | TBD | No | box mag | TBD |
-| 9 | UK straight-pull (rare) | Manual straight-pull rifle made after the UK's 1988 ban on semi-auto centerfire rifles | 5.56×45mm | A small number | UK straight-pull Mini-14 (a straight-pull Mini Thirty was also made) | straight-pull | TBD | No | box mag | TBD |
-| 10 | XGI (rare) | Listed as a 7.62×51mm version of the Mini-14 | 7.62×51mm | Unknown | — | semi | TBD | No | box mag | TBD |
+| 5 | Mini Thirty | AK round; 16.12 or 18.5 in barrel; semi-auto | 7.62×39mm | Unknown; from 1987 | Mini Thirty, Mini Thirty Tactical (2010) | semi | 600 | No | box mag | 20 |
+| 6 | Mini-6.8 | Semi-auto | 6.8mm Remington SPC | Unknown; 2007–2012 | — | semi | 600 | No | box mag | TBD |
+| 7 | .300 BLK | Tactical Rifle in .300 Blackout; semi-auto | .300 Blackout | Unknown; from 2015 | — | semi | 600 | No | box mag | TBD |
+| 8 | Mini-14/5R (rare) | Overseas civilian rifle | .222 Remington | Unknown; 1980s | — | semi | 600 | No | box mag | TBD |
+| 9 | UK straight-pull (rare) | Manual straight-pull rifle made after the UK's 1988 ban on semi-auto centerfire rifles | 5.56×45mm | A small number | UK straight-pull Mini-14 (a straight-pull Mini Thirty was also made) | straight-pull | 50 | No | box mag | TBD |
+| 10 | XGI (rare) | Listed as a 7.62×51mm version of the Mini-14 | 7.62×51mm | Unknown | — | semi | 600 | No | box mag | TBD |
 
 ## Sources
 

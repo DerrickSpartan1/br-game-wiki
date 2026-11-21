@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SCAR 15P | Semi-auto pistol version of the SCAR-SC | 5.56×45mm | Unknown | — | semi | TBD | No | box mag | 30 |
+| 1 | SCAR 15P | Semi-auto pistol version of the SCAR-SC | 5.56×45mm | Unknown | — | semi | 450 | No | box mag | 30 |
 
 ## Sources
 

@@ -28,14 +28,14 @@ Tube extension attachment; assault rifle family mags on the box-mag version; oth
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 870, long | 21 to 30 in barrel | 12 gauge | Unknown | Wingmaster, Express, Fieldmaster, Super Magnum, SPS, turkey and waterfowl models, rifled slug guns | pump | TBD | No | tube | TBD |
-| 2 | 870, short | 18 to 20 in barrel | 12 gauge | Unknown | Police models, Marine Magnum, U.S. military M870, short deer guns | pump | TBD | No | tube | TBD |
-| 3 | 870, breacher | 14 in barrel | 12 gauge | Unknown | Short-barrel breaching models | pump | TBD | No | tube | TBD |
-| 4 | 870, box magazine | 6+1 detachable box instead of the tube | 12 gauge | Unknown | — | pump | TBD | No | box mag | 6 |
-| 5 | 870, 16 gauge | — | 16 gauge | Unknown | — | pump | TBD | No | tube | TBD |
-| 6 | 870, 20 gauge | Smaller receiver from 1972 | 20 gauge | Unknown | 20 gauge Wingmaster, Fieldmaster, and Lightweight | pump | TBD | No | tube | TBD |
-| 7 | 870, 28 gauge | Smaller receiver (1969) | 28 gauge | Unknown | — | pump | TBD | No | tube | TBD |
-| 8 | 870, .410 | Smaller receiver (1969) | .410 bore | Unknown | .410 Wingmaster, .410 Turkey TSS | pump | TBD | No | tube | TBD |
+| 1 | 870, long | 21 to 30 in barrel | 12 gauge | Unknown | Wingmaster, Express, Fieldmaster, Super Magnum, SPS, turkey and waterfowl models, rifled slug guns | pump | 80 | No | tube | TBD |
+| 2 | 870, short | 18 to 20 in barrel | 12 gauge | Unknown | Police models, Marine Magnum, U.S. military M870, short deer guns | pump | 80 | No | tube | TBD |
+| 3 | 870, breacher | 14 in barrel | 12 gauge | Unknown | Short-barrel breaching models | pump | 80 | No | tube | TBD |
+| 4 | 870, box magazine | 6+1 detachable box instead of the tube | 12 gauge | Unknown | — | pump | 80 | No | box mag | 6 |
+| 5 | 870, 16 gauge | — | 16 gauge | Unknown | — | pump | 80 | No | tube | TBD |
+| 6 | 870, 20 gauge | Smaller receiver from 1972 | 20 gauge | Unknown | 20 gauge Wingmaster, Fieldmaster, and Lightweight | pump | 80 | No | tube | TBD |
+| 7 | 870, 28 gauge | Smaller receiver (1969) | 28 gauge | Unknown | — | pump | 80 | No | tube | TBD |
+| 8 | 870, .410 | Smaller receiver (1969) | .410 bore | Unknown | .410 Wingmaster, .410 Turkey TSS | pump | 80 | No | tube | TBD |
 
 ## Sources
 

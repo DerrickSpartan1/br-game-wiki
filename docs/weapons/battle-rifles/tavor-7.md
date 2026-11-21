@@ -30,7 +30,7 @@ AR/LMG/battle rifle family attachments; full-length Picatinny rail on top, M-LOK
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Tavor 7 | 17 in barrel; semi and auto | 7.62×51mm | Unknown; no military buyers named | Military Tavor 7 (2017) | semi, auto | 600–900 | No | bullpup mag | 20 |
 | 2 | Tavor 7 20 in (rare) | 20 in barrel, 806 mm long; one source calls it a likely marksman version; semi and auto | 7.62×51mm | Unknown | — | semi, auto | 600–900 | No | bullpup mag | 20 |
-| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi | TBD | No | bullpup mag | 20 |
+| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi | 600 | No | bullpup mag | 20 |
 
 ## Sources
 

@@ -30,7 +30,7 @@ AR/LMG/battle rifle family attachments; game-version scope mount. Unique attachm
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | StG 44 | The production rifle | 7.92×33mm Kurz | 425,977 (all variants) | MP 43, MP 43/1, MP 44, StG 44, East German MPi.44, Argentine CITEFA trial copies, modern semi-auto reproductions (SSD/HZA Kulmbach, PTR-44) | semi, auto | 500–600 | No | box mag | 30 |
 | 2 | MKb 42(H) | The predecessor; fires from an open bolt | 7.92×33mm Kurz | Part of about 29,500 built with early MP 43/1s by the end of 1943 | — | semi, auto | 500–600 | Yes | box mag | 30 |
-| 3 | .22 replica | German Sport Guns semi-auto replica | .22 LR | Made in large numbers | — | semi | TBD | No | box mag | TBD |
+| 3 | .22 replica | German Sport Guns semi-auto replica | .22 LR | Made in large numbers | — | semi | 500–600 | No | box mag | TBD |
 
 ## Sources
 

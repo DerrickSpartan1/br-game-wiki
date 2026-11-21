@@ -28,12 +28,12 @@ AR/LMG/battle rifle family attachments; adapter scope mount, except the sniper v
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SVT-40 | Standard rifle | 7.62×54mmR | Most of about 1.5–1.6 million | SVT-40, SVT-38 (open-top receiver, bigger six-vent muzzle brake, longer bayonet; about 150,000), German SIG 258(r) and 259(r), Finnish captured rifles, Soviet civilian hunting rifles (no bayonet), Finland's Tapako clone prototype | semi | TBD | No | box mag | 10 |
-| 2 | Sniper | Spawns with a PU 3.5×21 scope | 7.62×54mmR | 51,710 (stopped in 1942, since the scope mount and stock shimming worked poorly) | SVT-40 sniper, SVT-38 sniper | semi | TBD | No | box mag | 10 |
+| 1 | SVT-40 | Standard rifle | 7.62×54mmR | Most of about 1.5–1.6 million | SVT-40, SVT-38 (open-top receiver, bigger six-vent muzzle brake, longer bayonet; about 150,000), German SIG 258(r) and 259(r), Finnish captured rifles, Soviet civilian hunting rifles (no bayonet), Finland's Tapako clone prototype | semi | 600 | No | box mag | 10 |
+| 2 | Sniper | Spawns with a PU 3.5×21 scope | 7.62×54mmR | 51,710 (stopped in 1942, since the scope mount and stock shimming worked poorly) | SVT-40 sniper, SVT-38 sniper | semi | 600 | No | box mag | 10 |
 | 3 | AVT-40 | Select-fire, about 750 RPM; the safety doubles as the selector; stouter stock, often marked with a large "A" | 7.62×54mmR | Few; made from mid-1942 to summer 1943 | AVT-40 | semi, auto | 750 | No | box mag | 10 |
-| 4 | SKT-40 (rare) | Shorter carbine; lost to a Simonov design | 7.62×54mmR | Few; prototypes | SKT-40 | semi | TBD | No | box mag | 10 |
-| 5 | 7.62×39 (rare) | Prototype in the intermediate round; not accepted | 7.62×39mm | Few; prototypes | — | semi | TBD | No | box mag | TBD |
-| 6 | AK44 (rare) | Swiss copy by W+F Bern; 6-round mag; never adopted | 7.5×55mm Swiss | Few; prototypes | — | semi | TBD | No | box mag | 6 |
+| 4 | SKT-40 (rare) | Shorter carbine; lost to a Simonov design | 7.62×54mmR | Few; prototypes | SKT-40 | semi | 600 | No | box mag | 10 |
+| 5 | 7.62×39 (rare) | Prototype in the intermediate round; not accepted | 7.62×39mm | Few; prototypes | — | semi | 600 | No | box mag | TBD |
+| 6 | AK44 (rare) | Swiss copy by W+F Bern; 6-round mag; never adopted | 7.5×55mm Swiss | Few; prototypes | — | semi | 600 | No | box mag | 6 |
 
 ## Sources
 

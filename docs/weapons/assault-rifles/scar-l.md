@@ -35,7 +35,7 @@ AR/LMG/battle rifle family attachments; native rails (top, sides, and bottom). U
 | 3 | SCAR-L LB | 18 in long barrel | 5.56×45mm | Unknown | Mk 16 Mod 0 LB | semi, auto | 625–650 | No | box mag | 30 |
 | 4 | SCAR-SC | Subcompact (2018): 7.5 in barrel, 3.1 kg, 200 m | 5.56×45mm | Unknown | SCAR-SC, SCAR PDW (6.7 in barrel; discontinued, replaced by the SC) | semi, auto | 625–650 | No | box mag | 30 |
 | 5 | SCAR-SC .300 BLK | Subcompact in .300 Blackout | .300 Blackout | Unknown | — | semi, auto | 625–650 | No | box mag | 30 |
-| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.29 kg (7.25 lb), folding front and rear iron sights | 5.56×45mm | Unknown; the original run ended October 2025 | SCAR 16S, next-generation SCAR 16S (2026: hydraulically buffered bolt carrier, M-LOK rail, non-reciprocating charging handle, 8.7 lb) | semi | TBD | No | box mag | 30 |
+| 6 | Civilian | Semi-auto only; 16.25 in barrel, 3.29 kg (7.25 lb), folding front and rear iron sights | 5.56×45mm | Unknown; the original run ended October 2025 | SCAR 16S, next-generation SCAR 16S (2026: hydraulically buffered bolt carrier, M-LOK rail, non-reciprocating charging handle, 8.7 lb) | semi | 625–650 | No | box mag | 30 |
 
 ## Sources
 

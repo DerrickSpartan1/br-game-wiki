@@ -32,12 +32,12 @@ Pistol/SMG family attachments; native top rail; shares mags with the Glock famil
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Vector .45 | The original military and police SMG | .45 ACP | Limited | Gen I, Gen II, Gen III (slimmer, M-LOK), semi-auto SBR, K10 prototype | semi, 2-round burst, auto | 1,200 | No | box mag | 13 |
 | 2 | Vector 9mm | SMG on Glock 17/18 mags | 9×19mm | Limited | Gen II 9mm lower, 9mm SBR | semi, 2-round burst, auto | 1,200 | No | box mag | 33 |
-| 3 | CRB | Semi-auto carbine; a shroud extends the barrel to 16 in | .45 ACP | Unknown | CRB, Canadian 18.6 in CRB, Enhanced, California featureless | semi | TBD | No | box mag | 13 |
-| 4 | .40 | Civilian lower; semi-auto only; Glock 22 mags | .40 S&W | Unknown | — | semi | TBD | No | box mag | TBD |
-| 5 | 10mm | Civilian lower; semi-auto only; Glock 20 mags | 10mm Auto | Unknown | — | semi | TBD | No | box mag | TBD |
-| 6 | .357 SIG | Civilian lower; semi-auto only; Glock 31 mags | .357 SIG | Unknown | — | semi | TBD | No | box mag | TBD |
-| 7 | 9×21 | Italian civilian model; semi-auto only; Glock 17 mags | 9×21mm | Unknown | — | semi | TBD | No | box mag | TBD |
-| 8 | Vector 22 | Simple straight blowback instead of the Super V; 10-round mag; semi-auto only | .22 LR | Unknown | — | semi | TBD | No | box mag | 10 |
+| 3 | CRB | Semi-auto carbine; a shroud extends the barrel to 16 in | .45 ACP | Unknown | CRB, Canadian 18.6 in CRB, Enhanced, California featureless | semi | 1,200 | No | box mag | 13 |
+| 4 | .40 | Civilian lower; semi-auto only; Glock 22 mags | .40 S&W | Unknown | — | semi | 1,200 | No | box mag | TBD |
+| 5 | 10mm | Civilian lower; semi-auto only; Glock 20 mags | 10mm Auto | Unknown | — | semi | 1,200 | No | box mag | TBD |
+| 6 | .357 SIG | Civilian lower; semi-auto only; Glock 31 mags | .357 SIG | Unknown | — | semi | 1,200 | No | box mag | TBD |
+| 7 | 9×21 | Italian civilian model; semi-auto only; Glock 17 mags | 9×21mm | Unknown | — | semi | 1,200 | No | box mag | TBD |
+| 8 | Vector 22 | Simple straight blowback instead of the Super V; 10-round mag; semi-auto only | .22 LR | Unknown | — | semi | 1,200 | No | box mag | 10 |
 
 ## Sources
 

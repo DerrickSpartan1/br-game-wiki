@@ -32,7 +32,7 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 33 standard
 | 2 | .45 prototype | 1941 trial gun | .45 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
 | 3 | .32 prototype | 1940 prototype | .32 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
 | 4 | .38 prototype | Trial gun; sources disagree on the exact .38 round; caliber to confirm | .38 ACP | Prototype | — | semi, auto | 700 | Yes | top mag | TBD |
-| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | TBD | Yes | top mag | TBD |
+| 5 | .22 "wheel gun" | Owen's first prototype; fed from a top drum made from a revolver cylinder | .22 LR | Prototype | Original prototype, Experimental Model 1 | semi, auto | 700 | Yes | top mag | TBD |
 
 ## Sources
 

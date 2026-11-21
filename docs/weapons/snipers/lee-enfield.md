@@ -28,11 +28,11 @@ DMR & sniper family attachments; adapter scope mount (the No. 4 (T) comes scoped
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SMLE Mk III | WWI standard: pointed .303 round, 640 mm barrel | .303 British | Unknown | SMLE Mk I, Mk III, Mk III*, Lithgow and Ishapore .303 rifles | bolt action | TBD | No | box mag | 10 |
-| 2 | No. 4 Mk I | WWII: sturdier and easier to make | .303 British | Unknown | No. 4 Mk I, Mk I* (US and Canada), No. 5 Mk 2 | bolt action | TBD | No | box mag | 10 |
-| 3 | No. 4 Mk I (T) (rare) | Sniper with a scope; few rifles got one | .303 British | Unknown; few | Mk I (T), Mk I* (T) | bolt action | TBD | No | box mag | 10 |
-| 4 | No. 5 Jungle Carbine | 475 mm barrel, flash hider, shorter stock, 3.2 kg | .303 British | About 250,000 (1944–1947) | No. 5 Mk I | bolt action | TBD | No | box mag | 10 |
-| 5 | Ishapore 2A1 | 7.62 NATO with a square 10- or 12-round mag | 7.62×51mm | About 250,000 (1962–1974) | 2A, 2A1 | bolt action | TBD | No | box mag | 10 |
+| 1 | SMLE Mk III | WWI standard: pointed .303 round, 640 mm barrel | .303 British | Unknown | SMLE Mk I, Mk III, Mk III*, Lithgow and Ishapore .303 rifles | bolt action | 40 | No | box mag | 10 |
+| 2 | No. 4 Mk I | WWII: sturdier and easier to make | .303 British | Unknown | No. 4 Mk I, Mk I* (US and Canada), No. 5 Mk 2 | bolt action | 40 | No | box mag | 10 |
+| 3 | No. 4 Mk I (T) (rare) | Sniper with a scope; few rifles got one | .303 British | Unknown; few | Mk I (T), Mk I* (T) | bolt action | 40 | No | box mag | 10 |
+| 4 | No. 5 Jungle Carbine | 475 mm barrel, flash hider, shorter stock, 3.2 kg | .303 British | About 250,000 (1944–1947) | No. 5 Mk I | bolt action | 40 | No | box mag | 10 |
+| 5 | Ishapore 2A1 | 7.62 NATO with a square 10- or 12-round mag | 7.62×51mm | About 250,000 (1962–1974) | 2A, 2A1 | bolt action | 40 | No | box mag | 10 |
 | 6 | Charlton (rare) | New Zealand automatic conversion, 7.3 kg | .303 British | About 1,500 in New Zealand, plus an Australian version by Electrolux | Charlton automatic rifle, Electrolux version | semi, auto | 600 | TBD | box mag | 10 |
 
 ## Sources

@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | GSG MP40 pistol | Semi-auto, no stock | 9×19mm | Unknown | German Sport Guns MP40 pistol (imported by ATI since 2016) | semi | TBD | No | box mag | 32 |
+| 1 | GSG MP40 pistol | Semi-auto, no stock | 9×19mm | Unknown | German Sport Guns MP40 pistol (imported by ATI since 2016) | semi | 450 | No | box mag | 32 |
 
 ## Sources
 

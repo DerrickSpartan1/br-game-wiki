@@ -30,7 +30,7 @@ Versions TBD: they follow the Vector's calibers, to be listed.
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | TBD | No | box mag | TBD |
+| 1 | Vector SDP | Semi-auto; arm brace on the SDP-SB; calibers to list | TBD | Unknown | Vector SDP, SDP-SB | semi | 450 | No | box mag | TBD |
 
 ## Sources
 

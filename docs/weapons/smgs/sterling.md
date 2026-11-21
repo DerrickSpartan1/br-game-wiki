@@ -32,9 +32,9 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 34 standard
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Sterling | Standard select-fire Sterling | 9×19mm | Most of 400,000+ | Patchett Mk 1, L2A1 (Mk 2), L2A2 (Mk 3), L2A3 (Mk 4), Canadian C1, Indian 1A1, Chilean FAMAE PAF | semi, auto | 550 | Yes | side mag | 34 |
 | 2 | Suppressed | Ported barrel inside a suppressor cylinder; used by special forces in Vietnam and the Falklands | 9×19mm | Unknown | L34A1 (Mk 5), Indian 2A1 silent version | semi, auto | 550 | Yes | side mag | 34 |
-| 3 | Mk 6 carbine | Semi-auto only, closed bolt; the US version has a 16 in barrel | 9×19mm | Unknown | Mk 6 "Police", Sterling Sporter, PAWS ZX-5 | semi | TBD | No | side mag | 34 |
-| 4 | PAWS ZX-7 | American closed-bolt .45 version with a rubber grip; takes Grease Gun mags | .45 ACP | Unknown | ZX-7, ZX-8, ZX7SS (suppressed) | semi | TBD | No | side mag | 30 |
-| 5 | .40 prototype | One-off PAWS prototype | .40 S&W | 1 prototype | — | semi | TBD | No | side mag | TBD |
+| 3 | Mk 6 carbine | Semi-auto only, closed bolt; the US version has a 16 in barrel | 9×19mm | Unknown | Mk 6 "Police", Sterling Sporter, PAWS ZX-5 | semi | 550 | No | side mag | 34 |
+| 4 | PAWS ZX-7 | American closed-bolt .45 version with a rubber grip; takes Grease Gun mags | .45 ACP | Unknown | ZX-7, ZX-8, ZX7SS (suppressed) | semi | 550 | No | side mag | 30 |
+| 5 | .40 prototype | One-off PAWS prototype | .40 S&W | 1 prototype | — | semi | 550 | No | side mag | TBD |
 
 ## Sources
 

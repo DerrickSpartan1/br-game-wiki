@@ -32,7 +32,7 @@ AR/LMG/battle rifle family attachments; dovetail scope mount in the carry handle
 | 2 | QBZ-95B | Carbine with a foregrip, Krinkov-style muzzle booster, and front sight on the carry handle; no grenade launcher or bayonet | 5.8×42mm | Unknown (navy, special forces) | QBZ-95B, QBZ-95B-1 | semi, auto | 650 | No | bullpup mag | 30 |
 | 3 | QBZ-97 | Export version in NATO caliber with its own mags | 5.56×45mm | Unknown | QBZ-97, QBZ-97A (adds burst and bolt hold-open), Sudanese UBGL variant | semi, 3-round burst, auto | 650 | No | bullpup mag | 30 |
 | 4 | QBZ-97B | Export carbine | 5.56×45mm | Unknown | QBZ-97B (NQZ03B) | semi, auto | 650 | No | bullpup mag | 30 |
-| 5 | Civilian | Semi-auto sporters that take STANAG mags | 5.56×45mm | Unknown | Type 97, Type 97A, T97NSR, T97NSR-A, EM3516, flat-top builds | semi | TBD | No | bullpup mag | 30 |
+| 5 | Civilian | Semi-auto sporters that take STANAG mags | 5.56×45mm | Unknown | Type 97, Type 97A, T97NSR, T97NSR-A, EM3516, flat-top builds | semi | 650 | No | bullpup mag | 30 |
 
 ## Sources
 

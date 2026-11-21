@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | SA58 pistol | Semi-auto, no stock | 7.62×51mm | Unknown | DS Arms SA58 pistol | semi | TBD | No | box mag | 20 |
+| 1 | SA58 pistol | Semi-auto, no stock | 7.62×51mm | Unknown | DS Arms SA58 pistol | semi | 450 | No | box mag | 20 |
 
 ## Sources
 

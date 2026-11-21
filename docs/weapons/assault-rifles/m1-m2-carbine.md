@@ -30,11 +30,11 @@ AR/LMG/battle rifle family attachments; adapter scope mount. Unique: the M3 infr
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | M1 | Semi-auto | .30 Carbine | Most of 6.1 million+ | M1, M1A1 paratrooper (folding stock, about 150,000), M1A2, M1A3 (underfolder), Japanese Howa copies, German-captured Selbstladekarabiner 455(a), commercial copies (Universal, Plainfield, Inland, Auto-Ordnance) | semi | TBD | No | box mag | 15 |
+| 1 | M1 | Semi-auto | .30 Carbine | Most of 6.1 million+ | M1, M1A1 paratrooper (folding stock, about 150,000), M1A2, M1A3 (underfolder), Japanese Howa copies, German-captured Selbstladekarabiner 455(a), commercial copies (Universal, Plainfield, Inland, Auto-Ordnance) | semi | 750–775 | No | box mag | 15 |
 | 2 | M2 | Select-fire, 750 to 775 RPM | .30 Carbine | About 600,000, plus field conversions | M2, M2A2 (folding stock), T4, T17/T18 conversion kits, M3 (its sniperscope is now an attachment) | semi, auto | 750–775 | No | box mag | 15 |
-| 3 | 7.62 clone | Vietnamese copies using 35-round mags | 7.62×25mm Tokarev | Unknown | — | semi | TBD | No | box mag | 35 |
-| 4 | 9mm carbine | Commercial semi-auto 9mm versions | 9×19mm | Unknown | Iver Johnson 9mm carbine (Hi-Power mags), Chiappa M1-9 (blowback, Beretta mags) | semi | TBD | No | box mag | TBD |
-| 5 | Spitfire | Melvin Johnson's conversion to a small, fast round | 5.7mm Johnson | Few made | — | semi | TBD | No | box mag | 15 |
+| 3 | 7.62 clone | Vietnamese copies using 35-round mags | 7.62×25mm Tokarev | Unknown | — | semi | 750–775 | No | box mag | 35 |
+| 4 | 9mm carbine | Commercial semi-auto 9mm versions | 9×19mm | Unknown | Iver Johnson 9mm carbine (Hi-Power mags), Chiappa M1-9 (blowback, Beretta mags) | semi | 750–775 | No | box mag | TBD |
+| 5 | Spitfire | Melvin Johnson's conversion to a small, fast round | 5.7mm Johnson | Few made | — | semi | 750–775 | No | box mag | 15 |
 
 ## Sources
 

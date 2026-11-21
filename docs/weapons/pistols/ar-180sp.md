@@ -30,7 +30,7 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AR-180SP (rare) | Pistol version of the short AR-18S | 5.56×45mm | A single prototype (1982) | — | semi | TBD | No | box mag | 20 |
+| 1 | AR-180SP (rare) | Pistol version of the short AR-18S | 5.56×45mm | A single prototype (1982) | — | semi | 450 | No | box mag | 20 |
 
 ## Sources
 

@@ -32,7 +32,7 @@ AR/LMG/battle rifle family attachments; native top Picatinny rail. Unique: Palla
 | 2 | Mini-Beryl | Carbine: 9.3 in barrel, 3.0 kg; still fires rifle grenades with live ammo | 5.56×45mm | Unknown | wz. 96 Mini-Beryl | semi, auto | 700 | No | box mag | 30 |
 | 3 | Beryl M762 | Export version on the 96C; takes AK-47 mags | 7.62×39mm | 3,200+ (Nigeria) | Beryl M762 | semi, auto | 700 | No | box mag | 30 |
 | 4 | Beryl M545 | Proposed export version; takes AK-74 mags | 5.45×39mm | Prototypes only | Beryl M545 | semi, auto | 700 | No | box mag | 30 |
-| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | TBD | No | box mag | 30 |
+| 5 | Civilian | Semi-auto sport versions | 5.56×45mm | Unknown | Beryl sport and IPSC models | semi | 700 | No | box mag | 30 |
 
 ## Sources
 

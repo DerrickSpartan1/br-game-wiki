@@ -30,7 +30,7 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | RPK | Original: AKM with a long fixed barrel, bipod, and club-foot stock | 7.62×39mm | Unknown | RPK, RPKS (folding stock), RPKN and RPKSN (night-sight rail), RPKM / RPK-203 (export, polymer furniture), Bulgarian, Hungarian, Romanian, and Serbian production | semi, auto | 600 | No | box mag | 40 |
 | 2 | RPK-74 | 5.45mm version built from the AK-74 | 5.45×39mm | Unknown | RPK-74, RPKS-74, RPK-74N, RPK-74M (polymer furniture, side rail) | semi, auto | 600 | No | box mag | 45 |
-| 3 | RPK-201 (rare) | Export RPK-74M in 5.56 NATO | 5.56×45mm | Unknown | RPK-201 | semi, auto | TBD | No | box mag | TBD |
+| 3 | RPK-201 (rare) | Export RPK-74M in 5.56 NATO | 5.56×45mm | Unknown | RPK-201 | semi, auto | 600 | No | box mag | TBD |
 | 4 | RPK-16 | Modern version: rails, detachable bipod, folding stock, 550 or 370 mm barrel, 95-round drum | 5.45×39mm | Unknown; Russian contract in 2018 | RPK-16 | semi, auto | 700 | No | box mag | 95 |
 
 ## Sources

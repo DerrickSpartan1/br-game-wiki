@@ -30,7 +30,7 @@ TBD
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | TBD | No | tube | TBD |
+| 1 | Stakeout | 13 in barrel, pistol grip | 12 gauge | Unknown | NYPD Emergency Service Unit version (forend hand strap) | pump (slam-fire) | 80 | No | tube | TBD |
 
 ## Sources
 

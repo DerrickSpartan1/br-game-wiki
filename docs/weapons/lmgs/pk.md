@@ -30,9 +30,9 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | PK | Original: fluted barrel, longer flash suppressor | 7.62×54mmR | Unknown | PK, PKS (on the 6T2 tripod), Serbia's Zastava M84, Bulgaria's Arsenal MG | auto | 600–800 | Yes | belt | 100 |
 | 2 | PKM | 1969 update: lighter, no barrel fluting, shorter flash hider, hinged butt rest | 7.62×54mmR | Unknown | PKM, PKMS, PKMN, PKMSN, China's Type 80, Romania's md. 66, Bulgaria's MG-M1, MG-M1S, and MG-1M, Ukraine's Mayak KM-7.62, Finland's 7.62 KK PKM | auto | 600–800 | Yes | belt | 100 |
-| 3 | PKP Pecheneg | 2001: heavy fixed barrel in a forced-air cooling sleeve | 7.62×54mmR | Unknown | PKP Pecheneg, Pecheneg-N (night-scope rail), Pecheneg-SP | auto | TBD | Yes | belt | 100 |
-| 4 | 7.62 NATO (rare) | Export versions in the NATO round | 7.62×51mm | Unknown | Bulgaria's MG-M2 and MG-M2S, China's CS/LM4 | auto | TBD | Yes | belt | 100 |
-| 5 | 5.56 (rare) | Serbian PKM copies in 5.56 NATO | 5.56×45mm | Unknown | Zastava M09, M10 (solid stock) | auto | TBD | Yes | belt | 100 |
+| 3 | PKP Pecheneg | 2001: heavy fixed barrel in a forced-air cooling sleeve | 7.62×54mmR | Unknown | PKP Pecheneg, Pecheneg-N (night-scope rail), Pecheneg-SP | auto | 600–800 | Yes | belt | 100 |
+| 4 | 7.62 NATO (rare) | Export versions in the NATO round | 7.62×51mm | Unknown | Bulgaria's MG-M2 and MG-M2S, China's CS/LM4 | auto | 600–800 | Yes | belt | 100 |
+| 5 | 5.56 (rare) | Serbian PKM copies in 5.56 NATO | 5.56×45mm | Unknown | Zastava M09, M10 (solid stock) | auto | 600–800 | Yes | belt | 100 |
 
 ## Sources
 

@@ -34,14 +34,14 @@ Pistol/SMG family attachments; the 100-round drum is the extended mag and the 50
 | 2 | M1928 / M1928A1 | Slowed to about 600 to 725 RPM; the M1928A1 has a horizontal forend and sling | .45 ACP | 562,511 M1928A1s | Navy M1928, Savage aluminum-receiver M1928, M1928A1 | semi, auto | 600–725 | Yes | box mag | TBD |
 | 3 | M1 / M1A1 | Simplified WWII model: side charging handle, no compensator or fins | .45 ACP | 285,480 M1s and 539,143 M1A1s | M1, M1A1 | semi, auto | 600–900 | Yes | box mag | TBD |
 | 4 | M1919 | Early prototype with a very high fire rate, up to 1,500 RPM; some had no stock or sights | .45 ACP | About 40 | — | semi, auto | 1,500 | Yes | box mag | TBD |
-| 5 | M1923 | Heavier gun with a 14 in barrel, bipod, and bayonet lug | .45 Remington–Thompson | Not adopted; few | — | semi, auto | TBD | Yes | box mag | TBD |
-| 6 | FBI 10mm | Limited FBI conversions | 10mm Auto | Limited | — | semi, auto | TBD | Yes | box mag | TBD |
-| 7 | 9mm | British BSA licensed version and early experiments | 9×19mm | Small numbers | BSA Model 1926 (9mm), M1919 experiments | semi, auto | TBD | Yes | box mag | TBD |
-| 8 | 7.63mm | British BSA licensed version | 7.63×25mm Mauser | Small numbers | BSA Model 1926 (7.63mm) | semi, auto | TBD | Yes | box mag | TBD |
-| 9 | Viet Cong copy | Jungle-workshop clones | 7.62×25mm Tokarev | Unknown | — | semi, auto | TBD | Yes | box mag | TBD |
-| 10 | .22 | Semi-auto .22 version and early experiments | .22 LR | Unknown | 1927A3, M1919 experiments | semi | TBD | No | box mag | TBD |
-| 11 | .32 ACP | M1919 experiment | .32 ACP | Experimental | — | semi, auto | TBD | Yes | box mag | TBD |
-| 12 | .38 ACP | M1919 experiment | .38 ACP | Experimental | — | semi, auto | TBD | Yes | box mag | TBD |
+| 5 | M1923 | Heavier gun with a 14 in barrel, bipod, and bayonet lug | .45 Remington–Thompson | Not adopted; few | — | semi, auto | 800–900 | Yes | box mag | TBD |
+| 6 | FBI 10mm | Limited FBI conversions | 10mm Auto | Limited | — | semi, auto | 800–900 | Yes | box mag | TBD |
+| 7 | 9mm | British BSA licensed version and early experiments | 9×19mm | Small numbers | BSA Model 1926 (9mm), M1919 experiments | semi, auto | 800–900 | Yes | box mag | TBD |
+| 8 | 7.63mm | British BSA licensed version | 7.63×25mm Mauser | Small numbers | BSA Model 1926 (7.63mm) | semi, auto | 800–900 | Yes | box mag | TBD |
+| 9 | Viet Cong copy | Jungle-workshop clones | 7.62×25mm Tokarev | Unknown | — | semi, auto | 800–900 | Yes | box mag | TBD |
+| 10 | .22 | Semi-auto .22 version and early experiments | .22 LR | Unknown | 1927A3, M1919 experiments | semi | 800–900 | No | box mag | TBD |
+| 11 | .32 ACP | M1919 experiment | .32 ACP | Experimental | — | semi, auto | 800–900 | Yes | box mag | TBD |
+| 12 | .38 ACP | M1919 experiment | .38 ACP | Experimental | — | semi, auto | 800–900 | Yes | box mag | TBD |
 | 13 | .351 WSL | One prototype with a 20 in barrel and about 1,000 RPM | .351 WSL | 1 | — | semi, auto | 1,000 | Yes | box mag | TBD |
 
 ## Sources

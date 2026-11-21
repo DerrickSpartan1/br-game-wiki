@@ -31,7 +31,7 @@ AR/LMG/battle rifle family attachments; Picatinny rail on the receiver. Unique: 
 | 1 | Negev | Standard: 460 mm barrel | 5.56×45mm | Unknown | Original Negev (1997–2012), Negev NG-5 (2012 on), Vietnam's STrL5.56 | semi, auto | 850–1,050 | Yes | belt, box mag | 150 |
 | 2 | Negev Commando | Short 330 mm barrel and assault grip | 5.56×45mm | Unknown | Negev SF "Commando" (1997–2012), Negev SF (2012 on) | semi, auto | 850–1,050 | Yes | belt, box mag | 150 |
 | 3 | NG-7 | 7.62 NATO version; belt drums only, no mags | 7.62×51mm | 16,479 ordered by India in 2020, plus 41,000 Prahars contracted in 2024 | NG-7, NG-7 SF (420 mm), NG-7 SF 13 (330 mm), Negev 7 ULMG and ULMG SF (2023; about 1.4 kg lighter), India's Prahar | semi, auto | 600–750 | Yes | belt | TBD |
-| 4 | Negev 7 6.5 (rare) | Negev 7 ULMG with its 6.5mm Creedmoor barrel | 6.5mm Creedmoor | Unknown | — | semi, auto | TBD | Yes | belt | TBD |
+| 4 | Negev 7 6.5 (rare) | Negev 7 ULMG with its 6.5mm Creedmoor barrel | 6.5mm Creedmoor | Unknown | — | semi, auto | 850–1,050 | Yes | belt | TBD |
 | 5 | STrL-7,62VN (rare) | Vietnamese copy in the AK round; takes AK and RPK mags and RPD belts; 7.4 kg | 7.62×39mm | Unknown | — | TBD | TBD | Yes | belt, box mag | TBD |
 
 ## Sources

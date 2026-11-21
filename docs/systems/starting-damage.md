@@ -26,8 +26,28 @@ Energies are typical full-power loads from Wikipedia's cartridge table; short ba
 - **The .50 BMG** would start at 166 as a sniper, far over the line, so .50-caliber rifles are crate weapons.
 - **Everything else is well under its line,** so damage alone doesn't push any other ground gun into crates.
 - **Watch the rifle-caliber pistols:** the strongest 3rd-slot gun is the [SA58 pistol](../weapons/pistols/sa58-pistol.md) in 7.62×51mm, at 104. That one-shots heads through a tier 3 helmet, still under the line, though its short barrel really loses a lot of energy. The .500 S&W [Janz](../weapons/pistols/janz.md) starts at 95 and one-shots through tier 2, like PUBG's Kar98k did up to level 2.
-- **Shotguns** aren't on this scale; they're balanced by pellets, spread, and range, and get their own check later.
+- **Shotguns** have their own scale, below.
 - **A second check comes later** for fast-firing guns, once fire rates are set, since PUBG also crated guns for how fast they killed, like the Groza and the M249.
+
+## Shotguns
+
+Shotguns get their own scale, since their damage is split across pellets. The base is PUBG's June 2018 pump and double-barrel shotguns, the S1897 and S686: 9 pellets of 24 damage, 216 in all. Every shell here fires 9 pellets, as PUBG's do.
+
+1. **By gauge:** per-pellet damage scales by the square root of the shell's standard shot load, like the rest of this page: 12 gauge's 1⅛ oz is the base.
+2. **By action:** semi-auto and automatic shotguns hit about 8% lighter per pellet, as PUBG's S12K (22 per pellet in 2018) did next to its pumps. Pumps, levers, and break actions hit full.
+3. **Short barrels,** like sawed-offs and the [Ithaca 37 Stakeout](../weapons/pistols/ithaca-37-stakeout.md), hit about 20% lighter, as PUBG's sawed-off (21 per pellet today, against 26 for its full-length guns) does.
+4. **Slugs** are one projectile worth a quarter of a full buckshot hit, about one big DMR shot (PUBG's SKS: 53), with much less falloff over range.
+
+| Gauge | Standard shot load | Pump, lever, or break action (per pellet × 9) | Semi or auto (per pellet × 9) | Slug |
+| --- | --- | --- | --- | --- |
+| 10 gauge | 1¾ oz | 30 × 9 = 270 | 27 × 9 = 243 | 68 |
+| 12 gauge | 1⅛ oz | 24 × 9 = 216 | 22 × 9 = 198 | 54 |
+| 16 gauge | 1 oz | 23 × 9 = 207 | 21 × 9 = 189 | 52 |
+| 20 gauge | ⅞ oz | 21 × 9 = 189 | 19 × 9 = 171 | 47 |
+| 28 gauge | ¾ oz | 20 × 9 = 180 | 18 × 9 = 162 | 45 |
+| .410 bore | ½ oz | 16 × 9 = 144 | 15 × 9 = 135 | 36 |
+
+Short-barrel versions take 80% of these. Shotgun head shots use PUBG's 2018 multiplier of 1.5. At that multiplier, a full buckshot hit is never crate-level: the crate line would need 167 damage in one projectile. The crate-only FRAG-12 and dragon's breath rounds are TBD.
 
 ## Starting damage by category
 
@@ -204,4 +224,6 @@ Baseline: PUBG's M24, 79 damage in 7.62×51mm. Crate line: 100.
 ## Sources
 
 - [Wikipedia: Table of handgun and rifle cartridges](https://en.wikipedia.org/wiki/Table_of_handgun_and_rifle_cartridges)
+- [Chuck Hawks: Introduction to shotgun gauges and shells](https://chuckhawks.com/intro_gauges.htm)
+- [PUBG Wiki: Shotguns](https://pubg.wiki.gg/wiki/Shotguns)
 - [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true)

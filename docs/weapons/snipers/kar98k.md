@@ -28,15 +28,15 @@ DMR & sniper family attachments; adapter scope mount (the ZF39 and ZF41 versions
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Kar98k | WWII standard carbine: 600 mm barrel | 7.92×57mm Mauser | About 0.9–2 million a year in WWII | Kar98k, Kriegsmodell (late 1944), Soviet "RC" refurbishments, Spain's M43, Yugoslavia's M48, M48A, and M98/48, Czech P-18 / vz. 98N, Belgian FN postwar rifles for Israel, Bolivia's B-50 | bolt action | TBD | No | stripper clip | 5 |
-| 2 | Gewehr 98 | WWI long rifle: 740 mm barrel, 1,250 mm long, 4.09 kg | 7.92×57mm Mauser | 9,000,000+, with its carbines | Gewehr 98, Kar98b | bolt action | TBD | No | stripper clip | 5 |
-| 3 | Kar98a | WWI carbine: 590 mm barrel, 3.5 kg | 7.92×57mm Mauser | Unknown | Kar98a, Kar98AZ | bolt action | TBD | No | stripper clip | 5 |
-| 4 | Kar98k ZF39 | Sniper with a 4× ZF39 scope | 7.92×57mm Mauser | About 132,000 | — | bolt action | TBD | No | stripper clip | 5 |
-| 5 | Kar98k ZF41 | Sniper with a 1.5× ZF41 long-eye-relief scope | 7.92×57mm Mauser | More than 100,000 | — | bolt action | TBD | No | stripper clip | 5 |
-| 6 | G40k (rare) | Shortened prototype: 1,000 mm long, 490 mm barrel, 3.2 kg | 7.92×57mm Mauser | 82 in 1941 | — | bolt action | TBD | No | stripper clip | 5 |
-| 7 | 7.62 NATO (rare) | Israeli conversions from the late 1950s | 7.62×51mm | Unknown | — | bolt action | TBD | No | stripper clip | 5 |
-| 8 | .30-06 (rare) | Norwegian rebarrels and rifles built on Kar98k actions | .30-06 Springfield | Unknown | K98kF1, Kongsberg M59 and M67 | bolt action | TBD | No | stripper clip | 5 |
-| 9 | Swedish m/40 (rare) | Rechambered for an 8×63mm machine-gun round; 4-round mag | 8×63mm Swedish | 5,000 ordered in 1939 | gevär m/40, pansarvärnsgevär m/40 | bolt action | TBD | No | stripper clip | 4 |
+| 1 | Kar98k | WWII standard carbine: 600 mm barrel | 7.92×57mm Mauser | About 0.9–2 million a year in WWII | Kar98k, Kriegsmodell (late 1944), Soviet "RC" refurbishments, Spain's M43, Yugoslavia's M48, M48A, and M98/48, Czech P-18 / vz. 98N, Belgian FN postwar rifles for Israel, Bolivia's B-50 | bolt action | 32 | No | stripper clip | 5 |
+| 2 | Gewehr 98 | WWI long rifle: 740 mm barrel, 1,250 mm long, 4.09 kg | 7.92×57mm Mauser | 9,000,000+, with its carbines | Gewehr 98, Kar98b | bolt action | 32 | No | stripper clip | 5 |
+| 3 | Kar98a | WWI carbine: 590 mm barrel, 3.5 kg | 7.92×57mm Mauser | Unknown | Kar98a, Kar98AZ | bolt action | 32 | No | stripper clip | 5 |
+| 4 | Kar98k ZF39 | Sniper with a 4× ZF39 scope | 7.92×57mm Mauser | About 132,000 | — | bolt action | 32 | No | stripper clip | 5 |
+| 5 | Kar98k ZF41 | Sniper with a 1.5× ZF41 long-eye-relief scope | 7.92×57mm Mauser | More than 100,000 | — | bolt action | 32 | No | stripper clip | 5 |
+| 6 | G40k (rare) | Shortened prototype: 1,000 mm long, 490 mm barrel, 3.2 kg | 7.92×57mm Mauser | 82 in 1941 | — | bolt action | 32 | No | stripper clip | 5 |
+| 7 | 7.62 NATO (rare) | Israeli conversions from the late 1950s | 7.62×51mm | Unknown | — | bolt action | 32 | No | stripper clip | 5 |
+| 8 | .30-06 (rare) | Norwegian rebarrels and rifles built on Kar98k actions | .30-06 Springfield | Unknown | K98kF1, Kongsberg M59 and M67 | bolt action | 32 | No | stripper clip | 5 |
+| 9 | Swedish m/40 (rare) | Rechambered for an 8×63mm machine-gun round; 4-round mag | 8×63mm Swedish | 5,000 ordered in 1939 | gevär m/40, pansarvärnsgevär m/40 | bolt action | 32 | No | stripper clip | 4 |
 | 10 | Mauser KKW (rare) | Single-shot .22 cadet trainer from 1938 | .22 LR | Unknown | — | single shot | TBD | No | single shot | 1 |
 
 ## Sources

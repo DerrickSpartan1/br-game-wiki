@@ -28,13 +28,13 @@ DMR & sniper family attachments; native scope rail. Unique: the AWS and AWC supp
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | AW | The 7.62 standard, built for cold weather | 7.62×51mm | Unknown | AW, L118A1, Psg 90, AWF / L118A2 / Psg 90B (folding stock), Australia's SR98, AE and AE Mk III, AT308 | bolt action | TBD | No | box mag | 10 |
-| 2 | L96A1 | The original British Army rifle | 7.62×51mm | Unknown | PM, L96A1 | bolt action | TBD | No | box mag | 10 |
-| 3 | AWP | Police version: black, 610 mm barrel | 7.62×51mm | Unknown | — | bolt action | TBD | No | box mag | 10 |
-| 4 | AWS (rare) | Subsonic, with a built-in suppressor and 406 mm barrel; about 300 m range | 7.62×51mm | Unknown | AWS, PM-SD (35 for UK special forces) | bolt action | TBD | No | box mag | 10 |
-| 5 | AWC Covert (rare) | Folds into a small case; 305 mm barrel and suppressor | 7.62×51mm | Unknown | AWC, Germany's G25 | bolt action | TBD | No | box mag | 10 |
-| 6 | AWM .300 | Magnum with a longer bolt | .300 Winchester Magnum | Unknown | AWM, AWM-F, Germany's G22 | bolt action | TBD | No | box mag | 5 |
-| 7 | AWM .338 (crate) | The British L115 | .338 Lapua Magnum | 580 L115A3s ordered in 2007 | AWSM, the Netherlands' AWM-F, L115A1, L115A3 | bolt action | TBD | No | box mag | 5 |
+| 1 | AW | The 7.62 standard, built for cold weather | 7.62×51mm | Unknown | AW, L118A1, Psg 90, AWF / L118A2 / Psg 90B (folding stock), Australia's SR98, AE and AE Mk III, AT308 | bolt action | 32 | No | box mag | 10 |
+| 2 | L96A1 | The original British Army rifle | 7.62×51mm | Unknown | PM, L96A1 | bolt action | 32 | No | box mag | 10 |
+| 3 | AWP | Police version: black, 610 mm barrel | 7.62×51mm | Unknown | — | bolt action | 32 | No | box mag | 10 |
+| 4 | AWS (rare) | Subsonic, with a built-in suppressor and 406 mm barrel; about 300 m range | 7.62×51mm | Unknown | AWS, PM-SD (35 for UK special forces) | bolt action | 32 | No | box mag | 10 |
+| 5 | AWC Covert (rare) | Folds into a small case; 305 mm barrel and suppressor | 7.62×51mm | Unknown | AWC, Germany's G25 | bolt action | 32 | No | box mag | 10 |
+| 6 | AWM .300 | Magnum with a longer bolt | .300 Winchester Magnum | Unknown | AWM, AWM-F, Germany's G22 | bolt action | 32 | No | box mag | 5 |
+| 7 | AWM .338 (crate) | The British L115 | .338 Lapua Magnum | 580 L115A3s ordered in 2007 | AWSM, the Netherlands' AWM-F, L115A1, L115A3 | bolt action | 32 | No | box mag | 5 |
 
 ## Sources
 

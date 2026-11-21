@@ -28,8 +28,8 @@ Pistol/SMG family attachments
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 5.56 | 9 or 11.5 in barrel | 5.56×45mm | Unknown | MCX Pistol (9 or 11.5 in), VIRTUS Pistol (11.5 in), MCX-SPEAR LT pistol | semi | TBD | No | box mag | 30 |
-| 2 | .300 BLK | 9 in barrel | .300 Blackout | Unknown | VIRTUS Pistol (9 in) | semi | TBD | No | box mag | 30 |
+| 1 | 5.56 | 9 or 11.5 in barrel | 5.56×45mm | Unknown | MCX Pistol (9 or 11.5 in), VIRTUS Pistol (11.5 in), MCX-SPEAR LT pistol | semi | 450 | No | box mag | 30 |
+| 2 | .300 BLK | 9 in barrel | .300 Blackout | Unknown | VIRTUS Pistol (9 in) | semi | 450 | No | box mag | 30 |
 
 ## Sources
 

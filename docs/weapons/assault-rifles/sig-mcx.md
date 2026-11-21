@@ -34,11 +34,11 @@ AR/LMG/battle rifle family attachments; native top rail, plus a KeyMod or M-LOK 
 | 2 | Carbine | 11.5 in barrel; select-fire | 5.56×45mm | Unknown | Military and police MCX, VIRTUS, and SPEAR LT with 11.5 in barrels | semi, auto | 800–900 | No | box mag | 30 |
 | 3 | Rifle | 14.5 or 16 in barrel; select-fire | 5.56×45mm | Unknown | MCX LT 14.5 in (military SPEAR LT), military and police 16 in models | semi, auto | 800–900 | No | box mag | 30 |
 | 4 | SURG | Integrally suppressed upper on an M4A1 lower; select-fire | 5.56×45mm | Unknown; USSOCOM contract from July 2018 | USSOCOM Suppressed Upper Receiver Group | semi, auto | 800–900 | No | box mag | 30 |
-| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | MCX Patrol (16 in), MCX SBR (9 in), VIRTUS Patrol (16 in; Matchlite Duo trigger, 5-position folding stock), VIRTUS SBR (11.5 in), MCX-SPEAR LT (11.5 or 16 in) | semi | TBD | No | box mag | 30 |
+| 5 | Civilian | Semi-auto only | 5.56×45mm | Unknown | MCX Patrol (16 in), MCX SBR (9 in), VIRTUS Patrol (16 in; Matchlite Duo trigger, 5-position folding stock), VIRTUS SBR (11.5 in), MCX-SPEAR LT (11.5 or 16 in) | semi | 800–900 | No | box mag | 30 |
 | 6 | Rattler | 5.5 in barrel PDW; compact or folding stock; select-fire | .300 Blackout | Unknown; USSOCOM evaluation kits in 2018, then its compact PDW contract in 2022 | MCX Rattler, Rattler LT (SPEAR LT features) | semi, auto | 800–900 | No | box mag | 30 |
 | 7 | .300 BLK | Short barrel (9 in on the VIRTUS SBR); select-fire | .300 Blackout | Unknown | Military and police .300 Blackout MCXs: Netherlands MARSOF and DSI (suppressed uppers), Poland's GROM, Formoza, ABW, and SOP (VIRTUS and Rattler), and Australia's NSW Police TOU and Victoria Police SOG | semi, auto | 800–900 | No | box mag | 30 |
-| 8 | .300 BLK civilian | Semi-auto only | .300 Blackout | Unknown | VIRTUS SBR in .300 Blackout (5.5 or 9 in), MCX-SPEAR LT in .300 Blackout (11.5 or 16 in) | semi | TBD | No | box mag | 30 |
-| 9 | 7.62×39 | Semi-auto only; 28-round AR-pattern mags | 7.62×39mm | Unknown | MCX-SPEAR LT in 7.62×39 (11.5 or 16 in) | semi | TBD | No | box mag | 28 |
+| 8 | .300 BLK civilian | Semi-auto only | .300 Blackout | Unknown | VIRTUS SBR in .300 Blackout (5.5 or 9 in), MCX-SPEAR LT in .300 Blackout (11.5 or 16 in) | semi | 800–900 | No | box mag | 30 |
+| 9 | 7.62×39 | Semi-auto only; 28-round AR-pattern mags | 7.62×39mm | Unknown | MCX-SPEAR LT in 7.62×39 (11.5 or 16 in) | semi | 800–900 | No | box mag | 28 |
 
 ## Sources
 

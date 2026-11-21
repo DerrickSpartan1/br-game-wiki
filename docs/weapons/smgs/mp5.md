@@ -34,7 +34,7 @@ Pistol/SMG family attachments; native claw mount for scopes. Mag tiers (best gue
 | 2 | MP5SD | Integral two-stage suppressor; subsonic and still works when wet | 9×19mm | Unknown | SD1 to SD6, SDN-1, SDN-2 | semi, 3-round burst | 700 | No | box mag | 30 |
 | 3 | MP5K | Compact (4.5 in barrel), about 900 RPM, built-in foregrip | 9×19mm | Unknown | KA1, KA4, KA5, K-N, K-PDW, Egyptian Helwan, Iranian Tondar Light | semi, 3-round burst, auto | 900 | No | box mag | 30 |
 | 4 | MP5K Operational Briefcase (funny gun version) | Fires from inside a briefcase with a trigger in the handle; you have to open the case to reload, or shed it to use the gun normally | 9×19mm | Rare | Operational Briefcase, Special Bag, Falling Case | semi, auto | 900 | No | box mag | 30 |
-| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19mm | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 | semi | TBD | No | box mag | 30 |
+| 5 | Semi-auto carbine | Semi-auto only; some have a 16.5 in barrel | 9×19mm | Unknown | MP5SF, HK94, HK94/SG-1 (marksman version with a 6x scope and bipod), SP5 | semi | 800 | No | box mag | 30 |
 | 6 | MP5/10 | 2-round burst; bolt locks open when empty; used by the FBI Hostage Rescue Team | 10mm Auto | Made 1992 to 2000 | — | semi, 2-round burst, auto | 800 | No | box mag | TBD |
 | 7 | MP5/40 | Full auto without burst; bolt locks open when empty | .40 S&W | Made 1992 to 2000 | — | semi, auto | 800 | No | box mag | TBD |
 | 8 | MP5/45 | Made on request for a US task force | .45 ACP | Rare | — | semi, auto | 800 | No | box mag | TBD |

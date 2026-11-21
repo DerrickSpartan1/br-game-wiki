@@ -30,11 +30,11 @@ Tube extension attachment; other attachments TBD
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ithaca 37, long | Full-length hunting barrel, up to 30 in. Merged difference: the Ultralite is lighter | 12 gauge | Unknown | Featherlight, Ultralite, Turkeyslayer, Model 87 (a temporary rename) | pump (slam-fire) | TBD | No | tube | 5+1 |
-| 2 | Ithaca 37, short | 18 to 20 in barrel. Merged differences: Deerslayer rifle sights; some military guns had a ventilated handguard and bayonet adapter | 12 gauge | Unknown | 1962 U.S. military contract guns, trench-style military guns, DSPS (Deerslayer Police Special), Deerslayer, Defense, NYPD 18 in | pump (slam-fire) | TBD | No | tube | 5+1 |
-| 3 | 16 gauge | — | 16 gauge | Unknown | — | pump (slam-fire) | TBD | No | tube | TBD |
-| 4 | 20 gauge | — | 20 gauge | Unknown | 20 gauge Defense | pump (slam-fire) | TBD | No | tube | TBD |
-| 5 | 28 gauge | Built on a 28 gauge receiver | 28 gauge | Unknown | — | pump (slam-fire) | TBD | No | tube | TBD |
+| 1 | Ithaca 37, long | Full-length hunting barrel, up to 30 in. Merged difference: the Ultralite is lighter | 12 gauge | Unknown | Featherlight, Ultralite, Turkeyslayer, Model 87 (a temporary rename) | pump (slam-fire) | 80 | No | tube | 5+1 |
+| 2 | Ithaca 37, short | 18 to 20 in barrel. Merged differences: Deerslayer rifle sights; some military guns had a ventilated handguard and bayonet adapter | 12 gauge | Unknown | 1962 U.S. military contract guns, trench-style military guns, DSPS (Deerslayer Police Special), Deerslayer, Defense, NYPD 18 in | pump (slam-fire) | 80 | No | tube | 5+1 |
+| 3 | 16 gauge | — | 16 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD |
+| 4 | 20 gauge | — | 20 gauge | Unknown | 20 gauge Defense | pump (slam-fire) | 80 | No | tube | TBD |
+| 5 | 28 gauge | Built on a 28 gauge receiver | 28 gauge | Unknown | — | pump (slam-fire) | 80 | No | tube | TBD |
 
 ## Sources
 

@@ -33,7 +33,7 @@ AR/LMG/battle rifle family attachments; side-rail scope mount on night-sight (N)
 | 3 | Short AK | Shortened barrel and folding stock | 7.62×39mm | Unknown | Hungarian AMD-65, Bulgarian AKS-47S and AKS-47UF, East German MPi-KMS-K, Iraqi Tabuk Short, Albanian short AKMS | semi, auto | 600 | No | box mag | 30 |
 | 4 | AK-103 | Modern 100-series: polymer furniture, side-folding stock, optics side rail | 7.62×39mm | Unknown | AK-103, AK-104 (short), AK-203, AK-204, Ethiopian Et-97/1 | semi, auto | 600 | No | box mag | 30 |
 | 5 | 5.56 AK | AK-47/AKM pattern in NATO caliber | 5.56×45mm | Unknown | Bulgarian AK-47MA1/AR-M1, AKS-47M1, and AR-SF, Hungarian NGM-81 | semi, auto | 600 | No | box mag | 30 |
-| 6 | .22 trainer | Training rifles; East Germany's was select-fire | .22 LR | Unknown | Bulgarian AKT-47, East German KK-MPi Mod.69 | semi, auto | TBD | No | box mag | TBD |
+| 6 | .22 trainer | Training rifles; East Germany's was select-fire | .22 LR | Unknown | Bulgarian AKT-47, East German KK-MPi Mod.69 | semi, auto | 600 | No | box mag | TBD |
 | 7 | AK-109 (rare) | Balanced-recoil AK (same action as the AK-107: near-zero felt recoil, faster fire, heavier); exact stats TBD, needs a separate lookup | 7.62×39mm | Few | — | TBD | TBD | No | box mag | 30 |
 
 ## Sources

@@ -193,7 +193,6 @@ nav:
         - "Bren / ZB vz. 26": weapons/lmgs/bren.md
         - "DP-27": weapons/lmgs/dp-27.md
         - "MG 34": weapons/lmgs/mg-34.md
-        - "MG 42 / MG3": weapons/lmgs/mg-42.md
         - "RPD": weapons/lmgs/rpd.md
         - "M60": weapons/lmgs/m60.md
         - "FN MAG / M240": weapons/lmgs/fn-mag.md
@@ -213,6 +212,7 @@ nav:
       - Crate weapons:
         - weapons/crate/index.md
         - "AA-12": weapons/crate/aa-12.md
+        - "MG 42 / MG3": weapons/crate/mg-42.md
   - Planning:
       - Getting started: planning/getting-started.md
       - First steps in Unreal: planning/first-steps.md

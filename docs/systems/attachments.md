@@ -104,4 +104,36 @@ Bigger mags are balanced by weight, ADS speed, and reload time. Source: [ProMag 
 
 **Duckbill shot diverter:** a shotgun barrel attachment that spreads shot into a flatter, wider pattern, like the one Navy SEALs used on the Ithaca 37 (the SPAS-12 also had a factory shot diverter).
 
-**Rifle grenade launchers:** wanted as an attachment, starting with the StG 44's. How they're looted (crate-only, rare world loot, or something else) is TBD.
+## Grenade launchers
+
+Two kinds, both attachments that spawn as ground loot. A gun takes one only if its page lists one under its unique attachments. Launcher rounds are their own ammo, separate from the gun's.
+
+- **Underbarrel launchers** fill the foregrip slot: 40mm launchers like the M203 and M320 on AR-15-family rifles, the GP-25, GP-30, and GP-34 on Kalashnikovs, the HK79 on the G3, and the [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md)'s grip module. A gun with a built-in bipod can't take one, since the bipod already fills that slot ([Built-in parts](#built-in-parts)). They load one round at a time.
+- **Rifle grenade launchers** fill the muzzle slot: cups like the [Kar98k](../weapons/snipers/kar98k.md)'s Schiessbecher (up to about 280 m), launchers like the [M1 Garand](../weapons/battle-rifles/m1-garand.md)'s M7, and NATO 22mm grenades that fit straight onto many rifles' flash hiders. Each grenade brings its own launching blank, so there's no extra item. Some guns have one built in, like the [SKS](../weapons/battle-rifles/sks.md) M59/66 and the [MAS-49](../weapons/battle-rifles/mas-49.md).
+
+### Ground rounds: smoke and other non-lethal rounds
+
+| Round | Real example | In game |
+| --- | --- | --- |
+| Smoke | 40mm ground markers in red, green, and yellow (at least 17 seconds of smoke); Russia's GRD-50, GRD-100, and GRD-200, each a 20 m³ cloud lasting a minute; rifle smoke grenades | A smoke screen at range, like a smoke grenade thrown much farther. Colored smoke also marks a spot for the team |
+| Star parachute | M583A1 white, M661 green, M662 red: bursts about 180 m up and lights a circle about 200 m across with 90,000 candlepower for about 40 seconds as it drifts down | Lights an area on [night maps](maps.md); a signal flare by day. Colors work as team signals |
+| Star cluster | M585 white, M663 green, M664 red: five stars that burn about 7 seconds | A quick signal, and a brief light at night |
+| Infrared star parachute | M992: like the M583A1, but visible only through night vision | Lights an area only for players with a night-vision scope, like the [StG 44](../weapons/assault-rifles/stg-44.md)'s Vampir |
+| Propaganda leaflets | Germany's WWII Propaganda-Gewehrgranate: 200 g of leaflets, scattered after about 9 seconds, out to 460 m | A funny round for the Schiessbecher: no damage, just a burst of leaflets |
+
+Left out for now: **CS gas** (the US M651 makes a 120 m² cloud for about 25 seconds) is non-lethal but would need its own gas effect, and **sponge and rubber-ball rounds** (M1006, M1029) can still kill under 10 m, so they'd count as damage rounds.
+
+### Crate rounds: lethal
+
+Lethal launcher rounds come only from crates, like lethal grenade launchers ([Weapon pool](weapon-pool.md#how-the-randomness-works)). How many a crate holds is TBD. Blast damage is set with the throwables, TBD.
+
+| Round | Real example | In game |
+| --- | --- | --- |
+| Frag | 40mm M406 HE (kill radius 5 m) and Russia's VOG-25 (lethal radius 6 m); rifle frag grenades like the German Gewehr-Sprenggranate | A frag blast at range. 40mm rounds arm only after 14 m (M406) or 10 m (VOG-25); closer, they're duds that only hit as a solid projectile |
+| Bouncing frag | VOG-25P: pops 0.5 to 1.5 m up before it bursts | Reaches players behind low cover or lying prone |
+| HEDP | M433: a small shaped charge in a frag sleeve that punches through 50 mm of armor plate; arms after 14 m | Frag plus extra damage to vehicles |
+| Anti-tank rifle grenades | Germany's Gewehr-Panzergranate; the US M9A1 (100 mm of armor, 100 m effective); Belgium's ENERGA (200 mm) | Strong against vehicles, with a small blast against players |
+| Buckshot | M576: 20 pellets, out to 30 m | A one-shot shotgun blast from the launcher |
+| Thermobaric | 40mm M1060, made for bunkers, houses, and masonry | Big damage inside rooms |
+
+Sources: [Wikipedia: United States 40 mm grenades](https://en.wikipedia.org/wiki/United_States_40_mm_grenades) · [Inetres: 40mm low-velocity ammunition](https://inetres.com/gp/military/infantry/grenade/40mm_ammo.html) · [Wikipedia: GP-25](https://en.wikipedia.org/wiki/GP-25) · [Wikipedia: Rifle grenade](https://en.wikipedia.org/wiki/Rifle_grenade) · [Wikipedia: Schiessbecher](https://en.wikipedia.org/wiki/Schiessbecher) · [Lone Sentry: German rifle grenades](https://www.lonesentry.com/articles/ttt/german-rifle-grenades.html) · [Wikipedia: Propaganda-Gewehrgranate](https://en.wikipedia.org/wiki/Propaganda-Gewehrgranate)

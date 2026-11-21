@@ -20,7 +20,7 @@ One roster entry that rolls one of 3 versions (see [Versions](#versions) below)
 
 ## Attachments
 
-AR/LMG/battle rifle family attachments; game-version scope mount. Unique attachments: the ZG 1229 Vampir infrared night scope (15-minute battery) and a rifle grenade launcher (looting TBD). Possible: the Krummlauf curved barrel with a periscope sight for shooting around corners (wears out after about 300 rounds). Mag tiers (best guess, review later): 30 standard; 35 makeshift extended and quick; higher tiers TBD
+AR/LMG/battle rifle family attachments; game-version scope mount. Unique attachments: the ZG 1229 Vampir infrared night scope (15-minute battery) and a rifle grenade launcher (ground loot with non-lethal rounds; lethal rounds from crates, see [Grenade launchers](../../systems/attachments.md#grenade-launchers)). Possible: the Krummlauf curved barrel with a periscope sight for shooting around corners (wears out after about 300 rounds). Mag tiers (best guess, review later): 30 standard; 35 makeshift extended and quick; higher tiers TBD
 
 ## Versions
 

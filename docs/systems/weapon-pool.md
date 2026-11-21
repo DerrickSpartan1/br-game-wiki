@@ -38,6 +38,8 @@ Crate weapons come from an exclusive list of guns too powerful or special for th
 - **Anti-vehicle and heavy snipers:** anti-materiel rifles like .50-caliber ones, and other heavy sniper rifles. Like PUBG's crate AWM, which one-shot level 3 helmets, a crate sniper's head shot kills through any helmet, tier 4 included. Any version whose starting damage crosses that line is crate-only, like the .338 Lapua snipers ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 - **Rocket launchers,** like the RPG. They're heavy, slow, and take up a primary slot.
 - **Lethal grenade launchers,** which are too powerful for the ground pool. Non-lethal ones go in the [class item](class-items.md) pool.
+- **Lethal rounds for underbarrel and rifle grenade launchers,** like frag, HEDP, and anti-tank grenades. The launchers themselves are ground loot, with smoke, star, and other non-lethal rounds ([Attachments](attachments.md#grenade-launchers)).
+- **Belt-fed guns too fast for the ground,** like the [MG 42 / MG3](../weapons/crate/mg-42.md) family, as PUBG did with its MG3 ([Starting damage](starting-damage.md#crate-check-for-fast-firing-guns)).
 - **The flash shield,** a ballistic shield with flashbangs on the front ([Class items](class-items.md)).
 
 Specific guns are listed in the [weapon roster](../weapons/index.md). Where they spawn on the map, and how often, is on [Loot and spawning](loot.md).

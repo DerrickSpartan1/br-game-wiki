@@ -16,7 +16,7 @@ Premium, up to €25,000 each, about 100 made a year; started by a former Korth 
 
 ## In-game traits
 
-One roster entry that rolls a version. 4 versions; see [Versions](#versions) below. No mid-match cylinder swaps: the caliber it spawns with is the caliber it keeps
+One roster entry that rolls a version. 4 versions; see [Versions](#versions) below. No mid-match cylinder swaps: the caliber it spawns with is the caliber it keeps. The .460 and .500 S&W versions are trimmed to 83 damage, so a head shot no longer kills through a tier 2 helmet and a tier 2 vest takes three body shots: a 3rd-slot gun shouldn't hit like a ground sniper ([Starting damage](../../systems/starting-damage.md#per-gun-adjustments))
 
 ## Attachments
 
@@ -30,8 +30,8 @@ Revolver reload attachments (speedloaders and similar); caliber cylinders and ba
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | EM frame | Small frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels; spawns in one caliber from .22 LR up to .44 Magnum (exact list TBD) | TBD | Unknown | EM, EM-S quick change | revolver | 240 | No | revolver | TBD | TBD |
 | 2 | E frame | Medium frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels (.22 LR, .32, .38, 9mm Para, .357 Magnum, .44 Magnum, up to .454 Casull). Merged difference: the sport models have adjustable sights; spawns in one of those calibers (exact list TBD) | TBD | Unknown | E, E-S quick change, sport revolvers (.357 and .44 Magnum) | revolver | 240 | No | revolver | TBD | TBD |
-| 3 | MA frame | Large frame; 4 to 12 in barrels | .460 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 88 |
-| 4 | MA frame | Same | .500 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 95 |
+| 3 | MA frame | Large frame; 4 to 12 in barrels | .460 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 83 |
+| 4 | MA frame | Same | .500 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 83 |
 
 Quick-change barrel lengths: 3, 4, 5, 6.5, 7, 8, 8.75, 10, and 12 in. Janz also makes a 9mm semi-auto, the Janz-Schuknecht Pistole, which could be its own pistol entry later.
 

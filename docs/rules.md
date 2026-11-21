@@ -56,7 +56,7 @@ Open-bolt guns have a slight delay between the trigger pull and the shot. New gu
 - [Bren / ZB vz. 26](weapons/lmgs/bren.md)
 - [DP-27](weapons/lmgs/dp-27.md)
 - [MG 34](weapons/lmgs/mg-34.md): every version but the civilian one
-- [MG 42 / MG3](weapons/lmgs/mg-42.md)
+- [MG 42 / MG3](weapons/crate/mg-42.md)
 - [RPD](weapons/lmgs/rpd.md): the military version only
 - [M60](weapons/lmgs/m60.md): every version but the civilian one
 - [FN MAG / M240](weapons/lmgs/fn-mag.md): every version but the civilian M240-SLR (the OOW240 is TBD)

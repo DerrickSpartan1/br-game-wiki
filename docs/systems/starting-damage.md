@@ -8,7 +8,8 @@ How each gun version gets its first-pass damage, how that keeps every gun useful
 2. **Scale by energy:** damage = the table's baseline damage × √(round's energy ÷ baseline round's energy). The square root keeps big rounds strong without making them absurd.
 3. **Fit the fire-rate band:** semi-auto and automatic versions keep damage × fire rate inside their category's band, so fast guns hit lighter and slow guns hit harder, as PUBG did ([Fire-rate bands](#fire-rate-bands)).
 4. **Pass the role test:** manual-action guns, which the band doesn't cover, must still do their job, like a shotgun one-shotting up close ([Role tests](#role-tests)).
-5. **Check the crate line:** a version is crate-only if one head shot kills through a tier 4 helmet ([Baselines and crate lines](#baselines-and-crate-lines)). Crate-only versions are marked `(crate)` and never spawn on the ground; the rest of their family still does.
+5. **Check the crate line:** a version is crate-only if one head shot kills through a tier 4 helmet ([Baselines and crate lines](#baselines-and-crate-lines)), or if it fires too fast to fit its band even after the cut ([Crate check](#crate-check-for-fast-firing-guns)). Crate-only versions are marked `(crate)` and never spawn on the ground; the rest of their family still does. A family that's crate-only as a whole moves to [crate weapons](../weapons/crate/index.md).
+6. **Adjust per gun:** a few guns get a hand-set number after review ([Per-gun adjustments](#per-gun-adjustments)).
 
 Energies are typical full-power loads, mostly from Wikipedia's cartridge table. Damage rounds to whole numbers. The method lands close to PUBG on many guns: the AKM 48 (PUBG: 49), the Thompson 40 (Tommy Gun: 40), the Mini-14 45 (Mini 14: 46), the MG3 42 (PUBG today: 42), and the Winchester 1894 in .30-30 65 (Win94: 66).
 
@@ -55,6 +56,7 @@ Manual-action guns aren't limited by fire rate in the same way, so each passes a
 | Guns | Test | Who failed and what changed |
 | --- | --- | --- |
 | Shotguns (buckshot, any category) | A full hit at point blank kills through a tier 2 vest (167 or more), or the next shot comes within 0.25 s (240 RPM or faster, as PUBG's S12K) | The two .410 pumps (Remington 870 and KSG410): 16 → 19 per pellet (171) |
+| Shotguns, the other way | A full hit can't kill through a tier 4 vest (under 250), since no PUBG ground shotgun one-shot through a level 3 vest | The [Winchester 1887](../weapons/shotguns/winchester-1887.md)'s 10 gauge: 30 → 27 per pellet (243) |
 | Snipers: bolt, lever, straight-pull, and single shot | One head shot kills through a tier 1 helmet at 200 m (59 or more), as PUBG's 2018 Win94 did | The Winchester 1894's .25-35, .32-40, .38-55, .357 Magnum, .44 Magnum, and .45 Colt versions and the .22 Mauser KKW go to 59, like PUBG's Win94, which fired .45 ACP but hit 66 |
 | 3rd-slot revolvers, single shots, break actions, and two-pulls | One head shot kills an unarmored target (50 or more), since they get few shots before a long reload | The FP-45 Liberator (36 → 50) and the .22 Garrucha (22 → 50) |
 
@@ -71,19 +73,35 @@ The table value is the number from steps 1 and 2; the band and tests moved 196 o
 | SMGs | 24 | 37 | 21 | MP5 39; UMP45 40; Uzi 42; MP 40 48; Vector 30; Micro Uzi 30 |
 | Assault rifles | 109 | 37 | 15 | M4 and AKM unchanged at 43 and 48; AK-74 42; StG 44 50; FAMAS 37; semi-only civilian 5.56 rifles 45 |
 | Battle rifles & DMRs | 108 | 12 | 21 | G3 58; FAL 54; M14 51; FG 42 Type E 41; Mini-14 and Mk 12 45; VSS 41 |
-| LMGs | 36 | 5 | 22 | PKM 55; Bren 53; M240 48; MG 34 47; M249 43; MG3 42 |
+| LMGs | 36 | 5 | 17 | PKM 55; Bren 53; M240 48; MG 34 47; M249 41 (set by hand) |
 | Snipers | 44 | 8 | 0 | M24 79; Kar98k 81; Winchester 1894 .30-30 65, handgun calibers 59 |
+
+The five versions of the [MG 42 / MG3](../weapons/crate/mg-42.md) family, all lowered, moved to crate weapons (below).
 
 ### Crate check for fast-firing guns
 
-These seven versions are still over their band at 60% of their table value. PUBG kept its fastest belt-fed guns out of ground loot: the MG3 is care-package-only, and the M249 was too until 2020, when PUBG cut its damage from 45 to 40 and moved it to the ground. For now they spawn on the ground at the 60% number; where they belong is an [open question](../planning/open-questions.md).
+Seven versions were still over their band at 60% of their table value. PUBG kept its fastest belt-fed guns out of ground loot: its MG3 is care-package-only, and its M249 was too until 2020, when PUBG cut its damage from 45 to 40 and moved it to the ground. Decided on review:
 
-| Version | Fire rate (RPM) | Damage now | Damage per minute | Band top |
-| --- | --- | --- | --- | --- |
-| [MG 42](../weapons/lmgs/mg-42.md) and its .30-06 version | 900–1,500 | 36 | 43,200 | 40,000 |
-| [MG 34/41](../weapons/lmgs/mg-34.md) | 1,200–1,500 | 36 | 48,600 | 40,000 |
-| [PPSh-41](../weapons/smgs/ppsh-41.md), K-50M, and PPSh-45 | 1,250 | 33 | 41,250 | 37,000 |
-| [Glock 18](../weapons/pistols/glock-17-18.md) | 1,100–1,400 | 21 | 26,250 | 25,000 |
+| Version | Fire rate (RPM) | At 60% | Damage per minute | Band top | Decision |
+| --- | --- | --- | --- | --- | --- |
+| [MG 42](../weapons/crate/mg-42.md) and its .30-06 version | 900–1,500 | 36 | 43,200 | 40,000 | The whole MG 42 / MG3 family is crate-only, MG3 and MG 74 included, like PUBG's MG3 |
+| [MG 34/41](../weapons/lmgs/mg-34.md) | 1,200–1,500 | 36 | 48,600 | 40,000 | Crate-only version; the rest of the MG 34 family stays on the ground |
+| [PPSh-41](../weapons/smgs/ppsh-41.md), K-50M, and PPSh-45 | 1,250 | 33 | 41,250 | 37,000 | Ground, cut to 29 (36,250), like PUBG's ground Micro Uzi (26 at 1,250) |
+| [Glock 18](../weapons/pistols/glock-17-18.md) | 1,100–1,400 | 21 | 26,250 | 25,000 | Ground, cut to 20 (25,000), like PUBG's ground P18C (23 at 1,000) |
+
+The MG 42 / MG3 family keeps its cut numbers for now; crate guns can earn some back when crates are balanced.
+
+### Per-gun adjustments
+
+Hand-set numbers after review, on top of the band and role tests:
+
+| Gun | Was | Now | Why |
+| --- | --- | --- | --- |
+| [FN Minimi / M249](../weapons/lmgs/minimi.md), 5.56mm versions | 43 | 41 | PUBG's current M249 number. Through a tier 2 vest it takes 5 chest hits to an M4's 4, a fair trade for the 100-round belt |
+| [Janz](../weapons/pistols/janz.md) .460 S&W and .500 S&W | 88 and 95 | 83 | A head shot no longer kills through a tier 2 helmet (99.6), and a tier 2 vest takes 3 body shots: a 3rd-slot gun shouldn't hit like a ground sniper |
+| [Winchester 1887](../weapons/shotguns/winchester-1887.md), 10 gauge | 30 × 9 | 27 × 9 | One full hit can't kill through a tier 4 vest (97 instead of 108) |
+| [PPSh-41](../weapons/smgs/ppsh-41.md) family | 33 | 29 | Fits the SMG band instead of moving to crates |
+| [Glock 18](../weapons/pistols/glock-17-18.md) | 21 | 20 | Fits the 3rd-slot automatic band instead of moving to crates |
 
 ## Baselines and crate lines
 
@@ -100,7 +118,7 @@ The crate line: one head shot at starting damage × head multiplier × 0.4 (a ti
 
 - **Only the .338 Lapua crosses,** and only just: it lands at about 99.6, which rounds to 100. The .300 Winchester Magnum stays on the ground at 90; it one-shots tier 3 helmets but not tier 4.
 - **The .50 BMG** would start at 166 as a sniper, far over the line, so .50-caliber rifles are crate weapons.
-- **Nothing raised by the band or the tests crosses a line.** The strongest 3rd-slot gun is now the .500 S&W [Janz](../weapons/pistols/janz.md) at 95, which one-shots heads through a tier 2 helmet, like PUBG's Kar98k did up to level 2. The [SA58 pistol](../weapons/pistols/sa58-pistol.md) uses the battle rifle table now and lands at 51.
+- **Nothing raised by the band or the tests crosses a line.** The strongest 3rd-slot guns are the .460 and .500 S&W [Janz](../weapons/pistols/janz.md) at 83, trimmed from 88 and 95 so their head shots stop at tier 1 helmets. The [SA58 pistol](../weapons/pistols/sa58-pistol.md) uses the battle rifle table now and lands at 51.
 
 ## Shotguns
 
@@ -114,7 +132,7 @@ Shotguns get their own scale, since their damage is split across pellets. The ba
 
 | Gauge | Standard shot load | Pump, lever, or break action (per pellet × 9) | Semi or auto (per pellet × 9) | Slug |
 | --- | --- | --- | --- | --- |
-| 10 gauge | 1¾ oz | 30 × 9 = 270 | 27 × 9 = 243 | 68 |
+| 10 gauge | 1¾ oz | 30 × 9 = 270 by load; 27 × 9 = 243 after the tier 4 ceiling | 27 × 9 = 243 | 68 |
 | 12 gauge | 1⅛ oz | 24 × 9 = 216 | 22 × 9 = 198 | 54 |
 | 16 gauge | 1 oz | 23 × 9 = 207 | 21 × 9 = 189 | 52 |
 | 20 gauge | ⅞ oz | 21 × 9 = 189 | 19 × 9 = 171 | 47 |

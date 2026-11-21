@@ -16,7 +16,7 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 4 versions (see [Versions](#versions) below)
+One roster entry that rolls one of 4 versions (see [Versions](#versions) below). At 1,250 RPM it hits lighter than slower SMGs, 29 in 7.62 Tokarev, like PUBG's Micro Uzi (26 at the same rate), so it stays a ground gun ([Starting damage](../../systems/starting-damage.md#per-gun-adjustments))
 
 ## Attachments
 
@@ -28,9 +28,9 @@ Pistol/SMG family attachments. Mag tiers (best guess, review later): 35 standard
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | PPSh-41 | Select-fire, wooden stock | 7.62×25mm Tokarev | Most of about 6 million | PPSh-41, Type 50, Type 49, 48M, wz.41, Md. 1952, Iranian copy, Šokac, MP 717(r) | semi, auto | 1,250 | Yes | box mag | 35 | 33 |
-| 2 | K-50M | North Vietnamese rework: shortened barrel jacket, AK-style front sight, pistol grip, wire stock; about 500 g lighter; drum only fits with the stock extended | 7.62×25mm Tokarev | Made 1958 to 1964 | — | semi, auto | 1,250 | Yes | box mag | 35 | 33 |
-| 3 | PPSh-45 | Late-war version: full auto only, folding stock that doubles as a grip, no wood | 7.62×25mm Tokarev | Rare | — | auto | 1,250 | Yes | box mag | 35 | 33 |
+| 1 | PPSh-41 | Select-fire, wooden stock | 7.62×25mm Tokarev | Most of about 6 million | PPSh-41, Type 50, Type 49, 48M, wz.41, Md. 1952, Iranian copy, Šokac, MP 717(r) | semi, auto | 1,250 | Yes | box mag | 35 | 29 |
+| 2 | K-50M | North Vietnamese rework: shortened barrel jacket, AK-style front sight, pistol grip, wire stock; about 500 g lighter; drum only fits with the stock extended | 7.62×25mm Tokarev | Made 1958 to 1964 | — | semi, auto | 1,250 | Yes | box mag | 35 | 29 |
+| 3 | PPSh-45 | Late-war version: full auto only, folding stock that doubles as a grip, no wood | 7.62×25mm Tokarev | Rare | — | auto | 1,250 | Yes | box mag | 35 | 29 |
 | 4 | MP 41(r) | German conversion with an adapter for MP 40 mags; slightly slower fire rate | 9×19mm | Unknown | — | semi, auto | 1,250 | Yes | box mag | 32 | 29 |
 
 ## Sources

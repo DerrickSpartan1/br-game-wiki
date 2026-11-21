@@ -93,7 +93,7 @@ Light machine guns, squad automatic weapons, and general-purpose machine guns on
 | 9 | Breda 30 | Italy, 1930; 6.5×52mm Carcano | Queued |
 | 10 | [MG 34](../weapons/lmgs/mg-34.md) | Germany, 1934; 7.92×57mm Mauser | Added |
 | 11 | Type 96 / Type 99 | Japan, 1936; 6.5×50mm / 7.7×58mm Arisaka | Queued |
-| 12 | [MG 42 / MG3](../weapons/lmgs/mg-42.md) | Germany, 1942; 7.92×57mm Mauser / 7.62×51mm | Added |
+| 12 | [MG 42 / MG3](../weapons/crate/mg-42.md) | Germany, 1942; 7.92×57mm Mauser / 7.62×51mm | Added |
 | 13 | [RPD](../weapons/lmgs/rpd.md) | USSR, 1944; 7.62×39mm | Added |
 | 14 | [M60](../weapons/lmgs/m60.md) | USA, 1957; 7.62×51mm | Added |
 | 15 | [FN MAG / M240](../weapons/lmgs/fn-mag.md) | Belgium, 1958; 7.62×51mm | Added |

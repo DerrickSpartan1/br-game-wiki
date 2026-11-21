@@ -8,9 +8,9 @@
 | [Shotguns](shotguns/index.md) | 6 | Queue done; SPAS-15 to look at later |
 | [SMGs](smgs/index.md) | 16 | Queue done |
 | [Assault rifles](assault-rifles/index.md) | 27 | Queue done; possible additions on the [queue](../planning/queue.md) page |
-| [Crate weapons](crate/index.md) | 1 | Open |
+| [Crate weapons](crate/index.md) | 2 | Open |
 | [Battle rifles & DMRs](battle-rifles/index.md) | 25 | Queue done; possible additions on the [queue](../planning/queue.md) page |
-| [LMGs](lmgs/index.md) | 12 | In progress; see the [queue](../planning/queue.md) |
+| [LMGs](lmgs/index.md) | 11 | In progress; see the [queue](../planning/queue.md) |
 | [Snipers](snipers/index.md) | 7 | In progress; see the [queue](../planning/queue.md) |
 | Special | 0 | Not started |
 

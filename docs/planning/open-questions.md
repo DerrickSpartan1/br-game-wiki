@@ -5,15 +5,14 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Balance
 
 - **In-game range:** TBD on every gun page. Damage has a first pass on every version ([Starting damage](../systems/starting-damage.md)), to tune in play testing.
-- **Fast-firing crate check:** whether the MG 42 (and its .30-06 version), MG 34/41, PPSh-41 family, and Glock 18 move to crates, as PUBG did with its MG3 and its 2018 M249, or stay on the ground with a deeper damage cut than 40% ([Starting damage](../systems/starting-damage.md#crate-check-for-fast-firing-guns)).
-- **Crate ammo:** how many FRAG-12 and dragon's breath rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo)).
+- **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo), [Grenade launchers](../systems/attachments.md#crate-rounds-lethal)).
+- **CS gas rounds:** whether launchers get tear gas later, which would need a gas effect of its own ([Grenade launchers](../systems/attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)).
 - **Handling numbers:** hip fire, ADS speed, movement, and swap speed per category. The direction is set on [Roles by category](../systems/ttk.md#roles-by-category): pistols and SMGs fastest, LMGs and snipers slowest.
 - **Carry space:** how Tarkov's slot counts for vests and rigs turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
 - **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
-- **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H sits in battle rifles & DMRs ([FN SCAR-L](../weapons/assault-rifles/scar-l.md), [FN SCAR-H](../weapons/battle-rifles/scar-h.md)).
-- **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, and lethal grenade launchers, but other guns' spots are undecided, and crate balancing comes later. Every crate already comes with attachments that fit its gun; one idea is that a crate gun could also be a normal gun dropped fully kitted ([Crate weapons](../weapons/crate/index.md)).
+- **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, lethal grenade launchers and launcher rounds, and belt-fed guns too fast for the ground, but other guns' spots are undecided, and crate balancing comes later (the MG 42 / MG3 family could earn back some of its cut damage then). Every crate already comes with attachments that fit its gun; one idea is that a crate gun could also be a normal gun dropped fully kitted ([Crate weapons](../weapons/crate/index.md)).
 - **M14 selector:** the standard M14 is select-fire for now, though most US rifles were issued locked to semi ([M14](../weapons/battle-rifles/m14.md)).
 - **AS Val and VSS:** whether they share one mastery track and cosmetics. They're twins from the same designers, with the same action and magazines, but they sit in different categories ([VSS Vintorez](../weapons/battle-rifles/vss.md)). One idea: twin guns in different categories share one mastery track while keeping separate roster entries ([Skins and mastery](../systems/skins.md#weapon-mastery)).
 - **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
@@ -31,7 +30,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).
-- **Rifle grenade launchers:** how they're looted: crate-only, rare world loot, or something else ([Attachments](../systems/attachments.md)).
 - **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with wire cutters (a melee item) or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md)).
 - **Briefcase spawns:** an idea, not decided. The AS Val and OTs-14 Groza came in real carry cases, so they could spawn as a briefcase find.
 

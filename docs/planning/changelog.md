@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Vault keys now spawn anywhere loot spawns, rolled at match start and spread apart, on [Vaults and keys](../systems/match-flow.md#vaults-and-keys); the key spot question is settled |
 | 2026-11-21 | Keys now rarely spawn where the vaults are (about 1%), and the care package key chance is set at 5% on [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | Made the Prison armory the first map's fifth vault on [Maps](../systems/maps.md#marina-farms-and-vaults) and [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | Set how [vault keys](../systems/match-flow.md#vaults-and-keys) work: one key fits all, used up on opening, dropped on death, a small care package chance; saved the drill for later |

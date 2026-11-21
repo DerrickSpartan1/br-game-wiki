@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Vault keys can spawn anywhere loot spawns: each match rolls 2 or 3 keys at the start and spreads them across the map, never near each other | [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | Vault keys spawn in the same named place as a vault only about 1% of the time, and care packages have a 5% key chance for now | [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | The Prison armory is the first map's fifth vault | [Maps](../systems/maps.md#marina-farms-and-vaults) |
 | 2026-11-21 | Vault keys: one key fits all, it's removed from your inventory when used, it drops on death, and care packages have a very small chance of one on top of the 2 or 3 ground keys. A vault drill is saved for later | [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |

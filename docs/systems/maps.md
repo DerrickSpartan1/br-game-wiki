@@ -24,10 +24,39 @@ People per municipality (2019): Ischia 20,170, Forio 18,005, Barano d'Ischia 9,9
 
 **Erangel, for reference:** a fictional 8 × 8 km island in the Black Sea near Russia. In its story, Soviet forces occupied it from the 1950s and used it as a military testing site. It has 25 named places: 5 large towns (Georgopol, Novorepnoye, Primorsk, Yasnaya Polyana, Pochinki), 9 small ones (Gatka, Mylta, Mylta Power, Lipovka, Severny, Rozhok, Zharki, Kameshki, Shooting Range), and 11 other spots, like Sosnovka Military Base, the Prison, School, Quarry, and Hospital. Ischia gives 11 towns and villages, so our own spots, like a military base and a prison, go in the open ground between them.
 
-### Ideas for the first map (not decided)
+### Heights: squashed, with a plateau
 
-- **Our own spots:** a prison, a dock or two, and a military outpost, in the open ground between towns.
-- **Monte Epomeo:** a 789 m mountain in the middle could be unplayable. Options: lower it to a plateau with a spot in the center, or keep it high only if it has tunnels and open space underground.
+Ischia is almost all mountain, and a 789 m peak in a 10 km map would let whoever holds it see most of the island, be too steep to climb or drive, and split the map. So every height is squashed to 40%, keeping the shape, and Epomeo's top is flattened into a plateau.
+
+| Hill | Real height | In the game |
+| --- | --- | --- |
+| Monte Epomeo | 789 m | A plateau about 2 km across, at about 270 m |
+| Monte Trippodi | 503 m | About 200 m |
+| Monte Rotaro | 307 m | About 120 m |
+| Montagnone | 252 m | About 100 m |
+
+- **Walkable:** no slope steeper than about 37° in the mock-up's terrain.
+- **No sniper nest:** a tree line rings the plateau, so the middle doesn't see the whole island.
+
+### Our own spots (first pass, for review)
+
+Placed on the v2 mockup; every position can move.
+
+| Spot | Where | Notes |
+| --- | --- | --- |
+| Military Outpost | The plateau's center | A bunker underneath holds one of the [vaults](match-flow.md#vaults-and-keys) |
+| Tunnel | About 1.7 km under the plateau's east edge, from Casamicciola's road to the south road | A shortcut and an ambush spot. The last circles can't end underground; red zone shells can't reach it, but poison gas fills it |
+| Prison | Alone in the southwest, past Panza | Cut off, like Erangel's |
+| Port | Ischia Porto, the real ferry harbor | Containers, cranes, and a ferry, like Georgopol's docks |
+| Fishing Dock | Forio's harbor | A small pier and boats |
+| Fortress | The castle islet off Ischia Ponte | Over its stone bridge |
+| Quarry | The south slopes above the coast | — |
+| Thermal Spa | Just west of Casamicciola Terme | Ischia is known for its hot springs |
+| Hospital | East of Lacco Ameno | — |
+| School | Between Barano and Ischia | — |
+| Farm | The fields near Cuotto | — |
+
+With the 11 towns and villages, that's 22 named places, against Erangel's 25.
 
 ### Turning Ischia into terrain
 

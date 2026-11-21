@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The first map's heights are squashed to 40% and Monte Epomeo's top becomes a plateau about 2 km across, so the middle stays playable | [Maps](../systems/maps.md#heights-squashed-with-a-plateau) |
 | 2026-11-21 | The first map is 10 × 8 km, with Ischia kept at true scale and ocean added around the edges | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | The first map's layout comes from Ischia (Italy): its coastline, hills, ring road, and town spots, reskinned in the game's own style. The other shortlisted islands are kept for future maps | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | Carry space is 6 capacity per Tarkov slot, a third of a frag grenade, so an average rig carries about what PUBG's vest and belt did | [Carry weight](../systems/armor.md#carry-weight) |

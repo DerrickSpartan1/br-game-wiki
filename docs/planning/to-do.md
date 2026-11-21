@@ -65,7 +65,7 @@ Armor and gear > Carry weight, and TTK > Hit zones.
 Then the build order that's left:
 
 - [ ] **The plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): a random plane path, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
-- [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, hills, ring road, and town spots ([Maps](../systems/maps.md#the-first-map-ischia)).
+- [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, squashed hills and the plateau, ring road, town spots, and our own spots ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Zone events, care packages, and vaults** ([Match flow](../systems/match-flow.md#zone-events)).
@@ -83,7 +83,8 @@ In rough order of what the game needs first:
 - [ ] **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, and FRAG-12's damage to vehicles.
 - [x] **The first map's island:** Ischia ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [x] **First map scale:** 10 × 8 km, Ischia at true scale with ocean on the edges ([Maps](../systems/maps.md#the-first-map-ischia)).
-- [ ] **Monte Epomeo and our own spots:** plateau or tunnels, and where the prison, docks, and outpost go; plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#ideas-for-the-first-map-not-decided)).
+- [x] **Monte Epomeo:** squashed to a plateau ([Maps](../systems/maps.md#heights-squashed-with-a-plateau)).
+- [ ] **Review the v2 map mockup:** the spots, tunnel, and tracks, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#our-own-spots-first-pass-for-review)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

@@ -21,8 +21,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Bipods and LMG handling:** whether bipods deploy when prone or on cover, whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Where bipods come from is decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
-- **Helmet hearing loss:** whether helmets that cover the ears muffle sound, using Tarkov's deafening rating (None, Low, or High) as a third helmet debuff ([Armor and gear](../systems/armor.md#helmets)).
-- **Visors:** whether tier 4 visors flip up, trading face protection for a clear view.
+- **Visors:** whether a visor can flip up, trading face protection for a clear view and the ability to ADS ([Armor and gear](../systems/armor.md#debuffs)).
 - **Neck and groin:** whether they're hit zones of their own, since many vests cover them.
 - **Armored rigs:** whether they carry more than plain vests, since they have pouches built in.
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.

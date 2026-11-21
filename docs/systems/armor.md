@@ -24,7 +24,8 @@ Every piece has its own movement and ADS (aim down sights) slowdown, as a percen
 
 - **Coverage costs speed.** A light plate carrier covers only the chest and barely slows you; a full kit covers the chest, stomach, arms, neck, and groin and slows you down.
 - **Arm armor slows ADS the most,** so a light vest keeps ADS quick but leaves the arms open.
-- **Helmets:** tier 4 helmets have visors that partly block eyesight. Helmets could also muffle hearing, using Tarkov's deafening rating; that's still an [open question](../planning/open-questions.md#systems).
+- **Hearing:** a helmet that covers the ears muffles sound, and the higher its tier, the more it muffles: a tier 2 helmet over the ears muffles less than a tier 3. Helmets that leave the ears open don't muffle anything. How much each tier muffles is TBD.
+- **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 4 helmets and the DEVTAC Ronin.
 
 ## Vests
 
@@ -92,36 +93,36 @@ Armored rigs are vests with pouches built in.
 
 ## Helmets
 
-"Back" is the back of the head. Helmet movement and ADS numbers come from an older Tarkov table, so they're rougher than the vests'; the TBD rows came out after it.
+"Back" is the back of the head; a helmet that lists ears muffles hearing. Helmet movement and ADS numbers come from an older Tarkov table, so they're rougher than the vests'; the TBD rows came out after it.
 
-| Helmet | Tier | Covers | Movement (%) | ADS (%) | Hearing loss | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Vulkan-5 (LShZ-5) | 4 | Top, back, ears | 7 | 20 | High | Visor |
-| Altyn | 4 | Top, back, ears | 7 | 6 | High | Visor |
-| Rys-T | 4 | TBD | TBD | TBD | High | Visor |
-| DEVTAC Ronin | 3 | Full head and face | 5 | 5 | High |  |
-| BNTI LShZ-2DTM | 3 | Top, back, ears | 3 | 10 | High |  |
-| Maska-1SCh | 3 | Top, back, ears | 3 | 7 | High |  |
-| ZSh-1-2M | 3 | Top, back, ears | 3 | 2 | High |  |
-| Highcom Striker ULACH | 3 | Top, back, ears | 2 | 4 | Low |  |
-| Highcom Striker ACHHC | 3 | Top, back | 2 | 2 | None |  |
-| MSA TC-2001 / TC-2002 (ACH) | 3 | Top, back | 2 | 2 | None |  |
-| MSA Gallet TC 800 | 3 | Top, back | 2 | 1 | None |  |
-| Team Wendy EXFIL | 3 | Top, back | 1 | 4 | None |  |
-| Diamond Age Bastion | 3 | Top, back | 1 | 2 | None |  |
-| Ops-Core FAST MT | 3 | Top, back | 1 | 0 | None |  |
-| Crye Precision AirFrame | 3 | Top, back | 0 | 3 | None |  |
-| SSh-68 | 2 | Top, back | 2 | 13 | None | Soviet steel helmet |
-| SSSh-95 Sfera-S | 2 | Top, back, ears | 2 | 3 | High |  |
-| Kiver-M | 2 | Top, back, ears | 3 | 1 | High |  |
-| 6B47 Ratnik-BSh | 2 | Top, back, ears | 1 | 2 | Low |  |
-| LShZ | 2 | Top, back | 1 | 1 | None |  |
-| NFM HJELM | 2 | TBD | TBD | TBD | None |  |
-| Galvion Caiman | 2 | TBD | TBD | TBD | None |  |
-| PSh-97 Djeta | 1 | Top, back, ears | 0 | 14 | High | Riot helmet |
-| ShPM Firefighter | 1 | Top, back, ears | 0 | 10 | High | Firefighter's helmet |
-| Kolpak-1S | 1 | Top | 2 | 5 | High | Riot helmet |
-| TSh-4M-L | 1 | Top, back, ears | 0 | 0 | Low | Soft tank crew helmet |
+| Helmet | Tier | Covers | Movement (%) | ADS (%) | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Vulkan-5 (LShZ-5) | 4 | Top, back, ears | 7 | 20 | Visor: blocks some vision and ADS |
+| Altyn | 4 | Top, back, ears | 7 | 6 | Visor: blocks some vision and ADS |
+| Rys-T | 4 | TBD | TBD | TBD | Visor: blocks some vision and ADS |
+| DEVTAC Ronin | 3 | Top, back, ears, face | 5 | 5 | Face cover: blocks some vision and ADS |
+| BNTI LShZ-2DTM | 3 | Top, back, ears | 3 | 10 |  |
+| Maska-1SCh | 3 | Top, back, ears | 3 | 7 |  |
+| ZSh-1-2M | 3 | Top, back, ears | 3 | 2 |  |
+| Highcom Striker ULACH | 3 | Top, back, ears | 2 | 4 |  |
+| Highcom Striker ACHHC | 3 | Top, back | 2 | 2 |  |
+| MSA TC-2001 / TC-2002 (ACH) | 3 | Top, back | 2 | 2 |  |
+| MSA Gallet TC 800 | 3 | Top, back | 2 | 1 |  |
+| Team Wendy EXFIL | 3 | Top, back | 1 | 4 |  |
+| Diamond Age Bastion | 3 | Top, back | 1 | 2 |  |
+| Ops-Core FAST MT | 3 | Top, back | 1 | 0 |  |
+| Crye Precision AirFrame | 3 | Top, back | 0 | 3 |  |
+| SSh-68 | 2 | Top, back | 2 | 13 | Soviet steel helmet |
+| SSSh-95 Sfera-S | 2 | Top, back, ears | 2 | 3 |  |
+| Kiver-M | 2 | Top, back, ears | 3 | 1 |  |
+| 6B47 Ratnik-BSh | 2 | Top, back, ears | 1 | 2 |  |
+| LShZ | 2 | Top, back | 1 | 1 |  |
+| NFM HJELM | 2 | TBD | TBD | TBD |  |
+| Galvion Caiman | 2 | TBD | TBD | TBD |  |
+| PSh-97 Djeta | 1 | Top, back, ears | 0 | 14 | Riot helmet |
+| ShPM Firefighter | 1 | Top, back, ears | 0 | 10 | Firefighter's helmet |
+| Kolpak-1S | 1 | Top | 2 | 5 | Riot helmet |
+| TSh-4M-L | 1 | Top, back, ears | 0 | 0 | Soft tank crew helmet |
 
 Left out: Tarkov's fictional and joke pieces, like the UNTAR gear, boss editions, the pumpkin helmet, and the Tac-Kek replica. Color variants are skins.
 

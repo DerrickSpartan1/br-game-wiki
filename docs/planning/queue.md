@@ -38,7 +38,7 @@ Possible additions: Daewoo K2 (South Korea), Howa Type 89 (Japan), INSAS (India)
 
 ## Battle rifles & DMRs (done)
 
-One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs). In rough order of when each came out. Bolt-action and heavy precision rifles go to snipers, and automatic rifles like the BAR go to LMGs.
+One category: rifles in full-power rounds that soldiers carried as their main rifle (battle rifles), plus semi-auto marksman rifles built for longer range (DMRs). In rough order of when each came out. Bolt-action and precision rifles go to snipers (heavy and anti-materiel ones to crates), and automatic rifles like the BAR go to LMGs.
 
 | # | Gun | Origin and cartridge | Status |
 | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ Planned as versions, not separate guns: the M249 under the Minimi, the M240 and 
 
 ## Snipers (in progress)
 
-Bolt-action, lever-action, and heavy precision rifles, in rough order of when each came out. Semi-auto marksman rifles go to battle rifles & DMRs. Dates for queued guns are rough until each is researched.
+Bolt-action, lever-action, and precision rifles, in rough order of when each came out. Semi-auto marksman rifles go to battle rifles & DMRs. Dates for queued guns are rough until each is researched.
 
 | # | Gun | Origin and cartridge | Status |
 | --- | --- | --- | --- |
@@ -143,16 +143,14 @@ Bolt-action, lever-action, and heavy precision rifles, in rough order of when ea
 | 18 | Steyr SSG 69 | Austria, 1969; 7.62×51mm | Queued |
 | 19 | HK PSG1 | West Germany, 1972; 7.62×51mm (semi-auto precision) | Queued |
 | 20 | [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) | UK, 1982; 7.62×51mm / .300 Win Mag / .338 Lapua | Added |
-| 21 | Barrett M82 / M107 | USA, 1982; .50 BMG (semi-auto) | Queued |
-| 22 | Sako TRG | Finland, 1989; 7.62×51mm / .338 Lapua | Queued |
-| 23 | Blaser R93 | Germany, 1993; many calibers (straight-pull) | Queued |
-| 24 | SV-98 | Russia, 1998; 7.62×54mmR / 7.62×51mm | Queued |
-| 25 | DSR-1 | Germany, 2000; 7.62×51mm / .338 Lapua (bullpup) | Queued |
-| 26 | CheyTac M200 | USA, 2001; .408 CheyTac | Queued |
-| 27 | Barrett MRAD | USA, 2011; .338 Lapua / .300 Win Mag | Queued |
-| 28 | Orsis T-5000 | Russia, 2011; .338 Lapua / 7.62×51mm | Queued |
+| 21 | Sako TRG | Finland, 1989; 7.62×51mm / .338 Lapua | Queued |
+| 22 | Blaser R93 | Germany, 1993; many calibers (straight-pull) | Queued |
+| 23 | SV-98 | Russia, 1998; 7.62×54mmR / 7.62×51mm | Queued |
+| 24 | DSR-1 | Germany, 2000; 7.62×51mm / .338 Lapua (bullpup) | Queued |
+| 25 | Barrett MRAD | USA, 2011; .338 Lapua / .300 Win Mag | Queued |
+| 26 | Orsis T-5000 | Russia, 2011; .338 Lapua / 7.62×51mm | Queued |
 
-Planned as versions, not separate guns: the M24 and M40 under the Remington 700, the L96A1 and AWM under the AI AW family, and the Gewehr 98 and Kar98a under the Kar98k. The [SVD](../weapons/battle-rifles/svd.md) stays in battle rifles & DMRs.
+Planned as versions, not separate guns: the M24 and M40 under the Remington 700, the L96A1 and AWM under the AI AW family, and the Gewehr 98 and Kar98a under the Kar98k. The [SVD](../weapons/battle-rifles/svd.md) stays in battle rifles & DMRs. Heavy and anti-materiel rifles, like the Barrett M82 / M107, the AI AW50, and the CheyTac M200, are queued as [crate weapons](../weapons/crate/index.md).
 
 ## Shotguns (done)
 

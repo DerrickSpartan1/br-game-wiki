@@ -3,7 +3,7 @@
 | Spec | Detail |
 | --- | --- |
 | Category | Sniper (bolt-action rifle) |
-| Cartridge | Varies by version: 7.62×51mm (main), .300 Winchester Magnum, .338 Lapua Magnum, or .50 BMG |
+| Cartridge | Varies by version: 7.62×51mm (main), .300 Winchester Magnum, or .338 Lapua Magnum |
 | History | UK; Accuracy International designed the PM in 1982 and the AW (Arctic Warfare) in 1983, and still makes the family; the L96A1 entered British service in the mid-1980s, and Sweden adopted the AW in 1988 as the Psg 90 (accepted 1991); the magnum AWM followed in 1996 and was made until 2013, and the UK ordered 580 L115A3s in 2007; used by the UK, Sweden, Australia, Germany, the Netherlands, Russia's Alpha Group, Ireland, Norway, New Zealand, Spain, Singapore, the US (Mk 13), and others; the Netherlands sent .338 AWMs to Ukraine in 2022 |
 | Magazine (rounds) | Detachable box: 10 rounds in 7.62×51mm, 5 in .300 Winchester Magnum and .338 Lapua Magnum |
 | Fire mode / rate | Bolt action; closed bolt |
@@ -16,7 +16,7 @@ Base AW: 6.5 kg, 1,180 mm long, 660 mm barrel, 850 m/s, and built to work down t
 
 ## In-game traits
 
-One roster entry that rolls one of 8 versions (see [Versions](#versions) below). PUBG's AWM is the .300 Magnum version. Every version reloads by swapping mags. The AWS and AWC keep their suppressors ([Built-in parts](../../systems/attachments.md#built-in-parts)).
+One roster entry that rolls one of 7 versions (see [Versions](#versions) below). PUBG's AWM is the .300 Magnum version. Every version reloads by swapping mags. The AWS and AWC keep their suppressors ([Built-in parts](../../systems/attachments.md#built-in-parts)).
 
 ## Attachments
 
@@ -24,7 +24,7 @@ DMR & sniper family attachments; native scope rail. Unique: the AWS and AWC supp
 
 ## Versions
 
-8 versions after merging. The newer AX series and the US Navy's Mk 13 are on the [add-later list](../../planning/add-later.md).
+7 versions after merging. The newer AX series and the US Navy's Mk 13 are on the [add-later list](../../planning/add-later.md). The .50-caliber AW50 is queued as a [crate weapon](../crate/index.md), since heavy and anti-materiel snipers are crate-only.
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,7 +35,6 @@ DMR & sniper family attachments; native scope rail. Unique: the AWS and AWC supp
 | 5 | AWC Covert (rare) | Folds into a small case; 305 mm barrel and suppressor | 7.62×51mm | Unknown | AWC, Germany's G25 | bolt action | TBD | No | box mag | 10 |
 | 6 | AWM .300 | Magnum with a longer bolt | .300 Winchester Magnum | Unknown | AWM, AWM-F, Germany's G22 | bolt action | TBD | No | box mag | 5 |
 | 7 | AWM .338 | The British L115 | .338 Lapua Magnum | 580 L115A3s ordered in 2007 | AWSM, the Netherlands' AWM-F, L115A1, L115A3 | bolt action | TBD | No | box mag | 5 |
-| 8 | AW50 (rare) | .50-caliber anti-materiel version from 2000 | .50 BMG | Unknown | AW50, AW50F, Germany's G24 | bolt action | TBD | No | box mag | TBD |
 
 ## Sources
 

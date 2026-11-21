@@ -76,7 +76,6 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | .32 Winchester Special | — | Rifle | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
 | .32-40 Winchester | — | Rifle | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
 | .38-55 Winchester | — | Rifle | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
-| .50 BMG | 12.7×99mm NATO | Rifle | [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) |
 | .222 Remington | — | Rifle | [vz. 58](../weapons/assault-rifles/vz-58.md), [Ruger Mini-14](../weapons/battle-rifles/mini-14.md) |
 | .276 Pedersen | — | Rifle | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | .280 British | — | Rifle | [FN FAL](../weapons/battle-rifles/fn-fal.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md) |

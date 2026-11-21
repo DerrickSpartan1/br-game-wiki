@@ -33,7 +33,7 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 
 Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a launcher and a bow, never two launchers.
 
-Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks.
+Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. Heavy and anti-materiel sniper rifles, like .50-caliber ones, are crate-only.
 
 Lethal grenade launchers are too powerful for the ground pool, so they go in crates; non-lethal ones go in the class item pool.
 
@@ -47,7 +47,7 @@ Specific guns are listed in the [weapon roster](../weapons/index.md). Where they
 
 Categories are loose on purpose: a gun doesn't have to fit its category exactly.
 
-**Battle rifles & DMRs:** one category. Battle rifles are a soldier's main rifle in a full-power round (FAL, M14, G3), usually with an auto mode and iron sights. DMRs are semi-auto marksman rifles for longer range, often built from those same battle rifles (the M14 into the Mk 14, the HK417 into the G28) and in the same rounds. They overlap too much to split, and original PUBG grouped them the same way (its SLR is a FAL, its Mk14 an M14). Bolt-action and heavy precision rifles stay in snipers.
+**Battle rifles & DMRs:** one category. Battle rifles are a soldier's main rifle in a full-power round (FAL, M14, G3), usually with an auto mode and iron sights. DMRs are semi-auto marksman rifles for longer range, often built from those same battle rifles (the M14 into the Mk 14, the HK417 into the G28) and in the same rounds. They overlap too much to split, and original PUBG grouped them the same way (its SLR is a FAL, its Mk14 an M14). Bolt-action and precision rifles stay in snipers, except heavy and anti-materiel ones, which are crate-only.
 
 **Gun versions:** a gun with several versions, like the C96, is one roster entry. The randomizer picks the gun, then rolls one version for that match.
 

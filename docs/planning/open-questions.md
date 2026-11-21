@@ -7,8 +7,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **In-game range:** TBD on every gun page. Damage has a first pass on every version ([Starting damage](../systems/starting-damage.md)), to tune in play testing.
 - **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo), [Grenade launchers](../systems/attachments.md#crate-rounds-lethal)).
 - **CS gas rounds:** whether launchers get tear gas later, which would need a gas effect of its own ([Grenade launchers](../systems/attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)).
-- **Handling numbers:** hip fire, ADS speed, movement, and swap speed per category. The direction is set on [Roles by category](../systems/ttk.md#roles-by-category): pistols and SMGs fastest, LMGs and snipers slowest.
-- **Carry space:** how Tarkov's slot counts for vests and rigs turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
+- **Handling numbers:** a first pass per category, from PUBG's numbers, is on [Handling](../systems/handling.md). ADS times aren't in PUBG's data, so those are our picks; all of it gets tuned in play testing.
+- **Carry space:** the first pass is 6 capacity per Tarkov slot, so an average rig carries about what PUBG's vest and belt did. The owner's idea of one frag grenade (18) per slot would triple rig space; to confirm ([Carry weight](../systems/armor.md#carry-weight)).
 - **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H sits in battle rifles & DMRs ([FN SCAR-L](../weapons/assault-rifles/scar-l.md), [FN SCAR-H](../weapons/battle-rifles/scar-h.md)).
@@ -21,12 +21,13 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Systems
 
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
-- **Shields:** what you can use while holding one (a pistol, as in Rainbow Six Siege?), how much damage a normal shield takes, and whether the flash shield really uses the class slot ([Class items](../systems/class-items.md)).
+- **Shields:** whether the flash shield really uses the class slot; the first pass for shields is set ([Shields](../systems/class-items.md#shields)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
-- **Neck and groin:** whether they're hit zones of their own, since many vests cover them.
+- **Neck and groin:** whether they're hit zones of their own, since many vests cover them. PUBG has both: a neck hit does three-quarters of a head hit and the helmet covers it, and the pelvis counts as body under the vest ([PUBG's hit zones](../systems/ttk.md#pubg-in-2018-for-reference)). Suggestion: add both, so a vest's neck and groin coverage matters.
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
-- **Maps:** not decided yet ([Maps](../systems/maps.md)).
+- **First map island:** which real island the 8 × 8 km map's terrain is based on; Russky Island is the suggestion, Lastovo the near-true-size option ([Maps](../systems/maps.md#real-islands-to-base-it-on)).
+- **Match flow numbers:** plane altitude and speed, care packages per match, and each zone event's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).

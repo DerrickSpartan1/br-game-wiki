@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added [Handling](../systems/handling.md) (PUBG's spread, sway, delays, reloads, and movement, plus a first pass per category and reload style) and [Match flow](../systems/match-flow.md) (plane, parachutes, zone with anti-camping damage, zone events, care packages, vaults, time of day, weather, and the wrist watch); filled in [Maps](../systems/maps.md) with the first map and five real islands to base it on; added PUBG's 13 hit zones to [TTK](../systems/ttk.md#pubg-in-2018-for-reference), [shields](../systems/class-items.md#shields), [carry weight](../systems/armor.md#carry-weight), and [ammo weight](../systems/ammo.md#weight) |
 | 2026-11-21 | Added the [AI team](ai-team.md) page: who's who, the six workers, the lead's rules, a setup prompt, and phone access through Remote Control; regrouped the [To-do](to-do.md) list with a For the lead section |
 | 2026-11-21 | Added the [To-do](to-do.md) list, grouped by who does each item; filed the [AI team of workers](idea-inbox.md#ai-team-of-workers) idea; ticked the finished setup and build steps on [Getting started](getting-started.md) |
 | 2026-11-21 | Added the [M16 / M4 model guide](m16-m4-model.md): setup, reference, the four looks that cover all 9 versions, and step-by-step prompts from blockout to the range |

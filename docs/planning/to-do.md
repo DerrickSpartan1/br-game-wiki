@@ -42,25 +42,41 @@ Wiki changes to pick up, then regenerate the weapon and armor data tables:
    Winchester 1887 10 gauge.
 ```
 
+- [ ] **Handling and weights into the data.** The prompt:
+
+```text
+Wiki additions to pick up: Systems > Handling, Ammo > Weight, and
+Armor and gear > Carry weight.
+1. Extend the weapon data generator so each version gets its category's
+   hip spread, ready time, ADS time, and sprint speed, and its reload
+   times from the style in its Reload column, all from the Handling
+   page's tables.
+2. Add ammo weight per round (by round energy, from the Ammo page's
+   Weight table) and the backpack, rig, and throwable numbers from
+   Carry weight, as placeholders in Project Settings until the owner
+   confirms them.
+```
+
 Then the build order that's left:
 
-- [ ] **The zone and the plane drop.**
-- [ ] **Parachuting,** with the third-person view it uses ([Gameplay](../systems/gameplay.md)).
-- [ ] **A graybox map:** blocks and ramps before art.
+- [ ] **The plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): a random plane path, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
+- [ ] **A graybox map:** 8 × 8 km of blocks and ramps before art ([Maps](../systems/maps.md)).
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
+- [ ] **Zone events, care packages, and vaults** ([Match flow](../systems/match-flow.md#zone-events)).
+- [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 
 ## You: decisions
 
 In rough order of what the game needs first:
 
-- [ ] **Handling numbers:** hip fire, ADS speed, movement, and swap speed per category, including LMGs. The direction is set on [Roles by category](../systems/ttk.md#roles-by-category); the numbers matter as soon as real models are in.
+- [ ] **Check the handling first pass:** spread, ready and ADS times, reloads, and speed per category, from PUBG's numbers ([Handling](../systems/handling.md)). They matter as soon as real models are in.
 - [ ] **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
-- [ ] **Neck and groin:** whether they're hit zones of their own.
-- [ ] **Shields:** what you can hold with one, how much damage a normal shield takes, and whether the flash shield uses the class slot ([Class items](../systems/class-items.md)).
-- [ ] **Carry space:** how Tarkov's slot counts turn into the game's carry space ([Armor](../systems/armor.md#vests)).
+- [ ] **Neck and groin:** whether they're hit zones of their own. PUBG has both; the suggestion is to add both ([PUBG's hit zones](../systems/ttk.md#pubg-in-2018-for-reference)).
+- [ ] **Shields:** check the first pass (2,900 damage, half an M60 belt; pistol only) and whether the flash shield uses the class slot ([Shields](../systems/class-items.md#shields)).
+- [ ] **Carry space:** 6 capacity per Tarkov slot (first pass) or one frag grenade, 18, per slot (triples rig space) ([Carry weight](../systems/armor.md#carry-weight)).
 - [ ] **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, and FRAG-12's damage to vehicles.
-- [ ] **The first map:** size and setting, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md)).
+- [ ] **The first map's island:** Russky Island (suggested) or Lastovo, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#real-islands-to-base-it-on)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

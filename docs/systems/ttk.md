@@ -31,7 +31,7 @@ Sources: [CSDB: CS2 damage calculator](https://csdb.gg/damage-calculator/) · [I
 
 ## Roles by category
 
-Every category has a job and a range where it should win, so no gun is worthless at its job and none wins everywhere. Damage, falloff, and handling keep each one there. The handling numbers are TBD; the direction is set here.
+Every category has a job and a range where it should win, so no gun is worthless at its job and none wins everywhere. Damage, falloff, and handling keep each one there. Handling has a first pass, based on PUBG's numbers, on [Handling](handling.md).
 
 | Category | Job | Where it wins | What keeps it there |
 | --- | --- | --- | --- |
@@ -150,6 +150,23 @@ These are PUBG PC's numbers from June 2018 (Patch 1.0 #15), from LeNutch's commu
 
 The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and helmets cut damage by 30%, 40%, and 55%. Helmets hold 80, 150, and 230 durability; vests hold 200, 220, and 250.
 
+**PUBG's hit zones:** the 2018 sheet only splits head, body, and limbs, but PUBG's body has 13 zones. Each zone's hit-area multiplier stacks with the class multiplier above: head for the head and neck, body for the torso, limbs for the arms and legs. These are today's values (2025–2026 patches), from PUBG Statistics.
+
+| Zone | Hit-area multiplier | Class multiplier it uses | Armor that covers it |
+| --- | --- | --- | --- |
+| Head | 1.0 | Head | Helmet |
+| Neck | 0.75 | Head | Helmet |
+| Clavicle | 1.0 | Body | Vest |
+| Chest | 1.1 | Body | Vest |
+| Upper stomach | 1.0 | Body | Vest |
+| Lower stomach | 0.95 | Body | Vest |
+| Pelvis | 1.0 | Body (LMGs use 1.0 here) | Vest |
+| Upper arm, thigh | 0.6 | Limbs | None |
+| Forearm, calf | 0.5 | Limbs | None |
+| Hand, foot | 0.3 | Limbs | None |
+
+So a neck hit does three-quarters of a head hit, the chest a little more than the stomach, and a hand or foot under a third of an upper arm or thigh. Whether the game adds a neck and groin zone is still open ([Open questions](../planning/open-questions.md#systems)).
+
 **Time to kill, chest hits:**
 
 | Gun | Class | Damage | Fire rate (RPM) | No vest | Level 1 vest | Level 2 vest | Level 3 vest | Head shots to kill (no helmet, level 1, 2, 3) |
@@ -186,6 +203,6 @@ The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and he
 - **Close calls:** the Kar98k's chest hit against a level 2 vest does 49.5, so two hits leave 1 health.
 - **Perfect hits kill fast.** Against a level 2 vest, the automatic guns kill in about 0.2 to 0.4 seconds of perfect chest hits. Recoil and misses make real fights much longer, which is where gun feel comes in.
 
-Sources: [PUBG Map: DMRs](https://pubgmap.io/weapons/dmr.html) · [PUBG Wiki: Shotguns](https://pubg.wiki.gg/wiki/Shotguns) · [PUBG Wiki: Sniper Rifles](https://pubg.wiki.gg/wiki/Sniper_Rifles) · [Medium: Does bullet velocity really matter in PUBG? (2019)](https://medium.com/@midopooler/does-bullet-velocity-really-matter-in-pubg-cba1d571ce6f) · [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
+Sources: [PUBG Map: DMRs](https://pubgmap.io/weapons/dmr.html) · [PUBG Wiki: Shotguns](https://pubg.wiki.gg/wiki/Shotguns) · [PUBG Wiki: Sniper Rifles](https://pubg.wiki.gg/wiki/Sniper_Rifles) · [Medium: Does bullet velocity really matter in PUBG? (2019)](https://medium.com/@midopooler/does-bullet-velocity-really-matter-in-pubg-cba1d571ce6f) · [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles) · [PUBG Statistics: RPD](https://pubgstatistics.com/weapons/rpd) · [PUBG Statistics: Vector](https://pubgstatistics.com/weapons/vector)
 
 Reliability: guns never jam or overheat (see [Rules](../rules.md)). Whether some items wear out is still open; the makeshift suppressor and the StG 44's Krummlauf are the current wear ideas.

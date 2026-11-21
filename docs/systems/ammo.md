@@ -26,6 +26,26 @@ Ammo spawns with each gun, so only the calibers of the guns in that match appear
 
 How often loose ammo spawns is on [Loot and spawning](loot.md#starting-weights).
 
+## Weight
+
+Ammo weighs per round, in PUBG's capacity units ([Carry weight](armor.md#carry-weight)). PUBG's weights are the first pass. PUBG has one weight per caliber, so each of our rounds takes the PUBG weight of the nearest round by energy (energies are on [Starting damage](starting-damage.md#starting-damage-by-table)).
+
+| Rounds | Weight per round | PUBG basis | Examples |
+| --- | --- | --- | --- |
+| Under 500 J | 0.375 | 9mm | 9×19mm, .380 ACP, .22 LR |
+| 500 to 1,199 J | 0.4 | .45 ACP | .45 ACP, 7.62×25mm Tokarev, .357 Magnum, 9×39mm |
+| 1,200 to 1,999 J | 0.5 | 5.56mm | 5.56×45mm, 5.45×39mm, 7.92×33mm Kurz, .30 Carbine |
+| 2,000 to 4,999 J | 0.7 | 7.62mm | 7.62×39mm, .300 Blackout, 7.62×51mm, 7.62×54mmR, .460 and .500 S&W |
+| 5,000 J and up | 1.0 | .300 Magnum | .300 Winchester Magnum, .338 Lapua Magnum, 9.3×64mm Brenneke |
+| Shotgun shells, any gauge | 1.25 | 12 gauge | Buckshot and slugs |
+| FRAG-12 and dragon's breath (crate) | 2 | Our pick: PUBG's heaviest round, the crossbow bolt | 10 rounds weigh about as much as a frag grenade (18) |
+| Flares | 0.5 | Flare gun | — |
+| Grenade launcher rounds | TBD | — | — |
+
+Rounds with no energy yet get their weight when the energy is found. In PUBG, a 12-gauge shell (1.25) already outweighs an AWM round (1.0), so the crate shells go to 2 to stay heavier than normal shells.
+
+Source: [PUBG Wiki: Ammunition](https://pubg.wiki.gg/wiki/Ammunition)
+
 ## Calibers in the roster
 
 Every cartridge that at least one roster gun or version fires. Many appear only on one rare version or prototype; each gun page's Versions table says which.

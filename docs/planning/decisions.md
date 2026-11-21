@@ -4,6 +4,13 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The first map is Erangel's size, 8 × 8 km, with terrain based on a real island (which one is still open) and towns in the game's own Soviet-era style | [Maps](../systems/maps.md) |
+| 2026-11-21 | Matches run like PUBG's: a random plane path, PUBG-style parachutes, PUBG's Erangel zone phases, and random care packages. Zone damage grows the farther outside the zone you are and the later the phase, so zone camping doesn't pay | [Match flow](../systems/match-flow.md) |
+| 2026-11-21 | Zone events: PUBG's red zone plus a smoke zone and a poison zone, one at a time at random | [Match flow](../systems/match-flow.md#zone-events) |
+| 2026-11-21 | Locked vaults opened with rare keys, like Apex's World's Edge vaults | [Match flow](../systems/match-flow.md#vaults-and-keys) |
+| 2026-11-21 | Time passes during a match (day, late day into night, all night, or night into morning), weather can change mid-match, and every player has an always-visible watch on the left wrist | [Match flow](../systems/match-flow.md#time-of-day-and-weather) |
+| 2026-11-21 | Shields are for advancing and breaching and mustn't be overpowered: a ballistic shield breaks after half a belt from a heavy LMG (2,900 damage), and the barricade starts from PUBG's Folded Shield | [Class items](../systems/class-items.md#shields) |
+| 2026-11-21 | Carry weight uses PUBG's capacity units and weights as the first pass; FRAG-12 and dragon's breath are heavier than normal shells (2 per round) | [Armor and gear](../systems/armor.md#carry-weight), [Ammo](../systems/ammo.md#weight) |
 | 2026-11-21 | The AI helpers work as a team: Claude chat is the planner (design and this wiki), Claude Code on the owner's PC is the lead, and the lead hands work to subagent workers (modeler, materials, animator, coder, sound, reviewer). The owner reaches the lead from his phone through Remote Control | [AI team](ai-team.md) |
 | 2026-11-21 | Armor has three tiers, like PUBG, at PUBG's 30%, 40%, and 55%: tier 1 holds Tarkov classes 1–2, tier 2 classes 3–4, and tier 3 classes 5–6. Guns are balanced around tier 2, and crates hold tier 3 | [Armor](../systems/armor.md#tiers) |
 | 2026-11-21 | The crate line is one head shot through a tier 3 helmet, PUBG's exact line, so the .300 Winchester Magnum snipers (M2010, Remington 700 .300, AWM .300) are crate-only like PUBG's AWM; the shotgun ceiling is a tier 3 vest, so the Winchester 1887 10 gauge is 24 per pellet | [Starting damage](../systems/starting-damage.md#baselines-and-crate-lines) |

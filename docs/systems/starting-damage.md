@@ -163,6 +163,8 @@ Crate shotguns, like the [AA-12](../weapons/crate/aa-12.md), can roll two specia
 - **Tell:** the huge muzzle flame gives the shooter away.
 - **What that does:** one close hit on an unarmored target is 90 plus 40 burning, so they die within a second or two. Against a tier 3 vest it's about 40 plus the burn per shot, about three shots against buckshot's two, but the burn keeps hurting through armor and behind cover, and the target can't aim back.
 
+**Weight:** both crate shells weigh 2 per round, against 1.25 for normal shells, so carrying a lot of them costs backpack space ([Ammo](ammo.md#weight)). How many a crate holds is still TBD.
+
 ## Starting damage by table
 
 These are the table values from steps 1 and 2, before the fire-rate band and role tests. Each version's final first-pass number is in its gun page's Damage column. "Versions" counts the versions that use that row. TBD rounds don't have an energy yet.

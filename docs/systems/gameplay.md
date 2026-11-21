@@ -3,7 +3,8 @@
 Matches favor scavenging and a slower pace over fast action, in a classic battle royale format.
 
 - **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
-- **Hit zones:** damage differs across four zones: head, chest and stomach (one zone), arms, and legs.
+- **Hit zones:** damage differs across four zones: head, chest and stomach (one zone), arms, and legs. Whether the neck and groin get zones of their own is open; PUBG's 13-zone split is on [TTK](ttk.md#pubg-in-2018-for-reference).
+- **Handling:** spread, ready and ADS times, reloads, and movement speed per category are on [Handling](handling.md).
 
 ## HUD and inventory
 
@@ -46,10 +47,14 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 ## Match setup
 
 - **Modes:** solos, duos, and quads.
-- **Player count:** set by each map's size.
-- **Zone:** works like PUBG's.
-- **Red zone:** yes.
-- **Crates:** arrive by air drop.
+- **Player count:** set by each map's size; 100 on the first map ([Maps](maps.md)).
+- **Zone:** works like PUBG's, with damage that grows the deeper outside you are, so zone camping doesn't pay ([Match flow](match-flow.md#the-zone)).
+- **Zone events:** PUBG's red zone, plus smoke and poison zones ([Match flow](match-flow.md#zone-events)).
+- **Plane and parachutes:** a random plane path and PUBG-style parachutes ([Match flow](match-flow.md#the-plane)).
+- **Crates:** arrive by air drop at random ([Match flow](match-flow.md#care-packages)).
+- **Vaults:** locked vaults opened with rare keys, like Apex's ([Match flow](match-flow.md#vaults-and-keys)).
+- **Time and weather:** time passes during a match, from day into night or night into morning, and weather can change ([Match flow](match-flow.md#time-of-day-and-weather)).
+- **Wrist watch:** always on the left wrist, showing the in-game time ([Match flow](match-flow.md#wrist-watch)).
 - **Hot loot zones:** yes.
 
 ## Sound

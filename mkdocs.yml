@@ -67,7 +67,9 @@ nav:
       - Attachments: systems/attachments.md
       - Time to kill: systems/ttk.md
       - Starting damage: systems/starting-damage.md
+      - Handling: systems/handling.md
       - Gameplay: systems/gameplay.md
+      - Match flow: systems/match-flow.md
       - Armor and gear: systems/armor.md
       - Class items: systems/class-items.md
       - Crafting: systems/crafting.md

@@ -38,7 +38,7 @@ A vest spawns as a combo, built in four steps, and stays that combo for the matc
 - **Weight slows running, coverage slows aiming.** Movement slowdown comes mostly from weight, so heavy steel plates slow running the most. ADS slowdown comes mostly from coverage, with arm armor costing the most; plates and rigs add only a little. A tier 2 carrier with steel plates and no arm armor aims with only a slight penalty but runs noticeably slower.
 - **Example:** a tier 2 US Army OTV (2% movement, 0% ADS) with a 6B33 steel front plate and a 6B13 steel back plate comes to 7% movement and 1.5% ADS before its rig. With a pair of lighter Monoclete polyethylene plates instead, it's 4% and 2%.
 - **Looks:** the model shows the carrier and its rig, so two tier 2 vests in one match can look different, and a tier 2 and a tier 3 can look the same.
-- **Carry space** comes from the carrier's pouches or its rig. The numbers below are Tarkov's slot counts, to compare pieces; the game's own capacity is TBD.
+- **Carry space** comes from the carrier's pouches or its rig. The numbers below are Tarkov's slot counts; each slot holds 6 capacity in the game ([Carry weight](#carry-weight)).
 - **No loose plates** to find or swap.
 - **Fixed vests** are soft armor and armor built around its own plates. They spawn only at their real tiers, and their numbers already include their armor.
 
@@ -212,6 +212,26 @@ The random rigs for carriers without pouches. Color variants are skins.
 
 Left out: Tarkov's fictional and joke pieces, like the UNTAR gear, boss editions, the pumpkin helmet, the Tac-Kek replica, and the IDEA and Scav rigs. Color variants are skins.
 
+## Carry weight
+
+Like PUBG, every item has a weight and your gear sets how much you can carry. PUBG's capacity units and numbers are the first pass.
+
+| Gear | Capacity | Basis |
+| --- | --- | --- |
+| Backpack, levels 1, 2, 3 | 150, 200, 250 | PUBG's backpacks |
+| Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 150, about 96 for an average rig | Our pick |
+| No gear | TBD | — |
+
+| Item | Weight | Basis |
+| --- | --- | --- |
+| Frag grenade | 18 | PUBG |
+| Molotov | 16 | PUBG |
+| Smoke grenade | 14 | PUBG |
+| Stun grenade | 12 | PUBG |
+| Ammo | Per round, by energy | [Ammo](ammo.md#weight) |
+
+**Why 6 per slot:** a rig stands in for PUBG's vest and utility belt, which added 50 each in 2017, so the average rig (16 slots) should carry about 100. One slot per frag grenade (18) would give the average rig 288 and the biggest 450, more than PUBG's best backpack. At 6, a slot is a third of a grenade, and backpacks stay the main storage.
+
 ## Sources
 
 - [Tarkov Forge: Armor chart](https://tarkovforge.com/armor) (vest classes, coverage, and penalties)
@@ -219,3 +239,6 @@ Left out: Tarkov's fictional and joke pieces, like the UNTAR gear, boss editions
 - [Escape from Tarkov Wiki: Armor plates](https://escapefromtarkov.fandom.com/wiki/Armor_plates) (plate weights and penalties)
 - [Tarkov Forge: Chest rigs](https://tarkovforge.com/rigs) (carry space and rig penalties)
 - [Escape from Tarkov Wiki (Bilibili): Headwear](https://wiki.biligame.com/eft/Headwear) (helmet coverage and penalties, older patch)
+- [Samurai Gamers: PUBG equipment list](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/equipment-list/) (backpack, vest, and belt capacity)
+- [PUBG Wiki: Grenades](https://pubg.wiki.gg/wiki/Grenades) (throwable weights)
+- [PUBG Wiki: Ammunition](https://pubg.wiki.gg/wiki/Ammunition) (ammo weights)

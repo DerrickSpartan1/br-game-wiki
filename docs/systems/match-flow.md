@@ -98,8 +98,9 @@ Ours:
 - **One key fits all:** any key opens any vault, and holding one shows every vault on your map, like Apex.
 - **Used up:** opening a vault removes the key from your inventory.
 - **Dropped on death:** a key drops with your loot, so a key holder is worth hunting.
-- **Where they spawn:** each match picks 2 or 3 spots at random from a longer list of possible key spots (desks, lockers, and safes in offices, the Hospital, the Port, the Prison, and similar), at least 2 km apart. Players learn the likely places but can't farm one spot.
-- **Care packages:** a very small chance of a key, on top of the ground keys (about 5% per package, our pick).
+- **Where they spawn:** each match picks 2 or 3 spots at random from a longer list of possible key spots (desks, lockers, and safes in offices, farmhouses, the Hospital, the Port, and similar), at least 2 km apart. Players learn the likely places but can't farm one spot.
+- **Away from the vaults:** a key lands in the same named place as a vault only about 1% of the time, so a place like the Farm is more likely to hold a key than the Prison is. Finding the key and reaching a vault are two separate trips.
+- **Care packages:** a 5% chance of a key per package, on top of the ground keys, to tune later.
 
 **Later:** a drill that opens any vault in about 45 seconds, but loudly.
 

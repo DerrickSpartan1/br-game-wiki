@@ -4,9 +4,11 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Frying pan that blocks bullets; a victory line of our own; a private practice lobby; custom matches, fun modes, and ranked; vehicle fuel and tire damage; swimming and diving; no knockdown shields | [Gameplay](../systems/gameplay.md) |
+| 2026-11-21 | Dog tags: worn by everyone and never removable; collecting a kill's tags gives bonus XP and adds them to a personal confirmed-kill collection, and a teammate collecting them counts too | [Gameplay](../systems/gameplay.md#dog-tags) |
 | 2026-11-21 | Outfits work like PUBG's: hat, glasses, mask, neck, over shirt or jacket, undershirt, gloves, pants, socks, and shoes, all removable in a match; elbow and knee pads and male or female underwear can't be removed. Players enter the lobby wearing only their outfit | [Skins and mastery](../systems/skins.md#wardrobe) |
 | 2026-11-21 | Squad and anti-cheat basics: a ping system on middle mouse, proximity chat, a death cam and replays, and Easy Anti-Cheat | [Gameplay](../systems/gameplay.md) |
-| 2026-11-21 | Footprints in snow, mud, and similar ground, and tire tracks; cars, boats, water vehicles, and ziplines | [Gameplay](../systems/gameplay.md#vehicles) |
+| 2026-11-21 | Footprints in snow, mud, and similar ground, and tire tracks; cars, boats, water vehicles, and ziplines | [Gameplay](../systems/gameplay.md#vehicles-and-water) |
 | 2026-11-21 | Pre-match lobby on the match's own map: it fills with bots and swaps in players, starts a 60-second countdown at 10 players while the match rolls its randomness, and loads ground loot when everyone moves to the plane; bots stay to fill empty slots; the plane flies in from off the map | [Match flow](../systems/match-flow.md#pre-match-lobby) |
 | 2026-11-21 | Radar stations sell the next circle for scrap; moving loot and wanted-player contracts are in | [Match flow](../systems/match-flow.md#radar-stations) |
 | 2026-11-21 | Self-revive kits (more common in solos), an emergency redeploy class item, a deployable zipline, placeable fortifications, and blue zone, EMP, and gas grenades. No hero abilities, but abilities can become class items. A rare Jailbreak event in team modes | [Class items](../systems/class-items.md) |

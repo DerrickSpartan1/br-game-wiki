@@ -64,6 +64,8 @@ Approved on the v3 mockup.
 
 With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
+**Rivers and bridges (idea, not decided):** the mockup has no river, and the sources checked describe Ischia's hot springs but no river. Erangel's river and bridges make chokepoints that shape every match. One option: a crater lake on the plateau feeding a river down to the sea, with 2 or 3 bridges where roads cross it.
+
 ### Turning Ischia into terrain
 
 1. **Heights:** download free 30 m elevation data for the island (such as NASA's SRTM). Check each source's license first.

@@ -25,6 +25,8 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 
 **Self-revive kits** let you get up on your own, like PUBG's. They spawn more often in solos and less often in duos, trios, and quads.
 
+**No knockdown shields.**
+
 **Adrenaline shots** are rarer and have two uses: a quick pickup, or maybe a heal like PUBG's adrenaline (replacing the infinite-stamina idea, since original PUBG had no stamina). You don't need one in your hands to use it.
 
 ## Comeback fight
@@ -42,9 +44,23 @@ Winners redeploy into the main match with the guns and armor they had in the tea
 
 **Jailbreak (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 
-## Vehicles
+## Vehicles and water
 
 Cars, boats, and other water vehicles, plus ziplines as part of the map. Trains could run on maps with rail, and a gondola could carry players up a mountain on a future map.
+
+- **Fuel and tires:** like PUBG, vehicles run out of fuel and need refilling, and their tires can be shot out.
+- **Swimming:** players can swim and dive underwater to break line of sight, like PUBG.
+
+## Melee
+
+- **Frying pan:** like PUBG's, it blocks bullets, even when slung on your hip.
+
+## Dog tags
+
+Every player wears dog tags that can't be taken off.
+
+- **Collecting:** when you kill someone, you or a teammate can pick up their tags from the body.
+- **Confirmed kills:** collected tags give bonus XP and go into your personal collection of players you've confirmed killed. A teammate collecting them still counts as confirmed for you.
 
 ## Tracks and animals
 
@@ -63,6 +79,10 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 ## Match setup
 
 - **Modes:** solos, duos, trios, and quads.
+- **Ranked:** a separate ranked playlist.
+- **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes.
+- **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
+- **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." The wording is TBD.
 - **Player count:** set by each map's size; 100 on the first map ([Maps](maps.md)).
 - **Zone:** works like PUBG's, with damage that grows the deeper outside you are, so zone camping doesn't pay ([Match flow](match-flow.md#the-zone)).
 - **Zone events:** PUBG's red zone, plus smoke and poison zones ([Match flow](match-flow.md#zone-events)).
@@ -81,6 +101,7 @@ Sound is a major focus.
 - **Bullet crack:** bullets still faster than sound crack as they fly past you. The crack lands before the bang, so the gap between them hints at how far away the shooter is. Subsonic rounds, like .45 ACP and the [VSS](../weapons/battle-rifles/vss.md)'s 9×39mm, don't crack.
 
 - **Proximity chat:** nearby players, enemies included, can hear each other talk, like PUBG.
+- **Suppression (to look into):** near misses could cause a light blur or shake, as in Battlefield and Squad. It has to stay light so it doesn't decide fights by luck.
 
 How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
 

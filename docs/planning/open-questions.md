@@ -28,6 +28,9 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Comeback:** the comeback fight is filed, but the owner isn't sure what form a Gulag-style comeback should take ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - **Scrap machine:** whether a scrap vending machine replaces in-match crafting for armor and gear, what it sells, and prices ([Crafting](../systems/crafting.md#scrap-machine-idea)).
+- **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
+- **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
+- **First map river:** whether to add a river and bridges ([Maps](../systems/maps.md#marina-farms-and-vaults)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

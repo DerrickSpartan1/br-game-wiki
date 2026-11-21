@@ -4,7 +4,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Balance
 
-- **Damage and in-game range:** TBD on every gun page. [TTK](../systems/ttk.md) needs more discussion first.
+- **Damage and in-game range:** TBD on every gun page. The method is set ([TTK](../systems/ttk.md#how-damage-is-set)); the numbers come next.
 - **Carry space:** how Tarkov's slot counts for vests and rigs turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
 - **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
@@ -18,7 +18,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 ## Systems
 
-- **Bipods and LMG handling:** whether bipods deploy when prone or on cover, whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Where bipods come from is decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
+- **LMG handling:** whether LMGs move and aim slower than rifles, and whether belts reload slower than box mags. Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
 - **Neck and groin:** whether they're hit zones of their own, since many vests cover them.
@@ -45,7 +45,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Janz revolvers:** the exact caliber list for the EM and E frames, which then need their own rows on the ammo page (.32, .38, .357 Magnum, and others) ([Janz](../weapons/pistols/janz.md)).
 - **BAR export fire modes:** semi and auto or auto only on the FN Model D, Poland's wz. 28, Sweden's Kg m/21 and m/37, the FN Model 1930, and the 7.62mm DA1 ([M1918 BAR](../weapons/lmgs/bar.md)); also the Bren's Japanese Type 97 ([Bren / ZB vz. 26](../weapons/lmgs/bren.md)) and Vietnam's 7.62×39mm Negev copy ([IWI Negev](../weapons/lmgs/negev.md)).
 - **UKM-2000:** Poland's PKM-based gun; confirm its caliber (likely 7.62×51mm) before it joins a version ([PK / PKM](../weapons/lmgs/pk.md)).
-- **Bullet speeds:** a speed for each caliber on the [Ammo](../systems/ammo.md) page, so the game knows which bullets crack ([Gameplay](../systems/gameplay.md#sound)). Many gun pages already list muzzle velocity in Real-world notes.
+- **Bullet speeds:** each version's real muzzle velocity ([TTK](../systems/ttk.md#bullet-speed)). Many gun pages already list it in Real-world notes.
 - **Reload TBDs:** how the [Mondragón](../weapons/battle-rifles/mondragon.md) feeds (sources differ: stripper clips into a fixed 10-round mag or a detachable 8-round box), plus the MAS-40, SKS-41, and the C96's rate-reducer and 9mm trench carbine versions.
 - **LMG rates of fire:** the M249, M60E3 and later, M240L, Pecheneg, DPM, RP-46, and the export versions have no rate in the sources checked so far.
 - **Cartridges marked "Not checked":** Luger carbine, M1911 AF2011A1, Winchester 1887 pistol grip, C96 Azul.

@@ -55,7 +55,7 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 - **Built in:** a gun whose real standard version came with a bipod, like most LMGs, has it built in.
 - **Attachment:** any other gun that can take one, like a sniper rifle, uses a bipod as a foregrip attachment, in the foregrip's place.
 - A built-in bipod fills the foregrip slot, so that gun can't take a foregrip (see [Built-in parts](#built-in-parts)).
-- When bipods deploy is still an [open question](../planning/open-questions.md#systems).
+- **Deploying:** a bipod deploys on cover or when lying prone, with its own deploy button.
 
 ## Built-in parts
 

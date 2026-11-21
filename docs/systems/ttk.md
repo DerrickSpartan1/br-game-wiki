@@ -29,6 +29,34 @@ Higher damage keeps the Glisenti's TTK close to the M17's, while its 7-round mag
 
 Sources: [CSDB: CS2 damage calculator](https://csdb.gg/damage-calculator/) · [Insider Gaming: Warzone TTK](https://insider-gaming.com/warzone-devs-address-fast-time-to-kill-concerns-on-verdansk/) · [Steam forum: PUBG armor values](https://steamcommunity.com/app/578080/discussions/1/1471966894874045224)
 
+## How damage is set
+
+Damage is set per gun, not per caliber, like PUBG. Two guns firing the same round can hit differently, so each one feels right for its role. PUBG's 5.56mm guns ran from 43 to 46 damage, and its 7.62mm guns from 49 (AKM) to 79 (M24).
+
+Our best guess at PUBG's method, used here:
+
+1. **Start from an anchor:** the PUBG gun closest in class and round (table below).
+2. **Balance by fire rate:** within a class, damage times fire rate stays in a band, so faster guns hit lighter. In the June 2018 numbers, PUBG's ARs landed between about 27,000 and 37,000 damage per minute (SCAR-L to Groza), and its SMGs between about 25,000 and 37,000 (UMP9 to Vector).
+3. **Adjust for trade-offs:** harder recoil, a smaller mag, or slower handling earn a little more damage, and the reverse earns less.
+4. **Check breakpoints** at every armor tier and hit zone, so similar guns don't end up identical and each armor tier changes shots to kill.
+5. **Per version:** versions can change caliber or barrel, so damage is set per version and goes in its Versions table row once set.
+
+| Class | PUBG anchors (June 2018 damage) |
+| --- | --- |
+| Pistols | P18C 23 (9mm, auto), P92 35 (9mm), P1911 41 (.45 ACP) |
+| SMGs | Micro Uzi 26, Vector 34, UMP9 39, Tommy Gun 40 |
+| Shotguns | S12K 198, S1897 and S686 216 (all pellets together) |
+| ARs | M416, SCAR-L, and M16A4 43 (5.56mm); AKM and Groza 49 (7.62mm) |
+| DMRs | Mini 14 46 (5.56mm); SKS 53, SLR 58, Mk14 61 (7.62mm) |
+| LMGs | M249 45 (5.56mm), DP-28 51 |
+| Snipers | Win94 66, Kar98k 75, M24 79, AWM 120 |
+
+## Bullet speed
+
+Like PUBG, every gun has its own bullet speed, close to the real gun's muzzle velocity, and bullets slow down and drop over distance. PUBG's AKM fires at 715 m/s and its M416 at 880 m/s. Its AWM leaves the barrel at 945 m/s and is down to about 769 m/s at 500 m.
+
+Here, each version uses its real muzzle velocity, so a long barrel shoots faster than a short one in the same round. [Bullet crack](gameplay.md#sound) uses the same speed: a bullet still faster than sound when it passes you cracks. Drag and drop numbers are TBD.
+
 ## PUBG in 2018, for reference
 
 These are PUBG PC's numbers from June 2018 (Patch 1.0 #15), from LeNutch's community spreadsheet. PUBG never published official values, so treat them as close, not exact. Targets have 100 health. Times assume every shot lands on the chest; the shot count is in brackets.
@@ -82,6 +110,6 @@ The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and he
 - **Close calls:** the Kar98k's chest hit against a level 2 vest does 49.5, so two hits leave 1 health.
 - **Perfect hits kill fast.** Against a level 2 vest, the automatic guns kill in about 0.2 to 0.4 seconds of perfect chest hits. Recoil and misses make real fights much longer, which is where gun feel comes in.
 
-Sources: [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
+Sources: [PUBG Wiki: Sniper Rifles](https://pubg.wiki.gg/wiki/Sniper_Rifles) · [Medium: Does bullet velocity really matter in PUBG? (2019)](https://medium.com/@midopooler/does-bullet-velocity-really-matter-in-pubg-cba1d571ce6f) · [LeNutch: PUBG weapon stats, Patch 1.0 #15 (June 2018)](https://docs.google.com/spreadsheets/d/13ZI5GQDbCXl7IlVCVnEA6aZVfC7NFJLBsXPIAGFMNj4/htmlview?sle=true) · [Gamepressure: PUBG assault rifles (2019)](https://www.gamepressure.com/playerunknowns-battlegrounds/assault-rifles-ar/z9a233) · [PUBG Wiki: Assault Rifles](https://pubg.wiki.gg/wiki/Assault_Rifles)
 
 Reliability: guns never jam or overheat (see [Rules](../rules.md)). Whether some items wear out is still open; the makeshift suppressor and the StG 44's Krummlauf are the current wear ideas.

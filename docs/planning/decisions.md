@@ -5,6 +5,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Damage is set per gun version, not per caliber, balanced the way PUBG appears to: start from a PUBG anchor, keep damage times fire rate in a band per class, adjust for trade-offs, and check breakpoints | [TTK](../systems/ttk.md#how-damage-is-set) |
+| 2026-11-20 | Like PUBG, every gun has its own bullet speed from the real muzzle velocity, and bullets slow and drop over distance | [TTK](../systems/ttk.md#bullet-speed) |
+| 2026-11-20 | Bipods deploy on cover or when prone, with their own deploy button | [Attachments](../systems/attachments.md#bipods) |
 | 2026-11-20 | Loot spawning starts from PUBG's system (fixed spots, a master table rolled fresh each match, better areas, crates for the best gear), with changes: only the match's pool spawns, four area loot levels, no empty building clusters, less clutter, and logging to tune from; every spawn follows the same category, item, then version or tier steps, and all numbers tune in playtests | [Loot and spawning](../systems/loot.md) |
 | 2026-11-20 | Any plate of a carrier's tier fits it | [Armor and gear](../systems/armor.md#plates) |
 | 2026-11-20 | Vests roll in steps: a carrier and tier, then a random compatible plate for that tier (unless its plates are fixed), then a random chest rig (unless it has its own pouches); slowdown adds up from all three, with weight driving movement and coverage driving ADS | [Armor and gear](../systems/armor.md#vests) |

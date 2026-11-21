@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added the [M16 / M4 model guide](m16-m4-model.md): setup, reference, the four looks that cover all 9 versions, and step-by-step prompts from blockout to the range |
 | 2026-11-21 | Cut [armor](../systems/armor.md#tiers) from four tiers to three at PUBG's 30/40/55% (old tiers 2 and 3 merged; old tier 4 is now tier 3) across every armor table, the [loot](../systems/loot.md#starting-weights) tier odds, and crate contents; moved the crate line to the tier 3 helmet, which made the three .300 Winchester Magnum snipers crate-only; set the Winchester 1887 10 gauge to 24 per pellet |
 | 2026-11-21 | Moved the [MG 42 / MG3](../weapons/crate/mg-42.md) to crate weapons (LMGs now 11 entries, crates 2) and made the MG 34/41 crate-only; cut the PPSh-41 family, Glock 18, M249, Janz .460 and .500, and Winchester 1887 10 gauge; added [Grenade launchers](../systems/attachments.md#grenade-launchers) with ground and crate rounds; settled the AN-94 as a ground spawn |
 | 2026-11-21 | Added a Damage column to every gun's Versions table (twelve columns now) with a first-pass damage for 593 of 625 versions; rebuilt [Starting damage](../systems/starting-damage.md) around round classes, fire-rate bands, role tests, and the FRAG-12 and dragon's breath rules; added [Roles by category](../systems/ttk.md#roles-by-category), damage falloff, and a role check to TTK; added energies for nine more rounds; set the C96 and Luger semi rates to 450 and the G12's to 240 |

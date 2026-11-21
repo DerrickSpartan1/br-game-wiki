@@ -53,6 +53,8 @@ Some versions take two, like the Minimi's belt or M16 mags, listed as `belt, box
 
 ## Steps for each gun
 
+The [M16 / M4 model guide](m16-m4-model.md) walks through these steps in full, with prompts for Claude Code, for the first pilot gun.
+
 1. **Brief.** The gun's wiki page is the brief: size from Real-world notes, mag type from the spec table, and which versions look different from the Versions table. Reference photos come from public-domain sources, like Wikimedia Commons and US military photos.
 2. **Get a model,** cheapest first:
     - A [Fab](https://www.fab.com/) model whose license fits (see [Licenses](#licenses-and-the-asset-log)).
@@ -129,7 +131,7 @@ The Blender connector runs Claude's code in Blender with no safety checks, so sa
 
 Prove the pipeline on four guns that cover the biggest reload styles and one rule sound before doing the rest:
 
-- [ ] [M16 / M4](../weapons/assault-rifles/m16-m4.md): box mag rifle. It already has its own Blueprint.
+- [ ] [M16 / M4](../weapons/assault-rifles/m16-m4.md): box mag rifle. It already has its own Blueprint. Step-by-step: [M16 / M4 model guide](m16-m4-model.md).
 - [ ] [M1911](../weapons/pistols/m1911.md): grip mag pistol.
 - [ ] [FN Minimi / M249](../weapons/lmgs/minimi.md): belt with feed cover, plus its mag fallback.
 - [ ] [M1 Garand](../weapons/battle-rifles/m1-garand.md): en bloc clip and its ping.

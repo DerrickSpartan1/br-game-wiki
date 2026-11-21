@@ -29,7 +29,7 @@ Every spawn spot rolls in steps, and every kind of loot follows the same pattern
 - **Areas have loot levels:** low (lone houses), medium (towns), high (big towns, schools, power plants), and military (bases). Higher levels have more spawn spots and better tier odds. Each map sets its own areas ([Maps](maps.md)).
 - **No empty buildings.** Each building cluster rolls at least one gun, which fixes a common PUBG complaint.
 - **Less clutter.** Following PUBG's 2019 lesson, pistols, extra mags, and throwables start a little lower, and the game logs what spawns and what players pick up, so spawns can be tuned from real numbers.
-- **Crates:** the exclusive crate weapons, tier 4 vests and helmets, the thermal sight, and the 15x scope, as in PUBG's crates.
+- **Crates:** every crate holds the same set: one crate weapon, its ammo, attachments that fit it (the thermal sight and 15x scope are crate-only), one tier 4 vest, one tier 4 helmet, and one class item. That's steadier than PUBG, whose crates varied.
 
 ## Starting weights
 

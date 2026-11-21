@@ -1,6 +1,8 @@
 # Crate weapons
 
-An exclusive pool of guns too powerful or special for the ground pool. They arrive by air drop. Heavy and anti-materiel sniper rifles, like .50-caliber ones, go here, not in [snipers](../snipers/index.md).
+An exclusive pool of guns too powerful or special for the ground pool. They arrive by air drop.
+
+Every crate holds one crate weapon, its ammo, attachments that fit it, one tier 4 vest, one tier 4 helmet, and one class item ([Loot and spawning](../../systems/loot.md#changes-from-pubg)). Heavy and anti-materiel sniper rifles, like .50-caliber ones, go here, not in [snipers](../snipers/index.md).
 
 What goes here: anti-vehicle and heavy sniper rifles (a head shot kills through any helmet, like PUBG's AWM), rocket launchers, and lethal grenade launchers ([Weapon pool](../../systems/weapon-pool.md#how-the-randomness-works)). The flash shield is crate-only too, as a [class item](../../systems/class-items.md).
 

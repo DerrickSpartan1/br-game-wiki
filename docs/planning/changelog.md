@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-20 | Set what every crate holds on [Loot and spawning](../systems/loot.md#changes-from-pubg) and [Crate weapons](../weapons/crate/index.md) |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | Set the crate rule on [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) and [Crate weapons](../weapons/crate/index.md): anti-vehicle and heavy snipers, rocket launchers (moved out of special), lethal grenade launchers, and the flash shield; added the ballistic and flash shields to [Class items](../systems/class-items.md); new open questions on the AWM and shields |
 | 2026-11-20 | Moved heavy and anti-materiel snipers to crates: the AW50 version came off [Accuracy International AW / AWM](../weapons/snipers/ai-arctic-warfare.md) (now 7 versions), and the Barrett M82 / M107, AW50, and CheyTac M200 are queued on [Crate weapons](../weapons/crate/index.md); removed the unused .50 BMG caliber row |

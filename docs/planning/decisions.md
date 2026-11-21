@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-20 | Every crate holds one crate weapon, its ammo, attachments that fit it, one tier 4 vest, one tier 4 helmet, and one class item | [Loot and spawning](../systems/loot.md#changes-from-pubg) |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-20 | Crates hold anti-vehicle and heavy snipers (a head shot kills through any helmet, like PUBG's AWM), rocket launchers like the RPG (moved from special), lethal grenade launchers, and a flash shield with 1 to 3 charges that breaks quickly | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |
 | 2026-11-20 | Normal ballistic shields spawn in the world and go in the class slot | [Class items](../systems/class-items.md) |

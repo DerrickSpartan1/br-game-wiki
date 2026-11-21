@@ -60,7 +60,7 @@ Approved on the v3 mockup.
 
 - **Marina:** a new coastal town of our own on the southeast bay, between Barano and the east coast, with a small pier. A side road links it to the ring road near Barano and runs up the east coast to Ischia Ponte.
 - **Farms and huts:** about 70 small farmsteads of 1 to 4 huts and barns are scattered across the open ground, each with a dirt track to the nearest road, plus a few longer farm tracks through the fields.
-- **Vaults:** under the Military Outpost, in Ischia Porto and Forio, and on Marina's waterfront; the Prison armory is a suggested fifth ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **Vaults:** five: under the Military Outpost, in Ischia Porto and Forio, on Marina's waterfront, and the Prison armory ([Vaults and keys](match-flow.md#vaults-and-keys)).
 
 With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 

@@ -86,7 +86,8 @@ In rough order of what the game needs first:
 - [x] **Monte Epomeo:** squashed to a plateau ([Maps](../systems/maps.md#heights-squashed-with-a-plateau)).
 - [x] **Review the map spots:** approved on the v3 mockup ([Maps](../systems/maps.md#our-own-spots)).
 - [x] **Vault keys:** one key fits all, used up on opening, dropped on death, with a small chance in care packages ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
-- [ ] **Prison armory** as a fifth vault, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#marina-farms-and-vaults)).
+- [x] **Prison armory:** the first map's fifth vault ([Maps](../systems/maps.md#marina-farms-and-vaults)).
+- [ ] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

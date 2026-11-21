@@ -88,7 +88,7 @@ Apex Legends added locked vaults to World's Edge in 2019. Keys came from roaming
 
 Ours:
 
-- **Vaults:** 4 to 6 per map, spread out. On the first map: one under the Military Outpost, one in each big town (Ischia Porto and Forio), and one on the coast (Marina's waterfront); the Prison armory is a suggested fifth ([Maps](maps.md#marina-farms-and-vaults)).
+- **Vaults:** 4 to 6 per map, spread out. On the first map, five: one under the Military Outpost, one in each big town (Ischia Porto and Forio), one on the coast (Marina's waterfront), and the Prison armory ([Maps](maps.md#marina-farms-and-vaults)).
 - **Keys:** only 2 or 3 per match, spawning at random, so most vaults stay shut in any given match.
 - **Opening:** 3 seconds. The key is used up, the door stays open, and an alarm sounds nearby, so others know.
 - **Inside:** like Apex, no weapons: tier 3 armor and helmets, the best backpacks, scopes, and mag tiers, meds, and throwables. Crate weapons stay crate-only.

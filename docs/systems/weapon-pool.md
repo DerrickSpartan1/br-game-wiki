@@ -35,7 +35,7 @@ Special never repeats a subcategory in one match: the 2 special slots always com
 
 Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:
 
-- **Anti-vehicle and heavy snipers:** anti-materiel rifles like .50-caliber ones, and other heavy sniper rifles. Like PUBG's crate AWM, which one-shot level 3 helmets, a crate sniper's head shot kills through any helmet, tier 4 included ([TTK](ttk.md#how-damage-is-set)).
+- **Anti-vehicle and heavy snipers:** anti-materiel rifles like .50-caliber ones, and other heavy sniper rifles. Like PUBG's crate AWM, which one-shot level 3 helmets, a crate sniper's head shot kills through any helmet, tier 4 included. Any version whose starting damage crosses that line is crate-only, like the .338 Lapua snipers ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 - **Rocket launchers,** like the RPG. They're heavy, slow, and take up a primary slot.
 - **Lethal grenade launchers,** which are too powerful for the ground pool. Non-lethal ones go in the [class item](class-items.md) pool.
 - **The flash shield,** a ballistic shield with flashbangs on the front ([Class items](class-items.md)).

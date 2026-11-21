@@ -6,6 +6,8 @@ Every crate holds one crate weapon, its ammo, attachments that fit it, one tier 
 
 What goes here: anti-vehicle and heavy sniper rifles (a head shot kills through any helmet, like PUBG's AWM), rocket launchers, and lethal grenade launchers ([Weapon pool](../../systems/weapon-pool.md#how-the-randomness-works)). The flash shield is crate-only too, as a [class item](../../systems/class-items.md).
 
+Crate-only versions of ground guns, marked `(crate)` on their pages: the [M24A3](../snipers/remington-700.md) and [AWM .338](../snipers/ai-arctic-warfare.md), both in .338 Lapua Magnum ([Starting damage](../../systems/starting-damage.md)).
+
 Queued: the Barrett M82 / M107 (.50 BMG), the Accuracy International AW50 (.50 BMG), the CheyTac M200 (.408 CheyTac), and the RPG-7.
 
 1 roster entry.

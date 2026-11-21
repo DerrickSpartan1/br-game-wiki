@@ -35,7 +35,7 @@ Damage is set per gun, not per caliber, like PUBG. Two guns firing the same roun
 
 Our best guess at PUBG's method, used here:
 
-1. **Start from an anchor:** the PUBG gun closest in class and round (table below).
+1. **Start from an anchor:** the PUBG gun closest in class and round (table below), scaled by the round's energy ([Starting damage](starting-damage.md)).
 2. **Balance by fire rate:** within a class, damage times fire rate stays in a band, so faster guns hit lighter. In the June 2018 numbers, PUBG's ARs landed between about 27,000 and 37,000 damage per minute (SCAR-L to Groza), and its SMGs between about 25,000 and 37,000 (UMP9 to Vector).
 3. **Adjust for trade-offs:** harder recoil, a smaller mag, or slower handling earn a little more damage, and the reverse earns less.
 4. **Check breakpoints** at every armor tier and hit zone, so similar guns don't end up identical and each armor tier changes shots to kill.
@@ -51,7 +51,7 @@ Our best guess at PUBG's method, used here:
 | LMGs | M249 45 (5.56mm), DP-28 51 |
 | Snipers | Win94 66, Kar98k 75, M24 79, AWM 120 |
 
-Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 4 included ([Weapon pool](weapon-pool.md#how-the-randomness-works)).
+Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 4 included. That's the crate line for every category ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 
 ## Bullet speed
 

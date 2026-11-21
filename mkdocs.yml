@@ -66,6 +66,7 @@ nav:
       - Ammo: systems/ammo.md
       - Attachments: systems/attachments.md
       - Time to kill: systems/ttk.md
+      - Starting damage: systems/starting-damage.md
       - Gameplay: systems/gameplay.md
       - Armor and gear: systems/armor.md
       - Class items: systems/class-items.md

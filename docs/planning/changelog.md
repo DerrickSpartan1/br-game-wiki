@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added [Healing](../systems/healing.md): PUBG's items and boost bar, first-pass better and worse variants with one per item per match, and Tarkov's medkits for reference. Turned zone events into [red zone forms](../systems/match-flow.md#red-zones) with an air raid siren and new form ideas; added the [river](../systems/maps.md#river) (map mockup v4), [kill counters](../systems/skins.md#kill-counters), PUBG's [throwables](../systems/weapon-pool.md#throwables) and [vehicles](../systems/gameplay.md#vehicles-and-water), the X melee key, bodies that hold loot, and quests for later |
 | 2026-11-21 | Filed the second brainstorm round on [Gameplay](../systems/gameplay.md): frying pan, dog tags, ranked, custom matches and fun modes, practice lobby, victory line, fuel and tires, swimming, suppression to look into, and no knockdown shields; added the river idea to [Maps](../systems/maps.md#marina-farms-and-vaults) |
 | 2026-11-21 | Set the outfit slots on [Skins and mastery](../systems/skins.md#wardrobe) and what players have in the [pre-match lobby](../systems/match-flow.md#pre-match-lobby) |
 | 2026-11-21 | Confirmed trios; bots stay in matches to fill empty slots; dropped the line about the players' plane dropping crates (care packages already come by plane) on [Match flow](../systems/match-flow.md#pre-match-lobby) |

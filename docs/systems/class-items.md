@@ -12,7 +12,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Non-lethal grenade launchers:** these go in the class item pool; lethal ones are crate-only.
 - **Ballistic shield:** a handheld shield that spawns in the world ([Shields](#shields)).
 - **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.
-- **Gas mask (idea):** keeps out the gas in [poison zones](match-flow.md#zone-events) and from tear-gas rounds.
+- **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones) and from tear-gas rounds.
 - **Emergency redeploy:** a balloon that lifts you out and drops you elsewhere on the map, like PUBG's Emergency Pickup.
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.

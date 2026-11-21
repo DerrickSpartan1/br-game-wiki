@@ -4,6 +4,14 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The first map gets a river: a crater lake on the plateau feeding a river to the south coast, with three bridges. The route is a first pass for review | [Maps](../systems/maps.md#river) |
+| 2026-11-21 | Healing works like PUBG's: bandage, first aid kit, med kit, energy drink, painkillers, adrenaline syringe, and the boost bar. Each item has better and worse variants, like Tarkov's medkits, and each match rolls one variant per item | [Healing](../systems/healing.md) |
+| 2026-11-21 | The red zone comes in several forms (bombardment, smoke, gas, and more to brainstorm), and an air raid siren sounds before each one | [Match flow](../systems/match-flow.md#red-zones) |
+| 2026-11-21 | Weapon skins can carry a kill counter | [Skins and mastery](../systems/skins.md#kill-counters) |
+| 2026-11-21 | Melee key: tap X for a quick melee attack; hold X to stow your guns and pull out the melee weapon to run faster | [Gameplay](../systems/gameplay.md#melee) |
+| 2026-11-21 | Every PUBG vehicle and every PUBG throwable is in. Throwables use PUBG's weights, and more come from other games later | [Gameplay](../systems/gameplay.md#vehicles-and-water), [Weapon pool](../systems/weapon-pool.md#throwables) |
+| 2026-11-21 | A dead player's body holds their loot while they can still be revived, and becomes a loot crate if they leave the match | [Gameplay](../systems/gameplay.md#knockdowns-revives) |
+| 2026-11-21 | Quests and other player goals come later | [Seasons](../systems/seasons.md) |
 | 2026-11-21 | Frying pan that blocks bullets; a victory line of our own; a private practice lobby; custom matches, fun modes, and ranked; vehicle fuel and tire damage; swimming and diving; no knockdown shields | [Gameplay](../systems/gameplay.md) |
 | 2026-11-21 | Dog tags: worn by everyone and never removable; collecting a kill's tags gives bonus XP and adds them to a personal confirmed-kill collection, and a teammate collecting them counts too | [Gameplay](../systems/gameplay.md#dog-tags) |
 | 2026-11-21 | Outfits work like PUBG's: hat, glasses, mask, neck, over shirt or jacket, undershirt, gloves, pants, socks, and shoes, all removable in a match; elbow and knee pads and male or female underwear can't be removed. Players enter the lobby wearing only their outfit | [Skins and mastery](../systems/skins.md#wardrobe) |
@@ -26,7 +34,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | 2026-11-21 | The first map takes its layout (terrain, roads, and town spots) from a real island of about Erangel's size, then gets reskinned; the island is still open | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | The first map is Erangel's size, with terrain based on a real island (which one is still open) and towns in the game's own Soviet-era style | [Maps](../systems/maps.md) |
 | 2026-11-21 | Matches run like PUBG's: a random plane path, PUBG-style parachutes, PUBG's Erangel zone phases, and random care packages. Zone damage grows the farther outside the zone you are and the later the phase, so zone camping doesn't pay | [Match flow](../systems/match-flow.md) |
-| 2026-11-21 | Zone events: PUBG's red zone plus a smoke zone and a poison zone, one at a time at random | [Match flow](../systems/match-flow.md#zone-events) |
+| 2026-11-21 | Zone events: PUBG's red zone plus a smoke zone and a poison zone, one at a time at random | [Match flow](../systems/match-flow.md#red-zones) |
 | 2026-11-21 | Locked vaults opened with rare keys, like Apex's World's Edge vaults | [Match flow](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | Time passes during a match (day, late day into night, all night, or night into morning), weather can change mid-match, and every player has an always-visible watch on the left wrist | [Match flow](../systems/match-flow.md#time-of-day-and-weather) |
 | 2026-11-21 | Shields are for advancing and breaching and mustn't be overpowered: a ballistic shield breaks after half a belt from a heavy LMG (2,900 damage), and the barricade starts from PUBG's Folded Shield | [Class items](../systems/class-items.md#shields) |

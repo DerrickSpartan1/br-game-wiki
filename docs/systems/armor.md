@@ -15,7 +15,7 @@ Vests and helmets both come in three tiers, like PUBG's three levels, which keep
 - **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers are PUBG's 2018 values for levels 1 to 3, as a starting point to tune. There are no loose plates to find or swap.
 - **Legs:** no leg armor, since it mostly doesn't exist in real life.
 - **Makeshift upgrades:** armor can be upgraded half a tier, like a tier 1 helmet to a makeshift tier 1.5 or a tier 2 vest to a makeshift tier 2.5. Makeshift tiers have lower durability but can take one extra bullet. Upgrades are crafted in-match from scrap.
-- Players recover by healing.
+- Players recover by [healing](healing.md).
 
 ## Debuffs
 
@@ -228,6 +228,8 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | Molotov | 16 | PUBG |
 | Smoke grenade | 14 | PUBG |
 | Stun grenade | 12 | PUBG |
+| Other throwables | TBD | [Throwables](weapon-pool.md#throwables) |
+| Med kit, adrenaline syringe | 20 each | PUBG ([Healing](healing.md#the-items)) |
 | Ammo | Per round, by energy | [Ammo](ammo.md#weight) |
 
 **Why 6 per slot:** a rig stands in for PUBG's vest and utility belt, which added 50 each in 2017, so the average rig (16 slots) should carry about 100. One slot per frag grenade (18) would give the average rig 288 and the biggest 450, more than PUBG's best backpack. At 6, a slot is a third of a grenade, and backpacks stay the main storage.

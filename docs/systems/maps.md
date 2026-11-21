@@ -6,7 +6,7 @@ The first map takes its layout from Ischia, an island off Naples: the coastline,
 
 - **Size:** 10 × 8 km, with the island at true scale (9.6 × 7.7 km, about 46 km² of land) and ocean around the edges.
 - **Players:** 100, like Erangel (our pick).
-- **Match flow:** the plane, zone phases, and zone events start from Erangel's ([Match flow](match-flow.md)).
+- **Match flow:** the plane, zone phases, and red zones start from Erangel's ([Match flow](match-flow.md)).
 - **Caps:** the per-map max for throwables and crate weapons is TBD ([Weapon pool](weapon-pool.md)).
 
 ### What the layout has
@@ -45,7 +45,7 @@ Approved on the v3 mockup.
 | Spot | Where | Notes |
 | --- | --- | --- |
 | Military Outpost | The plateau's center | A bunker underneath holds one of the [vaults](match-flow.md#vaults-and-keys) |
-| Tunnel | About 1.7 km under the plateau's east edge, from Casamicciola's road to the south road | A shortcut and an ambush spot. The last circles can't end underground; red zone shells can't reach it, but poison gas fills it |
+| Tunnel | About 1.7 km under the plateau's east edge, from Casamicciola's road to the south road | A shortcut and an ambush spot. The last circles can't end underground; bombardment shells can't reach it, but a gas red zone fills it |
 | Prison | Alone in the southwest, past Panza | Cut off, like Erangel's |
 | Port | Ischia Porto, the real ferry harbor | Containers, cranes, and a ferry, like Georgopol's docks |
 | Fishing Dock | Forio's harbor | A small pier and boats |
@@ -64,7 +64,15 @@ Approved on the v3 mockup.
 
 With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
-**Rivers and bridges (idea, not decided):** the mockup has no river, and the sources checked describe Ischia's hot springs but no river. Erangel's river and bridges make chokepoints that shape every match. One option: a crater lake on the plateau feeding a river down to the sea, with 2 or 3 bridges where roads cross it.
+### River
+
+Erangel's river and bridges make chokepoints that shape every match. Ischia has no river in the sources checked, so ours is made up: a crater lake on the plateau feeds a river down to the south coast. First pass on the v4 mockup, for review:
+
+- **Crater lake:** about 300 m across, on the plateau's south edge, about 800 m southeast of the Military Outpost.
+- **Route:** about 3.6 km down the south slopes along the mock-up terrain's downhill path, through the forest and across the ring road between Serrara Fontana and Barano, out to sea on the bay east of the Quarry.
+- **Width:** about 25 m below the lake, widening to about 60 m at the mouth. Players can swim it ([Vehicles and water](gameplay.md#vehicles-and-water)).
+- **Three bridges:** the tunnel road just south of the tunnel, the ring road (the main one), and a farm track near the mouth.
+- **Why there:** the ring road between Serrara Fontana and Barano is its longest stretch without a town, so the bridge gives it a landmark and a chokepoint, and the river splits the south side in two.
 
 ### Turning Ischia into terrain
 

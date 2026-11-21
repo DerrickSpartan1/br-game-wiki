@@ -68,6 +68,7 @@ nav:
       - Time to kill: systems/ttk.md
       - Starting damage: systems/starting-damage.md
       - Handling: systems/handling.md
+      - Healing: systems/healing.md
       - Gameplay: systems/gameplay.md
       - Match flow: systems/match-flow.md
       - Armor and gear: systems/armor.md

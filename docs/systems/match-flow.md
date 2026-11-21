@@ -1,6 +1,6 @@
 # Match flow
 
-How a match runs, from the lobby to the last circle: the pre-match lobby, the plane and parachutes, the zone, zone events, care packages, vaults, time of day and weather, and the wrist watch. PUBG's 2017–2018 match is the base. Numbers marked "our pick" are first passes to tune in play testing; TBD numbers aren't set yet.
+How a match runs, from the lobby to the last circle: the pre-match lobby, the plane and parachutes, the zone, red zones, care packages, vaults, time of day and weather, and the wrist watch. PUBG's 2017–2018 match is the base. Numbers marked "our pick" are first passes to tune in play testing; TBD numbers aren't set yet.
 
 ## Pre-match lobby
 
@@ -73,17 +73,25 @@ If camping still pays in play tests, the next lever is weaker healing outside th
 
 Spend scrap at a radar station to see the next circle early. Stations sit at the Military Outpost and at other spots around the map. Cost and locations are TBD ([Crafting](crafting.md)).
 
-## Zone events
+## Red zones
 
-PUBG's red zone, plus variants. One event at a time, at a random spot on the map once the match starts, including outside the safe circle. Each event rolls its type:
+PUBG's red zone, in several forms. One at a time, at a random spot on the map once the match starts, including outside the safe circle. Each one rolls its form:
 
-| Event | What happens | How to survive | Odds (our pick) |
+- **Air raid siren:** before any form starts, an air raid siren sounds over the area through the warning, and the circle shows on the map, so nobody nearby is caught by surprise.
+
+| Form | What happens | How to survive | Odds (our pick) |
 | --- | --- | --- | --- |
-| **Red zone** | Like PUBG's: the circle shows on the map, and after a short warning, shells land at random spots inside it. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 60% |
-| **Smoke zone** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 25% |
-| **Poison zone** | Gas fills the circle and does damage every second, through armor and indoors | Leave. Gas masks are an idea ([Class items](class-items.md)) | 15% |
+| **Bombardment** | Like PUBG's red zone: after the warning, shells land at random spots inside the circle. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 60% |
+| **Smoke** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 25% |
+| **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave. Gas masks are an idea ([Class items](class-items.md)) | 15% |
 
-The circle's size, warning time, and how long each event lasts are TBD. Poison damage starts at 5 health a second (our pick).
+The circle's size, warning time, and how long each form lasts are TBD. Gas damage starts at 5 health a second (our pick).
+
+**More forms (ideas, to brainstorm):**
+
+- **Firebombing:** bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths.
+- **Creeping barrage:** shells walk across the circle in a line instead of landing at random, so players can see it coming and move out of its way.
+- **EMP:** vehicles stall and electronics like drones stop working inside the circle for a while, like the [EMP grenade](weapon-pool.md#throwables) idea.
 
 ## Care packages
 

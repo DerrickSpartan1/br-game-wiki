@@ -31,7 +31,7 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Throwables (a good random mix) | Ground | Not set yet |
 | Crate weapons | Crates (exclusive list) | Not set yet |
 
-Throwable ideas on top of the usual grenades: a blue zone grenade that makes a small damage circle, like PUBG's, an EMP grenade, and a gas grenade.
+Lots of throwables, starting with every one PUBG has ([Throwables](#throwables)).
 
 Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a mortar, never two bows.
 
@@ -63,3 +63,29 @@ Categories are loose on purpose: a gun doesn't have to fit its category exactly.
 **Merging versions:** versions that fire the same round and differ only in small details are cut down to one version, with the differences noted.
 
 Machine pistols that come from a main pistol, like the C96 Schnellfeuer, go in the pistol slot.
+
+## Throwables
+
+Lots of throwables: every throwable PUBG has is in, more come from other games later, and each match rolls a random mix. Carry weights are PUBG's ([Carry weight](armor.md#carry-weight)).
+
+| Throwable | What it does (PUBG) | Weight |
+| --- | --- | --- |
+| **Frag grenade** | Explodes after about a 5-second fuse; cooking it first lets it burst behind cover | 18 |
+| **Molotov cocktail** | Bursts into fire on impact and burns an area, blocking paths and revives | 16 |
+| **Smoke grenade** | A smoke screen for crossing open ground, reviving, or resetting a fight | 14 |
+| **Stun grenade** | A flashbang: blinds and deafens anyone facing it, on a short fuse | 12 |
+| **Sticky bomb** | Sticks to a surface and blows a hole in walls | TBD |
+| **C4** | Too heavy to throw far or carry many. It beeps and goes off 16 seconds after it's thrown, killing within about 15 m and hurting out to about 25 m, even through cover | TBD |
+| **Decoy grenade** | Makes fake gunfire to draw attention (PUBG removed it in Update 35.1) | TBD |
+| **Blue zone grenade** | Makes a small blue zone circle, up to about 10 m in radius, doing about 10 damage a second for about 10 seconds | TBD |
+
+- **Weights TBD:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade weren't found yet.
+- **Our own ideas:** an EMP grenade and a gas grenade.
+- **From other games:** to add later.
+- **Map max:** how many throwables a match can roll is still TBD (see the table above).
+
+## Sources
+
+- [PUBG Wiki: Grenades](https://pubg.wiki.gg/wiki/Grenades) (weights) · [PUBG Wiki: C4](https://pubg.wiki.gg/wiki/C4)
+- [Gamertag Mythras: PUBG throwables and utility](https://gamertagmythras.com/blog/pubg-battlegrounds/pubg-throwables-utility-guide)
+- [Dexerto: PUBG throwables](https://www.dexerto.com/wikis/pubg/weapons/throwable/)

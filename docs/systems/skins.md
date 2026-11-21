@@ -34,6 +34,10 @@ The player character has its own wardrobe slots too, like PUBG's, and more can b
 - **In a match:** players arrive wearing their outfit and nothing else, and can take clothes off like in PUBG. The pads and underwear always stay on.
 - **No clothing loot:** clothes never drop as loot during a match; outfits are set in the wardrobe only.
 
+## Kill counters
+
+A weapon skin can carry a kill counter, like Counter-Strike's StatTrak: it counts the kills made with that skin and shows the number on the gun. How it looks on each gun is TBD, like a small display or tally marks on the stock.
+
 ## Weapon mastery
 
 Each gun family levels up through challenges, such as specific kills, unlocking cosmetics. Progress counts toward the whole family, so any version works; every C96 version counts toward C96 mastery, for example.

@@ -6,14 +6,14 @@ Armor varies by more than tier: each piece trades protection against speed and a
 
 Vests and helmets both come in four tiers. Each tier holds a band of Tarkov's armor classes:
 
-| Tier | Tarkov class | What's in it |
-| --- | --- | --- |
-| 1 | 1–2 | Soft armor, riot helmets |
-| 2 | 3 | Heavier soft armor, steel pots, and lighter modern helmets |
-| 3 | 4 | Light rifle plates and modern ballistic helmets |
-| 4 | 5–6 | Heavy rifle plates and full-face assault helmets |
+| Tier | Tarkov class | What's in it | Damage reduction (starting point) |
+| --- | --- | --- | --- |
+| 1 | 1–2 | Soft armor, riot helmets | 30% |
+| 2 | 3 | Heavier soft armor, steel pots, and lighter modern helmets | 40% |
+| 3 | 4 | Light rifle plates and modern ballistic helmets | 50% |
+| 4 | 5–6 | Heavy rifle plates and full-face assault helmets | 60% |
 
-- **Damage reduction:** like PUBG, with no plates: a piece's tier sets how much damage it stops. The amount per tier is TBD.
+- **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers above are a starting point to tune. There are no loose plates to find or swap.
 - **Legs:** no leg armor, since it mostly doesn't exist in real life.
 - **Makeshift upgrades:** armor can be upgraded half a tier, like a tier 1 helmet to a makeshift tier 1.5 or a tier 2 vest to a makeshift tier 2.5. Makeshift tiers have lower durability but can take one extra bullet. Upgrades are crafted in-match from scrap.
 - Players recover by healing.
@@ -29,63 +29,74 @@ Every piece has its own movement and ADS (aim down sights) slowdown, as a percen
 
 ## Vests
 
-Armored rigs are vests with pouches built in.
+A vest spawns as a combo: the vest itself plus its armor tier. It stays that combo for the match, like a gun's [version](../rules.md#spawned-version-is-fixed).
 
-| Vest | Tier | Covers | Movement (%) | ADS (%) | Notes |
+- **The vest** sets the look, what it covers, its own slowdown, and its carry space. Armored rigs, which have pouches built in, carry more than plain vests.
+- **The tier** sets the damage reduction, and its armor adds weight, which adds to the slowdown. Higher tiers usually add more. Tarkov's plates add about 1–3% movement and 0.5–2% ADS slowdown each, so that's the starting range; the numbers per tier are TBD.
+- **Plate carriers** can spawn at tier 2, 3, or 4. So two tier 3 vests in one match can look different, and a tier 3 and a tier 4 can look the same. The model always matches the vest.
+- **Fixed vests** are soft armor and armor built around its own plates. They spawn only at their real tiers, and their numbers already include their armor.
+
+### Plate carriers
+
+Tiers 2–4. The slowdown here is the vest alone; the tier's armor adds to it.
+
+| Vest | Covers | Movement (%) | ADS (%) | Notes |
+| --- | --- | --- | --- | --- |
+| NFM THOR Integrated Carrier | Chest, stomach, arms, neck, groin | 8 | 6 |  |
+| FirstSpear Siege-R | Chest, stomach, arms, neck, groin | 6 | 5 |  |
+| IOTV Gen4, Full Protection kit | Chest, stomach, arms, neck, groin | 7 | 6 |  |
+| IOTV Gen4, Assault kit | Chest, stomach, arms, neck | 5 | 5 |  |
+| IOTV Gen4, High Mobility kit | Chest, stomach, neck, groin | 2 | 4 |  |
+| Osprey Mk4A | Chest, stomach, arms, neck | 3 | 2 | Merges Tarkov's Assault and Protective versions |
+| Gladiator-S | Chest, stomach, neck | 3 | 2 |  |
+| Bagariy | Chest, stomach | 4 | 2 | Armored rig |
+| US Army OTV | Chest, stomach | 2 | 0 |  |
+| Crye Precision AVS | Chest, stomach, groin | 2 | 0 | Armored rig |
+| RBAV-AF | Chest, stomach | 2 | 1 | Armored rig |
+| SP PC V2 | Chest, stomach | 2 | 1 | Armored rig |
+| ANA M1 / M2 | Chest, stomach | 2 | 0 | Armored rig |
+| Highcom Trooper TFO | Chest, stomach | 1 | 0 |  |
+| Strandhogg | Chest, stomach | 1 | 0 | Armored rig |
+| NFM THOR CRV | Chest, stomach | 0 | 0 |  |
+| Ferro Concepts FCPC V5 | Chest | 4 | 1 |  |
+| SD mod.2 | Chest | 3 | 1 |  |
+| A18 Skanda | Chest | 1 | 3 | Armored rig |
+| LV-119 | Chest | 1 | 0 |  |
+| Tasmanian Tiger SK | Chest | 1 | 0 |  |
+| Tasmanian Tiger MKIII | Chest | 1 | 0 |  |
+| 5.11 TacTec | Chest | 1 | 0 |  |
+| Hexgrid | Chest | 1 | 1 |  |
+| Banshee | Chest | 1 | 1 | Armored rig |
+| MMAC | Chest | 1 | 1 | Armored rig |
+| TV-110 | Chest | 1 | 0 | Armored rig |
+| Crye Precision JPC | Chest | 0.5 | 0.5 |  |
+| Crye Precision CPC | Chest | 0 | 1 |  |
+| PlateFrame | Chest | 0 | 1 |  |
+| MBSS | Chest | 0 | 1 | Armored rig |
+| LBT-6094A Slick | Chest | 0 | 0 |  |
+| HPC | Chest | 0 | 0 |  |
+| TV-115 | Chest | 0 | 0 | Armored rig |
+
+### Fixed vests
+
+| Vest | Tiers | Covers | Movement (%) | ADS (%) | Notes |
 | --- | --- | --- | --- | --- | --- |
 | 6B43 Zabralo-Sh | 4 | Chest, stomach, arms, neck, groin | 9 | 7 |  |
 | FORT Redut-T5 | 4 | Chest, stomach, arms, neck, groin | 8 | 5 |  |
-| NFM THOR Integrated Carrier | 4 | Chest, stomach, arms, neck, groin | 8 | 6 |  |
-| FirstSpear Siege-R | 4 | Chest, stomach, arms, neck, groin | 6 | 5 |  |
-| IOTV Gen4, Full Protection kit | 4 | Chest, stomach, arms, neck, groin | 7 | 6 |  |
-| IOTV Gen4, Assault kit | 4 | Chest, stomach, arms, neck | 5 | 5 |  |
-| IOTV Gen4, High Mobility kit | 4 | Chest, stomach, neck, groin | 2 | 4 |  |
-| Osprey Mk4A, Protective | 4 | Chest, stomach, arms, neck | 3 | 2 |  |
 | FORT Redut-M | 4 | Chest, stomach, neck, groin | 3 | 3 |  |
 | NPP Klass Korund-VM | 4 | Chest, stomach, neck, groin | 5 | 3 |  |
 | FORT Defender-2 | 4 | Chest, stomach, neck, groin | 1 | 1 | Steel |
 | 6B45 | 4 | Chest, stomach, neck | 5 | 3 | Also comes as an armored rig |
-| BNTI Zhuk-6a | 4 | Chest, stomach, neck | 1.5 | 0 |  |
 | BNTI Gzhel-K | 4 | Chest, stomach, neck | 1.5 | 0 |  |
-| Gladiator-S | 4 | Chest, stomach, neck | 3 | 2 |  |
-| Bagariy | 4 | Chest, stomach | 4 | 2 | Armored rig |
-| SD mod.2 | 4 | Chest | 3 | 1 |  |
-| Ferro Concepts FCPC V5 | 4 | Chest | 4 | 1 |  |
-| LV-119 | 4 | Chest | 1 | 0 |  |
-| Tasmanian Tiger SK | 4 | Chest | 1 | 0 |  |
-| Tasmanian Tiger MKIII | 4 | Chest | 1 | 0 |  |
-| 5.11 TacTec | 4 | Chest | 1 | 0 |  |
-| Hexgrid | 4 | Chest | 1 | 1 |  |
-| Crye Precision JPC | 4 | Chest | 0.5 | 0.5 |  |
-| Crye Precision CPC | 4 | Chest | 0 | 1 |  |
-| PlateFrame | 4 | Chest | 0 | 1 |  |
-| LBT-6094A Slick | 4 | Chest | 0 | 0 |  |
-| HPC | 4 | Chest | 0 | 0 |  |
+| BNTI Zhuk | 2 or 4 | Chest, stomach, neck | 1.5 | 0 | Zhuk-3 Press is tier 2, Zhuk-6a tier 4 |
+| 6B13 | 3–4 | Chest, stomach, neck, groin | 1 | 1 | Tarkov has a basic and a heavier assault version |
+| 6B23 | 2–3 | Chest, stomach, neck, groin | 1 | 2.5 | 6B23-1 is tier 2, 6B23-2 tier 3 |
 | 6B3TM-01 | 3 | Chest, stomach, groin | 5 | 7 | Armored rig; titanium plates |
-| Osprey Mk4A, Assault | 3 | Chest, stomach, arms, neck | 3 | 2 |  |
 | 6B5-15 Uley | 3 | Chest, stomach, neck, groin | 2 | 1 | Armored rig |
-| 6B23-2 | 3 | Chest, stomach, neck, groin | 1 | 2.5 |  |
-| 6B13 | 3 | Chest, stomach, neck, groin | 1 | 1 |  |
-| Crye Precision AVS | 3 | Chest, stomach, groin | 2 | 0 | Armored rig |
-| US Army OTV | 3 | Chest, stomach | 2 | 0 |  |
-| RBAV-AF | 3 | Chest, stomach | 2 | 1 | Armored rig |
-| SP PC V2 | 3 | Chest, stomach | 2 | 1 | Armored rig |
-| ANA M1 / M2 | 3 | Chest, stomach | 2 | 0 | Armored rig |
-| Highcom Trooper TFO | 3 | Chest, stomach | 1 | 0 |  |
-| Strandhogg | 3 | Chest, stomach | 1 | 0 | Armored rig |
-| NFM THOR CRV | 3 | Chest, stomach | 0 | 0 |  |
-| A18 Skanda | 3 | Chest | 1 | 3 | Armored rig |
-| Banshee | 3 | Chest | 1 | 1 | Armored rig |
-| MMAC | 3 | Chest | 1 | 1 | Armored rig |
-| TV-110 | 3 | Chest | 1 | 0 | Armored rig |
 | 6B5-16 | 2 | Chest, stomach, neck, groin | 4 | 6 | Armored rig |
-| 6B23-1 | 2 | Chest, stomach, neck, groin | 1 | 2.5 |  |
-| BNTI Zhuk-3 Press | 2 | Chest, stomach, neck | 1.5 | 0 |  |
 | NPP Klass Kirasa-N | 2 | Chest, stomach, neck | 0 | 1 |  |
 | DRD | 2 | Chest, stomach | 1 | 1 |  |
 | Kora-Kulon | 2 | Chest, stomach | 1 | 1 | Steel |
-| MBSS | 2 | Chest | 0 | 1 | Armored rig |
-| TV-115 | 2 | Chest | 0 | 0 | Armored rig |
 | 6B2 | 1 | Chest, stomach | 1 | 1 |  |
 | PACA | 1 | Chest, stomach | 1 | 1 |  |
 | Module-3M | 1 | Chest, stomach | 1 | 0 |  |
@@ -129,5 +140,6 @@ Left out: Tarkov's fictional and joke pieces, like the UNTAR gear, boss editions
 ## Sources
 
 - [Tarkov Forge: Armor chart](https://tarkovforge.com/armor) (vest classes, coverage, and penalties)
-- [Tarkov Forge: Helmet chart](https://tarkovforge.com/helmets) (helmet classes and deafening)
+- [Tarkov Forge: Helmet chart](https://tarkovforge.com/helmets) (helmet classes)
+- [Escape from Tarkov Wiki: Armor plates](https://escapefromtarkov.fandom.com/wiki/Armor_plates) (plate weights and penalties)
 - [Escape from Tarkov Wiki (Bilibili): Headwear](https://wiki.biligame.com/eft/Headwear) (helmet coverage and penalties, older patch)

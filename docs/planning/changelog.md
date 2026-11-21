@@ -5,6 +5,7 @@ Every update to the wiki, newest first.
 | Date | Change |
 | --- | --- |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Vests now spawn as vest-and-tier combos: 34 plate carriers that roll tier 2–4 and 20 fixed vests, with the 6B23, Zhuk, and Osprey versions merged ([Armor and gear](../systems/armor.md#vests)); set starting damage reduction per tier and decided armored rigs carry more; two armor questions came off the open questions page |
 | 2026-11-20 | Decided that visors can't flip up, since there's no face hitbox ([Armor and gear](../systems/armor.md#debuffs)); the visor question came off the open questions page |
 | 2026-11-20 | Decided helmet hearing and vision rules on [Armor and gear](../systems/armor.md#debuffs): ear coverage muffles sound by tier, and visors or face covers block some vision and prevent ADS; dropped the Tarkov deafening column |
 | 2026-11-20 | Added [HUD and inventory](../systems/gameplay.md#hud-and-inventory) to Gameplay: PUBG-style layout, slots 1–5 (4 class item, 5 throwable), melee on its own button, F to pick up |

@@ -16,7 +16,7 @@ Base AW: 6.5 kg, 1,180 mm long, 660 mm barrel, 850 m/s, and built to work down t
 
 ## In-game traits
 
-One roster entry that rolls one of 7 versions (see [Versions](#versions) below). PUBG's AWM is the .300 Magnum version, which stays on the ground here. The .338 Lapua version is crate-only, since its head shot kills through a tier 4 helmet ([Starting damage](../../systems/starting-damage.md)). Every version reloads by swapping mags. The AWS and AWC keep their suppressors ([Built-in parts](../../systems/attachments.md#built-in-parts)).
+One roster entry that rolls one of 7 versions (see [Versions](#versions) below). Both AWM versions are crate-only, since their head shot kills through a tier 3 helmet: the .300 Magnum one is PUBG's crate AWM, and the .338 Lapua one hits even harder ([Starting damage](../../systems/starting-damage.md#baselines-and-crate-lines)). The 7.62mm versions spawn on the ground. Every version reloads by swapping mags. The AWS and AWC keep their suppressors ([Built-in parts](../../systems/attachments.md#built-in-parts)).
 
 ## Attachments
 
@@ -33,7 +33,7 @@ DMR & sniper family attachments; native scope rail. Unique: the AWS and AWC supp
 | 3 | AWP | Police version: black, 610 mm barrel | 7.62×51mm | Unknown | — | bolt action | 32 | No | box mag | 10 | 79 |
 | 4 | AWS (rare) | Subsonic, with a built-in suppressor and 406 mm barrel; about 300 m range | 7.62×51mm | Unknown | AWS, PM-SD (35 for UK special forces) | bolt action | 32 | No | box mag | 10 | 79 |
 | 5 | AWC Covert (rare) | Folds into a small case; 305 mm barrel and suppressor | 7.62×51mm | Unknown | AWC, Germany's G25 | bolt action | 32 | No | box mag | 10 | 79 |
-| 6 | AWM .300 | Magnum with a longer bolt | .300 Winchester Magnum | Unknown | AWM, AWM-F, Germany's G22 | bolt action | 32 | No | box mag | 5 | 90 |
+| 6 | AWM .300 (crate) | Magnum with a longer bolt | .300 Winchester Magnum | Unknown | AWM, AWM-F, Germany's G22 | bolt action | 32 | No | box mag | 5 | 90 |
 | 7 | AWM .338 (crate) | The British L115 | .338 Lapua Magnum | 580 L115A3s ordered in 2007 | AWSM, the Netherlands' AWM-F, L115A1, L115A3 | bolt action | 32 | No | box mag | 5 | 100 |
 
 ## Sources

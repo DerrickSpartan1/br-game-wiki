@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Armor has three tiers, like PUBG, at PUBG's 30%, 40%, and 55%: tier 1 holds Tarkov classes 1–2, tier 2 classes 3–4, and tier 3 classes 5–6. Guns are balanced around tier 2, and crates hold tier 3 | [Armor](../systems/armor.md#tiers) |
+| 2026-11-21 | The crate line is one head shot through a tier 3 helmet, PUBG's exact line, so the .300 Winchester Magnum snipers (M2010, Remington 700 .300, AWM .300) are crate-only like PUBG's AWM; the shotgun ceiling is a tier 3 vest, so the Winchester 1887 10 gauge is 24 per pellet | [Starting damage](../systems/starting-damage.md#baselines-and-crate-lines) |
 | 2026-11-21 | The whole MG 42 / MG3 family is crate-only and moves to crate weapons, and the MG 34/41 is a crate-only version, as PUBG keeps its MG3 in care packages; the PPSh-41 family (29) and Glock 18 (20) stay on the ground with deeper damage cuts | [Starting damage](../systems/starting-damage.md#crate-check-for-fast-firing-guns) |
 | 2026-11-21 | Hand-set damage: the M249's 5.56mm versions 41 (PUBG's current number), the Janz .460 and .500 S&W 83, and the Winchester 1887 10 gauge 27 per pellet, since no ground shotgun's full hit should kill through a tier 4 vest | [Starting damage](../systems/starting-damage.md#per-gun-adjustments) |
 | 2026-11-21 | Underbarrel and rifle grenade launchers are ground loot with smoke and other non-lethal rounds (star parachute, star cluster, infrared star, propaganda leaflets); frag, HEDP, anti-tank, buckshot, and thermobaric launcher rounds are crate-only | [Attachments](../systems/attachments.md#grenade-launchers) |

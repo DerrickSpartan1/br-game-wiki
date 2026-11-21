@@ -16,7 +16,7 @@ TTK = (shots to kill - 1) × 60 / RPM
 - **Breakpoints:** a damage change only matters when it changes shots to kill. On 100 health, 33 damage takes 4 shots but 34 takes 3.
 - **Theoretical vs. effective TTK:** the formula assumes perfect accuracy. Recoil, spread, and misses make real TTK longer, and a very fast TTK covers up misses, which works against skilled players.
 - **Magazine size:** a gun with fewer rounds than shots to kill needs a reload mid-fight, and small mags limit kills per mag.
-- **PUBG-style armor:** each vest or helmet level cuts damage by a flat percentage (community-reported as 30%, 40%, and 55% for levels 1 to 3).
+- **PUBG-style armor:** each vest or helmet level cuts damage by a flat percentage (community-reported as 30%, 40%, and 55% for levels 1 to 3). Ours uses the same three tiers ([Armor](armor.md#tiers)), and guns are balanced around tier 2.
 
 Illustrative example with made-up numbers (100 health, chest hits, no armor):
 
@@ -36,12 +36,12 @@ Every category has a job and a range where it should win, so no gun is worthless
 | Category | Job | Where it wins | What keeps it there |
 | --- | --- | --- | --- |
 | Pistols / 3rd slot | Backup, early fights, finishing | 0–25 m | Fastest draw and swap and the best hip fire on the move; pistol rounds fall off fast |
-| Shotguns | One-shot up close | 0–15 m | A full buckshot hit kills through a tier 2 vest (12 gauge pumps: tier 3); pellets spread and lose damage fast past 15 m. Slugs trade the one-shot for reach to about 100 m |
+| Shotguns | One-shot up close | 0–15 m | A full buckshot hit kills through a tier 2 vest; pellets spread and lose damage fast past 15 m. Slugs trade the one-shot for reach to about 100 m |
 | SMGs | Close quarters on the move | 0–50 m | The best hip fire and fastest ADS of the primary guns, light recoil, faster movement, and PUBG's bigger limb multiplier (1.2, against 0.9 for ARs); pistol rounds fall off to 60% by 180 m |
 | Assault rifles | All-rounder | 25–250 m | The middle of everything; falls off to 75% by 450 m |
 | Battle rifles & DMRs | Picks at mid to long range | 100–400 m | One fewer shot to kill than an AR (3 against 4 or 5 through a tier 2 vest), little falloff, and DMR multipliers (body 1.05, limbs 1.15); heavier recoil, slower ADS, and hard-to-control full auto |
 | LMGs | Sustained fire: holding angles, suppression, vehicles | 25–250 m, best from a bipod or prone | Big belts and drums and the highest fire-rate band; the slowest ADS and movement, steady only on a bipod, slow belt reloads, and falloff to 75% by 300 m |
-| Snipers | One-shot picks at range | 200 m and beyond | A head shot kills through a tier 2 helmet (the .300 Winchester Magnum through tier 3) and two body shots through a tier 2 vest, with almost no falloff; slow bolts, slow ADS, and scope sway |
+| Snipers | One-shot picks at range | 200 m and beyond | A head shot kills through a tier 2 helmet and two body shots through a tier 2 vest, with almost no falloff; slow bolts, slow ADS, and scope sway |
 
 How damage keeps every gun inside its category's job is on [Starting damage](starting-damage.md): fast guns hit lighter, slow guns hit harder, and manual-action guns pass a test for their job.
 
@@ -103,7 +103,7 @@ Our best guess at PUBG's method, used here (details and every number on [Startin
 | LMGs | M249 45 (5.56mm), DP-28 51 |
 | Snipers | Win94 66, Kar98k 75, M24 79, AWM 120 |
 
-Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 4 included. That's the crate line for every category ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
+Crate snipers follow PUBG's AWM, which one-shot level 3 helmets: their head shot kills through any helmet, tier 3 included. That's the crate line for every category ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 
 ## Fire rates
 

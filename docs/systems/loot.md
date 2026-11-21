@@ -29,7 +29,7 @@ Every spawn spot rolls in steps, and every kind of loot follows the same pattern
 - **Areas have loot levels:** low (lone houses), medium (towns), high (big towns, schools, power plants), and military (bases). Higher levels have more spawn spots and better tier odds. Each map sets its own areas ([Maps](maps.md)).
 - **No empty buildings.** Each building cluster rolls at least one gun, which fixes a common PUBG complaint.
 - **Less clutter.** Following PUBG's 2019 lesson, pistols, extra mags, and throwables start a little lower, and the game logs what spawns and what players pick up, so spawns can be tuned from real numbers.
-- **Crates:** every crate holds the same set: one crate weapon, its ammo, attachments that fit it (the thermal sight and 15x scope are crate-only), one tier 4 vest, one tier 4 helmet, and one class item. That's steadier than PUBG, whose crates varied. Lethal rounds for underbarrel and rifle grenade launchers come only from crates too; how many a crate holds is TBD ([Attachments](attachments.md#crate-rounds-lethal)).
+- **Crates:** every crate holds the same set: one crate weapon, its ammo, attachments that fit it (the thermal sight and 15x scope are crate-only), one tier 3 vest, one tier 3 helmet, and one class item. That's steadier than PUBG, whose crates varied. Lethal rounds for underbarrel and rifle grenade launchers come only from crates too; how many a crate holds is TBD ([Attachments](attachments.md#crate-rounds-lethal)).
 
 ## Starting weights
 
@@ -65,13 +65,15 @@ Battle rifles and DMRs sit higher than PUBG's DMRs did, since the category inclu
 
 **Armor and helmet tiers, by area:**
 
-| Area | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
-| --- | --- | --- | --- | --- |
-| Low | 60% | 30% | 10% | 0% |
-| Medium | 45% | 35% | 17% | 3% |
-| High | 30% | 35% | 27% | 8% |
-| Military | 20% | 30% | 35% | 15% |
-| Crates | — | — | — | 100% |
+| Area | Tier 1 | Tier 2 | Tier 3 |
+| --- | --- | --- | --- |
+| Low | 60% | 40% | 0% |
+| Medium | 45% | 52% | 3% |
+| High | 30% | 62% | 8% |
+| Military | 20% | 65% | 15% |
+| Crates | — | — | 100% |
+
+Tier 2 took in what used to be tiers 2 and 3, so its odds are the two added together.
 
 Backpacks, scopes, and mag tiers follow the same idea: common low tiers everywhere, better ones in better areas, and the best in crates. Makeshift armor tiers are crafted, never spawned ([Crafting](crafting.md)).
 

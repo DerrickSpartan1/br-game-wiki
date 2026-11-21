@@ -4,16 +4,15 @@ Armor varies by more than tier: each piece trades protection against speed and a
 
 ## Tiers
 
-Vests and helmets both come in four tiers. Each tier holds a band of Tarkov's armor classes:
+Vests and helmets both come in three tiers, like PUBG's three levels, which keeps balancing simple: guns are balanced around tier 2. Each tier holds a band of Tarkov's armor classes:
 
 | Tier | Tarkov class | What's in it | Damage reduction (starting point) |
 | --- | --- | --- | --- |
 | 1 | 1–2 | Soft armor, riot helmets | 30% |
-| 2 | 3 | Heavier soft armor, steel pots, and lighter modern helmets | 40% |
-| 3 | 4 | Light rifle plates and modern ballistic helmets | 50% |
-| 4 | 5–6 | Heavy rifle plates and full-face assault helmets | 60% |
+| 2 | 3–4 | Heavier soft armor, light rifle plates, steel pots, and modern ballistic helmets | 40% |
+| 3 | 5–6 | Heavy rifle plates and full-face assault helmets | 55% |
 
-- **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers above are a starting point to tune. There are no loose plates to find or swap.
+- **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers are PUBG's 2018 values for levels 1 to 3, as a starting point to tune. There are no loose plates to find or swap.
 - **Legs:** no leg armor, since it mostly doesn't exist in real life.
 - **Makeshift upgrades:** armor can be upgraded half a tier, like a tier 1 helmet to a makeshift tier 1.5 or a tier 2 vest to a makeshift tier 2.5. Makeshift tiers have lower durability but can take one extra bullet. Upgrades are crafted in-match from scrap.
 - Players recover by healing.
@@ -25,7 +24,7 @@ Every piece has its own movement and ADS (aim down sights) slowdown, as a percen
 - **Coverage costs speed.** A light plate carrier covers only the chest and barely slows you; a full kit covers the chest, stomach, arms, neck, and groin and slows you down.
 - **Arm armor slows ADS the most,** so a light vest keeps ADS quick but leaves the arms open.
 - **Hearing:** a helmet that covers the ears muffles sound, and the higher its tier, the more it muffles: a tier 2 helmet over the ears muffles less than a tier 3. Helmets that leave the ears open don't muffle anything. How much each tier muffles is TBD.
-- **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 4 helmets and the DEVTAC Ronin. Visors can't flip up: there's no separate face hitbox, so a visor stays as it is.
+- **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 3 helmets and the DEVTAC Ronin. Visors can't flip up: there's no separate face hitbox, so a visor stays as it is.
 
 ## Vests
 
@@ -36,16 +35,16 @@ A vest spawns as a combo, built in four steps, and stays that combo for the matc
 3. **Rig:** a carrier with no pouches of its own gets a random chest rig for carrying ammo and gear. Carriers with pouches skip this.
 4. **Slowdown:** the carrier's, plus its plates', plus its rig's.
 
-- **Weight slows running, coverage slows aiming.** Movement slowdown comes mostly from weight, so heavy steel plates slow running the most. ADS slowdown comes mostly from coverage, with arm armor costing the most; plates and rigs add only a little. A tier 3 carrier with steel plates and no arm armor aims with only a slight penalty but runs noticeably slower.
-- **Example:** a tier 3 US Army OTV (2% movement, 0% ADS) with a 6B33 steel front plate and a 6B13 steel back plate comes to 7% movement and 1.5% ADS before its rig. With a pair of lighter Monoclete polyethylene plates instead, it's 4% and 2%.
-- **Looks:** the model shows the carrier and its rig, so two tier 3 vests in one match can look different, and a tier 3 and a tier 4 can look the same.
+- **Weight slows running, coverage slows aiming.** Movement slowdown comes mostly from weight, so heavy steel plates slow running the most. ADS slowdown comes mostly from coverage, with arm armor costing the most; plates and rigs add only a little. A tier 2 carrier with steel plates and no arm armor aims with only a slight penalty but runs noticeably slower.
+- **Example:** a tier 2 US Army OTV (2% movement, 0% ADS) with a 6B33 steel front plate and a 6B13 steel back plate comes to 7% movement and 1.5% ADS before its rig. With a pair of lighter Monoclete polyethylene plates instead, it's 4% and 2%.
+- **Looks:** the model shows the carrier and its rig, so two tier 2 vests in one match can look different, and a tier 2 and a tier 3 can look the same.
 - **Carry space** comes from the carrier's pouches or its rig. The numbers below are Tarkov's slot counts, to compare pieces; the game's own capacity is TBD.
 - **No loose plates** to find or swap.
 - **Fixed vests** are soft armor and armor built around its own plates. They spawn only at their real tiers, and their numbers already include their armor.
 
 ### Plate carriers
 
-Tiers 2–4. The slowdown here is the carrier alone; its plates and rig add to it.
+Tiers 2–3. The slowdown here is the carrier alone; its plates and rig add to it.
 
 | Carrier | Covers | Movement (%) | ADS (%) | Carry space |
 | --- | --- | --- | --- | --- |
@@ -88,18 +87,18 @@ Tiers 2–4. The slowdown here is the carrier alone; its plates and rig add to i
 
 | Vest | Tiers | Covers | Movement (%) | ADS (%) | Carry space | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| 6B43 Zabralo-Sh | 4 | Chest, stomach, arms, neck, groin | 9 | 7 | Random rig |  |
-| FORT Redut-T5 | 4 | Chest, stomach, arms, neck, groin | 8 | 5 | Random rig |  |
-| FORT Redut-M | 4 | Chest, stomach, neck, groin | 3 | 3 | Random rig |  |
-| NPP Klass Korund-VM | 4 | Chest, stomach, neck, groin | 5 | 3 | Random rig |  |
-| FORT Defender-2 | 4 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Steel |
-| 6B45 | 4 | Chest, stomach, neck | 5 | 3 | Random rig | The armored rig version carries 16–19 |
-| BNTI Gzhel-K | 4 | Chest, stomach, neck | 1.5 | 0 | Random rig |  |
-| BNTI Zhuk | 2 or 4 | Chest, stomach, neck | 1.5 | 0 | Random rig | Zhuk-3 Press is tier 2, Zhuk-6a tier 4 |
-| 6B13 | 3–4 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Tarkov has a basic and a heavier assault version |
-| 6B23 | 2–3 | Chest, stomach, neck, groin | 1 | 2.5 | Random rig | 6B23-1 is tier 2, 6B23-2 tier 3 |
-| 6B3TM-01 | 3 | Chest, stomach, groin | 5 | 7 | 12 | Titanium plates |
-| 6B5-15 Uley | 3 | Chest, stomach, neck, groin | 2 | 1 | 10 |  |
+| 6B43 Zabralo-Sh | 3 | Chest, stomach, arms, neck, groin | 9 | 7 | Random rig |  |
+| FORT Redut-T5 | 3 | Chest, stomach, arms, neck, groin | 8 | 5 | Random rig |  |
+| FORT Redut-M | 3 | Chest, stomach, neck, groin | 3 | 3 | Random rig |  |
+| NPP Klass Korund-VM | 3 | Chest, stomach, neck, groin | 5 | 3 | Random rig |  |
+| FORT Defender-2 | 3 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Steel |
+| 6B45 | 3 | Chest, stomach, neck | 5 | 3 | Random rig | The armored rig version carries 16–19 |
+| BNTI Gzhel-K | 3 | Chest, stomach, neck | 1.5 | 0 | Random rig |  |
+| BNTI Zhuk | 2 or 3 | Chest, stomach, neck | 1.5 | 0 | Random rig | Zhuk-3 Press is tier 2, Zhuk-6a tier 3 |
+| 6B13 | 2–3 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Tarkov has a basic and a heavier assault version |
+| 6B23 | 2 | Chest, stomach, neck, groin | 1 | 2.5 | Random rig | Covers both the 6B23-1 and 6B23-2 |
+| 6B3TM-01 | 2 | Chest, stomach, groin | 5 | 7 | 12 | Titanium plates |
+| 6B5-15 Uley | 2 | Chest, stomach, neck, groin | 2 | 1 | 10 |  |
 | 6B5-16 | 2 | Chest, stomach, neck, groin | 4 | 6 | 10 |  |
 | NPP Klass Kirasa-N | 2 | Chest, stomach, neck | 0 | 1 | Random rig |  |
 | DRD | 2 | Chest, stomach | 1 | 1 | Random rig |  |
@@ -119,31 +118,31 @@ Each plate below is one plate; a carrier gets a front and a back. Plates marked 
 | Zhuk-3 (front) | 2 | Polyethylene | 2.4 | 2 | 1 |
 | AR500 Legacy | 2 | Composite | 3.85 | 2 | 1 |
 | 6B12 (front) | 2 | Steel | 4.6 | 3 | 1.5 |
-| Monoclete level III PE | 3 | Polyethylene | 1.35 | 1 | 1 |
-| SPRTN Elaphros | 3 | Ceramic | 1.6 | 1 | 1.5 |
-| NewSphereTech level III | 3 | Aluminum | 2.15 | 1 | 1 |
-| Global Armor steel | 3 | Steel | 3.4 | 1.5 | 1 |
-| 6B23-2 (back) | 3 | Steel | 3.5 | 1.5 | 0.5 |
-| 6B33 (front) | 3 | Steel | 3.7 | 2.5 | 1 |
-| 6B13 custom (back) | 3 | Steel | 4.1 | 2.5 | 0.5 |
-| SPRTN Omega | 3 | Composite | 4.39 | 1.5 | 0.5 |
-| GAC 3s15m | 4 | Polyethylene | 0.97 | 1 | 1 |
-| SAPI level III+ | 4 | Ceramic | 1.82 | 1 | 1.5 |
-| Korund-VM (back) | 4 | Steel | 2.3 | 1 | 1 |
-| KITECO SC-IV SA | 4 | Polyethylene | 2.45 | 1.5 | 1.5 |
-| GAC 4sss2 | 4 | Polyethylene | 2.7 | 1.5 | 1.5 |
-| Korund-VM-K (back) | 4 | Ceramic | 2.7 | 1.5 | 1 |
-| Granit Br4 | 4 | Ceramic | 2.9 | 1.5 | 1 |
-| Granit 4 (front) | 4 | Ceramic | 3.05 | 2 | 1 |
-| ESAPI level IV | 4 | Ceramic | 3.2 | 1.5 | 1.5 |
-| Granit 4 (back) | 4 | Ceramic | 3.3 | 1 | 1 |
-| Granit Br5 | 4 | Ceramic | 3.3 | 2 | 1.5 |
-| Korund-VM (front) | 4 | Steel | 3.4 | 2 | 1 |
-| Granit 4RS (front) | 4 | Ceramic | 3.5 | 2.5 | 1.5 |
-| TallCom Guardian | 4 | Composite | 3.5 | 2 | 1.5 |
-| NESCO 4400-SA-MC | 4 | Composite | 3.6 | 2.5 | 1 |
-| Granit 4RS (back) | 4 | Ceramic | 3.8 | 2 | 1 |
-| Korund-VM-K (front) | 4 | Ceramic | 4 | 3 | 2 |
+| Monoclete level III PE | 2 | Polyethylene | 1.35 | 1 | 1 |
+| SPRTN Elaphros | 2 | Ceramic | 1.6 | 1 | 1.5 |
+| NewSphereTech level III | 2 | Aluminum | 2.15 | 1 | 1 |
+| Global Armor steel | 2 | Steel | 3.4 | 1.5 | 1 |
+| 6B23-2 (back) | 2 | Steel | 3.5 | 1.5 | 0.5 |
+| 6B33 (front) | 2 | Steel | 3.7 | 2.5 | 1 |
+| 6B13 custom (back) | 2 | Steel | 4.1 | 2.5 | 0.5 |
+| SPRTN Omega | 2 | Composite | 4.39 | 1.5 | 0.5 |
+| GAC 3s15m | 3 | Polyethylene | 0.97 | 1 | 1 |
+| SAPI level III+ | 3 | Ceramic | 1.82 | 1 | 1.5 |
+| Korund-VM (back) | 3 | Steel | 2.3 | 1 | 1 |
+| KITECO SC-IV SA | 3 | Polyethylene | 2.45 | 1.5 | 1.5 |
+| GAC 4sss2 | 3 | Polyethylene | 2.7 | 1.5 | 1.5 |
+| Korund-VM-K (back) | 3 | Ceramic | 2.7 | 1.5 | 1 |
+| Granit Br4 | 3 | Ceramic | 2.9 | 1.5 | 1 |
+| Granit 4 (front) | 3 | Ceramic | 3.05 | 2 | 1 |
+| ESAPI level IV | 3 | Ceramic | 3.2 | 1.5 | 1.5 |
+| Granit 4 (back) | 3 | Ceramic | 3.3 | 1 | 1 |
+| Granit Br5 | 3 | Ceramic | 3.3 | 2 | 1.5 |
+| Korund-VM (front) | 3 | Steel | 3.4 | 2 | 1 |
+| Granit 4RS (front) | 3 | Ceramic | 3.5 | 2.5 | 1.5 |
+| TallCom Guardian | 3 | Composite | 3.5 | 2 | 1.5 |
+| NESCO 4400-SA-MC | 3 | Composite | 3.6 | 2.5 | 1 |
+| Granit 4RS (back) | 3 | Ceramic | 3.8 | 2 | 1 |
+| Korund-VM-K (front) | 3 | Ceramic | 4 | 3 | 2 |
 
 Left out for now: side plates, and Tarkov's fictional Kiba Arms and Cult plates.
 
@@ -184,21 +183,21 @@ The random rigs for carriers without pouches. Color variants are skins.
 
 | Helmet | Tier | Covers | Movement (%) | ADS (%) | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Vulkan-5 (LShZ-5) | 4 | Top, back, ears | 7 | 20 | Visor: blocks some vision and ADS |
-| Altyn | 4 | Top, back, ears | 7 | 6 | Visor: blocks some vision and ADS |
-| Rys-T | 4 | TBD | TBD | TBD | Visor: blocks some vision and ADS |
-| DEVTAC Ronin | 3 | Top, back, ears, face | 5 | 5 | Face cover: blocks some vision and ADS |
-| BNTI LShZ-2DTM | 3 | Top, back, ears | 3 | 10 |  |
-| Maska-1SCh | 3 | Top, back, ears | 3 | 7 |  |
-| ZSh-1-2M | 3 | Top, back, ears | 3 | 2 |  |
-| Highcom Striker ULACH | 3 | Top, back, ears | 2 | 4 |  |
-| Highcom Striker ACHHC | 3 | Top, back | 2 | 2 |  |
-| MSA TC-2001 / TC-2002 (ACH) | 3 | Top, back | 2 | 2 |  |
-| MSA Gallet TC 800 | 3 | Top, back | 2 | 1 |  |
-| Team Wendy EXFIL | 3 | Top, back | 1 | 4 |  |
-| Diamond Age Bastion | 3 | Top, back | 1 | 2 |  |
-| Ops-Core FAST MT | 3 | Top, back | 1 | 0 |  |
-| Crye Precision AirFrame | 3 | Top, back | 0 | 3 |  |
+| Vulkan-5 (LShZ-5) | 3 | Top, back, ears | 7 | 20 | Visor: blocks some vision and ADS |
+| Altyn | 3 | Top, back, ears | 7 | 6 | Visor: blocks some vision and ADS |
+| Rys-T | 3 | TBD | TBD | TBD | Visor: blocks some vision and ADS |
+| DEVTAC Ronin | 2 | Top, back, ears, face | 5 | 5 | Face cover: blocks some vision and ADS |
+| BNTI LShZ-2DTM | 2 | Top, back, ears | 3 | 10 |  |
+| Maska-1SCh | 2 | Top, back, ears | 3 | 7 |  |
+| ZSh-1-2M | 2 | Top, back, ears | 3 | 2 |  |
+| Highcom Striker ULACH | 2 | Top, back, ears | 2 | 4 |  |
+| Highcom Striker ACHHC | 2 | Top, back | 2 | 2 |  |
+| MSA TC-2001 / TC-2002 (ACH) | 2 | Top, back | 2 | 2 |  |
+| MSA Gallet TC 800 | 2 | Top, back | 2 | 1 |  |
+| Team Wendy EXFIL | 2 | Top, back | 1 | 4 |  |
+| Diamond Age Bastion | 2 | Top, back | 1 | 2 |  |
+| Ops-Core FAST MT | 2 | Top, back | 1 | 0 |  |
+| Crye Precision AirFrame | 2 | Top, back | 0 | 3 |  |
 | SSh-68 | 2 | Top, back | 2 | 13 | Soviet steel helmet |
 | SSSh-95 Sfera-S | 2 | Top, back, ears | 2 | 3 |  |
 | Kiver-M | 2 | Top, back, ears | 3 | 1 |  |

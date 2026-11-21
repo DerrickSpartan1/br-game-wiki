@@ -8,7 +8,7 @@ How each gun version gets its first-pass damage, how that keeps every gun useful
 2. **Scale by energy:** damage = the table's baseline damage × √(round's energy ÷ baseline round's energy). The square root keeps big rounds strong without making them absurd.
 3. **Fit the fire-rate band:** semi-auto and automatic versions keep damage × fire rate inside their category's band, so fast guns hit lighter and slow guns hit harder, as PUBG did ([Fire-rate bands](#fire-rate-bands)).
 4. **Pass the role test:** manual-action guns, which the band doesn't cover, must still do their job, like a shotgun one-shotting up close ([Role tests](#role-tests)).
-5. **Check the crate line:** a version is crate-only if one head shot kills through a tier 4 helmet ([Baselines and crate lines](#baselines-and-crate-lines)), or if it fires too fast to fit its band even after the cut ([Crate check](#crate-check-for-fast-firing-guns)). Crate-only versions are marked `(crate)` and never spawn on the ground; the rest of their family still does. A family that's crate-only as a whole moves to [crate weapons](../weapons/crate/index.md).
+5. **Check the crate line:** a version is crate-only if one head shot kills through a tier 3 helmet, the top tier ([Baselines and crate lines](#baselines-and-crate-lines)), or if it fires too fast to fit its band even after the cut ([Crate check](#crate-check-for-fast-firing-guns)). Crate-only versions are marked `(crate)` and never spawn on the ground; the rest of their family still does. A family that's crate-only as a whole moves to [crate weapons](../weapons/crate/index.md).
 6. **Adjust per gun:** a few guns get a hand-set number after review ([Per-gun adjustments](#per-gun-adjustments)).
 
 Energies are typical full-power loads, mostly from Wikipedia's cartridge table. Damage rounds to whole numbers. The method lands close to PUBG on many guns: the AKM 48 (PUBG: 49), the Thompson 40 (Tommy Gun: 40), the Mini-14 45 (Mini 14: 46), the MG3 42 (PUBG today: 42), and the Winchester 1894 in .30-30 65 (Win94: 66).
@@ -56,7 +56,7 @@ Manual-action guns aren't limited by fire rate in the same way, so each passes a
 | Guns | Test | Who failed and what changed |
 | --- | --- | --- |
 | Shotguns (buckshot, any category) | A full hit at point blank kills through a tier 2 vest (167 or more), or the next shot comes within 0.25 s (240 RPM or faster, as PUBG's S12K) | The two .410 pumps (Remington 870 and KSG410): 16 → 19 per pellet (171) |
-| Shotguns, the other way | A full hit can't kill through a tier 4 vest (under 250), since no PUBG ground shotgun one-shot through a level 3 vest | The [Winchester 1887](../weapons/shotguns/winchester-1887.md)'s 10 gauge: 30 → 27 per pellet (243) |
+| Shotguns, the other way | A full hit can't kill through a tier 3 vest (222 or less), since no PUBG ground shotgun one-shot through a level 3 vest | The [Winchester 1887](../weapons/shotguns/winchester-1887.md)'s 10 gauge: 30 → 24 per pellet (216) |
 | Snipers: bolt, lever, straight-pull, and single shot | One head shot kills through a tier 1 helmet at 200 m (59 or more), as PUBG's 2018 Win94 did | The Winchester 1894's .25-35, .32-40, .38-55, .357 Magnum, .44 Magnum, and .45 Colt versions and the .22 Mauser KKW go to 59, like PUBG's Win94, which fired .45 ACP but hit 66 |
 | 3rd-slot revolvers, single shots, break actions, and two-pulls | One head shot kills an unarmored target (50 or more), since they get few shots before a long reload | The FP-45 Liberator (36 → 50) and the .22 Garrucha (22 → 50) |
 
@@ -76,7 +76,7 @@ The table value is the number from steps 1 and 2; the band and tests moved 196 o
 | LMGs | 36 | 5 | 17 | PKM 55; Bren 53; M240 48; MG 34 47; M249 41 (set by hand) |
 | Snipers | 44 | 8 | 0 | M24 79; Kar98k 81; Winchester 1894 .30-30 65, handgun calibers 59 |
 
-The five versions of the [MG 42 / MG3](../weapons/crate/mg-42.md) family, all lowered, moved to crate weapons (below).
+The five versions of the [MG 42 / MG3](../weapons/crate/mg-42.md) family, all lowered, moved to crate weapons (below). The three .300 Winchester Magnum snipers moved to crates when armor went to three tiers ([Baselines and crate lines](#baselines-and-crate-lines)).
 
 ### Crate check for fast-firing guns
 
@@ -99,24 +99,24 @@ Hand-set numbers after review, on top of the band and role tests:
 | --- | --- | --- | --- |
 | [FN Minimi / M249](../weapons/lmgs/minimi.md), 5.56mm versions | 43 | 41 | PUBG's current M249 number. Through a tier 2 vest it takes 5 chest hits to an M4's 4, a fair trade for the 100-round belt |
 | [Janz](../weapons/pistols/janz.md) .460 S&W and .500 S&W | 88 and 95 | 83 | A head shot no longer kills through a tier 2 helmet (99.6), and a tier 2 vest takes 3 body shots: a 3rd-slot gun shouldn't hit like a ground sniper |
-| [Winchester 1887](../weapons/shotguns/winchester-1887.md), 10 gauge | 30 × 9 | 27 × 9 | One full hit can't kill through a tier 4 vest (97 instead of 108) |
+| [Winchester 1887](../weapons/shotguns/winchester-1887.md), 10 gauge | 30 × 9 | 24 × 9 | One full hit can't kill through a tier 3 vest (97 instead of 122) |
 | [PPSh-41](../weapons/smgs/ppsh-41.md) family | 33 | 29 | Fits the SMG band instead of moving to crates |
 | [Glock 18](../weapons/pistols/glock-17-18.md) | 21 | 20 | Fits the 3rd-slot automatic band instead of moving to crates |
 
 ## Baselines and crate lines
 
-The crate line: one head shot at starting damage × head multiplier × 0.4 (a tier 4 helmet's 60% cut) reaches 100 health. That's where PUBG drew its line: its ground snipers couldn't one-shot a level 3 helmet, and only the crate AWM could.
+The crate line: one head shot at starting damage × head multiplier × 0.45 (a tier 3 helmet's 55% cut) reaches 100 health. That's where PUBG drew its line: its ground snipers couldn't one-shot a level 3 helmet, and only the crate AWM could. With armor at PUBG's three tiers ([Armor](armor.md#tiers)), the line is now exactly PUBG's.
 
 | Table | Baseline | Head multiplier | Crate line | Energy that crosses it | Strongest round now | Crosses? |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pistol | P92 35 (9×19mm, 464 J) | 2× | 125 | About 5,900 J | .500 S&W, 95 | No |
-| SMG | UMP9 39 (9×19mm, 464 J) | 1.8× | 139 | About 5,900 J | 10mm Auto, 55 | No |
-| Assault rifle | M416 43 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 10,000 J | .276 Pedersen and .280 British, 56 | No |
-| Battle rifle | SLR 58 (7.62×51mm, 4,063 J) | 2.35× | 107 | About 13,800 J | 9.3×64mm Brenneke, 70 (61 after the band) | No |
-| LMG | M249 45 (5.56×45mm, 1,622 J) | 2.35× | 107 | About 9,200 J | .280 British, 58 | No |
-| Sniper | M24 79 (7.62×51mm, 4,063 J) | 2.5× | 100 | About 6,500 J | .338 Lapua Magnum, 100 | Yes: the .338 Lapua versions (M24A3, AWM .338) go to crates |
+| Pistol | P92 35 (9×19mm, 464 J) | 2× | 111 | About 4,700 J | .500 S&W, 95 (83 after review) | No |
+| SMG | UMP9 39 (9×19mm, 464 J) | 1.8× | 124 | About 4,700 J | 10mm Auto, 55 | No |
+| Assault rifle | M416 43 (5.56×45mm, 1,622 J) | 2.35× | 95 | About 7,900 J | .276 Pedersen and .280 British, 56 | No |
+| Battle rifle | SLR 58 (7.62×51mm, 4,063 J) | 2.35× | 95 | About 10,800 J | 9.3×64mm Brenneke, 70 (61 after the band) | No |
+| LMG | M249 45 (5.56×45mm, 1,622 J) | 2.35× | 95 | About 7,200 J | .280 British, 58 | No |
+| Sniper | M24 79 (7.62×51mm, 4,063 J) | 2.5× | 89 | About 5,100 J | .338 Lapua Magnum, 100 | Yes: the .338 Lapua and .300 Winchester Magnum versions go to crates (M24A3, AWM .338, M2010, Remington 700 .300, and AWM .300) |
 
-- **Only the .338 Lapua crosses,** and only just: it lands at about 99.6, which rounds to 100. The .300 Winchester Magnum stays on the ground at 90; it one-shots tier 3 helmets but not tier 4.
+- **Only sniper magnums cross.** The .338 Lapua (100) clears the line easily, and the .300 Winchester Magnum (90) just does: 90 × 2.5 × 0.45 is 101. That matches PUBG, whose crate AWM fired .300 Magnum. The Kar98k and M1903 (81) stop at tier 2 helmets, as PUBG's Kar98k and M24 did.
 - **The .50 BMG** would start at 166 as a sniper, far over the line, so .50-caliber rifles are crate weapons.
 - **Nothing raised by the band or the tests crosses a line.** The strongest 3rd-slot guns are the .460 and .500 S&W [Janz](../weapons/pistols/janz.md) at 83, trimmed from 88 and 95 so their head shots stop at tier 1 helmets. The [SA58 pistol](../weapons/pistols/sa58-pistol.md) uses the battle rifle table now and lands at 51.
 
@@ -132,14 +132,14 @@ Shotguns get their own scale, since their damage is split across pellets. The ba
 
 | Gauge | Standard shot load | Pump, lever, or break action (per pellet × 9) | Semi or auto (per pellet × 9) | Slug |
 | --- | --- | --- | --- | --- |
-| 10 gauge | 1¾ oz | 30 × 9 = 270 by load; 27 × 9 = 243 after the tier 4 ceiling | 27 × 9 = 243 | 68 |
+| 10 gauge | 1¾ oz | 30 × 9 = 270 by load; 24 × 9 = 216 after the tier 3 ceiling | 27 × 9 = 243 by load; 24 × 9 = 216 after the ceiling | 68 |
 | 12 gauge | 1⅛ oz | 24 × 9 = 216 | 22 × 9 = 198 | 54 |
 | 16 gauge | 1 oz | 23 × 9 = 207 | 21 × 9 = 189 | 52 |
 | 20 gauge | ⅞ oz | 21 × 9 = 189 | 19 × 9 = 171 | 47 |
 | 28 gauge | ¾ oz | 20 × 9 = 180 | 18 × 9 = 162 | 45 |
 | .410 bore | ½ oz | 19 × 9 = 171 (floor; 16 by load) | 15 × 9 = 135 | 36 |
 
-Short-barrel versions take 80% of these. Shotgun head shots use PUBG's 2018 multiplier of 1.5. At that multiplier, a full buckshot hit is never crate-level: the crate line would need 167 damage in one projectile.
+Short-barrel versions take 80% of these. Shotgun head shots use PUBG's 2018 multiplier of 1.5. At that multiplier, a full buckshot hit is never crate-level: the crate line would need 149 damage in one projectile.
 
 ### Crate shotgun ammo
 
@@ -151,7 +151,7 @@ Crate shotguns, like the [AA-12](../weapons/crate/aa-12.md), can roll two specia
 - **Arming:** inside 3 m it doesn't explode; it hits as a plain slug (54). Rushing a FRAG-12 shooter is the counter.
 - **Direct hit:** a slug hit (armor applies) plus the blast.
 - **Blast:** 50 at the point of impact, falling to 0 at 2 m. Blast damage isn't cut by vests or helmets, like PUBG's grenades.
-- **What that does:** a direct hit kills an unarmored target (104). Against a tier 4 vest a direct hit does 72, so two kill, at 300 RPM. A miss by 1 m still does 25.
+- **What that does:** a direct hit kills an unarmored target (104). Against a tier 3 vest a direct hit does 74, so two kill, at 300 RPM. A miss by 1 m still does 25.
 - **Also:** it breaks doors and light cover and hits vehicles hard (the multiplier is TBD). The blast can hurt the shooter, but the arming distance keeps that rare.
 
 **Dragon's breath (incendiary).** The real round is a 12-gauge shell loaded mostly with magnesium pellets that burn at about 1,650 to 2,200 °C. Its sparks and flames reach about 30 m (some sources claim 91 m), hot enough to set a person or a house on fire. Its combat use is undocumented, and it's banned in several US states.
@@ -161,7 +161,7 @@ Crate shotguns, like the [AA-12](../weapons/crate/aa-12.md), can roll two specia
 - **While burning,** you can't ADS, PUBG's Molotov rule.
 - **Ground fire:** pellets light grass and bushes for a few seconds (how long is TBD), doing 12.5 a second inside, like PUBG's Molotov flames.
 - **Tell:** the huge muzzle flame gives the shooter away.
-- **What that does:** one close hit on an unarmored target is 90 plus 40 burning, so they die within a second or two. Against a tier 4 vest it's 36 plus the burn per shot, about three shots against buckshot's two, but the burn keeps hurting through armor and behind cover, and the target can't aim back.
+- **What that does:** one close hit on an unarmored target is 90 plus 40 burning, so they die within a second or two. Against a tier 3 vest it's about 40 plus the burn per shot, about three shots against buckshot's two, but the burn keeps hurting through armor and behind cover, and the target can't aim back.
 
 ## Starting damage by table
 

@@ -89,7 +89,7 @@ In rough order of what the game needs first:
 - [x] **Vault keys:** one key fits all, used up on opening, dropped on death, with a small chance in care packages ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
 - [x] **Prison armory:** the first map's fifth vault ([Maps](../systems/maps.md#marina-farms-and-vaults)).
 - [ ] **River:** check the first-pass route, crater lake, and three bridges on the v4 mockup ([Maps](../systems/maps.md#river)).
-- [ ] **Healing variants:** check the first-pass variants and odds ([Healing](../systems/healing.md#variants)).
+- [ ] **Healing variants:** check the Tarkov items in each role, their numbers, and the odds ([Healing](../systems/healing.md#variants)).
 - [ ] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
 - [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).

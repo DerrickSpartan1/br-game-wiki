@@ -1,6 +1,6 @@
 # Healing
 
-Healing works like PUBG's: three healing items, three boosts, and the boost bar. On top of that, each item comes in better and worse variants, like Escape from Tarkov's range of medkits, and every match rolls one variant of each item. Numbers marked "our pick" are first passes to tune in play testing.
+Healing works like PUBG's: three healing items, three boosts, and the boost bar. PUBG's six items are six roles, and Escape from Tarkov's real-life medical items fill them as variants. Every match rolls one item per role. Numbers marked "our pick" are first passes to tune in play testing.
 
 ## Health
 
@@ -9,7 +9,7 @@ Healing works like PUBG's: three healing items, three boosts, and the boost bar.
 
 ## The items
 
-PUBG's six items are the standard variant of each:
+PUBG's six items set the six roles. The real items that fill each role are under [Variants](#variants).
 
 | Item | Use time | Effect | Weight |
 | --- | --- | --- | --- |
@@ -42,42 +42,100 @@ PUBG's boost bar, as is. Boosts fill a bar of 100 points that drains over time. 
 
 ## Variants
 
-Every item type has three variants: a worse one, PUBG's standard one, and a better one. Names are working names, taken from real kit types.
+Each of PUBG's six items is a role, and Tarkov's real-life medical items fill those roles. A role has as many variants as there are real items that fit it, so some have five and some have one. Where Tarkov has too few, PUBG's own item stays in the roll.
 
-| Item | Worse (25%) | Standard (50%) | Better (25%) |
+### How the blend works
+
+- **Role:** PUBG's item sets what a variant does. Bandages heal a little over time up to 75, first aid kits heal up to 75 at once, med kits heal to 100, and the other three add boost.
+- **Use time:** Tarkov's use time, doubled. That lands on PUBG's own times: Tarkov's 2-second bandages become 4 s like PUBG's bandage, and its 3-second medkits become 6 s like PUBG's first aid kit.
+- **Strength:** comes from how the item ranks in Tarkov, kept near PUBG's numbers: health per use for kits, what a bandage stops, and how long a painkiller lasts.
+- **Uses:** one, like PUBG, or two when the Tarkov item has several uses or a health pool of 300 or more. Two-use items weigh 1.5 times as much; everything else weighs what its role does.
+- **Health stays simple:** no bleeding, fractures, or lost limbs, so Tarkov's treatments only show up as strength.
+
+Every number below is a first pass (our pick). Tarkov's numbers are from Tarkov Forge and change between patches.
+
+### Bandages
+
+PUBG's bandage heals 10 over 3 s, up to 75. Items that stop heavy bleeding in Tarkov heal 15.
+
+| Item | Tarkov | Ours | Uses |
 | --- | --- | --- | --- |
-| **Bandage** | Gauze roll: 5 s, heals 8 | Bandage: 4 s, heals 10 | Emergency bandage: 3 s, heals 12 |
-| **First aid kit** | Car first aid kit: 8 s | IFAK: 6 s | Medic pouch: 6 s, two uses |
-| **Med kit** | Trauma bag: 10 s | Med kit: 8 s | Combat medic bag: 8 s, two uses |
-| **Energy drink** | Soda: boost +30 | Energy drink: boost +40 | Large energy drink: boost +50 |
-| **Painkillers** | Aspirin: boost +45 | Painkillers: boost +60 | Morphine auto-injector: boost +60 in 3 s |
-| **Adrenaline syringe** | Vial and syringe: 8 s | Adrenaline syringe: 6 s | Adrenaline auto-injector: 3 s |
+| **Aseptic bandage** | 2 s, light bleeding | 4 s, heals 10 | 1 |
+| **Army bandage** | 2 s, light bleeding, 2 uses | 4 s, heals 10 | 2 |
+| **CAT tourniquet** | 3 s, heavy bleeding | 6 s, heals 15 | 1 |
+| **Esmarch tourniquet** | 5 s, heavy bleeding | 10 s, heals 15 | 1 |
+| **Celox applicator** | 3 s, heavy bleeding, 3 uses | 6 s, heals 15 | 2 |
 
-Anything a cell doesn't mention stays at the standard numbers. Variants with two uses weigh 1.5 times as much (our pick). Every number here is a first pass (our pick).
+Tarkov calls the Celox applicator the CALOK-B, a parody of the real Celox-A.
 
-- **One variant per item per match:** the match rolls each item's variant during the lobby countdown, along with the gun pool ([Pre-match lobby](match-flow.md#pre-match-lobby)). Everyone finds the same bandage, the same first aid kit, and so on, so nobody carries five kinds of med kit.
-- **Rolled separately:** each item rolls on its own, so one match might have fast bandages and a slow med kit.
-- **Fair inside a match:** everyone is on the same variants; what changes is from one match to the next, like gun versions ([Rules](../rules.md#versions)).
-- **Named on pickup:** the pickup prompt and the inventory name the variant, like a gun's version ([HUD and inventory](gameplay.md#hud-and-inventory)).
+### First aid kits
 
-### Escape from Tarkov's medkits, for reference
+PUBG's first aid kit heals to 75 at once. Kits that heal 70 or more per use in Tarkov do the same. Kits that heal 50 per use heal 50, still only up to 75.
 
-Tarkov's medkits each hold a pool of health that's used up over several heals. They range widely:
+| Item | Tarkov | Ours | Uses |
+| --- | --- | --- | --- |
+| **AI-2** | 2 s, 50 per use, pool of 100 | 4 s, heals 50 | 1 |
+| **Car first aid kit** | 3 s, 70 per use, pool of 220 | 6 s, heals to 75 | 1 |
+| **IFAK** | 3 s, 50 per use, pool of 300 | 6 s, heals 50 | 2 |
+| **Salewa first aid kit** | 3 s, 85 per use, pool of 400 | 6 s, heals to 75 | 2 |
 
-| Medkit | Health pool | Max per use | Use time | Treats |
-| --- | --- | --- | --- | --- |
-| AI-2 | 100 | 50 | 2 s | Nothing extra |
-| Car first aid kit | 220 | 70 | 3 s | Light bleeding |
-| IFAK | 300 | 50 | 3 s | Light and heavy bleeding |
-| AFAK | 400 | 60 | 3 s | Light and heavy bleeding |
-| Salewa | 400 | 85 | 3 s | Light and heavy bleeding |
-| Grizzly | 1,800 | 175 | 5 s | Bleeding, fractures, and contusions |
+### Med kits
 
-Ours keep PUBG's simpler health with no bleeding or fractures, so the variants only change use time, how much an item heals or boosts, and how many uses it has.
+PUBG's med kit heals to 100 at once. Tarkov has only one real kit this big, so PUBG's med kit stays in the roll.
+
+| Item | Tarkov | Ours | Uses |
+| --- | --- | --- | --- |
+| **Med kit** | PUBG's | 8 s, heals to 100 | 1 |
+| **Grizzly medical kit** | 5 s, 175 per use, pool of 1,800 | 10 s, heals to 100 | 2 |
+
+The Grizzly is based on Adventure Medical Kits' Sportsman Series Grizzly.
+
+### Energy drinks
+
+PUBG's energy drink (4 s, boost +40) is the only one for now. Tarkov's drinks are made-up brands, so there's nothing real to take from it.
+
+### Painkillers
+
+PUBG's painkillers give boost +60. Here the boost comes from how long the item kills pain in Tarkov, with Tarkov's morphine (300 s) matching PUBG's +60, rounded to 5.
+
+| Item | Tarkov | Ours | Uses |
+| --- | --- | --- | --- |
+| **Analgin** | 3 s, 80 s of pain relief, 4 uses | 6 s, boost +15 | 2 |
+| **Ibuprofen** | 5 s, 280 s, 8 uses | 10 s, boost +55 | 2 |
+| **Vaseline balm** | 6 s, 300 s, 3 uses | 12 s, boost +60 | 2 |
+| **Golden Star balm** | 7 s, 350 s, 5 uses | 14 s, boost +70 | 2 |
+| **Morphine injector** | 2 s, 300 s, 1 use | 4 s, boost +60 | 1 |
+
+### Adrenaline
+
+PUBG's adrenaline syringe fills the boost bar. Both items also speed up picking up a teammate.
+
+| Item | Tarkov | Ours | Uses |
+| --- | --- | --- | --- |
+| **Adrenaline syringe** | PUBG's | 6 s, boost +100 | 1 |
+| **Adrenaline injector** | 2 s | 4 s, boost +100 | 1 |
+
+### The roll
+
+- **One item per role per match:** the match rolls each role's item during the lobby countdown, along with the gun pool ([Pre-match lobby](match-flow.md#pre-match-lobby)). Everyone finds the same bandage, the same first aid kit, and so on, so nobody carries five kinds of med kit.
+- **Rolled separately:** each role rolls on its own, so one match might have Esmarch tourniquets and a Grizzly.
+- **Odds:** equal within a role for now (our pick).
+- **Fair inside a match:** everyone is on the same items; what changes is from one match to the next, like gun versions ([Rules](../rules.md#versions)).
+- **Named on pickup:** the pickup prompt and the inventory name the item, like a gun's version ([HUD and inventory](gameplay.md#hud-and-inventory)).
+
+### Left out of Tarkov's list
+
+- **AFAK:** its real-life basis isn't confirmed.
+- **Splints and surgical kits** (aluminum and immobilizing splints, Tigzresq, CMS, Surv12): there are no fractures or lost limbs here.
+- **Augmentin:** an antibiotic, not a painkiller.
+- **L1 (norepinephrine), Meldonin, and Perfotoran:** real drugs that don't fit PUBG's roles. Ideas: Perfotoran as an antidote that cuts gas damage for a while ([Red zones](match-flow.md#red-zones)), and Meldonin as a small boost that drains slower.
+- **Made-up stimulants** (Propital, eTG-change, the SJ series, Zagustin, and others): not real items.
+- **Portable defibrillator:** Tarkov's is a parody of the Philips HeartStart FRx. Ours is a [class item](class-items.md) and could be based on it.
 
 ## Sources
 
 - [Samurai Gamers: PUBG consumable items](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/consumable-items-list-3/) · [Samurai Gamers: PUBG boost system](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/boost-system/)
 - [Appuals: PUBG healing and boost items guide](https://appuals.com/playerunknowns-battlegrounds-healing-boost-items-guide/) · [Gamepressure: PUBG healing and boosting](https://www.gamepressure.com/playerunknowns-battlegrounds/healing-and-boosting-your-character/zea139) · [Gamepressure: PUBG consumables](https://gamepressure.com/playerunknowns-battlegrounds/items-consumables-healing/z3a93f)
 - [PUBG Wiki: Adrenaline Syringe](https://pubg.wiki.gg/wiki/Adrenaline_Syringe) · [PUBG Wiki: Med Kit](https://pubg.wiki.gg/wiki/Med_Kit)
-- [Tarkov Forge: medical items](https://tarkovforge.com/meds)
+- [Tarkov Forge: medical items](https://tarkovforge.com/meds) (Tarkov's numbers) · [Escape from Tarkov Wiki: Medical](https://escapefromtarkov.fandom.com/wiki/Medical)
+- [Escape from Tarkov Wiki: Easter eggs and references](https://escapefromtarkov.fandom.com/wiki/Easter_eggs_and_References) (CALOK-B, Grizzly, Augmentin, Vaseline balm, and defibrillator parodies) · [Escape from Tarkov Wiki: Grizzly medical kit](https://escapefromtarkov.fandom.com/wiki/Grizzly_medical_kit)

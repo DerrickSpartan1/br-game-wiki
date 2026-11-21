@@ -5,7 +5,7 @@ Matches favor scavenging and a slower pace over fast action, in a classic battle
 - **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
 - **Hit zones:** six zones: head, neck, chest and stomach (one zone), groin, arms, and legs, with no lucky one-shots ([Hit zones](ttk.md#hit-zones)).
 - **Handling:** spread, ready and ADS times, reloads, and movement speed per category are on [Handling](handling.md).
-- **Healing:** PUBG's healing items and boost bar, with better and worse variants and one variant of each item per match ([Healing](healing.md)).
+- **Healing:** PUBG's healing items and boost bar, with Escape from Tarkov's real-life medical items as variants and one item per role each match ([Healing](healing.md)).
 
 ## HUD and inventory
 

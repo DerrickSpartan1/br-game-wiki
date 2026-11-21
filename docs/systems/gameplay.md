@@ -3,7 +3,7 @@
 Matches favor scavenging and a slower pace over fast action, in a classic battle royale format.
 
 - **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
-- **Hit zones:** damage differs across four zones: head, chest and stomach (one zone), arms, and legs. Whether the neck and groin get zones of their own is open; PUBG's 13-zone split is on [TTK](ttk.md#pubg-in-2018-for-reference).
+- **Hit zones:** six zones: head, neck, chest and stomach (one zone), groin, arms, and legs, with no lucky one-shots ([Hit zones](ttk.md#hit-zones)).
 - **Handling:** spread, ready and ADS times, reloads, and movement speed per category are on [Handling](handling.md).
 
 ## HUD and inventory

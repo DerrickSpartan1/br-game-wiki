@@ -21,7 +21,7 @@ Vests and helmets both come in three tiers, like PUBG's three levels, which keep
 
 Every piece has its own movement and ADS (aim down sights) slowdown, as a percentage. The starting numbers below are Tarkov's speed and ergonomics penalties, to tune later.
 
-- **Coverage costs speed.** A light plate carrier covers only the chest and barely slows you; a full kit covers the chest, stomach, arms, neck, and groin and slows you down.
+- **Coverage costs speed.** A light plate carrier covers only the chest and barely slows you; a full kit covers the chest, stomach, arms, neck, and groin and slows you down. The neck, groin, and arms are hit zones of their own, so that coverage matters ([Hit zones](ttk.md#hit-zones)).
 - **Arm armor slows ADS the most,** so a light vest keeps ADS quick but leaves the arms open.
 - **Hearing:** a helmet that covers the ears muffles sound, and the higher its tier, the more it muffles: a tier 2 helmet over the ears muffles less than a tier 3. Helmets that leave the ears open don't muffle anything. How much each tier muffles is TBD.
 - **Vision:** a helmet with a visor or face cover blocks some of your view, but never all of it, and you can't ADS while wearing it. Higher tiers block more; the amounts are TBD. That's the tier 3 helmets and the DEVTAC Ronin. Visors can't flip up: there's no separate face hitbox, so a visor stays as it is.

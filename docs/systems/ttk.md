@@ -80,6 +80,31 @@ Time to kill through a tier 2 vest with chest hits, at each category's falloff, 
 - **Snipers stay at two body shots to 300 m,** and their head shots kill through a tier 2 helmet at any range.
 - **Pistols are backups:** close to twice an SMG's time at every range.
 
+## Hit zones
+
+Six zones, each with a multiplier on the gun class's damage. The head, body, and limb multipliers are PUBG's 2018 ones ([table](#pubg-in-2018-for-reference)).
+
+| Zone | Multiplier | Armor that covers it |
+| --- | --- | --- |
+| Head | The class's head multiplier: 2.0 pistols, 1.8 SMGs, 2.35 assault rifles, battle rifles & DMRs, and LMGs, 2.5 snipers, 1.5 shotguns | Helmet |
+| Neck | 0.7 × the head multiplier | The helmet, or a vest with neck coverage; the higher tier counts |
+| Chest and stomach | The class's body multiplier | Vest |
+| Groin | The class's body multiplier | Only vests that cover the groin |
+| Arms | The class's limb multiplier | Only vests that cover the arms |
+| Legs | The class's limb multiplier | None |
+
+Hands and feet count as arms and legs. Which vests cover the neck, groin, and arms is on [Armor and gear](armor.md#vests).
+
+### No lucky one-shots
+
+The extra zones must never make a stray hit end someone, as in Tarkov. So:
+
+- **One health pool,** like PUBG: no zone has its own health, so no single hit to a small zone kills unless the damage itself reaches 100.
+- **No gaps:** no face or eye zone slips past the helmet. The whole head uses the helmet, and the neck uses the helmet or the vest's collar.
+- **No dice:** armor cuts damage by a flat percentage every time. There are no penetration rolls and no random critical hits.
+- **The neck is 0.7 of the head, not PUBG's 0.75,** so no automatic gun on the ground kills with one neck hit, even with no helmet. At 0.75, thirty full-power automatic versions (the M60, BAR, G3, and others) would.
+- **With any helmet on,** the only ground guns that kill with one head shot are snipers, shotguns up close, the [Janz](../weapons/pistols/janz.md) magnum revolvers, and the rare SVDK [SVD](../weapons/battle-rifles/svd.md) (61, like PUBG's Mk14, which also one-shot level 1 helmets). All of them are slow, aimed shots. With no helmet, most rifles kill with one head shot, as in PUBG; that's what helmets are for.
+
 ## How damage is set
 
 Damage is set per gun, not per caliber, like PUBG. Two guns firing the same round can hit differently, so each one feels right for its role. PUBG's 5.56mm guns ran from 43 to 46 damage, and its 7.62mm guns from 49 (AKM) to 79 (M24).
@@ -165,7 +190,7 @@ The sheet also lists arms and legs at 50% damage. Level 1, 2, and 3 vests and he
 | Forearm, calf | 0.5 | Limbs | None |
 | Hand, foot | 0.3 | Limbs | None |
 
-So a neck hit does three-quarters of a head hit, the chest a little more than the stomach, and a hand or foot under a third of an upper arm or thigh. Whether the game adds a neck and groin zone is still open ([Open questions](../planning/open-questions.md#systems)).
+So a neck hit does three-quarters of a head hit, the chest a little more than the stomach, and a hand or foot under a third of an upper arm or thigh. The game's own six zones are under [Hit zones](#hit-zones).
 
 **Time to kill, chest hits:**
 

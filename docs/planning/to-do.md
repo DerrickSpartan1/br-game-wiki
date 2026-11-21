@@ -42,11 +42,11 @@ Wiki changes to pick up, then regenerate the weapon and armor data tables:
    Winchester 1887 10 gauge.
 ```
 
-- [ ] **Handling and weights into the data.** The prompt:
+- [ ] **Handling, weights, and hit zones into the game.** The prompt:
 
 ```text
-Wiki additions to pick up: Systems > Handling, Ammo > Weight, and
-Armor and gear > Carry weight.
+Wiki additions to pick up: Systems > Handling, Ammo > Weight,
+Armor and gear > Carry weight, and TTK > Hit zones.
 1. Extend the weapon data generator so each version gets its category's
    hip spread, ready time, ADS time, and sprint speed, and its reload
    times from the style in its Reload column, all from the Handling
@@ -55,6 +55,11 @@ Armor and gear > Carry weight.
    Weight table) and the backpack, rig, and throwable numbers from
    Carry weight, as placeholders in Project Settings until the owner
    confirms them.
+3. Damage now has six hit zones: head, neck, chest and stomach, groin,
+   arms, and legs. The neck is 0.7 x the head multiplier and takes the
+   higher tier of the helmet and the vest's neck coverage; the groin
+   uses the body multiplier and only vests that cover the groin. Hands
+   and feet count as arms and legs.
 ```
 
 Then the build order that's left:
@@ -72,11 +77,11 @@ In rough order of what the game needs first:
 
 - [ ] **Check the handling first pass:** spread, ready and ADS times, reloads, and speed per category, from PUBG's numbers ([Handling](../systems/handling.md)). They matter as soon as real models are in.
 - [ ] **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
-- [ ] **Neck and groin:** whether they're hit zones of their own. PUBG has both; the suggestion is to add both ([PUBG's hit zones](../systems/ttk.md#pubg-in-2018-for-reference)).
+- [x] **Neck and groin:** both are hit zones now, with rules against lucky one-shots ([Hit zones](../systems/ttk.md#hit-zones)).
 - [ ] **Shields:** check the first pass (2,900 damage, half an M60 belt; pistol only) and whether the flash shield uses the class slot ([Shields](../systems/class-items.md#shields)).
-- [ ] **Carry space:** 6 capacity per Tarkov slot (first pass) or one frag grenade, 18, per slot (triples rig space) ([Carry weight](../systems/armor.md#carry-weight)).
+- [ ] **Carry space:** 6 capacity per Tarkov slot (first pass and the planner's pick) or one frag grenade, 18, per slot (triples rig space) ([Carry weight](../systems/armor.md#carry-weight)).
 - [ ] **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, and FRAG-12's damage to vehicles.
-- [ ] **The first map's island:** Russky Island (suggested) or Lastovo, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#real-islands-to-base-it-on)).
+- [ ] **The first map's island:** Gozo (suggested, a 14 × 8 km map) or Ischia (stays square), plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#real-islands-to-base-it-on)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

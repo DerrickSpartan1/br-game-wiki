@@ -5,6 +5,7 @@ Every update to the wiki, newest first.
 | Date | Change |
 | --- | --- |
 | 2026-11-21 | Added the key layout (PUBG defaults, X for melee) to [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Added [Loot and spawning](../systems/loot.md): what PUBG did, how spawns roll here, the changes from PUBG, and starting weights for item categories, weapon categories, and armor tiers by area; linked from the weapon pool and ammo pages; decided that any plate of a carrier's tier fits it |
 | 2026-11-20 | Vests now roll carrier, plates, and rig separately ([Armor and gear](../systems/armor.md#vests)), with 29 plates and 24 chest rigs from Tarkov and carry space for each carrier; new open questions on plate fit and on spawns and carry space |
 | 2026-11-20 | Vests now spawn as vest-and-tier combos: 34 plate carriers that roll tier 2–4 and 20 fixed vests, with the 6B23, Zhuk, and Osprey versions merged ([Armor and gear](../systems/armor.md#vests)); set starting damage reduction per tier and decided armored rigs carry more; two armor questions came off the open questions page |
 | 2026-11-20 | Decided that visors can't flip up, since there's no face hitbox ([Armor and gear](../systems/armor.md#debuffs)); the visor question came off the open questions page |

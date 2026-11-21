@@ -39,7 +39,7 @@ Lethal grenade launchers are too powerful for the ground pool, so they go in cra
 
 Rocket launchers stay in special: they're heavy, slow, and take up a primary slot.
 
-Specific guns are listed in the [weapon roster](../weapons/index.md).
+Specific guns are listed in the [weapon roster](../weapons/index.md). Where they spawn on the map, and how often, is on [Loot and spawning](loot.md).
 
 **Cartridge weighting:** the randomizer picks one category first, then a gun for it (for example, a 9mm SMG). The remaining slots get a slightly higher chance of rolling guns with the same cartridge, so ammo is easier to share. Example: a 9mm SMG makes a 9mm pistol or a 9mm assault rifle slightly more likely to show up. See also [Ammo](ammo.md).
 

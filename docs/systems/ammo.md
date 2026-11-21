@@ -24,6 +24,8 @@ Ammo spawns with each gun, so only the calibers of the guns in that match appear
 
 **Cartridge weighting:** once one gun is rolled, the other slots lean slightly toward guns sharing its cartridge. Details on the [weapon pool](weapon-pool.md) page.
 
+How often loose ammo spawns is on [Loot and spawning](loot.md#starting-weights).
+
 ## Calibers in the roster
 
 Every cartridge that at least one roster gun or version fires. Many appear only on one rare version or prototype; each gun page's Versions table says which.

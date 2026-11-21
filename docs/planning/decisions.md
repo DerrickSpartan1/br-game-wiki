@@ -5,6 +5,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-21 | Keys follow PUBG's defaults, except X is melee: tap it to bring out melee, hold it to stow your weapon and run faster | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-20 | Loot spawning starts from PUBG's system (fixed spots, a master table rolled fresh each match, better areas, crates for the best gear), with changes: only the match's pool spawns, four area loot levels, no empty building clusters, less clutter, and logging to tune from; every spawn follows the same category, item, then version or tier steps, and all numbers tune in playtests | [Loot and spawning](../systems/loot.md) |
+| 2026-11-20 | Any plate of a carrier's tier fits it | [Armor and gear](../systems/armor.md#plates) |
 | 2026-11-20 | Vests roll in steps: a carrier and tier, then a random compatible plate for that tier (unless its plates are fixed), then a random chest rig (unless it has its own pouches); slowdown adds up from all three, with weight driving movement and coverage driving ADS | [Armor and gear](../systems/armor.md#vests) |
 | 2026-11-20 | A vest spawns as a fixed combo of vest and armor tier: plate carriers can roll tier 2, 3, or 4, the model always matches the vest, and the tier's armor adds weight and slowdown; soft armor and armor with its own plates keep their real tiers | [Armor and gear](../systems/armor.md#vests) |
 | 2026-11-20 | Armored rigs carry more than plain vests | [Armor and gear](../systems/armor.md#vests) |

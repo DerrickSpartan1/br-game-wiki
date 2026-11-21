@@ -62,6 +62,7 @@ nav:
   - Rules: rules.md
   - Systems:
       - Weapon pool: systems/weapon-pool.md
+      - Loot and spawning: systems/loot.md
       - Ammo: systems/ammo.md
       - Attachments: systems/attachments.md
       - Time to kill: systems/ttk.md

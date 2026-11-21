@@ -32,7 +32,7 @@ Every piece has its own movement and ADS (aim down sights) slowdown, as a percen
 A vest spawns as a combo, built in four steps, and stays that combo for the match, like a gun's [version](../rules.md#spawned-version-is-fixed):
 
 1. **Carrier and tier:** a carrier and a tier it can have.
-2. **Plates:** a carrier that takes plates gets a random compatible front and back plate for that tier. Fixed vests skip this, since their plates can't change.
+2. **Plates:** a carrier that takes plates gets a random front and back plate of that tier. Fixed vests skip this, since their plates can't change.
 3. **Rig:** a carrier with no pouches of its own gets a random chest rig for carrying ammo and gear. Carriers with pouches skip this.
 4. **Slowdown:** the carrier's, plus its plates', plus its rig's.
 
@@ -111,7 +111,7 @@ Tiers 2–4. The slowdown here is the carrier alone; its plates and rig add to i
 
 ### Plates
 
-Each plate below is one plate; a carrier gets a front and a back. Plates marked front or back only fill that side. Which plates fit which carriers is TBD; until then, any plate of the right tier fits. Movement and ADS are the slowdown each plate adds.
+Each plate below is one plate; a carrier gets a front and a back. Plates marked front or back only fill that side. Any plate of the carrier's tier fits it. Movement and ADS are the slowdown each plate adds.
 
 | Plate | Tier | Material | Weight (kg) | Movement (%) | ADS (%) |
 | --- | --- | --- | --- | --- | --- |

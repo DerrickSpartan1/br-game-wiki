@@ -5,7 +5,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Balance
 
 - **Damage and in-game range:** TBD on every gun page. [TTK](../systems/ttk.md) needs more discussion first.
-- **Armor spawns and carry space:** how often each tier, carrier, plate, and rig spawns, and how Tarkov's slot counts turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
+- **Carry space:** how Tarkov's slot counts for vests and rigs turn into the game's carry space ([Armor and gear](../systems/armor.md#vests)).
 - **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **AN-94:** crate-only or a very rare world spawn ([AN-94](../weapons/assault-rifles/an-94.md)).
@@ -22,7 +22,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
 - **Neck and groin:** whether they're hit zones of their own, since many vests cover them.
-- **Plate fit:** which plates fit which carriers; until it's set, any plate of the right tier fits ([Armor and gear](../systems/armor.md#plates)).
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
 - **Maps:** not decided yet ([Maps](../systems/maps.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).

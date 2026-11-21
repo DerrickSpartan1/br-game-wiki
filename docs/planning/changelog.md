@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Set how [vault keys](../systems/match-flow.md#vaults-and-keys) work: one key fits all, used up on opening, dropped on death, a small care package chance; saved the drill for later |
 | 2026-11-21 | Map v3: approved the spots, added Marina, farm huts, dirt tracks, and vault locations on [Maps](../systems/maps.md#marina-farms-and-vaults); reworked [Vaults and keys](../systems/match-flow.md#vaults-and-keys) with 2 or 3 random keys per match and ideas for how keys work |
 | 2026-11-21 | Added the squashed heights and plateau, and a first-pass table of our own spots (outpost and bunker, tunnel, prison, port, fishing dock, fortress, quarry, spa, hospital, school, farm), to [Maps](../systems/maps.md#heights-squashed-with-a-plateau) |
 | 2026-11-21 | Set the first map at 10 × 8 km with Ischia at true scale; filed the ideas for our own spots (prison, docks, military outpost) and for lowering Monte Epomeo or adding tunnels on [Maps](../systems/maps.md#our-own-spots) |

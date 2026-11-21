@@ -85,7 +85,8 @@ In rough order of what the game needs first:
 - [x] **First map scale:** 10 × 8 km, Ischia at true scale with ocean on the edges ([Maps](../systems/maps.md#the-first-map-ischia)).
 - [x] **Monte Epomeo:** squashed to a plateau ([Maps](../systems/maps.md#heights-squashed-with-a-plateau)).
 - [x] **Review the map spots:** approved on the v3 mockup ([Maps](../systems/maps.md#our-own-spots)).
-- [ ] **Vaults and keys:** the Prison armory as a fifth vault, and how keys spawn ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)); plus the per-map caps for throwables and crate weapons.
+- [x] **Vault keys:** one key fits all, used up on opening, dropped on death, with a small chance in care packages ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
+- [ ] **Prison armory** as a fifth vault, plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#marina-farms-and-vaults)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

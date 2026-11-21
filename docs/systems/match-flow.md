@@ -93,13 +93,15 @@ Ours:
 - **Opening:** 3 seconds. The key is used up, the door stays open, and an alarm sounds nearby, so others know.
 - **Inside:** like Apex, no weapons: tier 3 armor and helmets, the best backpacks, scopes, and mag tiers, meds, and throwables. Crate weapons stay crate-only.
 
-**How keys could work (first pass, for review):**
+**How keys work:**
 
-- **One kind of key:** any key opens any vault once, and holding one shows every vault on your map, like Apex.
-- **Where they spawn:** each match picks 2 or 3 spots at random from a longer list of possible key spots (desks, lockers, and safes in offices, the Hospital, the Port, the Prison, and similar), at least 2 km apart. Players learn the likely places but can't farm one spot.
+- **One key fits all:** any key opens any vault, and holding one shows every vault on your map, like Apex.
+- **Used up:** opening a vault removes the key from your inventory.
 - **Dropped on death:** a key drops with your loot, so a key holder is worth hunting.
+- **Where they spawn:** each match picks 2 or 3 spots at random from a longer list of possible key spots (desks, lockers, and safes in offices, the Hospital, the Port, the Prison, and similar), at least 2 km apart. Players learn the likely places but can't farm one spot.
+- **Care packages:** a very small chance of a key, on top of the ground keys (about 5% per package, our pick).
 
-**Other ideas, not decided:** keys that each open only one named vault; a drill that opens any vault in about 45 seconds but loudly; or one key in a care package instead of on the ground.
+**Later:** a drill that opens any vault in about 45 seconds, but loudly.
 
 ## Time of day and weather
 

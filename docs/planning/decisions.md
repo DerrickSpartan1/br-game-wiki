@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Vault keys: one key fits all, it's removed from your inventory when used, it drops on death, and care packages have a very small chance of one on top of the 2 or 3 ground keys. A vault drill is saved for later | [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | The first map's spots are approved, plus a new coastal town (Marina) on the southeast bay and farm huts with dirt tracks across the open ground | [Maps](../systems/maps.md#marina-farms-and-vaults) |
 | 2026-11-21 | Vaults: 4 to 6 per map, one under the Military Outpost, one in each big town, and one on the coast; only 2 or 3 keys spawn per match, at random | [Vaults and keys](../systems/match-flow.md#vaults-and-keys) |
 | 2026-11-21 | The first map's heights are squashed to 40% and Monte Epomeo's top becomes a plateau about 2 km across, so the middle stays playable | [Maps](../systems/maps.md#heights-squashed-with-a-plateau) |

@@ -1,6 +1,6 @@
 # To-do
 
-What's left to do, grouped by who does it. Tell Claude in chat when something's done, and it gets ticked here. The full list of undecided questions is on [Open questions](open-questions.md), and the original build order is on [Getting started](getting-started.md#7-build-the-first-playable-in-this-order).
+What's left to do, grouped by who does it ([AI team](ai-team.md)). Tell the planner (Claude chat) when something's done, and it gets ticked here. The full list of undecided questions is on [Open questions](open-questions.md), and the original build order is on [Getting started](getting-started.md#7-build-the-first-playable-in-this-order).
 
 ## You: art
 
@@ -8,9 +8,15 @@ What's left to do, grouped by who does it. Tell Claude in chat when something's 
 - [ ] **Then the other three pilot guns:** the [M1911](../weapons/pistols/m1911.md), [Minimi / M249](../weapons/lmgs/minimi.md), and [M1 Garand](../weapons/battle-rifles/m1-garand.md) ([Pilot](art-and-sound.md#pilot-four-guns-first)).
 - [ ] **Pick gunshot and gun sounds by ear** as each pilot gun goes in ([Sound](art-and-sound.md#sound)).
 
-## You: hand to Claude Code
+## You: setup
 
-- [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. Paste this:
+- [ ] **Set up the AI team** with the [AI team](ai-team.md) page: the workers, the lead, and reaching the lead from your phone.
+
+## For the lead (Claude Code)
+
+When you tell the lead "check the planner's list," it works through this section in order and tells you what's done.
+
+- [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text
 Wiki changes to pick up, then regenerate the weapon and armor data tables:
@@ -27,7 +33,13 @@ Wiki changes to pick up, then regenerate the weapon and armor data tables:
    Winchester 1887 10 gauge.
 ```
 
-- [ ] **Set up the AI team,** once you've settled how it should work ([AI team idea](idea-inbox.md#ai-team-of-workers)).
+Then the build order that's left:
+
+- [ ] **The zone and the plane drop.**
+- [ ] **Parachuting,** with the third-person view it uses ([Gameplay](../systems/gameplay.md)).
+- [ ] **A graybox map:** blocks and ramps before art.
+- [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
+- [ ] **Playtest with friends,** then fix the worst problems before adding more.
 
 ## You: decisions
 
@@ -43,15 +55,7 @@ In rough order of what the game needs first:
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
-## Claude Code: build order left
-
-- [ ] **The zone and the plane drop.**
-- [ ] **Parachuting,** with the third-person view it uses ([Gameplay](../systems/gameplay.md)).
-- [ ] **A graybox map:** blocks and ramps before art.
-- [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
-- [ ] **Playtest with friends,** then fix the worst problems before adding more.
-
-## Claude chat: wiki work (say the word)
+## Planner (Claude chat): wiki work (say the word)
 
 - [ ] **Next guns:** the Madsen ([LMG queue](queue.md#lmgs-in-progress)) and the Arisaka ([sniper queue](queue.md#snipers-in-progress)), then start the special category: bows, crossbows, and mortars.
 - [ ] **Lookups:** energies for the rounds behind the 32 versions with no damage yet, each version's real bullet speed, the missing LMG fire rates, and attachment lists for the 5 gun pages without one ([Lookups](open-questions.md#lookups)).

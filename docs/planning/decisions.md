@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The AI helpers work as a team: Claude chat is the planner (design and this wiki), Claude Code on the owner's PC is the lead, and the lead hands work to subagent workers (modeler, materials, animator, coder, sound, reviewer). The owner reaches the lead from his phone through Remote Control | [AI team](ai-team.md) |
 | 2026-11-21 | Armor has three tiers, like PUBG, at PUBG's 30%, 40%, and 55%: tier 1 holds Tarkov classes 1–2, tier 2 classes 3–4, and tier 3 classes 5–6. Guns are balanced around tier 2, and crates hold tier 3 | [Armor](../systems/armor.md#tiers) |
 | 2026-11-21 | The crate line is one head shot through a tier 3 helmet, PUBG's exact line, so the .300 Winchester Magnum snipers (M2010, Remington 700 .300, AWM .300) are crate-only like PUBG's AWM; the shotgun ceiling is a tier 3 vest, so the Winchester 1887 10 gauge is 24 per pellet | [Starting damage](../systems/starting-damage.md#baselines-and-crate-lines) |
 | 2026-11-21 | The whole MG 42 / MG3 family is crate-only and moves to crate weapons, and the MG 34/41 is a crate-only version, as PUBG keeps its MG3 in care packages; the PPSh-41 family (29) and Glock 18 (20) stay on the ground with deeper damage cuts | [Starting damage](../systems/starting-damage.md#crate-check-for-fast-firing-guns) |

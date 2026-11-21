@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added the [AI team](ai-team.md) page: who's who, the six workers, the lead's rules, a setup prompt, and phone access through Remote Control; regrouped the [To-do](to-do.md) list with a For the lead section |
 | 2026-11-21 | Added the [To-do](to-do.md) list, grouped by who does each item; filed the [AI team of workers](idea-inbox.md#ai-team-of-workers) idea; ticked the finished setup and build steps on [Getting started](getting-started.md) |
 | 2026-11-21 | Added the [M16 / M4 model guide](m16-m4-model.md): setup, reference, the four looks that cover all 9 versions, and step-by-step prompts from blockout to the range |
 | 2026-11-21 | Cut [armor](../systems/armor.md#tiers) from four tiers to three at PUBG's 30/40/55% (old tiers 2 and 3 merged; old tier 4 is now tier 3) across every armor table, the [loot](../systems/loot.md#starting-weights) tier odds, and crate contents; moved the crate line to the tier 3 helmet, which made the three .300 Winchester Magnum snipers crate-only; set the Winchester 1887 10 gauge to 24 per pellet |

@@ -215,6 +215,7 @@ nav:
         - "MG 42 / MG3": weapons/crate/mg-42.md
   - Planning:
       - To-do: planning/to-do.md
+      - AI team: planning/ai-team.md
       - Getting started: planning/getting-started.md
       - First steps in Unreal: planning/first-steps.md
       - Gun art and sound: planning/art-and-sound.md

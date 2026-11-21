@@ -123,6 +123,8 @@ Audacity (free) is enough to trim, fade, and level sounds. Keep raw sound librar
 | Import, Blueprints, animation setup, procedural animation, and MetaSounds | Claude Code | Unreal MCP |
 | Judging how it looks, feels, and sounds | You | Blender, the range |
 
+The [AI team](ai-team.md) page splits Claude Code's part among worker subagents: a modeler, materials, an animator, the coder, sound, and a reviewer.
+
 The Blender connector runs Claude's code in Blender with no safety checks, so save the file before each step, the same way the game repo commits before bulk changes through Unreal MCP. In the Claude desktop app it's under Settings, then Connectors. Claude Code needs one setup command, which it can run for you.
 
 **Cost:** free tools first, with some room for paid tools if a step stalls. Everything above has a free route: Blender, Unreal and its template and sample content, Sonniss, Freesound, and free Fab assets. If paid help is needed: AI 3D generators ran about $20 to $150 a month in April 2026, plus Cascadeur Indie and paid Fab packs.

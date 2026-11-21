@@ -31,7 +31,7 @@ When you tell the lead "check the planner's list," it works through this section
 - Done: catching the game up with the wiki (`f5dbd13`, `6cf8d67`); handling, weights, and hit zones (`c2b386b`, `cac2e83`); the plane, parachutes, and zone (`b3aeab8`, `932027f`, data tables imported in `c7dffc8`); red zones, care packages, and vaults (`d85b077`, `1df5faf`).
 - Not done yet from "the lobby, plane, parachutes, and zone": the pre-match lobby and its 60-second countdown. The lead is building it now.
 - Next for the lead, in order: the graybox map, healing with variants, then time of day and weather.
-- Waiting on the owner: the dedicated server build, until the Epic Games invite on GitHub is accepted (see You: setup). The M4 model has started (see You: art).
+- Waiting on the owner: the dedicated server build, until the Epic Games invite on GitHub is accepted (see You: setup). The M4 model has started (see You: art): the base M4A1 first, then the other versions once the planner sets how each one looks.
 - Waiting on the planner: how bots fill empty slots (see Planner).
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
@@ -110,6 +110,7 @@ In rough order of what the game needs first:
 - [ ] **Next guns:** the Madsen ([LMG queue](queue.md#lmgs-in-progress)) and the Arisaka ([sniper queue](queue.md#snipers-in-progress)), then start the special category: bows, crossbows, and mortars.
 - [ ] **Lookups:** energies for the rounds behind the 32 versions with no damage yet, each version's real bullet speed, the missing LMG fire rates, and attachment lists for the 5 gun pages without one ([Lookups](open-questions.md#lookups)).
 - [ ] **Mockups:** the HUD, inventory, and menus as designs before they're built in Unreal.
+- [ ] **One model per version (owner, 2026-11-21):** every version should look like its own gun, so the M4, M4A1, AR-15, and so on each get their own model instead of sharing four looks. Shared parts (lower receiver, moving parts) can still be reused underneath. Update [One model per family](art-and-sound.md#one-model-per-family) and step 2 of the [M16 / M4 model guide](m16-m4-model.md) with what tells each version apart at a glance, and log the decision. The lead builds the M4A1 base model first and holds the other versions until then.
 - [ ] **Bots:** how bots fill the lobby and stay to fill empty slots ([Pre-match lobby](../systems/match-flow.md#pre-match-lobby)): how they move, loot, fight, and how good they are. The lead's lobby code leaves a spot for them.
 
 ## Later

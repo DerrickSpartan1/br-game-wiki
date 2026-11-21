@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The first map is 10 × 8 km, with Ischia kept at true scale and ocean added around the edges | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | The first map's layout comes from Ischia (Italy): its coastline, hills, ring road, and town spots, reskinned in the game's own style. The other shortlisted islands are kept for future maps | [Maps](../systems/maps.md#the-first-map-ischia) |
 | 2026-11-21 | Carry space is 6 capacity per Tarkov slot, a third of a frag grenade, so an average rig carries about what PUBG's vest and belt did | [Carry weight](../systems/armor.md#carry-weight) |
 | 2026-11-21 | Six hit zones: head, neck, chest and stomach, groin, arms, and legs. No lucky one-shots: one health pool, no armor gaps, no random penetration, and the neck at 0.7 of a head hit so no ground automatic gun kills with one neck hit | [TTK](../systems/ttk.md#hit-zones) |

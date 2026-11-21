@@ -4,7 +4,7 @@
 
 The first map takes its layout from Ischia, an island off Naples: the coastline, hills, ring road, and where the towns sit. Everything is then reskinned in the game's own Eastern European, Soviet-era style, with Erangel's mix of towns, farmland, forest, a military base, and long sight lines. A simplified mockup of the layout is a private Design artifact in the owner's Claude account.
 
-- **Size:** true scale for now: 9.6 × 7.7 km, about 46 km² of land, a little smaller than Erangel's 8 × 8 km square.
+- **Size:** 10 × 8 km, with the island at true scale (9.6 × 7.7 km, about 46 km² of land) and ocean around the edges.
 - **Players:** 100, like Erangel (our pick).
 - **Match flow:** the plane, zone phases, and zone events start from Erangel's ([Match flow](match-flow.md)).
 - **Caps:** the per-map max for throwables and crate weapons is TBD ([Weapon pool](weapon-pool.md)).
@@ -24,10 +24,15 @@ People per municipality (2019): Ischia 20,170, Forio 18,005, Barano d'Ischia 9,9
 
 **Erangel, for reference:** a fictional 8 × 8 km island in the Black Sea near Russia. In its story, Soviet forces occupied it from the 1950s and used it as a military testing site. It has 25 named places: 5 large towns (Georgopol, Novorepnoye, Primorsk, Yasnaya Polyana, Pochinki), 9 small ones (Gatka, Mylta, Mylta Power, Lipovka, Severny, Rozhok, Zharki, Kameshki, Shooting Range), and 11 other spots, like Sosnovka Military Base, the Prison, School, Quarry, and Hospital. Ischia gives 11 towns and villages, so our own spots, like a military base and a prison, go in the open ground between them.
 
+### Ideas for the first map (not decided)
+
+- **Our own spots:** a prison, a dock or two, and a military outpost, in the open ground between towns.
+- **Monte Epomeo:** a 789 m mountain in the middle could be unplayable. Options: lower it to a plateau with a spot in the center, or keep it high only if it has tunnels and open space underground.
+
 ### Turning Ischia into terrain
 
 1. **Heights:** download free 30 m elevation data for the island (such as NASA's SRTM). Check each source's license first.
-2. **Landscape:** Epic's largest recommended Unreal landscape is 8,129 × 8,129 vertices, which at 1 m apart covers 8.1 km. Ischia's 9.6 km needs the vertices about 1.2 m apart. At the default height scale, heights run from −256 m to 256 m, so Epomeo's 789 m needs a height scale of at least about 310.
+2. **Landscape:** Epic's largest recommended Unreal landscape is 8,129 × 8,129 vertices, which at 1 m apart covers 8.1 km. The 10 km map needs the vertices about 1.25 m apart. At the default height scale, heights run from −256 m to 256 m, so Epomeo's 789 m needs a height scale of at least about 310.
 3. **Detail:** 30 m data is smooth, so ditches, roads, and riverbanks are sculpted on top.
 4. **Roads and towns:** OpenStreetMap has the island's roads and building footprints as the layout guide. Towns get the game's own buildings on those footprints. A game world built from a substantial part of OpenStreetMap's data has to credit OpenStreetMap.
 

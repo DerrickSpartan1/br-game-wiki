@@ -82,7 +82,8 @@ In rough order of what the game needs first:
 - [x] **Carry space:** 6 capacity per Tarkov slot ([Carry weight](../systems/armor.md#carry-weight)).
 - [ ] **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, and FRAG-12's damage to vehicles.
 - [x] **The first map's island:** Ischia ([Maps](../systems/maps.md#the-first-map-ischia)).
-- [ ] **First map scale and caps:** Ischia at true size or scaled up, and the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#the-first-map-ischia)).
+- [x] **First map scale:** 10 × 8 km, Ischia at true scale with ocean on the edges ([Maps](../systems/maps.md#the-first-map-ischia)).
+- [ ] **Monte Epomeo and our own spots:** plateau or tunnels, and where the prison, docks, and outpost go; plus the per-map caps for throwables and crate weapons ([Maps](../systems/maps.md#ideas-for-the-first-map-not-decided)).
 - [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

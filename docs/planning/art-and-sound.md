@@ -8,23 +8,35 @@ How each gun gets a model, animations, and sounds. The bar is "good enough to ge
 
 - Real size and shape, taken from the gun page's Real-world notes (length, barrel length).
 - Moving parts that move: trigger, bolt or slide, charging handle, magazine, selector.
-- Plain materials: steel, wood, and polymer, with simple color differences.
+- The low-poly style ([Art style](#art-style-low-poly)).
+- Plain materials: steel, aluminum, wood, and polymer, with simple color differences.
 - Parts split the way skins will split them: main gun, suppressor, and other parts each take their own skin later ([Skins](../systems/skins.md)).
 - Sounds that tell each family apart up close and tell you how far away a shot is ([Gameplay: sound is a major focus](../systems/gameplay.md#sound)).
 
 **Not now:** detailed textures, wear, inspect animations, and skins themselves.
 
-**Never:** logos, maker's marks, serial numbers, or the Red Cross emblem on any model. What the guns are called in-game is still an [open question](open-questions.md#systems) ([Legal review](legal-review.md)).
+**Never:** logos, maker's marks, serial numbers, or the Red Cross emblem on any model. In game, guns go by their [game names](game-names.md) ([Legal review](legal-review.md)).
 
 **Never needed:** jam-clearing or overheating animations, since guns never jam or overheat ([Rules](../rules.md#no-jamming)).
 
-## One model per family
+## Art style: low poly
 
-The roster has 113 families and 573 versions, so models are shared:
+Guns, and likely everything else, aim for a low-poly look for now (owner, 2026-11-21):
 
-- Each family gets one model.
-- A version gets its own parts only when you'd spot the difference at a glance: barrel length, stock, mag or belt, a bipod. A Minimi Para gets a short barrel and collapsible stock; an M16A1 and an M16A2 share one model.
-- Everything else uses the family model as is.
+- **Chunky, flat-sided shapes** with hard edges and clear outlines.
+- **The basics right, not ultra realistic:** right size, shape, and proportions, with the detail you'd notice from first person and at a few meters. Small details become a few chunky shapes or are left out.
+- **Real photos set the shapes and proportions,** since there won't be low-poly examples of every gun. **The style sets how much detail goes in.**
+- **Style examples:** the owner's four examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/`. They're for style only: their source is unknown, so they're never copied, traced, fed to AI tools, or shipped ([Legal review](legal-review.md)).
+- **Polygon budget:** the budget in the game repo's `Art/GunConventions.md` is a ceiling; low-poly guns should land well under it.
+- **Outside models** (Fab or AI image-to-3D) come out more detailed than this, so they get simplified to the style.
+
+## One model per version
+
+Every version looks like its own gun (owner, 2026-11-21), so the M4, M4A1, AR-15, and so on each get their own model instead of sharing a few looks.
+
+- **Shared underneath:** a family's versions reuse a kit of parts where the real guns share them, like the M16 / M4's lower receiver and moving parts, with one armature and Skeleton per family.
+- **Different at a glance:** each model shows what sets its version apart: barrel length, upper and sights, handguard, stock, muzzle device, and mag. Where two real versions look alike, the model picks a real configuration that tells them apart, like the M4 with its carry handle and the M4A1 with a flat-top and quad rail ([M16 / M4 model guide](m16-m4-model.md#step-2-the-kit)).
+- **One family at a time:** the roster has 120 families and 625 versions, so a family's base model comes first, and each version uses the base model or the gray block gun until its own model is in.
 
 ## Reload styles
 

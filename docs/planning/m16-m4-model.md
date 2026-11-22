@@ -1,10 +1,10 @@
 # M16 / M4 model guide
 
-Step-by-step instructions for the first pilot gun on [Gun art and sound](art-and-sound.md): the [M16 / M4](../weapons/assault-rifles/m16-m4.md). It builds one kit of parts that covers all 9 versions, at that page's quality bar: real size and shape, moving parts that move, and plain materials.
+Step-by-step instructions for the first pilot gun on [Gun art and sound](art-and-sound.md): the [M16 / M4](../weapons/assault-rifles/m16-m4.md). It builds a kit of shared parts and a model for each of the 9 versions, at that page's quality bar: real size and shape, moving parts that move, plain materials, and the [low-poly style](art-and-sound.md#art-style-low-poly).
 
 How the work splits: Claude Code does most of the Blender and Unreal work, through the Blender connector and Unreal MCP. You judge how it looks at each check, describe fixes in plain words, and do a few hands-on checks in Blender and on the range. Each step ends with a check; don't move on until it passes.
 
-The plan is to take the M4 all the way into the game first, which proves every step of the pipeline on one gun. The variants come after, reusing the M4's lower receiver and moving parts.
+The plan is to take the M4A1 all the way into the game first as the base model, which proves every step of the pipeline on one gun. The other eight versions wait until then and reuse its lower receiver, moving parts, and armature.
 
 ## Before you start (one time)
 
@@ -65,14 +65,16 @@ Download these into `Art/Weapons/M16M4/Reference`. All are US government works, 
 
 - **M4A1 side view:** [M4 PEO Soldier.jpg](https://commons.wikimedia.org/wiki/File:M4_PEO_Soldier.jpg) on Wikimedia Commons, a clean side shot of a flat-top M4A1. Add a top view and a front view if you find public-domain ones (US military photo sites mark theirs).
 - **Drawings of the parts:** an [Army M16A2 and M4 manual](https://archive.org/download/a2-m4-m4a1-technical/Army%20M16A2%20and%20M4%20manual.pdf) on the Internet Archive, and the [M231's maintenance manual](https://commons.wikimedia.org/wiki/File:TM-9-1005-309-23-and-P.pdf) on Commons for the funny version.
-- **Variants, for later:** side views of an M16A2 and a Colt Commando (XM177 or Model 733) from Commons, and a curved 7.62×39mm AR magazine.
+- **The other versions, for later:** side views of an M16A1, an M16A2, an M4 with its carry handle, a civilian AR-15, a Colt Commando (XM177 or Model 733), and a Colt M5 in .300 Blackout from Commons, plus a curved 7.62×39mm AR magazine.
+- **Style:** the owner's style examples in `Reference/Style/`, for how much detail goes in, never copied ([Art style](art-and-sound.md#art-style-low-poly)).
 
 Sizes to build to (from Wikipedia):
 
-| Version look | Overall length | Barrel |
+| Version | Overall length | Barrel |
 | --- | --- | --- |
-| M4 | 838 mm with the stock out, 756 mm with it in | 14.5 in (368 mm) |
-| M16 (A2 look) | 1,007 mm | 20 in (508 mm) |
+| M4 and M4A1 | 838 mm with the stock out, 756 mm with it in | 14.5 in (368 mm) |
+| AR-15 | Follows from its barrel and stock | Usually 16 in (406 mm) |
+| M16A1 and M16A2 | 1,007 mm (A2) | 20 in (508 mm) |
 | Commando | Follows from its barrel and stock | 11.5 in (292 mm), from the XM177E2 |
 | M231 | From the M231 manual | From the M231 manual |
 
@@ -80,42 +82,49 @@ Sizes to build to (from Wikipedia):
 
 ## Step 2: The kit
 
-One lower receiver and one set of moving parts serve every version. A version gets its own parts only where you'd spot the difference at a glance ([One model per family](art-and-sound.md#one-model-per-family)), so the 9 versions come down to 4 looks:
+Every version gets its own model ([One model per version](art-and-sound.md#one-model-per-version)), built on a shared kit.
 
-| Look | Versions | Upper | Barrel | Handguard | Stock | Mag |
-| --- | --- | --- | --- | --- | --- | --- |
-| M4 | M4, M4A1, AR-15, .300 Blackout, 7.62x39 AR | Flat-top rail with a folding rear sight | 14.5 in | Quad rail | Collapsible | 30-round STANAG (the 7.62x39 AR takes a curved 7.62×39mm mag) |
-| M16 | M16A1, M16A2 | Carry handle with the A2 rear sight | 20 in | Round, ribbed rifle length | A2 fixed | 30-round STANAG |
-| Commando | Commando | Carry handle | 11.5 in | Short round | Collapsible | 30-round STANAG |
-| M231 | M231 FPW (funny version) | Carry handle with no rear sight | Its own, from the manual | Its own | None | 30-round STANAG |
+**The shared kit:** the lower receiver with its pistol grip and trigger guard, the buffer tube, the moving parts (trigger, selector, bolt carrier, charging handle, bolt catch, and dust cover), and one armature for the family.
 
-**Shared by every look:** the lower receiver with its pistol grip and trigger guard, the buffer tube, the birdcage flash hider (except where the M231 manual shows otherwise), and the moving parts: trigger, selector, bolt carrier, charging handle, bolt catch, and dust cover.
+**What tells each version apart at a glance:**
+
+| Version | Upper and sights | Barrel | Handguard | Stock | Mag and muzzle |
+| --- | --- | --- | --- | --- | --- |
+| M4A1 (base model, built first) | Flat-top rail with a folding rear sight | 14.5 in | Aluminum quad rail | Collapsible | 30-round STANAG; birdcage |
+| M4 | Detachable carry handle, as first issued | 14.5 in | Round two-piece carbine handguard | Collapsible | 30-round STANAG; birdcage |
+| AR-15 | Flat-top | 16 in | Slim free-float handguard | Collapsible | 30-round STANAG |
+| 7.62x39 AR | Flat-top | Like the AR-15 | Like the AR-15 | Collapsible | Curved 7.62×39mm mag |
+| .300 Blackout | Flat-top | Its own, from a Colt M5 reference | Its own, from the reference | Collapsible | 30-round STANAG; its own muzzle device |
+| M16A2 | Carry handle with the A2 rear sight, brass deflector | 20 in | Round, ribbed rifle length | A2 fixed | 30-round STANAG; birdcage |
+| M16A1 | Carry handle with the simpler A1 rear sight, no brass deflector | 20 in | Triangular rifle length | Shorter A1 fixed | 30-round STANAG |
+| Commando | Carry handle | 11.5 in | Short round | Collapsible | 30-round STANAG; plain birdcage |
+| M231 FPW (funny version) | Carry handle with no rear sight | Its own, from the manual | Its own | None | 30-round STANAG |
 
 **Calls already made here,** which you can change:
 
-- **The M4 gets a quad rail,** so foregrips and underbarrel launchers have somewhere to mount ([Attachments](../systems/attachments.md#grenade-launchers)). PUBG's M416 has one too.
-- **The M16A1 and M16A2 share the A2 look,** as [Gun art and sound](art-and-sound.md#one-model-per-family) already decided.
-- **The AR-15 shares the M4 look:** 16 in against 14.5 in isn't visible at a glance.
+- **The M4A1 is the base model** and goes all the way into the game first. The other versions keep the gray block model until theirs are in.
+- **The M4A1 gets an aluminum quad rail,** like the real KAC rail, so foregrips and underbarrel launchers have somewhere to mount ([Attachments](../systems/attachments.md#grenade-launchers)).
+- **The M4 and M4A1 look alike in real life,** so the M4 gets the carry handle and round handguard it was first issued with.
 - **The Commando is a Colt 733:** carry-handle upper, 11.5 in barrel, short round handguard, collapsible stock, and a plain birdcage.
 - **Mags are separate meshes,** so the hand can carry one during a reload and the bigger mag tiers (40, 60, and the 100-round C-Mag) can swap in later.
 
-## Step 3: Blockout of the M4
+## Step 3: Blockout of the M4A1
 
 Paste this into Claude Code:
 
 ```text
 Using the Blender connector, start Art/Weapons/M16M4/M16M4.blend and
 save it before changing anything. Follow Art/GunConventions.md. Build a
-blockout of the M4A1 look from step 2 of the M16 / M4 model guide, at
+blockout of the M4A1 from step 2 of the M16 / M4 model guide, at
 real size: 838 mm long with the stock extended and a 14.5 in (368 mm)
 barrel, matched to the side view in Art/Weapons/M16M4/Reference. Put
-every part in an "M4" collection as its own named object: lower
+every part in an "M4A1" collection as its own named object: lower
 receiver with pistol grip and trigger guard, flat-top upper with rail
 and folding rear sight, quad-rail handguard, barrel with front sight
 base, birdcage flash hider, buffer tube, collapsible stock, 30-round
 magazine, and the moving parts on their own: trigger, selector, bolt
 carrier, charging handle, bolt catch, and dust cover. Simple shapes
-only for now. Add the side view as a reference image behind the model,
+only for now, in the low-poly style. Add the side view as a reference image behind the model,
 scaled so the gun in the photo is 838 mm long. Save, then tell me the
 overall length, height, and width you measured, and commit.
 ```
@@ -133,29 +142,31 @@ Send fixes in plain words, like "the magazine hangs too far forward" or "the sto
 Paste this, then go through as many fix rounds as it takes:
 
 ```text
-Detail pass on the M4 in M16M4.blend (save first). Keep the polygon
-budget in Art/GunConventions.md. Add the details you'd notice from
-first person and at 2 m: ejection port with brass deflector, forward
-assist, mag well and mag release, bolt catch paddle, selector lever,
-trigger, trigger guard, pistol grip, charging handle latch, rail slots
-on the upper and handguard, front sight post and its ears, the folding
-rear sight's aperture, the birdcage's slots, the stock's adjustment
-notches, and the magazine's ribs. Small bevels on hard edges and
-weighted normals so it shades cleanly without textures. No logos,
-maker's marks, serial numbers, or lettering of any kind. Save, tell me
-the triangle count, and commit.
+Detail pass on the M4A1 in M16M4.blend (save first), in the low-poly
+style from Planning > Gun art and sound: chunky, flat-sided shapes with
+hard edges and clear outlines. Shapes and proportions come from the
+reference photos; how much detail goes in comes from the style examples
+in Art/Weapons/M16M4/Reference/Style (style only; never copy them).
+Model what you'd notice from first person and at a few meters:
+ejection port with brass deflector, forward assist, mag well and mag
+release, bolt catch, selector lever, trigger and trigger guard, pistol
+grip, charging handle, front sight post, the folding rear sight, the
+birdcage, the stock, and the quad rail as a few chunky ridges rather
+than every slot. Land well under the polygon budget in
+Art/GunConventions.md. No logos, maker's marks, serial numbers, or
+lettering of any kind. Save, tell me the triangle count, and commit.
 ```
 
 **Check:**
 
-- **From the side and at an angle,** it reads as an M4 at a glance.
+- **From the side and at an angle,** it reads as an M4A1 at a glance, in the same style as the examples.
 - **From the shooter's view:** put the view behind the rear sight. The rear sight's aperture and the front post line up along the barrel, since that's what you'll aim through.
-- **The triangle count** is inside the budget.
+- **The triangle count** is well under the budget.
 
 ## Step 5: Moving parts and rig
 
 ```text
-Rig the M4 in M16M4.blend (save first), following Art/GunConventions.md.
+Rig the M4A1 in M16M4.blend (save first), following Art/GunConventions.md.
 One armature for the whole family, with a root bone at the grip and
 one bone per moving part, each part fully bound to its own bone:
 - trigger: rotates back around its pin
@@ -181,9 +192,11 @@ through its full range one after another. Save and commit.
 
 ```text
 In M16M4.blend (save first): assign the shared materials from
-Art/GunConventions.md: black anodized aluminum for the receivers, rails,
-and magazine; dark parkerized steel for the barrel, front sight, and
-small parts; black polymer for the grip, stock, and handguard. Split
+Art/GunConventions.md: black anodized aluminum for the receivers, the
+quad rail, the buffer tube, the charging handle, and the magazine; dark
+parkerized steel for the barrel, front sight, and small parts; black
+polymer for the grip, the stock, and plastic handguards on the
+versions that have them. Split
 the material slots the way skins will split them: the main gun and the
 magazine. Unwrap UVs with a simple automatic projection so skins can
 be painted later. Save and commit.
@@ -191,31 +204,31 @@ be painted later. Save and commit.
 
 **Check:** in Material Preview (press Z, then Material Preview), steel, aluminum, and polymer look different from each other, and there's no lettering anywhere.
 
-## Step 7: Export and import the M4
+## Step 7: Export and import the M4A1
 
 ```text
-Export the M4 look from M16M4.blend as a skeletal mesh and the 30-round
+Export the M4A1 from M16M4.blend as a skeletal mesh and the 30-round
 magazine as a static mesh, with the export settings in
 Art/GunConventions.md. Commit the .blend and exports (lock the .blend
 with git lfs lock first). Then commit the Unreal project and, with
 Unreal MCP, import them under Content/Guns/M16M4: one Skeleton for the
-whole family (later looks reuse it), the M4 look as its own skeletal
+whole family (every version reuses it), the M4A1 as its own skeletal
 mesh, and the mag as a static mesh. Assign the shared materials, add
-the sockets on the conventions' bones and points, and point the M4,
-M4A1, AR-15, .300 Blackout, and 7.62x39 AR versions in BP_Gun_M16M4 at
-the M4 look instead of the gray block model. Stop and show me before
-wiring animation.
+the sockets on the conventions' bones and points, and point the M4A1
+version in BP_Gun_M16M4 at it instead of the gray block model; the
+other versions keep the block model until their own models are in.
+Stop and show me before wiring animation.
 ```
 
 **Check, in Unreal:**
 
 1. Open the skeletal mesh. It's the right size next to the template rifle (SKM_Rifle), it faces forward, and the sockets sit where they should.
-2. On the range (`Content/Range/Lvl_Range`), spawn the M4 with the range console commands (`SpawnTest`, `RollGun`). Your right hand holds the grip, and the gun isn't sideways, backward, or a hundred times too big or small.
+2. On the range (`Content/Range/Lvl_Range`), spawn the M4A1 with the range console commands (`SpawnTest`, `RollGun`). Your right hand holds the grip, and the gun isn't sideways, backward, or a hundred times too big or small.
 
-## Step 8: Hook up the M4
+## Step 8: Hook up the M4A1
 
 ```text
-Hook up the M4 look in BP_Gun_M16M4, one commit per item:
+Hook up the M4A1 in BP_Gun_M16M4, one commit per item:
 1. The box mag animation set from the template's rifle animations
    (MM_Rifle_Equip, MM_Rifle_Reload, MM_Rifle_DryFire), with the off
    hand reaching the handguard and magazine points by IK.
@@ -231,35 +244,32 @@ Hook up the M4 look in BP_Gun_M16M4, one commit per item:
 Tell me what to look at after each one.
 ```
 
-**Check on the range:** fire, reload with rounds left, reload from empty, switch fire modes, and aim down the sights. The hands sit on the gun, parts move at the right moments, the flash comes from the muzzle, shells leave the port, and the irons line up when you aim. Fire the M4 (burst) and the M4A1 (auto) to see the selector settle in different places.
+**Check on the range:** fire, reload with rounds left, reload from empty, switch fire modes, and aim down the sights. The hands sit on the gun, parts move at the right moments, the flash comes from the muzzle, shells leave the port, and the irons line up when you aim. Switch the M4A1 through safe, semi, and auto to see the selector settle in each place.
 
-**At this point the pipeline works end to end.** Tick nothing yet: the variants come next, and the M4's sounds come in step 10.
+**At this point the pipeline works end to end.** Tick nothing yet: the other versions come next, and sounds come in step 10.
 
-## Step 9: Variant parts
+## Step 9: The other eight versions
 
 ```text
-In M16M4.blend (save first), build the other looks from step 2 of the
-M16 / M4 model guide, reusing the M4's lower receiver, moving parts,
-and armature: the M16 look (carry-handle upper with A2 rear sight, 20 in
-barrel, round ribbed rifle handguard, A2 fixed stock; 1,007 mm long),
-the Commando look (carry-handle upper, 11.5 in barrel, short round
-handguard, collapsible stock), the M231 look (no stock, no rear sight,
-and its own barrel and handguard, from the M231 manual in Reference),
-and the curved 7.62x39mm magazine. Each look gets its own collection.
-Same detail level, materials, and points as the M4; the muzzle, sight,
-and off-hand points move to suit each look. One look per commit.
+In M16M4.blend (save first), build a model for each of the other
+eight versions in the table in step 2 of the M16 / M4 model guide,
+reusing the M4A1's lower receiver, moving parts, and armature: M4,
+AR-15, 7.62x39 AR (with the curved 7.62x39mm magazine), .300 Blackout,
+M16A2 (1,007 mm long), M16A1, Commando, and the M231 (from the M231
+manual in Reference). Each version gets its own collection. Same style,
+materials, and points as the M4A1; the muzzle, sight, and off-hand
+points move to suit each one. One version per commit.
 ```
 
-**Check:** each look against its reference photo and length, the same way as steps 3 and 4. The moving parts work on every look (play the test animation with each).
+**Check:** each version against its reference photo and length, the same way as steps 3 and 4, and side by side, every version is easy to tell apart at a glance. The moving parts work on every one (play the test animation with each).
 
 ## Step 10: Variants into the game, plus sounds
 
 ```text
-Export and import the M16, Commando, and M231 looks the same way as the
-M4: their own skeletal meshes on the family's shared Skeleton, and the
+Export and import each of the other eight versions the same way as the
+M4A1: its own skeletal mesh on the family's shared Skeleton, and the
 curved mag as its own static mesh. Point each version in BP_Gun_M16M4
-at its look, using the table in step 2 of the M16 / M4 model guide, and
-give the 7.62x39 AR the curved mag. Then build the shared gunshot
+at its own model and give the 7.62x39 AR the curved mag. Then build the shared gunshot
 MetaSound from Planning > Gun art and sound (setup step 4) if it isn't
 built yet, and give the family its sounds: the 5.56mm report shared by
 caliber, plus the family's own mechanical, mag, charging handle,
@@ -269,7 +279,7 @@ log. One commit per item.
 
 You pick the sounds by ear; Claude finds candidates, checks licenses, and wires them up ([Sound](art-and-sound.md#sound)).
 
-**Check on the range:** roll each of the 9 versions (`RollGun`). Each shows its look, the M231 has no stock, the 7.62x39 AR has the curved mag, and the hands sit right on every look, especially the long M16 and the stockless M231. Then listen at 25, 100, and 300 m.
+**Check on the range:** roll each of the 9 versions (`RollGun`). Each shows its own model, the M231 has no stock, the 7.62x39 AR has the curved mag, and the hands sit right on every version, especially the long M16 and the stockless M231. Then listen at 25, 100, and 300 m.
 
 ## Step 11: Wrap up
 
@@ -279,7 +289,7 @@ You pick the sounds by ear; Claude finds candidates, checks licenses, and wires 
 
 ## If a step stalls
 
-- **The blockout still looks wrong after a few rounds:** start from an outside model instead, then pick this guide up at step 5. Try a [Fab](https://www.fab.com/) model whose license fits first, then an AI image-to-3D model ([Steps for each gun](art-and-sound.md#steps-for-each-gun)). Either way, check the license and log it.
+- **The blockout still looks wrong after a few rounds:** start from an outside model instead, simplified to the low-poly style, then pick this guide up at step 5. Try a [Fab](https://www.fab.com/) model whose license fits first, then an AI image-to-3D model ([Steps for each gun](art-and-sound.md#steps-for-each-gun)). Either way, check the license and log it.
 - **The connector misbehaves:** stop, reopen the saved .blend, and tell Claude Code what happened instead of retrying in a loop, the same rule as Unreal MCP.
 - **Hands don't line up in Unreal:** usually the origin or the off-hand point is off. Fix it in Blender and re-export rather than nudging it in Unreal, so the source stays right.
 

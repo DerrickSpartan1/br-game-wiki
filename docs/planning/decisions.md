@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | One model per version: every version looks like its own gun, on a shared kit of parts per family. The M4A1 is the M16 / M4 base model; the M4 gets its carry handle and round handguard | [Gun art and sound](art-and-sound.md#one-model-per-version), [M16 / M4 model guide](m16-m4-model.md#step-2-the-kit) |
+| 2026-11-21 | Art style is low poly for now: chunky, flat-sided shapes with hard edges and clear outlines; real photos set the shapes, the style sets the detail | [Gun art and sound](art-and-sound.md#art-style-low-poly) |
+| 2026-11-21 | The M4A1's quad rail, buffer tube, and charging handle are aluminum; polymer is only for plastic handguards, grips, and stocks | [M16 / M4 model guide](m16-m4-model.md#step-6-materials-and-uvs) |
 | 2026-11-21 | The owner approved all the game names, armor included. Erangel's zone numbers stay as placeholders to test in game, tuned later from play tests | [Game names](game-names.md), [Match flow](../systems/match-flow.md#the-zone) |
 | 2026-11-21 | Later: custom game rules, an add-on map editor, and a workshop for player-made maps and content | [Gameplay](../systems/gameplay.md#custom-games-and-mods-later) |
 | 2026-11-21 | The game stays private for the owner and friends for now; hiring and a lawyer come if it grows. The owner wants chances to make things by hand | [Legal review](legal-review.md) |

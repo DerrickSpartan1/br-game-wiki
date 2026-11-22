@@ -38,7 +38,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
 - **Vehicles per map:** which vehicles each map gets ([Gameplay](../systems/gameplay.md#vehicles-and-water)).
 - **Melee and tools:** check the first-pass numbers for melee, pans, breaching tools, and throwing knives, and what the built-in small hammer does ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Built-in tools](../systems/gameplay.md#built-in-tools)).
-- **Characters:** whether they follow the low-poly style or PUBG's more realistic look; whether hair, eye, and skin colors are a full color picker or a set of grounded colors; which options are free and which unlock; and whether players can save several characters ([Your character](../systems/skins.md#your-character)).
+- **Characters:** whether hair, eye, and skin colors are a full color picker or a set of grounded colors; which options are free and which unlock; and whether players can save several characters ([Your character](../systems/skins.md#your-character)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

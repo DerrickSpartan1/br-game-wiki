@@ -36,7 +36,7 @@ The player character has its own wardrobe slots too, like PUBG's, and more can b
 
 ## Your character
 
-Characters look like PUBG's and games in its style: grounded, realistic people. Customizing them works more like The Finals.
+Characters look like PUBG's and games in its style: grounded, realistic people. They're low poly while the game is tested, and the final ones look closer to PUBG's ([Art style](../planning/art-and-sound.md#art-style-low-poly-for-testing)). Customizing them works more like The Finals.
 
 - **Body:** male or female, one body each, so everyone with that body is the same size and build. Both bodies have the same hitbox, so the choice never changes a fight (our pick).
 - **Face:** one standard face per body, our own and not based on a real person ([Legal review](../planning/legal-review.md#what-to-check)).

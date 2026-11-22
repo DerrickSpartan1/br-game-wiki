@@ -8,7 +8,7 @@ How each gun gets a model, animations, and sounds. The bar is "good enough to ge
 
 - Real size and shape, taken from the gun page's Real-world notes (length, barrel length).
 - Moving parts that move: trigger, bolt or slide, charging handle, magazine, selector.
-- The low-poly style ([Art style](#art-style-low-poly)).
+- The low-poly style for testing ([Art style](#art-style-low-poly-for-testing)).
 - Plain materials: steel, aluminum, wood, and polymer, with simple color differences.
 - Parts split the way skins will split them: main gun, suppressor, and other parts each take their own skin later ([Skins](../systems/skins.md)).
 - Sounds that tell each family apart up close and tell you how far away a shot is ([Gameplay: sound is a major focus](../systems/gameplay.md#sound)).
@@ -19,9 +19,11 @@ How each gun gets a model, animations, and sounds. The bar is "good enough to ge
 
 **Never needed:** jam-clearing or overheating animations, since guns never jam or overheat ([Rules](../rules.md#no-jamming)).
 
-## Art style: low poly
+## Art style: low poly for testing
 
-Guns, and likely everything else, aim for a low-poly look for now (owner, 2026-11-21):
+Guns and characters are low poly while the game is tested. The final game will look closer to PUBG (owner, 2026-11-22).
+
+**Now, for testing:** low poly, quick to make and change.
 
 - **Chunky, flat-sided shapes** with hard edges and clear outlines.
 - **The basics right, not ultra realistic:** right size, shape, and proportions, with the detail you'd notice from first person and at a few meters. Small details become a few chunky shapes or are left out.
@@ -29,7 +31,11 @@ Guns, and likely everything else, aim for a low-poly look for now (owner, 2026-1
 - **Style examples:** the owner's four examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/`. They're for style only: their source is unknown, so they're never copied, traced, fed to AI tools, or shipped ([Legal review](legal-review.md)).
 - **Polygon budget:** the budget in the game repo's `Art/GunConventions.md` is a ceiling; low-poly guns should land well under it.
 - **Outside models** (Fab or AI image-to-3D) come out more detailed than this, so they get simplified to the style.
-- **Characters:** like PUBG's and games in its style, with a male and a female body and full customizing ([Your character](../systems/skins.md#your-character)). Whether they're low poly too is open.
+- **Characters** are low poly too: a male and a female body and full customizing ([Your character](../systems/skins.md#your-character)).
+
+**Final product:** closer to PUBG's realistic look, for guns and characters: more detail, real materials, and textures. Still our own models, textures, and colors, never PUBG's ([Legal review](legal-review.md#pubg-look-and-feel)).
+
+**Swapping in later (our pick):** the test models set the real sizes, moving parts, attach points, bones, and animations, so the final models keep those and drop in over the test ones without redoing the code.
 
 ## One model per version
 

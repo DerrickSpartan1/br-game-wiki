@@ -1,6 +1,6 @@
 # M16 / M4 model guide
 
-Step-by-step instructions for the first pilot gun on [Gun art and sound](art-and-sound.md): the [M16 / M4](../weapons/assault-rifles/m16-m4.md). It builds a kit of shared parts and a model for each of the 9 versions, at that page's quality bar: real size and shape, moving parts that move, plain materials, and the [low-poly style](art-and-sound.md#art-style-low-poly).
+Step-by-step instructions for the first pilot gun on [Gun art and sound](art-and-sound.md): the [M16 / M4](../weapons/assault-rifles/m16-m4.md). It builds a kit of shared parts and a model for each of the 9 versions, at that page's quality bar: real size and shape, moving parts that move, plain materials, and the [low-poly style](art-and-sound.md#art-style-low-poly-for-testing) used for testing.
 
 How the work splits: Claude Code does most of the Blender and Unreal work, through the Blender connector and Unreal MCP. You judge how it looks at each check, describe fixes in plain words, and do a few hands-on checks in Blender and on the range. Each step ends with a check; don't move on until it passes.
 
@@ -66,7 +66,7 @@ Download these into `Art/Weapons/M16M4/Reference`. All are US government works, 
 - **M4A1 side view:** [M4 PEO Soldier.jpg](https://commons.wikimedia.org/wiki/File:M4_PEO_Soldier.jpg) on Wikimedia Commons, a clean side shot of a flat-top M4A1. Add a top view and a front view if you find public-domain ones (US military photo sites mark theirs).
 - **Drawings of the parts:** an [Army M16A2 and M4 manual](https://archive.org/download/a2-m4-m4a1-technical/Army%20M16A2%20and%20M4%20manual.pdf) on the Internet Archive, and the [M231's maintenance manual](https://commons.wikimedia.org/wiki/File:TM-9-1005-309-23-and-P.pdf) on Commons for the funny version.
 - **The other versions, for later:** side views of an M16A1, an M16A2, an M4 with its carry handle, a civilian AR-15, a Colt Commando (XM177 or Model 733), and a Colt M5 in .300 Blackout from Commons, plus a curved 7.62×39mm AR magazine.
-- **Style:** the owner's style examples in `Reference/Style/`, for how much detail goes in, never copied ([Art style](art-and-sound.md#art-style-low-poly)).
+- **Style:** the owner's style examples in `Reference/Style/`, for how much detail goes in, never copied ([Art style](art-and-sound.md#art-style-low-poly-for-testing)).
 
 Sizes to build to (from Wikipedia):
 

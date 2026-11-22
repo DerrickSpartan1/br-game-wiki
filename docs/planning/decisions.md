@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Low poly is for testing, for guns and characters. The final game looks closer to PUBG, with our own art | [Art and sound](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-22 | Characters look like PUBG's: a male or a female body with one standard face each, and hair, eyes, and everything else fully customizable, like The Finals | [Skins](../systems/skins.md#your-character) |
 | 2026-11-22 | Bigger hammers and breaching tools are class items like the sledgehammer: a demolition hammer, a club hammer, an entry bar, and a door ram. Owned hammers stay hand-sized, and the built-in small hammer can't breach | [Class items](../systems/class-items.md#breaching-tools) |
 | 2026-11-22 | Pans and a breaching sledgehammer are class items that hit harder than melee (80 to the body). Pans block more: a damage pool like the shields, raised to block. The sledgehammer wears out after breaches | [Class items](../systems/class-items.md#pans) |
@@ -16,7 +17,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | 2026-11-21 | The frying pan wears through: one or two hits depending on the caliber hole it, and a holed pan stops blocking but still works as melee | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | The frying pan is back in, with our own model and sounds and a twist of our own (TBD) so it isn't PUBG's | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | One model per version: every version looks like its own gun, on a shared kit of parts per family. The M4A1 is the M16 / M4 base model; the M4 gets its carry handle and round handguard | [Gun art and sound](art-and-sound.md#one-model-per-version), [M16 / M4 model guide](m16-m4-model.md#step-2-the-kit) |
-| 2026-11-21 | Art style is low poly for now: chunky, flat-sided shapes with hard edges and clear outlines; real photos set the shapes, the style sets the detail | [Gun art and sound](art-and-sound.md#art-style-low-poly) |
+| 2026-11-21 | Art style is low poly for now: chunky, flat-sided shapes with hard edges and clear outlines; real photos set the shapes, the style sets the detail | [Gun art and sound](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-21 | The M4A1's quad rail, buffer tube, and charging handle are aluminum; polymer is only for plastic handguards, grips, and stocks | [M16 / M4 model guide](m16-m4-model.md#step-6-materials-and-uvs) |
 | 2026-11-21 | The owner approved all the game names, armor included. Erangel's zone numbers stay as placeholders to test in game, tuned later from play tests | [Game names](game-names.md), [Match flow](../systems/match-flow.md#the-zone) |
 | 2026-11-21 | Later: custom game rules, an add-on map editor, and a workshop for player-made maps and content | [Gameplay](../systems/gameplay.md#custom-games-and-mods-later) |

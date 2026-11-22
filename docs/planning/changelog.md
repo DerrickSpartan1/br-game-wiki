@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | [Art style](art-and-sound.md#art-style-low-poly-for-testing): low poly for testing, a look closer to PUBG for the final game |
 | 2026-11-22 | Added [Your character](../systems/skins.md#your-character): bodies, faces, and the customizing list |
 | 2026-11-22 | Turned the sledgehammer into a family of [breaching tools](../systems/class-items.md#breaching-tools) with first-pass numbers |
 | 2026-11-22 | Moved pans to [class items](../systems/class-items.md#pans) with a damage pool and harder hits, added the breaching sledgehammer, [throwing knives](../systems/weapon-pool.md#throwing-knives), bayonets, and [built-in tools](../systems/gameplay.md#built-in-tools) |

@@ -59,6 +59,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | PUBG specific | Ours | Status |
 | --- | --- | --- |
 | Frying pan that blocks bullets | Back as a class item with our own models and sounds: raised to block, and holed after a set amount of gunfire ([Pans](../systems/class-items.md#pans)) | Decided |
+| PUBG's realistic art style | The final look is closer to PUBG's, with our own models, textures, and colors. Krafton's Free Fire suit named color schemes and textures | Decided |
 | Care package with a flashing light and red smoke | Our own look and signal | Decided |
 | Every PUBG vehicle | Our own vehicles, picked per map; PUBG's lineup is an idea list | Decided |
 | PUBG's name in marketing | Never used | Decided |

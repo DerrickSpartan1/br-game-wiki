@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Healing variants go loose: Tarkov's drinks fill the energy drink role, its stimulants fill the adrenaline role, and Augmentin counts as a painkiller | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | Healing variants are Escape from Tarkov's real-life medical items, blended into PUBG's six roles. A role has as many variants as fit, from one to five, and each match rolls one item per role. This replaces the worse, standard, and better set | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | The first map gets a river: a crater lake on the plateau feeding a river to the south coast, with three bridges. The route is a first pass for review | [Maps](../systems/maps.md#river) |
 | 2026-11-21 | Healing works like PUBG's: bandage, first aid kit, med kit, energy drink, painkillers, adrenaline syringe, and the boost bar. Each item has better and worse variants, like Tarkov's medkits, and each match rolls one variant per item | [Healing](../systems/healing.md) |

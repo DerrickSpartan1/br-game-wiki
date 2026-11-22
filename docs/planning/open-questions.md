@@ -32,7 +32,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
 - **First map river:** check the first-pass route, lake, and bridges on the v4 mockup ([Maps](../systems/maps.md#river)).
 - **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
-- **Healing variants:** the first-pass numbers and odds; whether the energy drink should get real variants; whether to use L1, Meldonin, or Perfotoran; and whether brand names like Salewa, Grizzly, and Celox need generic names before release ([Healing](../systems/healing.md#variants)).
+- **Healing variants:** the first-pass numbers and odds; whether Tarkov's made-up stimulants come in under our own names; whether Perfotoran also cuts gas damage; and whether brand names like Salewa, Grizzly, and Celox need generic names before release ([Healing](../systems/healing.md#variants)).
 - **Bodies:** what happens to a body once nobody can revive it but the player is still watching, and whether a looted body can still be revived ([Gameplay](../systems/gameplay.md#knockdowns-revives)).
 - **Red zone forms:** which new forms to add; ideas so far are firebombing, a creeping barrage, and EMP ([Match flow](../systems/match-flow.md#red-zones)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).

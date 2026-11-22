@@ -38,11 +38,11 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Meds and drinks | [Healing](../systems/healing.md#variants) | Brand and Tarkov names (Salewa, Grizzly, Celox, CAT, Vaseline, Golden Star, Augmentin, Analgin, Perfotoran, Meldonin, TarCola, and others) | Plain names, on the page | Done |
 | Defibrillator | [Class items](../systems/class-items.md) | Tarkov's is a parody of a real brand's | Portable defibrillator | Done |
 | Med item art | [Healing](../systems/healing.md) | Red Cross emblem | Another mark | Rule set |
-| Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | Our own makers and designations ([Game names](game-names.md#gun-makers)) | Rule approved; pilot guns named as a sample ([Gun names](game-names.md#gun-names)) |
+| Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | Our own makers and designations ([Game names](game-names.md#gun-makers)) | Rule and pilot guns approved; the rest by category ([Gun names](game-names.md#gun-names)) |
 | Attachments | [Attachments](../systems/attachments.md) | Brand and model names such as ACOG, Leupold, and PSO-1 | Plain descriptions: 2x scope, vertical foregrip | Rule set |
 | Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names | To do |
 | Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Made-up makes and models | When vehicles are added |
-| Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Metric sizes or plain names | To do |
+| Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Caliber only ([Cartridges](game-names.md#cartridges)) | Done; two sizes still TBD |
 | Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
 | First map | [Maps](../systems/maps.md) | Real island and town names | Our own place names | Open |
 

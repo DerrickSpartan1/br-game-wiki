@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Ammo is called by its caliber only, with no name attached; the metric size separates rounds that would share a caliber. The pilot guns' names set the style for the rest | [Game names](game-names.md#cartridges) |
 | 2026-11-21 | The owner approved the 49 gun makers and the designation rule. Vehicle names wait until vehicles are added | [Game names](game-names.md) |
 | 2026-11-21 | Game names: one made-up maker for each real gun maker, designations that mix real and new, plain descriptions for attachments, our own armor and vehicle names, and our own names for terms from other games | [Game names](game-names.md) |
 | 2026-11-21 | Anything that could cause legal trouble gets a generic name in the game, checked when it's added and by a lawyer before release. No Red Cross emblem anywhere | [Legal review](legal-review.md) |

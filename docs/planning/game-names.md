@@ -11,7 +11,7 @@ The names the game uses in place of real ones ([Legal review](legal-review.md)).
 - **Attachments:** plain descriptions: vertical foregrip, angled grip, red dot, holographic sight, 2x scope, 4x scope. A unique scope is named for what it does, like a 4x scope with range markings for the SVD's PSO-1.
 - **Armor:** our own names for carriers, plates, rigs, and helmets (TBD).
 - **Vehicles:** made-up makes and models, like guns, named when vehicles are added.
-- **Cartridges:** names with a company or person in them (.338 Lapua Magnum, .308 Winchester, 7.62×25mm Tokarev, .300 Blackout) get a metric size or a plain name in the game, like 7.62×25mm or .338 Magnum (TBD per cartridge).
+- **Ammo:** called by its caliber only, with no name attached, so 7.62×25mm Tokarev is 7.62×25mm ([Cartridges](#cartridges)).
 - **Other games' terms:** our own names ([Other games' terms](#other-games-terms)).
 - **Into the game:** once names are approved, the lead's tools read them from this page, so the gun, armor, and loot tables the game already reads don't change.
 
@@ -96,7 +96,7 @@ Approved by the owner: a mix of real and new.
 
 ## Gun names
 
-First the four pilot guns, as a sample of the style. The rest follow by category once the owner checks these. The # matches each gun page's Versions table.
+The owner approved the four pilot guns as the style. The rest follow by category. The # matches each gun page's Versions table.
 
 ### [M16 / M4](../weapons/assault-rifles/m16-m4.md): Harlan Arms
 
@@ -152,6 +152,99 @@ First the four pilot guns, as a sample of the style. The rest follow by category
 | 7 | Type 4 (rare) | Ashby AS-1 Type 4 |
 | 8 | T3E2 (rare) | Ashby AS-3 Trials |
 | 9 | Box-mag conversion (rare) | Ashby AS-1 Box Mag |
+
+## Cartridges
+
+Approved by the owner: ammo is called by its caliber, with no company or person's name attached. Where dropping the name leaves two rounds with the same caliber, the metric size tells them apart (.32 ACP becomes 7.65×17mm, since there are other .32s). Words that aren't names stay: Auto, Magnum, Special, Long, Largo, and gauge.
+
+| Caliber (wiki) | Game name |
+| --- | --- |
+| .22 LR | .22 LR |
+| .30-18 Auto | .30-18 |
+| .32 ACP | 7.65×17mm |
+| .38 ACP | .38 Auto |
+| .38 Super | .38 Super |
+| .357 SIG | 9×22mm |
+| .380 ACP | 9×17mm |
+| .40 S&W | 10×22mm |
+| .400 Corbon | .400 Auto |
+| .41 AE | .41 |
+| .45 ACP | .45 Auto |
+| .45 Remington–Thompson | TBD (size not found yet) |
+| .455 Webley Auto | .455 Auto |
+| 4.6×30mm | 4.6×30mm |
+| 5.7×28mm | 5.7×28mm |
+| 7.62×25mm Tokarev | 7.62×25mm |
+| 7.63×25mm Mauser | 7.63×25mm |
+| 7.65×21mm Parabellum | 7.65×21mm |
+| 8mm Gasser (8.11×27mm) | 8.11×27mm |
+| 8.15×25.2mm Mauser | 8.15×25.2mm |
+| 9×18mm Makarov | 9×18mm |
+| 9×19mm | 9×19mm |
+| 9×21mm | 9×21mm |
+| 9×25mm Mauser | 9×25mm |
+| 9mm Browning Long | 9×20mm |
+| 9mm Largo | 9mm Largo |
+| 9mm Steyr | 9×23mm |
+| 10mm Auto | 10mm Auto |
+| .45 Colt | .45 Long |
+| .320 Revolver | .320 Revolver |
+| .357 Magnum | .357 Magnum |
+| .380 Revolver | .380 Revolver |
+| .44 Magnum | .44 Magnum |
+| .454 Casull | .454 |
+| .460 S&W | .460 |
+| .500 S&W | .500 |
+| 8×50mmR Mannlicher | 8×50mmR |
+| 8×63mm Swedish | 8×63mm |
+| .25-35 Winchester | .25-35 |
+| .30-30 Winchester | .30-30 |
+| .32 Winchester Special | .32 Special |
+| .32-40 Winchester | .32-40 |
+| .38-55 Winchester | .38-55 |
+| .222 Remington | .222 |
+| .276 Pedersen | .276 |
+| .280 British | .280 |
+| .30 Carbine | .30 Carbine |
+| .30-06 Springfield | .30-06 |
+| .300 Blackout | 7.62×35mm |
+| .300 Winchester Magnum | .300 Magnum |
+| .303 British | .303 |
+| .338 Lapua Magnum | .338 Magnum |
+| .351 WSL | .351 |
+| .366 TKM | 9.6×53mm |
+| .450 Bushmaster | .450 |
+| 4.85×49mm | 4.85×49mm |
+| 5.45×39mm | 5.45×39mm |
+| 5.56×45mm | 5.56×45mm |
+| 5.7mm Johnson | 5.7×33mm |
+| 5.8×42mm | 5.8×42mm |
+| 6.5×50mm Arisaka | 6.5×50mm |
+| 6.5×55mm Swedish | 6.5×55mm |
+| 6.5mm Creedmoor | 6.5×48mm |
+| 6.5mm Fedorov | TBD (size not found yet) |
+| 6.8mm Remington SPC | 6.8×43mm |
+| 6.8×51mm | 6.8×51mm |
+| 7×49.15mm Optimum 2 | 7×49.15mm |
+| 7×57mm Mauser | 7×57mm |
+| 7.5×54mm French | 7.5×54mm |
+| 7.5×55mm Swiss | 7.5×55mm |
+| 7.62×39mm | 7.62×39mm |
+| 7.62×51mm | 7.62×51mm |
+| 7.62×54mmR | 7.62×54mmR |
+| 7.65×53mm Mauser | 7.65×53mm |
+| 7.7×58mm Arisaka | 7.7×58mm |
+| 7.92×33mm Kurz | 7.92×33mm |
+| 7.92×41mm CETME | 7.92×41mm |
+| 7.92×57mm Mauser | 7.92×57mm |
+| 9×39mm | 9×39mm |
+| 9.3×64mm Brenneke | 9.3×64mm |
+| 10 gauge | 10 gauge |
+| 12 gauge | 12 gauge |
+| 16 gauge | 16 gauge |
+| 20 gauge | 20 gauge |
+| 28 gauge | 28 gauge |
+| .410 bore | .410 bore |
 
 ## Other games' terms
 

@@ -92,39 +92,32 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
-- **Owned melee, found pans (owner's leaning, not final):** pans are the only melee found as loot, since they block bullets, and they're rare: pans show up in about 1 match in 5. Every other melee weapon belongs to the player, who brings one into every match, like Fortnite's pickaxes or Apex's heirlooms. Melee is rarely used in PUBG, so owning one gives players something of their own to show off.
-    - **Same stats for owned melee:** since players own them, they can't give an edge. They differ in look, sound, and [inspect](#melee), not damage, speed, or reach.
-    - **Unlocks:** through seasons, challenges, and mastery, picked like an outfit ([Skins and mastery](skins.md)).
-    - **Pan matches:** in the 1 in 5 matches with pans, one kind is rolled, like healing items; how many spawn is TBD.
-- **Frying pan:** back in, with our own model and sounds and a twist of our own, so it isn't PUBG's pan ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
-    - **It wears through (decided):** it stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. First pass (our pick): rounds under 1,200 J (pistol and SMG rounds) take two hits to hole it, and rounds at 1,200 J and up (rifle rounds) hole it in one, using the [ammo energy bands](ammo.md#weight). One shotgun blast counts as one hit.
-    - **Other pans (decided):** more cookware as melee weapons, each wearing through the same way, with its own trade-offs. First pass (our pick), with how many hits hole it from pistol and SMG rounds, then rifle rounds:
-
-        | Pan | Hits to hole it | Swing | Blocks |
-        | --- | --- | --- | --- |
-        | Frying pan | 2, then 1 | Normal | Normal area |
-        | Cast-iron skillet | 3, then 2 | Slow, hits harder | Normal area; heavier to carry |
-        | Wok | 1, then 1 | Fast | A wider area |
-        | Saucepan | 2, then 1 | Fastest | A small area |
-
-        How they spawn is TBD: one kind rolled per match, like healing items, or all of them in every match.
-    - **Other ideas, not decided:**
-        - **Raise it to block:** it only stops bullets while held up as a block; slung on your hip or back, it doesn't, unlike PUBG's.
-        - **Loud clang:** a hit on it rings out, giving away where you are.
-- **Lots of melee weapons (decided):** all sorts, so there's plenty to choose from. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list, all with plain names and no brands:
+- **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
+- **All the same in a fight:** every melee weapon, pans included, has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. The shared numbers are TBD.
+- **Inspects:** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder.
+- **The roster:** all sorts, with plain names and no brands. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list:
 
     | Kind | Weapons |
     | --- | --- |
     | Knives | Combat knife, hunting knife, folding knife, butterfly knife, karambit, kukri, tanto, bayonet |
-    | Big blades | Machete, cleaver, hatchet, axe, cavalry sabre, katana (rare) |
+    | Big blades | Machete, cleaver, hatchet, axe, cavalry sabre, katana |
     | Farm tools | Scythe, sickle, pitchfork |
-    | Tools | Crowbar, shovel, entrenching tool, pickaxe, sledgehammer, wrench, tire iron, wire cutters |
+    | Tools | Crowbar, shovel, entrenching tool, pickaxe, sledgehammer, wrench, tire iron |
     | Blunt | Brass knuckles, baseball bat, police baton, lead pipe, rolling pin, trench club |
-    | Pans | Frying pan, cast-iron skillet, wok, saucepan (above) |
 
-    - **What sets them apart:** damage, swing speed, reach, and how fast you run with it out. Only pans block bullets. Numbers TBD.
-    - **Inspects (decided):** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder. Part of why there are so many kinds.
-    - **Where they spawn (idea):** where they'd really be: farm tools on farms, kitchen things in houses, tools in garages and the quarry, military knives and entrenching tools at military spots, and swords rarely, like in vaults.
+- **Pans, the only melee you find:** pans are the only melee loot, because they block bullets. They're rare: pans show up in about 1 match in 5, and in those matches one kind is rolled, like healing items. How many spawn is TBD; kitchens and houses fit them best.
+    - **Picking one up:** the pan takes your melee slot while you carry it, and your own weapon comes back if you drop it (our pick).
+    - **Ours, not PUBG's:** our own models and sounds, and they wear through ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
+    - **Wears through:** a pan stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. One shotgun blast counts as one hit. First pass (our pick), using the [ammo energy bands](ammo.md#weight):
+
+        | Pan | Hits to hole it: rounds under 1,200 J (pistol and SMG) | Rounds at 1,200 J and up (rifle) | Blocks |
+        | --- | --- | --- | --- |
+        | Frying pan | 2 | 1 | A normal area |
+        | Cast-iron skillet | 3 | 2 | A normal area |
+        | Wok | 1 | 1 | A wider area |
+        | Saucepan | 2 | 1 | A small area |
+
+    - **Other ideas, not decided:** it only blocks while raised, not slung on your hip or back, unlike PUBG's; and a loud clang when it's hit, giving away where you are.
 
 ## Dog tags
 

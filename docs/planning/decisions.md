@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Players own their melee weapons and bring one into every match; every melee weapon, pans included, has the same damage, reach, and speed and differs only in look and animations. Pans are the only melee loot, in about 1 match in 5, one kind per match | [Gameplay](../systems/gameplay.md#melee), [Skins and mastery](../systems/skins.md#melee-weapons) |
 | 2026-11-21 | Every melee weapon gets its own inspect animation, usable while running with it out | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | Lots of melee weapons of all sorts, including scythes, knives of different kinds, machetes, and brass knuckles | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | More pans as melee weapons (cast-iron skillet, wok, saucepan), each wearing through like the frying pan with its own trade-offs | [Gameplay](../systems/gameplay.md#melee) |

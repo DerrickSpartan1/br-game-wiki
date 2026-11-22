@@ -34,6 +34,15 @@ The player character has its own wardrobe slots too, like PUBG's, and more can b
 - **In a match:** players arrive wearing their outfit and nothing else, and can take clothes off like in PUBG. The pads and underwear always stay on.
 - **No clothing loot:** clothes never drop as loot during a match; outfits are set in the wardrobe only.
 
+## Melee weapons
+
+Every player owns melee weapons and brings one into every match ([Melee](gameplay.md#melee)).
+
+- **Picked like an outfit,** in the wardrobe.
+- **Unlocked** through seasons, challenges, and mastery.
+- **Looks only:** every melee weapon has the same damage, reach, and speed. Each has its own model, sounds, and animations, including an inspect, so players can be katana people, scythe people, or knife people.
+- **Pans aren't owned:** they're found as loot in some matches, since they block bullets.
+
 ## Kill counters
 
 A weapon skin can carry a kill counter, like Counter-Strike's StatTrak: it counts the kills made with that skin and shows the number on the gun. How it looks on each gun is TBD, like a small display or tally marks on the stock.

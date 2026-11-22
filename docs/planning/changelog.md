@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Proposed first-pass melee numbers and a pan count, more owned melee (hammers and others), and special found tools on [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | Made owned melee official: rewrote [Melee](../systems/gameplay.md#melee), added [Melee weapons](../systems/skins.md#melee-weapons) to Skins and mastery, and players now bring their melee into the [pre-match lobby](../systems/match-flow.md#pre-match-lobby) |
 | 2026-11-21 | Filed the owner's leaning on [Gameplay](../systems/gameplay.md#melee): owned melee weapons with the same stats, and pans as the only melee loot, in about 1 match in 5 |
 | 2026-11-21 | Added a starting list of melee weapons where they could spawn, and their inspects on [Gameplay](../systems/gameplay.md#melee) |

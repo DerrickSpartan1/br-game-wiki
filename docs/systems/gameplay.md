@@ -93,7 +93,21 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
 - **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
-- **All the same in a fight:** every melee weapon, pans included, has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. The shared numbers are TBD.
+- **All the same in a fight:** every melee weapon, pans included, has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
+
+    | | Number | Basis |
+    | --- | --- | --- |
+    | Damage to the chest and stomach | 60 | PUBG's machete, sickle, and crowbar (its pan does 80) |
+    | Head | 90 (×1.5) | Our pick: two head hits, never one, so no lucky one-shots ([Hit zones](ttk.md#hit-zones)) |
+    | Neck | 63 (0.7 × the head) | Our hit zone rule |
+    | Arms and legs | 36 (×0.6) | Our pick |
+    | Armor | Cuts melee like bullets: 60 becomes 42, 36, or 27 through tier 1, 2, or 3 vests | PUBG: vests cut melee the same as bullets |
+    | Hits to kill to the body | 2 with no vest, 3 through tier 1 or 2, 4 through tier 3 | Same as PUBG's machete |
+    | Time between swings | 0.8 s | Our pick |
+    | Reach | 1.5 m | Our pick |
+    | Ready time | 0.5 s | PUBG's melee ready delay |
+    | Run speed with it out | 6.3 m/s | PUBG's unarmed and melee speed ([Handling](handling.md)) |
+
 - **Inspects:** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder.
 - **The roster:** all sorts, with plain names and no brands. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list:
 
@@ -102,10 +116,17 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
     | Knives | Combat knife, hunting knife, folding knife, butterfly knife, karambit, kukri, tanto, bayonet |
     | Big blades | Machete, cleaver, hatchet, axe, cavalry sabre, katana |
     | Farm tools | Scythe, sickle, pitchfork |
-    | Tools | Crowbar, shovel, entrenching tool, pickaxe, sledgehammer, wrench, tire iron |
+    | Tools | Crowbar, shovel, entrenching tool, pickaxe, wrench, tire iron |
     | Blunt | Brass knuckles, baseball bat, police baton, lead pipe, rolling pin, trench club |
+    | Hammers | Claw hammer, ball-peen hammer, mallet, war hammer |
+    | Military | Trench knife, bowie knife, tomahawk |
+    | Martial arts | Nunchaku, tonfa, kama, bo staff |
+    | Historic | Gladius, cutlass, rapier, mace |
+    | Sports | Cricket bat, hockey stick, golf club |
+    | Everyday | Umbrella, broom, chair leg, guitar, skateboard |
+    | Joke and event rewards | A fish, a rubber chicken, a giant spoon |
 
-- **Pans, the only melee you find:** pans are the only melee loot, because they block bullets. They're rare: pans show up in about 1 match in 5, and in those matches one kind is rolled, like healing items. How many spawn is TBD; kitchens and houses fit them best.
+- **Pans, the only melee you find:** pans are the only melee loot, because they block bullets. They're rare: pans show up in about 1 match in 5, and in those matches one kind is rolled, like healing items. First pass (our pick): about 20 on the first map, roughly one for every five players, in kitchens and houses, more in the towns.
     - **Picking one up:** the pan takes your melee slot while you carry it, and your own weapon comes back if you drop it (our pick).
     - **Ours, not PUBG's:** our own models and sounds, and they wear through ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
     - **Wears through:** a pan stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. One shotgun blast counts as one hit. First pass (our pick), using the [ammo energy bands](ammo.md#weight):
@@ -118,6 +139,13 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
         | Saucepan | 2 | 1 | A small area |
 
     - **Other ideas, not decided:** it only blocks while raised, not slung on your hip or back, unlike PUBG's; and a loud clang when it's hit, giving away where you are.
+- **Throwing (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
+- **Special found tools (ideas):** like pans, these are loot that does one thing owned melee can't, while fighting the same:
+    - **Wire cutters:** cut a gap in a wire fence quietly ([Buildings](#buildings-materials)).
+    - **Breaching sledgehammer:** smashes doors and breakable walls fast, but loudly.
+    - **Fire axe:** chops through wooden doors and walls.
+    - **Bayonet:** fits guns that really had a bayonet lug, for a stab without switching off your gun.
+    - **Throwing knives:** a throwable, in the throwable slot.
 
 ## Dog tags
 

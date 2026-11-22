@@ -1,6 +1,6 @@
 # Game names
 
-The names the game uses in place of real ones ([Legal review](legal-review.md)). The wiki keeps real names on every page; this page maps them to game names. Everything here is a first pass for the owner's review, and every invented name gets a trademark search before release.
+The names the game uses in place of real ones ([Legal review](legal-review.md)). The wiki keeps real names on every page; this page maps them to game names. The owner approved the names here; vehicle names come when vehicles are added. Every invented name still gets a trademark search before release.
 
 ## Rules
 
@@ -1336,7 +1336,7 @@ Every version of every gun, 625 in all. The # matches each gun page's Versions t
 
 ## Armor
 
-Our own names for every armor piece on [Armor](../systems/armor.md), first pass for the owner's review. Heavy carriers are named for fortifications, plate carriers for trees and stones, fixed vests for weather, rigs for insects, and helmets for historic helmet types. Plates are named by material, tier, and a letter, lightest first, with front and back halves of a set sharing a letter.
+Our own names for every armor piece on [Armor](../systems/armor.md), approved by the owner. Heavy carriers are named for fortifications, plate carriers for trees and stones, fixed vests for weather, rigs for insects, and helmets for historic helmet types. Plates are named by material, tier, and a letter, lightest first, with front and back halves of a set sharing a letter.
 
 ### Plate carriers
 

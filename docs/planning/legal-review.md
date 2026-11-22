@@ -42,7 +42,7 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Med item art | [Healing](../systems/healing.md) | Red Cross emblem | Another mark | Rule set |
 | Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | Our own makers and designations ([Game names](game-names.md#gun-makers)) | All 625 versions named ([Gun names](game-names.md#gun-names)) |
 | Attachments | [Attachments](../systems/attachments.md) | Brand and model names such as ACOG, Leupold, and PSO-1 | Plain descriptions: 2x scope, vertical foregrip | Rule set |
-| Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names ([Armor](game-names.md#armor)) | First pass, for review |
+| Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names ([Armor](game-names.md#armor)) | Done |
 | Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Made-up makes and models | When vehicles are added |
 | Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Caliber only ([Cartridges](game-names.md#cartridges)) | Done; two sizes still TBD |
 | Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
@@ -60,7 +60,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | Care package with a flashing light and red smoke | Our own look and signal | Decided |
 | Every PUBG vehicle | Our own vehicles, picked per map; PUBG's lineup is an idea list | Decided |
 | PUBG's name in marketing | Never used | Decided |
-| Erangel's zone phase numbers | Our own numbers, tuned for our maps | To do |
+| Erangel's zone phase numbers | Placeholders to test in game; our own numbers come from play tests | Later |
 | PUBG's 2017–2018 HUD | Our own look; the layout can stay similar where it's practical | To do with the HUD mockups |
 | Boost bar | Its own name and look | To do |
 | "Red zone," "blue zone," and the victory line | Our own words | Open |

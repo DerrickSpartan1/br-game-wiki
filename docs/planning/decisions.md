@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The owner approved all the game names, armor included. Erangel's zone numbers stay as placeholders to test in game, tuned later from play tests | [Game names](game-names.md), [Match flow](../systems/match-flow.md#the-zone) |
 | 2026-11-21 | Later: custom game rules, an add-on map editor, and a workshop for player-made maps and content | [Gameplay](../systems/gameplay.md#custom-games-and-mods-later) |
 | 2026-11-21 | The game stays private for the owner and friends for now; hiring and a lawyer come if it grows. The owner wants chances to make things by hand | [Legal review](legal-review.md) |
 | 2026-11-21 | Moving away from PUBG specifics: no frying pan for now, our own care package look, our own vehicles (PUBG's lineup is an idea list), and no PUBG in marketing | [Legal review](legal-review.md#pubg-look-and-feel) |

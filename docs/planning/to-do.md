@@ -82,7 +82,7 @@ Then the build order that's left:
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
 - [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
 - [ ] **Generic names in game:** use the game names from the wiki, not the real ones, in data, menus, and text, and keep logos, maker's marks, and the Red Cross emblem off every model and texture ([Legal review](legal-review.md)).
-- [ ] **Game names in the game:** once the owner OKs them, read gun, armor, and cartridge names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
+- [ ] **Game names in the game:** the owner approved them, so read gun, armor, and cartridge names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
 - [ ] **Hand-made touches:** when a step has a part the owner can do by hand (in-game text, picking colors, placing things in the map editor, small model edits, recording sounds), offer it to him and log it ([Hand-made touches](legal-review.md#hand-made-touches)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 
@@ -110,7 +110,7 @@ In rough order of what the game needs first:
 - [x] **In-game names** for guns and armor brands: our own makers and designations, plain attachment names, and our own armor, vehicle, and term names ([Legal review](legal-review.md#guns)).
 - [x] **Game names:** check the 49 first-pass gun makers and the designation rule ([Game names](game-names.md)).
 - [x] **Gun names sample:** check the four pilot guns' game names before the rest are done ([Gun names](game-names.md#gun-names)). Talk to a lawyer before selling the game.
-- [ ] **Armor names:** check the first-pass armor names: fortifications, trees and stones, weather, insects, and historic helmets ([Armor](game-names.md#armor)).
+- [x] **Armor names:** check the first-pass armor names: fortifications, trees and stones, weather, insects, and historic helmets ([Armor](game-names.md#armor)).
 - [ ] **PUBG look and feel:** what to call the red zone, blue zone, and boost bar, and the victory line ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
@@ -121,7 +121,6 @@ In rough order of what the game needs first:
 - [ ] **Mockups:** the HUD, inventory, and menus as designs before they're built in Unreal.
 - [ ] **One model per version (owner, 2026-11-21):** every version should look like its own gun, so the M4, M4A1, AR-15, and so on each get their own model instead of sharing four looks. Shared parts (lower receiver, moving parts) can still be reused underneath. Update [One model per family](art-and-sound.md#one-model-per-family) and step 2 of the [M16 / M4 model guide](m16-m4-model.md) with what tells each version apart at a glance, and log the decision. The lead builds the M4A1 base model first and holds the other versions until then.
 - [x] **Game names:** all 625 gun versions, plus a first pass at armor names; vehicle names when vehicles are added ([Game names](game-names.md)).
-- [ ] **Our own zone numbers:** tune the zone phases for our maps instead of Erangel's table ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - [ ] **Bots:** how bots fill the lobby and stay to fill empty slots ([Pre-match lobby](../systems/match-flow.md#pre-match-lobby)): how they move, loot, fight, and how good they are. The lead's lobby code leaves a spot for them.
 - [ ] **Art style: low poly (owner, 2026-11-21):** guns (and likely the rest) aim for a low-poly look for now: chunky, flat-sided shapes with hard edges and clear outlines, the basics right but not ultra realistic. There won't be low-poly examples of every gun, so real photos set the shapes and proportions, and the low-poly style sets how much detail goes in. The owner's four style examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/` (style only, source unknown, never copied). File it on [Art and sound](art-and-sound.md) and log the decision.
 - [ ] **M4A1 materials (owner OK'd, 2026-11-21):** the M4A1's quad rail uses aluminum, like the real KAC rail, not polymer as step 6 of the [M16 / M4 model guide](m16-m4-model.md) says (polymer stays for plastic handguards), and the buffer tube and charging handle are aluminum too. Update step 6's text.

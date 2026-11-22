@@ -30,7 +30,7 @@ Like PUBG, in third person, the one part of the game that is ([Gameplay](gamepla
 
 ## The zone
 
-The playzone (blue) shrinks toward the next safe circle (white) in phases, and anyone outside the blue takes damage every second. The first map is Erangel's size ([Maps](maps.md)), so PUBG's Erangel phases are the first pass.
+The playzone (blue) shrinks toward the next safe circle (white) in phases, and anyone outside the blue takes damage every second. The first map is Erangel's size ([Maps](maps.md)), so PUBG's Erangel phases are placeholders to test in game; our own numbers get tuned from play tests ([PUBG look and feel](../planning/legal-review.md#pubg-look-and-feel)).
 
 | Phase | Wait before shrinking | White circle diameter | Shrink speed | Base damage per second | Ends at (match clock) |
 | --- | --- | --- | --- | --- | --- |

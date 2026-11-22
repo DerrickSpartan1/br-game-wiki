@@ -4,6 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Later: custom game rules, an add-on map editor, and a workshop for player-made maps and content | [Gameplay](../systems/gameplay.md#custom-games-and-mods-later) |
+| 2026-11-21 | The game stays private for the owner and friends for now; hiring and a lawyer come if it grows. The owner wants chances to make things by hand | [Legal review](legal-review.md) |
+| 2026-11-21 | Moving away from PUBG specifics: no frying pan for now, our own care package look, our own vehicles (PUBG's lineup is an idea list), and no PUBG in marketing | [Legal review](legal-review.md#pubg-look-and-feel) |
+| 2026-11-21 | All 625 gun versions have game names in the approved style; armor gets a first pass of our own names | [Game names](game-names.md#gun-names) |
 | 2026-11-21 | Ammo is called by its caliber only, with no name attached; the metric size separates rounds that would share a caliber. The pilot guns' names set the style for the rest | [Game names](game-names.md#cartridges) |
 | 2026-11-21 | The owner approved the 49 gun makers and the designation rule. Vehicle names wait until vehicles are added | [Game names](game-names.md) |
 | 2026-11-21 | Game names: one made-up maker for each real gun maker, designations that mix real and new, plain descriptions for attachments, our own armor and vehicle names, and our own names for terms from other games | [Game names](game-names.md) |

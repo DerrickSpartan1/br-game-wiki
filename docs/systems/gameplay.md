@@ -49,7 +49,7 @@ Winners redeploy into the main match with the guns and armor they had in the tea
 
 ## Vehicles and water
 
-Lots of vehicles: every vehicle PUBG has is in, with our own names and models. Ziplines are part of the map too. Trains could run on maps with rail, and a gondola could carry players up a mountain on a future map.
+Lots of vehicles of our own, picked for what each map needs, with our own names and designs when they're added. PUBG's lineup below is a reference and an idea list for later, not a list to copy. Ziplines are part of the map too. Trains could run on maps with rail, and a gondola could carry players up a mountain on a future map.
 
 | PUBG vehicle | What it is | Seats | Top speed (PUBG) |
 | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
-- **Frying pan:** like PUBG's, it blocks bullets, even when slung on your hip.
+- **No frying pan for now:** a pan that blocks bullets is PUBG's signature item, so it's left out ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
 
 ## Dog tags
 
@@ -119,7 +119,7 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 
 - **Modes:** solos, duos, trios, and quads.
 - **Ranked:** a separate ranked playlist.
-- **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes.
+- **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
 - **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." The wording is TBD.
 - **Player count:** set by each map's size; 100 on the first map ([Maps](maps.md)).
@@ -131,6 +131,13 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 - **Time and weather:** time passes during a match, from day into night or night into morning, and weather can change ([Match flow](match-flow.md#time-of-day-and-weather)).
 - **Wrist watch:** always on the left wrist, showing the in-game time ([Match flow](match-flow.md#wrist-watch)).
 - **Hot loot zones:** yes.
+
+## Custom games and mods (later)
+
+- **Custom rules:** a full rules set for custom games, so hosts can change things like the gun pool, loot amounts, zone speed and damage, team size, respawns, and which items spawn.
+- **Map editor:** an add-on map editor, so players can build their own maps.
+- **Workshop:** players share maps and other content through a workshop, like Steam Workshop.
+- **Legal side:** player-made content needs its own terms, covering who owns it and what's allowed, before it's opened up ([Legal review](../planning/legal-review.md#the-list)).
 
 ## Sound
 

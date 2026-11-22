@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | [Game names](game-names.md): named all 625 gun versions, added each maker's short name and naming habit (renamed the DWM stand-in to Kellner, since Brenneke is a real company), and a first pass at all 133 armor pieces. [Legal review](legal-review.md): added PUBG look and feel, Copyright and AI, and hand-made touches. Took out the frying pan, PUBG's crate look, and copying PUBG's vehicle lineup; filed custom games, a map editor, and a workshop for later |
 | 2026-11-21 | Added game names for all 86 calibers to [Game names](game-names.md#cartridges); the owner approved the pilot gun names |
 | 2026-11-21 | [Game names](game-names.md): the makers and designation rule approved; named the four pilot guns as a sample; added maker habits and a cartridge rule, and cartridges to [Legal review](legal-review.md#the-list) |
 | 2026-11-21 | Added [Game names](game-names.md): naming rules, 49 first-pass gun makers covering all 120 families, a designation proposal, and our names for other games' terms. Renamed Jailbreak to Breakout on [Gameplay](../systems/gameplay.md#comeback-fight) |

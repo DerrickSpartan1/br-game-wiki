@@ -98,7 +98,7 @@ The circle's size, warning time, and how long each form lasts are TBD. Gas damag
 Random, like PUBG's:
 
 - **When and where:** a plane flies over at random times and drops a crate at a random point along its path. You hear the plane before the drop.
-- **The crate** comes down on a parachute with a flashing light, and red smoke marks it once it lands. It can land on a roof, in water, or somewhere hard to reach.
+- **The crate** comes down on a parachute and is marked once it lands, with our own look and signal (TBD), not PUBG's flashing light and red smoke. It can land on a roof, in water, or somewhere hard to reach.
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, and crate ammo ([Crate weapons](../weapons/crate/index.md)).
 - **How many:** TBD.
 

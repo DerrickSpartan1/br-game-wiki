@@ -66,7 +66,7 @@ Machine pistols that come from a main pistol, like the C96 Schnellfeuer, go in t
 
 ## Throwables
 
-Lots of throwables: every throwable PUBG has is in, more come from other games later, and each match rolls a random mix. Carry weights are PUBG's ([Carry weight](armor.md#carry-weight)).
+Lots of throwables: PUBG's list is the starting point, more come from other games later, and each match rolls a random mix. Each gets our own name and look. Carry weights are PUBG's ([Carry weight](armor.md#carry-weight)).
 
 | Throwable | What it does (PUBG) | Weight |
 | --- | --- | --- |

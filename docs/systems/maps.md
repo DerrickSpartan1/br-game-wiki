@@ -93,6 +93,10 @@ Islands kept for later maps. Only the layout matters, so the look of each doesn'
 | **Lastovo** | Croatia | 47 km², 9.8 × 5.8 km | One small town (about 350 people) and four hamlets, about 790 people in all | 46 hills, karst fields, and 60% forest | Good terrain for a map whose towns are mostly our own |
 | **Russky Island** | Russia | 97.6 km² | A former Soviet military island with old forts (Fort Russky, Fort Pospelov) and a huge bridge to the mainland | A 291 m mountain | Bigger than Erangel; would need scaling down |
 
+## Community maps (later)
+
+Players could build and share their own maps with an add-on map editor and a workshop ([Custom games and mods](gameplay.md#custom-games-and-mods-later)).
+
 ## Night maps
 
 Idea for night maps where flashlights and stealth matter. Night scopes like the StG 44's Vampir would shine there, and so would star rounds from grenade launchers, which light an area about 200 m across for about 40 seconds, and infrared star rounds that only show through night vision ([Attachments](attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)). Matches can now also run from late day into night, all night, or from night into morning ([Match flow](match-flow.md#time-passes)).

@@ -36,14 +36,14 @@ By reload style, the same styles the animations use ([Reload styles](../planning
 | `side mag` | 2.5 s | 3.1 s | Our pick, like the Uzi |
 | `top mag` | 2.8 s | 3.5 s | Our pick, between a box mag and a pan |
 | `pan` | 4.5 s | 5.5 s | DP-28 |
-| `belt` | 7.1 s | 8.2 s | M249 |
+| `belt` | 8.2 s | Same | M249's full reload; every belt reload is the full one, rounds left or not (owner, 2026-11-22) |
 | `tube` | 0.7 s per shell | Same | S1897 |
 | `stripper clip` | 0.75 s per round | 4.0 s for a full clip | Kar98k (its first round takes 1.7 s) |
 | `single rounds` | 0.75 s per round | Same | Kar98k's one-round load |
 | `en bloc` | Can't top off | 2.5 s | Our pick |
 | `break action` | 3.0 s | 3.0 s | S686 |
 | `single shot` | — | 3.0 s | Our pick |
-| `revolver` | 3.2 s | 3.2 s | R45 |
+| `revolver` | 0.75 s per round | Same | One round at a time (owner, 2026-11-22), like the Kar98k's one-round load. A [speed loader](attachments.md) fills every chamber at once in 3.2 s, PUBG's R45 reload |
 
 PUBG's quickdraw mags and shotgun bullet loops cut reload time by 30%, a starting point for the quick mag tiers ([Attachments](attachments.md)).
 
@@ -54,14 +54,15 @@ A reload keeps its progress (owner, 2026-11-22). Each reload is split into stage
 | Reload style | Stages, with each one's share of the reload time | Can it fire between stages? |
 | --- | --- | --- |
 | `box mag`, `grip mag`, `bullpup mag`, `side mag`, `top mag`, `pan` | Old mag out (40%), new mag in (60%). From empty: old mag out (30%), new mag in (45%), bolt or charging handle (25%) | With the mag out, only a round already in the chamber fires. Open-bolt guns have none, so they can't |
-| `belt` | Cover up and old belt out (40%), new belt in and cover down (60%). From empty, the last 15% is charging the gun | No, while the cover is up |
+| `belt` | Always the full reload (owner, 2026-11-22): cover up and old belt out (40%), new belt in and cover down (45%), charging the gun (15%), with rounds left or not | No, while the cover is up |
 | `tube`, `single rounds` | Each round is its own stage, as now | Yes; pressing fire already stops the reload |
 | `stripper clip` | A full clip from empty is one stage; topping off is one round at a time | Yes, between rounds |
 | `en bloc` | Partial clip out (35%), new clip in (65%). It can't be topped off ([Rules](../rules.md#en-bloc-clips)) | No, with the clip out |
 | `break action`, `single shot` | Open and empties out (35%), new rounds in (45%), closed (20%) | No, while it's open |
-| `revolver` | Cylinder out and empties out (35%), new rounds in (50%), closed (15%) | No, while the cylinder is out |
+| `revolver` | One round at a time (owner, 2026-11-22): cylinder out or loading gate open, with the empties out; then each round is its own stage; then closed. With a [speed loader](attachments.md): cylinder out and empties out (35%), every round in at once (50%), closed (15%) | No, while the cylinder is out or the gate is open |
 
-- **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).
+- **Mags and belts (owner, 2026-11-22):** a mag-fed gun does the full reload only when its chamber is empty; otherwise it just changes mags. A belt-fed gun always does the full reload.
+- **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag or belt comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).
 - **The old mag drops (owner, 2026-11-22):** the empty or partial mag falls to the ground and disappears after about 10 seconds. It's only for looks, so other players see the reload; you can't pick it up. Spent casings also stay on the ground about 10 seconds.
 - **What cancels a reload:** switching weapons, sprinting, holding X for melee or tapping it for a quick hit, getting knocked, vaulting or climbing, getting in a vehicle, starting a heal, and dropping the gun. Pressing fire only stops one-at-a-time loads ([Reloads work like PUBG](#reload-times)).
 - **The saved stage stays with the gun:** a gun dropped with its mag out lies on the ground with no mag, and whoever picks it up starts from "new mag in."

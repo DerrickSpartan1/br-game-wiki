@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Every revolver loads one round at a time; speed loaders are attachments that fill every chamber at once, spawning only with a revolver that can use one | [Staged reloads](../systems/handling.md#staged-reloads), [Attachments](../systems/attachments.md) |
+| 2026-11-22 | Every belt reload is the full reload (40% / 45% / 15%, 8.2 s). Mag-fed guns do the full reload only with an empty chamber. Pulled rounds go back to the backpack | [Staged reloads](../systems/handling.md#staged-reloads) |
 | 2026-11-22 | Skip paid Fab packs for now; a watch list keeps the Synty POLYGON packs, two Soviet apartment packs, an industrial pack, and a houses pack for later | [Fab watch list](art-and-sound.md#fab-watch-list) |
 | 2026-11-22 | Fab assets, tweaked, can be placeholders while testing, logged like any outside asset | [Art style](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-22 | Dropped the rule that dying loses half your crafting items; how taking things out of a match works is to be worked out | [Crafting](../systems/crafting.md) |

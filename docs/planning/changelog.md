@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Revolvers load one round at a time with speed loaders as attachments; belt reloads are always full ([Staged reloads](../systems/handling.md#staged-reloads)) |
 | 2026-11-22 | Added the [Fab watch list](art-and-sound.md#fab-watch-list) |
 | 2026-11-22 | Added Fab placeholders to the [art style](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-22 | Removed the dying rule from [Crafting](../systems/crafting.md) and opened a question on taking things out of a match |

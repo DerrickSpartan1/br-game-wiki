@@ -105,7 +105,7 @@ Battle rifles and DMRs share one roster category, but each gun uses the family t
 
 Some pistols, like the C96, also have a shoulder stock slot that takes the gun's real stock or a makeshift one.
 
-**Revolvers:** instead of mag tiers, revolvers get reload attachments like speedloaders (and similar, such as speed strips and moon clips) for faster reloads at the same capacity. If a revolver has a real higher-capacity cylinder, like 10 rounds where the normal one holds 8, that cylinder counts as its extended mag. This goes by whatever the real-world info supports.
+**Revolvers:** revolvers load one round at a time ([Staged reloads](handling.md#staged-reloads)). Instead of mag tiers, they get reload attachments like speed loaders (and similar, such as speed strips and moon clips) that fill every chamber at once, at the same capacity. A speed loader spawns only in matches where a revolver that can use one spawns (owner, 2026-11-22). If a revolver has a real higher-capacity cylinder, like 10 rounds where the normal one holds 8, that cylinder counts as its extended mag. This goes by whatever the real-world info supports.
 
 Magazines follow the same families, in four tiers:
 

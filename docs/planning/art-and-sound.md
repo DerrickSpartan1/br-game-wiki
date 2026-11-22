@@ -84,7 +84,7 @@ A hand-IK rig moves the off hand to each gun's own grip and magazine points, so 
 | `en bloc` | Clip pushed in from the top; it pings out when empty ([Rules](../rules.md#en-bloc-clips)) | [M1 Garand](../weapons/battle-rifles/m1-garand.md) |
 | `break action` | Open, swap shells, close | [Garrucha](../weapons/pistols/garrucha.md) |
 | `single shot` | Open the breech, swap the round | [FP-45 Liberator](../weapons/pistols/fp-45-liberator.md) |
-| `revolver` | Open the cylinder, dump, reload | [Janz](../weapons/pistols/janz.md) |
+| `revolver` | Open the cylinder or loading gate, dump, load one round at a time (all at once with a speed loader) | [Janz](../weapons/pistols/janz.md) |
 
 Some versions take two, like the Minimi's belt or M16 mags, listed as `belt, box mag`; the second comes with another mag tier. Tube and stripper-clip guns need a one-round insert that can stop partway. Every gun also needs equip, holster, and fire-mode switch moves. Versions that cycle by hand (pump, lever, straight-pull, two-pull, and bolt action) add one "work the action" move after each shot.
 

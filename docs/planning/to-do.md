@@ -124,6 +124,7 @@ In rough order of what the game needs first:
 - [ ] **Our own zone numbers:** tune the zone phases for our maps instead of Erangel's table ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - [ ] **Bots:** how bots fill the lobby and stay to fill empty slots ([Pre-match lobby](../systems/match-flow.md#pre-match-lobby)): how they move, loot, fight, and how good they are. The lead's lobby code leaves a spot for them.
 - [ ] **Art style: low poly (owner, 2026-11-21):** guns (and likely the rest) aim for a low-poly look for now: chunky, flat-sided shapes with hard edges and clear outlines, the basics right but not ultra realistic. There won't be low-poly examples of every gun, so real photos set the shapes and proportions, and the low-poly style sets how much detail goes in. The owner's four style examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/` (style only, source unknown, never copied). File it on [Art and sound](art-and-sound.md) and log the decision.
+- [ ] **M4A1 materials (owner OK'd, 2026-11-21):** the M4A1's quad rail uses aluminum, like the real KAC rail, not polymer as step 6 of the [M16 / M4 model guide](m16-m4-model.md) says (polymer stays for plastic handguards), and the buffer tube and charging handle are aluminum too. Update step 6's text.
 
 ## Later
 

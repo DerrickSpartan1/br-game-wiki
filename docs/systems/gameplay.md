@@ -133,10 +133,12 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 
 ## Built-in tools
 
-Every player carries a few tools that aren't items and take no slot. They're used with the interact key.
+Every player carries a few small tools for in-game actions. They aren't items or melee weapons, take no slot, and are used with the interact key.
 
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
+- **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is TBD. It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
+- **Screwdriver (idea):** what it does is TBD. Ideas: open electrical boxes to switch a building's lights off at night ([Time of day](match-flow.md#time-of-day-and-weather)), or unscrew vent covers for a quiet way in.
 - **More tools** can come later.
 
 ### Nailing doors shut

@@ -86,10 +86,10 @@ Then the build order that's left:
 
 - [ ] **The lobby, plane, parachutes, and zone** from [Match flow](../systems/match-flow.md): the pre-match lobby and countdown, a random plane path from off the map, PUBG-style parachutes in third person, and Erangel's zone phases with the damage that grows outside the zone.
 - [ ] **A graybox map:** Ischia's layout in blocks and ramps before art: coastline, squashed hills and the plateau, ring road, town spots, Marina, farm huts and tracks, the river and crater lake with their bridges, our own spots, and the vaults ([Maps](../systems/maps.md#the-first-map-ischia)).
-- [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
+- [x] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
-- [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
+- [x] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
 - [ ] **Generic names in game:** use the game names from the wiki, not the real ones, in data, menus, and text, and keep logos, maker's marks, and the Red Cross emblem off every model and texture ([Legal review](legal-review.md)).
 - [ ] **Game names in the game:** the owner approved them, so read gun, armor, cartridge, vehicle, and place names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
 - [ ] **Hand-made touches:** when a step has a part the owner can do by hand (in-game text, picking colors, placing things in the map editor, small model edits, recording sounds), offer it to him and log it ([Hand-made touches](legal-review.md#hand-made-touches)).
@@ -130,12 +130,12 @@ In rough order of what the game needs first:
 - [x] **Gun names sample:** check the four pilot guns' game names before the rest are done ([Gun names](game-names.md#gun-names)). Talk to a lawyer before selling the game.
 - [x] **Armor names:** check the first-pass armor names: fortifications, trees and stones, weather, insects, and historic helmets ([Armor](game-names.md#armor)).
 - [ ] **PUBG look and feel:** what to call the red zone, blue zone, and boost bar, and the victory line ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
-- [x] **Frying pan twist:** it wears through after one or two hits, depending on the caliber, then works only as melee ([Melee](../systems/gameplay.md#melee)).
+- [x] **Frying pan twist:** pans are class items that block only while raised and get holed after a set amount of gunfire ([Pans](../systems/class-items.md#pans)).
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
 ## Planner (Claude chat): wiki work (say the word)
 
-- [ ] **Next guns:** the Madsen ([LMG queue](queue.md#lmgs-in-progress)) and the Arisaka ([sniper queue](queue.md#snipers-in-progress)), then start the special category: bows, crossbows, and mortars.
+- [ ] **Next guns:** the Madsen ([LMG queue](queue.md#lmgs-in-progress)) and the Arisaka ([sniper queue](queue.md#snipers-in-progress)), then start the special category ([Special queue](queue.md#special)).
 - [ ] **Lookups:** energies for the rounds behind the 32 versions with no damage yet, each version's real bullet speed, the missing LMG fire rates, and attachment lists for the 5 gun pages without one ([Lookups](open-questions.md#lookups)).
 - [ ] **Mockups:** the HUD, inventory, and menus as designs before they're built in Unreal.
 - [x] **One model per version (owner, 2026-11-21):** every version should look like its own gun, so the M4, M4A1, AR-15, and so on each get their own model instead of sharing four looks. Shared parts (lower receiver, moving parts) can still be reused underneath. Update [One model per family](art-and-sound.md#one-model-per-version) and step 2 of the [M16 / M4 model guide](m16-m4-model.md) with what tells each version apart at a glance, and log the decision. The lead builds the M4A1 base model first and holds the other versions until then.
@@ -154,4 +154,4 @@ In rough order of what the game needs first:
 
 - [ ] Epic Online Services (free): matchmaking, voice, and Easy Anti-Cheat.
 - [ ] A Steam page ($100 through Steam Direct).
-- [ ] The robot characters, once the mannequins have done their job ([Robot character concept](idea-inbox.md#robot-character-concept)).
+- [ ] The robots as PvE enemies, starting with vault guards ([Robot guards](../systems/match-flow.md#robot-guards-idea)).

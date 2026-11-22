@@ -80,3 +80,4 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Remington 700 offshoots (snipers):** the Model Seven carbine (18.5 in barrel) and the USMC's Mk 13 Mod 7 (.300 Winchester Magnum), which replaced the M40.
 - **AI offshoots (snipers):** the AX series (AXMC, AX308, AX50, AXSR) and the US Navy's Mk 13.
 - **Winchester 1894 offshoots (snipers):** the Big Bore models (.307, .356, and .375 Winchester, .444 and .450 Marlin), 7-30 Waters, the .38-40, .44-40, .38 Special, and .44 Special models, and the Model 9410 .410 shotgun.
+- **Darne portable punt gun (crate, later):** a shoulder-fired punt gun with about a 1-inch bore, made from 1905 to the 1930s. Full-size punt guns were boat-mounted, up to about 200 lb and 10 ft long ([Wikipedia: Punt gun](https://en.wikipedia.org/wiki/Punt_gun), [Forgotten Weapons](https://www.forgottenweapons.com/darne-canardiere-portatif-shoulder-fired-punt-gun/)).

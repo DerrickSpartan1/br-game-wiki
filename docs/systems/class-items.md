@@ -130,7 +130,7 @@ Approved by the owner on 2026-11-22, with his notes. Each is something real, ins
 | **Emergency parachute** | PUBG's Haven map | Jump from somewhere high safely, but you're easy to spot |
 | **Field medic bag** | PUBG's EMT Gear | Faster healing and revives, and you can heal squadmates |
 | **Self-revive kit** | PUBG's Self-AED | Pick yourself up once when knocked |
-| **Tactical pack** | PUBG's Tactical Pack | Yes, but what it does should fit our game better than PUBG's four extra slots (open) |
+| **Tactical pack** | PUBG's Tactical Pack | Holds one more gun, with its attachments (owner, 2026-11-22). You can't fire it from the pack; swapping it with a gun you're carrying takes a few seconds (our pick) |
 | **Ammo bag** | Battlefield's support class | Refills your squad's guns once, whatever the caliber |
 | **Vehicle repair kit** | Many games | Fixes a damaged vehicle |
 | **Breaching charge** | Rainbow Six breach charge and Thermite | Blows a hole in a breakable wall or door, very loudly |

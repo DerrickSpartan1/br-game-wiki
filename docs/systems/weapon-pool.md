@@ -44,7 +44,7 @@ Crate weapons come from an exclusive list of guns too powerful or special for th
 - **Belt-fed guns too fast for the ground,** like the [MG 42 / MG3](../weapons/crate/mg-42.md) family, as PUBG did with its MG3 ([Starting damage](starting-damage.md#crate-check-for-fast-firing-guns)).
 - **The flash shield,** a ballistic shield with flashbangs on the front ([Class items](class-items.md)).
 - **Mines,** like the claymore and the bouncing betty, as crate-only class items ([More class items](class-items.md#more-class-items)).
-- **A minigun and a flamethrower** (owner, 2026-11-22). A punt gun is pending: the real ones were boat-mounted.
+- **A minigun and a flamethrower** (owner, 2026-11-22). The Darne portable punt gun comes later ([Add later](../planning/add-later.md)).
 
 Specific guns are listed in the [weapon roster](../weapons/index.md). Where they spawn on the map, and how often, is on [Loot and spawning](loot.md).
 

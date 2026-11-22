@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | The tactical pack holds one more gun. The Darne portable punt gun goes on the add-later list | [More class items](../systems/class-items.md#more-class-items), [Add later](add-later.md) |
 | 2026-11-22 | Twenty more class items approved (scouting, traps, getting around, support, breaching), with a combined grapple and rappel kit and crate-only mines | [More class items](../systems/class-items.md#more-class-items) |
 | 2026-11-22 | New special gun groups: black powder, underwater guns (with spearguns, saved for water maps), air guns, survival guns, and oddities. A minigun and a flamethrower go in crates | [Special weapons](../systems/weapon-pool.md#special-weapons) |
 | 2026-11-22 | Rocket launchers are crate-only class items, not crate weapons | [Class items](../systems/class-items.md) |

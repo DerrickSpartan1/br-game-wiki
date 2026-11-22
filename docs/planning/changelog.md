@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Saved the robot concept for possible PvE enemies in the [idea inbox](idea-inbox.md#robot-character-concept) |
 | 2026-11-22 | Added [First person](../systems/gameplay.md#first-person) and the [Lighting look](art-and-sound.md#lighting-look) for the lead; set the robot character concept aside |
 | 2026-11-22 | Filed safe for stowing only on [Gameplay](../systems/gameplay.md#hud-and-inventory) and fixed the [M16 / M4 model guide](m16-m4-model.md)'s selector check |
 | 2026-11-22 | Added the small crowbar and screwdriver ideas to [Built-in tools](../systems/gameplay.md#built-in-tools) |

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Player characters are PUBG-like humans you dress up, not robots. The robots are saved for something else, maybe PvE | [Your character](../systems/skins.md#your-character), [Idea inbox](idea-inbox.md#robot-character-concept) |
 | 2026-11-22 | Safe isn't on the fire-mode key. A gun goes to safe only when stowed (e.g. holding X for melee) and returns to the last chosen fire mode when drawn; the draw animation will show that later (logged by the lead) | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-22 | No super realistic lighting and reflections for now: guns looked too shiny under Unreal's default lighting, so gun materials go more matte and the lighting look gets set later (logged by the lead) | [Lighting look](art-and-sound.md#lighting-look) |
 | 2026-11-22 | First person should look like PUBG's: the gun low and right, angled in, left hand on the handguard from below, sights near screen center (logged by the lead) | [First person](../systems/gameplay.md#first-person) |

@@ -10,7 +10,8 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Recon drone:** short battery life; scouts one building or compound.
 - **Bomb drone:** one-time use. Reviving exists, so being taken out by a bomb drone shouldn't feel like a total game over.
 - **Non-lethal grenade launchers:** these go in the class item pool; lethal ones are crate-only.
-- **Mortars:** indirect fire, the one lethal launcher in the class pool ([Mortars](#mortars)).
+- **Mortars:** indirect fire, the one lethal launcher in the ground class pool ([Mortars](#mortars)).
+- **Rocket launchers (crate-only):** like the RPG-7, in the class slot, found only in crates (owner, 2026-11-22).
 - **Ballistic shield:** a handheld shield that spawns in the world ([Shields](#shields)).
 - **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.
 - **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones) and from tear-gas rounds.
@@ -90,7 +91,7 @@ Hits to kill to the body: 2 with no vest or through tier 1, and 3 through tier 2
 
 Class items for breaking in, and last-ditch weapons when the chance comes. Bigger hammers and other breaching tools all work like the sledgehammer. Owned melee weapons and the built-in small hammer can't breach ([Melee](gameplay.md#melee), [Built-in tools](gameplay.md#built-in-tools)).
 
-- **What they break:** doors, [nailed doors](gameplay.md#nailing-doors-shut), and the breakable walls ([Buildings](gameplay.md#buildings-materials)). Not vaults: those still need a key ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **What they break:** doors (nailed or not, [Nailing doors shut](gameplay.md#nailing-doors-shut)) and the breakable walls ([Buildings](gameplay.md#buildings-materials)). Not vaults: those still need a key ([Vaults and keys](match-flow.md#vaults-and-keys)).
 - **Durability:** each one wears out after a number of breaches, with a wall counting as about 3 doors. Hitting players doesn't wear them down.
 - **Hit hard:** all but the door ram hit for 80 to the body, like the pan, with a swing time set by the tool's weight ([Hitting with it](#hitting-with-it)).
 - **The roll:** like pans, each match rolls which kinds spawn (our pick: one or two kinds).
@@ -119,7 +120,7 @@ Mortars are class items, not special weapons (owner, 2026-11-22).
 | Spade mortar (Soviet 37 mm, 1939–42) | A shovel that's also a mortar: 1.5 kg, up to 250 m, no sight. A funny one |
 
 - **Shells:** loot of their own, like PUBG's 60 mm shells; a mortar spawns with a few (our pick: 4).
-- **Lethal, as an exception:** other lethal launchers stay crate-only ([Crate weapons](weapon-pool.md#how-the-randomness-works)).
+- **Lethal, as an exception:** other lethal launchers stay crate-only, rocket launchers as crate-only class items ([Crate weapons](weapon-pool.md#how-the-randomness-works)).
 - **Numbers** (range, blast, set-up time) are TBD.
 
 ## Sources

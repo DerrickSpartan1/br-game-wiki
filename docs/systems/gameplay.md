@@ -187,14 +187,13 @@ Every player carries a few small tools for in-game actions. They aren't items or
 
 ### Nailing doors shut
 
-First pass (our pick):
+The hammer drives nails through the door into its frame, so there's nothing to carry (owner, 2026-11-22). First pass (our pick, timing the owner's):
 
-- **Boards:** loot found in and around buildings, like sheds, farms, and building sites. One door takes 2 boards.
-- **Wood doors only:** metal doors can't be nailed.
+- **Wood doors only:** metal doors can't be nailed, and a door that's been destroyed can't be nailed shut.
 - **Nailing:** about 4 seconds per door, from either side. The hammering is loud, so players nearby hear it.
-- **Getting through from outside:** shooting the boards out is easy with any gun. Each board breaks after about 60 damage of gunfire: about 2 rifle shots or 3 pistol shots, or one close buckshot blast for both. A [breaching tool](class-items.md#breaching-tools) also works (a nailed door counts as 2 doors of its durability), and so do explosives.
-- **From inside:** anyone can pry the boards off with their own hammer in about 3 seconds, quietly, and gets the boards back.
-- **Windows stay open:** windows can't be boarded, so there's always a way in.
+- **Getting through from outside:** break the door. Shooting it is easy with any gun: a wood door breaks after about 120 damage of gunfire, about 3 rifle shots, 4 pistol shots, or one close buckshot blast. A [breaching tool](class-items.md#breaching-tools) or explosives also work. A broken door is gone for the match.
+- **From inside:** pull the nails with the hammer's claw in about 3 seconds, quietly, and the door works again.
+- **Windows stay open:** windows can't be nailed, so there's always a way in.
 
 ## Dog tags
 

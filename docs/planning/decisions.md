@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Rocket launchers are crate-only class items, not crate weapons | [Class items](../systems/class-items.md) |
+| 2026-11-22 | Throwing knives: all three landing on the body do 60 in all (20 each), so they never kill a healthy player alone | [Throwing knives](../systems/weapon-pool.md#throwing-knives) |
+| 2026-11-22 | Nailing a door uses nails only, no boards to carry. A destroyed door can't be nailed, and breaking a nailed door is how you get through | [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut) |
 | 2026-11-22 | Mortars are class items. Special weapons are bows, crossbows, spearguns, and slingshots | [Mortars](../systems/class-items.md#mortars), [Special weapons](../systems/weapon-pool.md#special-weapons) |
 | 2026-11-22 | The vehicle lineup: an Eastern Bloc stand-in for each PUBG vehicle, plus a tractor and a 6x6 truck, with Russian nature and animal names | [Vehicles and water](../systems/gameplay.md#vehicles-and-water), [Game names](game-names.md#vehicles) |
 | 2026-11-22 | The first map is Teplov, with our own Eastern European town and spot names | [Places](game-names.md#places) |

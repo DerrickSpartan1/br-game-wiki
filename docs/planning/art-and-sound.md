@@ -37,6 +37,23 @@ Guns and characters are low poly while the game is tested. The final game will l
 
 **Swapping in later (our pick):** the test models set the real sizes, moving parts, attach points, bones, and animations, so the final models keep those and drop in over the test ones without redoing the code.
 
+## Lighting look
+
+No super realistic lighting or reflections for now: guns looked too shiny under Unreal's default range lighting (owner, 2026-11-22). The aim is closer to PUBG's 2017–2018 look: natural daylight, soft and fairly flat, with haze in the distance, and a world that feels built from real things but abandoned. First pass for the lead (our pick, to tune by eye):
+
+| What | For testing | Why |
+| --- | --- | --- |
+| Gun materials | Coated parts (black anodized aluminum, Parkerized or blued steel, polymer): Metallic 0, Roughness 0.6 to 0.8. Bare steel that shows (bolt, barrel crown, worn edges): Metallic 1, Roughness 0.4 to 0.6 | Most of the shine comes from low roughness. Epic: Metallic is 0 or 1, and Roughness, not Specular, is what makes a surface matte |
+| Reflections | Lumen, the project default, with the rougher materials. If guns still look glassy, try Reflection Method: Screen Space | Fewer sharp reflections |
+| Global illumination | Lumen, the default, for now | Its cost with 100 players gets checked later |
+| Exposure | A narrow auto exposure range (Min and Max EV100 about 1 stop apart) with slow adaptation. At the range, lock it (Min equal to Max) | Walking in and out of buildings shouldn't swing the brightness far, and a locked exposure keeps material checks fair |
+| Sun and shadows | One sun, soft shadow edges, and enough sky light that shadows are never black | Players in shade stay visible |
+| Haze | Light exponential height fog, so far hills fade to blue-gray | PUBG's hazy horizon. Heavy fog is a weather type ([Match flow](../systems/match-flow.md#time-of-day-and-weather)) |
+| Post effects | Light bloom; no lens flares, film grain, chromatic aberration, or heavy vignette; motion blur off | A clean, readable picture |
+| Color | Natural, a little muted | Grounded, like the rest |
+
+**Final product:** realistic lighting closer to PUBG's, set with the final art pass ([Art style](#art-style-low-poly-for-testing)).
+
 ## One model per version
 
 Every version looks like its own gun (owner, 2026-11-21), so the M4, M4A1, AR-15, and so on each get their own model instead of sharing a few looks.
@@ -185,6 +202,8 @@ before you do it:
 
 ## Sources
 
+- [Epic: Physically based materials](https://dev.epicgames.com/documentation/en-us/unreal-engine/physically-based-materials-in-unreal-engine) · [Epic: Auto exposure](https://dev.epicgames.com/documentation/en-us/unreal-engine/auto-exposure-in-unreal-engine) · [Epic: Lumen global illumination and reflections](https://dev.epicgames.com/documentation/en-us/unreal-engine/lumen-global-illumination-and-reflections-in-unreal-engine)
+- [Green Man Gaming: Interview with PUBG art director Tae-seok Jang](https://www.greenmangaming.com/ru/intel-feature/playerunknowns-battlegrounds/interview-pubg-art-director-tae-seok-jang/) (real-life objects with an abandoned look)
 - [Anthropic: Claude for Creative Work (April 28, 2026)](https://www.anthropic.com/news/claude-for-creative-work)
 - [Claude: Blender connector](https://claude.com/connectors/blender)
 - [Classmethod: Using the Claude Blender connector in Claude Desktop and Claude Code](https://dev.classmethod.jp/en/articles/claude-blender-connector-desktop-and-code/)

@@ -19,6 +19,38 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 - **Ping:** middle mouse marks enemies, loot, and places for your squad, and means different things depending on what you aim at, like Apex's.
 - **Inventory (Tab):** vicinity, backpack, gear (helmet, vest, backpack, and outfit slots for skins), and the weapons with their attachment slots. Hovering a gun shows its version: cartridge, fire modes, rate, and mag. You can still move with it open.
 
+## First person
+
+The view and the way guns are held look like PUBG's first person (owner, 2026-11-22). Two PUBG screenshots are in the game repo at `Art/Reference/FirstPerson/`, for reference only.
+
+- **Field of view:** a slider from 80 to 103, with 90 as the default, like PUBG's first person. Both are horizontal, measured on a 16:9 screen, so the numbers carry straight over to Unreal's camera. Parachuting is third person, with a fixed view.
+- **The gun's own view:** the gun draws with its own field of view and scale, so it never pokes through walls and stays the same size whatever the slider says (our pick). That's Unreal's First Person Rendering, already set up from the template ([Animation](../planning/art-and-sound.md#animation)).
+
+### At the hip
+
+- **Low and right:** the gun sits in the lower right of the screen, angled in toward the center, with the stock at the shoulder.
+- **Hands:** the right hand on the grip, and the left hand under the handguard from below.
+- **Clear center:** the top of the gun stays below the crosshair, so the middle of the screen is open.
+- **Hip fire** goes toward the crosshair, with the category's hip spread ([Handling](handling.md#first-pass)).
+
+### Aiming down sights
+
+- **Centered:** the gun comes up and the sight lines up with the exact center of the screen, so you aim where the crosshair was.
+- **Speed:** each category's ADS time ([Handling](handling.md#first-pass)).
+- **Zoom:** iron sights and 1x sights zoom in a little (our pick; how much is TBD). Scopes zoom to their power ([Attachments](attachments.md)).
+
+### Arms and sleeves
+
+- **Your outfit shows:** the arms wear the jacket or shirt sleeves and gloves from your wardrobe slots, and show bare arms in your skin tone when those are off ([Wardrobe](skins.md#wardrobe), [Your character](skins.md#your-character)).
+
+### The character for now
+
+1. **Now:** the template's mannequin, already in the project.
+2. **Next:** the low-poly male and female test bodies, one standard face each ([Your character](skins.md#your-character)).
+3. **Final:** characters closer to PUBG's ([Art style](../planning/art-and-sound.md#art-style-low-poly-for-testing)).
+
+Both bodies share one skeleton, one hitbox, and the same first-person arm setup, so every gun and animation works on either (our pick).
+
 ## Knockdowns & revives
 
 1. At zero health you're knocked down. You can crawl, but you leave a blood trail.
@@ -221,4 +253,5 @@ Cheaters are a real problem. The game uses Easy Anti-Cheat, free through Epic On
 
 ## Sources
 
+- [Esports Tales: PUBG field of view](https://www.esportstales.com/pubg/the-best-fov-field-of-view) (80 to 103, default 90, horizontal)
 - [PUBG Wiki: Vehicles](https://pubg.wiki.gg/wiki/Vehicles) (seats and top speeds) · [Dexerto: PUBG vehicles](https://www.dexerto.com/wikis/pubg/vehicles/) (the full list)

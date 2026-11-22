@@ -28,7 +28,7 @@ Things that shape it:
 
 ## Robot character concept
 
-Inspiration only, not decided. The owner's reference is SHEIK MAINLAND's FENRIR A6 Assault Type, a 1/18-scale mecha model kit (11.2 cm tall), seen in shop videos and photos from ToyForge. Search "Sheik Mainland Fenrir A6" to find the photos again; they aren't stored here, since they're someone else's product images and this wiki is public. Some of the shop posts are tagged as containing AI-generated media, so the real kit may differ. Any robot in the game needs its own original design, not a copy of this kit.
+Set aside on 2026-11-22: characters are human, like PUBG's ([Your character](../systems/skins.md#your-character)). Kept here for later. Inspiration only, not decided. The owner's reference is SHEIK MAINLAND's FENRIR A6 Assault Type, a 1/18-scale mecha model kit (11.2 cm tall), seen in shop videos and photos from ToyForge. Search "Sheik Mainland Fenrir A6" to find the photos again; they aren't stored here, since they're someone else's product images and this wiki is public. Some of the shop posts are tagged as containing AI-generated media, so the real kit may differ. Any robot in the game needs its own original design, not a copy of this kit.
 
 What stands out in the references:
 

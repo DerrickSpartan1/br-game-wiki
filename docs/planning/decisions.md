@@ -5,8 +5,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-22 | Safe isn't on the fire-mode key. A gun goes to safe only when stowed (e.g. holding X for melee) and returns to the last chosen fire mode when drawn; the draw animation will show that later (logged by the lead) | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
-| 2026-11-22 | No super realistic lighting and reflections for now: guns looked too shiny under Unreal's default lighting, so gun materials go more matte and the lighting look gets set later (logged by the lead) | [Art and sound](art-and-sound.md), [To-do](to-do.md) |
-| 2026-11-22 | First person should look like PUBG's: the gun low and right, angled in, left hand on the handguard from below, sights near screen center (logged by the lead) | [Gameplay](../systems/gameplay.md), [To-do](to-do.md) |
+| 2026-11-22 | No super realistic lighting and reflections for now: guns looked too shiny under Unreal's default lighting, so gun materials go more matte and the lighting look gets set later (logged by the lead) | [Lighting look](art-and-sound.md#lighting-look) |
+| 2026-11-22 | First person should look like PUBG's: the gun low and right, angled in, left hand on the handguard from below, sights near screen center (logged by the lead) | [First person](../systems/gameplay.md#first-person) |
 | 2026-11-21 | Folding rear iron sights fold flat when an optic is attached and stand up without one (logged by the lead) | [M16 / M4 model](m16-m4-model.md) |
 | 2026-11-21 | Gun models take shapes and proportions from real photos; the M4A1's colors are approved (black aluminum, dark steel, black polymer) (logged by the lead) | [Art and sound](art-and-sound.md), [M16 / M4 model](m16-m4-model.md) |
 | 2026-11-22 | The built-in small hammer nails wood doors shut with boards, so attackers have to shoot the boards out (easy with any gun), breach, or use a window. Windows can't be boarded | [Gameplay](../systems/gameplay.md#nailing-doors-shut) |

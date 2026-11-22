@@ -43,7 +43,7 @@ Checked in November 2026, before choosing Unreal. Unity was the only close alter
 - [x] **Epic Games Launcher**, then **Unreal Engine 5.8** from it.
 - [x] **Visual Studio 2026**, which Epic recommends for general development, with the C++ game development workload. Rider and VS Code also work.
 - [x] **Git for Windows** with **Git LFS**. Claude Code also uses Git for Windows for its Bash tool.
-- [x] **Blender 5.2 LTS** (supported until July 2028) for models: robot characters, guns, and props.
+- [x] **Blender 5.2 LTS** (supported until July 2028) for models: characters, guns, and props.
 - [x] **The Claude desktop app**, which includes Claude Code. The terminal version installs from [Claude Code setup](https://code.claude.com/docs/en/setup); run `claude doctor` to check it.
 - [ ] Later: the engine source from GitHub, built in Visual Studio, for the dedicated server.
 

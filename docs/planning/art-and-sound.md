@@ -13,7 +13,7 @@ How each gun gets a model, animations, and sounds. The bar is "good enough to ge
 - Parts split the way skins will split them: main gun, suppressor, and other parts each take their own skin later ([Skins](../systems/skins.md)).
 - Sounds that tell each family apart up close and tell you how far away a shot is ([Gameplay: sound is a major focus](../systems/gameplay.md#sound)).
 
-**Not now:** detailed textures, wear, inspect animations, and skins themselves.
+**Not now:** detailed textures, wear, inspect animations, and skins themselves. Inspects come later, including one for every melee weapon ([Melee](../systems/gameplay.md#melee)).
 
 **Never:** logos, maker's marks, serial numbers, or the Red Cross emblem on any model. In game, guns go by their [game names](game-names.md) ([Legal review](legal-review.md)).
 

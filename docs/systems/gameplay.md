@@ -119,6 +119,7 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
     | Pans | Frying pan, cast-iron skillet, wok, saucepan (above) |
 
     - **What sets them apart:** damage, swing speed, reach, and how fast you run with it out. Only pans block bullets. Numbers TBD.
+    - **Inspects (decided):** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder. Part of why there are so many kinds.
     - **Where they spawn (idea):** where they'd really be: farm tools on farms, kitchen things in houses, tools in garages and the quarry, military knives and entrenching tools at military spots, and swords rarely, like in vaults.
 
 ## Dog tags

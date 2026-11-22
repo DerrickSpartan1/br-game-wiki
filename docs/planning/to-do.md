@@ -45,6 +45,24 @@ When you tell the lead "check the planner's list," it works through this section
 - Reloads are built so staged reloads can resume from a saved step; the rule waits for the Planner item "Staged reloads".
 - Next for the lead: muzzle flash and shells, or the first-person reload animation (owner to pick), then the graybox map, then time of day and weather.
 
+**Lead's report, 2026-11-22, evening** (all pushed to GitHub, up to `5eb6444`):
+
+- Done: **step 8 of the M4 model guide.** Muzzle flash and spent cases on every gun (`2deac9b`); a first-person reload layer and authored first-person M4A1 reloads, where the gun tilts, the old mag drops, a fresh mag comes from the chest pouch, and the thumb presses the bolt catch on empty reloads (`62ca327`, `27d4b90`, `a955aad`, grips set by the owner in `5eb6444`). Also: the first-person reload follows view pitch, and the first-person arms got their own materials so hands near the eye no longer tear (`7853f89`, `e3ba167`).
+- Done: **dropped mags and casings** (owner, logged in [Staged reloads](../systems/handling.md#staged-reloads)). They stay about 10 s, even after you switch guns, and a reload cancelled before the mag comes out drops nothing (`7853f89`). Until staged reloads are built, a reload cancelled after the drop shows the gun with a mag again.
+- **First playtest, 2026-11-22.** The owner tests with a checklist page after each stretch of work, about once a day. Good: range start, lighting, ADS, moving parts, recoil, flash, shells, reloads with rounds left, the reload staying put while looking around. "Good enough for now": mag drop, the empty reload, others' reloads. Not tested yet: healing, armor, dummies, knockdowns, zone, red zone, attachments, the local match. Fixes the lead takes on:
+    - The M4A1 reads too rounded; go back to a squarer low-poly shape, then redo its colors (they look too alike in hand).
+    - A gun on the ground loses its materials; it must keep them.
+    - The range's gun pedestals should let you pick a specific weapon, not only roll one.
+    - The empty reload's bolt-catch press looks odd; change it to a clean press or the M4 "slap" on the bolt catch.
+    - Clearer steps for starting a local match, and a way to slow the game down for checks (the owner didn't know `slomo`).
+    - Fresh guns spawn unloaded with the bolt forward, and the first reload still plays the bolt-catch press; the owner is fine with that.
+- **For the planner (owner, 2026-11-22):**
+    - **A semi-playable test mode**, for later: a way to enter a small arena and fight a bot, so armor and healing can be tested in a real fight. Please write it up (how you get in, what the bot does, what loadouts you get), and how it connects to the bots design.
+    - **Weapon sway:** research whether PUBG (2017–2018) has weapon sway at the hip and in ADS, how much, and whether it changes with stance, breathing, or holding breath, so the handling page can say what ours does.
+    - **The player character:** the white Unreal mannequin makes it hard to judge how the gun is held. The owner wants a real player model in before judging the hold. Which character, and in what order (arms and sleeves first?), per [Your character](../systems/skins.md#your-character).
+    - **A settings menu**, so the field of view (and later keys and sensitivity) can be changed in game. The owner will test the FOV there.
+- Next for the lead: the fixes above (M4A1 squarer, materials on dropped guns, pedestal picker, bolt-catch press, test instructions), then the graybox map, then time of day and weather.
+
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text

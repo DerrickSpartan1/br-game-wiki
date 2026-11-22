@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Removed the dying rule from [Crafting](../systems/crafting.md) and opened a question on taking things out of a match |
 | 2026-11-22 | Scrap as the one currency; first pass for [workbench](../systems/crafting.md#workbenches) costs, times, counts, and earning scrap |
 | 2026-11-22 | Turned the scrap machine into [workbenches](../systems/crafting.md#workbenches) for in-match crafting |
 | 2026-11-22 | Added PUBG's [attachment effects](../systems/attachments.md#effects-first-pass-from-pubg) and the throwable and crate map caps; ticked handling, shields, river, and map caps |

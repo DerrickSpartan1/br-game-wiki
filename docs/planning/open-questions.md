@@ -25,7 +25,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Comeback:** the comeback fight is filed, but the owner isn't sure what form a Gulag-style comeback should take ([Gameplay](../systems/gameplay.md#comeback-fight)).
-- **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match; confirm that dying loses half your scrap; what scrap buys out of game ([Crafting](../systems/crafting.md#workbenches)).
+- **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match; what scrap buys out of game ([Crafting](../systems/crafting.md#workbenches)).
 - **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
 - **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
@@ -38,6 +38,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Characters:** whether hair, eye, and skin colors are a full color picker or a set of grounded colors; which options are free and which unlock; and whether players can save several characters ([Your character](../systems/skins.md#your-character)).
 - **PvE:** robot guards in vaults are the first form ([Robot guards](../systems/match-flow.md#robot-guards-idea)); what else PvE could be, and the guards' numbers.
 - **New class items:** how to make the signal jammer worth the slot, and how gas, the gas trap, and the gas mask balance ([More class items](../systems/class-items.md#more-class-items)).
+- **Taking things out of a match:** how scrap, quest items, and skin-crafting items come out with you, and what you keep when you die or win ([Crafting](../systems/crafting.md)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).

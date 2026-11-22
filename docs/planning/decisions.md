@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Dropped the rule that dying loses half your crafting items; how taking things out of a match works is to be worked out | [Crafting](../systems/crafting.md) |
 | 2026-11-22 | A reload drops the old mag: it falls to the ground and disappears after about 10 seconds (looks only; its rounds still go back to the backpack). Spent casings also stay about 10 seconds (logged by the lead) | [Staged reloads](../systems/handling.md#staged-reloads) |
 | 2026-11-22 | One kind of scrap. Unspent scrap comes out of the match as the game's main currency. First-pass workbench costs, times, and counts set | [Crafting](../systems/crafting.md) |
 | 2026-11-22 | The scrap machine is in-match crafting: workbenches around the map where you spend scrap to make things. No crafting from the backpack, and no boarding up with planks | [Workbenches](../systems/crafting.md#workbenches) |

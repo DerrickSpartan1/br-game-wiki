@@ -37,12 +37,13 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Red zone forms:** which new forms to add; ideas so far are firebombing, a creeping barrage, and EMP ([Match flow](../systems/match-flow.md#red-zones)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
 - **Vehicles per map:** which vehicles each map gets ([Gameplay](../systems/gameplay.md#vehicles-and-water)).
-- **Melee and tools:** check the first-pass numbers for melee, pans, the sledgehammer, and throwing knives, and what the built-in small hammer does ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Built-in tools](../systems/gameplay.md#built-in-tools)).
+- **Melee and tools:** check the first-pass numbers for melee, pans, breaching tools, and throwing knives, and what the built-in small hammer does ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Built-in tools](../systems/gameplay.md#built-in-tools)).
+- **Characters:** whether they follow the low-poly style or PUBG's more realistic look; whether hair, eye, and skin colors are a full color picker or a set of grounded colors; which options are free and which unlock; and whether players can save several characters ([Your character](../systems/skins.md#your-character)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).
-- **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with wire cutters (a melee item) or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md)).
+- **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with the built-in wire cutters or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md#built-in-tools)).
 - **Briefcase spawns:** an idea, not decided. The AS Val and OTs-14 Groza came in real carry cases, so they could spawn as a briefcase find.
 
 ## Lookups

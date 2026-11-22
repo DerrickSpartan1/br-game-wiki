@@ -4,6 +4,8 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Added [Your character](../systems/skins.md#your-character): bodies, faces, and the customizing list |
+| 2026-11-22 | Turned the sledgehammer into a family of [breaching tools](../systems/class-items.md#breaching-tools) with first-pass numbers |
 | 2026-11-22 | Moved pans to [class items](../systems/class-items.md#pans) with a damage pool and harder hits, added the breaching sledgehammer, [throwing knives](../systems/weapon-pool.md#throwing-knives), bayonets, and [built-in tools](../systems/gameplay.md#built-in-tools) |
 | 2026-11-22 | Filed the owner's leaning: pans and a breaching sledgehammer as [class items](../systems/class-items.md#pans), fences cut without a tool, bayonets that spawn on some guns, and throwing knives you pick back up ([Melee](../systems/gameplay.md#melee)) |
 | 2026-11-21 | Proposed first-pass melee numbers and a pan count, more owned melee (hammers and others), and special found tools on [Gameplay](../systems/gameplay.md#melee) |

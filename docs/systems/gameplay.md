@@ -126,7 +126,7 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
     | Everyday | Umbrella, broom, chair leg, guitar, skateboard |
     | Joke and event rewards | A fish, a rubber chicken, a giant spoon |
 
-- **Pans and the breaching sledgehammer** are class items, not melee: the pan blocks bullets and the sledgehammer breaks in, and both hit harder than melee ([Class items](class-items.md#pans)).
+- **Pans and breaching tools** are class items, not melee: pans block bullets, and breaching tools (the sledgehammer, bigger hammers, an entry bar, and a door ram) break in. Both hit harder than melee ([Pans](class-items.md#pans), [Breaching tools](class-items.md#breaching-tools)). Owned hammers are the hand-sized ones; the big ones are breaching tools.
 - **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
 - **Throwing knives** are a throwable you pick back up ([Throwables](weapon-pool.md#throwing-knives)).
 - **Throwing your melee (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
@@ -136,7 +136,7 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 Every player carries a few tools that aren't items and take no slot. They're used with the interact key.
 
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
-- **Small hammer (ideas for what it does):** knock out a window quietly instead of shattering it, pry open small locked boxes and lockers for loot, or nail a door shut with boards found nearby.
+- **Small hammer (ideas for what it does):** knock out a window quietly instead of shattering it, pry open small locked boxes and lockers for loot, or nail a door shut with boards found nearby. It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
 - **More tools** can come later.
 
 ## Dog tags

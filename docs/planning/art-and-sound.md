@@ -29,6 +29,7 @@ Guns, and likely everything else, aim for a low-poly look for now (owner, 2026-1
 - **Style examples:** the owner's four examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/`. They're for style only: their source is unknown, so they're never copied, traced, fed to AI tools, or shipped ([Legal review](legal-review.md)).
 - **Polygon budget:** the budget in the game repo's `Art/GunConventions.md` is a ceiling; low-poly guns should land well under it.
 - **Outside models** (Fab or AI image-to-3D) come out more detailed than this, so they get simplified to the style.
+- **Characters:** like PUBG's and games in its style, with a male and a female body and full customizing ([Your character](../systems/skins.md#your-character)). Whether they're low poly too is open.
 
 ## One model per version
 

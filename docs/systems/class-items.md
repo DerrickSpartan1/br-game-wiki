@@ -17,7 +17,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.
 - **Pans:** a pan as a small shield that also hits hard ([Pans](#pans)).
-- **Breaching sledgehammer:** breaks doors and walls until it wears out, and hits hard ([Breaching sledgehammer](#breaching-sledgehammer)).
+- **Breaching tools:** the sledgehammer, bigger hammers, an entry bar, and a door ram. They break doors and walls until they wear out, and hit hard ([Breaching tools](#breaching-tools)).
 
 **No hero abilities,** but an ability from a hero shooter can become a class item, like the deployable zipline.
 
@@ -74,24 +74,37 @@ For scale, the [ballistic shield](#shields) takes 2,900.
 
 Class weapons hit harder than owned melee (our pick, from PUBG's pan):
 
-| | Pan | Sledgehammer | Owned melee, for comparison |
+| | Pan | Breaching tools | Owned melee, for comparison |
 | --- | --- | --- | --- |
 | Chest and stomach | 80 | 80 | 60 |
 | Head | 95 (never a one-shot) | 95 | 90 |
 | Neck | 67 | 67 | 63 |
 | Arms and legs | 48 | 48 | 36 |
 | Through tier 1, 2, 3 vests | 56, 48, 36 | 56, 48, 36 | 42, 36, 27 |
-| Time between swings | 0.8 s | 1.2 s (heavy) | 0.8 s |
+| Time between swings | 0.8 s | 1.0 to 1.5 s, by tool ([Breaching tools](#breaching-tools)) | 0.8 s |
 
 Hits to kill to the body: 2 with no vest or through tier 1, and 3 through tier 2 or 3, the same as PUBG's pan.
 
-## Breaching sledgehammer
+## Breaching tools
 
-A class item for breaking in, and a last-ditch weapon when the chance comes.
+Class items for breaking in, and last-ditch weapons when the chance comes. Bigger hammers and other breaching tools all work like the sledgehammer. Owned melee weapons and the built-in small hammer can't breach ([Melee](gameplay.md#melee), [Built-in tools](gameplay.md#built-in-tools)).
 
-- **Breaks** doors and breakable walls fast, but loudly ([Buildings](gameplay.md#buildings-materials)).
-- **Durability:** it wears out after a number of breaches. First pass (our pick): 8 doors, or 3 walls, or a mix (a wall counts as about 3 doors). Hitting players doesn't wear it down.
-- **Hits hard:** 80 to the body, like the pan, but with a slow 1.2 s swing ([Hitting with it](#hitting-with-it)).
+- **What they break:** doors and the breakable walls ([Buildings](gameplay.md#buildings-materials)). Not vaults: those still need a key ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **Durability:** each one wears out after a number of breaches, with a wall counting as about 3 doors. Hitting players doesn't wear them down.
+- **Hit hard:** all but the door ram hit for 80 to the body, like the pan, with a swing time set by the tool's weight ([Hitting with it](#hitting-with-it)).
+- **The roll:** like pans, each match rolls which kinds spawn (our pick: one or two kinds).
+
+First pass (our pick):
+
+| Tool | Breaks | Lasts | Noise | Swing | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Sledgehammer | Doors and walls | 8 doors or 3 walls | Loud | 1.2 s | The baseline |
+| Demolition hammer | Doors and walls, a wall in fewer swings | 6 doors or 4 walls | Very loud | 1.5 s | The biggest hammer; slows you a little while held |
+| Club hammer | Doors only | 6 doors | Loud | 1.0 s | A short, heavy hammer; the quickest swing |
+| Entry bar | Doors only | 12 doors | Quiet: pries a door open in about 2 s instead of smashing it | 1.0 s | Based on the Halligan bar; the quiet way in |
+| Door ram | Doors only, in one hit | 10 doors | Loud | None | Two hands on the ram, so it shoves instead: staggers a player, no damage, like the [shield](#ballistic-shield) bash |
+
+**Ideas:** bolt cutters for padlocked gates and sheds, if locked rooms come in.
 
 ## Sources
 

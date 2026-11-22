@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Characters look like PUBG's: a male or a female body with one standard face each, and hair, eyes, and everything else fully customizable, like The Finals | [Skins](../systems/skins.md#your-character) |
+| 2026-11-22 | Bigger hammers and breaching tools are class items like the sledgehammer: a demolition hammer, a club hammer, an entry bar, and a door ram. Owned hammers stay hand-sized, and the built-in small hammer can't breach | [Class items](../systems/class-items.md#breaching-tools) |
 | 2026-11-22 | Pans and a breaching sledgehammer are class items that hit harder than melee (80 to the body). Pans block more: a damage pool like the shields, raised to block. The sledgehammer wears out after breaches | [Class items](../systems/class-items.md#pans) |
 | 2026-11-22 | Throwing knives: a stack of 3 you pick back up, quiet, with limits so they aren't overpowered. Bayonets spawn on some guns that had a lug | [Throwables](../systems/weapon-pool.md#throwing-knives), [Melee](../systems/gameplay.md#melee) |
 | 2026-11-22 | Every player carries built-in tools that take no slot: wire cutters for fences, and a small hammer (what it does is TBD) | [Gameplay](../systems/gameplay.md#built-in-tools) |

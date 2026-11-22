@@ -12,7 +12,7 @@ Mounts never depend on crafting.
 
 ## Attachment slots
 
-Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. The set below comes from PUBG. Each attachment fits by family (see [Universal attachments](#universal-attachments)), and each gun page lists what it can take. How much each one helps is TBD.
+Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. The set below comes from PUBG. Each attachment fits by family (see [Universal attachments](#universal-attachments)), and each gun page lists what it can take. How much each one helps starts from PUBG's numbers ([Effects](#effects-first-pass-from-pubg)).
 
 **Muzzle** (the "barrel attachments" in the families below):
 
@@ -49,6 +49,31 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 - **Ammo loops:** faster one-round-at-a-time reloads, for tubes and stripper-clip guns ([Ammo](ammo.md#how-ammo-and-reloading-work)).
 
 **Magazine:** the four tiers below.
+
+### Effects (first pass, from PUBG)
+
+The owner's call (2026-11-22): PUBG's attachment effects are the base. These are PUBG's 2017–2018 numbers. Our grips shift recoil tendencies rather than a fixed pattern ([Rules](../rules.md#random-recoil)), so "recoil pattern" here means how strong the gun's random climb and drift are.
+
+| Attachment | Effect | Notes |
+| --- | --- | --- |
+| Compensator (rifles) | Recoil pattern −25%, sideways −10%, climb −15%, base spread −10% | Loud, like no muzzle |
+| Compensator (SMGs) | Recoil pattern −25%, sideways −20%, climb −25% | |
+| Compensator (DMRs and snipers) | Recoil pattern −25%, sideways −20%, climb −20% | |
+| Flash hider | Recoil pattern −10%, sideways −10%, climb −10% | Hides your muzzle flash |
+| Suppressor | Spread −5% | Quieter shots and no flash |
+| Choke | Pellet spread −18.2%, pellet speed +15.4% | Shotguns |
+| Duckbill | Narrower up and down, wider side to side | Shotguns; PUBG gives no numbers |
+| Vertical grip | Sideways −20%, recoil pattern −15% | |
+| Angled grip | Sideways −20%, recoil pattern −20%, aim down sights 10% faster | |
+| Half grip | Less climb and drift, settles faster | PUBG gives no numbers; TBD |
+| Thumb grip | Less climb, more drift, settles slower | PUBG gives no numbers; TBD |
+| Light grip | Settles faster, more climb and drift | PUBG gives no numbers; TBD |
+| Laser sight | Tighter hip fire | TBD |
+| Tactical stock | Kick −10%, sway −10%, recoil pattern −20%, settles 15% faster | |
+| Cheek pad | Kick −20%, sway −15%, climb −20% | DMRs and snipers |
+| Add-on stock (Uzi-style) | Climb −20%, recoil pattern −20%, settles 15% faster | From PUBG's Micro Uzi stock |
+| Ammo loops | Reload −30% | Kar98k-style loops also cut base spread 50% in PUBG |
+| Quick mag tiers | Reload −30% | ([Handling](handling.md#reload-times)) |
 
 ## Bipods
 
@@ -137,3 +162,5 @@ Lethal launcher rounds come only from crates, like lethal grenade launchers ([We
 | Thermobaric | 40mm M1060, made for bunkers, houses, and masonry | Big damage inside rooms |
 
 Sources: [Wikipedia: United States 40 mm grenades](https://en.wikipedia.org/wiki/United_States_40_mm_grenades) · [Inetres: 40mm low-velocity ammunition](https://inetres.com/gp/military/infantry/grenade/40mm_ammo.html) · [Wikipedia: GP-25](https://en.wikipedia.org/wiki/GP-25) · [Wikipedia: Rifle grenade](https://en.wikipedia.org/wiki/Rifle_grenade) · [Wikipedia: Schiessbecher](https://en.wikipedia.org/wiki/Schiessbecher) · [Lone Sentry: German rifle grenades](https://www.lonesentry.com/articles/ttt/german-rifle-grenades.html) · [Wikipedia: Propaganda-Gewehrgranate](https://en.wikipedia.org/wiki/Propaganda-Gewehrgranate)
+
+Attachment effects: [RankedBoost: PUBG attachments](https://rankedboost.com/playerunknowns-battlegrounds/attachments/) (2017–2018 numbers) · [PUBG Wiki: Mods](https://pubg.wiki.gg/wiki/Mods) (grip effects from Update 12)

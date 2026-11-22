@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Approved: the handling first pass (PUBG's numbers), the shields first pass, and the river route on the v4 mockup | [Handling](../systems/handling.md), [Shields](../systems/class-items.md#shields), [River](../systems/maps.md#river) |
+| 2026-11-22 | Attachment effects start from PUBG's numbers | [Attachments](../systems/attachments.md#effects-first-pass-from-pubg) |
+| 2026-11-22 | Map caps: 4 throwables per match (the smoke grenade always, plus 3 rolled) and 5 crate weapons | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |
 | 2026-11-22 | The tactical pack holds one more gun. The Darne portable punt gun goes on the add-later list | [More class items](../systems/class-items.md#more-class-items), [Add later](add-later.md) |
 | 2026-11-22 | Twenty more class items approved (scouting, traps, getting around, support, breaching), with a combined grapple and rappel kit and crate-only mines | [More class items](../systems/class-items.md#more-class-items) |
 | 2026-11-22 | New special gun groups: black powder, underwater guns (with spearguns, saved for water maps), air guns, survival guns, and oddities. A minigun and a flamethrower go in crates | [Special weapons](../systems/weapon-pool.md#special-weapons) |

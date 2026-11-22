@@ -28,10 +28,15 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | LMGs | Ground | 1 |
 | Snipers | Ground | 2 |
 | Special (bows, crossbows, black powder, underwater guns, air guns, survival guns, oddities, slingshots) | Ground | 2 |
-| Throwables (a good random mix) | Ground | Not set yet |
-| Crate weapons | Crates (exclusive list) | Not set yet |
+| Throwables (the smoke grenade always, plus 3 rolled) | Ground | 4 |
+| Crate weapons | Crates (exclusive list) | 5 |
 
 Lots of throwables, starting with every one PUBG has ([Throwables](#throwables)).
+
+**Map caps (2026-11-22):**
+
+- **Throwables:** 4 per match. The smoke grenade is in every match, and 3 more are rolled from the rest (owner). PUBG in 2017–2018 had four throwables, the frag, smoke, stun grenade, and Molotov, all in every match.
+- **Crate weapons:** 5 per match (our pick, from PUBG). PUBG's crate guns in 2017–2018 were the AWM, Groza, AUG A3, M249, and Mk14, plus the M24 until mid-2018. Crate-only class items (rocket launchers, mines, the flash shield) aren't counted in the 5.
 
 Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a musket, never two bows ([Special weapons](#special-weapons)). Mortars are class items ([Mortars](class-items.md#mortars)).
 
@@ -122,7 +127,7 @@ Lots of throwables: PUBG's list is the starting point, more come from other game
 - **Weights TBD:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade weren't found yet.
 - **Our own ideas:** an EMP grenade and a gas grenade.
 - **From other games:** to add later.
-- **Map max:** how many throwables a match can roll is still TBD (see the table above).
+- **Map max:** 4 per match, the smoke grenade plus 3 rolled ([Map caps](#how-the-randomness-works)).
 
 ### Throwing knives
 
@@ -137,6 +142,7 @@ Good for stealth when you have the upper hand, so they need limits to stay fair.
 
 ## Sources
 
+- [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop) (crate weapons over time) · [Samurai Gamers: PUBG thrown weapons](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/thrown-weapons-list/)
 - [Wikipedia: Repeating crossbow](https://en.wikipedia.org/wiki/Repeating_crossbow)
 - [PUBG Wiki: Grenades](https://pubg.wiki.gg/wiki/Grenades) (weights) · [PUBG Wiki: C4](https://pubg.wiki.gg/wiki/C4)
 - [Gamertag Mythras: PUBG throwables and utility](https://gamertagmythras.com/blog/pubg-battlegrounds/pubg-throwables-utility-guide)

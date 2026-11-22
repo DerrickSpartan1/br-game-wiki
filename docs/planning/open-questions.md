@@ -8,19 +8,17 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo), [Grenade launchers](../systems/attachments.md#crate-rounds-lethal)).
 - **CS gas rounds:** whether launchers get tear gas later, which would need a gas effect of its own ([Grenade launchers](../systems/attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)).
 - **Handling numbers:** a first pass per category, from PUBG's numbers, is on [Handling](../systems/handling.md). ADS times aren't in PUBG's data, so those are our picks; all of it gets tuned in play testing.
-- **Attachment effects:** how much each muzzle, grip, and stock changes recoil, sway, and aim speed ([Attachments](../systems/attachments.md#attachment-slots)).
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
 - **SCAR-L and SCAR-H:** whether they share one mastery track and cosmetics, since they were built as one family with the same ergonomics, though the SCAR-H sits in battle rifles & DMRs ([FN SCAR-L](../weapons/assault-rifles/scar-l.md), [FN SCAR-H](../weapons/battle-rifles/scar-h.md)).
 - **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, lethal grenade launchers and launcher rounds, and belt-fed guns too fast for the ground, but other guns' spots are undecided, and crate balancing comes later (the MG 42 / MG3 family could earn back some of its cut damage then). Every crate already comes with attachments that fit its gun; one idea is that a crate gun could also be a normal gun dropped fully kitted ([Crate weapons](../weapons/crate/index.md)).
 - **M14 selector:** the standard M14 is select-fire for now, though most US rifles were issued locked to semi ([M14](../weapons/battle-rifles/m14.md)).
 - **AS Val and VSS:** whether they share one mastery track and cosmetics. They're twins from the same designers, with the same action and magazines, but they sit in different categories ([VSS Vintorez](../weapons/battle-rifles/vss.md)). One idea: twin guns in different categories share one mastery track while keeping separate roster entries ([Skins and mastery](../systems/skins.md#weapon-mastery)).
-- **Map caps:** the per-map max for throwables and crate weapons isn't set ([Weapon pool](../systems/weapon-pool.md)).
 - **Wear:** whether some items wear out. Current ideas: the makeshift suppressor and the StG 44's Krummlauf curved barrel (about 300 rounds in real life). Guns themselves never jam or overheat.
 
 ## Systems
 
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
-- **Shields:** whether the flash shield really uses the class slot; the first pass for shields is set ([Shields](../systems/class-items.md#shields)).
+- **Shields:** the first pass is approved; whether the flash shield really uses the class slot ([Shields](../systems/class-items.md#shields)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
 - **Game names:** the sizes of .45 Remington–Thompson and 6.5mm Fedorov; our words for the red zone, blue zone, and boost bar ([Game names](game-names.md), [PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
@@ -30,7 +28,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Scrap machine:** whether a scrap vending machine replaces in-match crafting for armor and gear, what it sells, and prices ([Crafting](../systems/crafting.md#scrap-machine-idea)).
 - **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
-- **First map river:** check the first-pass route, lake, and bridges on the v4 mockup ([Maps](../systems/maps.md#river)).
 - **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
 - **Healing variants:** whether the blood substitute injector also cuts gas damage ([Healing](../systems/healing.md#adrenaline)).
 - **Bodies:** what happens to a body once nobody can revive it but the player is still watching, and whether a looted body can still be revived ([Gameplay](../systems/gameplay.md#knockdowns-revives)).

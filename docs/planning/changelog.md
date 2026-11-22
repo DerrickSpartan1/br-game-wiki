@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Added PUBG's [attachment effects](../systems/attachments.md#effects-first-pass-from-pubg) and the throwable and crate map caps; ticked handling, shields, river, and map caps |
 | 2026-11-22 | Tactical pack holds a gun; Darne punt gun to add later; ticked healing and the dedicated server from the lead's report |
 | 2026-11-22 | Filed the owner's picks: [More class items](../systems/class-items.md#more-class-items), new [special weapon](../systems/weapon-pool.md#special-weapons) groups, and crate additions; queued 16 more special guns |
 | 2026-11-22 | Rocket launchers to crate-only class items; [throwing knife](../systems/weapon-pool.md#throwing-knives) damage cut; [nailing](../systems/gameplay.md#nailing-doors-shut) reworked to nails only |

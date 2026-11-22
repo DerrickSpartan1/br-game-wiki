@@ -31,7 +31,7 @@ Guns and characters are low poly while the game is tested. The final game will l
 - **Style examples:** the owner's four examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/`. They're for style only: their source is unknown, so they're never copied, traced, fed to AI tools, or shipped ([Legal review](legal-review.md)).
 - **Polygon budget:** the budget in the game repo's `Art/GunConventions.md` is a ceiling; low-poly guns should land well under it.
 - **Outside models** (Fab or AI image-to-3D) come out more detailed than this, so they get simplified to the style.
-- **Fab placeholders (owner, 2026-11-22):** store assets can stand in while we test, tweaked to fit: buildings, props, plants, vehicles, and the like. Each still goes in the asset log with its license, and gets replaced by our own later unless its license lets it stay. For example, Fab has low-poly Soviet apartment block packs that would suit Teplov's towns.
+- **Fab placeholders (owner, 2026-11-22):** store assets can stand in while we test, tweaked to fit: buildings, props, plants, vehicles, and the like. Each still goes in the asset log with its license, and gets replaced by our own later unless its license lets it stay. For example, Fab has low-poly Soviet apartment block packs that would suit Teplov's towns. Free assets first; paid ones wait ([Fab watch list](#fab-watch-list)).
 - **Characters** are low poly too: a male and a female body and full customizing ([Your character](../systems/skins.md#your-character)).
 
 **Final product:** closer to PUBG's realistic look, for guns and characters: more detail, real materials, and textures. Still our own models, textures, and colors, never PUBG's ([Legal review](legal-review.md#pubg-look-and-feel)).
@@ -143,6 +143,20 @@ Each layer gets several takes, and every shot picks one at random with a slight 
 - **Your own foley:** cloth, gear, and clicks recorded on a phone.
 
 Audacity (free) is enough to trim, fade, and level sounds. Keep raw sound libraries outside the repo; import only the sounds the game uses, since Git LFS space is limited.
+
+## Fab watch list
+
+Paid Fab packs the owner looked at on 2026-11-22, kept for later. Prices are rough, from the owner.
+
+| Pack | Price | Owner's note |
+| --- | --- | --- |
+| [POLYGON – Battle Royale](https://www.fab.com/listings/90b72290-8bc0-4097-8661-dd28b8a26dff) and [POLYGON – Military](https://www.fab.com/listings/c2723e9a-5a11-4dba-a1a2-74b5426c97a0) (Synty), and other Synty POLYGON packs | About $300 | Later |
+| [Low Poly Soviet Khrushchyovka](https://www.fab.com/listings/cde6f1fd-c618-4ce8-8867-3cec06998d4a) (Agor2012) | About $5 | Get later |
+| [Low Poly Soviet Apartments](https://www.fab.com/listings/555749a2-d80e-4669-bc39-b00dc0460804) | About $5 | Get later |
+| [Low Poly: Industrial Area](https://www.fab.com/listings/3c8d6578-bc45-4703-9c63-a4ca523ab8a2) (Whitman and Olbert) | About $6 | Looks neat |
+| [Low Poly + Realistic Houses](https://www.fab.com/listings/f98fd5cd-8f53-4898-a3b3-bd97e5ec087b) (Romandy Development) | About $20 | Revisit; each house also has a realistic version |
+
+Skipped: the low-poly army base (no interiors) and most of the rest. One listing showed as free when the planner checked: [Lowpoly Environment – Nature](https://www.fab.com/listings/d9327821-8977-439a-b2b7-d0a53e4c8728) (Polytope Studio), with trees, plants, and rocks.
 
 ## Licenses and the asset log
 

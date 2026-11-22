@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Added the [Fab watch list](art-and-sound.md#fab-watch-list) |
 | 2026-11-22 | Added Fab placeholders to the [art style](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-22 | Removed the dying rule from [Crafting](../systems/crafting.md) and opened a question on taking things out of a match |
 | 2026-11-22 | Scrap as the one currency; first pass for [workbench](../systems/crafting.md#workbenches) costs, times, counts, and earning scrap |

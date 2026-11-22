@@ -62,6 +62,9 @@ When you tell the lead "check the planner's list," it works through this section
     - **The player character:** the white Unreal mannequin makes it hard to judge how the gun is held. The owner wants a real player model in before judging the hold. Which character, and in what order (arms and sleeves first?), per [Your character](../systems/skins.md#your-character).
     - **A settings menu**, so the field of view (and later keys and sensitivity) can be changed in game. The owner will test the FOV there.
 - Next for the lead: the fixes above (M4A1 squarer, materials on dropped guns, pedestal picker, bolt-catch press, test instructions), then the graybox map, then time of day and weather.
+- **Two staged-reload questions for the planner (lead, 2026-11-22):**
+    - **Revolvers:** the game used to load them one round at a time; the Staged reloads table gives `revolver` a whole reload in three stages (cylinder out 35%, new rounds in 50%, closed 15%), and the lead's build follows the table. The owner says revolvers keep their progress either way. Should gate-loaded revolvers (no swing-out cylinder) load one round at a time while swing-out or break-top ones use the stages? If so, mark which revolvers are which, or add a reload style for them.
+    - **Belt "from empty":** the lead read "the last 15% is charging the gun" as stages of 40% / 45% / 15% (the new belt's stage gives up its last 15%). Please confirm or correct it on the page.
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 

@@ -14,7 +14,7 @@ How each gun gets a model, animations, and sounds. The bar is "good enough to ge
 
 **Not now:** detailed textures, wear, inspect animations, and skins themselves.
 
-**Never:** logos, maker's marks, or serial numbers on any model. What the guns are called in-game is still an [open question](open-questions.md#systems).
+**Never:** logos, maker's marks, serial numbers, or the Red Cross emblem on any model. What the guns are called in-game is still an [open question](open-questions.md#systems) ([Legal review](legal-review.md)).
 
 **Never needed:** jam-clearing or overheating animations, since guns never jam or overheat ([Rules](../rules.md#no-jamming)).
 

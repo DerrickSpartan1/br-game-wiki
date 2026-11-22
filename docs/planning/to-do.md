@@ -81,6 +81,7 @@ Then the build order that's left:
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
 - [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
+- [ ] **Generic names in game:** use the game names from the wiki, not the real ones, in data, menus, and text, and keep logos, maker's marks, and the Red Cross emblem off every model and texture ([Legal review](legal-review.md)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 
 ## You: decisions
@@ -104,7 +105,7 @@ In rough order of what the game needs first:
 - [ ] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
 - [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).
-- [ ] **In-game names** for guns and armor brands: real, PUBG-style, or fictional. Talk to a lawyer before selling the game.
+- [ ] **In-game names** for guns and armor brands: designations only like PUBG (our lean), all made-up, or licensed. Talk to a lawyer before selling the game ([Legal review](legal-review.md#guns)).
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
 ## Planner (Claude chat): wiki work (say the word)

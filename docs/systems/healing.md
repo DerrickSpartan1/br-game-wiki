@@ -53,6 +53,7 @@ Each slot holds Tarkov's items, loosely, from three to eight per slot. They stay
 - **Ranked by Tarkov:** Tarkov's better items land on the better side: more health per use, stopping heavy bleeding, lasting longer, or restoring more.
 - **Loose fit:** each item goes in the slot that plays closest to it, even where real life differs. Tarkov's drinks are energy drinks, its stimulants and injectors are adrenaline, and its antibiotic is a painkiller.
 - **One use each,** like PUBG.
+- **Generic names:** items use plain names, never brands or product names. The Tarkov column keeps Tarkov's names for reference only ([Legal review](../planning/legal-review.md)).
 - **Health stays simple:** no bleeding, fractures, or lost limbs, so Tarkov's treatments only show up as small differences in strength.
 
 Every number below is a first pass (our pick). Tarkov's numbers are from Tarkov Forge and change between patches.
@@ -65,11 +66,9 @@ Middle: 4 s, heals 10 over 3 s, up to 80.
 | --- | --- | --- | --- |
 | **Aseptic bandage** | 2 s, light bleeding | 3.5 s, heals 9 | Faster, a bit less |
 | **Army bandage** | 2 s, light bleeding, 2 uses | 4 s, heals 10 | The middle |
-| **Celox applicator** | 3 s, heavy bleeding, 3 uses | 4 s, heals 11 | A little better |
-| **CAT tourniquet** | 3 s, heavy bleeding | 4.5 s, heals 11 | Slower, a bit more |
-| **Esmarch tourniquet** | 5 s, heavy bleeding | 5 s, heals 10 | A little worse |
-
-Tarkov calls the Celox applicator the CALOK-B, a parody of the real Celox-A.
+| **Hemostatic applicator** | CALOK-B: 3 s, heavy bleeding, 3 uses | 4 s, heals 11 | A little better |
+| **Windlass tourniquet** | CAT: 3 s, heavy bleeding | 4.5 s, heals 11 | Slower, a bit more |
+| **Rubber tourniquet** | Esmarch: 5 s, heavy bleeding | 5 s, heals 10 | A little worse |
 
 ### First aid kits
 
@@ -77,9 +76,9 @@ Middle: 6 s, heals to 80, filling over 3 s.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **AI-2** | 2 s, 50 per use, pool of 100 | 5 s, heals up to 70, still stopping at 80 | Faster, a bit less |
+| **Pocket first aid kit** | AI-2: 2 s, 50 per use, pool of 100 | 5 s, heals up to 70, still stopping at 80 | Faster, a bit less |
 | **Car first aid kit** | 3 s, 70 per use, pool of 220 | 6 s, heals to 80 | The middle |
-| **IFAK** | 3 s, 50 per use, pool of 300, stops heavy bleeding | 7 s, heals to 80, boost +10 | Slower, a bit more |
+| **Individual first aid kit** | IFAK: 3 s, 50 per use, pool of 300, stops heavy bleeding | 7 s, heals to 80, boost +10 | Slower, a bit more |
 
 ### Med kits
 
@@ -87,11 +86,9 @@ Middle: 8 s, heals to 100, filling over 5 s. Every med kit gets you to full; the
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **AFAK** | 3 s, 60 per use, pool of 400 | 8 s, heals to 100 | The middle |
-| **Salewa first aid kit** | 3 s, 85 per use, pool of 400 | 7.5 s, heals to 100 | A little better |
-| **Grizzly medical kit** | 5 s, 175 per use, pool of 1,800 | 9 s, heals to 100, boost +20 | Slower, a bit more |
-
-The Grizzly is based on Adventure Medical Kits' Sportsman Series Grizzly.
+| **Tactical trauma kit** | AFAK: 3 s, 60 per use, pool of 400 | 8 s, heals to 100 | The middle |
+| **Hiking first aid kit** | Salewa: 3 s, 85 per use, pool of 400 | 7.5 s, heals to 100 | A little better |
+| **Large medical bag** | Grizzly: 5 s, 175 per use, pool of 1,800 | 9 s, heals to 100, boost +20 | Slower, a bit more |
 
 ### Energy drinks
 
@@ -114,33 +111,33 @@ Middle: 7.5 s, boost +60. Ones that kill pain longer in Tarkov land higher.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **Analgin** | 3 s, 80 s of pain relief | 6.5 s, boost +55 | Faster, a bit less |
-| **Augmentin** | 5 s, 150 s | 7.5 s, boost +55 | A little worse |
-| **Ibuprofen** | 5 s, 280 s | 7 s, boost +60 | A little better |
-| **Vaseline balm** | 6 s, 300 s | 8 s, boost +60 | A little worse |
-| **Golden Star balm** | 7 s, 350 s | 8 s, boost +65 | Slower, a bit more |
+| **Metamizole pills** | Analgin: 3 s, 80 s of pain relief | 6.5 s, boost +55 | Faster, a bit less |
+| **Antibiotic pills** | Augmentin: 5 s, 150 s | 7.5 s, boost +55 | A little worse |
+| **Ibuprofen pills** | Ibuprofen: 5 s, 280 s | 7 s, boost +60 | A little better |
+| **Warming balm** | Vaseline balm: 6 s, 300 s | 8 s, boost +60 | A little worse |
+| **Menthol balm** | Golden Star balm: 7 s, 350 s | 8 s, boost +65 | Slower, a bit more |
 
-Augmentin is an antibiotic, but Tarkov treats it as pain relief, so it's a painkiller here too.
+Antibiotics don't kill pain in real life, but Tarkov's Augmentin works as pain relief, so they're a painkiller here too.
 
 ### Adrenaline
 
-Middle: 6 s, boost +100. Tarkov's real stimulants and injectors go here, including morphine. Ones whose effects last longer in Tarkov land higher.
+Middle: 6 s, boost +100. Tarkov's real stimulants and injectors go here, including morphine. Its made-up stimulants don't. Ones whose effects last longer in Tarkov land higher.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **Adrenaline injector** | 60 s: endurance and strength, kills pain | 5.5 s, boost +95 | Faster, a bit less |
-| **Perfotoran** | 60 s: stops bleeding, antidote | 6 s, boost +90 | A little worse |
-| **L1 (norepinephrine)** | 120 s: strength, endurance, and stamina, kills pain | 5.5 s, boost +100 | A little better |
-| **Tramadol** | 180 s: endurance, strength, and focus, kills pain | 6 s, boost +100 | The middle |
-| **Morphine injector** | 300 s of pain relief | 6 s, boost +100 | The middle |
-| **Meldonin** | 900 s: endurance, strength, and stamina | 6.5 s, boost +100 | A little worse |
+| **Adrenaline injector** | Adrenaline, 60 s: endurance and strength, kills pain | 5.5 s, boost +95 | Faster, a bit less |
+| **Blood substitute injector** | Perfotoran, 60 s: stops bleeding, antidote | 6 s, boost +90 | A little worse |
+| **Norepinephrine injector** | L1, 120 s: strength, endurance, and stamina, kills pain | 5.5 s, boost +100 | A little better |
+| **Tramadol injector** | Trimadol, 180 s: endurance, strength, and focus, kills pain | 6 s, boost +100 | The middle |
+| **Morphine injector** | Morphine, 300 s of pain relief | 6 s, boost +100 | The middle |
+| **Meldonium injector** | Meldonin, 900 s: endurance, strength, and stamina | 6.5 s, boost +100 | A little worse |
 
-Tarkov calls its tramadol Trimadol. Perfotoran could also cut gas damage for a while, as an antidote (idea, [Red zones](match-flow.md#red-zones)).
+The blood substitute injector could also cut gas damage for a while, as an antidote (idea, [Red zones](match-flow.md#red-zones)).
 
 ### The roll
 
 - **One item per slot per match:** the match rolls each slot's item during the lobby countdown, along with the gun pool ([Pre-match lobby](match-flow.md#pre-match-lobby)). Everyone finds the same bandage, the same first aid kit, and so on, so nobody carries five kinds of med kit.
-- **Rolled separately:** each slot rolls on its own, so one match might have Esmarch tourniquets and a Grizzly.
+- **Rolled separately:** each slot rolls on its own, so one match might have rubber tourniquets and a large medical bag.
 - **Odds:** equal within a slot for now (our pick).
 - **Fair inside a match:** everyone is on the same items; what changes is from one match to the next, like gun versions ([Rules](../rules.md#versions)).
 - **Named on pickup:** the pickup prompt and the inventory name the item and its use time, like a gun's version ([HUD and inventory](gameplay.md#hud-and-inventory)).
@@ -148,9 +145,9 @@ Tarkov calls its tramadol Trimadol. Perfotoran could also cut gas damage for a w
 ### Left out of Tarkov's list
 
 - **Splints and surgical kits** (aluminum and immobilizing splints, Tigzresq, CMS, Surv12): there are no fractures or lost limbs here.
-- **Made-up stimulants** (Propital, eTG-change, the SJ series, Zagustin, and others): Tarkov's own inventions, so they'd need our own names. Not in yet.
+- **Made-up stimulants** (Propital, eTG-change, the SJ series, Zagustin, and others): not used. Only real drugs go in.
 - **Alcohol** (beer, vodka, whiskey, moonshine) and Tarkov's rarer branded waters: left out.
-- **Portable defibrillator:** Tarkov's is a parody of the Philips HeartStart FRx. Ours is a [class item](class-items.md) and could be based on it.
+- **Portable defibrillator:** Tarkov's is a parody of a real brand's defibrillator. Ours is a [class item](class-items.md) with a generic name and look.
 
 ## Sources
 

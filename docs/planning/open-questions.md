@@ -22,7 +22,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **Shields:** whether the flash shield really uses the class slot; the first pass for shields is set ([Shields](../systems/class-items.md#shields)).
 - **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
-- **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way.
+- **In-game gun names:** whether the game uses real names, PUBG-style tweaks (M416, SLR, Mk14), or fictional codenames, to avoid trademark trouble. The same goes for armor brands like Crye Precision and Ops-Core. The wiki keeps real names either way. Our lean is designations only, like PUBG ([Legal review](legal-review.md#guns)).
+- **Other in-game names:** vehicles, attachment brands, terms borrowed from other games, and the first map's place names ([Legal review](legal-review.md#the-list)).
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
@@ -32,7 +33,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
 - **First map river:** check the first-pass route, lake, and bridges on the v4 mockup ([Maps](../systems/maps.md#river)).
 - **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
-- **Healing variants:** whether Tarkov's made-up stimulants come in under our own names; whether Perfotoran also cuts gas damage; and whether brand names like Salewa, Grizzly, and Celox need generic names before release ([Healing](../systems/healing.md#variants)).
+- **Healing variants:** whether the blood substitute injector also cuts gas damage ([Healing](../systems/healing.md#adrenaline)).
 - **Bodies:** what happens to a body once nobody can revive it but the player is still watching, and whether a looted body can still be revived ([Gameplay](../systems/gameplay.md#knockdowns-revives)).
 - **Red zone forms:** which new forms to add; ideas so far are firebombing, a creeping barrage, and EMP ([Match flow](../systems/match-flow.md#red-zones)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).

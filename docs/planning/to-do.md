@@ -14,7 +14,7 @@ Set up the [AI team](ai-team.md): the workers, the lead, and reaching the lead f
 - [ ] **Connect your phone:** in the Claude app, tap Code and pick "BR Lead" (green dot means online). After a restart, run `claude --continue` in the game repo to bring it back.
 - [ ] **Optional:** turn on Require trusted devices in your claude.ai account settings.
 - [ ] **First job:** from your phone, tell the lead "check the planner's list."
-- [ ] **Accept the Epic Games invite on GitHub:** your Epic account is linked to GitHub, but the EpicGames organization invite is still pending, so the Unreal source stays hidden. Open <https://github.com/orgs/EpicGames/invitation> while signed in as DerrickSpartan1 and press Join (or use the invite email from GitHub). The dedicated server build needs it.
+- [x] **Accept the Epic Games invite on GitHub:** done 2026-11-21; the lead can see the Unreal source now.
 
 ## You: art
 
@@ -30,10 +30,10 @@ When you tell the lead "check the planner's list," it works through this section
 
 - Done: catching the game up with the wiki (`f5dbd13`, `6cf8d67`); handling, weights, and hit zones (`c2b386b`, `cac2e83`); the plane, parachutes, and zone (`b3aeab8`, `932027f`, data tables imported in `c7dffc8`); red zones, care packages, and vaults (`d85b077`, `1df5faf`).
 - Done: the pre-match lobby and its countdown, and the game caught up with the red zones redesign (Bombardment, Smoke, Gas, and a slot for the air raid siren sound) (`3d749f5`). With that, "the lobby, plane, parachutes, and zone" is complete.
-- Lobby calls the lead made that aren't on the wiki yet, for the planner to file or change: until bots exist, the countdown starts once everyone the matchmaker sent has joined, or after a 60-second no-show wait (placeholder); a running countdown keeps going if players leave; nobody takes damage before the plane; anything picked up in the lobby is taken away at boarding. The siren plays from the red zone's center; the wiki doesn't say how far it carries.
+- Lobby calls the lead made that aren't on the wiki yet, for the planner to file or change: until bots exist, the countdown starts once everyone the matchmaker sent has joined, or after a 60-second no-show wait (owner OK'd 60 s, 2026-11-21); a running countdown keeps going if players leave; nobody takes damage before the plane; anything picked up in the lobby is taken away at boarding. The siren plays from the red zone's center; the wiki doesn't say how far it carries.
 - M4A1 blockout done (`4276bb5`). Open question for the owner and planner: should each version share the M4A1's lower receiver and moving parts (fix once, fixes all), or be a full copy? The lead recommends sharing them.
 - Next for the lead, in order: the graybox map, healing with variants, then time of day and weather.
-- Waiting on the owner: the dedicated server build, until the Epic Games invite on GitHub is accepted (see You: setup). The M4 model has started (see You: art): the base M4A1 first, then the other versions once the planner sets how each one looks.
+- Pushed 2026-11-21: all the commits above are on GitHub. The Epic invite is accepted, so the dedicated server build is unblocked (engine source 5.8.4, to match the installed editor; the lead asks the owner before the big download). The M4 model has started (see You: art): the base M4A1 first, then the other versions once the planner sets how each one looks.
 - Waiting on the planner: how bots fill empty slots (see Planner).
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:

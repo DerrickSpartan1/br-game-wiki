@@ -37,7 +37,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Red zone forms:** which new forms to add; ideas so far are firebombing, a creeping barrage, and EMP ([Match flow](../systems/match-flow.md#red-zones)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
 - **Vehicles per map:** which vehicles each map gets ([Gameplay](../systems/gameplay.md#vehicles-and-water)).
-- **Melee:** each weapon's damage, swing speed, reach, and run speed, and whether pans and other melee weapons roll one kind per match or all spawn ([Melee](../systems/gameplay.md#melee)).
+- **Melee:** whether to go with owned melee and rare found pans (the owner's leaning), each weapon's numbers, and how many pans spawn in a pan match ([Melee](../systems/gameplay.md#melee)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

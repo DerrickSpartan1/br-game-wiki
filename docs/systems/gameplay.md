@@ -92,6 +92,10 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
+- **Owned melee, found pans (owner's leaning, not final):** pans are the only melee found as loot, since they block bullets, and they're rare: pans show up in about 1 match in 5. Every other melee weapon belongs to the player, who brings one into every match, like Fortnite's pickaxes or Apex's heirlooms. Melee is rarely used in PUBG, so owning one gives players something of their own to show off.
+    - **Same stats for owned melee:** since players own them, they can't give an edge. They differ in look, sound, and [inspect](#melee), not damage, speed, or reach.
+    - **Unlocks:** through seasons, challenges, and mastery, picked like an outfit ([Skins and mastery](skins.md)).
+    - **Pan matches:** in the 1 in 5 matches with pans, one kind is rolled, like healing items; how many spawn is TBD.
 - **Frying pan:** back in, with our own model and sounds and a twist of our own, so it isn't PUBG's pan ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
     - **It wears through (decided):** it stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. First pass (our pick): rounds under 1,200 J (pistol and SMG rounds) take two hits to hole it, and rounds at 1,200 J and up (rifle rounds) hole it in one, using the [ammo energy bands](ammo.md#weight). One shotgun blast counts as one hit.
     - **Other pans (decided):** more cookware as melee weapons, each wearing through the same way, with its own trade-offs. First pass (our pick), with how many hits hole it from pistol and SMG rounds, then rifle rounds:

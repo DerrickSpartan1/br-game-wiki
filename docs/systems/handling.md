@@ -47,6 +47,25 @@ By reload style, the same styles the animations use ([Reload styles](../planning
 
 PUBG's quickdraw mags and shotgun bullet loops cut reload time by 30%, a starting point for the quick mag tiers ([Attachments](attachments.md)).
 
+### Staged reloads
+
+A reload keeps its progress (owner, 2026-11-22). Each reload is split into stages, and a cancelled reload saves the last stage it finished, on the gun itself. The next reload picks up from there instead of starting over. If the old mag is already out, the gun stays without a mag until you finish. First pass (our pick):
+
+| Reload style | Stages, with each one's share of the reload time | Can it fire between stages? |
+| --- | --- | --- |
+| `box mag`, `grip mag`, `bullpup mag`, `side mag`, `top mag`, `pan` | Old mag out (40%), new mag in (60%). From empty: old mag out (30%), new mag in (45%), bolt or charging handle (25%) | With the mag out, only a round already in the chamber fires. Open-bolt guns have none, so they can't |
+| `belt` | Cover up and old belt out (40%), new belt in and cover down (60%). From empty, the last 15% is charging the gun | No, while the cover is up |
+| `tube`, `single rounds` | Each round is its own stage, as now | Yes; pressing fire already stops the reload |
+| `stripper clip` | A full clip from empty is one stage; topping off is one round at a time | Yes, between rounds |
+| `en bloc` | Partial clip out (35%), new clip in (65%). It can't be topped off ([Rules](../rules.md#en-bloc-clips)) | No, with the clip out |
+| `break action`, `single shot` | Open and empties out (35%), new rounds in (45%), closed (20%) | No, while it's open |
+| `revolver` | Cylinder out and empties out (35%), new rounds in (50%), closed (15%) | No, while the cylinder is out |
+
+- **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).
+- **What cancels a reload:** switching weapons, sprinting, holding X for melee or tapping it for a quick hit, getting knocked, vaulting or climbing, getting in a vehicle, starting a heal, and dropping the gun. Pressing fire only stops one-at-a-time loads ([Reloads work like PUBG](#reload-times)).
+- **The saved stage stays with the gun:** a gun dropped with its mag out lies on the ground with no mag, and whoever picks it up starts from "new mag in."
+- **The HUD** shows a gun with no mag as the chambered round only, like 0+1.
+
 ## PUBG's numbers
 
 ### Spread, sway, and delays

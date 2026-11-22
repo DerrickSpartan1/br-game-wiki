@@ -77,12 +77,24 @@ Lots of throwables: PUBG's list is the starting point, more come from other game
 | **Sticky bomb** | Sticks to a surface and blows a hole in walls | TBD |
 | **C4** | Too heavy to throw far or carry many. It beeps and goes off 16 seconds after it's thrown, killing within about 15 m and hurting out to about 25 m, even through cover | TBD |
 | **Decoy grenade** | Makes fake gunfire to draw attention (PUBG removed it in Update 35.1) | TBD |
+| **Throwing knives** | A stack of 3, thrown one at a time and picked back up after ([Throwing knives](#throwing-knives)) | TBD |
 | **Blue zone grenade** | Makes a small blue zone circle, up to about 10 m in radius, doing about 10 damage a second for about 10 seconds | TBD |
 
 - **Weights TBD:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade weren't found yet.
 - **Our own ideas:** an EMP grenade and a gas grenade.
 - **From other games:** to add later.
 - **Map max:** how many throwables a match can roll is still TBD (see the table above).
+
+### Throwing knives
+
+Good for stealth when you have the upper hand, so they need limits to stay fair. First pass (our pick):
+
+- **A stack of 3,** thrown one at a time, about 0.6 s per throw.
+- **Pick them back up:** off the ground, or by looting whoever they hit ([Bodies hold the loot](gameplay.md#knockdowns-revives)).
+- **Damage:** 45 to the body, 65 to the head, 45 to the neck, and 27 to arms and legs; armor cuts it like bullets. No one-shots: a kill takes three body hits, or two to the head.
+- **Short range:** they drop fast and fly about 25 m/s, so they're reliable out to about 15 m, and a far throw can be dodged.
+- **Quiet:** no gunshot, so only players nearby hear the throw and the hit.
+- **Rare:** they spawn less often than grenades.
 
 ## Sources
 

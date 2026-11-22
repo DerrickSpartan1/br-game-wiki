@@ -16,8 +16,8 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Emergency redeploy:** a balloon that lifts you out and drops you elsewhere on the map, like PUBG's Emergency Pickup.
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.
-- **Pans (owner's leaning):** a pan as a small shield ([Pans](#pans)).
-- **Breaching sledgehammer (owner's leaning):** breaks doors and walls until it wears out ([Breaching sledgehammer](#breaching-sledgehammer)).
+- **Pans:** a pan as a small shield that also hits hard ([Pans](#pans)).
+- **Breaching sledgehammer:** breaks doors and walls until it wears out, and hits hard ([Breaching sledgehammer](#breaching-sledgehammer)).
 
 **No hero abilities,** but an ability from a hero shooter can become a class item, like the deployable zipline.
 
@@ -50,21 +50,48 @@ PUBG's Folded Shield is the first pass: 1,800 gunfire damage or 200 from explosi
 
 ## Pans
 
-The owner's leaning: pans move from melee to the class slot, as a small shield ([Melee](gameplay.md#melee)).
+Pans are class items: small shields you can also fight with. They're the only pans in the game; they're not melee weapons ([Melee](gameplay.md#melee)).
 
-- **Rare:** pans show up in about 1 match in 5, one kind per match, about 20 on the first map.
-- **Raise it to block:** it stops bullets only while held up, which also sets it apart from PUBG's pan. Like the [ballistic shield](#ballistic-shield), the other hand can fire a 3rd-slot gun around it (our pick).
-- **Wears through:** one or two hits by caliber hole it, and each kind of pan differs in how much it takes and how much it covers ([Melee](gameplay.md#melee)).
-- **Still a weapon:** you can hit someone with it, for the same damage as any melee weapon.
-- **The trade-off:** carrying a pan means giving up the class slot for anything else.
+- **Rare:** pans show up in about 1 match in 5. In those matches one kind is rolled, like healing items, and about 20 spawn on the first map, in kitchens and houses, more in the towns (our pick).
+- **Raise it to block:** it stops bullets only while held up, which also sets it apart from PUBG's pan. While raised it covers your head and upper chest (our pick). Like the [ballistic shield](#ballistic-shield), the other hand can fire a 3rd-slot gun around it.
+- **Ours, not PUBG's:** our own models and sounds ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
+- **The trade-off:** carrying a pan means giving up the class slot, so it blocks more than a quick bullet or two.
+
+### How much a pan takes
+
+Like the shields, a pan takes a set amount of gunfire before it's holed, counted before armor and hit zones and after range falloff, with explosives at 9 times their damage. A holed pan stops blocking, and the hole shows, but it still works as a weapon. First pass (our pick):
+
+| Pan | Gunfire it takes | What holes it | Covers when raised |
+| --- | --- | --- | --- |
+| Frying pan | 350 | About 8 [M4](../weapons/assault-rifles/m16-m4.md) hits (43), 6 from an [SR-25](../weapons/battle-rifles/sr-25.md) (58), or 2 full buckshot blasts (216) | Head and upper chest |
+| Cast-iron skillet | 500 | About 12 M4 hits | Head and upper chest; heavier to carry |
+| Wok | 250 | About 6 M4 hits | A wider area, down to the stomach |
+| Saucepan | 300 | About 7 M4 hits | The head only |
+
+For scale, the [ballistic shield](#shields) takes 2,900.
+
+### Hitting with it
+
+Class weapons hit harder than owned melee (our pick, from PUBG's pan):
+
+| | Pan | Sledgehammer | Owned melee, for comparison |
+| --- | --- | --- | --- |
+| Chest and stomach | 80 | 80 | 60 |
+| Head | 95 (never a one-shot) | 95 | 90 |
+| Neck | 67 | 67 | 63 |
+| Arms and legs | 48 | 48 | 36 |
+| Through tier 1, 2, 3 vests | 56, 48, 36 | 56, 48, 36 | 42, 36, 27 |
+| Time between swings | 0.8 s | 1.2 s (heavy) | 0.8 s |
+
+Hits to kill to the body: 2 with no vest or through tier 1, and 3 through tier 2 or 3, the same as PUBG's pan.
 
 ## Breaching sledgehammer
 
-The owner's leaning: a class item for breaking in.
+A class item for breaking in, and a last-ditch weapon when the chance comes.
 
 - **Breaks** doors and breakable walls fast, but loudly ([Buildings](gameplay.md#buildings-materials)).
-- **Durability:** it wears out after a number of breaches. First pass (our pick): 8 doors, or 3 walls, or a mix (a wall counts as about 3 doors).
-- **Still a weapon:** it hits players for the same damage as any melee weapon.
+- **Durability:** it wears out after a number of breaches. First pass (our pick): 8 doors, or 3 walls, or a mix (a wall counts as about 3 doors). Hitting players doesn't wear it down.
+- **Hits hard:** 80 to the body, like the pan, but with a slow 1.2 s swing ([Hitting with it](#hitting-with-it)).
 
 ## Sources
 

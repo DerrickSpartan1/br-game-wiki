@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Pans and a breaching sledgehammer are class items that hit harder than melee (80 to the body). Pans block more: a damage pool like the shields, raised to block. The sledgehammer wears out after breaches | [Class items](../systems/class-items.md#pans) |
+| 2026-11-22 | Throwing knives: a stack of 3 you pick back up, quiet, with limits so they aren't overpowered. Bayonets spawn on some guns that had a lug | [Throwables](../systems/weapon-pool.md#throwing-knives), [Melee](../systems/gameplay.md#melee) |
+| 2026-11-22 | Every player carries built-in tools that take no slot: wire cutters for fences, and a small hammer (what it does is TBD) | [Gameplay](../systems/gameplay.md#built-in-tools) |
 | 2026-11-21 | Players own their melee weapons and bring one into every match; every melee weapon, pans included, has the same damage, reach, and speed and differs only in look and animations. Pans are the only melee loot, in about 1 match in 5, one kind per match | [Gameplay](../systems/gameplay.md#melee), [Skins and mastery](../systems/skins.md#melee-weapons) |
 | 2026-11-21 | Every melee weapon gets its own inspect animation, usable while running with it out | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | Lots of melee weapons of all sorts, including scythes, knives of different kinds, machetes, and brass knuckles | [Gameplay](../systems/gameplay.md#melee) |

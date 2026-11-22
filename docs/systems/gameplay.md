@@ -93,7 +93,7 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
 - **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
-- **All the same in a fight:** every melee weapon, pans included, has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
+- **All the same in a fight:** every owned melee weapon has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
 
     | | Number | Basis |
     | --- | --- | --- |
@@ -126,26 +126,18 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
     | Everyday | Umbrella, broom, chair leg, guitar, skateboard |
     | Joke and event rewards | A fish, a rubber chicken, a giant spoon |
 
-- **Pans, the only melee you find:** pans are the only melee loot, because they block bullets. They're rare: pans show up in about 1 match in 5, and in those matches one kind is rolled, like healing items. First pass (our pick): about 20 on the first map, roughly one for every five players, in kitchens and houses, more in the towns.
-    - **Picking one up:** the pan takes your melee slot while you carry it, and your own weapon comes back if you drop it (our pick).
-    - **Ours, not PUBG's:** our own models and sounds, and they wear through ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
-    - **Wears through:** a pan stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. One shotgun blast counts as one hit. First pass (our pick), using the [ammo energy bands](ammo.md#weight):
+- **Pans and the breaching sledgehammer** are class items, not melee: the pan blocks bullets and the sledgehammer breaks in, and both hit harder than melee ([Class items](class-items.md#pans)).
+- **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
+- **Throwing knives** are a throwable you pick back up ([Throwables](weapon-pool.md#throwing-knives)).
+- **Throwing your melee (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
 
-        | Pan | Hits to hole it: rounds under 1,200 J (pistol and SMG) | Rounds at 1,200 J and up (rifle) | Blocks |
-        | --- | --- | --- | --- |
-        | Frying pan | 2 | 1 | A normal area |
-        | Cast-iron skillet | 3 | 2 | A normal area |
-        | Wok | 1 | 1 | A wider area |
-        | Saucepan | 2 | 1 | A small area |
+## Built-in tools
 
-    - **Other ideas, not decided:** it only blocks while raised, not slung on your hip or back, unlike PUBG's; and a loud clang when it's hit, giving away where you are.
-- **Throwing (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
-- **Owner's leaning on the special tools (not final):**
-    - **Pans become class items,** not melee ([Class items](class-items.md#pans)). The pan details above carry over.
-    - **Breaching sledgehammer:** a class item with durability ([Class items](class-items.md#breaching-sledgehammer)).
-    - **Wire fences:** no wire cutters item. Anyone can cut a gap in a wire fence ([Buildings](#buildings-materials)).
-    - **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
-    - **Throwing knives:** a throwable, picked back up after use, from the ground or out of whoever they hit. A stack of 3, silent, with the same damage as a melee hit (our pick).
+Every player carries a few tools that aren't items and take no slot. They're used with the interact key.
+
+- **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
+- **Small hammer (ideas for what it does):** knock out a window quietly instead of shattering it, pry open small locked boxes and lockers for loot, or nail a door shut with boards found nearby.
+- **More tools** can come later.
 
 ## Dog tags
 
@@ -163,7 +155,7 @@ Every player wears dog tags that can't be taken off.
 
 Buildings are semi-destructible, kept simple: doors, windows, and specific walls can break. Materials matter too.
 
-Wire fences (possibility): drive straight through them like PUBG, or cut a gap quietly for a stealthier approach. The owner's leaning: no wire cutters item; anyone can cut a gap by holding the interact key at a fence for a few seconds (our pick: 3 s), quietly, while driving through is fast but loud.
+Wire fences (possibility): drive straight through them like PUBG, or cut a gap quietly for a stealthier approach. Every player carries wire cutters to cut a gap quietly ([Built-in tools](#built-in-tools)), while driving through is fast but loud.
 
 - Wood can be shot through.
 - Thin metal can be shot through by some weapons.

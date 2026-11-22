@@ -29,7 +29,9 @@ When you tell the lead "check the planner's list," it works through this section
 **Lead's report, 2026-11-21** (for the planner to check against the game repo's commits and tick):
 
 - Done: catching the game up with the wiki (`f5dbd13`, `6cf8d67`); handling, weights, and hit zones (`c2b386b`, `cac2e83`); the plane, parachutes, and zone (`b3aeab8`, `932027f`, data tables imported in `c7dffc8`); red zones, care packages, and vaults (`d85b077`, `1df5faf`).
-- Not done yet from "the lobby, plane, parachutes, and zone": the pre-match lobby and its 60-second countdown. The lead is building it now.
+- Done: the pre-match lobby and its countdown, and the game caught up with the red zones redesign (Bombardment, Smoke, Gas, and a slot for the air raid siren sound) (`3d749f5`). With that, "the lobby, plane, parachutes, and zone" is complete.
+- Lobby calls the lead made that aren't on the wiki yet, for the planner to file or change: until bots exist, the countdown starts once everyone the matchmaker sent has joined, or after a 60-second no-show wait (placeholder); a running countdown keeps going if players leave; nobody takes damage before the plane; anything picked up in the lobby is taken away at boarding. The siren plays from the red zone's center; the wiki doesn't say how far it carries.
+- M4A1 blockout done (`4276bb5`). Open question for the owner and planner: should each version share the M4A1's lower receiver and moving parts (fix once, fixes all), or be a full copy? The lead recommends sharing them.
 - Next for the lead, in order: the graybox map, healing with variants, then time of day and weather.
 - Waiting on the owner: the dedicated server build, until the Epic Games invite on GitHub is accepted (see You: setup). The M4 model has started (see You: art): the base M4A1 first, then the other versions once the planner sets how each one looks.
 - Waiting on the planner: how bots fill empty slots (see Planner).

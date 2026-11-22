@@ -31,6 +31,7 @@ Guns and characters are low poly while the game is tested. The final game will l
 - **Style examples:** the owner's four examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/`. They're for style only: their source is unknown, so they're never copied, traced, fed to AI tools, or shipped ([Legal review](legal-review.md)).
 - **Polygon budget:** the budget in the game repo's `Art/GunConventions.md` is a ceiling; low-poly guns should land well under it.
 - **Outside models** (Fab or AI image-to-3D) come out more detailed than this, so they get simplified to the style.
+- **Fab placeholders (owner, 2026-11-22):** store assets can stand in while we test, tweaked to fit: buildings, props, plants, vehicles, and the like. Each still goes in the asset log with its license, and gets replaced by our own later unless its license lets it stay. For example, Fab has low-poly Soviet apartment block packs that would suit Teplov's towns.
 - **Characters** are low poly too: a male and a female body and full customizing ([Your character](../systems/skins.md#your-character)).
 
 **Final product:** closer to PUBG's realistic look, for guns and characters: more detail, real materials, and textures. Still our own models, textures, and colors, never PUBG's ([Legal review](legal-review.md#pubg-look-and-feel)).

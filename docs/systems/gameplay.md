@@ -136,8 +136,18 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 Every player carries a few tools that aren't items and take no slot. They're used with the interact key.
 
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
-- **Small hammer (ideas for what it does):** knock out a window quietly instead of shattering it, pry open small locked boxes and lockers for loot, or nail a door shut with boards found nearby. It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
-- **More tools** can come later.
+- **Small hammer:** nails doors shut, so anyone coming in has to breach the door or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
+- **More tools** can come later. Other ideas for the small hammer: knock out a window quietly instead of shattering it, or pry open small locked boxes and lockers for loot.
+
+### Nailing doors shut
+
+First pass (our pick):
+
+- **Boards:** loot found in and around buildings, like sheds, farms, and building sites. One door takes 2 boards.
+- **Nailing:** about 4 seconds per door, from either side. The hammering is loud, so players nearby hear it.
+- **Getting through from outside:** a [breaching tool](class-items.md#breaching-tools) (a nailed door counts as 2 doors of its durability), or explosives. Bullets go through the boards, since wood can be shot through ([Buildings](#buildings-materials)), but don't open the door.
+- **From inside:** anyone can pry the boards off with their own hammer in about 3 seconds, quietly, and gets the boards back.
+- **Windows stay open:** windows can't be boarded, so there's always a way in.
 
 ## Dog tags
 

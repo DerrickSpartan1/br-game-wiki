@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | The built-in small hammer nails doors shut with boards, so attackers have to breach or use a window. Windows can't be boarded | [Gameplay](../systems/gameplay.md#nailing-doors-shut) |
 | 2026-11-22 | Low poly is for testing, for guns and characters. The final game looks closer to PUBG, with our own art | [Art and sound](art-and-sound.md#art-style-low-poly-for-testing) |
 | 2026-11-22 | Characters look like PUBG's: a male or a female body with one standard face each, and hair, eyes, and everything else fully customizable, like The Finals | [Skins](../systems/skins.md#your-character) |
 | 2026-11-22 | Bigger hammers and breaching tools are class items like the sledgehammer: a demolition hammer, a club hammer, an entry bar, and a door ram. Owned hammers stay hand-sized, and the built-in small hammer can't breach | [Class items](../systems/class-items.md#breaching-tools) |

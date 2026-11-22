@@ -5,7 +5,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Defibs:** uses limited by batteries or something similar.
 - **Bulletproof barricade:** a deployable cover piece, like the one in Rainbow Six Siege ([Shields](#shields)).
 - **Rangefinder binoculars:** spot enemies at a distance and read the range for bullet drop.
-- **Door wedge or door alarm:** lock down a building while you loot it.
+- **Door wedge or door alarm:** lock down a building while you loot it. Anyone can already [nail a door shut](gameplay.md#nailing-doors-shut), so a wedge would be the quick, quiet way.
 - **Tripwire alarm:** a noise trap that warns you when someone enters your area.
 - **Recon drone:** short battery life; scouts one building or compound.
 - **Bomb drone:** one-time use. Reviving exists, so being taken out by a bomb drone shouldn't feel like a total game over.
@@ -89,7 +89,7 @@ Hits to kill to the body: 2 with no vest or through tier 1, and 3 through tier 2
 
 Class items for breaking in, and last-ditch weapons when the chance comes. Bigger hammers and other breaching tools all work like the sledgehammer. Owned melee weapons and the built-in small hammer can't breach ([Melee](gameplay.md#melee), [Built-in tools](gameplay.md#built-in-tools)).
 
-- **What they break:** doors and the breakable walls ([Buildings](gameplay.md#buildings-materials)). Not vaults: those still need a key ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **What they break:** doors, [nailed doors](gameplay.md#nailing-doors-shut), and the breakable walls ([Buildings](gameplay.md#buildings-materials)). Not vaults: those still need a key ([Vaults and keys](match-flow.md#vaults-and-keys)).
 - **Durability:** each one wears out after a number of breaches, with a wall counting as about 3 doors. Hitting players doesn't wear them down.
 - **Hit hard:** all but the door ram hit for 80 to the body, like the pan, with a swing time set by the tool's weight ([Hitting with it](#hitting-with-it)).
 - **The roll:** like pans, each match rolls which kinds spawn (our pick: one or two kinds).

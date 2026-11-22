@@ -178,5 +178,21 @@ The owner's list ([Special weapons](../systems/weapon-pool.md#special-weapons)).
 | 6 | Pistol crossbow | Modern | Queued |
 | 7 | Repeating crossbow | China, 4th century BC to the 1800s | Queued |
 | 8 | Arbalest | Europe, medieval | Queued |
-| 9 | Spearguns | Band and pneumatic | Queued |
+| 9 | Spearguns | Band and pneumatic; underwater guns, water maps | Queued |
 | 10 | Hunting slingshot | Modern | Queued |
+| 11 | Brown Bess | Britain, flintlock musket | Queued |
+| 12 | Kentucky long rifle | America, flintlock rifle | Queued |
+| 13 | Blunderbuss | Flintlock | Queued |
+| 14 | Nock volley gun | Britain, 1780s | Queued |
+| 15 | Duck's foot pistol | Flintlock | Queued |
+| 16 | Flintlock pistol | Flintlock | Queued |
+| 17 | APS underwater rifle | USSR; water maps | Queued |
+| 18 | SPP-1 underwater pistol | USSR; water maps | Queued |
+| 19 | Girardoni air rifle | Austria, 1780 | Queued |
+| 20 | AR-7 | USA, survival rifle | Queued |
+| 21 | M6 aircrew survival gun | USA, rifle and shotgun | Queued |
+| 22 | Drilling | Germany, hunting gun | Queued |
+| 23 | Gyrojet | USA, 1960s rocket pistol | Queued |
+| 24 | Harmonica pistol | France, Jarre | Queued |
+| 25 | Apache revolver | France, 1800s | Queued |
+| 26 | LeMat revolver | 1850s | Queued |

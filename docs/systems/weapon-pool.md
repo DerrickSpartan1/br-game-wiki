@@ -27,13 +27,13 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Battle rifles & DMRs (one category) | Ground | 3 |
 | LMGs | Ground | 1 |
 | Snipers | Ground | 2 |
-| Special (bows, crossbows, spearguns, slingshots, more later) | Ground | 2 |
+| Special (bows, crossbows, black powder, underwater guns, air guns, survival guns, oddities, slingshots) | Ground | 2 |
 | Throwables (a good random mix) | Ground | Not set yet |
 | Crate weapons | Crates (exclusive list) | Not set yet |
 
 Lots of throwables, starting with every one PUBG has ([Throwables](#throwables)).
 
-Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a crossbow, never two bows ([Special weapons](#special-weapons)). Mortars are class items ([Mortars](class-items.md#mortars)).
+Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a musket, never two bows ([Special weapons](#special-weapons)). Mortars are class items ([Mortars](class-items.md#mortars)).
 
 Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:
 
@@ -43,6 +43,8 @@ Crate weapons come from an exclusive list of guns too powerful or special for th
 - **Lethal rounds for underbarrel and rifle grenade launchers,** like frag, HEDP, and anti-tank grenades. The launchers themselves are ground loot, with smoke, star, and other non-lethal rounds ([Attachments](attachments.md#grenade-launchers)).
 - **Belt-fed guns too fast for the ground,** like the [MG 42 / MG3](../weapons/crate/mg-42.md) family, as PUBG did with its MG3 ([Starting damage](starting-damage.md#crate-check-for-fast-firing-guns)).
 - **The flash shield,** a ballistic shield with flashbangs on the front ([Class items](class-items.md)).
+- **Mines,** like the claymore and the bouncing betty, as crate-only class items ([More class items](class-items.md#more-class-items)).
+- **A minigun and a flamethrower** (owner, 2026-11-22). A punt gun is pending: the real ones were boat-mounted.
 
 Specific guns are listed in the [weapon roster](../weapons/index.md). Where they spawn on the map, and how often, is on [Loot and spawning](loot.md).
 
@@ -78,10 +80,28 @@ The owner's list, approved 2026-11-22. Each gets a gun page when it's added ([Gu
 | Crossbows | Pistol crossbow | Small and weak; pistol / 3rd slot |
 | Crossbows | Repeating crossbow (Chinese, 4th century BC to the 1800s) | 7 to 10 bolts in 15 to 20 seconds from a top magazine; weak, about 70 m. A funny one |
 | Crossbows | Arbalest (medieval steel crossbow) | Hardest-hitting bolt, very slow crank reload |
-| Spearguns | Band and pneumatic spearguns | Strong underwater, weak and short above it |
 | Slingshots | Hunting slingshot | Steel balls, quiet, weak. A funny one |
+| Black powder | Brown Bess (British flintlock musket) | Slow ramrod reload and a big smoke puff |
+| Black powder | Kentucky long rifle | More accurate than a musket, just as slow to load |
+| Black powder | Blunderbuss | A short-range spray of shot |
+| Black powder | Nock volley gun (1780s British naval gun) | Seven barrels fired at once |
+| Black powder | Duck's foot pistol | Several barrels fanned out, fired together |
+| Black powder | Flintlock pistol | One shot, then a long reload |
+| Underwater guns | APS underwater rifle (Soviet, fires darts) | Strong underwater, weak in air |
+| Underwater guns | SPP-1 underwater pistol (Soviet, four barrels, darts) | Strong underwater, weak in air |
+| Underwater guns | Band and pneumatic spearguns | Strong underwater, weak and short above it |
+| Air guns | Girardoni air rifle (1780, carried by Lewis and Clark) | A quiet repeater with no smoke |
+| Survival guns | AR-7 | Comes apart and stows in its own stock, which floats |
+| Survival guns | M6 aircrew survival gun | A rifle barrel over a shotgun barrel |
+| Survival guns | Drilling (German hunting gun) | Two shotgun barrels and a rifle barrel |
+| Oddities | Gyrojet (1960s rocket pistol) | Small rockets that speed up after leaving the barrel |
+| Oddities | Harmonica pistol (Jarre, France) | A sliding bar of chambers |
+| Oddities | Apache revolver (France, 1800s) | A revolver, knuckle duster, and folding knife in one |
+| Oddities | LeMat revolver (1850s) | A revolver with a shotgun barrel under it |
 
-**Maybe elsewhere:** a flamethrower (likely crate), a signal flare pistol that lights an area at night (maybe a class item), and a blowgun.
+- **Underwater guns** are saved for maps with more water than the first one (owner, 2026-11-22).
+- **The new gun groups** (black powder, underwater, air, survival, oddities) were approved on 2026-11-22. They follow every gun rule: one version per match, real fire modes, and misfires only as flavor text. Each needs its round on the [Ammo](ammo.md) page.
+- **Maybe elsewhere:** a signal flare pistol that lights an area at night (maybe a class item), and a blowgun. The flamethrower is a crate weapon now.
 
 ## Throwables
 

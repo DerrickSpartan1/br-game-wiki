@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Twenty more class items approved (scouting, traps, getting around, support, breaching), with a combined grapple and rappel kit and crate-only mines | [More class items](../systems/class-items.md#more-class-items) |
+| 2026-11-22 | New special gun groups: black powder, underwater guns (with spearguns, saved for water maps), air guns, survival guns, and oddities. A minigun and a flamethrower go in crates | [Special weapons](../systems/weapon-pool.md#special-weapons) |
 | 2026-11-22 | Rocket launchers are crate-only class items, not crate weapons | [Class items](../systems/class-items.md) |
 | 2026-11-22 | Throwing knives: all three landing on the body do 60 in all (20 each), so they never kill a healthy player alone | [Throwing knives](../systems/weapon-pool.md#throwing-knives) |
 | 2026-11-22 | Nailing a door uses nails only, no boards to carry. A destroyed door can't be nailed, and breaking a nailed door is how you get through | [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut) |

@@ -10,7 +10,7 @@ Crate-only versions of ground guns, marked `(crate)` on their pages: the .338 La
 
 The whole [MG 42 / MG3](mg-42.md) family is crate-only: its 900–1,500 RPM belt-fed versions kill faster than ground LMGs are allowed to, even with their damage cut, and PUBG keeps its own MG3 in care packages ([Starting damage](../../systems/starting-damage.md#crate-check-for-fast-firing-guns)).
 
-Queued: the Barrett M82 / M107 (.50 BMG), the Accuracy International AW50 (.50 BMG), and the CheyTac M200 (.408 CheyTac). The RPG-7 is queued as a crate-only class item.
+Queued: the Barrett M82 / M107 (.50 BMG), the Accuracy International AW50 (.50 BMG), and the CheyTac M200 (.408 CheyTac). The RPG-7 is queued as a crate-only class item, and a minigun and a flamethrower are queued too.
 
 2 roster entries.
 

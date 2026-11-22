@@ -6,7 +6,6 @@ Guns and offshoots found while researching, waiting for their turn. Offshoots na
 - **Stechkin APS:** Soviet machine pistol with a holster-stock.
 - **Welrod:** WWII British bolt-action pistol with a built-in suppressor.
 - **Lancaster pistol:** four-barrel pistol.
-- **Gyrojet:** fired small rockets instead of bullets.
 - **Nagant M1895:** classic revolver.
 - **Webley:** classic British revolver.
 - **Colt Single Action Army:** classic revolver.

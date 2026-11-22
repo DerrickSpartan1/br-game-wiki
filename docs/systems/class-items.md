@@ -4,7 +4,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 
 - **Defibs:** uses limited by batteries or something similar.
 - **Bulletproof barricade:** a deployable cover piece, like the one in Rainbow Six Siege ([Shields](#shields)).
-- **Rangefinder binoculars:** spot enemies at a distance and read the range for bullet drop.
+- **Rangefinder binoculars:** spot enemies at a distance and read the range for bullet drop. The [spotter scope](#more-class-items) builds on them.
 - **Door wedge or door alarm:** lock down a building while you loot it. Anyone can already [nail a door shut](gameplay.md#nailing-doors-shut), so a wedge would be the quick, quiet way.
 - **Tripwire alarm:** a noise trap that warns you when someone enters your area.
 - **Recon drone:** short battery life; scouts one building or compound.
@@ -14,12 +14,14 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Rocket launchers (crate-only):** like the RPG-7, in the class slot, found only in crates (owner, 2026-11-22).
 - **Ballistic shield:** a handheld shield that spawns in the world ([Shields](#shields)).
 - **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.
-- **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones) and from tear-gas rounds.
+- **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones), tear gas traps, and tear-gas rounds. As a class item it may be too weak a pick; how gas, the gas trap, and the mask balance is open.
 - **Emergency redeploy:** a balloon that lifts you out and drops you elsewhere on the map, like PUBG's Emergency Pickup.
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.
 - **Pans:** a pan as a small shield that also hits hard ([Pans](#pans)).
 - **Breaching tools:** the sledgehammer, bigger hammers, an entry bar, and a door ram. They break doors and walls until they wear out, and hit hard ([Breaching tools](#breaching-tools)).
+
+- **More class items:** scouting, traps, getting around, support, and breaching ([More class items](#more-class-items)).
 
 **No hero abilities,** but an ability from a hero shooter can become a class item, like the deployable zipline.
 
@@ -107,6 +109,33 @@ First pass (our pick):
 | Door ram | Doors only, in one hit | 10 doors | Loud | None | Two hands on the ram, so it shoves instead: staggers a player, no damage, like the [shield](#ballistic-shield) bash |
 
 **Ideas:** bolt cutters for padlocked gates and sheds, if locked rooms come in.
+
+## More class items
+
+Approved by the owner on 2026-11-22, with his notes. Each is something real, inspired by an ability in another game. Numbers are TBD.
+
+| Item | Inspired by | What it does |
+| --- | --- | --- |
+| **Through-wall radar** | Rainbow Six Pulse's heartbeat sensor; police use real ones | A small screen like Pulse's heartbeat sensor that shows people behind a wall within about 15 m. Limited battery, and it beeps |
+| **Spotter scope** | PUBG's Spotter Scope | The rangefinder binoculars as a 4x scope that also marks enemies for your squad, with range to 600 m. Limited battery |
+| **Sticky camera** | Rainbow Six Valkyrie | Throw a small camera onto a wall and watch it later. One or two out at a time, picked back up after, with a limited battery |
+| **Motion sensor** | Call of Duty and Battlefield | Put it on the ground; it pings when someone walks past. Limited battery |
+| **Signal jammer** | Rainbow Six Mute | Blocks drones, cameras, radars, and motion sensors nearby. Needs balancing to be worth the slot (open) |
+| **Barbed wire roll** | Rainbow Six barbed wire | Slows anyone crossing it, and it rattles |
+| **Spike strip** | PUBG's Spike Trap | Pops the tires of anything that drives over it |
+| **Leg trap** | Rainbow Six Frost | A hidden trap that holds a player for a few seconds, with a loud snap |
+| **Tear gas trap** | Apex Caustic | Lets out gas when someone gets close. Balance with the gas mask, gas grenades, and gas red zones is open |
+| **Mines (crate-only)** | Rainbow Six claymore | The claymore, the bouncing betty, and other mines. Extremely powerful, so crate-only |
+| **Grapple and rappel kit** | Apex Pathfinder; Rainbow Six rappelling | One item: grapple up to a roof or a window, or anchor it at the top of a building to rappel down or swing in a side window |
+| **Emergency parachute** | PUBG's Haven map | Jump from somewhere high safely, but you're easy to spot |
+| **Field medic bag** | PUBG's EMT Gear | Faster healing and revives, and you can heal squadmates |
+| **Self-revive kit** | PUBG's Self-AED | Pick yourself up once when knocked |
+| **Tactical pack** | PUBG's Tactical Pack | Yes, but what it does should fit our game better than PUBG's four extra slots (open) |
+| **Ammo bag** | Battlefield's support class | Refills your squad's guns once, whatever the caliber |
+| **Vehicle repair kit** | Many games | Fixes a damaged vehicle |
+| **Breaching charge** | Rainbow Six breach charge and Thermite | Blows a hole in a breakable wall or door, very loudly |
+| **Cutting torch** | Rainbow Six Maverick | Cuts a hole slowly and fairly quietly, metal doors included |
+| **Decoy dummy** | Apex Mirage; WWII inflatable decoys | An inflatable dummy wearing your outfit |
 
 ## Mortars
 

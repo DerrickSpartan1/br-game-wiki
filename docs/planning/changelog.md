@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Filed the owner's picks: [More class items](../systems/class-items.md#more-class-items), new [special weapon](../systems/weapon-pool.md#special-weapons) groups, and crate additions; queued 16 more special guns |
 | 2026-11-22 | Rocket launchers to crate-only class items; [throwing knife](../systems/weapon-pool.md#throwing-knives) damage cut; [nailing](../systems/gameplay.md#nailing-doors-shut) reworked to nails only |
 | 2026-11-22 | Wrote up [Staged reloads](../systems/handling.md#staged-reloads) for the lead |
 | 2026-11-22 | Added [Special weapons](../systems/weapon-pool.md#special-weapons) and their queue, moved [mortars](../systems/class-items.md#mortars) to class items, and named the [vehicles](game-names.md#vehicles) and [places](game-names.md#places) |

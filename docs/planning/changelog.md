@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | [Game names](game-names.md): the makers and designation rule approved; named the four pilot guns as a sample; added maker habits and a cartridge rule, and cartridges to [Legal review](legal-review.md#the-list) |
 | 2026-11-21 | Added [Game names](game-names.md): naming rules, 49 first-pass gun makers covering all 120 families, a designation proposal, and our names for other games' terms. Renamed Jailbreak to Breakout on [Gameplay](../systems/gameplay.md#comeback-fight) |
 | 2026-11-21 | Added [Legal review](legal-review.md): the process, what to check, the Red Cross rule, gun name approaches, and the running list. Gave [healing](../systems/healing.md#variants) items generic names, dropped Tarkov's made-up stimulants, and added the process to `CLAUDE.md` and the lead's list |
 | 2026-11-21 | The owner approved the [healing](../systems/healing.md) slots, items, caps, and slow healing; ticked the review on the To-do page |

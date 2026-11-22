@@ -106,7 +106,8 @@ In rough order of what the game needs first:
 - [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).
 - [x] **In-game names** for guns and armor brands: our own makers and designations, plain attachment names, and our own armor, vehicle, and term names ([Legal review](legal-review.md#guns)).
-- [ ] **Game names:** check the 49 first-pass gun makers and the designation rule ([Game names](game-names.md)). Talk to a lawyer before selling the game.
+- [x] **Game names:** check the 49 first-pass gun makers and the designation rule ([Game names](game-names.md)).
+- [ ] **Gun names sample:** check the four pilot guns' game names before the rest are done ([Gun names](game-names.md#gun-names)). Talk to a lawyer before selling the game.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
 ## Planner (Claude chat): wiki work (say the word)
@@ -115,7 +116,7 @@ In rough order of what the game needs first:
 - [ ] **Lookups:** energies for the rounds behind the 32 versions with no damage yet, each version's real bullet speed, the missing LMG fire rates, and attachment lists for the 5 gun pages without one ([Lookups](open-questions.md#lookups)).
 - [ ] **Mockups:** the HUD, inventory, and menus as designs before they're built in Unreal.
 - [ ] **One model per version (owner, 2026-11-21):** every version should look like its own gun, so the M4, M4A1, AR-15, and so on each get their own model instead of sharing four looks. Shared parts (lower receiver, moving parts) can still be reused underneath. Update [One model per family](art-and-sound.md#one-model-per-family) and step 2 of the [M16 / M4 model guide](m16-m4-model.md) with what tells each version apart at a glance, and log the decision. The lead builds the M4A1 base model first and holds the other versions until then.
-- [ ] **Game names:** designations for every gun once the rule is OK'd, then armor and vehicle names ([Game names](game-names.md)).
+- [ ] **Game names:** the rest of the guns by category once the owner OKs the pilot sample, then armor and cartridge names; vehicle names when vehicles are added ([Game names](game-names.md)).
 - [ ] **Bots:** how bots fill the lobby and stay to fill empty slots ([Pre-match lobby](../systems/match-flow.md#pre-match-lobby)): how they move, loot, fight, and how good they are. The lead's lobby code leaves a spot for them.
 - [ ] **Art style: low poly (owner, 2026-11-21):** guns (and likely the rest) aim for a low-poly look for now: chunky, flat-sided shapes with hard edges and clear outlines, the basics right but not ultra realistic. There won't be low-poly examples of every gun, so real photos set the shapes and proportions, and the low-poly style sets how much detail goes in. The owner's four style examples are in the game repo at `Art/Weapons/M16M4/Reference/Style/` (style only, source unknown, never copied). File it on [Art and sound](art-and-sound.md) and log the decision.
 

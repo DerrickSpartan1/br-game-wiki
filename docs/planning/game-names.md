@@ -10,7 +10,8 @@ The names the game uses in place of real ones ([Legal review](legal-review.md)).
 - **Designations:** a mix of real and new ([Designations](#designations)).
 - **Attachments:** plain descriptions: vertical foregrip, angled grip, red dot, holographic sight, 2x scope, 4x scope. A unique scope is named for what it does, like a 4x scope with range markings for the SVD's PSO-1.
 - **Armor:** our own names for carriers, plates, rigs, and helmets (TBD).
-- **Vehicles:** made-up makes and models, like guns (TBD).
+- **Vehicles:** made-up makes and models, like guns, named when vehicles are added.
+- **Cartridges:** names with a company or person in them (.338 Lapua Magnum, .308 Winchester, 7.62×25mm Tokarev, .300 Blackout) get a metric size or a plain name in the game, like 7.62×25mm or .338 Magnum (TBD per cartridge).
 - **Other games' terms:** our own names ([Other games' terms](#other-games-terms)).
 - **Into the game:** once names are approved, the lead's tools read them from this page, so the gun, armor, and loot tables the game already reads don't change.
 
@@ -72,7 +73,7 @@ First pass: 49 makers for the 120 gun families. Where a gun was built by several
 
 ## Designations
 
-The owner's pick is a mix of real and new. The proposal, for review:
+Approved by the owner: a mix of real and new.
 
 - **Each game maker has its own letters,** used as a prefix on its guns.
 - **Military designations and years keep their number:** the letters change but the number stays, so the gun still reads right to people who know it.
@@ -85,6 +86,72 @@ The owner's pick is a mix of real and new. The proposal, for review:
 | Kalashnikov AKM | Zavod-7 AV-47M | Military designation: the number stays |
 | Glock 18C | Pichler P-20C | Product name: new number |
 | Uzi | Arava Kestrel | Product name: new name |
+
+**Maker habits so far:**
+
+- **Harlan Arms:** H plus a type letter: R for rifles and carbines, S for sidearms, A for automatic rifles.
+- **Ashby Arsenal:** AS.
+- **Meuse Armaments:** MA for military designations, and bird names in French for its own products.
+- **Descriptions over brand names:** where a real version name is itself a product or brand name (Commander, Officer's, Government Model), it becomes a plain size or role (mid size, compact).
+
+## Gun names
+
+First the four pilot guns, as a sample of the style. The rest follow by category once the owner checks these. The # matches each gun page's Versions table.
+
+### [M16 / M4](../weapons/assault-rifles/m16-m4.md): Harlan Arms
+
+| # | Version | Game name |
+| --- | --- | --- |
+| 1 | M16A1 | Harlan HR-16A1 |
+| 2 | M16A2 | Harlan HR-16A2 |
+| 3 | Commando | Harlan HR-16 CQB |
+| 4 | M4 | Harlan HR-4 |
+| 5 | M4A1 | Harlan HR-4A1 |
+| 6 | AR-15 | Harlan HR-16 Sport |
+| 7 | 7.62x39 AR | Harlan HR-16 7.62×39 |
+| 8 | .300 Blackout | Harlan HR-5 .300 |
+| 9 | M231 FPW (funny version) | Harlan HR-231 Port Gun |
+
+### [M1911 / M1911A1](../weapons/pistols/m1911.md): Harlan Arms
+
+| # | Version | Game name |
+| --- | --- | --- |
+| 1 | Government | Harlan HS-1911A1 |
+| 2 | Commander | Harlan HS-1911 Mid |
+| 3 | Officer | Harlan HS-1911 Compact |
+| 4 | AF2011A1 | Harlan HS-1911 Twin |
+| 5 | .455 Webley Auto | Harlan HS-1911 .455 |
+| 6 | .38 Super | Harlan HS-1911 .38 Super |
+| 7 | 9mm | Harlan HS-1911 9mm |
+| 8 | 7.65mm Parabellum | Harlan HS-1911 7.65mm |
+| 9 | 9mm Steyr | Harlan HS-1911 9×23mm |
+| 10 | .400 Corbon | Harlan HS-1911 .400 |
+| 11 | 7.62×25 Tokarev | Harlan HS-1911 7.62×25mm |
+| 12 | Colt Service Ace | Harlan HS-1911 .22 Trainer |
+
+### [FN Minimi / M249](../weapons/lmgs/minimi.md): Meuse Armaments
+
+| # | Version | Game name |
+| --- | --- | --- |
+| 1 | Minimi | Meuse Martinet |
+| 2 | M249 | Meuse MA-249 |
+| 3 | Para | Meuse Martinet Para |
+| 4 | Mk 46 / SPW | Meuse MA-46 |
+| 5 | Minimi 7.62 | Meuse Martinet 7.62 |
+
+### [M1 Garand](../weapons/battle-rifles/m1-garand.md): Ashby Arsenal
+
+| # | Version | Game name |
+| --- | --- | --- |
+| 1 | M1 | Ashby AS-1 |
+| 2 | Sniper | Ashby AS-1 Sniper |
+| 3 | Short (rare) | Ashby AS-1 Short |
+| 4 | T20 (rare) | Ashby AS-20 |
+| 5 | 7.62 NATO | Ashby AS-1 7.62 |
+| 6 | Pakistani 7.92 (rare) | Ashby AS-1 7.92 |
+| 7 | Type 4 (rare) | Ashby AS-1 Type 4 |
+| 8 | T3E2 (rare) | Ashby AS-3 Trials |
+| 9 | Box-mag conversion (rare) | Ashby AS-1 Box Mag |
 
 ## Other games' terms
 

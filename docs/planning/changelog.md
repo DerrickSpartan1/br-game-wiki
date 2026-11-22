@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Reviewed the pushed HUD for the lead and laid out the [menus](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-22 | Added spectating, [Good fight](../systems/gameplay.md#good-fight), [Emotes](../systems/skins.md#emotes), [Robot guards](../systems/match-flow.md#robot-guards-idea), lobby sizes, and menus; moved [Handling](../systems/handling.md) ready times to PUBG's |
 | 2026-11-22 | Saved the robot concept for possible PvE enemies in the [idea inbox](idea-inbox.md#robot-character-concept) |
 | 2026-11-22 | Added [First person](../systems/gameplay.md#first-person) and the [Lighting look](art-and-sound.md#lighting-look) for the lead; set the robot character concept aside |

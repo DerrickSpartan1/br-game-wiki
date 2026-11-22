@@ -12,7 +12,13 @@ Matches favor scavenging and a slower pace over fast action, in a classic battle
 The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG art, icons, or fonts). The mockup is a private Design artifact in the owner's Claude account.
 
 - **Weapon slots:** 1 and 2 hold primaries, 3 is the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)), 4 holds a [class item](class-items.md), and 5 holds a throwable. Melee has its own button instead of a slot.
-- **Menus:** laid out like PUBG's, with our own art, the same way as the HUD (owner, 2026-11-22).
+- **Menus:** laid out like PUBG's, with our own art, the same way as the HUD (owner, 2026-11-22). Your character, with your squad beside you, stands in the middle; tabs run across the top; Play and the mode picker sit top left; friends and invites on the right. Tabs (our pick):
+    - **Play:** solo, duo, trio, or quad, the region, and whether to fill the squad with other players. Custom games go here too, with bigger squads.
+    - **Wardrobe:** your character, outfit, gun and gear skins, melee weapon, and emotes ([Skins](skins.md)).
+    - **Career:** stats, weapon mastery, and good fight thumbs up ([Good fight](#good-fight)).
+    - **Replays** ([Death cam and replays](#death-cam-and-replays)).
+    - **Settings,** including the field of view slider ([First person](#first-person)).
+    - **No store** while the game is private.
 - **HUD:** a compass at the top with the heading in yellow; players alive and kills at the top right; the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
 - **Picking up:** look at an item and press F, like PUBG. The prompt names a gun's rolled version, since every gun is one version for the match ([Rules](../rules.md#versions)).
 - **Keys:** PUBG's defaults: WASD to move, Shift sprint, Ctrl walk, C crouch, Z prone, Space jump and vault, = auto-run, Alt free look, V perspective, F interact, Tab inventory, left mouse fire, right mouse aim (tap to toggle, hold to hold), R reload, B fire mode, Q and E peek, middle mouse to ping, and 1 to 5 for the slots. The one change is X, which is melee: tap X for a quick melee attack, and hold X to stow your guns and pull out the melee weapon so you run faster ([Melee](#melee)).

@@ -85,6 +85,14 @@ Then the build order that's left:
 - [ ] **Game names in the game:** the owner approved them, so read gun, armor, and cartridge names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
 - [ ] **Hand-made touches:** when a step has a part the owner can do by hand (in-game text, picking colors, placing things in the map editor, small model edits, recording sounds), offer it to him and log it ([Hand-made touches](legal-review.md#hand-made-touches)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
+- [ ] **HUD fixes (planner's review of the pushed HUD, 2026-11-22; skip any already done):**
+    - **Names over heads for squadmates only.** Right now every player's name shows within 100 m, through walls, which gives enemies away.
+    - **Minimap from a fixed map image,** with icons for you, your squad, pings, and the zone. The live top-down camera shows enemies from above and costs frames.
+    - **Players alive from the server** (the game state), since a client only knows the players near it.
+    - **Melee in hand** shows the owned melee weapon's name, not "FISTS" ([Melee](../systems/gameplay.md#melee)).
+    - **Still to add from PUBG's layout:** the squad panel at the bottom left (names, colors, health, knocked); the zone timer and distance, with a run line on the minimap; the full map on M with a grid and the plane's path; the kill feed at the top right and a "you killed" line in the center; hit markers; the throwable count in slot 5; and vehicle speed and fuel once vehicles are in.
+    - **Our own look:** our own fonts, icons, and colors, never PUBG's ([Legal review](legal-review.md#pubg-look-and-feel)).
+- [ ] **Menus:** PUBG's layout with our art: Play, Wardrobe, Career, Replays, and Settings, with the character and squad in the middle ([HUD and inventory](../systems/gameplay.md#hud-and-inventory)).
 - [ ] **First person and lighting:** set the field of view slider, the hip and ADS gun positions, and the arms from [First person](../systems/gameplay.md#first-person), and the materials, exposure, haze, and post effects from the [Lighting look](art-and-sound.md#lighting-look). Show the owner the M4A1 at the range before and after.
 
 ## You: decisions

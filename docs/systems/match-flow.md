@@ -142,7 +142,7 @@ PvE for the vaults (owner, 2026-11-22): a robot guard inside each vault, from th
 - **A noise maker:** when it sees or hears a player it calls out and fires, so everyone nearby knows someone is at the vault, like Hunt: Showdown's crows ([Tracks and animals](gameplay.md#tracks-and-animals)).
 - **Loot:** nothing of its own (our pick); the vault is the prize.
 
-**Later:** a drill that opens any vault in about 45 seconds, but loudly. It could be an expensive item in the scrap machine ([Crafting](crafting.md#scrap-machine-idea)).
+**Later:** a drill that opens any vault in about 45 seconds, but loudly. It's an expensive item at [workbenches](crafting.md#what-a-workbench-makes).
 
 ## Time of day and weather
 

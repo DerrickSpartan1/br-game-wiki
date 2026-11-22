@@ -25,7 +25,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Comeback:** the comeback fight is filed, but the owner isn't sure what form a Gulag-style comeback should take ([Gameplay](../systems/gameplay.md#comeback-fight)).
-- **Scrap machine:** whether a scrap vending machine replaces in-match crafting for armor and gear, what it sells, and prices ([Crafting](../systems/crafting.md#scrap-machine-idea)).
+- **Workbenches:** scrap costs, craft times, and how many benches a map has ([Workbenches](../systems/crafting.md#workbenches)).
 - **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
 - **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
@@ -40,7 +40,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **New class items:** how to make the signal jammer worth the slot, and how gas, the gas trap, and the gas mask balance ([More class items](../systems/class-items.md#more-class-items)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
-- **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).
+- **Scrap types:** one kind of scrap or several ([Crafting](../systems/crafting.md#workbenches)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).
 - **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with the built-in wire cutters or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md#built-in-tools)).
 - **Briefcase spawns:** an idea, not decided. The AS Val and OTs-14 Groza came in real carry cases, so they could spawn as a briefcase find.

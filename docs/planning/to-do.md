@@ -124,7 +124,7 @@ In rough order of what the game needs first:
 - [x] **Healing variants:** check the Tarkov items in each slot, their numbers, and the odds ([Healing](../systems/healing.md#variants)).
 - [x] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
 - [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
-- [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).
+- [x] **Scrap machine:** it's in-match crafting, done at workbenches with scrap ([Workbenches](../systems/crafting.md#workbenches)).
 - [x] **In-game names** for guns and armor brands: our own makers and designations, plain attachment names, and our own armor, vehicle, and term names ([Legal review](legal-review.md#guns)).
 - [x] **Game names:** check the 49 first-pass gun makers and the designation rule ([Game names](game-names.md)).
 - [x] **Gun names sample:** check the four pilot guns' game names before the rest are done ([Gun names](game-names.md#gun-names)). Talk to a lawyer before selling the game.

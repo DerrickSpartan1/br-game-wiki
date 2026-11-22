@@ -4,6 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Mortars are class items. Special weapons are bows, crossbows, spearguns, and slingshots | [Mortars](../systems/class-items.md#mortars), [Special weapons](../systems/weapon-pool.md#special-weapons) |
+| 2026-11-22 | The vehicle lineup: an Eastern Bloc stand-in for each PUBG vehicle, plus a tractor and a 6x6 truck, with Russian nature and animal names | [Vehicles and water](../systems/gameplay.md#vehicles-and-water), [Game names](game-names.md#vehicles) |
+| 2026-11-22 | The first map is Teplov, with our own Eastern European town and spot names | [Places](game-names.md#places) |
+| 2026-11-22 | The first-pass melee, pan, and breaching tool numbers look good, to confirm in play testing | [Class items](../systems/class-items.md#hitting-with-it) |
 | 2026-11-22 | Gun handling feels as close to PUBG's as we can get: ready times moved back to PUBG's, our picks only where PUBG has no numbers | [Handling](../systems/handling.md) |
 | 2026-11-22 | Spectate squadmates, then other players once the whole squad is out; a thumbs up for a good fight; emotes | [Gameplay](../systems/gameplay.md#death-cam-and-replays), [Good fight](../systems/gameplay.md#good-fight), [Emotes](../systems/skins.md#emotes) |
 | 2026-11-22 | Official matchmaking is solos, duos, trios, and quads; custom lobbies and special modes can have bigger squads. Menus are laid out like PUBG's with our own art | [Match setup](../systems/gameplay.md#match-setup) |

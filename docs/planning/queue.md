@@ -163,3 +163,20 @@ Planned as versions, not separate guns: the M24 and M40 under the Remington 700,
 ## Categories not started
 
 Special weapons. Many offshoots for them are already waiting on the [add-later list](add-later.md).
+
+## Special
+
+The owner's list ([Special weapons](../systems/weapon-pool.md#special-weapons)). Mortars are class items instead ([Mortars](../systems/class-items.md#mortars)).
+
+| # | Gun | Origin | Status |
+| --- | --- | --- | --- |
+| 1 | Recurve bow | Modern hunting bow | Queued |
+| 2 | Compound bow | Modern hunting bow | Queued |
+| 3 | Longbow | England, medieval | Queued |
+| 4 | Horse bow | Central Asia, short composite bow | Queued |
+| 5 | Hunting crossbow | Modern | Queued |
+| 6 | Pistol crossbow | Modern | Queued |
+| 7 | Repeating crossbow | China, 4th century BC to the 1800s | Queued |
+| 8 | Arbalest | Europe, medieval | Queued |
+| 9 | Spearguns | Band and pneumatic | Queued |
+| 10 | Hunting slingshot | Modern | Queued |

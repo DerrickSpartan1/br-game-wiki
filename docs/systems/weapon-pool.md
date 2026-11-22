@@ -27,13 +27,13 @@ Each map sets a maximum number of guns per category, and every match randomly pi
 | Battle rifles & DMRs (one category) | Ground | 3 |
 | LMGs | Ground | 1 |
 | Snipers | Ground | 2 |
-| Special (bows/crossbows, mortars, more later) | Ground | 2 |
+| Special (bows, crossbows, spearguns, slingshots, more later) | Ground | 2 |
 | Throwables (a good random mix) | Ground | Not set yet |
 | Crate weapons | Crates (exclusive list) | Not set yet |
 
 Lots of throwables, starting with every one PUBG has ([Throwables](#throwables)).
 
-Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a mortar, never two bows.
+Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a crossbow, never two bows ([Special weapons](#special-weapons)). Mortars are class items ([Mortars](class-items.md#mortars)).
 
 Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:
 
@@ -63,6 +63,25 @@ Categories are loose on purpose: a gun doesn't have to fit its category exactly.
 **Merging versions:** versions that fire the same round and differ only in small details are cut down to one version, with the differences noted.
 
 Machine pistols that come from a main pistol, like the C96 Schnellfeuer, go in the pistol slot.
+
+## Special weapons
+
+The owner's list, approved 2026-11-22. Each gets a gun page when it's added ([Gun queue](../planning/queue.md#special)). Arrows and bolts are quiet and can be picked back up after, like [throwing knives](#throwing-knives) (our pick).
+
+| Subcategory | Weapon (real basis) | How it plays |
+| --- | --- | --- |
+| Bows | Recurve bow (modern hunting bow) | Quiet; arrows picked back up |
+| Bows | Compound bow | Easier to hold drawn, faster arrows |
+| Bows | Longbow (English war bow) | Heavy draw, hits hard, can't hold drawn long |
+| Bows | Horse bow (short composite bow) | Quick draw, light arrows |
+| Crossbows | Hunting crossbow (like PUBG's) | One bolt, slow reload, takes a scope |
+| Crossbows | Pistol crossbow | Small and weak; pistol / 3rd slot |
+| Crossbows | Repeating crossbow (Chinese, 4th century BC to the 1800s) | 7 to 10 bolts in 15 to 20 seconds from a top magazine; weak, about 70 m. A funny one |
+| Crossbows | Arbalest (medieval steel crossbow) | Hardest-hitting bolt, very slow crank reload |
+| Spearguns | Band and pneumatic spearguns | Strong underwater, weak and short above it |
+| Slingshots | Hunting slingshot | Steel balls, quiet, weak. A funny one |
+
+**Maybe elsewhere:** a flamethrower (likely crate), a signal flare pistol that lights an area at night (maybe a class item), and a blowgun.
 
 ## Throwables
 
@@ -98,6 +117,7 @@ Good for stealth when you have the upper hand, so they need limits to stay fair.
 
 ## Sources
 
+- [Wikipedia: Repeating crossbow](https://en.wikipedia.org/wiki/Repeating_crossbow)
 - [PUBG Wiki: Grenades](https://pubg.wiki.gg/wiki/Grenades) (weights) · [PUBG Wiki: C4](https://pubg.wiki.gg/wiki/C4)
 - [Gamertag Mythras: PUBG throwables and utility](https://gamertagmythras.com/blog/pubg-battlegrounds/pubg-throwables-utility-guide)
 - [Dexerto: PUBG throwables](https://www.dexerto.com/wikis/pubg/weapons/throwable/)

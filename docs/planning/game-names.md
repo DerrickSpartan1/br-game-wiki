@@ -1589,6 +1589,73 @@ Approved by the owner: ammo is called by its caliber, with no company or person'
 | 28 gauge | 28 gauge |
 | .410 bore | .410 bore |
 
+## Vehicles
+
+Approved 2026-11-22. Russian nature and animal words, like Soviet car names; no maker names. Real brands to keep clear of: Lada, UAZ, Volga, Niva, Ural, Dnepr, Buran, Muravey, Zhuk, Gazelle, Sobol, and Chaika. The lineup and what each is based on is on [Vehicles and water](../systems/gameplay.md#vehicles-and-water).
+
+| Ours | Meaning | Replaces (PUBG) |
+| --- | --- | --- |
+| Vesna 12 | Spring | Dacia 1300 |
+| Barsuk 4, Barsuk 4 Winter | Badger | UAZ, Zima |
+| Peschanka | Gerbil (from *pesok*, sand) | Buggy |
+| Strizh 350 | Swift | Motorcycle |
+| Sever S-650 | North | Motorcycle with sidecar |
+| Tushkan | Jerboa | Dirt Bike |
+| Pchelka | Little bee | Scooter |
+| Kuznechik | Grasshopper | Tukshai |
+| Yastreb 24 | Hawk | Mirado |
+| Burlak | Barge hauler | Pickup, Rony |
+| Karavai | Round loaf | Van |
+| Molniya GT | Lightning | Coupe RB |
+| Zayats | Hare | Pony Coupe |
+| Bobr | Beaver | Porter |
+| Lis | Fox | Blanc |
+| Gus | Goose | Pico Bus |
+| Kaban | Boar | Quad |
+| Purga | Blizzard | Snowmobile |
+| Ezh | Hedgehog | BRDM-2 |
+| Baklan | Cormorant | Boat (PG-117) |
+| Tyulen | Seal | Aquarail |
+| Veter | Wind | Airboat |
+| Zhuravl | Crane | Motor Glider |
+| Pakhar | Plowman | New: tractor |
+| Mamont | Mammoth | New: 6x6 truck |
+
+Plain names, no maker: patrol car, kvass truck, mountain bike, inflatable boat.
+
+## Places
+
+Approved 2026-11-22. The first map is **Teplov** (from *teplo*, warm, for its hot springs). Eastern European names to match its Soviet-era look. Erangel also has a Prison, Quarry, Hospital, School, and Military Base, so most of those spots get Soviet names here. The wiki keeps Ischia's real names as layout references ([Maps](../systems/maps.md#place-names)).
+
+| Real place | Ours | Meaning |
+| --- | --- | --- |
+| Ischia (the island) | Teplov | Warm |
+| Ischia Porto | Gavansk | Harbor town |
+| Forio | Vetrovo | Windy |
+| Ischia Ponte | Mostki | Little bridges |
+| Casamicciola Terme | Klyuchi | Springs |
+| Lacco Ameno | Gribovo | Mushroom, after its mushroom-shaped rock |
+| Barano d'Ischia | Ternovka | Blackthorn |
+| Serrara Fontana | Verkhovye | Uplands |
+| Panza | Polyanka | Little clearing |
+| Sant'Angelo | Rybatsk | Fishermen's village |
+| Monterone | Kholmy | Hills |
+| Cuotto | Ovsyanka | Oats |
+| Marina (ours) | Tikhaya Bukhta | Quiet Bay |
+| Monte Epomeo (the plateau) | Stolovaya | Table mountain |
+| Monte Trippodi | Sokolinaya | Falcon hill |
+| Monte Rotaro | Krugly | Round |
+| Montagnone | Gorbatka | Humpback |
+| Pizzi Bianchi | Belye Piki | White peaks |
+| Castle islet (Fortress) | Krepost | Fortress |
+| Military Outpost | Object 7 | A Soviet-style secret site |
+| Prison | Ostrog | An old word for a jail |
+| Quarry | Kamenolom | Stone quarry |
+| Thermal Spa | Sanatorium | A Soviet health resort |
+| Farm | Kolkhoz | Collective farm |
+| Port, Fishing Dock | Gavansk Port, Vetrovo Pier | — |
+| Hospital, School, Tunnel | Plain names | — |
+
 ## Other games' terms
 
 | Theirs | Ours (first pass) |

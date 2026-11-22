@@ -10,6 +10,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Recon drone:** short battery life; scouts one building or compound.
 - **Bomb drone:** one-time use. Reviving exists, so being taken out by a bomb drone shouldn't feel like a total game over.
 - **Non-lethal grenade launchers:** these go in the class item pool; lethal ones are crate-only.
+- **Mortars:** indirect fire, the one lethal launcher in the class pool ([Mortars](#mortars)).
 - **Ballistic shield:** a handheld shield that spawns in the world ([Shields](#shields)).
 - **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.
 - **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones) and from tear-gas rounds.
@@ -106,6 +107,22 @@ First pass (our pick):
 
 **Ideas:** bolt cutters for padlocked gates and sheds, if locked rooms come in.
 
+## Mortars
+
+Mortars are class items, not special weapons (owner, 2026-11-22).
+
+| Mortar (real basis) | What it's like |
+| --- | --- |
+| 60 mm light mortar (like PUBG's) | Set the range from the map; fires in a high arc; loud |
+| 2-inch mortar (British, WWII) | Lighter, shorter range |
+| Knee mortar (Japanese Type 89, 50 mm) | Fired from the ground at a steep angle, out to about 670 m with its shell |
+| Spade mortar (Soviet 37 mm, 1939–42) | A shovel that's also a mortar: 1.5 kg, up to 250 m, no sight. A funny one |
+
+- **Shells:** loot of their own, like PUBG's 60 mm shells; a mortar spawns with a few (our pick: 4).
+- **Lethal, as an exception:** other lethal launchers stay crate-only ([Crate weapons](weapon-pool.md#how-the-randomness-works)).
+- **Numbers** (range, blast, set-up time) are TBD.
+
 ## Sources
 
+- [Wikipedia: Type 89 grenade discharger](https://en.wikipedia.org/wiki/Type_89_grenade_discharger) · [Wikipedia: 37 mm spade mortar](https://en.wikipedia.org/wiki/37_mm_spade_mortar)
 - [Gamertag Mythras: PUBG utility items (Folded Shield)](https://gamertagmythras.com/blog/pubg-battlegrounds/pubg-utility-items-guide)

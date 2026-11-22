@@ -9,6 +9,10 @@ The first map takes its layout from Ischia, an island off Naples: the coastline,
 - **Match flow:** the plane, zone phases, and red zones start from Erangel's ([Match flow](match-flow.md)).
 - **Caps:** the per-map max for throwables and crate weapons is TBD ([Weapon pool](weapon-pool.md)).
 
+### Place names
+
+In the game the island is **Teplov**, and every town, hill, and spot has our own name ([Places](../planning/game-names.md#places)). The wiki keeps Ischia's real names as layout references, so the tables below still use them.
+
 ### What the layout has
 
 | Kind | Places | Where |

@@ -89,39 +89,42 @@ Winners redeploy into the main match with the guns and armor they had in the tea
 
 ## Vehicles and water
 
-Lots of vehicles of our own, picked for what each map needs, with our own names and designs when they're added. PUBG's lineup below is a reference and an idea list for later, not a list to copy. Ziplines are part of the map too. Trains could run on maps with rail, and a gondola could carry players up a mountain on a future map.
+Lots of vehicles of our own, picked for what each map needs. Ziplines are part of the map too. Trains could run on maps with rail, and a gondola could carry players up a mountain on a future map.
 
-| PUBG vehicle | What it is | Seats | Top speed (PUBG) |
-| --- | --- | --- | --- |
-| **Dacia 1300** | Small sedan | 4 | 139 km/h |
-| **UAZ** | Military jeep, open or closed top | 5 | 105 km/h open, 115 km/h closed |
-| **Buggy** | Dune buggy | 2 | 100 km/h |
-| **Motorcycle** | Road motorcycle | 2 | 152 km/h |
-| **Motorcycle with sidecar** | Motorcycle and sidecar | 3 | 130 km/h |
-| **Dirt Bike** | Off-road motorcycle | — | — |
-| **Scooter** | Scooter | 2 | — |
-| **Tukshai** | Three-wheeled taxi | 3 | — |
-| **Mirado** | Muscle car | 4 | 152 km/h |
-| **Pickup** | Pickup truck | 4 | — |
-| **Rony** | Pickup truck | 4 | 110 km/h |
-| **Van** | Van | 6 | 110 km/h |
-| **Coupe RB** | Sports coupe | — | — |
-| **Pony Coupe** | Coupe | — | — |
-| **Porter** | Small cab-over truck | — | — |
-| **Blanc** | SUV | — | — |
-| **Pico Bus** | Minibus | — | — |
-| **Quad** | Four-wheeler | — | — |
-| **Mountain Bike** | Bicycle | — | — |
-| **Zima** | Snow version of the UAZ | — | — |
-| **Snowmobile** | Snowmobile | 2 | — |
-| **Pillar Security Car** | Security patrol car | — | — |
-| **Food Truck** | Food truck | — | — |
-| **BRDM-2** | Armored car that swims, called in with a flare gun ([Care packages](match-flow.md#care-packages)) | — | — |
-| **Boat (PG-117)** | Motor boat | 5 | 90 km/h |
-| **Aquarail** | Jet ski | 2 | 90 km/h |
-| **Inflatable Boat** | Inflatable boat | — | — |
-| **Airboat** | Airboat | — | — |
-| **Motor Glider** | Two-seat powered glider | 2 | — |
+The lineup (owner, 2026-11-22): each PUBG vehicle gets a stand-in based on a similar real vehicle, with an Eastern Bloc look to fit the first map. Names are Russian nature and animal words, the way Soviet cars had names like Volga and Niva ([Game names](../planning/game-names.md#vehicles)). Seats and top speeds start at PUBG's, where known.
+
+| Ours | Based on | Replaces (PUBG) | Seats | Top speed (PUBG) |
+| --- | --- | --- | --- | --- |
+| **Vesna 12** | Lada 2101-style sedan | Dacia 1300 | 4 | 139 km/h |
+| **Barsuk 4** | UAZ-469-style jeep, open or closed top | UAZ | 5 | 105 km/h open, 115 km/h closed |
+| **Barsuk 4 Winter** | The same jeep on snow tires | Zima | — | — |
+| **Peschanka** | Dune buggy | Buggy | 2 | 100 km/h |
+| **Strizh 350** | Jawa 350-style road motorcycle | Motorcycle | 2 | 152 km/h |
+| **Sever S-650** | Ural-style sidecar motorcycle | Motorcycle with sidecar | 3 | 130 km/h |
+| **Tushkan** | Enduro dirt bike | Dirt Bike | — | — |
+| **Pchelka** | Vyatka-style scooter | Scooter | 2 | — |
+| **Kuznechik** | Three-wheeled cargo scooter | Tukshai | 3 | — |
+| **Yastreb 24** | The Volga sedan with the KGB's V8 | Mirado | 4 | 152 km/h |
+| **Burlak** | Small pickup | Pickup and Rony (merged) | 4 | 110 km/h |
+| **Karavai** | UAZ-452 "loaf" van | Van | 6 | 110 km/h |
+| **Molniya GT** | Sports coupe | Coupe RB | — | — |
+| **Zayats** | Zaporozhets-style small car | Pony Coupe | — | — |
+| **Bobr** | Small cab-over truck | Porter | — | — |
+| **Lis** | Niva-style small 4x4 | Blanc | — | — |
+| **Gus** | Soviet minibus | Pico Bus | — | — |
+| **Kaban** | Four-wheeler | Quad | — | — |
+| **Purga** | Soviet snowmobile | Snowmobile | 2 | — |
+| **Ezh** | Amphibious scout car, called in with a flare gun ([Care packages](match-flow.md#care-packages)) | BRDM-2 | — | — |
+| **Baklan** | Motorboat | Boat (PG-117) | 5 | 90 km/h |
+| **Tyulen** | Jet ski | Aquarail | 2 | 90 km/h |
+| **Veter** | Propeller airboat | Airboat | — | — |
+| **Zhuravl** | Two-seat motor glider | Motor Glider | 2 | — |
+| Patrol car | A Vesna 12 in police colors | Pillar Security Car | 4 | — |
+| Kvass truck | A Soviet street kvass barrel truck | Food Truck | — | — |
+| Mountain bike | Bicycle | Mountain Bike | 1 | — |
+| Inflatable boat | Rubber boat | Inflatable Boat | — | — |
+| **Pakhar** (new) | Belarus-style farm tractor | — | — | — |
+| **Mamont** (new) | Ural-style 6x6 army truck: slow but tough | — | — | — |
 
 Dashes are numbers the sources checked don't give. Which vehicles each map gets is TBD; snow vehicles fit snow maps, for example.
 

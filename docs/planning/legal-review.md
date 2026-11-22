@@ -45,10 +45,10 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Attachments | [Attachments](../systems/attachments.md) | Brand and model names such as ACOG, Leupold, and PSO-1 | Plain descriptions: 2x scope, vertical foregrip | Rule set |
 | Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names ([Armor](game-names.md#armor)) | Done |
 | Breaching tools | [Class items](../systems/class-items.md#breaching-tools) | The Halligan bar is named after a person | Entry bar | Done |
-| Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Made-up makes and models | When vehicles are added |
+| Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Our own names ([Vehicles](game-names.md#vehicles)) | Named |
 | Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Caliber only ([Cartridges](game-names.md#cartridges)) | Done; two sizes still TBD |
 | Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
-| First map | [Maps](../systems/maps.md) | Real island and town names | Our own place names | Open |
+| First map | [Maps](../systems/maps.md) | Real island and town names | Teplov and our own place names ([Places](game-names.md#places)) | Done |
 | PUBG look and feel | Several pages | Specifics copied from PUBG that, together, look like PUBG ([PUBG look and feel](#pubg-look-and-feel)) | Our own versions | Open |
 | Player-made content | [Custom games and mods](../systems/gameplay.md#custom-games-and-mods-later) | Maps and content made by players need terms on who owns them and what's allowed | Workshop terms | Later |
 

@@ -82,7 +82,7 @@ Then the build order that's left:
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
 - [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
 - [ ] **Generic names in game:** use the game names from the wiki, not the real ones, in data, menus, and text, and keep logos, maker's marks, and the Red Cross emblem off every model and texture ([Legal review](legal-review.md)).
-- [ ] **Game names in the game:** the owner approved them, so read gun, armor, and cartridge names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
+- [ ] **Game names in the game:** the owner approved them, so read gun, armor, cartridge, vehicle, and place names from [Game names](game-names.md) into the data, without changing the tables the tools already read.
 - [ ] **Hand-made touches:** when a step has a part the owner can do by hand (in-game text, picking colors, placing things in the map editor, small model edits, recording sounds), offer it to him and log it ([Hand-made touches](legal-review.md#hand-made-touches)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 - [ ] **HUD fixes (planner's review of the pushed HUD, 2026-11-22; skip any already done):**

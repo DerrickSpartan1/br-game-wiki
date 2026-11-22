@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Staged reloads: a cancelled reload keeps its progress; if the old mag is already out, the gun stays without a mag and the next reload picks up from there (logged by the lead; details for the planner) | [Handling](../systems/handling.md), [To-do](to-do.md) |
 | 2026-11-22 | Player characters are PUBG-like humans you dress up, not robots. The robots are saved for something else, maybe PvE | [Your character](../systems/skins.md#your-character), [Idea inbox](idea-inbox.md#robot-character-concept) |
 | 2026-11-22 | Safe isn't on the fire-mode key. A gun goes to safe only when stowed (e.g. holding X for melee) and returns to the last chosen fire mode when drawn; the draw animation will show that later (logged by the lead) | [Gameplay](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-22 | No super realistic lighting and reflections for now: guns looked too shiny under Unreal's default lighting, so gun materials go more matte and the lighting look gets set later (logged by the lead) | [Lighting look](art-and-sound.md#lighting-look) |

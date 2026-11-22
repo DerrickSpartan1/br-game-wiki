@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Added a starting list of melee weapons and where they could spawn on [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | Added other pans as melee weapons on [Gameplay](../systems/gameplay.md#melee), with a first-pass table |
 | 2026-11-21 | Set the frying pan's twist on [Gameplay](../systems/gameplay.md#melee): it wears through after one or two hits by caliber, then works only as melee |
 | 2026-11-21 | Brought the frying pan back on [Gameplay](../systems/gameplay.md#melee) with twist ideas, and added patents to [Legal review](legal-review.md#what-to-check) |

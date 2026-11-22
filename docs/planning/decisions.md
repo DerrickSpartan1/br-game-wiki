@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Lots of melee weapons of all sorts, including scythes, knives of different kinds, machetes, and brass knuckles | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | More pans as melee weapons (cast-iron skillet, wok, saucepan), each wearing through like the frying pan with its own trade-offs | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | The frying pan wears through: one or two hits depending on the caliber hole it, and a holed pan stops blocking but still works as melee | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | The frying pan is back in, with our own model and sounds and a twist of our own (TBD) so it isn't PUBG's | [Gameplay](../systems/gameplay.md#melee) |

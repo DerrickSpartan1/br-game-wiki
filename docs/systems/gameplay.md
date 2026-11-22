@@ -107,6 +107,19 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
     - **Other ideas, not decided:**
         - **Raise it to block:** it only stops bullets while held up as a block; slung on your hip or back, it doesn't, unlike PUBG's.
         - **Loud clang:** a hit on it rings out, giving away where you are.
+- **Lots of melee weapons (decided):** all sorts, so there's plenty to choose from. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list, all with plain names and no brands:
+
+    | Kind | Weapons |
+    | --- | --- |
+    | Knives | Combat knife, hunting knife, folding knife, butterfly knife, karambit, kukri, tanto, bayonet |
+    | Big blades | Machete, cleaver, hatchet, axe, cavalry sabre, katana (rare) |
+    | Farm tools | Scythe, sickle, pitchfork |
+    | Tools | Crowbar, shovel, entrenching tool, pickaxe, sledgehammer, wrench, tire iron, wire cutters |
+    | Blunt | Brass knuckles, baseball bat, police baton, lead pipe, rolling pin, trench club |
+    | Pans | Frying pan, cast-iron skillet, wok, saucepan (above) |
+
+    - **What sets them apart:** damage, swing speed, reach, and how fast you run with it out. Only pans block bullets. Numbers TBD.
+    - **Where they spawn (idea):** where they'd really be: farm tools on farms, kitchen things in houses, tools in garages and the quarry, military knives and entrenching tools at military spots, and swords rarely, like in vaults.
 
 ## Dog tags
 

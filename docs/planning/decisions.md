@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | One kind of scrap. Unspent scrap comes out of the match as the game's main currency. First-pass workbench costs, times, and counts set | [Crafting](../systems/crafting.md) |
 | 2026-11-22 | The scrap machine is in-match crafting: workbenches around the map where you spend scrap to make things. No crafting from the backpack, and no boarding up with planks | [Workbenches](../systems/crafting.md#workbenches) |
 | 2026-11-22 | Approved: the handling first pass (PUBG's numbers), the shields first pass, and the river route on the v4 mockup | [Handling](../systems/handling.md), [Shields](../systems/class-items.md#shields), [River](../systems/maps.md#river) |
 | 2026-11-22 | Attachment effects start from PUBG's numbers | [Attachments](../systems/attachments.md#effects-first-pass-from-pubg) |

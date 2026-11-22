@@ -71,7 +71,7 @@ If camping still pays in play tests, the next lever is weaker healing outside th
 
 ### Radar stations
 
-Spend scrap at a radar station to see the next circle early. Stations sit at the Military Outpost and at other spots around the map. Cost and locations are TBD ([Crafting](crafting.md)).
+Spend scrap at a radar station to see the next circle early. Stations sit at the Military Outpost and at other spots around the map. It costs 50 scrap (our pick); other locations are TBD ([Crafting](crafting.md#what-a-workbench-makes)).
 
 ## Red zones
 

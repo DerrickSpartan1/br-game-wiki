@@ -62,6 +62,7 @@ A reload keeps its progress (owner, 2026-11-22). Each reload is split into stage
 | `revolver` | Cylinder out and empties out (35%), new rounds in (50%), closed (15%) | No, while the cylinder is out |
 
 - **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).
+- **The old mag drops (owner, 2026-11-22):** the empty or partial mag falls to the ground and disappears after about 10 seconds. It's only for looks, so other players see the reload; you can't pick it up. Spent casings also stay on the ground about 10 seconds.
 - **What cancels a reload:** switching weapons, sprinting, holding X for melee or tapping it for a quick hit, getting knocked, vaulting or climbing, getting in a vehicle, starting a heal, and dropping the gun. Pressing fire only stops one-at-a-time loads ([Reloads work like PUBG](#reload-times)).
 - **The saved stage stays with the gun:** a gun dropped with its mag out lies on the ground with no mag, and whoever picks it up starts from "new mag in."
 - **The HUD** shows a gun with no mag as the chambered round only, like 0+1.

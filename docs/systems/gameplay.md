@@ -92,7 +92,11 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
-- **No frying pan for now:** a pan that blocks bullets is PUBG's signature item, so it's left out ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
+- **Frying pan:** back in, with our own model and sounds and a twist of our own, so it isn't PUBG's pan ([Legal review](../planning/legal-review.md#pubg-look-and-feel)). The twist is TBD; ideas:
+    - **It wears out:** it dents and breaks after taking enough fire, like the [shields](class-items.md#shields).
+    - **Raise it to block:** it only stops bullets while held up as a block; slung on your hip or back, it doesn't, unlike PUBG's.
+    - **Cookware of the match:** like healing items, each match rolls one kind, such as a heavy cast-iron skillet (tough, slow swing) or a wide wok (covers more, dents faster).
+    - **Loud clang:** a hit on it rings out, giving away where you are.
 
 ## Dog tags
 

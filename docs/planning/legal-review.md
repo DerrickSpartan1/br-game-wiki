@@ -21,6 +21,7 @@ Anything in the game that could cause legal trouble gets a generic name or a new
 | **Logos and emblems** | Maker logos and markings on guns, the Red Cross | None on models or textures ([Red Cross emblem](#red-cross-emblem)) |
 | **Real people** | Public figures, gun designers whose names are trademarks | No real people's names or likenesses |
 | **Real places** | Ischia's towns | The layout is fine; in-game place names are our own (TBD) |
+| **Patents** | Unusual mechanics. Nintendo's 2024 suit against Palworld's maker was over Japanese patents on catching and riding creatures | The lawyer checks for patents on any mechanic that isn't a genre staple |
 | **Art, sound, and music** | Photos, models, and sounds made by others | Covered by the asset log ([Gun art and sound](art-and-sound.md#licenses-and-the-asset-log)) |
 
 ### Red Cross emblem
@@ -56,7 +57,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 
 | PUBG specific | Ours | Status |
 | --- | --- | --- |
-| Frying pan that blocks bullets | Left out for now | Decided |
+| Frying pan that blocks bullets | Back in, with our own model and sounds and a twist of our own ([Melee](../systems/gameplay.md#melee)) | Twist TBD |
 | Care package with a flashing light and red smoke | Our own look and signal | Decided |
 | Every PUBG vehicle | Our own vehicles, picked per map; PUBG's lineup is an idea list | Decided |
 | PUBG's name in marketing | Never used | Decided |
@@ -93,3 +94,4 @@ The owner wants chances to make things by hand so they're clearly his. Easy ones
 - [PC Gamer: Steam's updated AI disclosure (2026)](https://www.pcgamer.com/software/ai/steam-updates-ai-disclosure-form-to-specify-that-its-focused-on-ai-generated-content-that-is-consumed-by-players-not-efficiency-tools-used-behind-the-scenes/)
 - [TechCrunch: Krafton sues Garena, Apple, and Google (2022)](https://techcrunch.com/2022/01/13/pubg-mobile-maker-krafton-sues-apple-google-and-rival-game-developer-garena-over-clones/) · [Game Developer: Krafton and NetEase settle](https://www.gamedeveloper.com/business/krafton-and-netease-settle-over-i-pubg-i-i-knives-out-i-copyright-quarrel)
 - [Anthropic Consumer Terms](https://www.anthropic.com/legal/consumer-terms)
+- [PC Gamer: Nintendo's patent suit against Palworld's maker (2024)](https://www.pcgamer.com/games/survival-crafting/palworld-developer-reports-nintendos-suing-over-3-pokemon-patents-for-only-usd66-000-in-damages-but-a-videogame-ip-lawyer-says-fighting-the-lawsuit-could-mean-burning-millions-of-dollars)

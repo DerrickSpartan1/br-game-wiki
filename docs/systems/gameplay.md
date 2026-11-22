@@ -94,9 +94,18 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
 - **Frying pan:** back in, with our own model and sounds and a twist of our own, so it isn't PUBG's pan ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
     - **It wears through (decided):** it stops a bullet or two, depending on the caliber, then it's holed. A holed pan doesn't block anymore, and the hole shows on the model, but it still works as a melee weapon. First pass (our pick): rounds under 1,200 J (pistol and SMG rounds) take two hits to hole it, and rounds at 1,200 J and up (rifle rounds) hole it in one, using the [ammo energy bands](ammo.md#weight). One shotgun blast counts as one hit.
+    - **Other pans (decided):** more cookware as melee weapons, each wearing through the same way, with its own trade-offs. First pass (our pick), with how many hits hole it from pistol and SMG rounds, then rifle rounds:
+
+        | Pan | Hits to hole it | Swing | Blocks |
+        | --- | --- | --- | --- |
+        | Frying pan | 2, then 1 | Normal | Normal area |
+        | Cast-iron skillet | 3, then 2 | Slow, hits harder | Normal area; heavier to carry |
+        | Wok | 1, then 1 | Fast | A wider area |
+        | Saucepan | 2, then 1 | Fastest | A small area |
+
+        How they spawn is TBD: one kind rolled per match, like healing items, or all of them in every match.
     - **Other ideas, not decided:**
         - **Raise it to block:** it only stops bullets while held up as a block; slung on your hip or back, it doesn't, unlike PUBG's.
-        - **Cookware of the match:** like healing items, each match rolls one kind, such as a heavy cast-iron skillet (tough, slow swing) or a wide wok (covers more, holes faster).
         - **Loud clang:** a hit on it rings out, giving away where you are.
 
 ## Dog tags

@@ -69,6 +69,8 @@ When you tell the lead "check the planner's list," it works through this section
 - **Game names questions for the planner (lead, 2026-11-22):** the data tools now read [Game names](game-names.md) into the weapon and armor tables (all 625 versions and 133 armor pieces named). Open:
     - **Family names:** the game shows a family label (e.g. "AK-47 / AKM") on gun cards and prompts, but the page only names versions. Should each family get a game name, or should the game show only the version's game name?
     - **Two cartridges are TBD:** ".45 Remington–Thompson" (Thompson v5) and "6.5mm Fedorov" (Fedorov Avtomat v2). Until named, those show the version name with no cartridge label rather than the real one.
+    - **Names the review flagged against the page's own rules:** "Oka Buran" (SR-3 Vikhr) uses "Buran", which the Vehicles section lists as a real brand to avoid; "Pichler P-19" and "P-20" (Glock 17 / 18) use numbers that are real Glock models; "Northway NW-45 Liberator" keeps the real nickname. Keep or rename?
+    - **Real names inside the data:** even once every screen shows game names, the game's gun and armor tables keep the real names as internal keys (row names like `glock_17_18_04`, version, family, cartridge and armor names). OK for the private build, with a note for the lawyer pass ([Legal review](legal-review.md))?
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 

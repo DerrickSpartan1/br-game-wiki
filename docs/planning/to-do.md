@@ -36,6 +36,15 @@ When you tell the lead "check the planner's list," it works through this section
 - Pushed 2026-11-21: all the commits above are on GitHub. The Epic invite is accepted, so the dedicated server build is unblocked (engine source 5.8.4, to match the installed editor; the lead asks the owner before the big download). The M4 model has started (see You: art): the base M4A1 first, then the other versions once the planner sets how each one looks.
 - Waiting on the planner: how bots fill empty slots (see Planner).
 
+**Lead's report, 2026-11-22** (game repo commits are local, not pushed yet):
+
+- Done: **healing** with match-rolled variants and the boost bar (`fc9e273`, `0d3c9bb`, `8f6d827`, review fixes `50ad786`, `3b48581`). Its placeholders are in the Planner item "Healing calls the lead made".
+- Done: **the dedicated server build.** Engine source 5.8.4 built with MSVC 14.44 (14.52 breaks it), the game packages as `BRGameServer.exe` and runs a full match with two clients joining (`202f7c8`, `5845830`, `4f2cbd4`, `a712046`). `Start-LocalMatch.ps1 -PackagedServer` runs it. Clients from the launcher editor need a network version override until clients are packaged from the same engine.
+- M4A1, steps 4 to 8 of the model guide: detail pass, materials and UVs, rig with a folding rear sight, export, import, Unreal materials, moving parts in game (bolt, trigger, selector, bolt catch, dust cover, rear sight), the box mag anim set with left-hand IK in both views, the mag leaving with the hand and the bolt slamming forward on empty reloads. Still open in step 8: muzzle flash and shells, and a proper first-person reload animation (the template reload reads as a hand wave in first person).
+- Done in part: **first person and lighting.** The field of view setting (`FOV`, 80–103, default 90), ADS that centers the sight, the PUBG-style hip hold, and the lighting look on the range (Metallic 0 gun materials, soft sun, haze, locked exposure, no motion blur). Left: a slider once there's a settings menu, the arms and sleeves, and the bare-steel material slot.
+- Reloads are built so staged reloads can resume from a saved step; the rule waits for the Planner item "Staged reloads".
+- Next for the lead: muzzle flash and shells, or the first-person reload animation (owner to pick), then the graybox map, then time of day and weather.
+
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text

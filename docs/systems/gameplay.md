@@ -137,7 +137,7 @@ Every player carries a few tools that aren't items and take no slot. They're use
 
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
-- **More tools** can come later. Other ideas for the small hammer: knock out a window quietly instead of shattering it, or pry open small locked boxes and lockers for loot.
+- **More tools** can come later. Another idea for the small hammer: knock out a window quietly instead of shattering it.
 
 ### Nailing doors shut
 

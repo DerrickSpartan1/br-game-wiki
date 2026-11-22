@@ -80,7 +80,7 @@ Then the build order that's left:
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
-- [ ] **Healing:** PUBG's six items and the boost bar, with one variant per item rolled each match ([Healing](../systems/healing.md)).
+- [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle, and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 
 ## You: decisions
@@ -100,7 +100,7 @@ In rough order of what the game needs first:
 - [x] **Vault keys:** one key fits all, used up on opening, dropped on death, with a small chance in care packages ([Vaults and keys](../systems/match-flow.md#vaults-and-keys)).
 - [x] **Prison armory:** the first map's fifth vault ([Maps](../systems/maps.md#marina-farms-and-vaults)).
 - [ ] **River:** check the first-pass route, crater lake, and three bridges on the v4 mockup ([Maps](../systems/maps.md#river)).
-- [ ] **Healing variants:** check the Tarkov items in each role, their numbers, and the odds ([Healing](../systems/healing.md#variants)).
+- [ ] **Healing variants:** check the Tarkov items in each slot, their numbers, and the odds ([Healing](../systems/healing.md#variants)).
 - [ ] **Map caps:** the per-map max for throwables and crate weapons ([Weapon pool](../systems/weapon-pool.md)).
 - [ ] **Comeback:** what form a Gulag-style comeback takes ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - [ ] **Scrap machine:** whether it replaces in-match crafting, and what it sells ([Crafting](../systems/crafting.md#scrap-machine-idea)).

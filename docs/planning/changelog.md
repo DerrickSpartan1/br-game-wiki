@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Tightened [healing variants](../systems/healing.md#variants) around PUBG's numbers: slots instead of roles, PUBG's own items out of the roll, one use each, AFAK and the Salewa as med kits, morphine with adrenaline, and a compared-with-the-middle note on every item |
 | 2026-11-21 | Loosened [healing variants](../systems/healing.md#variants): added Tarkov's drinks as energy drinks, its stimulants as adrenaline, and Augmentin as a painkiller |
 | 2026-11-21 | Added the lead's report to the [To-do](to-do.md) list, the Epic Games GitHub invite step for the owner, and a bots design item for the planner |
 | 2026-11-21 | Reworked [healing variants](../systems/healing.md#variants): Tarkov's real-life medical items now fill PUBG's six roles, with the blend rules, first-pass numbers, and what was left out and why |

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Healing items stay close to PUBG: PUBG's six items are slots whose numbers are the middle, PUBG's own items aren't in the roll, and every Tarkov item is within about 1 s and 10% of its slot, one use each. Real stat differences, not skins | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | Healing variants go loose: Tarkov's drinks fill the energy drink role, its stimulants fill the adrenaline role, and Augmentin counts as a painkiller | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | Healing variants are Escape from Tarkov's real-life medical items, blended into PUBG's six roles. A role has as many variants as fit, from one to five, and each match rolls one item per role. This replaces the worse, standard, and better set | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | The first map gets a river: a crater lake on the plateau feeding a river to the south coast, with three bridges. The route is a first pass for review | [Maps](../systems/maps.md#river) |

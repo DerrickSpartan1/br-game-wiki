@@ -229,7 +229,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | Smoke grenade | 14 | PUBG |
 | Stun grenade | 12 | PUBG |
 | Other throwables | TBD | [Throwables](weapon-pool.md#throwables) |
-| Med kit, adrenaline syringe | 20 each | PUBG ([Healing](healing.md#the-items)) |
+| Med kits, adrenaline | 20 each | PUBG ([Healing](healing.md#the-items)) |
 | Ammo | Per round, by energy | [Ammo](ammo.md#weight) |
 
 **Why 6 per slot:** a rig stands in for PUBG's vest and utility belt, which added 50 each in 2017, so the average rig (16 slots) should carry about 100. One slot per frag grenade (18) would give the average rig 288 and the biggest 450, more than PUBG's best backpack. At 6, a slot is a third of a grenade, and backpacks stay the main storage.

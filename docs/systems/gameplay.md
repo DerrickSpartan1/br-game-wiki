@@ -5,7 +5,7 @@ Matches favor scavenging and a slower pace over fast action, in a classic battle
 - **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
 - **Hit zones:** six zones: head, neck, chest and stomach (one zone), groin, arms, and legs, with no lucky one-shots ([Hit zones](ttk.md#hit-zones)).
 - **Handling:** spread, ready and ADS times, reloads, and movement speed per category are on [Handling](handling.md).
-- **Healing:** PUBG's healing items and boost bar, with Escape from Tarkov's meds, drinks, and stimulants as variants and one item per role each match ([Healing](healing.md)).
+- **Healing:** PUBG's healing items and boost bar, with six slots filled by Escape from Tarkov's meds, drinks, and stimulants, each a little better or worse than PUBG's numbers, and one item per slot each match ([Healing](healing.md)).
 
 ## HUD and inventory
 
@@ -30,7 +30,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 
 **No knockdown shields.**
 
-**Adrenaline syringes** are rare and have two uses: PUBG's full boost ([Healing](healing.md#boost-bar)) and a quick teammate pickup. They replace the infinite-stamina idea, since original PUBG had no stamina. You don't need one in your hands to use it.
+**Adrenaline** items are rare and have two uses: PUBG's full boost ([Healing](healing.md#boost-bar)) and a quick teammate pickup. They replace the infinite-stamina idea, since original PUBG had no stamina. You don't need one in your hands to use it.
 
 ## Comeback fight
 

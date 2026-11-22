@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-21 | Set the frying pan's twist on [Gameplay](../systems/gameplay.md#melee): it wears through after one or two hits by caliber, then works only as melee |
 | 2026-11-21 | Brought the frying pan back on [Gameplay](../systems/gameplay.md#melee) with twist ideas, and added patents to [Legal review](legal-review.md#what-to-check) |
 | 2026-11-21 | [Gun art and sound](art-and-sound.md): added the low-poly art style and replaced one model per family with one model per version. [M16 / M4 model guide](m16-m4-model.md): the M4A1 is the base model, step 2 lists what sets each of the 9 versions apart, the detail pass follows the low-poly style, and step 6 makes the quad rail, buffer tube, and charging handle aluminum |
 | 2026-11-21 | Marked the [game names](game-names.md) approved, armor included; Erangel's zone numbers are now in-game test placeholders on [Match flow](../systems/match-flow.md#the-zone) |

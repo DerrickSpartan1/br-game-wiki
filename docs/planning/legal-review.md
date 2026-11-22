@@ -57,7 +57,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 
 | PUBG specific | Ours | Status |
 | --- | --- | --- |
-| Frying pan that blocks bullets | Back in, with our own model and sounds and a twist of our own ([Melee](../systems/gameplay.md#melee)) | Twist TBD |
+| Frying pan that blocks bullets | Back in, with our own model and sounds, and it wears through after a bullet or two ([Melee](../systems/gameplay.md#melee)) | Decided |
 | Care package with a flashing light and red smoke | Our own look and signal | Decided |
 | Every PUBG vehicle | Our own vehicles, picked per map; PUBG's lineup is an idea list | Decided |
 | PUBG's name in marketing | Never used | Decided |

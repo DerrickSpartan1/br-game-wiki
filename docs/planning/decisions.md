@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | The frying pan wears through: one or two hits depending on the caliber hole it, and a holed pan stops blocking but still works as melee | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | The frying pan is back in, with our own model and sounds and a twist of our own (TBD) so it isn't PUBG's | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-21 | One model per version: every version looks like its own gun, on a shared kit of parts per family. The M4A1 is the M16 / M4 base model; the M4 gets its carry handle and round handguard | [Gun art and sound](art-and-sound.md#one-model-per-version), [M16 / M4 model guide](m16-m4-model.md#step-2-the-kit) |
 | 2026-11-21 | Art style is low poly for now: chunky, flat-sided shapes with hard edges and clear outlines; real photos set the shapes, the style sets the detail | [Gun art and sound](art-and-sound.md#art-style-low-poly) |

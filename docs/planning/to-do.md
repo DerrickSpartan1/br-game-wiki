@@ -80,7 +80,7 @@ Then the build order that's left:
 - [ ] **A dedicated server build** from the engine source. You'll need the GitHub account linked to your Epic account first ([Getting started](getting-started.md)).
 - [ ] **Playtest with friends,** then fix the worst problems before adding more.
 - [ ] **Red zones, care packages, and vaults** ([Match flow](../systems/match-flow.md#red-zones)).
-- [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle, and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
+- [ ] **Healing:** PUBG's six items become six slots with PUBG's numbers as the middle (bandages and first aid kits stop at 80, med kits heal to 100, and health fills in slowly), and each match rolls one Tarkov item per slot, a little better or worse; plus the boost bar ([Healing](../systems/healing.md)).
 - [ ] **Time of day, weather, and the wrist watch** ([Match flow](../systems/match-flow.md#time-of-day-and-weather)).
 
 ## You: decisions

@@ -5,7 +5,9 @@ Healing works like PUBG's: three healing items, three boosts, and the boost bar.
 ## Health
 
 - **100 health,** like PUBG. Zone damage is a percent of that ([The zone](match-flow.md#the-zone)).
-- **Two caps:** bandages and first aid kits only heal up to about 75 (first aid kits 70 to 80, by item). Only med kits and the boost bar take you past that to 100.
+- **Heal to 80, boost the rest:** bandages and first aid kits only heal up to 80 (PUBG's cap is 75). Past that, you boost the rest with energy drinks, painkillers, or adrenaline.
+- **Med kits get you to full,** but they're rare and take up more room in the backpack (20, PUBG's weight), like PUBG's.
+- **Healing is slow:** once an item is used, its health fills into the bar a little at a time instead of jumping, like PUBG's bandage. Bandages fill over 3 s (PUBG's), first aid kits over 3 s, and med kits over 5 s (our pick). Boosts heal slowly over minutes ([Boost bar](#boost-bar)).
 
 ## The items
 
@@ -13,9 +15,9 @@ PUBG's six items are the six slots. Their numbers are the middle that every item
 
 | Slot | Use time | Effect | Weight |
 | --- | --- | --- | --- |
-| **Bandage** | 4 s | Heals 10 over 3 s, up to 75 | TBD |
-| **First aid kit** | 6 s | Heals to 75 at once; can't be used at 75 or more | TBD |
-| **Med kit** | 8 s | Heals to 100 at once | 20 |
+| **Bandage** | 4 s | Heals 10 over 3 s, up to 80 | TBD |
+| **First aid kit** | 6 s | Heals to 80, filling over 3 s; can't be used at 80 or more | TBD |
+| **Med kit** | 8 s | Heals to 100, filling over 5 s | 20 |
 | **Energy drink** | 4 s | Boost +40 | TBD |
 | **Painkillers** | 7.5 s | Boost +60 | TBD |
 | **Adrenaline** | 6 s | Boost +100, a full bar | 20 |
@@ -46,7 +48,8 @@ Each slot holds Tarkov's items, loosely, from three to eight per slot. They stay
 
 ### How it works
 
-- **Close to the middle:** every item is within about 1 s and 10% of its slot's PUBG numbers. Med kits can also add a small boost.
+- **Close to the middle:** every item is within about 1 s and 10% of its slot's PUBG numbers. A few slower kits also add a small boost.
+- **Caps hold:** every bandage and first aid kit stops at 80, and every med kit heals to 100.
 - **Ranked by Tarkov:** Tarkov's better items land on the better side: more health per use, stopping heavy bleeding, lasting longer, or restoring more.
 - **Loose fit:** each item goes in the slot that plays closest to it, even where real life differs. Tarkov's drinks are energy drinks, its stimulants and injectors are adrenaline, and its antibiotic is a painkiller.
 - **One use each,** like PUBG.
@@ -56,7 +59,7 @@ Every number below is a first pass (our pick). Tarkov's numbers are from Tarkov 
 
 ### Bandages
 
-Middle: 4 s, heals 10 over 3 s, up to 75.
+Middle: 4 s, heals 10 over 3 s, up to 80.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
@@ -70,22 +73,22 @@ Tarkov calls the Celox applicator the CALOK-B, a parody of the real Celox-A.
 
 ### First aid kits
 
-Middle: 6 s, heals to 75 at once.
+Middle: 6 s, heals to 80, filling over 3 s.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **AI-2** | 2 s, 50 per use, pool of 100 | 5 s, heals to 70 | Faster, a bit less |
-| **Car first aid kit** | 3 s, 70 per use, pool of 220 | 6 s, heals to 75 | The middle |
-| **IFAK** | 3 s, 50 per use, pool of 300, stops heavy bleeding | 7 s, heals to 80 | Slower, a bit more |
+| **AI-2** | 2 s, 50 per use, pool of 100 | 5 s, heals up to 70, still stopping at 80 | Faster, a bit less |
+| **Car first aid kit** | 3 s, 70 per use, pool of 220 | 6 s, heals to 80 | The middle |
+| **IFAK** | 3 s, 50 per use, pool of 300, stops heavy bleeding | 7 s, heals to 80, boost +10 | Slower, a bit more |
 
 ### Med kits
 
-Middle: 8 s, heals to 100 at once.
+Middle: 8 s, heals to 100, filling over 5 s. Every med kit gets you to full; they differ in speed.
 
 | Item | Tarkov | Ours | Compared with the middle |
 | --- | --- | --- | --- |
-| **AFAK** | 3 s, 60 per use, pool of 400 | 7 s, heals to 95 | Faster, a bit less |
-| **Salewa first aid kit** | 3 s, 85 per use, pool of 400 | 8 s, heals to 100 | The middle |
+| **AFAK** | 3 s, 60 per use, pool of 400 | 8 s, heals to 100 | The middle |
+| **Salewa first aid kit** | 3 s, 85 per use, pool of 400 | 7.5 s, heals to 100 | A little better |
 | **Grizzly medical kit** | 5 s, 175 per use, pool of 1,800 | 9 s, heals to 100, boost +20 | Slower, a bit more |
 
 The Grizzly is based on Adventure Medical Kits' Sportsman Series Grizzly.

@@ -140,12 +140,12 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 
     - **Other ideas, not decided:** it only blocks while raised, not slung on your hip or back, unlike PUBG's; and a loud clang when it's hit, giving away where you are.
 - **Throwing (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
-- **Special found tools (ideas):** like pans, these are loot that does one thing owned melee can't, while fighting the same:
-    - **Wire cutters:** cut a gap in a wire fence quietly ([Buildings](#buildings-materials)).
-    - **Breaching sledgehammer:** smashes doors and breakable walls fast, but loudly.
-    - **Fire axe:** chops through wooden doors and walls.
-    - **Bayonet:** fits guns that really had a bayonet lug, for a stab without switching off your gun.
-    - **Throwing knives:** a throwable, in the throwable slot.
+- **Owner's leaning on the special tools (not final):**
+    - **Pans become class items,** not melee ([Class items](class-items.md#pans)). The pan details above carry over.
+    - **Breaching sledgehammer:** a class item with durability ([Class items](class-items.md#breaching-sledgehammer)).
+    - **Wire fences:** no wire cutters item. Anyone can cut a gap in a wire fence ([Buildings](#buildings-materials)).
+    - **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
+    - **Throwing knives:** a throwable, picked back up after use, from the ground or out of whoever they hit. A stack of 3, silent, with the same damage as a melee hit (our pick).
 
 ## Dog tags
 
@@ -163,7 +163,7 @@ Every player wears dog tags that can't be taken off.
 
 Buildings are semi-destructible, kept simple: doors, windows, and specific walls can break. Materials matter too.
 
-Wire fences (possibility): drive straight through them like PUBG, or cut a gap quietly for a stealthier approach. Wire cutters could be a melee item that cuts fences, and the Galil ARM's bipod wire cutter could do the same.
+Wire fences (possibility): drive straight through them like PUBG, or cut a gap quietly for a stealthier approach. The owner's leaning: no wire cutters item; anyone can cut a gap by holding the interact key at a fence for a few seconds (our pick: 3 s), quietly, while driving through is fast but loud.
 
 - Wood can be shot through.
 - Thin metal can be shot through by some weapons.

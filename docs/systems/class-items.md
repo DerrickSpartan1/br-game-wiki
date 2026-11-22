@@ -16,6 +16,8 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Emergency redeploy:** a balloon that lifts you out and drops you elsewhere on the map, like PUBG's Emergency Pickup.
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.
+- **Pans (owner's leaning):** a pan as a small shield ([Pans](#pans)).
+- **Breaching sledgehammer (owner's leaning):** breaks doors and walls until it wears out ([Breaching sledgehammer](#breaching-sledgehammer)).
 
 **No hero abilities,** but an ability from a hero shooter can become a class item, like the deployable zipline.
 
@@ -45,6 +47,24 @@ Shields are for advancing and breaching: crossing open ground, pushing a doorway
 ### Barricade
 
 PUBG's Folded Shield is the first pass: 1,800 gunfire damage or 200 from explosives, 1.5 s to set down, and it can be folded back up and carried, keeping its damage. PUBG's weighs 30 in the backpack; here it takes the class slot.
+
+## Pans
+
+The owner's leaning: pans move from melee to the class slot, as a small shield ([Melee](gameplay.md#melee)).
+
+- **Rare:** pans show up in about 1 match in 5, one kind per match, about 20 on the first map.
+- **Raise it to block:** it stops bullets only while held up, which also sets it apart from PUBG's pan. Like the [ballistic shield](#ballistic-shield), the other hand can fire a 3rd-slot gun around it (our pick).
+- **Wears through:** one or two hits by caliber hole it, and each kind of pan differs in how much it takes and how much it covers ([Melee](gameplay.md#melee)).
+- **Still a weapon:** you can hit someone with it, for the same damage as any melee weapon.
+- **The trade-off:** carrying a pan means giving up the class slot for anything else.
+
+## Breaching sledgehammer
+
+The owner's leaning: a class item for breaking in.
+
+- **Breaks** doors and breakable walls fast, but loudly ([Buildings](gameplay.md#buildings-materials)).
+- **Durability:** it wears out after a number of breaches. First pass (our pick): 8 doors, or 3 walls, or a mix (a wall counts as about 3 doors).
+- **Still a weapon:** it hits players for the same damage as any melee weapon.
 
 ## Sources
 

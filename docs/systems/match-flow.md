@@ -134,6 +134,14 @@ Ours:
 - **Away from the vaults:** a key lands in the same named place as a vault only about 1% of the time, so a place like the Farm is more likely to hold a key than the Prison is. Finding the key and reaching a vault are two separate trips.
 - **Care packages:** a 5% chance of a key per package, on top of the ground keys, to tune later.
 
+### Robot guards (idea)
+
+PvE for the vaults (owner, 2026-11-22): a robot guard inside each vault, from the [robot concept](../planning/idea-inbox.md#robot-character-concept). PUBG's Haven map (2020) had an AI faction, Pillar, whose guards and commanders protected supply caches.
+
+- **Easy to fight:** a few hits take one down, it turns slowly, and its aim is poor (our pick). It's no threat to a squad that's ready.
+- **A noise maker:** when it sees or hears a player it calls out and fires, so everyone nearby knows someone is at the vault, like Hunt: Showdown's crows ([Tracks and animals](gameplay.md#tracks-and-animals)).
+- **Loot:** nothing of its own (our pick); the vault is the prize.
+
 **Later:** a drill that opens any vault in about 45 seconds, but loudly. It could be an expensive item in the scrap machine ([Crafting](crafting.md#scrap-machine-idea)).
 
 ## Time of day and weather

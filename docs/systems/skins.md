@@ -65,6 +65,14 @@ Every player owns melee weapons and brings one into every match ([Melee](gamepla
 - **Looks only:** every melee weapon has the same damage, reach, and speed. Each has its own model, sounds, and animations, including an inspect, so players can be katana people, scythe people, or knife people.
 - **Pans aren't owned:** they're found as loot in some matches, since they block bullets.
 
+## Emotes
+
+Players own emotes, like other cosmetics (owner, 2026-11-22).
+
+- **Used from a wheel** (our pick), in the lobby and during a match, and while spectating.
+- **Unlocked** through seasons, challenges, and mastery.
+- **Grounded,** like the rest of the skins.
+
 ## Kill counters
 
 A weapon skin can carry a kill counter, like Counter-Strike's StatTrak: it counts the kills made with that skin and shows the number on the gun. How it looks on each gun is TBD, like a small display or tally marks on the stock.

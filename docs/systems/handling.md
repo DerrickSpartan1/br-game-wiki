@@ -1,6 +1,6 @@
 # Handling
 
-How fast a gun comes out, aims, reloads, and moves, and how much it spreads and sways. PUBG's numbers are the baseline, and the first pass below follows them, with changes where [Roles by category](ttk.md#roles-by-category) needs them. Everything here gets tuned in play testing.
+How fast a gun comes out, aims, reloads, and moves, and how much it spreads and sways. Gun handling should feel as close to PUBG's as we can get (owner, 2026-11-22), so the first pass below uses PUBG's numbers wherever PUBG has them. Our own picks fill only what PUBG's data doesn't cover, such as ADS times and LMG speed, ordered by [Roles by category](ttk.md#roles-by-category). Everything here gets tuned in play testing.
 
 PUBG never published these values. The numbers below come from data-mined community tables, so treat them as close, not exact. Spread and sway are in PUBG's own units, so read them as ratios between guns.
 
@@ -10,13 +10,13 @@ Per category. Each version uses its category's numbers until play testing says o
 
 | Category | Hip spread (PUBG units) | Ready time | ADS time | Sprint speed | Basis |
 | --- | --- | --- | --- | --- | --- |
-| Pistols / 3rd slot | 3 | 0.30 s | 0.15 s | 6.3 m/s | P1911 spread; faster ready than PUBG's 0.5 s, so pistols swap fastest |
-| SMGs | 4.5 | 0.40 s | 0.20 s | 6.15 m/s | Vector, Tommy Gun, and Uzi spread; PUBG's SMG speed |
-| Shotguns | Pellets: 5.5 | 0.50 s | 0.25 s | 5.9 m/s | S1897 pellet spread; PUBG's shotgun speed |
-| Assault rifles | 4 (5.56mm and smaller), 6 (7.62×39mm and bigger) | 0.50 s | 0.25 s | 6.0 m/s | M416 and AKM; PUBG's rifle speed |
-| Battle rifles & DMRs | 7 | 0.50 s | 0.30 s | 6.0 m/s | SKS and Mk14; PUBG's DMR speed |
-| LMGs | 8 | 0.70 s | 0.40 s | 5.85 m/s | M249 spread; slower ready, ADS, and speed than anything else, per their role (PUBG doesn't list LMG speed) |
-| Snipers | 8 | 0.50 s | 0.35 s | 6.0 m/s | Kar98k; PUBG's sniper speed |
+| Pistols / 3rd slot | 3 | 0.5 s | 0.15 s | 6.3 m/s | P1911 spread; PUBG's ready time |
+| SMGs | 4.5 | 0.5 s | 0.20 s | 6.15 m/s | Vector, Tommy Gun, and Uzi spread; PUBG's ready time and SMG speed |
+| Shotguns | Pellets: 5.5 | 0.5 s | 0.25 s | 5.9 m/s | S1897 pellet spread; PUBG's shotgun speed |
+| Assault rifles | 4 (5.56mm and smaller), 6 (7.62×39mm and bigger) | 0.5 s | 0.25 s | 6.0 m/s | M416 and AKM; the M416's ready time (the AKM's is 0.4 s) and PUBG's rifle speed |
+| Battle rifles & DMRs | 7 | 0.4 s | 0.30 s | 6.0 m/s | SKS and Mk14; their 0.4 s ready time and PUBG's DMR speed |
+| LMGs | 8 | 0.5 s | 0.40 s | 5.85 m/s | M249 spread and ready time (the DP-28's is 0.4 s); slowest ADS and speed, per their role (PUBG doesn't list LMG speed) |
+| Snipers | 8 | 0.5 s | 0.35 s | 6.0 m/s | Kar98k; PUBG's sniper speed |
 
 - **Hip spread** is multiplied by stance and movement, like PUBG: crouched 0.5, prone 0.2, walking 2, running 5, jumping 15. ADS spread is tiny on every gun, as in PUBG.
 - **Ready time** is the time from pressing the slot key until the gun can fire. PUBG's ready delay was 0.4 s for the AKM, Groza, SKS, Mk14, and DP-28 and 0.5 s for everything else in the table, pistols included.

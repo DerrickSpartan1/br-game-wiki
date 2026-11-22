@@ -4,6 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Gun handling feels as close to PUBG's as we can get: ready times moved back to PUBG's, our picks only where PUBG has no numbers | [Handling](../systems/handling.md) |
+| 2026-11-22 | Spectate squadmates, then other players once the whole squad is out; a thumbs up for a good fight; emotes | [Gameplay](../systems/gameplay.md#death-cam-and-replays), [Good fight](../systems/gameplay.md#good-fight), [Emotes](../systems/skins.md#emotes) |
+| 2026-11-22 | Official matchmaking is solos, duos, trios, and quads; custom lobbies and special modes can have bigger squads. Menus are laid out like PUBG's with our own art | [Match setup](../systems/gameplay.md#match-setup) |
+| 2026-11-22 | PvE starts as easy robot guards in vaults that work as noise makers, like Hunt's crows | [Robot guards](../systems/match-flow.md#robot-guards-idea) |
 | 2026-11-22 | Staged reloads: a cancelled reload keeps its progress; if the old mag is already out, the gun stays without a mag and the next reload picks up from there (logged by the lead; details for the planner) | [Handling](../systems/handling.md), [To-do](to-do.md) |
 | 2026-11-22 | Player characters are PUBG-like humans you dress up, not robots. The robots are saved for something else, maybe PvE | [Your character](../systems/skins.md#your-character), [Idea inbox](idea-inbox.md#robot-character-concept) |
 | 2026-11-22 | Safe isn't on the fire-mode key. A gun goes to safe only when stowed (e.g. holding X for melee) and returns to the last chosen fire mode when drawn; the draw animation will show that later (logged by the lead) | [Gameplay](../systems/gameplay.md#hud-and-inventory) |

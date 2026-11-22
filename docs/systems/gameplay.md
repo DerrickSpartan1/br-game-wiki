@@ -12,6 +12,7 @@ Matches favor scavenging and a slower pace over fast action, in a classic battle
 The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG art, icons, or fonts). The mockup is a private Design artifact in the owner's Claude account.
 
 - **Weapon slots:** 1 and 2 hold primaries, 3 is the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)), 4 holds a [class item](class-items.md), and 5 holds a throwable. Melee has its own button instead of a slot.
+- **Menus:** laid out like PUBG's, with our own art, the same way as the HUD (owner, 2026-11-22).
 - **HUD:** a compass at the top with the heading in yellow; players alive and kills at the top right; the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
 - **Picking up:** look at an item and press F, like PUBG. The prompt names a gun's rolled version, since every gun is one version for the match ([Rules](../rules.md#versions)).
 - **Keys:** PUBG's defaults: WASD to move, Shift sprint, Ctrl walk, C crouch, Z prone, Space jump and vault, = auto-run, Alt free look, V perspective, F interact, Tab inventory, left mouse fire, right mouse aim (tap to toggle, hold to hold), R reload, B fire mode, Q and E peek, middle mouse to ping, and 1 to 5 for the slots. The one change is X, which is melee: tap X for a quick melee attack, and hold X to stow your guns and pull out the melee weapon so you run faster ([Melee](#melee)).
@@ -196,6 +197,7 @@ Every player wears dog tags that can't be taken off.
 
 - **Footprints** show in snow, mud, and similar ground, and **tire tracks** show where vehicles went.
 - **Animals that give you away (idea, to refine):** birds in trees and on buildings fly off when players get close, like Hunt: Showdown's crows, so a flock taking off tells others someone's there.
+- **Noise makers:** the birds, [robot guards](match-flow.md#robot-guards-idea), and other things that react to players are player locators more than threats, like Hunt's crows, barking dogs, and spooked horses.
 
 ## Buildings & materials
 
@@ -208,7 +210,7 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 
 ## Match setup
 
-- **Modes:** solos, duos, trios, and quads.
+- **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22).
 - **Ranked:** a separate ranked playlist.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
@@ -245,7 +247,19 @@ How gun sounds are layered and sourced is on [Gun art and sound](../planning/art
 ## Death cam and replays
 
 - **Death cam:** after you die, see the moment from the shooter's view, like PUBG's.
-- **Replays:** matches can be watched back afterward. Both help players learn and help spot cheaters.
+- **Spectating squadmates:** once you're out, watch your squadmates who are still alive, switching between them.
+- **Spectating enemies:** once your whole squad is out, watch other players still in the match, starting with whoever finished your squad, until the match ends.
+- **Replays:** matches can be watched back afterward. Death cams, spectating, and replays help players learn and help spot cheaters.
+- **Spectating delay (our pick):** what you see runs a few seconds behind, so a squad that's out can't call out live positions to anyone.
+
+## Good fight
+
+A positive play rating: give a player a thumbs up for a good fight (owner, 2026-11-22). First pass (our pick):
+
+- **When:** from the death screen, the spectating view, or the end-of-match screen, for anyone you fought or watched.
+- **One each:** one thumbs up per player per match.
+- **Positive only:** no thumbs down, so it can't be used to pile on anyone.
+- **Shown** as a total on the player's profile, with the most recent fights.
 
 ## Anti-cheat
 

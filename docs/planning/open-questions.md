@@ -39,7 +39,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Vehicles per map:** which vehicles each map gets ([Gameplay](../systems/gameplay.md#vehicles-and-water)).
 - **Melee and tools:** check the first-pass numbers for melee, pans, breaching tools, throwing knives, and nailing doors shut, whether the door wedge is still needed now that doors can be nailed, where wooden boxes for the small crowbar show up, and what the screwdriver does ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
 - **Characters:** whether hair, eye, and skin colors are a full color picker or a set of grounded colors; which options are free and which unlock; and whether players can save several characters ([Your character](../systems/skins.md#your-character)).
-- **PvE:** what kind of PvE the game gets, and whether the robots from the [robot concept](idea-inbox.md#robot-character-concept) are its enemies.
+- **PvE:** robot guards in vaults are the first form ([Robot guards](../systems/match-flow.md#robot-guards-idea)); what else PvE could be, and the guards' numbers.
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Scrap types** for in-match crafting ([Crafting](../systems/crafting.md)).

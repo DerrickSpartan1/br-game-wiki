@@ -4,7 +4,7 @@ Ideas that don't fit a section yet land here until they're sorted.
 
 | Date | Idea | Move to |
 | --- | --- | --- |
-| 2026-11-22 | Some sort of PvE in the game, maybe with the robots as enemies. See [Robot character concept](#robot-character-concept) | TBD |
+| 2026-11-22 | Some sort of PvE in the game, maybe with the robots as enemies. See [Robot character concept](#robot-character-concept) | First form: [robot guards](../systems/match-flow.md#robot-guards-idea) in vaults |
 | 2026-11-21 | Run the game's AI helpers as a team of workers: a 3D modeler, a texture artist, an animator, and a coder, with a group leader the owner talks to, who plans the work and hands it out. See [AI team of workers](#ai-team-of-workers) below | Decided: [AI team](ai-team.md) (2026-11-21) |
 | 2026-10-07 | Make a wiki for all of this at some point, probably on GitHub | Done: this wiki (2026-10-14) |
 | 2026-11-20 | Armor goes up to level 4, with more vest and helmet types beyond the level number, such as heavier pieces, modeled on Escape from Tarkov's armor and helmets, which have already done the real-world research. Keep it balanced and realistic. Needs research into which real pieces to use and how levels map to PUBG-style damage reduction. | Done: [Armor and gear](../systems/armor.md) (2026-11-20) |

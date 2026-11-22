@@ -45,7 +45,7 @@ Winners redeploy into the main match with the guns and armor they had in the tea
 
 **Not final:** the owner wants some kind of Gulag-style comeback, like Warzone's, but isn't sure of the form yet.
 
-**Jailbreak (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
+**Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 
 ## Vehicles and water
 

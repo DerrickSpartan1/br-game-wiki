@@ -29,13 +29,7 @@ The red cross on white is a protected emblem under the Geneva Conventions, not a
 
 ## Guns
 
-Gun names are the biggest open item: most gun pages are named for their maker or a trademarked model. The approaches:
-
-1. **Designations only, like PUBG:** keep military and common designations (M16A4, AKM, MP5, SKS), drop maker names, and change trademarked model names. PUBG calls its HK416 the M416, for example.
-2. **All made-up names, like recent Call of Duty games:** every gun gets a new name in game; the wiki keeps the real one.
-3. **Licenses:** pay makers to use their names. Costly, and not for now.
-
-Our lean is the first: the game is built on real guns and their versions, and designations keep that clear. The lawyer checks the final list either way. This is an [open question](open-questions.md#systems).
+Decided: our own makers and designations, so guns feel real without using real names. Each real maker gets a made-up stand-in, and designations mix real numbers with new letters and names. The makers, the designation rule, and the other game names are on [Game names](game-names.md). The wiki keeps real names either way, and the lawyer checks the final list.
 
 ## The list
 
@@ -44,10 +38,11 @@ Our lean is the first: the game is built on real guns and their versions, and de
 | Meds and drinks | [Healing](../systems/healing.md#variants) | Brand and Tarkov names (Salewa, Grizzly, Celox, CAT, Vaseline, Golden Star, Augmentin, Analgin, Perfotoran, Meldonin, TarCola, and others) | Plain names, on the page | Done |
 | Defibrillator | [Class items](../systems/class-items.md) | Tarkov's is a parody of a real brand's | Portable defibrillator | Done |
 | Med item art | [Healing](../systems/healing.md) | Red Cross emblem | Another mark | Rule set |
-| Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | TBD | Open ([Guns](#guns)) |
-| Attachments and armor | [Attachments](../systems/attachments.md), [Armor](../systems/armor.md) | Brand names such as ACOG, Leupold, Magpul, Crye Precision, and Ops-Core | TBD | Open |
-| Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Our own names | Open |
-| Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names; the wiki uses theirs only as references | Open |
+| Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | Our own makers and designations ([Game names](game-names.md#gun-makers)) | Makers first pass; designations to do |
+| Attachments | [Attachments](../systems/attachments.md) | Brand and model names such as ACOG, Leupold, and PSO-1 | Plain descriptions: 2x scope, vertical foregrip | Rule set |
+| Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names | To do |
+| Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Made-up makes and models | To do |
+| Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
 | First map | [Maps](../systems/maps.md) | Real island and town names | Our own place names | Open |
 
 ## Sources

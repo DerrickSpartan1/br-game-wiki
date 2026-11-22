@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-21 | Game names: one made-up maker for each real gun maker, designations that mix real and new, plain descriptions for attachments, our own armor and vehicle names, and our own names for terms from other games | [Game names](game-names.md) |
 | 2026-11-21 | Anything that could cause legal trouble gets a generic name in the game, checked when it's added and by a lawyer before release. No Red Cross emblem anywhere | [Legal review](legal-review.md) |
 | 2026-11-21 | Tarkov's made-up stimulants are out; only real drugs fill the adrenaline slot. Healing items use generic names | [Healing](../systems/healing.md#variants) |
 | 2026-11-21 | Healing fills the health bar slowly after an item is used, like PUBG's bandage: over 3 s for bandages and first aid kits, 5 s for med kits | [Healing](../systems/healing.md#health) |

@@ -8,7 +8,7 @@ This repo is the design wiki for a PC battle royale (2017–2018 PUBG feel, rota
 - `docs/rules.md`: rules that apply to every gun (fixed versions, fixed triggers, no jamming, no overheating, random recoil, open-bolt delay, en bloc clips, 3rd slot, versions).
 - `docs/systems/`: one page per game system (weapon pool, loot and spawning, ammo, attachments, TTK, starting damage and the crate line, handling, healing, gameplay, match flow, armor, class items, crafting, skins, seasons, maps, servers).
 - `docs/weapons/<category>/`: one page per gun family plus an `index.md` table per category. Categories: `pistols`, `shotguns`, `smgs`, `assault-rifles`, `battle-rifles` (battle rifles & DMRs, one category), `lmgs`, `snipers`, and `crate`. Add a folder when a new category starts (special next).
-- `docs/planning/`: to-do list, AI team, gun queue, add-later list, open questions, legal review, decision log, idea inbox, changelog, gun page template, and the art guides. Tick to-do items when the owner says they're done (check the game repo's commits for the lead's items).
+- `docs/planning/`: to-do list, AI team, gun queue, add-later list, open questions, legal review, game names, decision log, idea inbox, changelog, gun page template, and the art guides. Tick to-do items when the owner says they're done (check the game repo's commits for the lead's items).
 - `mkdocs.yml`: site config and the full nav. Every new page must be added to `nav`.
 
 ## Roles
@@ -30,7 +30,7 @@ Claude in chat is the planner: design, research, and this wiki. Claude Code on t
 
 ## Legal review
 
-Anything named after a real brand, company, product, person, or another game's own term gets a generic name for the game and a row on `docs/planning/legal-review.md`. The wiki can keep real names as references. No Red Cross emblem anywhere in the game.
+Anything named after a real brand, company, product, person, or another game's own term gets a generic name for the game and a row on `docs/planning/legal-review.md`. Game names live on `docs/planning/game-names.md`: a new gun goes under its maker's stand-in there (add a stand-in for a new maker). The wiki can keep real names as references. No Red Cross emblem anywhere in the game.
 
 ## Style
 

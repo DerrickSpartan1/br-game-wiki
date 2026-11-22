@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Filed safe for stowing only on [Gameplay](../systems/gameplay.md#hud-and-inventory) and fixed the [M16 / M4 model guide](m16-m4-model.md)'s selector check |
 | 2026-11-22 | Added the small crowbar and screwdriver ideas to [Built-in tools](../systems/gameplay.md#built-in-tools) |
 | 2026-11-22 | Added [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut) for the small hammer |
 | 2026-11-22 | [Art style](art-and-sound.md#art-style-low-poly-for-testing): low poly for testing, a look closer to PUBG for the final game |

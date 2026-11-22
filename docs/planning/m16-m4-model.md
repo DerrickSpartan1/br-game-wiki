@@ -244,7 +244,7 @@ Hook up the M4A1 in BP_Gun_M16M4, one commit per item:
 Tell me what to look at after each one.
 ```
 
-**Check on the range:** fire, reload with rounds left, reload from empty, switch fire modes, and aim down the sights. The hands sit on the gun, parts move at the right moments, the flash comes from the muzzle, shells leave the port, and the irons line up when you aim. Switch the M4A1 through safe, semi, and auto to see the selector settle in each place.
+**Check on the range:** fire, reload with rounds left, reload from empty, switch fire modes, and aim down the sights. The hands sit on the gun, parts move at the right moments, the flash comes from the muzzle, shells leave the port, and the irons line up when you aim. Switch the M4A1 between semi and auto to see the selector settle in each place. Safe is only for a stowed gun, and that switch isn't animated yet ([Gameplay](../systems/gameplay.md#hud-and-inventory)).
 
 **At this point the pipeline works end to end.** Tick nothing yet: the other versions come next, and sounds come in step 10.
 

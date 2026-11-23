@@ -87,6 +87,15 @@ When you tell the lead "check the planner's list," it works through this section
 - **Graybox map started (`a21f234`): questions for the planner (lead, 2026-11-22).** A heightmap generator and named-points file for Teplov are in the game repo (`Tools/MapData/`, preview at `Art/Reference/Map/graybox_heightmap_preview.png`). The wiki has no coordinates, so the coastline, towns, hills, roads and river were traced by hand from public maps of Ischia, stretched to the wiki's 10 × 8 km, and marked as placeholders.
     - **Answered (planner, 2026-11-22):** 1. yes, on [Layout coordinates](../systems/maps.md#layout-coordinates); 2. Pizzi Bianchi was wrong on the page: it's on the south slope above Sant'Angelo, about 170 m in the game, now fixed and in the file; 7. seven longer farm tracks, listed on [Marina, farms, and vaults](../systems/maps.md#marina-farms-and-vaults) and in the file. 3 to 6 are on the owner's picks page.
         - **Lead (2026-11-22):** the map tool now reads `docs/data/teplov-layout.json` (game repo `5de29ec`). The lead couldn't find an owner's picks page on the wiki, so 3 to 6 stay as they are for now: Krepost has no ramp, heights come from the shape formula, the ring road follows the file's curves, and Kholmy is on a side road. Please link the page or answer them here. Also new: should late zone circles stay over land? The wiki doesn't say, and late circles can end over the sea today.
+    - The lead's original list:
+        1. Can the v3/v4 mockup's point list (coastline, towns, our spots, river path, roads) go on the wiki as coordinates, so the tool reads it instead of guesses?
+        2. Pizzi Bianchi has no game height, and its "Where" (east and north, with the small hills) doesn't match the real spot (south, above Sant'Angelo). It's a 30 m bump on the south slope for now.
+        3. Krepost rock: about 113 m real, so about 45 m squashed, with cliffs. Reached only over the causeway and a ramp?
+        4. Should the next pass use real elevation data squashed to 40% (the page's "Turning Ischia into terrain") instead of the shape formula?
+        5. The ring road is about 22 km as a line through the towns; the real one is about 30 km of bends. Keep the bends?
+        6. Is it OK that the ring road goes through Ovsyanka while Kholmy gets a short side road?
+        7. The "few longer farm tracks": how many, and where? Only the bridge track near the river mouth is in.
+    - **Answered (owner, 2026-11-22):** 4. yes, real elevation data squashed to 40% ([Turning Ischia into terrain](../systems/maps.md#turning-ischia-into-terrain)); 5. keep the real bends; 6. that's fine. 3 (Krepost): over the stone causeway, up a ramp cut into the rock, then paths to the top, no lift (owner, 2026-11-22, [Heights](../systems/maps.md#heights-squashed-with-a-plateau)). Late circles stay over land (planner's pick, [The zone](../systems/match-flow.md#the-zone)).
 - **Time of day and weather in progress: numbers the page leaves open (lead, 2026-11-22).** The four time slots and their odds are read from [Time of day and weather](../systems/match-flow.md#time-of-day-and-weather). Everything below is a placeholder in Project Settings > BR Time & Weather until you set it:
     - **Answered (planner, 2026-11-22): first-pass numbers, all marked our pick: the sun, moonlight, and brightness cheats on [Time passes](../systems/match-flow.md#time-passes), weather odds, heavy spells, fog, rain, and thunder on [Weather](../systems/match-flow.md#weather), and an analog watch with no zone timer on [Wrist watch](../systems/match-flow.md#wrist-watch).**
     - Weather odds, when a heavy spell (rain, fog, thunderstorm) starts and how long it lasts, and what each weather looks like (fog distance, how dark overcast is).
@@ -94,9 +103,9 @@ When you tell the lead "check the planner's list," it works through this section
     - How bright moonlight is at night, and how the game stops brightness and gamma cheats at night.
     - How much rain covers footsteps, how often thunder strikes, and how long it covers gunshots.
     - The wrist watch: digital or analog, and does it show the zone timer too?
-    - **Watch side:** the game puts it on the inside of the left wrist (military style), because the support hand is palm-up under the handguard and a face on the back of the wrist would point at the ground. Back of the wrist instead? That would need a thumb-over grip.
-    - **Night look:** the night shots are close to black in front of you, while [Lighting look](art-and-sound.md#lighting-look) says shade should never be black. How dark should night be?
-    - **Anti-cheat for dark matches:** the page says a dark match needs rules against brightness and gamma cheats. Fog and night are drawn on each player's own machine. What should the rules be?
+    - **Answered (planner, 2026-11-22): inside of the left wrist, as the game has it ([Wrist watch](../systems/match-flow.md#wrist-watch)). The default face is analog on the page, so please switch the digital one to analog; digital comes later as a skin.** **Watch side:** the game puts it on the inside of the left wrist (military style), because the support hand is palm-up under the handguard and a face on the back of the wrist would point at the ground. Back of the wrist instead? That would need a thumb-over grip.
+    - **Answered (planner, 2026-11-22): day-for-night, a locked night exposure with moonlit ground a dark blue-gray and shade never black ([Night look](../systems/match-flow.md#night-look)).** **Night look:** the night shots are close to black in front of you, while [Lighting look](art-and-sound.md#lighting-look) says shade should never be black. How dark should night be?
+    - **Answered (planner, 2026-11-22): five rules, all our pick ([Fair in the dark](../systems/match-flow.md#fair-in-the-dark)).** **Anti-cheat for dark matches:** the page says a dark match needs rules against brightness and gamma cheats. Fog and night are drawn on each player's own machine. What should the rules be?
 
 **Lead's report, 2026-11-22, late** (commits up to `f8ae170`, not pushed yet). Done since the evening report, all reviewed:
 
@@ -106,14 +115,6 @@ When you tell the lead "check the planner's list," it works through this section
 - **The Teplov graybox** (`a21f234` to `3dcaef9`): heightmap from your layout file, Landscape, water, roads, bridges, towns, farms, vaults, a walkable cut-and-cover tunnel; the zone's play area is now 8 km north–south by 10 km east–west (it was turned 90°). Not yet the match server's map.
 - **Time of day, weather, and the wrist watch** (`f8ae170`): your four time slots and odds, a rolled weather with one heavy spell, synced lightning, and a digital watch. Placeholders listed above. Still needed: the rain effect and sounds, grey overcast clouds, a hold that shows the watch, and rain and thunder covering sounds once there's a hearing system.
 - The owner's next test uses the playtest checklist, round 3.
-    1. Can the v3/v4 mockup's point list (coastline, towns, our spots, river path, roads) go on the wiki as coordinates, so the tool reads it instead of guesses?
-    2. Pizzi Bianchi has no game height, and its "Where" (east and north, with the small hills) doesn't match the real spot (south, above Sant'Angelo). It's a 30 m bump on the south slope for now.
-    - **Answered (owner, 2026-11-22):** 4. yes, real elevation data squashed to 40% ([Turning Ischia into terrain](../systems/maps.md#turning-ischia-into-terrain)); 5. keep the real bends; 6. that's fine. 3 (Krepost): over the stone causeway, up a ramp cut into the rock, then paths to the top, no lift (owner, 2026-11-22, [Heights](../systems/maps.md#heights-squashed-with-a-plateau)). Late circles stay over land (planner's pick, [The zone](../systems/match-flow.md#the-zone)).
-    3. Krepost rock: about 113 m real, so about 45 m squashed, with cliffs. Reached only over the causeway and a ramp?
-    4. Should the next pass use real elevation data squashed to 40% (the page's "Turning Ischia into terrain") instead of the shape formula?
-    5. The ring road is about 22 km as a line through the towns; the real one is about 30 km of bends. Keep the bends?
-    6. Is it OK that the ring road goes through Ovsyanka while Kholmy gets a short side road?
-    7. The "few longer farm tracks": how many, and where? Only the bridge track near the river mouth is in.
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 

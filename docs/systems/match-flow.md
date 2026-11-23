@@ -162,10 +162,34 @@ Every match rolls a time of day, and the sky moves through it, about four in-gam
 
 **The sun (our pick):** the sky follows Ischia's sun on June 1, in summer time (UTC+2): sunrise at 05:35, sunset at 20:28, and highest at 13:01, about 71° up. First light (civil dawn) is at 05:02 and full dark (civil dusk) at 21:00, so both dusk and dawn matches cross from light to dark. Worked out from NOAA's sun equations for 40.7° N, 13.9° E, and close to Gaisma's Naples table (05:31 and 20:38 at the June solstice).
 
-Night is where flashlights, night scopes like the StG 44's Vampir, and star rounds earn their place ([Maps](maps.md)). A dark match needs rules against brightness and gamma cheats, which PUBG's developers raised when they prototyped night in 2017.
+Night is where flashlights, night scopes like the StG 44's Vampir, and star rounds earn their place ([Maps](maps.md)). A dark match needs rules against brightness and gamma cheats, which PUBG's developers raised when they prototyped night in 2017 ([Fair in the dark](#fair-in-the-dark)).
 
 - **Moonlight (our pick):** every night is a bright moonlit night. In the open you can make out a standing player to about 100 m without a night scope; inside buildings it's dark enough to need a light.
-- **Against brightness cheats (our pick):** no gamma slider, only a small brightness range for setting up the screen, and the game's own exposure has a fixed limit at night. Nvidia's game filters aren't supported, as in ARC Raiders, where they could turn dark rooms close to gray. Programs that inject their own color tables, like DWM_lut, are banned, as Escape from Tarkov did. A monitor's own settings can't be stopped, so night is moonlit rather than pitch black, which keeps that edge small.
+
+#### Night look
+
+Night uses day for night, the film trick: the same scene shot darker with a cool blue tint, rather than a real night that a screen shows as black (our pick). It's the night version of the [Lighting look](../planning/art-and-sound.md#lighting-look) rule that shade is never black. First pass for the lead, to tune by eye:
+
+| What | Night look (our pick) |
+| --- | --- |
+| Exposure | Locked at night (Min equal to Max EV100), set from the server's time of day; it blends to the day range over dusk and dawn |
+| Moonlit open ground | A dark blue-gray, about 20 to 25% brightness on screen |
+| Shade and the far side of buildings | About half that, around 10%, never black |
+| Inside buildings | Dark enough to want a light, but door frames, windows, and a standing player's outline still show against them |
+| Lights | Lamps, flashlights, muzzle flashes, and fires stand out clearly, so a light gives you away |
+| Color | Cool and low in saturation; the blue tint is in the grade, not the sky light alone |
+
+**The check:** in the open, a standing player is easy to make out at about 100 m without a night scope (see Moonlight above). If the owner can't, night is too dark.
+
+#### Fair in the dark
+
+Night and fog are drawn on each player's own machine, so a cheat or a setting could turn them off. The rules (our pick):
+
+1. **Same picture on every setting.** No graphics setting turns off or thins fog, night darkness, the grade, shadows, or the grass and bushes near players. In 2017 PUBG's players ran low settings because some foliage didn't show there, and PUBG raised shadows to 450 m on Low to keep low and high fair. Settings only change how sharp things look.
+2. **No gamma slider or filters.** Only a small brightness range for setting up the screen. Nvidia's game filters aren't supported, as in ARC Raiders, where they could turn dark rooms close to gray. Programs that inject their own color tables, like DWM_lut, are banned, as Escape from Tarkov did.
+3. **The server sets the look.** The time of day, weather, fog distance, and night exposure come from the server each match, never from the player's files. Shipping builds have no console, config files are packed into the game and not read from the player's Saved folder, pak files are signed, and Easy Anti-Cheat checks the game's files ([Later](../planning/to-do.md#later)). Unreal lets a loose config file override packed values unless the build is set up against it, so the lead checks this when packaging.
+4. **No positions behind thick fog.** While fog is thicker than 250 m, the server doesn't send a player's position to anyone more than twice the current fog distance away, so a fog-removal cheat has nothing to show. Their sounds still go out by the normal hearing rules. This doesn't apply at night, where scopes and lights see farther.
+5. **Moonlit, not pitch black.** A monitor's own settings can't be stopped, so night is never so dark that turning up the monitor wins fights.
 
 ### Weather
 
@@ -192,7 +216,7 @@ First-pass numbers (our pick):
 
 ## Wrist watch
 
-Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. The default face is analog (our pick), and digital faces can come as skins. Every face shows only the in-game time, never the zone timer, so a watch skin never gives an edge. Watch faces can be skins later ([Skins and mastery](skins.md)).
+Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. The default face is analog (our pick), and digital faces can come as skins. Every face shows only the in-game time, never the zone timer, so a watch skin never gives an edge. It sits on the inside of the left wrist, military style, so the face points up at you while the support hand is palm-up under the handguard (our pick; the lead's call). On the back of the wrist it would face the ground. Watch faces can be skins later ([Skins and mastery](skins.md)).
 
 ## Sources
 
@@ -203,4 +227,5 @@ Every player wears a watch on the left wrist, visible in first person whenever t
 - [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop)
 - [PC Gamer: Apex Legends vault keys (2019)](https://www.pcgamer.com/how-to-open-apex-legends-vaults-locations-key) · [GameSpot: Apex Legends vaults](https://www.gamespot.com/articles/apex-legends-golden-vaults-where-to-find-keys-and-/1100-6470435/) · [Apex Legends Wiki: Vault Key](https://apexlegends.wiki.gg/wiki/Vault_Key)
 - [PUBG Wiki: Weather](https://pubg.wiki.gg/wiki/Weather) · [Thumbsticks: PUBG removes rain and fog (2018)](https://www.thumbsticks.com/pubg-lost-rain-fog-conditions-01032018/)
+- [Wikipedia: Day for night](https://en.wikipedia.org/wiki/Day_for_night) · [Player.One: PlayerUnknown on parity between low and high settings (2017)](https://www.player.one/playerunknown-interview-parity-low-high-graphics-battlegrounds-121445) · [PC Gamer: PUBG settings guide](https://www.pcgamer.com/best-pubg-settings/) · [Unreal forums: stopping players changing ini files](https://forums.unrealengine.com/t/can-we-prevent-users-from-changing-ini-config-files/467236)
 - [Charlie Intel: Modern Warfare watches show real-world time](https://www.charlieintel.com/modern-warfare/watches-in-game-in-call-of-duty-modern-warfare-showcase-real-world-time-55492/)

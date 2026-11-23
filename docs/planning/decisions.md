@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Night is day for night with a locked exposure and shade never black; five rules keep dark and foggy matches fair; the watch sits on the inside of the left wrist (our pick) | [Night look](../systems/match-flow.md#night-look), [Fair in the dark](../systems/match-flow.md#fair-in-the-dark), [Wrist watch](../systems/match-flow.md#wrist-watch) |
 | 2026-11-22 | First-pass sun, moonlight, brightness-cheat, weather, and watch numbers for the lead (our pick) | [Time of day and weather](../systems/match-flow.md#time-of-day-and-weather) |
 | 2026-11-22 | The standard M14 is semi only; the other real gas cut-offs (military FALs, MAS-49/56, M59/66, BM 59, Tavor 7) go on the selector key like the Mondragón's | [Fixed triggers](../rules.md#fixed-triggers), [M14](../weapons/battle-rifles/m14.md) |
 | 2026-11-22 | Twin guns keep separate mastery; season goals target a gun family; suppressors and the Krummlauf wear out | [Weapon mastery](../systems/skins.md#weapon-mastery), [Seasons](../systems/seasons.md), [Wear](../systems/attachments.md#wear) |

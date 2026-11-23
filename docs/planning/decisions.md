@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | The gas mask has no downside except no aiming down sights in gas, and it loses durability in gas | [Class items](../systems/class-items.md) |
 | 2026-11-22 | The gas mask is worn as soon as you pick it up and never shows on the character; no aiming down sights while in gas | [Class items](../systems/class-items.md) |
 | 2026-11-22 | The RPK family and the Bren / ZB vz. 26 each stay on one page | [RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md) |
 | 2026-11-22 | A quest item counts 5 minutes after pickup; skin-crafting items come out like scrap; outside matches, scrap only buys looks | [Crafting](../systems/crafting.md) |

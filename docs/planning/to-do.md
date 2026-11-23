@@ -206,7 +206,7 @@ In rough order of what the game needs first:
 - [x] **Game names:** check the 49 first-pass gun makers and the designation rule ([Game names](game-names.md)).
 - [x] **Gun names sample:** check the four pilot guns' game names before the rest are done ([Gun names](game-names.md#gun-names)). Talk to a lawyer before selling the game.
 - [x] **Armor names:** check the first-pass armor names: fortifications, trees and stones, weather, insects, and historic helmets ([Armor](game-names.md#armor)).
-- [ ] **PUBG look and feel:** what to call the red zone, blue zone, and boost bar, and the victory line ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
+- [x] **PUBG look and feel:** what to call the red zone, blue zone, and boost bar, and the victory line (done 2026-11-22: strike zone, the edge, Stim, and "The island is yours") ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - [x] **Frying pan twist:** pans are class items that block only while raised and get holed after a set amount of gunfire ([Pans](../systems/class-items.md#pans)).
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-23 | Playtest round 4 answers: 30+1, fists, the training map, the iron sight look, the boost bar check, HUD size, med names, armor durability; [The coast](../systems/maps.md#the-coast) and [Land around the towns](../systems/maps.md#land-around-the-towns) with the third town mock |
 | 2026-11-23 | Second town mock: dense cores, fields, and farmsteads; core sizes on [Maps](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | First town layout mock: the building kit and the comparison with Erangel on [Maps](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Filed the lead's lobby rules and the siren's reach on [Match flow](../systems/match-flow.md) |

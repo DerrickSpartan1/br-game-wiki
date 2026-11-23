@@ -41,6 +41,7 @@ Settled by the owner on 2026-11-22, from the lead's placeholders and the planner
 - **What cancels using a med:** firing, getting knocked, the parachute, vaulting, reloading, aiming, switching weapons, and jumping, as in PUBG.
 - **Moving while using a med:** a slow walk, like PUBG.
 - **Boost speed** counts only when running.
+- **Item names (owner, 2026-11-23):** every med shows its slot first, then its own name, like "Med kit: Large medical bag", on pickup prompts and in the inventory.
 - **Gas and fire:** gas damage doesn't stop a boost's healing; burning does, while you burn. The blood substitute injector only does what its slot does; it doesn't cut gas damage.
 
 ## Boost bar
@@ -57,6 +58,8 @@ PUBG's boost bar, as is. Boosts fill a bar of 100 points that drains over time. 
 - **Draining:** the times per part work out to one point every 3 seconds, so a full bar lasts 5 minutes. The point ranges come from that.
 - **What each boost gives:** at PUBG's numbers, an energy drink works out to about 23 health over 2 minutes, painkillers about 38 over 3 minutes, and an adrenaline syringe about 86 over 5 minutes.
 - **Stacking:** boosts add up, to a cap of 100.
+- **Checked against PUBG (2026-11-23):** the numbers above are PUBG's, from 2017 guides, and the game's code matches them. One energy drink puts you in part 2, so its first heal is 2 health, 8 s after you drink, then 2 more every 8 s. That's slow to notice, in PUBG too. The fourth part heals the most and runs the fastest, but it's the shortest, at 30 s.
+- **Showing the heal (our pick):** the health bar pulses briefly each time a boost heal lands, so it's easy to see the boost working.
 
 ## Variants
 

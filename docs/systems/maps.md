@@ -46,6 +46,21 @@ Ischia is almost all mountain, and a 789 m peak in a 10 km map would let whoever
 - **Walkable:** no slope steeper than about 37° in the mock-up's terrain.
 - **No sniper nest:** a tree line rings the plateau, so the middle doesn't see the whole island.
 
+### The coast
+
+The owner (2026-11-23): in the graybox, the land only dips a little at the shore. Every shore is a 1 m edge with a long, gentle slope into shallow water, so the coast reads as flat. Ischia's isn't: its south is mostly high coast with bays, where the Maronti cliffs run 50 to 120 m high, while the north and east have low waterfronts and harbors. First pass (our pick), with heights squashed to 40% like the land:
+
+| Coast | Where | Shore | Sea floor |
+| --- | --- | --- | --- |
+| Cliffs | The south coast from Punta Imperatore past Rybatsk and the Maronti bay to Punta San Pancrazio; the Punta Caruso and Monte Vico headlands in the north-west; the Krepost rock | Rock faces 20 to 50 m high, with boulders at the foot | About 8 m deep at the foot, 30 m within 300 m |
+| Rocky shore | The Zaro headland and the rest of the west outside the bays | Low rocks 2 to 6 m above the water | About 5 m deep within 50 m |
+| Beaches | The Maronti bay under its cliffs, the Citara bay south of Vetrovo, San Montano by Gribovo, and Cartaromana by Mostki | Sand or shingle 20 to 60 m wide | A gentle start, about 3 m deep 50 m out, then steeper |
+| Harbors and waterfronts | Gavansk, Mostki, Klyuchi, Gribovo, Rybatsk, and Tikhaya Bukhta | Quay walls about 2 m high, with slipways | About 5 m deep at the quay |
+
+- **Offshore:** past the first few hundred meters, the sea floor keeps falling, to about 60 m deep 1 km out and about 100 m at the map's edge, so open water looks deep and boats never touch bottom.
+- **No visible edge:** the sea runs to the horizon, with no line where the landscape ends.
+- **Real data later:** when the real heights go in ([Turning Ischia into terrain](#turning-ischia-into-terrain)), the coast comes from them, and the sea floor from EMODnet's free bathymetry (about a 115 m grid), squashed the same way. Check its license first.
+
 ### Our own spots
 
 Approved on the v3 mockup.
@@ -118,12 +133,44 @@ For scale on Erangel's official map: Pochinki packs about 60 buildings into abou
 | Barn | 24 × 14 m | 1, tall | 18 | 2 |
 | Tool shed | 6 × 5 m | 1 | 18 | 2 |
 
-- **Fields:** wheat, vineyards, pasture, and plowed fields in a patchwork, with dirt farm tracks off the roads.
+- **Fields:** vineyards, fields, and orchards, mixed with woods and scrub ([Land around the towns](#land-around-the-towns)), with dirt farm tracks off the roads.
 - **Farm buildings** also serve the 70 or so [farmsteads](#marina-farms-and-vaults) elsewhere on the island.
 - **Landmarks (one each):** Vetrovo's watchtower and church on the point, Mostki's cathedral, Klyuchi's thermal baths, Gribovo's spa hotel, Tikhaya Bukhta's harbor office with the vault, and Verkhovye's church at the lookout.
 - **Not mocked yet:** our own spots.
 - **On track with Erangel:** about 26 named building types and 25 places there; 28 types plus 7 landmarks and 23 places here. Teplov has more land, about 46 km² against Erangel's 33, which the fields use.
 - **Idea:** Gribovo's real town has a mushroom-shaped rock in its bay, which could be a detail off the shore.
+
+### Land around the towns
+
+Not everything is farmland (owner, 2026-11-23): some of it is trees, woods, and scrub, like the real island. A 2025 wildfire study's land cover map of Ischia counts about 1,160 ha of vineyards, 540 ha of chestnut woods, 400 ha of oak woods, 340 ha of crops, 490 ha of scrub, garrigue, and bramble, 65 ha of pine, and 1,460 ha built up, out of about 4,600. So outside the towns, about a third is woods and a sixth is scrub, and vineyards cover more than three times the cropland.
+
+| Cover | Where on Ischia | In a fight |
+| --- | --- | --- |
+| Vineyards | Terraces on the slopes, most of all around Forio, Panza, Serrara, and Barano | Rows on terraces with low stone walls: cover from one side, open along the rows |
+| Fields | The flatter ground, mostly in the west | Open ground with crops, hedges, and walls |
+| Orchards and olive groves | Next to the towns | Rows of small trees: some cover, easy to see through |
+| Chestnut and oak woods | Higher up Epomeo (the Falanga chestnut wood is at about 600 m above Forio), and the Maddalena wood of holm oak and pine by Casamicciola | Thick trees and undergrowth: lots of cover, short sightlines |
+| Pine woods | The old lava flows by Ischia Porto (the Fiaiano pine wood on the Arso flow, and the Mirtina pine wood) | Tall trunks with little undergrowth: long sightlines between the trees |
+| Scrub and maquis | Rocky slopes and cliff tops, mostly on the south and west coasts | Waist- to head-high bushes: you can hide in it, but it stops no bullets |
+
+**The third mock (our pick):** each town's surroundings mix these from what really surrounds it. Woods grow on the uphill side toward the mountain and thin out near the core, scrub grows toward rocky coasts, fields keep to the flatter side, orchards sit next to the core, and each kind clumps into patches 100 to 300 m across. The buildings and farmsteads stayed as in the second mock. Percent of the land around each town:
+
+| Town | Vineyards | Fields | Orchards | Chestnut and oak | Pine | Scrub | Meadow |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Gavansk | 23 | 8 | 16 | 13 | 24 | 14 | 2 |
+| Vetrovo | 41 | 14 | 19 | 5 | 0 | 16 | 5 |
+| Klyuchi | 20 | 5 | 17 | 35 | 8 | 10 | 5 |
+| Ternovka | 26 | 11 | 9 | 35 | 0 | 18 | 0 |
+| Mostki | 16 | 8 | 22 | 8 | 25 | 20 | 0 |
+| Gribovo | 30 | 10 | 16 | 6 | 10 | 28 | 0 |
+| Tikhaya Bukhta | 20 | 9 | 10 | 15 | 16 | 30 | 0 |
+| Verkhovye | 16 | 5 | 8 | 42 | 0 | 30 | 0 |
+| Polyanka | 44 | 22 | 10 | 8 | 0 | 12 | 3 |
+| Rybatsk | 20 | 10 | 16 | 0 | 0 | 53 | 0 |
+| Kholmy | 39 | 19 | 13 | 22 | 0 | 7 | 0 |
+| Ovsyanka | 46 | 25 | 9 | 8 | 0 | 12 | 0 |
+
+- **Between the towns:** the same kinds cover the rest of the island: a belt of chestnut and oak woods around Epomeo below the plateau's tree line ([Heights](#heights-squashed-with-a-plateau)), pine near Gavansk, vineyard terraces on the lower slopes, and scrub along the south and west coasts.
 
 ### Layout coordinates
 
@@ -176,6 +223,8 @@ Idea for night maps where flashlights and stealth matter. Night scopes like the 
 
 ## Sources
 
+- [Berardi and others, wildfire forecasting on Ischia (2025, PDF)](https://iris.uniroma1.it/bitstream/11573/1732770/1/Berardi_Forecasting-of-wildfire_2025.pdf) (land cover by hectare) · [Ischia.it: the Falanga wood](https://ischia.it/en/falanga-wood) · [Ischia.it: the Maddalena wood](https://ischia.it/en/maddalena-wood) · [Ischia.it: the Mirtina pine wood](https://ischia.it/en/pineta-mirtina) · [Ischia.it: the pine woods](https://booking.ischia.it/en/tour-services/in-the-green-of-the-pine-forests-2)
+- [Geosciences (2023): the Maronti cliffs and beach](https://www.mdpi.com/2076-3263/13/10/313) (cliffs 50 to 120 m) · [EMODnet bathymetry, 2024 release](https://emodnet.ec.europa.eu/en/emodnet-bathymetry-dtm-2024-release) (about a 115 m grid)
 - [PUBG's official map images (GitHub: pubg/api-assets)](https://github.com/pubg/api-assets) · [PUBG Interactive Map: map comparison](https://pubgmap.io/compare.html) · [Beebom: Erangel's building types](https://beebom.com/everything-you-need-to-know-pubg-locations/amp/)
 
 - [PUBG Wiki: Erangel (Classic)](https://pubg.wiki.gg/wiki/Erangel_(Classic))

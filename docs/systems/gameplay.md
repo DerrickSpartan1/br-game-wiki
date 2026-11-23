@@ -17,7 +17,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
     - **Wardrobe:** your character, outfit, gun and gear skins, melee weapon, and emotes ([Skins](skins.md)).
     - **Career:** stats, weapon mastery, and good fight thumbs up ([Good fight](#good-fight)).
     - **Replays** ([Death cam and replays](#death-cam-and-replays)).
-    - **Settings (owner, 2026-11-22):** Gameplay (the field of view slider, [First person](#first-person)) and Controls first; Graphics and Audio after. Sensitivity works like PUBG's: general, aim, ADS, one per scope from 2x to 15x, and a vertical multiplier. Every key can be rebound.
+    - **Settings (owner, 2026-11-22):** Gameplay (the field of view slider, [First person](#first-person)) and Controls first; Graphics and Audio after. Sensitivity works like PUBG's: general, aim, ADS, one per scope from 2x to 15x, and a vertical multiplier. Every key can be rebound. HUD size (owner, 2026-11-23): a slider in Gameplay from 75% to 125%, 100% by default (our pick). It scales the compass, health and boost, ammo, slots, minimap, and kill feed together; the crosshair stays the same size.
     - **No store** while the game is private.
 - **HUD:** a compass at the top with the heading in yellow; players alive and kills at the top right; the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
 - **Picking up:** look at an item and press F, like PUBG. The prompt names a gun's rolled version, since every gun is one version for the match ([Rules](../rules.md#versions)).
@@ -45,7 +45,12 @@ The view and the way guns are held look like PUBG's first person (owner, 2026-11
 
 - **Centered:** the gun comes up and the sight lines up with the exact center of the screen, so you aim where the crosshair was.
 - **Speed:** each category's ADS time ([Handling](handling.md#first-pass)).
-- **Zoom:** iron sights and 1x sights zoom in a little (our pick; how much is TBD). Scopes zoom to their power ([Attachments](attachments.md)).
+- **Zoom:** iron sights and 1x sights zoom in a little (our pick; how much is TBD, matched by eye to the PUBG reference below). Scopes zoom to their power ([Attachments](attachments.md)).
+- **Iron sight size (owner's references, 2026-11-23):** the owner sent three screenshots for the lead. They're described here and not kept:
+    - **PUBG, the M416 at 100 m zeroing:** the rear sight sits low and fairly small, across about the middle third of the screen's width and mostly below the center. The front post's tip is exactly at the center, and most of the screen around the sight stays clear.
+    - **A recent Call of Duty:** the rear ring is big and close, about 40% of the screen's width, with the front post inside it.
+    - **Call of Duty: Modern Warfare 2 (2009):** in between, with a compact rear sight and the front sight's round hood at the center.
+- **The target (our pick):** PUBG's look, the first one: a small, low sight with the front post at the center and a clear view around it, at the default field of view of 90. The Call of Duty shots show how big is too big.
 
 ### Arms and sleeves
 
@@ -142,6 +147,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
 - **Quick hit timing (planner's pick, 2026-11-22):** the hit lands 0.3 s after the tap, faster than pulling the melee weapon out (0.5 s), then the gun comes back with its own ready time. A gun with a bayonet stabs at once, without putting the gun away.
 - **Empty hands:** running with nothing out is the same 6.3 m/s as melee out, PUBG's unarmed speed.
+- **Fists (owner, 2026-11-23):** fists are on the roster, picked like any melee weapon, with the same numbers as the rest, since no pick gives an edge. With no melee weapon at all, such as after throwing yours and before picking it back up, you punch for a third of the melee damage, as in PUBG, where melee weapons hit three times as hard as a fist. That's 20 to the chest and stomach, 30 to the head, 21 to the neck, and 12 to the arms and legs, every 0.5 s, with 1 m of reach and no ready time (our pick). Armor cuts punches like any melee hit.
 - **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
 - **All the same in a fight:** every owned melee weapon has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
 
@@ -163,6 +169,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 
     | Kind | Weapons |
     | --- | --- |
+    | Unarmed | Fists, taped fists |
     | Knives | Combat knife, hunting knife, folding knife, butterfly knife, karambit, kukri, tanto, bayonet |
     | Big blades | Machete, cleaver, hatchet, axe, cavalry sabre, katana |
     | Farm tools | Scythe, sickle, pitchfork |
@@ -278,11 +285,28 @@ The owner's picks (2026-11-22). First pass for how they play (our pick):
 
 ## Training map
 
-A practice map, like PUBG's Training Mode on Camp Jackal (owner, 2026-11-22):
+A practice map, like PUBG's Training Mode (owner, 2026-11-22). PUBG added it in 2018 on its own 2 × 2 km map for 5 to 20 players, and later added a list of stations you teleport between. The owner's screenshot of the current one is the reference; it's described here and not kept. Write-up for the lead (2026-11-23), first pass (our pick):
 
-- **Getting in:** from the menu.
-- **What's there:** shooting ranges, a driving area, parachute practice, a close-quarters area, and tables of guns, attachments, armor, and meds.
-- **The arena:** a small arena inside the map to practice fights against a bot that always fights back. You set how many rounds outside the arena; the run ends if you die.
+- **Getting in:** a Training button on the menu's Play tab, next to the modes. It puts you straight into a training server, with no queue and no plane. Up to 20 players, solo or with your squad.
+- **The map:** its own small island, about 2 × 2 km, in the game's look. Players can't hurt each other outside the arena, there's no zone, and ammo and meds are free from the tables.
+- **Getting around:** open the map (M) and pick a station to teleport there, like the current PUBG one. You can also walk or drive between them.
+- **Stations:**
+
+    | Station | What's there |
+    | --- | --- |
+    | Firing range | Open ground with distance boards every 50 m out to 200 m, then targets at 400 m and 800 m and one at 1 km. Standing targets, targets that slide left and right, and a board that shows where each shot hit |
+    | Gun tables | Every gun version, attachment, armor piece, med, throwable, and melee weapon, not only the current pool. Ammo for every caliber |
+    | Close quarters | An indoor range with pop-up targets, and a town block built from the [building kit](maps.md#towns-and-buildings) |
+    | Grenade pit | Throwables, with distance marks and targets in trenches and windows |
+    | Driving | A ring road, a race track, an off-road course, stunt ramps, a bridge, a parking lot with every vehicle, and docks with boats and water ramps |
+    | Drive-by range | A loop where one player drives and the others shoot at targets from the seats |
+    | Jump tower | Parachute practice: a tower and a plane loop over landing circles, to practice landing far and landing fast |
+    | Movement course | Vaulting, climbing, windows, fences, and swimming |
+    | Aim and hearing drills | Aim drills, and drills for telling where footsteps and gunshots come from |
+    | Arena | Fights against a bot that always fights back ([Bots](#bots)), or one on one against another player. You set how many rounds outside the arena; a run against the bot ends if you die |
+
+- **The training panel:** a key (T, our pick) opens a panel to spawn any item or vehicle at your feet, set the time of day and weather, and reset the targets. It's the lead's test bench and sky panel, built for players.
+- **For now:** the lead's range map is the start of it. The test bench, sky panel, and fly mode stay test tools, refused on real match servers like the other test commands.
 
 ## Good fight
 
@@ -300,4 +324,5 @@ Cheaters are a real problem. The game uses Easy Anti-Cheat, free through Epic On
 ## Sources
 
 - [Esports Tales: PUBG field of view](https://www.esportstales.com/pubg/the-best-fov-field-of-view) (80 to 103, default 90, horizontal)
+- [PC Gamer: PUBG's Training Mode (2018)](https://www.pcgamer.com/pubgs-training-mode-will-feature-a-shooting-range-racetracks-parachute-practice-and-more) (2 × 2 km, 5 to 20 players, ranges to 1 km, driving, parachute practice, item tables) · [Samurai Gamers: PUBG melee weapons (2017)](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/melee-weapons-list/) (melee weapons hit three times as hard as a fist)
 - [PUBG Wiki: Vehicles](https://pubg.wiki.gg/wiki/Vehicles) (seats and top speeds) · [Dexerto: PUBG vehicles](https://www.dexerto.com/wikis/pubg/vehicles/) (the full list)

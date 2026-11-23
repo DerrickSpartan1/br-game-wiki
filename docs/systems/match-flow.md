@@ -133,7 +133,7 @@ Ours:
 
 **How keys work:**
 
-- **One key fits all:** any key opens any vault, and holding one shows every vault on your map, like Apex.
+- **One key fits all:** any key opens any vault, and holding one shows every vault on your map, like Apex. Without a key, the map, the full map on M included, doesn't mark them, like PUBG's secret rooms (planner, 2026-11-23).
 - **Used up:** opening a vault removes the key from your inventory.
 - **Dropped on death:** a key drops with your loot, so a key holder is worth hunting.
 - **Where they spawn:** anywhere loot spawns. When the match starts, it rolls how many keys there are (2 or 3) and spreads them across the map, never near each other (at least 2 km apart, our pick).

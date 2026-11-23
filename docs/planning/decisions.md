@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | The v4 mockup's coastline, places, hills, water, and roads are on the wiki as a coordinates file for the lead's map tool; Pizzi Bianchi moved to the south slope (about 170 m); seven longer farm tracks set | [Layout coordinates](../systems/maps.md#layout-coordinates) |
 | 2026-11-22 | Every revolver loads one round at a time; speed loaders are attachments that fill every chamber at once, spawning only with a revolver that can use one | [Staged reloads](../systems/handling.md#staged-reloads), [Attachments](../systems/attachments.md) |
 | 2026-11-22 | Every belt reload is the full reload (40% / 45% / 15%, 8.2 s). Mag-fed guns do the full reload only with an empty chamber. Pulled rounds go back to the backpack | [Staged reloads](../systems/handling.md#staged-reloads) |
 | 2026-11-22 | Skip paid Fab packs for now; a watch list keeps the Synty POLYGON packs, two Soviet apartment packs, an industrial pack, and a houses pack for later | [Fab watch list](art-and-sound.md#fab-watch-list) |

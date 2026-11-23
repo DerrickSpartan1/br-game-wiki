@@ -20,7 +20,7 @@ In the game the island is **Teplov**, and every town, hill, and spot has our own
 | Large towns | Ischia Porto, Forio | Ischia Porto on the northeast corner around the harbor; Forio on the west coast |
 | Towns | Ischia Ponte, Casamicciola Terme, Lacco Ameno, Barano d'Ischia | Ischia Ponte below Ischia Porto, facing the castle islet; Casamicciola and Lacco Ameno along the north coast; Barano on the southeast slopes |
 | Villages | Serrara Fontana, Panza, Sant'Angelo, Monterone, Cuotto | Serrara Fontana and Panza on the high south side; Sant'Angelo on the south coast; Monterone and Cuotto inland from Forio |
-| Hills | Monte Epomeo (789 m), Monte Trippodi (503 m), Monte Rotaro (307 m), Montagnone (252 m), Pizzi Bianchi | Epomeo fills the middle and west; the smaller hills sit east and north between Barano, Casamicciola, and Ischia |
+| Hills | Monte Epomeo (789 m), Monte Trippodi (503 m), Monte Rotaro (307 m), Montagnone (252 m), Pizzi Bianchi (430 m) | Epomeo fills the middle and west. Trippodi, Rotaro, and Montagnone sit east and north between Barano, Casamicciola, and Ischia. Pizzi Bianchi, white tuff pinnacles, is on the south slope above Sant'Angelo |
 | Roads | A ring road through every town, about 30 km of bends in real life, climbing to about 450 m; a side road down to Sant'Angelo | — |
 | Castle islet | The Aragonese Castle on a rock off Ischia Ponte, joined by a stone bridge | A small fortress spot, like a mini Sosnovka |
 
@@ -38,6 +38,8 @@ Ischia is almost all mountain, and a 789 m peak in a 10 km map would let whoever
 | Monte Trippodi | 503 m | About 200 m |
 | Monte Rotaro | 307 m | About 120 m |
 | Montagnone | 252 m | About 100 m |
+| Pizzi Bianchi | 430 m | About 170 m, on the south slope above Sant'Angelo |
+| The castle islet's rock | About 113 m | About 45 m, with cliffs |
 
 - **Walkable:** no slope steeper than about 37° in the mock-up's terrain.
 - **No sniper nest:** a tree line rings the plateau, so the middle doesn't see the whole island.
@@ -63,10 +65,28 @@ Approved on the v3 mockup.
 ### Marina, farms, and vaults
 
 - **Marina:** a new coastal town of our own on the southeast bay, between Barano and the east coast, with a small pier. A side road links it to the ring road near Barano and runs up the east coast to Ischia Ponte.
-- **Farms and huts:** about 70 small farmsteads of 1 to 4 huts and barns are scattered across the open ground, each with a dirt track to the nearest road, plus a few longer farm tracks through the fields.
+- **Farms and huts:** about 70 small farmsteads of 1 to 4 huts and barns are scattered across the open ground, each with a dirt track to the nearest road, plus seven longer farm tracks through the fields (game names, from the [layout file](#layout-coordinates)):
+    - From the north coast near the Sanatorium up onto the Stolovaya plateau (about 2 km).
+    - From Klyuchi up to Sokolinaya (about 2.7 km).
+    - Across the west slopes from near Kholmy toward Verkhovye (about 1.9 km).
+    - From the Kamenolom quarry north toward Belye Piki (about 1.2 km).
+    - From the Kolkhoz to Ostrog (about 0.9 km), and a short link from the ring road to the Kolkhoz (about 0.4 km).
+    - From the east slopes near the School down over the river's farm-track bridge to the Kamenolom quarry (about 2.7 km). The part west of the bridge is the planner's pick.
 - **Vaults:** five: under the Military Outpost, in Ischia Porto and Forio, on Marina's waterfront, and the Prison armory ([Vaults and keys](match-flow.md#vaults-and-keys)).
 
 With the 12 towns and villages, that's 23 named places, against Erangel's 25.
+
+### Layout coordinates
+
+The v4 mockup as data, for the lead's map tool: [teplov-layout.json](../data/teplov-layout.json) (2026-11-22). Coordinates are kilometers from the map's north-west corner, x east (0 to 10) and y south (0 to 8). It holds:
+
+- **Coastline:** the island and the Krepost islet, from NASA's ASTER water body data for Ischia, stretched to the map frame.
+- **Places, spots, and vaults:** game and real names, with town radii.
+- **Hills:** real and game heights.
+- **Water:** the crater lake's outline, the river's centerline (widths 25 m to 60 m), and the three bridges.
+- **Roads:** the ring road, secondary roads (including Tikhaya Bukhta's), the tunnel, the causeway, the seven farm tracks, 67 farmstead tracks, and local streets.
+
+It's still the mockup: heights come from the table above, not real elevation data. The ring road here is about 20 km of gentle curves; whether to keep the real road's bends is open.
 
 ### River
 

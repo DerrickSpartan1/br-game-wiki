@@ -39,6 +39,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Comeback duel:** loadouts, the arena's layout, and the duel timer ([Comeback fight](../systems/gameplay.md#comeback-fight)).
 - **Gun family names:** whether gun cards show a family game name or only the version's ([Game names](game-names.md)).
 - **Krepost:** how players get up the rock; waiting on reference photos ([Maps](../systems/maps.md#layout-coordinates)).
+- **Waist and thigh armor:** a separate piece, part of vest combos, or both, and its tiers and numbers ([Waist and thigh armor](../systems/armor.md#waist-and-thigh-armor-idea)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).

@@ -177,6 +177,13 @@ The random rigs for carriers without pouches. Color variants are skins.
 | Bank Robber | 8 | 0 | 0 |
 | M4 RSCR | 6 | 0 | 0 |
 
+### Waist and thigh armor (idea)
+
+The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with a vest.
+
+- **Real examples:** in 2025 Ukraine bought its first full-body fragmentation suits, about 2 kg, with "pteruges": a skirt-like belt of seven soft ballistic sections over the pelvis and upper thighs, made for drone and artillery fragments. The US Army's Pelvic Protection System (2011) paired Kevlar underwear covering the groin and inner thighs with a stiffer outer layer as strong as the soft parts of its vest. Medieval armor had tassets, plates hanging from the waist over the thighs.
+- **In the game (ideas):** its own piece that adds thigh coverage, mostly soft armor that stops fragments, buckshot, and pistol rounds, with a small slowdown like every other piece. Whether it's a separate loot item, part of a vest combo like chest rigs, or both, and its tiers and numbers, are open.
+
 ## Helmets
 
 "Back" is the back of the head; a helmet that lists ears muffles hearing. Helmet movement and ADS numbers come from an older Tarkov table, so they're rougher than the vests'; the TBD rows came out after it.
@@ -236,6 +243,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 
 ## Sources
 
+- [United24: Ukraine's full-body protective suit (2025)](https://united24media.com/defense-tech/ukraine-develops-full-body-protective-armor-that-nato-armies-do-not-currently-field-23518) · [US Army: "Kevlar underpants" protect pelvic region (2012)](https://www.army.mil/article/74306/)
 - [Tarkov Forge: Armor chart](https://tarkovforge.com/armor) (vest classes, coverage, and penalties)
 - [Tarkov Forge: Helmet chart](https://tarkovforge.com/helmets) (helmet classes)
 - [Escape from Tarkov Wiki: Armor plates](https://escapefromtarkov.fandom.com/wiki/Armor_plates) (plate weights and penalties)

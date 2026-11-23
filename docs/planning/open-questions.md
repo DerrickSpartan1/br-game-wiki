@@ -20,7 +20,8 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Melee and tools:** the melee, pan, and breaching tool numbers look good to the owner but need play testing; check the numbers for throwing knives and nailing doors shut, and mortars' range and blast ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
 - **PvE:** robot guards in vaults, sentries at radar stations, and patrols ([Robot guards](../systems/match-flow.md#robot-guards-idea)); their numbers.
 - **Gas:** gas damage, and the tear gas trap's numbers ([More class items](../systems/class-items.md#more-class-items)).
-- **Leg armor (pants armor):** whether the 6B45 rolls its real light, medium, and heavy setups, and leg armor numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
+- **Leg armor (pants armor):** its numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
+- **Armor's real setups:** whether vests and helmets roll their real versions, like the 6B45's light, medium, and heavy setups, the 6B23 and Zabralo families, the SSh-68, Sfera, and Maska, and bump helmets; and whether helmet tiers follow Tarkov or the real ratings ([Armor](../systems/armor.md)).
 - **Match details:** how wanted contracts work beyond the scrap reward, which vehicles the vehicle drops bring, and the supply truck's numbers ([Match flow](../systems/match-flow.md)).
 
 ## Lookups

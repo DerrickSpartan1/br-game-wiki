@@ -123,6 +123,16 @@ When you tell the lead "check the planner's list," it works through this section
 - **Revisit later (owner):** the empty-reload thumb press and the M4 hold, once there's a real player model.
 - **Vaults on the full map:** the new full map (M) can mark vault locations. Should players see where vaults are, or are they hidden like PUBG's secret rooms? Hidden for now.
 
+**Playtest round 4 (owner, 2026-11-23)**, saved in the same file. Good: the new M4 hold, the test bench, fly mode and the full map, cancelling a reload. For the planner:
+- **Full mag: 30+1 or 29+1? (owner):** "have the planner check if a gun has 1 in the chamber if the mag is 30 or 29 or if you have this answer already". Today a full M4 shows 29+1 (30 rounds in all). Same question as the round 3 one above.
+- **A training island (owner):** "perfect fir testing i would love to get to a training island liek pubg has". Please write up a PUBG-style training map: what's on it, how players get there from the menu, and what it has beyond the range (driving, jumping, ranges at set distances, all guns and attachments).
+- **Boost bar (owner):** the boost didn't heal until he used more boosts. As he describes PUBG: the second bar heals a little faster, the third gives the run speed boost, and the fourth lasts longer and heals a little more; ours "seemed very fast". Please research PUBG 2017–2018's boost bar (heal per bar, speed bonus, how fast it drains) and correct [Healing](../systems/healing.md)'s boost numbers.
+- **Iron sights (owner):** he has sent you details; the lead waits for your write-up.
+- **Armor and attachments testing waits on models (owner):** "we need armor models and TTK info", "we would need attachment models", "probably need player models first". This supports doing the player character first ([Your character](../systems/skins.md#your-character)).
+- **HUD size (owner):** players choose a bigger or smaller HUD in Settings. The lead adds a HUD scale slider now; say if you want limits.
+- **Med names (owner):** items should say their kind, like "Med kit: <name>", so it's easy to tell what's what. The lead is doing this now; say if you want another format.
+- **Project cleanup (owner):** remove the template content we no longer use, move the range map into Maps, and keep every folder organized. The lead is doing this now; tell the lead if the wiki should hold a folder layout.
+
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text

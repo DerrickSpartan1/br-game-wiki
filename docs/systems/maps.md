@@ -78,6 +78,33 @@ Approved on the v3 mockup.
 
 With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
+### Towns and buildings
+
+The plan (owner, 2026-11-23): mock up each town's layout first to learn which buildings the map needs, like generic houses, a police station, and a fire station, then build variants of each and place them around.
+
+**First mock (2026-11-23):** a script filled each town's graybox pad along its roads, with side lanes added: about 820 buildings in the 12 towns and villages, from 25 reusable building types and 7 one-off landmarks. Counts and variants are first passes (our pick):
+
+| Building | Footprint | Floors | In the mock | Variants |
+| --- | --- | --- | --- | --- |
+| Two-story house | 11 × 9 m | 2 | 213 | 6 |
+| Small house | 9 × 8 m | 1 | 175 | 5 |
+| Townhouse row | 18 × 9 m | 3 | 111 | 4 |
+| Apartment block, small | 30 × 12 m | 3 | 63 | 3 |
+| Apartment block, large | 60 × 12 m | 5 | 17 | 2 |
+| Shop | 12 × 10 m | 1 | 50 | 3 |
+| Café or canteen | 14 × 10 m | 1 | 27 | 2 |
+| Hotel | 40 × 14 m | 4 | 8 | 2 |
+| Petrol station, market hall, bus station | — | 1 | 9 | 1 each |
+| Church | 22 × 12 m | 1, tower | 7 | 2 |
+| Post office, police station, polyclinic, school, medical post, fire station, town hall, House of Culture | — | 1–2 | 32 | 1 each |
+| Savings bank (holds a town vault) | 20 × 14 m | 2 | 2 | 1 |
+| Garage row, boathouse, workshop, warehouse | — | 1 | 100 | 2 each |
+
+- **Landmarks (one each):** Vetrovo's watchtower and church on the point, Mostki's cathedral, Klyuchi's thermal baths, Gribovo's spa hotel, Tikhaya Bukhta's harbor office with the vault, and Verkhovye's church at the lookout.
+- **Not mocked yet:** our own spots and the farmsteads.
+- **Next to Erangel:** the building types (Erangel has about 26 named ones) and the number of places are on track, but the towns are too spread out. Pochinki packs about 60 buildings into a core about 350 m across, and only Georgopol reaches about 1 km, while Gavansk spreads 177 buildings over 1.1 km. Teplov also has more land, about 46 km² against Erangel's 33. Whether to tighten the towns into denser cores is open ([Open questions](../planning/open-questions.md#systems)).
+- **Idea:** Gribovo's real town has a mushroom-shaped rock in its bay, which could be a detail off the shore.
+
 ### Layout coordinates
 
 The v4 mockup as data, for the lead's map tool: [teplov-layout.json](../data/teplov-layout.json) (2026-11-22). Coordinates are kilometers from the map's north-west corner, x east (0 to 10) and y south (0 to 8). It holds:
@@ -128,6 +155,8 @@ Players could build and share their own maps with an add-on map editor and a wor
 Idea for night maps where flashlights and stealth matter. Night scopes like the StG 44's Vampir would shine there, and so would star rounds from grenade launchers, which light an area about 200 m across for about 40 seconds, and infrared star rounds that only show through night vision ([Attachments](attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)). Matches can now also run from late day into night, all night, or from night into morning ([Match flow](match-flow.md#time-passes)).
 
 ## Sources
+
+- [PUBG's official map images (GitHub: pubg/api-assets)](https://github.com/pubg/api-assets) · [PUBG Interactive Map: map comparison](https://pubgmap.io/compare.html) · [Beebom: Erangel's building types](https://beebom.com/everything-you-need-to-know-pubg-locations/amp/)
 
 - [PUBG Wiki: Erangel (Classic)](https://pubg.wiki.gg/wiki/Erangel_(Classic))
 - [Liquipedia: Erangel](https://liquipedia.net/pubg/Erangel_Remaster)

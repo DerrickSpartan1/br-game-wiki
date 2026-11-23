@@ -24,6 +24,17 @@ Per category. Each version uses its category's numbers until play testing says o
 - **Sprint speed** is with that gun in hand, before [armor](armor.md#vests) slowdown. Running, walking, crouching, and crawling scale the same way as PUBG's (table below).
 - **Recoil** stays random every shot ([Rules](../rules.md)); each gun's climb, drift, and settle speed come later, gun by gun.
 
+### Weapon sway
+
+The owner's picks (2026-11-22), from PUBG's 2017–2018 sway:
+
+- **Aiming down sights:** always a little sway, more with more zoom, like PUBG.
+- **Holding your breath:** Shift steadies the aim, like PUBG, and also zooms red dots and holo sights slightly. A breath gauge drains while you hold it; once it's empty, it takes 5 seconds to refill.
+- **Stance and moving:** crouching and going prone steady the aim; moving makes it worse.
+- **At the hip:** a little visible sway too, unlike PUBG, on top of the hip spread.
+- **Attachments:** the tactical stock cuts sway 10% and the cheek pad 15% ([Attachment effects](attachments.md#effects-first-pass-from-pubg)).
+- **Amounts** per category are TBD.
+
 ### Reload times
 
 By reload style, the same styles the animations use ([Reload styles](../planning/art-and-sound.md#reload-styles)). "With rounds left" is a reload that tops off; "From empty" also works the bolt or charging handle.
@@ -61,6 +72,7 @@ A reload keeps its progress (owner, 2026-11-22). Each reload is split into stage
 | `break action`, `single shot` | Open and empties out (35%), new rounds in (45%), closed (20%) | No, while it's open |
 | `revolver` | One round at a time (owner, 2026-11-22): cylinder out or loading gate open, with the empties out; then each round is its own stage; then closed. With a [speed loader](attachments.md): cylinder out and empties out (35%), every round in at once (50%), closed (15%) | No, while the cylinder is out or the gate is open |
 
+- **When a reload counts (owner, 2026-11-22):** once the new mag, belt, or clip seats, like PUBG. A short back-to-ready stage follows, which can be cancelled for free.
 - **Mags and belts (owner, 2026-11-22):** a mag-fed gun does the full reload only when its chamber is empty; otherwise it just changes mags. A belt-fed gun always does the full reload. An open-bolt mag gun never has a round chambered, but its bolt stays back while it has rounds, so with rounds left it just changes mags; the full reload with the charge is only from empty.
 - **Revolver timing (planner's pick, 2026-11-22):** a swing-out cylinder takes 0.6 s to open and dump the empties and 0.3 s to close. A gate-loaded revolver takes 0.3 s to open the gate, 0.4 s to push out each spent case, and 0.2 s to close. Each round loads in 0.75 s. Pressing fire partway through closes the cylinder or gate first, then fires.
 - **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag or belt comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).

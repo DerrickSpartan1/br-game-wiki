@@ -5,7 +5,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Balance
 
 - **In-game range:** TBD on every gun page. Damage has a first pass on every version ([Starting damage](../systems/starting-damage.md)), to tune in play testing.
-- **Crate ammo:** how many FRAG-12, dragon's breath, and lethal launcher rounds a crate holds, FRAG-12's damage to vehicles, and how long dragon's breath ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo), [Grenade launchers](../systems/attachments.md#crate-rounds-lethal)).
 - **CS gas rounds:** whether launchers get tear gas later, which would need a gas effect of its own ([Grenade launchers](../systems/attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)).
 - **Handling numbers:** a first pass per category, from PUBG's numbers, is on [Handling](../systems/handling.md). ADS times aren't in PUBG's data, so those are our picks; all of it gets tuned in play testing.
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
@@ -24,12 +23,9 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Gas cut-offs:** whether other guns with a real gas cut-off (the FAL's gas plug, and the grenade cut-offs on the MAS-49/56, M59/66, and [BM 59](../weapons/battle-rifles/bm-59.md), and the [IWI Tavor 7](../weapons/battle-rifles/tavor-7.md)'s gas-off setting) also get the Mondragón's manual mode on the selector key.
 - **Match flow numbers:** plane altitude and speed, care packages per match, and each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
-- **Comeback:** the comeback fight is filed, but the owner isn't sure what form a Gulag-style comeback should take ([Gameplay](../systems/gameplay.md#comeback-fight)).
 - **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match; what scrap buys out of game ([Crafting](../systems/crafting.md#workbenches)).
 - **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
 - **Suppression:** whether near misses blur or shake your view, and how much ([Gameplay](../systems/gameplay.md#sound)).
-- **Healing:** whether players can walk while healing (PUBG since 2019) or must stand still (PUBG in 2017 and 2018), and PUBG's weights for bandages, first aid kits, energy drinks, and painkillers ([Healing](../systems/healing.md)).
-- **Healing variants:** whether the blood substitute injector also cuts gas damage ([Healing](../systems/healing.md#adrenaline)).
 - **Bodies:** what happens to a body once nobody can revive it but the player is still watching, and whether a looted body can still be revived ([Gameplay](../systems/gameplay.md#knockdowns-revives)).
 - **Red zone forms:** which new forms to add; ideas so far are firebombing, a creeping barrage, and EMP ([Match flow](../systems/match-flow.md#red-zones)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
@@ -39,6 +35,10 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **PvE:** robot guards in vaults are the first form ([Robot guards](../systems/match-flow.md#robot-guards-idea)); what else PvE could be, and the guards' numbers.
 - **New class items:** how to make the signal jammer worth the slot, and how gas, the gas trap, and the gas mask balance ([More class items](../systems/class-items.md#more-class-items)).
 - **Taking things out of a match:** how scrap, quest items, and skin-crafting items come out with you, and what you keep when you die or win ([Crafting](../systems/crafting.md)).
+- **Dragon's breath fires:** how long its ground fires burn ([Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo)).
+- **Comeback duel:** loadouts, the arena's layout, and the duel timer ([Comeback fight](../systems/gameplay.md#comeback-fight)).
+- **Gun family names:** whether gun cards show a family game name or only the version's ([Game names](game-names.md)).
+- **Krepost:** how players get up the rock; waiting on reference photos ([Maps](../systems/maps.md#layout-coordinates)).
 - **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
 - **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
 - **Season challenges:** how weapon-specific goals work when that gun may not roll for a while ([Seasons](../systems/seasons.md)).

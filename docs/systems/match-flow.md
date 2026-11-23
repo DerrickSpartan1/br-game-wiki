@@ -46,6 +46,8 @@ The playzone (blue) shrinks toward the next safe circle (white) in phases, and a
 
 Damage is a percent of full health, so armor doesn't change it.
 
+**Circles stay over land (planner's pick, 2026-11-22):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
+
 ### No zone camping
 
 Damage grows with how deep you are outside the zone and with how far into the match it is, so hiding in the blue to heal or flank doesn't pay. PUBG did this too: since October 2017, every circle after the first hurts more the farther outside you are. PUBG doesn't publish its formula; ours:
@@ -99,7 +101,8 @@ Random, like PUBG's:
 
 - **When and where:** a plane flies over at random times and drops a crate at a random point along its path. You hear the plane before the drop.
 - **The crate** comes down on a parachute and is marked once it lands, with our own look and signal (TBD), not PUBG's flashing light and red smoke. It can land on a roof, in water, or somewhere hard to reach.
-- **Inside:** crate weapons with attachments that fit them, tier 3 armor, and crate ammo ([Crate weapons](../weapons/crate/index.md)).
+- **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
+- **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many:** TBD.
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.

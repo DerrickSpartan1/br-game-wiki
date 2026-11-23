@@ -17,7 +17,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
     - **Wardrobe:** your character, outfit, gun and gear skins, melee weapon, and emotes ([Skins](skins.md)).
     - **Career:** stats, weapon mastery, and good fight thumbs up ([Good fight](#good-fight)).
     - **Replays** ([Death cam and replays](#death-cam-and-replays)).
-    - **Settings,** including the field of view slider ([First person](#first-person)).
+    - **Settings (owner, 2026-11-22):** Gameplay (the field of view slider, [First person](#first-person)) and Controls first; Graphics and Audio after. Sensitivity works like PUBG's: general, aim, ADS, one per scope from 2x to 15x, and a vertical multiplier. Every key can be rebound.
     - **No store** while the game is private.
 - **HUD:** a compass at the top with the heading in yellow; players alive and kills at the top right; the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
 - **Picking up:** look at an item and press F, like PUBG. The prompt names a gun's rolled version, since every gun is one version for the match ([Rules](../rules.md#versions)).
@@ -54,7 +54,7 @@ The view and the way guns are held look like PUBG's first person (owner, 2026-11
 ### The character for now
 
 1. **Now:** the template's mannequin, already in the project.
-2. **Next:** the low-poly male and female test bodies, one standard face each ([Your character](skins.md#your-character)).
+2. **Next:** the full low-poly male and female test bodies, one standard face each, made in Blender on Unreal's mannequin skeleton so every animation works on them. The first-person arms come from these bodies (owner, 2026-11-22) ([Your character](skins.md#your-character)).
 3. **Final:** characters closer to PUBG's ([Art style](../planning/art-and-sound.md#art-style-low-poly-for-testing)).
 
 Both bodies share one skeleton, one hitbox, and the same first-person arm setup, so every gun and animation works on either (our pick).
@@ -81,16 +81,12 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 ## Comeback fight
 
-When your whole team is wiped out, you're sent to a loser fight as a comeback play. It's a random team fight where players get random weapons, and the format varies:
+Warzone-style 1v1 duels (owner, 2026-11-22):
 
-- A 4v4
-- Two 2v2s played side by side
-- A 3v3 and a 1v1 played side by side
-- Other mixes
-
-Winners redeploy into the main match with the guns and armor they had in the team fight.
-
-**Not final:** the owner wants some kind of Gulag-style comeback, like Warzone's, but isn't sure of the form yet.
+- **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match.
+- **One redeploy:** each player gets one comeback per match. Winning, redeploying, and dying again ends your match, unless you've made another comeback at a [workbench](crafting.md#what-a-workbench-makes) with scrap.
+- **Only early:** the arena is open for the first couple of circles (first pass: until phase 2 ends). When it closes, anyone still waiting or fighting there redeploys for free.
+- **Loadouts, the arena's layout, and the duel timer** are TBD.
 
 **Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 
@@ -268,6 +264,23 @@ How gun sounds are layered and sourced is on [Gun art and sound](../planning/art
 - **Spectating enemies:** once your whole squad is out, watch other players still in the match, starting with whoever finished your squad, until the match ends.
 - **Replays:** matches can be watched back afterward. Death cams, spectating, and replays help players learn and help spot cheaters.
 - **Spectating delay (our pick):** what you see runs a few seconds behind, so a squad that's out can't call out live positions to anyone.
+
+## Bots
+
+The owner's picks (2026-11-22). First pass for how they play (our pick):
+
+- **Where:** bots fill the lobby and any empty slots in a match, so games feel full ([Pre-match lobby](match-flow.md#pre-match-lobby)).
+- **Not marked:** like PUBG, nothing shows that a player is a bot.
+- **Skill:** three levels, easy, normal, and hard, set per match. The level sets how fast they react, how far away they notice players, and how well they aim and control recoil.
+- **How they play (our pick):** they jump from the plane like players, loot the buildings near where they land, move in with the zone, heal when hurt, and fight players they see or hear.
+
+## Training map
+
+A practice map, like PUBG's Training Mode on Camp Jackal (owner, 2026-11-22):
+
+- **Getting in:** from the menu.
+- **What's there:** shooting ranges, a driving area, parachute practice, a close-quarters area, and tables of guns, attachments, armor, and meds.
+- **The arena:** a small arena inside the map to practice fights against a bot that always fights back. You set how many rounds outside the arena; the run ends if you die.
 
 ## Good fight
 

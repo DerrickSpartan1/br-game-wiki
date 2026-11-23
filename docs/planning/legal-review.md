@@ -50,6 +50,7 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
 | First map | [Maps](../systems/maps.md) | Real island and town names | Teplov and our own place names ([Places](game-names.md#places)) | Done |
 | PUBG look and feel | Several pages | Specifics copied from PUBG that, together, look like PUBG ([PUBG look and feel](#pubg-look-and-feel)) | Our own versions | Open |
+| Hidden data keys | The game's data tables | Real gun, version, cartridge, and armor names stay as hidden row keys, never shown on screen | Fine for the private build (owner, 2026-11-22) | Review before release; replace if the lawyer says so |
 | Player-made content | [Custom games and mods](../systems/gameplay.md#custom-games-and-mods-later) | Maps and content made by players need terms on who owns them and what's allowed | Workshop terms | Later |
 
 ## PUBG look and feel

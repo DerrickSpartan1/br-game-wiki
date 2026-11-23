@@ -15,17 +15,33 @@ PUBG's six items are the six slots. Their numbers are the middle that every item
 
 | Slot | Use time | Effect | Weight |
 | --- | --- | --- | --- |
-| **Bandage** | 4 s | Heals 10 over 3 s, up to 80 | TBD |
-| **First aid kit** | 6 s | Heals to 80, filling over 3 s; can't be used at 80 or more | TBD |
+| **Bandage** | 4 s | Heals 10 over 3 s, up to 80 | 2 |
+| **First aid kit** | 6 s | Heals to 80, filling over 3 s; can't be used at 80 or more | 10 |
 | **Med kit** | 8 s | Heals to 100, filling over 5 s | 20 |
-| **Energy drink** | 4 s | Boost +40 | TBD |
-| **Painkillers** | 7.5 s | Boost +60 | TBD |
+| **Energy drink** | 4 s | Boost +40 | 4 |
+| **Painkillers** | 7.5 s | Boost +60 | 10 |
 | **Adrenaline** | 6 s | Boost +100, a full bar | 20 |
 
-- **Weights** use PUBG's, like ammo and throwables, and every item weighs what its slot does ([Carry weight](armor.md#carry-weight)). PUBG's weights for the bandage, first aid kit, energy drink, and painkillers aren't confirmed yet.
+- **Weights** use PUBG's, like ammo and throwables, and every item weighs what its slot does ([Carry weight](armor.md#carry-weight)). The lead's placeholders for the bandage, first aid kit, energy drink, and painkillers (2, 10, 4, 10) are kept (owner, 2026-11-22).
 - **Adrenaline slot:** everything in it also speeds up picking up a knocked teammate ([Knockdowns and revives](gameplay.md#knockdowns-revives)). You don't need it in your hands to use it.
 - **Where they spawn:** bandages, first aid kits, energy drinks, and painkillers on the ground; med kits rare on the ground; adrenaline mostly in care packages and rarely on the ground, like PUBG since its Update 12. Vaults hold meds too ([Vaults and keys](match-flow.md#vaults-and-keys)).
 - **PUBG's times changed:** some guides list slower times (first aid kit 7 s, med kit 10 s, adrenaline 10 s). PUBG's adrenaline syringe went from 8 s to 6 s in its Update 12.
+
+## Rules
+
+Settled by the owner on 2026-11-22, from the lead's placeholders and the planner's questions.
+
+- **Ground spawns:** of every ground med spawn, bandages 30%, first aid kits 24%, energy drinks 22%, painkillers 16%, med kits 5%, and adrenaline-slot items 3%. Bandages come in stacks of 5.
+- **Care packages:** 1 adrenaline-slot item each, plus a chance of a med kit.
+- **Vaults:** 2 first aid kits, 1 med kit, and 1 adrenaline-slot item ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **Getting knocked** empties the boost bar and stops any healing that's filling in.
+- **At the cap:** a heal item can't be used at its cap, even if it also boosts.
+- **Quick teammate pickup:** using an adrenaline-slot item for it uses the item up, and the teammate gets its boost.
+- **The pocket first aid kit** heals 70, still capped at 80.
+- **What cancels using a med:** firing, getting knocked, the parachute, vaulting, reloading, aiming, switching weapons, and jumping, as in PUBG.
+- **Moving while using a med:** a slow walk, like PUBG.
+- **Boost speed** counts only when running.
+- **Gas and fire:** gas damage doesn't stop a boost's healing; burning does, while you burn. The blood substitute injector only does what its slot does; it doesn't cut gas damage.
 
 ## Boost bar
 

@@ -86,7 +86,7 @@ The v4 mockup as data, for the lead's map tool: [teplov-layout.json](../data/tep
 - **Water:** the crater lake's outline, the river's centerline (widths 25 m to 60 m), and the three bridges.
 - **Roads:** the ring road, secondary roads (including Tikhaya Bukhta's), the tunnel, the causeway, the seven farm tracks, 67 farmstead tracks, and local streets.
 
-It's still the mockup: heights come from the table above, not real elevation data. The ring road here is about 20 km of gentle curves; whether to keep the real road's bends is open.
+It's still the mockup: heights come from the table above, not real elevation data. The ring road here is about 20 km of gentle curves. The owner's picks (2026-11-22): the next pass uses real elevation data squashed to 40%, and the ring road keeps the real road's bends, about 30 km. The ring road through Ovsyanka, with Kholmy on a side road, is fine.
 
 ### River
 

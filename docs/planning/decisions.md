@@ -4,6 +4,11 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Weapon sway like PUBG's (with a little at the hip too); a reload counts once the mag seats; PUBG-style settings with rebindable keys | [Handling](../systems/handling.md#weapon-sway), [Menus](../systems/gameplay.md#hud-and-inventory) |
+| 2026-11-22 | Healing rules settled from the lead's placeholders (weights, spawns, cancels, slow walk); gas doesn't stop boost healing, burning does | [Healing rules](../systems/healing.md#rules) |
+| 2026-11-22 | Bots fill matches at three skill levels and aren't marked; a training map with a bot arena; full low-poly bodies come before arms | [Bots](../systems/gameplay.md#bots), [Training map](../systems/gameplay.md#training-map) |
+| 2026-11-22 | The comeback is Warzone-style 1v1 duels: one redeploy, more made with scrap, open for the first couple of circles | [Comeback fight](../systems/gameplay.md#comeback-fight) |
+| 2026-11-22 | Crate ammo: 20 FRAG-12 or dragon's breath, 3 launcher rounds; FRAG-12 strong against vehicles. Real elevation data and real road bends for Teplov. Oka Metel and Pichler PK-17 / PK-18 | [Care packages](../systems/match-flow.md#care-packages), [Maps](../systems/maps.md#layout-coordinates), [Game names](game-names.md) |
 | 2026-11-22 | Planner's picks for the lead: kill credit (the knocker gets it; a brought-back player counts again; a knocker who left still gets it), quick melee timing (0.3 s), revolver open and close times, Janz calibers (.357 and .44 Magnum), and cartridge names 11.4×25mm and 6.5×57mm | [Knockdowns](../systems/gameplay.md#knockdowns-revives), [Staged reloads](../systems/handling.md#staged-reloads), [Janz](../weapons/pistols/janz.md) |
 | 2026-11-22 | The v4 mockup's coastline, places, hills, water, and roads are on the wiki as a coordinates file for the lead's map tool; Pizzi Bianchi moved to the south slope (about 170 m); seven longer farm tracks set | [Layout coordinates](../systems/maps.md#layout-coordinates) |
 | 2026-11-22 | Every revolver loads one round at a time; speed loaders are attachments that fill every chamber at once, spawning only with a revolver that can use one | [Staged reloads](../systems/handling.md#staged-reloads), [Attachments](../systems/attachments.md) |

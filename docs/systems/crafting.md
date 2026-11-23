@@ -43,6 +43,7 @@ First pass (our pick, 2026-11-22), scaled from Apex Legends' replicators and War
 | Taped mags | 20 | 8 s | Work like the lowest quick mag tier |
 | Molotov | 15 | 6 s | |
 | Noisemaker decoy | 10 | 4 s | Draws players toward a sound |
+| Comeback | 75 | 10 s | Another redeploy from the [comeback duel](gameplay.md#comeback-fight) (owner's idea; the cost is our pick) |
 | Vault drill (later) | 100 | 15 s | Opens any [vault](match-flow.md#vaults-and-keys) in about 45 seconds, loudly |
 
 The cheapest item to the most expensive is 10 to 100 scrap, close to Warzone's buy stations ($1,500 to $10,000). [Radar stations](match-flow.md#radar-stations) charge 50 scrap.

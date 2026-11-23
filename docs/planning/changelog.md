@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Filed the owner's picks page: sway, healing rules, settings, bots, training map, comeback duel, crate ammo, terrain, and renamed guns; ticked the setup list |
 | 2026-11-22 | Answered the lead's smaller questions: kill credit, quick melee, open-bolt reloads, revolver timing, Janz calibers, and two cartridge names |
 | 2026-11-22 | Added [teplov-layout.json](../data/teplov-layout.json) and [Layout coordinates](../systems/maps.md#layout-coordinates); fixed Pizzi Bianchi; listed the farm tracks |
 | 2026-11-22 | Revolvers load one round at a time with speed loaders as attachments; belt reloads are always full ([Staged reloads](../systems/handling.md#staged-reloads)) |

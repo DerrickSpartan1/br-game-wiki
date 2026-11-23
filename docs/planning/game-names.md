@@ -84,7 +84,7 @@ Approved by the owner: a mix of real and new.
 | --- | --- | --- |
 | Colt M16A4 | Harlan HR-16A4 | Military designation: the number stays |
 | Kalashnikov AKM | Zavod-7 AV-47M | Military designation: the number stays |
-| Glock 18C | Pichler P-20C | Product name: new number |
+| Glock 18C | Pichler PK-18C | Product name: real number, new letters |
 | Uzi | Arava Kestrel | Product name: new name |
 
 Each maker's naming habit is in the [Gun makers](#gun-makers) table.
@@ -168,7 +168,7 @@ Every version of every gun, 625 in all. The # matches each gun page's Versions t
 | # | Version | Game name |
 | --- | --- | --- |
 | 1 | AS Val | Oka Tuman |
-| 2 | SR-3 Vikhr | Oka Buran |
+| 2 | SR-3 Vikhr | Oka Metel |
 
 #### [Beryl wz. 96](../weapons/assault-rifles/beryl.md)
 
@@ -1148,10 +1148,10 @@ Every version of every gun, 625 in all. The # matches each gun page's Versions t
 
 | # | Version | Game name |
 | --- | --- | --- |
-| 1 | Glock 17 | Pichler P-19 |
-| 2 | Glock 17L | Pichler P-19L |
-| 3 | Glock 17, 9×21mm | Pichler P-19 9×21 |
-| 4 | Glock 18 | Pichler P-20 |
+| 1 | Glock 17 | Pichler PK-17 |
+| 2 | Glock 17L | Pichler PK-17L |
+| 3 | Glock 17, 9×21mm | Pichler PK-17 9×21 |
+| 4 | Glock 18 | Pichler PK-18 |
 
 #### [HK416 .22 pistol](../weapons/pistols/hk416-22-pistol.md)
 

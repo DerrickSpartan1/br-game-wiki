@@ -7,7 +7,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | 2026-11-23 | The coast gets cliffs, rocky shore, beaches, and harbor walls, with a sea floor falling to about 100 m (our pick) | [The coast](../systems/maps.md#the-coast) |
 | 2026-11-23 | The land around towns mixes vineyards, fields, orchards, woods, pine, scrub, and meadow from Ischia's real land cover (owner; mix is our pick) | [Land around the towns](../systems/maps.md#land-around-the-towns) |
 | 2026-11-23 | Closed-bolt guns with detachable mags hold one more round: 29+1 from empty, 30+1 with a round chambered (owner; which guns is our pick) | [Staged reloads](../systems/handling.md#staged-reloads) |
-| 2026-11-23 | Fists join the melee roster with the same numbers; with no melee weapon, punches do a third (owner; numbers our pick) | [Melee](../systems/gameplay.md#melee) |
+| 2026-11-23 | Fists are a melee pick like all the others, with the same numbers, for showing off gloves and the watch (owner) | [Melee](../systems/gameplay.md#melee) |
 | 2026-11-23 | Training map write-up: Training on the Play tab, ten stations, teleport from the map, a training panel (our pick) | [Training map](../systems/gameplay.md#training-map) |
 | 2026-11-23 | Iron sights aim for PUBG's M416 size: small, low, front post at the center (our pick) | [Aiming down sights](../systems/gameplay.md#aiming-down-sights) |
 | 2026-11-23 | HUD size slider from 75% to 125% (owner; limits our pick); med names start with their slot (owner) | [HUD and inventory](../systems/gameplay.md#hud-and-inventory), [Healing rules](../systems/healing.md#rules) |

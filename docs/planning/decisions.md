@@ -4,6 +4,17 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | First-pass sun, moonlight, brightness-cheat, weather, and watch numbers for the lead (our pick) | [Time of day and weather](../systems/match-flow.md#time-of-day-and-weather) |
+| 2026-11-22 | The standard M14 is semi only; the other real gas cut-offs (military FALs, MAS-49/56, M59/66, BM 59, Tavor 7) go on the selector key like the Mondragón's | [Fixed triggers](../rules.md#fixed-triggers), [M14](../weapons/battle-rifles/m14.md) |
+| 2026-11-22 | Twin guns keep separate mastery; season goals target a gun family; suppressors and the Krummlauf wear out | [Weapon mastery](../systems/skins.md#weapon-mastery), [Seasons](../systems/seasons.md), [Wear](../systems/attachments.md#wear) |
+| 2026-11-22 | Dragon's breath ground fires burn 6 seconds; firebombing, creeping barrage, and EMP red zones are in; guns from real carry cases can spawn as rare locked briefcases | [Crate shotgun ammo](../systems/starting-damage.md#crate-shotgun-ammo), [Red zones](../systems/match-flow.md#red-zones), [Briefcases](../systems/loot.md#briefcases) |
+| 2026-11-22 | The signal jammer also scrambles nearby enemies' minimap and compass; the door wedge stays and works on metal doors | [Class items](../systems/class-items.md) |
+| 2026-11-22 | Everything you carry comes out of a match, win or lose; quest items only count after a few minutes | [Crafting](../systems/crafting.md) |
+| 2026-11-22 | Characters: a full color picker, a free basic set, and several saved characters later | [Your character](../systems/skins.md#your-character) |
+| 2026-11-22 | Gun cards show only the version's game name; Krepost is reached by causeway, rock ramp, and paths | [Game names](../planning/game-names.md#rules), [Heights](../systems/maps.md#heights-squashed-with-a-plateau) |
+| 2026-11-22 | Bodies turn into crates once nobody can revive them or the player goes to the duel; looted bodies can be revived; no suppression effect | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives), [Sound](../systems/gameplay.md#sound) |
+| 2026-11-22 | Comeback duel: the same random gun for both, kept on redeploy; an underground arena; a capture point after 60 seconds | [Comeback fight](../systems/gameplay.md#comeback-fight) |
+| 2026-11-22 | Leg armor gets its own slot and tiers 1 to 3, and only the better groin cover counts; the ballistic skirt is in, ballistic underwear is out | [Leg armor](../systems/armor.md#leg-armor-idea) |
 | 2026-11-22 | Weapon sway like PUBG's (with a little at the hip too); a reload counts once the mag seats; PUBG-style settings with rebindable keys | [Handling](../systems/handling.md#weapon-sway), [Menus](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-22 | Healing rules settled from the lead's placeholders (weights, spawns, cancels, slow walk); gas doesn't stop boost healing, burning does | [Healing rules](../systems/healing.md#rules) |
 | 2026-11-22 | Bots fill matches at three skill levels and aren't marked; a training map with a bot arena; full low-poly bodies come before arms | [Bots](../systems/gameplay.md#bots), [Training map](../systems/gameplay.md#training-map) |

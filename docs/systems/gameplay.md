@@ -71,7 +71,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 - **A player brought back is a live player again:** killing them a second time counts as a new kill for whoever does it.
 - **A knocker who leaves the match** still gets the kill in the match results.
 
-**Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. Anyone can loot it straight from the body while the player can still be revived. If the player leaves the match, the body turns into a loot crate, like PUBG's.
+**Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. While a squadmate could still revive them, it stays a body: anyone can loot it straight from the body, and a looted body can still be revived, with whatever is left on it (owner, 2026-11-22). Once nobody can revive them anymore, or they go to the [comeback duel](#comeback-fight), the body turns into a loot crate right away, like PUBG's. It does the same if the player leaves the match.
 
 **Self-revive kits** let you get up on your own, like PUBG's. They spawn more often in solos and less often in duos, trios, and quads.
 
@@ -86,7 +86,9 @@ Warzone-style 1v1 duels (owner, 2026-11-22):
 - **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match.
 - **One redeploy:** each player gets one comeback per match. Winning, redeploying, and dying again ends your match, unless you've made another comeback at a [workbench](crafting.md#what-a-workbench-makes) with scrap.
 - **Only early:** the arena is open for the first couple of circles (first pass: until phase 2 ends). When it closes, anyone still waiting or fighting there redeploys for free.
-- **Loadouts, the arena's layout, and the duel timer** are TBD.
+- **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.
+- **The arena** is hidden underground, so it never gets in the way of the match (owner). Its layout is TBD.
+- **Timer:** after 60 seconds a capture point opens, and whoever takes it wins (owner), like the flag in Warzone's Gulag.
 
 **Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 
@@ -185,7 +187,7 @@ Every player carries a few small tools for in-game actions. They aren't items or
 
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
-- **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is TBD. It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
+- **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is left for later (owner, 2026-11-22). It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
 - **Screwdriver (idea):** what it does is TBD. Ideas: open electrical boxes to switch a building's lights off at night ([Time of day](match-flow.md#time-of-day-and-weather)), or unscrew vent covers for a quiet way in.
 - **More tools** can come later.
 
@@ -253,7 +255,7 @@ Sound is a major focus.
 - **Bullet crack:** bullets still faster than sound crack as they fly past you. The crack lands before the bang, so the gap between them hints at how far away the shooter is. Subsonic rounds, like .45 ACP and the [VSS](../weapons/battle-rifles/vss.md)'s 9×39mm, don't crack.
 
 - **Proximity chat:** nearby players, enemies included, can hear each other talk, like PUBG.
-- **Suppression (to look into):** near misses could cause a light blur or shake, as in Battlefield and Squad. It has to stay light so it doesn't decide fights by luck.
+- **No suppression effect (owner, 2026-11-22):** near misses only make noise, like PUBG's, with no blur or shake.
 
 How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
 

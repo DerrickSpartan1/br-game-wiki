@@ -16,7 +16,7 @@ About 820 m/s; iron sights adjustable from 200 to 1,200 m; gas goes straight fro
 
 ## In-game traits
 
-One roster entry that rolls one of 5 versions (see [Versions](#versions) below).
+One roster entry that rolls one of 5 versions (see [Versions](#versions) below). The MAS-49/56's gas cut-off for grenade blanks goes on the fire-mode selector key as a manual mode, like the [Mondragón rifle](mondragon.md)'s (owner, 2026-11-22).
 
 ## Attachments
 
@@ -28,7 +28,7 @@ AR/LMG/battle rifle family attachments; native side scope rail (left of the rece
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi | 600 | No | box mag | 10 | 50 |
+| 1 | MAS-49/56 | Shorter and lighter: 4.1 kg, 1,020 mm, 525 mm barrel; knife bayonet; NATO 22mm grenade launcher on the muzzle | 7.5×54mm French | 275,240 (1958–1978) | MAS-49/56 | semi, straight-pull | 600 | No | box mag | 10 | 50 |
 | 2 | MAS-49 | Original rifle: 4.7 kg, 1,100 mm, 580 mm barrel; built-in grenade launcher | 7.5×54mm French | About 20,600–80,000 (sources differ), including Syria's 6,000 | MAS-49, Syrian contract rifles (1953; MAS-36-style spike bayonet, different stock) | semi | 600 | No | box mag | 10 | 50 |
 | 3 | MAS-44 (rare) | Postwar precursor, mostly used by navy commandos in Indochina | 7.5×54mm French | 6,200 delivered | MAS-44, 44A, 44B, 44C | semi | 600 | No | box mag | 10 | 50 |
 | 4 | MAS-40 (rare) | Prewar prototype with a 5-round internal magazine | 7.5×54mm French | Few | MAS-40, MAS-38/39 | semi | 600 | No | TBD | 5 | 50 |

@@ -16,7 +16,7 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 7 versions (see [Versions](#versions) below).
+One roster entry that rolls one of 7 versions (see [Versions](#versions) below). The M59/66's gas cut-off for grenades goes on the fire-mode selector key as a manual mode, like the [Mondragón rifle](mondragon.md)'s (owner, 2026-11-22).
 
 ## Attachments
 
@@ -29,7 +29,7 @@ AR/LMG/battle rifle family attachments; adapter scope mount, except the marksman
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | SKS | Standard carbine; fixed 10-round mag | 7.62×39mm | Most of 12 million or more (2.5–2.7 million Soviet, 9 million+ Chinese, plus others) | Soviet SKS-45 (Tula and Izhevsk; early spike bayonets and non-chrome bores), Chinese Type 56 (stamped-receiver run of about 12,000, fiberglass "jungle" stocks), Albanian Type 56-1 (longer stock, AK-style charging handle), Yugoslav M59 "Papovka", Romanian M56, East German Karabiner-S, Polish ksS, North Korean Type 63, Vietnamese Type 1 (about 6,000) and Viet Cong copies, Russian OP-SKS hunting carbines | semi | 600 | No | stripper clip | 10 | 48 |
-| 2 | M59/66 | Built-in 22mm rifle grenade launcher on the muzzle with a ladder sight and gas cut-off | 7.62×39mm | Unknown; Yugoslav production 1967–1989 | Yugoslav M59/66, M59/66A1 (night sights), North Korean Type 63 grenade-launcher model | semi | 600 | No | stripper clip | 10 | 48 |
+| 2 | M59/66 | Built-in 22mm rifle grenade launcher on the muzzle with a ladder sight and gas cut-off | 7.62×39mm | Unknown; Yugoslav production 1967–1989 | Yugoslav M59/66, M59/66A1 (night sights), North Korean Type 63 grenade-launcher model | semi, straight-pull | 600 | No | stripper clip | 10 | 48 |
 | 3 | AK-mag sporter | Semi-auto civilian carbine that takes detachable AK magazines | 7.62×39mm | Unknown | Chinese Type 56 Model D, Model M (no bayonet lug), Norinco Model M (Monte Carlo stock, 30-round AK mags), Type 56 Model 84 (short barrel, AK-style mag) | semi | 600 | No | box mag | 30 | 48 |
 | 4 | Auto prototype (rare) | Automatic fire, detachable box mag, detachable bayonet, new muzzle brake | 7.62×39mm | 1 or a few | SKS M1953 (select-fire), SKS M1950 (full auto), SKS M1951 (detachable mag) | semi, auto | 650 | No | box mag | TBD | 48 |
 | 5 | Marksman (rare) | Late-1950s prototype; spawns with a PU scope on a side rail; failed its accuracy tests and lost out to the SVD | 7.62×39mm | Few | — | semi | 600 | No | stripper clip | 10 | 48 |

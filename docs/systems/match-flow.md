@@ -89,11 +89,11 @@ PUBG's red zone, in several forms. One at a time, at a random spot on the map on
 
 The circle's size, warning time, and how long each form lasts are TBD. Gas damage starts at 5 health a second (our pick).
 
-**More forms (ideas, to brainstorm):**
+**More forms (owner, 2026-11-22):** all three are in. Their odds, size, and length are TBD.
 
 - **Firebombing:** bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths.
 - **Creeping barrage:** shells walk across the circle in a line instead of landing at random, so players can see it coming and move out of its way.
-- **EMP:** vehicles stall and electronics like drones stop working inside the circle for a while, like the [EMP grenade](weapon-pool.md#throwables) idea.
+- **EMP:** vehicles stall and electronics stop working inside the circle for a while, like the [EMP grenade](weapon-pool.md#throwables) idea: drones, scopes with batteries, and radars.
 
 ## Care packages
 
@@ -160,7 +160,12 @@ Every match rolls a time of day, and the sky moves through it, about four in-gam
 | Night | 23:00 to 03:00 | 15% |
 | Night into morning | 03:30 to 07:30 | 15% |
 
+**The sun (our pick):** the sky follows Ischia's sun on June 1, in summer time (UTC+2): sunrise at 05:35, sunset at 20:28, and highest at 13:01, about 71° up. First light (civil dawn) is at 05:02 and full dark (civil dusk) at 21:00, so both dusk and dawn matches cross from light to dark. Worked out from NOAA's sun equations for 40.7° N, 13.9° E, and close to Gaisma's Naples table (05:31 and 20:38 at the June solstice).
+
 Night is where flashlights, night scopes like the StG 44's Vampir, and star rounds earn their place ([Maps](maps.md)). A dark match needs rules against brightness and gamma cheats, which PUBG's developers raised when they prototyped night in 2017.
+
+- **Moonlight (our pick):** every night is a bright moonlit night. In the open you can make out a standing player to about 100 m without a night scope; inside buildings it's dark enough to need a light.
+- **Against brightness cheats (our pick):** no gamma slider, only a small brightness range for setting up the screen, and the game's own exposure has a fixed limit at night. Nvidia's game filters aren't supported, as in ARC Raiders, where they could turn dark rooms close to gray. Programs that inject their own color tables, like DWM_lut, are banned, as Escape from Tarkov did. A monitor's own settings can't be stopped, so night is moonlit rather than pitch black, which keeps that edge small.
 
 ### Weather
 
@@ -171,15 +176,28 @@ Clear, overcast, rain, fog, and thunderstorms, and weather can change during a m
 - **Thunder** can briefly cover gunshots, which matters in a game built around sound ([Gameplay](gameplay.md#sound)).
 - **Wind** doesn't move bullets, to keep shooting simple.
 
+First-pass numbers (our pick):
+
+| Weather | When | What it does |
+| --- | --- | --- |
+| Clear | 60% of matches start clear | Full sun, sharp shadows |
+| Overcast | 40% start overcast | Sunlight about half as bright, soft shadows |
+| Rain | 50% of heavy spells | Footsteps carry 25% less far |
+| Fog | 30% of heavy spells | Sight fades from 250 m and is about 150 m at its thickest |
+| Thunderstorm | 20% of heavy spells | Rain, plus a lightning strike every 20 to 60 seconds; each rumble lasts about 3 seconds and halves how far gunshots carry. Lightning lights up a night match for a moment |
+
+- **Heavy spells:** one match in three gets one. It rolls in over about a minute at a random time in zone phases 2 to 5, lasts 4 to 8 minutes, then clears over about a minute.
+
 **PUBG's lesson:** in 2017, an Erangel match could be cloudy, clear, sunset, rainy, or foggy. In January 2018, PUBG removed rain and fog because too many players quit those matches. Weather came back in August 2019 as dynamic weather that changes during a round. So no match starts in thick fog: heavy weather rolls in and clears during the match.
 
 ## Wrist watch
 
-Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. Whether a digital face also shows the zone timer is TBD. Watch faces can be skins later ([Skins and mastery](skins.md)).
+Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. The default face is analog (our pick), and digital faces can come as skins. Every face shows only the in-game time, never the zone timer, so a watch skin never gives an edge. Watch faces can be skins later ([Skins and mastery](skins.md)).
 
 ## Sources
 
 - [PUBG fandom wiki: Blue Zone](https://pubg.fandom.com/wiki/Blue_Zone) (Erangel phases, distance-based damage)
+- [Gaisma: Naples sun times](https://www.gaisma.com/en/location/naples.html) · [All Things How: ARC Raiders blocks Nvidia game filters](https://allthings.how/arc-raiders-has-blocked-nvidia-game-filters-what-that-means-and-what-you-can-do/) · [Insider Gaming: Tarkov devs block filters](https://insider-gaming.com/tarkov-devs-block-filters/)
 - [PUBG fandom wiki: Parachute](https://pubg.fandom.com/wiki/Parachute) · [PC Gamer: How to land fast in PUBG](https://www.pcgamer.com/pubg-how-to-land-fast-battlegrounds)
 - [Gamepressure: PUBG red zone](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136) · [PUBG support: What is the red zone?](https://support.pubg.com/hc/en-us/articles/115004198974-What-is-the-red-zone) · [Samurai Gamers: PUBG battle area](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/pubg-battle-area-intro/)
 - [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop)

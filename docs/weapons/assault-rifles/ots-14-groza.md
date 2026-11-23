@@ -12,7 +12,7 @@
 
 ## Real-world notes
 
-A bullpup AKS-74U: shares about three-quarters of its parts; 2.74 kg as a carbine, about 3.97 kg with the grenade launcher; balanced enough to fire one-handed like a pistol, but criticized as heavy, with the AK action awkwardly close to your face; came in an aluminum case with all its parts (another briefcase-spawn candidate)
+A bullpup AKS-74U: shares about three-quarters of its parts; 2.74 kg as a carbine, about 3.97 kg with the grenade launcher; balanced enough to fire one-handed like a pistol, but criticized as heavy, with the AK action awkwardly close to your face; came in an aluminum case with all its parts (so it can spawn as a rare [briefcase](../../systems/loot.md#briefcases) find)
 
 ## In-game traits
 

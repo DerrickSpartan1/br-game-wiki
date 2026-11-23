@@ -54,7 +54,9 @@ Characters look like PUBG's and games in its style: grounded, realistic people. 
 
 - **Set in the wardrobe,** with the outfit slots above. The underwear slot follows the body.
 - **In a match,** your look comes with you. Hats and helmets cover the hair under them.
-- **Open:** whether colors come from a full color picker or a set of grounded colors, which options are free and which unlock, and whether players can save several characters, as The Finals allows six ([Open questions](../planning/open-questions.md#systems)).
+- **Colors (owner, 2026-11-22):** a full color picker for hair, eyes, skin, and the rest.
+- **What's free:** a good basic set; more styles unlock through seasons and challenges.
+- **Saved characters:** several, like The Finals' six. Not a priority (owner).
 
 ## Melee weapons
 
@@ -81,7 +83,7 @@ A weapon skin can carry a kill counter, like Counter-Strike's StatTrak: it count
 
 Each gun family levels up through challenges, such as specific kills, unlocking cosmetics. Progress counts toward the whole family, so any version works; every C96 version counts toward C96 mastery, for example.
 
-**Idea, not decided:** twin guns that sit in different categories could share one mastery track, even though each keeps its own roster entry. Candidates so far: the [AS Val](../weapons/assault-rifles/as-val.md) and [VSS Vintorez](../weapons/battle-rifles/vss.md), the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) and [FN SCAR-H](../weapons/battle-rifles/scar-h.md), and the [HK416](../weapons/assault-rifles/hk416.md) and [HK417](../weapons/battle-rifles/hk417.md). See the [open questions](../planning/open-questions.md).
+**Twin guns stay separate (owner, 2026-11-22):** twins that sit in different categories each keep their own mastery track and cosmetics, like the [AS Val](../weapons/assault-rifles/as-val.md) and [VSS Vintorez](../weapons/battle-rifles/vss.md), the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) and [FN SCAR-H](../weapons/battle-rifles/scar-h.md), and the [HK416](../weapons/assault-rifles/hk416.md) and [HK417](../weapons/battle-rifles/hk417.md).
 
 ## Sources
 

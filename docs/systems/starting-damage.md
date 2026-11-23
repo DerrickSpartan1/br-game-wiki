@@ -159,7 +159,7 @@ Crate shotguns, like the [AA-12](../weapons/crate/aa-12.md), can roll two specia
 - **Hit:** 9 burning pellets of 10 (90 at point blank). They fall off faster than buckshot and do nothing past 20 m, though the sparks show out to 30 m.
 - **Burning:** any hit sets the target on fire for 10 damage a second over 4 seconds, like PUBG's Molotov burn. Fire isn't cut by armor. New hits restart the 4 seconds instead of stacking.
 - **While burning,** you can't ADS, PUBG's Molotov rule.
-- **Ground fire:** pellets light grass and bushes for a few seconds (how long is TBD), doing 12.5 a second inside, like PUBG's Molotov flames.
+- **Ground fire:** pellets light grass and bushes for 6 seconds (owner, 2026-11-22), doing 12.5 a second inside, like PUBG's Molotov flames.
 - **Tell:** the huge muzzle flame gives the shooter away.
 - **What that does:** one close hit on an unarmored target is 90 plus 40 burning, so they die within a second or two. Against a tier 3 vest it's about 40 plus the burn per shot, about three shots against buckshot's two, but the burn keeps hurting through armor and behind cover, and the target can't aim back.
 

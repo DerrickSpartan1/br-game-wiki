@@ -7,7 +7,7 @@ The first map takes its layout from Ischia, an island off Naples: the coastline,
 - **Size:** 10 × 8 km, with the island at true scale (9.6 × 7.7 km, about 46 km² of land) and ocean around the edges.
 - **Players:** 100, like Erangel (our pick).
 - **Match flow:** the plane, zone phases, and red zones start from Erangel's ([Match flow](match-flow.md)).
-- **Caps:** the per-map max for throwables and crate weapons is TBD ([Weapon pool](weapon-pool.md)).
+- **Caps:** 4 throwables (a smoke grenade plus 3 rolled) and 5 crate weapons a match ([Weapon pool](weapon-pool.md#how-the-randomness-works)).
 
 ### Place names
 
@@ -41,6 +41,8 @@ Ischia is almost all mountain, and a 789 m peak in a 10 km map would let whoever
 | Pizzi Bianchi | 430 m | About 170 m, on the south slope above Sant'Angelo |
 | The castle islet's rock | About 113 m | About 45 m, with cliffs |
 
+**Getting up Krepost (owner, 2026-11-22):** like the real castle, over the stone causeway, through a ramp cut into the rock, then winding paths up to the top. No lift.
+
 - **Walkable:** no slope steeper than about 37° in the mock-up's terrain.
 - **No sniper nest:** a tree line rings the plateau, so the middle doesn't see the whole island.
 
@@ -55,7 +57,7 @@ Approved on the v3 mockup.
 | Prison | Alone in the southwest, past Panza | Cut off, like Erangel's |
 | Port | Ischia Porto, the real ferry harbor | Containers, cranes, and a ferry, like Georgopol's docks |
 | Fishing Dock | Forio's harbor | A small pier and boats |
-| Fortress | The castle islet off Ischia Ponte | Over its stone bridge |
+| Fortress | The castle islet off Ischia Ponte | Over its stone causeway, then a rock ramp and paths up |
 | Quarry | The south slopes above the coast | — |
 | Thermal Spa | Just west of Casamicciola Terme | Ischia is known for its hot springs |
 | Hospital | East of Lacco Ameno | — |

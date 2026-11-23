@@ -10,6 +10,7 @@ The names the game uses in place of real ones ([Legal review](legal-review.md)).
 - **Designations:** a mix of real and new ([Designations](#designations)).
 - **Attachments:** plain descriptions: vertical foregrip, angled grip, red dot, holographic sight, 2x scope, 4x scope. A unique scope is named for what it does, like a 4x scope with range markings for the SVD's PSO-1.
 - **Armor:** our own names for carriers, vests, plates, rigs, and helmets ([Armor](#armor)).
+- **Gun cards show the version's name only** (owner, 2026-11-22), like Zavod-7 AV-47M. Families don't get game names.
 - **Vehicles:** made-up makes and models, like guns, named when vehicles are added.
 - **Ammo:** called by its caliber only, with no name attached, so 7.62×25mm Tokarev is 7.62×25mm ([Cartridges](#cartridges)).
 - **Other games' terms:** our own names ([Other games' terms](#other-games-terms)).

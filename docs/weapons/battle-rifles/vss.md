@@ -12,7 +12,7 @@
 
 ## Real-world notes
 
-2.6 kg, 3.4 kg with the scope; 894 mm long; 200 mm barrel inside a built-in two-chamber suppressor with a vented barrel and mesh screens, so it's always suppressed and sounds nothing like a rifle; subsonic at 280–310 m/s, so its heavy bullets drop hard and travel slowly at range; the barrel is tuned for the SP-5 round's 250-grain bullet; iron sights built onto the suppressor; Kalashnikov-style safety with the fire selector behind the trigger; breaks down into an aluminum briefcase along with its PSO-1-1 scope and night sight; it can also mount the [SVD](svd.md)'s PSO-1
+2.6 kg, 3.4 kg with the scope; 894 mm long; 200 mm barrel inside a built-in two-chamber suppressor with a vented barrel and mesh screens, so it's always suppressed and sounds nothing like a rifle; subsonic at 280–310 m/s, so its heavy bullets drop hard and travel slowly at range; the barrel is tuned for the SP-5 round's 250-grain bullet; iron sights built onto the suppressor; Kalashnikov-style safety with the fire selector behind the trigger; breaks down into an aluminum briefcase along with its PSO-1-1 scope and night sight, so it can spawn as a rare [briefcase](../../systems/loot.md#briefcases) find; it can also mount the [SVD](svd.md)'s PSO-1
 
 ## In-game traits
 

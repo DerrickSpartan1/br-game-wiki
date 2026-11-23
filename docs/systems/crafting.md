@@ -5,7 +5,7 @@ Crafting takes inspiration from Super People's system: finding stuff and buildin
 - **Scrap is the one currency** (owner, 2026-11-22): there's one kind of scrap. You spend it at [workbenches](#workbenches) during a match, and whatever you haven't spent comes out of the match with you as the game's main currency. Every scrap spent in a match is scrap you don't take home, so spending is a real choice.
 - **Out-of-game crafting:** scrap and quest items brought back to your hub, or to drop-off points, craft skins or turn in for quests. They go in their own pocket and don't add weight.
 - **Winning:** a win earns bonus scrap on top of whatever you brought out (our pick; the amount is TBD).
-- **Taking things out of a match:** how scrap, quest items, and skin-crafting items come out, and what happens to them when you die, is still to be worked out (owner, 2026-11-22).
+- **Taking things out of a match (owner, 2026-11-22):** everything you carry comes out with you, win or lose, but quest items only count once you've survived a few minutes. How many minutes, and how skin-crafting items work, are TBD.
 
 ## In-match crafting
 

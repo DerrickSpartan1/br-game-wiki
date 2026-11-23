@@ -77,6 +77,13 @@ Tier 2 took in what used to be tiers 2 and 3, so its odds are the two added toge
 
 Backpacks, scopes, and mag tiers follow the same idea: common low tiers everywhere, better ones in better areas, and the best in crates. Makeshift armor tiers are crafted, never spawned ([Crafting](crafting.md)).
 
+## Briefcases
+
+Guns that came in a real carry case, like the [AS Val](../weapons/assault-rifles/as-val.md), [VSS Vintorez](../weapons/battle-rifles/vss.md), and [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md), can spawn as a briefcase find (owner, 2026-11-22).
+
+- **Rare,** and locked: you pick the briefcase open to get the gun (owner's idea).
+- How long picking takes, and which other guns qualify, are TBD.
+
 ## Sources
 
 - [Gamer Maps: PUBG dev letter, Erangel loot rebalance (March 2019)](https://www.gamermaps.net/news/pubg-dev-letter-erangel-loot-rebalance)

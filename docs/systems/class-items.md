@@ -5,7 +5,7 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Defibs:** uses limited by batteries or something similar.
 - **Bulletproof barricade:** a deployable cover piece, like the one in Rainbow Six Siege ([Shields](#shields)).
 - **Rangefinder binoculars:** spot enemies at a distance and read the range for bullet drop. The [spotter scope](#more-class-items) builds on them.
-- **Door wedge or door alarm:** lock down a building while you loot it. Anyone can already [nail a door shut](gameplay.md#nailing-doors-shut), so a wedge would be the quick, quiet way.
+- **Door wedge or door alarm:** lock down a building while you loot it. The wedge stays now that anyone can [nail a door shut](gameplay.md#nailing-doors-shut) (owner, 2026-11-22): it works on metal doors too, where nails only go into wood, and it could be quicker than nailing.
 - **Tripwire alarm:** a noise trap that warns you when someone enters your area.
 - **Recon drone:** short battery life; scouts one building or compound.
 - **Bomb drone:** one-time use. Reviving exists, so being taken out by a bomb drone shouldn't feel like a total game over.
@@ -120,7 +120,7 @@ Approved by the owner on 2026-11-22, with his notes. Each is something real, ins
 | **Spotter scope** | PUBG's Spotter Scope | The rangefinder binoculars as a 4x scope that also marks enemies for your squad, with range to 600 m. Limited battery |
 | **Sticky camera** | Rainbow Six Valkyrie | Throw a small camera onto a wall and watch it later. One or two out at a time, picked back up after, with a limited battery |
 | **Motion sensor** | Call of Duty and Battlefield | Put it on the ground; it pings when someone walks past. Limited battery |
-| **Signal jammer** | Rainbow Six Mute | Blocks drones, cameras, radars, and motion sensors nearby. Needs balancing to be worth the slot (open) |
+| **Signal jammer** | Rainbow Six Mute | Blocks drones, cameras, radars, and motion sensors nearby, and scrambles nearby enemies' minimap and compass while they're close (owner, 2026-11-22) |
 | **Barbed wire roll** | Rainbow Six barbed wire | Slows anyone crossing it, and it rattles |
 | **Spike strip** | PUBG's Spike Trap | Pops the tires of anything that drives over it |
 | **Leg trap** | Rainbow Six Frost | A hidden trap that holds a player for a few seconds, with a loud snap |

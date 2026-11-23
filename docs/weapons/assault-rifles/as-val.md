@@ -12,7 +12,7 @@
 
 ## Real-world notes
 
-2.5 kg; 7.9 in barrel inside a built-in two-chamber suppressor, so it's always suppressed; even from close by, it doesn't sound like a rifle (big for the sound-focused design); subsonic bullet (280–310 m/s), so heavy drop and slow travel at range; iron sights are built onto the suppressor; side-folding stock; breaks down into a briefcase (could be a fun crate/briefcase spawn)
+2.5 kg; 7.9 in barrel inside a built-in two-chamber suppressor, so it's always suppressed; even from close by, it doesn't sound like a rifle (big for the sound-focused design); subsonic bullet (280–310 m/s), so heavy drop and slow travel at range; iron sights are built onto the suppressor; side-folding stock; breaks down into a briefcase, so it can spawn as a rare [briefcase](../../systems/loot.md#briefcases) find
 
 ## In-game traits
 

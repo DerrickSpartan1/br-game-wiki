@@ -75,6 +75,13 @@ The owner's call (2026-11-22): PUBG's attachment effects are the base. These are
 | Ammo loops | Reload −30% | Kar98k-style loops also cut base spread 50% in PUBG |
 | Quick mag tiers | Reload −30% | ([Handling](handling.md#reload-times)) |
 
+## Wear
+
+Some items wear out with use (owner, 2026-11-22). Guns themselves never jam or overheat ([Rules](../rules.md)).
+
+- **Suppressors:** every suppressor wears out. The [improvised suppressor](crafting.md#what-a-workbench-makes) goes after about 60 shots; real ones last much longer. Their numbers, and what wearing does before one breaks, are TBD.
+- **The StG 44's Krummlauf:** the curved barrel wears out, after about 300 rounds in real life ([StG 44](../weapons/assault-rifles/stg-44.md)).
+
 ## Bipods
 
 - **Built in:** a gun whose real standard version came with a bipod, like most LMGs, has it built in.

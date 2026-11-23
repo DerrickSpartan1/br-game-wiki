@@ -185,7 +185,11 @@ The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with 
 
 - **Real examples:** in 2025 Ukraine bought its first full-body fragmentation suits, about 2 kg, with "pteruges": a skirt-like belt of seven soft ballistic sections over the pelvis and upper thighs, made for drone and artillery fragments. The US Army's Pelvic Protection System (2011) paired Kevlar underwear covering the groin and inner thighs with a stiffer outer layer as strong as the soft parts of its vest. Medieval armor had tassets, plates hanging from the waist over the thighs.
 - **More kinds found (2026-11-22), for the owner to pick from:** groin protectors that hang from the vest, like Russia's 6B45 flap; ballistic underwear; pelvic outer garments, armored shorts over the pants; ballistic skirts; inner thigh modules and full thigh modules that strap to a vest, like UARM's ITAM and TAM; femoral plates, soft or hard; fragmentation trousers, as in Ukraine's full-body suit; riot leg guards against melee and thrown things; arterial stab protection, prison-guard gear that stops knives at the inner thighs; bomb suit trousers, very heavy; and historic tassets, cuisses, and samurai thigh guards.
-- **In the game (ideas):** its own piece that adds thigh coverage, mostly soft armor that stops fragments, buckshot, and pistol rounds, with a small slowdown like every other piece. Whether it's a separate loot item, part of a vest combo like chest rigs, or both, whether a vest's groin cover and leg armor add up, which kinds make it in, and its tiers and numbers, are open.
+- **Its own slot (owner, 2026-11-22):** leg armor is found as its own loot and worn in its own slot, like a helmet or vest, with a small slowdown like every other piece.
+- **No stacking:** where a vest and leg armor both cover the groin, only the better one protects.
+- **Tiers 1 to 3,** like vests: soft panels at tiers 1 and 2, which stop fragments, buckshot, and pistol rounds, and hard thigh plates at tier 3. The numbers are TBD.
+- **Kinds so far:** the ballistic skirt is in, and ballistic underwear is out. The owner is still picking the rest.
+- **Wearing rules (owner's idea):** a vest or chest rig with a groin protector is fine, but some pairs may not be wearable together, like a vest with a groin flap and a battle skirt. Whether that's a loot rule or a wearing rule is open.
 
 ## Helmets
 

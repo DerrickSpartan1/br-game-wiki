@@ -16,7 +16,7 @@
 
 ## In-game traits
 
-One roster entry that rolls one of 3 versions (see [Versions](#versions) below). It's short for a full-power rifle, so it handles like a carbine. Versions keep their real fire modes (see [Rules](../../rules.md#versions)): the military versions are select-fire, and the civilian rifle rolls semi-auto only. Whether its gas-off setting becomes a manual mode on the selector key, like the [Mondragón rifle](mondragon.md)'s, is an [open question](../../planning/open-questions.md).
+One roster entry that rolls one of 3 versions (see [Versions](#versions) below). It's short for a full-power rifle, so it handles like a carbine. Versions keep their real fire modes (see [Rules](../../rules.md#versions)): the military versions are select-fire, and the civilian rifle rolls semi-auto only. Its gas-off setting is a manual mode on the fire-mode selector key, like the [Mondragón rifle](mondragon.md)'s (owner, 2026-11-22).
 
 ## Attachments
 
@@ -28,9 +28,9 @@ AR/LMG/battle rifle family attachments; full-length Picatinny rail on top, M-LOK
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Tavor 7 | 17 in barrel; semi and auto | 7.62×51mm | Unknown; no military buyers named | Military Tavor 7 (2017) | semi, auto | 600–900 | No | bullpup mag | 20 | 49 |
-| 2 | Tavor 7 20 in (rare) | 20 in barrel, 806 mm long; one source calls it a likely marksman version; semi and auto | 7.62×51mm | Unknown | — | semi, auto | 600–900 | No | bullpup mag | 20 | 49 |
-| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi | 600 | No | bullpup mag | 20 | 58 |
+| 1 | Tavor 7 | 17 in barrel; semi and auto | 7.62×51mm | Unknown; no military buyers named | Military Tavor 7 (2017) | semi, auto, straight-pull | 600–900 | No | bullpup mag | 20 | 49 |
+| 2 | Tavor 7 20 in (rare) | 20 in barrel, 806 mm long; one source calls it a likely marksman version; semi and auto | 7.62×51mm | Unknown | — | semi, auto, straight-pull | 600–900 | No | bullpup mag | 20 | 49 |
+| 3 | Civilian | 16.5 in barrel; semi-auto only | 7.62×51mm | Unknown; in the US from 2018 | T7B16 (black), T7FD16 (Flat Dark Earth), T7G16 (OD green) | semi, straight-pull | 600 | No | bullpup mag | 20 | 58 |
 
 ## Sources
 

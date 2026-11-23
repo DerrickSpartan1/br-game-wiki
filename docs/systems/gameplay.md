@@ -186,7 +186,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Pans and breaching tools** are class items, not melee: pans block bullets, and breaching tools (the sledgehammer, bigger hammers, an entry bar, and a door ram) break in. Both hit harder than melee ([Pans](class-items.md#pans), [Breaching tools](class-items.md#breaching-tools)). Owned hammers are the hand-sized ones; the big ones are breaching tools.
 - **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
 - **Throwing knives** are a throwable you pick back up ([Throwables](weapon-pool.md#throwing-knives)).
-- **Throwing your melee (idea):** throw your melee weapon for the same damage, then go pick it back up, like PUBG's thrown melee.
+- **Throwing your melee (owner, 2026-11-23):** every melee weapon can be thrown for the same damage, like PUBG's thrown melee. It lands where it hits, and you go pick it back up; until then you fight with your fists. Fists can't be thrown (our pick).
 
 ## Built-in tools
 

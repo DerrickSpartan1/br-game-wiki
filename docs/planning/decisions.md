@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | Every melee weapon can be thrown for the same damage and picked back up; fists can't be thrown (owner; fists our pick) | [Melee](../systems/gameplay.md#melee) |
 | 2026-11-23 | The coast gets cliffs, rocky shore, beaches, and harbor walls, with a sea floor falling to about 100 m (our pick) | [The coast](../systems/maps.md#the-coast) |
 | 2026-11-23 | The land around towns mixes vineyards, fields, orchards, woods, pine, scrub, and meadow from Ischia's real land cover (owner; mix is our pick) | [Land around the towns](../systems/maps.md#land-around-the-towns) |
 | 2026-11-23 | Closed-bolt guns with detachable mags hold one more round: 29+1 from empty, 30+1 with a round chambered (owner; which guns is our pick) | [Staged reloads](../systems/handling.md#staged-reloads) |

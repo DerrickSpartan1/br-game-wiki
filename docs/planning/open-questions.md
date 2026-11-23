@@ -13,7 +13,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **Shields:** the first pass is approved; whether the flash shield really uses the class slot ([Shields](../systems/class-items.md#shields)).
-- **Match flow numbers:** plane altitude and speed, each red zone's size, warning, and length, and whether every red zone form should be equally likely ([Match flow](../systems/match-flow.md)).
+- **Match flow numbers:** plane altitude and speed, each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match ([Crafting](../systems/crafting.md#workbenches)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
@@ -21,8 +21,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **PvE:** robot guards in vaults, sentries at radar stations, and patrols ([Robot guards](../systems/match-flow.md#robot-guards-idea)); their numbers.
 - **Gas:** gas damage, and the tear gas trap's numbers ([More class items](../systems/class-items.md#more-class-items)).
 - **Leg armor (pants armor):** its numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
-- **Armor's real setups:** whether vests and helmets roll their real versions, like the 6B45's light, medium, and heavy setups, the 6B23 and Zabralo families, the SSh-68, Sfera, and Maska, and bump helmets; and whether helmet tiers follow Tarkov or the real ratings ([Armor](../systems/armor.md)).
-- **Match details:** how wanted contracts work beyond the scrap reward, which vehicles the vehicle drops bring, and the supply truck's numbers ([Match flow](../systems/match-flow.md)).
+- **Match details:** how wanted contracts work beyond the scrap reward, more special vehicles for the vehicle drops, and the supply truck's numbers ([Match flow](../systems/match-flow.md)).
 
 ## Lookups
 

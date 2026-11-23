@@ -73,7 +73,7 @@ If camping still pays in play tests, the next lever is weaker healing outside th
 
 ### Radar stations
 
-Spend scrap at a radar station to see the next circle early. It costs 50 scrap (our pick; [Crafting](crafting.md#what-a-workbench-makes)). Where stations sit is random every match, and no spot is sure to have one; the map starts with 5 spots (owner, 2026-11-22). Each station works once: after someone uses it, nobody else can. Robot sentries guard them ([Robot guards](#robot-guards-idea)).
+Spend scrap at a radar station to see the next circle early. It costs 50 scrap (our pick; [Crafting](crafting.md#what-a-workbench-makes)). Each match puts 5 stations at random spots, and no spot is sure to have one (owner, 2026-11-22). Each station works once: after someone uses it, nobody else can. Robot sentries guard them ([Robot guards](#robot-guards-idea)).
 
 ## Red zones
 
@@ -83,16 +83,16 @@ PUBG's red zone, in several forms. One at a time, at a random spot on the map on
 
 | Form | What happens | How to survive | Odds (our pick) |
 | --- | --- | --- | --- |
-| **Bombardment** | Like PUBG's red zone: after the warning, shells land at random spots inside the circle. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 40% |
-| **Smoke** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 20% |
-| **Firebombing** | Bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths | Stay out of the line, or wait for the fires to burn out | 10% |
-| **Creeping barrage** | Shells walk across the circle in a line instead of landing at random, so players can see it coming | Watch which way it walks and get out of its path | 10% |
-| **EMP** | Vehicles stall and electronics stop working inside the circle for a while: drones, scopes with batteries, and radars, like the [EMP grenade](weapon-pool.md#throwables) idea | Leave, or fight on iron sights until it passes | 10% |
-| **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave, or put on a [gas mask](class-items.md) | 10% |
+| **Bombardment** | Like PUBG's red zone: after the warning, shells land at random spots inside the circle. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 1 in 6 |
+| **Smoke** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 1 in 6 |
+| **Firebombing** | Bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths | Stay out of the line, or wait for the fires to burn out | 1 in 6 |
+| **Creeping barrage** | Shells walk across the circle in a line instead of landing at random, so players can see it coming | Watch which way it walks and get out of its path | 1 in 6 |
+| **EMP** | Vehicles stall and electronics stop working inside the circle for a while: drones, scopes with batteries, and radars, like the [EMP grenade](weapon-pool.md#throwables) idea | Leave, or fight on iron sights until it passes | 1 in 6 |
+| **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave, or put on a [gas mask](class-items.md) | 1 in 6 |
 
 The circle's size, warning time, and how long each form lasts are TBD. Gas damage starts at 5 health a second (our pick).
 
-**Odds (owner, 2026-11-22):** firebombing, the creeping barrage, and EMP are in, and the table's split is the first pass. The owner might make every form equally likely instead.
+**Odds (owner, 2026-11-22):** every form is equally likely, 1 in 6 each.
 
 ## Care packages
 
@@ -103,7 +103,7 @@ Random, like PUBG's:
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
-- **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner). Which vehicles is TBD.
+- **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner): armored or special vehicles only, since gliders and the rest spawn normally. For now that's the [Ezh](gameplay.md#vehicles-and-water) armored scout car (owner, 2026-11-22).
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.
 

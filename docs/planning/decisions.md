@@ -4,6 +4,10 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Vehicle drops bring armored or special vehicles, the Ezh for now; the victory line rolls from a few, different for solo and squads | [Care packages](../systems/match-flow.md#care-packages), [Match setup](../systems/gameplay.md#match-setup) |
+| 2026-11-22 | Red zone forms are equally likely, 1 in 6 each; 5 radar stations a match at random spots; a gas mask lasts 2 minutes of gas | [Red zones](../systems/match-flow.md#red-zones), [Radar stations](../systems/match-flow.md#radar-stations), [Class items](../systems/class-items.md) |
+| 2026-11-22 | Helmets: the plain SSh-68 drops to tier 1 with the SSh-68M/N at tier 2, a titanium Sfera, the glass-visor Maska-1, and FAST and EXFIL bump helmets at tier 1; all armor fits the same three tiers | [Helmets](../systems/armor.md#helmets), [Tiers](../systems/armor.md#tiers) |
+| 2026-11-22 | Vests roll their real setups: the 6B45 light, medium, and heavy; the 6B11, 6B12, and 6B13; a plain tier 1 6B23; the 6B3TM-01 alone | [Fixed vests](../systems/armor.md#fixed-vests) |
 | 2026-11-22 | The gas mask has no downside except no aiming down sights in gas, and it loses durability in gas | [Class items](../systems/class-items.md) |
 | 2026-11-22 | The gas mask is worn as soon as you pick it up and never shows on the character; no aiming down sights while in gas | [Class items](../systems/class-items.md) |
 | 2026-11-22 | The RPK family and the Bren / ZB vz. 26 each stay on one page | [RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md) |

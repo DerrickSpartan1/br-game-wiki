@@ -1387,10 +1387,15 @@ Our own names for every armor piece on [Armor](../systems/armor.md), approved by
 | FORT Redut-M | Deluge |
 | NPP Klass Korund-VM | Snowstorm |
 | FORT Defender-2 | Squall |
-| 6B45 | Thunderhead |
+| 6B45, light | Thunderhead Light |
+| 6B45, medium | Thunderhead |
+| 6B45, heavy | Thunderhead Heavy |
 | BNTI Gzhel-K | Gale |
 | BNTI Zhuk | Hail |
+| 6B11 | Rime |
+| 6B12 | Blizzard |
 | 6B13 | Whiteout |
+| 6B23, plain | Downpour Light |
 | 6B23 | Downpour |
 | 6B3TM-01 | Sleet |
 | 6B5-15 Uley | Frost |
@@ -1476,17 +1481,22 @@ Our own names for every armor piece on [Armor](../systems/armor.md), approved by
 | DEVTAC Ronin | Bascinet |
 | BNTI LShZ-2DTM | Sallet |
 | Maska-1SCh | Barbute |
+| Maska-1 | Corinthian |
 | ZSh-1-2M | Burgonet |
 | Highcom Striker ULACH | Morion |
 | Highcom Striker ACHHC | Cabasset |
 | MSA TC-2001 / TC-2002 (ACH) | Spangenhelm |
 | MSA Gallet TC 800 | Galea |
 | Team Wendy EXFIL | Kettle |
+| Team Wendy EXFIL bump (LTP, Carbon) | Kettle Bump |
 | Diamond Age Bastion | Chapel |
 | Ops-Core FAST MT | Sugarloaf |
+| Ops-Core FAST Bump | Sugarloaf Bump |
 | Crye Precision AirFrame | Nasal |
 | SSh-68 | Zischagge |
+| SSh-68M / SSh-68N | Zischagge Lined |
 | SSSh-95 Sfera-S | Lobster |
+| STSh-81 Sfera | Lobster Light |
 | Kiver-M | Kabuto |
 | 6B47 Ratnik-BSh | Pickelhaube |
 | LShZ | Jingasa |
@@ -1665,7 +1675,7 @@ Approved 2026-11-22. The first map is **Teplov** (from *teplo*, warm, for its ho
 | Jailbreak (Warzone) | Breakout |
 | Most Wanted (Warzone) | Wanted |
 | StatTrak (Counter-Strike) | Kill counter |
-| "Winner winner chicken dinner" (PUBG) | "The island is yours," with other variants to come (owner, 2026-11-22) |
+| "Winner winner chicken dinner" (PUBG) | "The island is yours," rolled with other lines, different for solo and squads (owner, 2026-11-22) |
 | Red zone, blue zone (PUBG) | Strike zone and the edge (owner, 2026-11-22) |
 | Boost bar (PUBG) | Stim (owner, 2026-11-22) |
 | Vault (Apex Legends), care package | Common words; kept |

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Filed the owner's fourth picks page: armor's real setups (new 6B45, Zabralo, 6B23, SSh-68, Sfera, Maska, and bump rows), equal red zone odds, 5 radar stations, the gas mask's 2 minutes, vehicle drops, and victory lines |
 | 2026-11-22 | Gas mask: worn on pickup and never shown on the character ([Class items](../systems/class-items.md)) |
 | 2026-11-22 | Filed the owner's third picks page: leg armor kinds and wearing rule, the gas mask, our words for PUBG's terms, care packages, vehicle drops, the supply truck, radar stations, red zone odds, birds, fences, vehicles, the comeback arena, the screwdriver, more PvE, scrap, and gun families; noted the 6B45's real setups |
 | 2026-11-22 | Answered the lead's watch side, night look, and night anti-cheat questions on [Time passes](../systems/match-flow.md#time-passes); tidied the graybox questions on the To-do page |

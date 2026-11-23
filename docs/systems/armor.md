@@ -4,7 +4,7 @@ Armor varies by more than tier: each piece trades protection against speed and a
 
 ## Tiers
 
-Vests and helmets both come in three tiers, like PUBG's three levels, which keeps balancing simple: guns are balanced around tier 2. Each tier holds a band of Tarkov's armor classes:
+Vests, helmets, and leg armor all come in the same three tiers, like PUBG's three levels, which keeps balancing simple: guns are balanced around tier 2. Every piece is fit into one of the three, the same way for all three kinds of armor (owner, 2026-11-22). Each tier holds a band of Tarkov's armor classes:
 
 | Tier | Tarkov class | What's in it | Damage reduction (starting point) |
 | --- | --- | --- | --- |
@@ -92,12 +92,17 @@ Tiers 2–3. The slowdown here is the carrier alone; its plates and rig add to i
 | FORT Redut-M | 3 | Chest, stomach, neck, groin | 3 | 3 | Random rig |  |
 | NPP Klass Korund-VM | 3 | Chest, stomach, neck, groin | 5 | 3 | Random rig |  |
 | FORT Defender-2 | 3 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Steel |
-| 6B45 | 3 | Chest, stomach, neck | 5 | 3 | Random rig | The armored rig version carries 16–19 |
+| 6B45, light | 1 | Chest, stomach | 2 | 1 | Random rig | Soft armor only (owner, 2026-11-22; numbers our pick). The armored rig version carries 16–19 |
+| 6B45, medium | 2 | Chest, stomach | 5 | 2 | Random rig | Hard plates front and back, soft side and shoulder armor (numbers our pick) |
+| 6B45, heavy | 3 | Chest, stomach, neck, groin | 8 | 4 | Random rig | Two plates front and back, soft neck and groin armor; for assault troops (numbers our pick) |
 | BNTI Gzhel-K | 3 | Chest, stomach, neck | 1.5 | 0 | Random rig |  |
 | BNTI Zhuk | 2 or 3 | Chest, stomach, neck | 1.5 | 0 | Random rig | Zhuk-3 Press is tier 2, Zhuk-6a tier 3 |
-| 6B13 | 2–3 | Chest, stomach, neck, groin | 1 | 1 | Random rig | Tarkov has a basic and a heavier assault version |
-| 6B23 | 2 | Chest, stomach, neck, groin | 1 | 2.5 | Random rig | Covers both the 6B23-1 and 6B23-2 |
-| 6B3TM-01 | 2 | Chest, stomach, groin | 5 | 7 | 12 | Titanium plates |
+| 6B11 | 1 | Chest, stomach, neck, groin | 0 | 1 | Random rig | The Zabralo family's soft vest (owner, 2026-11-22; numbers our pick) |
+| 6B12 | 2 | Chest, stomach, neck, groin | 1 | 1 | Random rig | One front plate, in steel, ceramic, or titanium |
+| 6B13 | 3 | Chest, stomach, neck, groin | 2 | 1 | Random rig | The assault vest: ceramic plates front and back (movement our pick) |
+| 6B23, plain | 1 | Chest, stomach, neck, groin | 0 | 2.5 | Random rig | Soft armor only, 4 kg (owner, 2026-11-22; movement our pick) |
+| 6B23 | 2 | Chest, stomach, neck, groin | 1 | 2.5 | Random rig | Covers both the 6B23-1 (steel chest plate) and 6B23-2 (ceramic) |
+| 6B3TM-01 | 2 | Chest, stomach, groin | 5 | 7 | 12 | Titanium plates. The older 6B3T and 6B3TM are left out: they're heavier with the same front plates (owner, 2026-11-22) |
 | 6B5-15 Uley | 2 | Chest, stomach, neck, groin | 2 | 1 | 10 |  |
 | 6B5-16 | 2 | Chest, stomach, neck, groin | 4 | 6 | 10 |  |
 | NPP Klass Kirasa-N | 2 | Chest, stomach, neck | 0 | 1 | Random rig |  |
@@ -190,7 +195,7 @@ The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with 
 - **Tiers 1 to 3,** like vests: soft panels at tiers 1 and 2, which stop fragments, buckshot, and pistol rounds, and hard thigh plates at tier 3. The numbers are TBD.
 - **Kinds (owner, 2026-11-22):** in are the ballistic skirt, groin flaps, inner thigh modules, thigh modules, femoral plates, fragmentation trousers, arterial stab protection, bomb suit trousers (crate-only or a rare, funny find), and historic tassets (a rare or event find). Out are ballistic underwear, pelvic outer garments, and riot leg guards. The garments are hardly armor, but they might make good clothing skins ([Skins](skins.md#wardrobe)).
 - **Groin flaps that take a plate:** the hard plate comes separately, found as its own loot (owner, 2026-11-22). That's unlike vests, whose plates come with them.
-- **The real 6B45 (to check, owner):** it comes in three setups. Light has no hard plates (NIJ II). Medium adds Granit plates front and back, with soft side and shoulder armor (NIJ III). Heavy, for assault troops, carries two plates front and back plus soft neck and groin protection (NIJ IV). Our [6B45](#fixed-vests) is one tier 3 vest without groin cover; whether it rolls its real setups is open.
+- **The real 6B45:** it comes in three setups, light, medium, and heavy, and only the heavy one covers the groin. They're three [fixed vests](#fixed-vests) now (owner, 2026-11-22).
 
 ## Helmets
 
@@ -203,7 +208,8 @@ The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with 
 | Rys-T | 3 | TBD | TBD | TBD | Visor: blocks some vision and ADS |
 | DEVTAC Ronin | 2 | Top, back, ears, face | 5 | 5 | Face cover: blocks some vision and ADS |
 | BNTI LShZ-2DTM | 2 | Top, back, ears | 3 | 10 |  |
-| Maska-1SCh | 2 | Top, back, ears | 3 | 7 |  |
+| Maska-1SCh | 2 | Top, back, ears | 3 | 7 | Steel visor with a slit |
+| Maska-1 | 2 | Top, back, ears | 3 | 7 | Clear bulletproof glass visor: the same protection, easier to see through (owner, 2026-11-22) |
 | ZSh-1-2M | 2 | Top, back, ears | 3 | 2 |  |
 | Highcom Striker ULACH | 2 | Top, back, ears | 2 | 4 |  |
 | Highcom Striker ACHHC | 2 | Top, back | 2 | 2 |  |
@@ -212,9 +218,13 @@ The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with 
 | Team Wendy EXFIL | 2 | Top, back | 1 | 4 |  |
 | Diamond Age Bastion | 2 | Top, back | 1 | 2 |  |
 | Ops-Core FAST MT | 2 | Top, back | 1 | 0 |  |
+| Ops-Core FAST Bump | 1 | Top, back | 0 | 0 | Non-ballistic bump helmet (owner, 2026-11-22; numbers our pick) |
+| Team Wendy EXFIL bump (LTP, Carbon) | 1 | Top, back | 0 | 4 | Non-ballistic bump helmets (owner, 2026-11-22; numbers our pick) |
 | Crye Precision AirFrame | 2 | Top, back | 0 | 3 |  |
-| SSh-68 | 2 | Top, back | 2 | 13 | Soviet steel helmet |
-| SSSh-95 Sfera-S | 2 | Top, back, ears | 2 | 3 |  |
+| SSh-68 | 1 | Top, back | 2 | 13 | Soviet steel helmet; stops fragments, not bullets (owner, 2026-11-22) |
+| SSh-68M / SSh-68N | 2 | Top, back | 3 | 13 | With an aramid liner that stops pistol rounds; heavier (movement our pick) |
+| SSSh-95 Sfera-S | 2 | Top, back, ears | 2 | 3 | Steel |
+| STSh-81 Sfera | 2 | Top, back, ears | 1 | 3 | Titanium: the same protection, lighter (owner, 2026-11-22; movement our pick) |
 | Kiver-M | 2 | Top, back, ears | 3 | 1 |  |
 | 6B47 Ratnik-BSh | 2 | Top, back, ears | 1 | 2 |  |
 | LShZ | 2 | Top, back | 1 | 1 |  |
@@ -252,6 +262,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 ## Sources
 
 - [United24: Ukraine's full-body protective suit (2025)](https://united24media.com/defense-tech/ukraine-develops-full-body-protective-armor-that-nato-armies-do-not-currently-field-23518) · [US Army: "Kevlar underpants" protect pelvic region (2012)](https://www.army.mil/article/74306/) · [UARM: TAM thigh armor module](https://uarmprotection.com/product/thight-armor-module/) · [UARM: ITAM inner thigh armor module](https://uarmprotection.com/product/inner-thigh-armor-module/) · [Ukrainian Armor: thigh protectors](https://ukrainianarmor.com/en/?p=2504) · [Med-Eng: EOD 10 bomb suit](https://med-eng.com/product/eod-10-suit-helmet)
+- Real versions: [Wikipedia: 6B23](https://en.wikipedia.org/wiki/6B23_ballistic_vest) · [Wikipedia: Zabralo vests](https://en.wikipedia.org/wiki/Zabralo_ballistic_vests) · [Wikipedia: 6B3](https://en.wikipedia.org/wiki/6B3_ballistic_vest) · [Wikipedia: SSh-68](https://en.wikipedia.org/wiki/SSh-68) · [Wikipedia: Sfera](https://en.wikipedia.org/wiki/Sfera_(helmet)) · [Equipment Wiki: Maska](https://equipment.fandom.com/wiki/MASKA) · [TNVC: FAST Bump](https://tnvc.com/shop/ops-core-helmet-fast-bump-sf-super-high-cut-helmet-non-ballistic/) · [Soldier Systems: EXFIL Carbon](https://soldiersystems.net/2012/09/17/team-wendy-exfil-carbon-fiber-helmet-in-stock-now-at-gss-gear/)
 - [Wikipedia: 6B45 ballistic vest](https://en.wikipedia.org/wiki/6B45_ballistic_vest)
 - [Tarkov Forge: Armor chart](https://tarkovforge.com/armor) (vest classes, coverage, and penalties)
 - [Tarkov Forge: Helmet chart](https://tarkovforge.com/helmets) (helmet classes)

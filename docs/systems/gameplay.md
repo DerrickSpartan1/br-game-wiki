@@ -229,7 +229,7 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
 - **Ranked:** a separate ranked playlist.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
-- **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22), with other variants to come.
+- **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22). The line is rolled from a few, with different lines for solo and squads (owner). First lines (our pick): solo gets "The island is yours" or "Last one standing", and squads "The island is yours" or "Last squad standing".
 - **Player count:** set by each map's size; 100 on the first map ([Maps](maps.md)).
 - **Zone:** works like PUBG's, with damage that grows the deeper outside you are, so zone camping doesn't pay ([Match flow](match-flow.md#the-zone)).
 - **Red zones:** PUBG's red zone in several forms (bombardment, smoke, gas, and more to come), each announced by an air raid siren ([Match flow](match-flow.md#red-zones)).

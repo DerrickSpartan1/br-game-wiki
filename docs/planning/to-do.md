@@ -116,6 +116,12 @@ When you tell the lead "check the planner's list," it works through this section
 - **Time of day, weather, and the wrist watch** (`f8ae170`): your four time slots and odds, a rolled weather with one heavy spell, synced lightning, and a digital watch. Placeholders listed above. Still needed: the rain effect and sounds, grey overcast clouds, a hold that shows the watch, and rain and thunder covering sounds once there's a hearing system.
 - The owner's next test uses the playtest checklist, round 3.
 
+**Playtest round 3 (owner, 2026-11-23)**, saved in the game repo at `Docs/Playtest/results-2026-11-23.md`. Good: the squared M4A1, colors A, guns on the ground, the pedestal scroll-wheel picker, and game names. For the planner:
+- **Mag plus chambered round (owner):** "we just need to have magazine be the number in there and then a +1 if a gun has one in the mag, so technically the m4 is 30in the mag +1 in chamber". The lead will make the HUD show the mag count plus the chambered round (30+1). Does that also mean a closed-bolt gun reloaded with a round in the chamber holds one extra (31 for the M4), and which guns get it (closed-bolt mag guns only; not open-bolt, tubes, belts, en bloc)? Please write it on Staged reloads and Ammo.
+- **Fists as a melee weapon (owner):** "you can have fist be a melee weapon too". Please add fists to the melee roster ([Melee](../systems/gameplay.md#melee)): numbers, and whether they're what you have with no melee weapon.
+- **Test tools (owner, lead's own picks):** a test bench on the range with the guns currently under test, an on-screen panel for time of day and weather, and a fly mode plus the full map on M for the island. No design needed unless you want a say.
+- **Revisit later (owner):** the empty-reload thumb press and the M4 hold, once there's a real player model.
+
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text

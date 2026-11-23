@@ -79,6 +79,21 @@ Approved on the v3 mockup.
 | School | Between Barano and Ischia | — |
 | Farm | The fields near Cuotto | — |
 
+**Spot compounds (first pass, our pick, 2026-11-23):** the full-map mock lays each spot out from 15 spot building types (barracks, headquarters, vehicle hangar, guard tower, cell block, prison gatehouse, gantry crane, container stack, ferry terminal, stone crusher, cow shed, silo, sanatorium, hospital, gym):
+
+| Spot | Layout |
+| --- | --- |
+| Object 7 | A fenced 240 × 185 m compound on the plateau: headquarters, three barracks, two vehicle hangars, a parade ground, a helipad, a guard tower at each corner, and the bunker entrance on the vault point |
+| Ostrog | A walled 270 × 180 m prison with corner towers and an inner fence: three cell blocks, the administration block, the canteen, the exercise yard, the gatehouse, and the armory on the vault point |
+| Gavansk Port | A 300 × 110 m quay with container stacks, two gantry cranes over the water, two warehouses, the ferry terminal, and the ferry at its berth |
+| Vetrovo Pier | A 110 m pier with boats, and two boathouses at its root |
+| Krepost | The castle keep, a ruined cathedral, and two houses on the islet |
+| Kamenolom | A terraced pit about 280 × 190 m, with the stone crusher and its conveyor, sheds, and gravel piles |
+| Sanatorium | The 70 m sanatorium block, two pools, two guest houses, and a park |
+| Hospital | The four-story hospital with a wing, a car park, ambulance garages, and a helipad |
+| School | The school and its gym, a sports field, and a fence |
+| Kolkhoz | Three cow sheds, three silos, a barn, a machine shed, and the farm office around a dirt yard |
+
 ### Marina, farms, and vaults
 
 - **Marina:** a new coastal town of our own on the southeast bay, between Barano and the east coast, with a small pier. A side road links it to the ring road near Barano and runs up the east coast to Ischia Ponte.
@@ -124,11 +139,23 @@ For scale on Erangel's official map: Pochinki packs about 60 buildings into abou
 | Shop | 12 × 10 m | 1 | 47 | 3 |
 | Café or canteen | 14 × 10 m | 1 | 26 | 2 |
 | Hotel | 40 × 14 m | 4 | 8 | 2 |
-| Petrol station, market hall, bus station | — | 1 | 9 | 1 each |
+| Petrol station | 22 × 14 m lot, 8 × 6 m kiosk under a canopy | 1 | 5 | 1 |
+| Market hall | 30 × 20 m, curved roof | 1, tall | 2 | 1 |
+| Bus station | 22 × 12 m, 26 m platform canopy | 1 | 2 | 1 |
 | Church | 22 × 12 m | 1, tower | 7 | 2 |
-| Post office, police station, polyclinic, school, medical post, fire station, town hall, House of Culture | — | 1–2 | 32 | 1 each |
+| Post office | 16 × 12 m | 1 | 7 | 1 |
+| Police station | 26 × 16 m, walled yard | 2 | 5 | 1 |
+| Polyclinic | 30 × 14 m | 2 | 4 | 1 |
+| School | 40 × 14 m, 18 × 12 m gym | 2 | 4 | 1 |
+| Medical post | 12 × 9 m | 1 | 4 | 1 |
+| Fire station | 24 × 18 m, three engine bays, 18 m hose tower | 2 | 3 | 1 |
+| Town hall | 24 × 16 m, columned porch | 2 | 3 | 1 |
+| House of Culture | 32 × 22 m, colonnade, stage tower | 2, tall | 2 | 1 |
 | Savings bank (holds a town vault) | 20 × 14 m | 2 | 2 | 1 |
-| Garage row, boathouse, warehouse, workshop | — | 1 | 80 | 2 each |
+| Garage row | 30 × 6 m, 8 lock-up garages | 1 | 26 | 2 |
+| Boathouse | 10 × 14 m, slipway | 1 | 21 | 2 |
+| Warehouse | 30 × 18 m, loading dock | 1, tall | 17 | 2 |
+| Workshop | 16 × 12 m | 1 | 16 | 2 |
 | Farmhouse | 12 × 9 m | 2 | 18 | 3 |
 | Barn | 24 × 14 m | 1, tall | 18 | 2 |
 | Tool shed | 6 × 5 m | 1 | 18 | 2 |
@@ -136,7 +163,12 @@ For scale on Erangel's official map: Pochinki packs about 60 buildings into abou
 - **Fields:** vineyards, fields, and orchards, mixed with woods and scrub ([Land around the towns](#land-around-the-towns)), with dirt farm tracks off the roads.
 - **Farm buildings** also serve the 70 or so [farmsteads](#marina-farms-and-vaults) elsewhere on the island.
 - **Landmarks (one each):** Vetrovo's watchtower and church on the point, Mostki's cathedral, Klyuchi's thermal baths, Gribovo's spa hotel, Tikhaya Bukhta's harbor office with the vault, and Verkhovye's church at the lookout.
-- **Not mocked yet:** our own spots.
+- **The kit drawn (2026-11-23, our pick):** the planner's building canvas draws every type in 3D with a floor plan and its variants, about 63 models in all. What sets each apart:
+    - **Homes:** plastered walls in pale yellow, cream, blue, pink, white or green, with tile, slate, or asbestos-cement roofs. Variants change the roof shape and color and add shutters, a balcony, a porch, a lean-to, a glassed veranda, or a flat roof terrace like Ischia's old houses.
+    - **Apartment blocks:** the large one is the Soviet five-story panel block with four entrances and balconies; the small one is a three-story brick block with two entrances.
+    - **Public buildings:** flat-roofed Soviet modern, with strip windows on the polyclinic and school. The town hall has a columned porch and a flagpole, the House of Culture a colonnade and a stage tower, and the fire station a tall hose-drying tower.
+    - **Plans:** the front is at the bottom; houses have a hall with the stairs, blocks have a stairwell per entrance with two flats a side, and public buildings have a corridor with rooms off both sides.
+    - **Signs:** plain Russian words, such as shop, post office, police, bank, school, and canteen, never brand names. No Red Cross emblem on the medical buildings.
 - **On track with Erangel:** about 26 named building types and 25 places there; 28 types plus 7 landmarks and 23 places here. Teplov has more land, about 46 km² against Erangel's 33, which the fields use.
 - **Idea:** Gribovo's real town has a mushroom-shaped rock in its bay, which could be a detail off the shore.
 
@@ -171,6 +203,13 @@ Not everything is farmland (owner, 2026-11-23): some of it is trees, woods, and 
 | Ovsyanka | 46 | 25 | 9 | 8 | 0 | 12 | 0 |
 
 - **Between the towns:** the same kinds cover the rest of the island: a belt of chestnut and oak woods around Epomeo below the plateau's tree line ([Heights](#heights-squashed-with-a-plateau)), pine near Gavansk, vineyard terraces on the lower slopes, and scrub along the south and west coasts.
+
+### The full-map mock
+
+**Everything together (2026-11-23):** the planner's building canvas puts the whole island on one 10 × 8 km map: the 12 towns from the third town mock, the 67 farmsteads where the graybox's farm tracks end (1 to 4 buildings each), the spot compounds above, every road, the river, the lake, and the tunnel from the [layout file](#layout-coordinates), the coast from [The coast](#the-coast), and land cover across the whole island. That's 958 buildings: 754 in the towns, 155 on farmsteads, and 49 at the spots, plus 20 containers.
+
+- **Land between the towns (our pick):** it follows [Land around the towns](#land-around-the-towns) by height: bare rock, scrub, and meadow on the plateau; chestnut and oak woods on the upper slopes; vineyards with woods lower down; and vineyards, fields, and orchards near the coast. Scrub thickens toward the cliffs, and pine woods grow on the lava flows by Gavansk. Across the island that comes to vineyards 28%, chestnut and oak woods 25%, scrub 18%, meadow 10%, orchards 8%, fields 7%, pine 3%, and bare rock 2%.
+- **Coast:** about 37.5 km around: cliffs 12.6 km, low rocky shore 15.1 km, beaches 4.9 km, and harbors 4.8 km.
 
 ### Layout coordinates
 

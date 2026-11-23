@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | Building kit drawn: a footprint, floors, look, floor plan, and variants for every type, signs in plain Russian (our pick) | [Towns and buildings](../systems/maps.md#towns-and-buildings) |
+| 2026-11-23 | Spot compound layouts and 15 spot building types (our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
+| 2026-11-23 | The full-map mock: land cover between the towns follows height, coast, and the pine woods by Gavansk (our pick) | [The full-map mock](../systems/maps.md#the-full-map-mock) |
 | 2026-11-23 | Every melee weapon can be thrown for the same damage and picked back up; fists can't be thrown (owner; fists our pick) | [Melee](../systems/gameplay.md#melee) |
 | 2026-11-23 | The coast gets cliffs, rocky shore, beaches, and harbor walls, with a sea floor falling to about 100 m (our pick) | [The coast](../systems/maps.md#the-coast) |
 | 2026-11-23 | The land around towns mixes vineyards, fields, orchards, woods, pine, scrub, and meadow from Ischia's real land cover (owner; mix is our pick) | [Land around the towns](../systems/maps.md#land-around-the-towns) |

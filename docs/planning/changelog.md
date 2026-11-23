@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-23 | Made the [menu accent picks page](https://claude.ai/artifact/NQKgMTqKRQm1o89aVbgv3v) (three accents and the compass heading color) for the owner; added it to [PUBG look and feel](legal-review.md#pubg-look-and-feel) and the To-do page |
 | 2026-11-22 | Filed the owner's fourth picks page: armor's real setups (new 6B45, Zabralo, 6B23, SSh-68, Sfera, Maska, and bump rows), equal red zone odds, 5 radar stations, the gas mask's 2 minutes, vehicle drops, and victory lines |
 | 2026-11-22 | Gas mask: worn on pickup and never shown on the character ([Class items](../systems/class-items.md)) |
 | 2026-11-22 | Filed the owner's third picks page: leg armor kinds and wearing rule, the gas mask, our words for PUBG's terms, care packages, vehicle drops, the supply truck, radar stations, red zone odds, birds, fences, vehicles, the comeback arena, the screwdriver, more PvE, scrap, and gun families; noted the 6B45's real setups |

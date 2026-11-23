@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-23 | Second town mock: dense cores, fields, and farmsteads; core sizes added to the layout file ([Maps](../systems/maps.md#towns-and-buildings)) |
 | 2026-11-23 | First town layout mock: the building kit and the comparison with Erangel on [Maps](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Filed the lead's lobby rules and the siren's reach on [Match flow](../systems/match-flow.md) |
 | 2026-11-23 | Made the [menu accent picks page](https://claude.ai/artifact/NQKgMTqKRQm1o89aVbgv3v) (three accents and the compass heading color) for the owner; added it to [PUBG look and feel](legal-review.md#pubg-look-and-feel) and the To-do page |

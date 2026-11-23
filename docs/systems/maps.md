@@ -82,27 +82,47 @@ With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
 The plan (owner, 2026-11-23): mock up each town's layout first to learn which buildings the map needs, like generic houses, a police station, and a fire station, then build variants of each and place them around.
 
-**First mock (2026-11-23):** a script filled each town's graybox pad along its roads, with side lanes added: about 820 buildings in the 12 towns and villages, from 25 reusable building types and 7 one-off landmarks. Counts and variants are first passes (our pick):
+**Dense town cores, with fields around them (owner, 2026-11-23):** each town is a tight core, packed about as densely as Erangel's towns, and fields and farmsteads fill the rest of its flat area in the graybox, like Erangel's farmland. Core sizes and building counts are from the second mock (our pick); `core_radius_km` in the [layout file](#layout-coordinates) has each core:
+
+| Town | Core across | Buildings |
+| --- | --- | --- |
+| Gavansk | 600 m | 155 |
+| Vetrovo | 550 m | 145 |
+| Klyuchi | 400 m | 72 |
+| Ternovka | 370 m | 68 |
+| Mostki, Gribovo | 330 m | 62, 58 |
+| Tikhaya Bukhta | 300 m | 44 |
+| Verkhovye, Polyanka | 210 m | 22 each |
+| Rybatsk, Kholmy, Ovsyanka | 180 m | 17 to 18 |
+
+For scale on Erangel's official map: Pochinki packs about 60 buildings into about 350 m, Yasnaya Polyana is about 400 m, Severny about 200 m, and only Georgopol reaches about 1 km. The first mock spread the towns over the whole pad (Gavansk at 1.1 km), which read as scattered houses.
+
+**The building kit (first pass, our pick):** about 700 buildings in the 12 towns and villages, from 25 town building types and 7 one-off landmarks, plus 18 farmsteads in the fields around them:
 
 | Building | Footprint | Floors | In the mock | Variants |
 | --- | --- | --- | --- | --- |
-| Two-story house | 11 × 9 m | 2 | 213 | 6 |
-| Small house | 9 × 8 m | 1 | 175 | 5 |
-| Townhouse row | 18 × 9 m | 3 | 111 | 4 |
-| Apartment block, small | 30 × 12 m | 3 | 63 | 3 |
-| Apartment block, large | 60 × 12 m | 5 | 17 | 2 |
-| Shop | 12 × 10 m | 1 | 50 | 3 |
-| Café or canteen | 14 × 10 m | 1 | 27 | 2 |
+| Two-story house | 11 × 9 m | 2 | 176 | 6 |
+| Small house | 9 × 8 m | 1 | 159 | 5 |
+| Townhouse row | 18 × 9 m | 3 | 87 | 4 |
+| Apartment block, small | 30 × 12 m | 3 | 48 | 3 |
+| Apartment block, large | 60 × 12 m | 5 | 12 | 2 |
+| Shop | 12 × 10 m | 1 | 47 | 3 |
+| Café or canteen | 14 × 10 m | 1 | 26 | 2 |
 | Hotel | 40 × 14 m | 4 | 8 | 2 |
 | Petrol station, market hall, bus station | — | 1 | 9 | 1 each |
 | Church | 22 × 12 m | 1, tower | 7 | 2 |
 | Post office, police station, polyclinic, school, medical post, fire station, town hall, House of Culture | — | 1–2 | 32 | 1 each |
 | Savings bank (holds a town vault) | 20 × 14 m | 2 | 2 | 1 |
-| Garage row, boathouse, workshop, warehouse | — | 1 | 100 | 2 each |
+| Garage row, boathouse, warehouse, workshop | — | 1 | 80 | 2 each |
+| Farmhouse | 12 × 9 m | 2 | 18 | 3 |
+| Barn | 24 × 14 m | 1, tall | 18 | 2 |
+| Tool shed | 6 × 5 m | 1 | 18 | 2 |
 
+- **Fields:** wheat, vineyards, pasture, and plowed fields in a patchwork, with dirt farm tracks off the roads.
+- **Farm buildings** also serve the 70 or so [farmsteads](#marina-farms-and-vaults) elsewhere on the island.
 - **Landmarks (one each):** Vetrovo's watchtower and church on the point, Mostki's cathedral, Klyuchi's thermal baths, Gribovo's spa hotel, Tikhaya Bukhta's harbor office with the vault, and Verkhovye's church at the lookout.
-- **Not mocked yet:** our own spots and the farmsteads.
-- **Next to Erangel:** the building types (Erangel has about 26 named ones) and the number of places are on track, but the towns are too spread out. Pochinki packs about 60 buildings into a core about 350 m across, and only Georgopol reaches about 1 km, while Gavansk spreads 177 buildings over 1.1 km. Teplov also has more land, about 46 km² against Erangel's 33. Whether to tighten the towns into denser cores is open ([Open questions](../planning/open-questions.md#systems)).
+- **Not mocked yet:** our own spots.
+- **On track with Erangel:** about 26 named building types and 25 places there; 28 types plus 7 landmarks and 23 places here. Teplov has more land, about 46 km² against Erangel's 33, which the fields use.
 - **Idea:** Gribovo's real town has a mushroom-shaped rock in its bay, which could be a detail off the shore.
 
 ### Layout coordinates

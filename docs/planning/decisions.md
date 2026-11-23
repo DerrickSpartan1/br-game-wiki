@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | Towns are dense cores like Erangel's (large towns about 550 to 600 m across), with fields and farmsteads filling the rest of each graybox pad; farmhouse, barn, and tool shed join the building kit | [Towns and buildings](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Towns are planned by mocking each town's layout first, then building variants of the buildings it needs; first-pass building kit of 25 types | [Towns and buildings](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Lobby rules until bots exist (filed from the lead's build); the red zone siren carries about 300 m past the circle (our pick) | [Pre-match lobby](../systems/match-flow.md#pre-match-lobby), [Red zones](../systems/match-flow.md#red-zones) |
 | 2026-11-22 | Vehicle drops bring armored or special vehicles, the Ezh for now; the victory line rolls from a few, different for solo and squads | [Care packages](../systems/match-flow.md#care-packages), [Match setup](../systems/gameplay.md#match-setup) |

@@ -20,7 +20,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Melee and tools:** the melee, pan, and breaching tool numbers look good to the owner but need play testing; check the numbers for throwing knives and nailing doors shut, and mortars' range and blast ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
 - **PvE:** robot guards in vaults, sentries at radar stations, and patrols ([Robot guards](../systems/match-flow.md#robot-guards-idea)); their numbers.
 - **Gas:** gas damage, and the tear gas trap's numbers ([More class items](../systems/class-items.md#more-class-items)).
-- **Town size:** whether to tighten the towns into denser cores, closer to Erangel's (a large town about 500 to 600 m across instead of 1 km), and what happens to the rest of each graybox pad ([Towns and buildings](../systems/maps.md#towns-and-buildings)).
 - **Leg armor (pants armor):** its numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
 - **Match details:** how wanted contracts work beyond the scrap reward, more special vehicles for the vehicle drops, and the supply truck's numbers ([Match flow](../systems/match-flow.md)).
 

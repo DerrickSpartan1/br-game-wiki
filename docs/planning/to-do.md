@@ -133,6 +133,12 @@ When you tell the lead "check the planner's list," it works through this section
 - **Answered (planner, 2026-11-23): that format is right ([Healing rules](../systems/healing.md#rules)).** **Med names (owner):** items should say their kind, like "Med kit: <name>", so it's easy to tell what's what. The lead is doing this now; say if you want another format.
 - **Answered (planner, 2026-11-23): no. The folder layout belongs in the game repo, in its CLAUDE.md or a README, where you keep it up to date.** **Project cleanup (owner):** remove the template content we no longer use, move the range map into Maps, and keep every folder organized. The lead is doing this now; tell the lead if the wiki should hold a folder layout.
 
+**Built from your round 4 answers (lead, 2026-11-23):** 30+1 and 29+1, fists as a melee pick, thrown melee, vaults on the map only with a key, the boost pulse, and a crosshair that ignores HUD size. The project cleanup is done, with the layout in the game repo's CLAUDE.md. Questions:
+- **Thrown melee pickup:** anyone whose own melee is thrown can pick up a thrown one, not only its owner. Should other players be able to take your thrown weapon?
+- **Throw numbers:** the page gives no throw speed or range. Placeholders are 20 m/s with normal gravity.
+- **Inspect key:** Y (free among PUBG's defaults). The inspect is a placeholder pose until the animator makes one. OK?
+- **Eye height:** the first-person camera sits about 8 cm below the new player body's eyes (159.8 cm vs 167.8 cm). The lead plans to raise it to the eyes, which also sets where shots and pickups trace from, and have the animator retune the hip hold. Any rule for eye height?
+
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
 ```text

@@ -82,7 +82,7 @@ With the 12 towns and villages, that's 23 named places, against Erangel's 25.
 
 The plan (owner, 2026-11-23): mock up each town's layout first to learn which buildings the map needs, like generic houses, a police station, and a fire station, then build variants of each and place them around.
 
-**Dense town cores, with fields around them (owner, 2026-11-23):** each town is a tight core, packed about as densely as Erangel's towns, and fields and farmsteads fill the rest of its flat area in the graybox, like Erangel's farmland. Core sizes and building counts are from the second mock (our pick); `core_radius_km` in the [layout file](#layout-coordinates) has each core:
+**Dense town cores, with fields around them (owner, 2026-11-23):** each town is a tight core, packed about as densely as Erangel's towns, and fields and farmsteads fill the rest of its flat area in the graybox, like Erangel's farmland. Core sizes and building counts are from the second mock (our pick); each core is centered on the town's point in the [layout file](#layout-coordinates):
 
 | Town | Core across | Buildings |
 | --- | --- | --- |

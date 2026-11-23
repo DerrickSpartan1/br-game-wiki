@@ -1513,7 +1513,7 @@ Approved by the owner: ammo is called by its caliber, with no company or person'
 | .400 Corbon | .400 Auto |
 | .41 AE | .41 |
 | .45 ACP | .45 Auto |
-| .45 Remington–Thompson | TBD (size not found yet) |
+| .45 Remington–Thompson | 11.4×25mm |
 | .455 Webley Auto | .455 Auto |
 | 4.6×30mm | 4.6×30mm |
 | 5.7×28mm | 5.7×28mm |
@@ -1565,7 +1565,7 @@ Approved by the owner: ammo is called by its caliber, with no company or person'
 | 6.5×50mm Arisaka | 6.5×50mm |
 | 6.5×55mm Swedish | 6.5×55mm |
 | 6.5mm Creedmoor | 6.5×48mm |
-| 6.5mm Fedorov | TBD (size not found yet) |
+| 6.5mm Fedorov | 6.5×57mm |
 | 6.8mm Remington SPC | 6.8×43mm |
 | 6.8×51mm | 6.8×51mm |
 | 7×49.15mm Optimum 2 | 7×49.15mm |

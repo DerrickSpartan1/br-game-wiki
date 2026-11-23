@@ -82,7 +82,7 @@ Every cartridge that at least one roster gun or version fires. Many appear only 
 | 10mm Auto | — | Pistol / SMG | [Thompson](../weapons/smgs/thompson.md), [MP5](../weapons/smgs/mp5.md), [KRISS Vector](../weapons/smgs/kriss-vector.md) |
 | .45 Colt | — | Revolver | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
 | .320 Revolver | — | Revolver | [Garrucha](../weapons/pistols/garrucha.md) |
-| .357 Magnum | — | Revolver | [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
+| .357 Magnum | — | Revolver | [Janz revolvers](../weapons/pistols/janz.md), [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
 | .380 Revolver | — | Revolver | [Garrucha](../weapons/pistols/garrucha.md) |
 | .44 Magnum | — | Revolver | [Janz revolvers](../weapons/pistols/janz.md), [Winchester Model 1894](../weapons/snipers/winchester-1894.md) |
 | .454 Casull | — | Revolver | [Janz revolvers](../weapons/pistols/janz.md) |

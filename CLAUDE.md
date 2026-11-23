@@ -15,6 +15,8 @@ This repo is the design wiki for a PC battle royale (2017–2018 PUBG feel, rota
 
 Claude in chat is the planner: design, research, and this wiki. Claude Code on the owner's PC is the lead, with subagent workers ([AI team](docs/planning/ai-team.md)). Work for the lead goes in the To-do page's "For the lead" section, with a prompt where one helps. The planner reads the game repo but never changes it.
 
+At the start of every session, pull this repo and the game repo, then read the To-do page for the lead's reports and planner questions. Do the planner's items without waiting to be asked: answer what the planner can (research, wiki fixes, first-pass picks marked "our pick"), file the answers, and mark each question answered on the To-do page.
+
 ## Adding a gun
 
 1. Research it (Wikipedia first, then manufacturer or reference pages). Open every page you take numbers from and cite it.
@@ -27,6 +29,7 @@ Claude in chat is the planner: design, research, and this wiki. Claude Code on t
 - A decision goes on its rules or systems page and gets a dated row in `docs/planning/decisions.md` (newest first).
 - A new idea goes on the page it fits, or in `docs/planning/idea-inbox.md` if it fits nowhere yet. The owner wants every game idea shared in chat filed without being asked.
 - Settled open questions come off `docs/planning/open-questions.md`.
+- Calls that need the owner, when there are more than a few, go on a picks page: an artifact with a choice and a comment box on each item. The answers are read back from the page and filed.
 
 ## Legal review
 

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | Planner's picks for the lead: kill credit (the knocker gets it; a brought-back player counts again; a knocker who left still gets it), quick melee timing (0.3 s), revolver open and close times, Janz calibers (.357 and .44 Magnum), and cartridge names 11.4×25mm and 6.5×57mm | [Knockdowns](../systems/gameplay.md#knockdowns-revives), [Staged reloads](../systems/handling.md#staged-reloads), [Janz](../weapons/pistols/janz.md) |
 | 2026-11-22 | The v4 mockup's coastline, places, hills, water, and roads are on the wiki as a coordinates file for the lead's map tool; Pizzi Bianchi moved to the south slope (about 170 m); seven longer farm tracks set | [Layout coordinates](../systems/maps.md#layout-coordinates) |
 | 2026-11-22 | Every revolver loads one round at a time; speed loaders are attachments that fill every chamber at once, spawning only with a revolver that can use one | [Staged reloads](../systems/handling.md#staged-reloads), [Attachments](../systems/attachments.md) |
 | 2026-11-22 | Every belt reload is the full reload (40% / 45% / 15%, 8.2 s). Mag-fed guns do the full reload only with an empty chamber. Pulled rounds go back to the backpack | [Staged reloads](../systems/handling.md#staged-reloads) |

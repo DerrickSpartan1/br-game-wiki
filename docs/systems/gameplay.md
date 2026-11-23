@@ -65,6 +65,12 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 2. A teammate can pick you up while you're knocked. This is slow without an adrenaline syringe.
 3. If you bleed out, you can still be revived with a defib, or slowly with CPR.
 
+**Kill credit (planner's picks, 2026-11-22, for the lead):**
+
+- **The knocker gets the kill** when a knocked player bleeds out, finishes themselves, or is finished by their own squadmate.
+- **A player brought back is a live player again:** killing them a second time counts as a new kill for whoever does it.
+- **A knocker who leaves the match** still gets the kill in the match results.
+
 **Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. Anyone can loot it straight from the body while the player can still be revived. If the player leaves the match, the body turns into a loot crate, like PUBG's.
 
 **Self-revive kits** let you get up on your own, like PUBG's. They spawn more often in solos and less often in duos, trios, and quads.
@@ -136,6 +142,8 @@ Dashes are numbers the sources checked don't give. Which vehicles each map gets 
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
+- **Quick hit timing (planner's pick, 2026-11-22):** the hit lands 0.3 s after the tap, faster than pulling the melee weapon out (0.5 s), then the gun comes back with its own ready time. A gun with a bayonet stabs at once, without putting the gun away.
+- **Empty hands:** running with nothing out is the same 6.3 m/s as melee out, PUBG's unarmed speed.
 - **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
 - **All the same in a fight:** every owned melee weapon has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
 

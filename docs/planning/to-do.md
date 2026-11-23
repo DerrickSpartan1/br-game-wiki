@@ -94,6 +94,18 @@ When you tell the lead "check the planner's list," it works through this section
     - How bright moonlight is at night, and how the game stops brightness and gamma cheats at night.
     - How much rain covers footsteps, how often thunder strikes, and how long it covers gunshots.
     - The wrist watch: digital or analog, and does it show the zone timer too?
+    - **Watch side:** the game puts it on the inside of the left wrist (military style), because the support hand is palm-up under the handguard and a face on the back of the wrist would point at the ground. Back of the wrist instead? That would need a thumb-over grip.
+    - **Night look:** the night shots are close to black in front of you, while [Lighting look](art-and-sound.md#lighting-look) says shade should never be black. How dark should night be?
+    - **Anti-cheat for dark matches:** the page says a dark match needs rules against brightness and gamma cheats. Fog and night are drawn on each player's own machine. What should the rules be?
+
+**Lead's report, 2026-11-22, late** (commits up to `f8ae170`, not pushed yet). Done since the evening report, all reviewed:
+
+- **Staged reloads** (`c76dcab`), then **revolvers one round at a time and belts always full** per your answer (`ba74ee9`), the cylinder closing before a mid-load shot and on a cancel (`5cdb441`, `8cf75f6`).
+- **HUD fixes, Settings, and menus** (`41f806f`): squadmate-only names, server counts, melee name, Settings with FOV and sensitivity, PUBG-layout menus with a placeholder teal accent. Follow-ups (`8caf0ef`): melee read from the wiki, tap X quick hit and hold X melee out, 6.3 m/s with empty hands, kill credit on the player state.
+- **Game names** in the data (`965d250`, `1e4a184`) and on every screen (`5cdb441`, `8cf75f6`); your answers on cartridges, Janz calibers, quick melee at 0.3 s, and kill credit are in.
+- **The Teplov graybox** (`a21f234` to `3dcaef9`): heightmap from your layout file, Landscape, water, roads, bridges, towns, farms, vaults, a walkable cut-and-cover tunnel; the zone's play area is now 8 km north–south by 10 km east–west (it was turned 90°). Not yet the match server's map.
+- **Time of day, weather, and the wrist watch** (`f8ae170`): your four time slots and odds, a rolled weather with one heavy spell, synced lightning, and a digital watch. Placeholders listed above. Still needed: the rain effect and sounds, grey overcast clouds, a hold that shows the watch, and rain and thunder covering sounds once there's a hearing system.
+- The owner's next test uses the playtest checklist, round 3.
     1. Can the v3/v4 mockup's point list (coastline, towns, our spots, river path, roads) go on the wiki as coordinates, so the tool reads it instead of guesses?
     2. Pizzi Bianchi has no game height, and its "Where" (east and north, with the small hills) doesn't match the real spot (south, above Sant'Angelo). It's a 30 m bump on the south slope for now.
     - **Answered (owner, 2026-11-22):** 4. yes, real elevation data squashed to 40% ([Turning Ischia into terrain](../systems/maps.md#turning-ischia-into-terrain)); 5. keep the real bends; 6. that's fine. 3 (Krepost): over the stone causeway, up a ramp cut into the rock, then paths to the top, no lift (owner, 2026-11-22, [Heights](../systems/maps.md#heights-squashed-with-a-plateau)). Late circles stay over land (planner's pick, [The zone](../systems/match-flow.md#the-zone)).

@@ -4,7 +4,8 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
-| 2026-11-22 | Added the [waist and thigh armor](../systems/armor.md#waist-and-thigh-armor-idea) idea |
+| 2026-11-22 | Leg armor: the owner's pants armor framing and more kinds to pick from on [Armor](../systems/armor.md#leg-armor-idea) |
+| 2026-11-22 | Added the [leg armor](../systems/armor.md#leg-armor-idea) idea |
 | 2026-11-22 | Filed the owner's picks page: sway, healing rules, settings, bots, training map, comeback duel, crate ammo, terrain, and renamed guns; ticked the setup list |
 | 2026-11-22 | Answered the lead's smaller questions: kill credit, quick melee, open-bolt reloads, revolver timing, Janz calibers, and two cartridge names |
 | 2026-11-22 | Added [teplov-layout.json](../data/teplov-layout.json) and [Layout coordinates](../systems/maps.md#layout-coordinates); fixed Pizzi Bianchi; listed the farm tracks |

@@ -121,6 +121,7 @@ When you tell the lead "check the planner's list," it works through this section
 - **Fists as a melee weapon (owner):** "you can have fist be a melee weapon too". Please add fists to the melee roster ([Melee](../systems/gameplay.md#melee)): numbers, and whether they're what you have with no melee weapon.
 - **Test tools (owner, lead's own picks):** a test bench on the range with the guns currently under test, an on-screen panel for time of day and weather, and a fly mode plus the full map on M for the island. No design needed unless you want a say.
 - **Revisit later (owner):** the empty-reload thumb press and the M4 hold, once there's a real player model.
+- **Vaults on the full map:** the new full map (M) can mark vault locations. Should players see where vaults are, or are they hidden like PUBG's secret rooms? Hidden for now.
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 

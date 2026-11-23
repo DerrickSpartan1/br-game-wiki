@@ -8,6 +8,9 @@ There's no separate lobby island: players spawn on the match's own map and wait 
 
 - **Filling up:** the lobby fills with bots, and real players take their places as they join. Bots stay in the match to fill any empty slots.
 - **Countdown:** once 10 players have joined, a 60-second countdown starts.
+- **Until bots exist (lead, owner OK, 2026-11-21):** the countdown starts once everyone the matchmaker sent has joined, or after a 60-second wait for no-shows. A running countdown keeps going if players leave.
+- **No damage** in the lobby, before the plane.
+- **Lobby pickups:** anything picked up in the lobby is taken away at boarding.
 - **Rolling the match:** the countdown gives the server time to make the match's random choices: the gun pool and versions, vault keys, time of day, and weather.
 - **Loot:** ground loot only loads once everyone is moved into the plane.
 - **What you have:** only your outfit and your own melee weapon ([Skins and mastery](skins.md#wardrobe), [Melee](gameplay.md#melee)).
@@ -79,7 +82,7 @@ Spend scrap at a radar station to see the next circle early. It costs 50 scrap (
 
 PUBG's red zone, in several forms. One at a time, at a random spot on the map once the match starts, including outside the safe circle. Each one rolls its form:
 
-- **Air raid siren:** before any form starts, an air raid siren sounds over the area through the warning, and the circle shows on the map, so nobody nearby is caught by surprise.
+- **Air raid siren:** before any form starts, an air raid siren sounds over the area through the warning, and the circle shows on the map, so nobody nearby is caught by surprise. It plays from the circle's center and carries through the circle and about 300 m past its edge (our pick).
 
 | Form | What happens | How to survive | Odds (our pick) |
 | --- | --- | --- | --- |

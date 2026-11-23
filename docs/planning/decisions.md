@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | Lobby rules until bots exist (filed from the lead's build); the red zone siren carries about 300 m past the circle (our pick) | [Pre-match lobby](../systems/match-flow.md#pre-match-lobby), [Red zones](../systems/match-flow.md#red-zones) |
 | 2026-11-22 | Vehicle drops bring armored or special vehicles, the Ezh for now; the victory line rolls from a few, different for solo and squads | [Care packages](../systems/match-flow.md#care-packages), [Match setup](../systems/gameplay.md#match-setup) |
 | 2026-11-22 | Red zone forms are equally likely, 1 in 6 each; 5 radar stations a match at random spots; a gas mask lasts 2 minutes of gas | [Red zones](../systems/match-flow.md#red-zones), [Radar stations](../systems/match-flow.md#radar-stations), [Class items](../systems/class-items.md) |
 | 2026-11-22 | Helmets: the plain SSh-68 drops to tier 1 with the SSh-68M/N at tier 2, a titanium Sfera, the glass-visor Maska-1, and FAST and EXFIL bump helmets at tier 1; all armor fits the same three tiers | [Helmets](../systems/armor.md#helmets), [Tiers](../systems/armor.md#tiers) |

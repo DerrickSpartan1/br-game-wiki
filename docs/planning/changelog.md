@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-22 | Filed the owner's third picks page: leg armor kinds and wearing rule, the gas mask, our words for PUBG's terms, care packages, vehicle drops, the supply truck, radar stations, red zone odds, birds, fences, vehicles, the comeback arena, the screwdriver, more PvE, scrap, and gun families; noted the 6B45's real setups |
 | 2026-11-22 | Answered the lead's watch side, night look, and night anti-cheat questions on [Time passes](../systems/match-flow.md#time-passes); tidied the graybox questions on the To-do page |
 | 2026-11-22 | Filed the owner's second picks page (leg armor, comeback duel, bodies, names, Krepost, characters, scrap, class items, red zones, briefcases, the M14, gas cut-offs, wear, mastery, season goals) and first-pass time and weather numbers for the lead |
 | 2026-11-22 | Leg armor: the owner's pants armor framing and more kinds to pick from on [Armor](../systems/armor.md#leg-armor-idea) |

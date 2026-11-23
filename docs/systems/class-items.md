@@ -13,8 +13,8 @@ A 4th slot holds class items: limited-use gadgets found randomly as loot during 
 - **Mortars:** indirect fire, the one lethal launcher in the ground class pool ([Mortars](#mortars)).
 - **Rocket launchers (crate-only):** like the RPG-7, in the class slot, found only in crates (owner, 2026-11-22).
 - **Ballistic shield:** a handheld shield that spawns in the world ([Shields](#shields)).
-- **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It's assumed to use the class slot like the normal shield.
-- **Gas mask (idea):** keeps out the gas in [gas red zones](match-flow.md#red-zones), tear gas traps, and tear-gas rounds. As a class item it may be too weak a pick; how gas, the gas trap, and the mask balance is open.
+- **Flash shield (crate-only):** a ballistic shield with flashbangs on the front, like Blitz's in Rainbow Six Siege. It has 1 to 3 flash charges, isn't indestructible, and breaks quickly. It uses the class slot, like the normal shield (owner, 2026-11-22).
+- **Gas mask (owner, 2026-11-22):** not a class item. It has its own slot, and if you carry one it goes on by itself when you walk into gas, like Warzone's. It keeps out the gas in [gas red zones](match-flow.md#red-zones), tear gas traps, and tear gas rounds. While it's on you can't aim down sights; that's its only cost.
 - **Emergency redeploy:** a balloon that lifts you out and drops you elsewhere on the map, like PUBG's Emergency Pickup.
 - **Deployable zipline:** place a zipline anywhere, like Apex's Pathfinder's zipline gun.
 - **Fortifications:** a light version of building: placeable cover like the [barricade](#barricade) and movable shields. Which pieces exist is TBD.
@@ -124,7 +124,7 @@ Approved by the owner on 2026-11-22, with his notes. Each is something real, ins
 | **Barbed wire roll** | Rainbow Six barbed wire | Slows anyone crossing it, and it rattles |
 | **Spike strip** | PUBG's Spike Trap | Pops the tires of anything that drives over it |
 | **Leg trap** | Rainbow Six Frost | A hidden trap that holds a player for a few seconds, with a loud snap |
-| **Tear gas trap** | Apex Caustic | Lets out gas when someone gets close. Balance with the gas mask, gas grenades, and gas red zones is open |
+| **Tear gas trap** | Apex Caustic | Lets out gas when someone gets close. It stays in (owner, 2026-11-22); its numbers are TBD |
 | **Mines (crate-only)** | Rainbow Six claymore | The claymore, the bouncing betty, and other mines. Extremely powerful, so crate-only |
 | **Grapple and rappel kit** | Apex Pathfinder; Rainbow Six rappelling | One item: grapple up to a roof or a window, or anchor it at the top of a building to rappel down or swing in a side window |
 | **Emergency parachute** | PUBG's Haven map | Jump from somewhere high safely, but you're easy to spot |

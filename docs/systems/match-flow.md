@@ -73,7 +73,7 @@ If camping still pays in play tests, the next lever is weaker healing outside th
 
 ### Radar stations
 
-Spend scrap at a radar station to see the next circle early. Stations sit at the Military Outpost and at other spots around the map. It costs 50 scrap (our pick); other locations are TBD ([Crafting](crafting.md#what-a-workbench-makes)).
+Spend scrap at a radar station to see the next circle early. It costs 50 scrap (our pick; [Crafting](crafting.md#what-a-workbench-makes)). Where stations sit is random every match, and no spot is sure to have one; the map starts with 5 spots (owner, 2026-11-22). Each station works once: after someone uses it, nobody else can. Robot sentries guard them ([Robot guards](#robot-guards-idea)).
 
 ## Red zones
 
@@ -83,17 +83,16 @@ PUBG's red zone, in several forms. One at a time, at a random spot on the map on
 
 | Form | What happens | How to survive | Odds (our pick) |
 | --- | --- | --- | --- |
-| **Bombardment** | Like PUBG's red zone: after the warning, shells land at random spots inside the circle. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 60% |
-| **Smoke** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 25% |
-| **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave. Gas masks are an idea ([Class items](class-items.md)) | 15% |
+| **Bombardment** | Like PUBG's red zone: after the warning, shells land at random spots inside the circle. A direct hit kills and destroys vehicles | Get inside a solid building away from doors and windows (wooden houses only take one or two barrages), or leave | 40% |
+| **Smoke** | Thick smoke fills the circle for a while. No damage | Nothing to survive: it hides you, and anyone waiting for you. Good for crossing open ground | 20% |
+| **Firebombing** | Bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths | Stay out of the line, or wait for the fires to burn out | 10% |
+| **Creeping barrage** | Shells walk across the circle in a line instead of landing at random, so players can see it coming | Watch which way it walks and get out of its path | 10% |
+| **EMP** | Vehicles stall and electronics stop working inside the circle for a while: drones, scopes with batteries, and radars, like the [EMP grenade](weapon-pool.md#throwables) idea | Leave, or fight on iron sights until it passes | 10% |
+| **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave, or put on a [gas mask](class-items.md) | 10% |
 
 The circle's size, warning time, and how long each form lasts are TBD. Gas damage starts at 5 health a second (our pick).
 
-**More forms (owner, 2026-11-22):** all three are in. Their odds, size, and length are TBD.
-
-- **Firebombing:** bombers drop incendiaries in a line across the circle, leaving fires that burn for a while and cut off paths.
-- **Creeping barrage:** shells walk across the circle in a line instead of landing at random, so players can see it coming and move out of its way.
-- **EMP:** vehicles stall and electronics stop working inside the circle for a while, like the [EMP grenade](weapon-pool.md#throwables) idea: drones, scopes with batteries, and radars.
+**Odds (owner, 2026-11-22):** firebombing, the creeping barrage, and EMP are in, and the table's split is the first pass. The owner might make every form equally likely instead.
 
 ## Care packages
 
@@ -103,7 +102,8 @@ Random, like PUBG's:
 - **The crate** comes down on a parachute and is marked once it lands, with our own look and signal (TBD), not PUBG's flashing light and red smoke. It can land on a roof, in water, or somewhere hard to reach.
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
-- **How many:** TBD.
+- **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
+- **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner). Which vehicles is TBD.
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.
 
@@ -111,11 +111,11 @@ Random, like PUBG's:
 
 ## Moving loot
 
-Loot that moves around the map, like PUBG's loot truck or Apex's train: a supply truck that drives the ring road and can be stopped for what it carries. Trains can do the same on maps with rail.
+Loot that moves around the map, like PUBG's loot truck or Apex's train: a supply truck that drives the ring road and can be stopped for what it carries. One supply truck a match (owner, 2026-11-22): hard to stop, and full of guns with attachments, like PUBG's Sanhok loot truck. Trains can do the same on maps with rail.
 
 ## Wanted players
 
-Contracts like Warzone's Most Wanted: a player gets marked on the map, and if they survive a set time, their team gets a reward. Details TBD.
+Contracts like Warzone's Most Wanted: a player gets marked on the map, and if they survive a set time, their team gets a reward. The reward is scrap only (owner, 2026-11-22); the rest gets worked out later.
 
 ## Vaults and keys
 
@@ -144,6 +144,7 @@ PvE for the vaults (owner, 2026-11-22): a robot guard inside each vault, from th
 - **Easy to fight:** a few hits take one down, it turns slowly, and its aim is poor (our pick). It's no threat to a squad that's ready.
 - **A noise maker:** when it sees or hears a player it calls out and fires, so everyone nearby knows someone is at the vault, like Hunt: Showdown's crows ([Tracks and animals](gameplay.md#tracks-and-animals)).
 - **Loot:** nothing of its own (our pick); the vault is the prize.
+- **More PvE (owner, 2026-11-22):** robot sentries at the [radar stations](#radar-stations), and robot patrols too, like ones guarding a loot room at the Military Outpost.
 
 **Later:** a drill that opens any vault in about 45 seconds, but loudly. It's an expensive item at [workbenches](crafting.md#what-a-workbench-makes).
 
@@ -221,6 +222,7 @@ Every player wears a watch on the left wrist, visible in first person whenever t
 ## Sources
 
 - [PUBG fandom wiki: Blue Zone](https://pubg.fandom.com/wiki/Blue_Zone) (Erangel phases, distance-based damage)
+- [The Loadout: Sanhok loot truck](https://www.theloadout.com/pubg/sanhok-loot-truck) · [Activision: Most Wanted](https://blog.activision.com/call-of-duty/2020-04/Call-of-Duty-Warzone-Contracts-Most-Wanted)
 - [Gaisma: Naples sun times](https://www.gaisma.com/en/location/naples.html) · [All Things How: ARC Raiders blocks Nvidia game filters](https://allthings.how/arc-raiders-has-blocked-nvidia-game-filters-what-that-means-and-what-you-can-do/) · [Insider Gaming: Tarkov devs block filters](https://insider-gaming.com/tarkov-devs-block-filters/)
 - [PUBG fandom wiki: Parachute](https://pubg.fandom.com/wiki/Parachute) · [PC Gamer: How to land fast in PUBG](https://www.pcgamer.com/pubg-how-to-land-fast-battlegrounds)
 - [Gamepressure: PUBG red zone](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136) · [PUBG support: What is the red zone?](https://support.pubg.com/hc/en-us/articles/115004198974-What-is-the-red-zone) · [Samurai Gamers: PUBG battle area](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/pubg-battle-area-intro/)

@@ -153,7 +153,7 @@ Two kinds, both attachments that spawn as ground loot. A gun takes one only if i
 | Infrared star parachute | M992: like the M583A1, but visible only through night vision | Lights an area only for players with a night-vision scope, like the [StG 44](../weapons/assault-rifles/stg-44.md)'s Vampir |
 | Propaganda leaflets | Germany's WWII Propaganda-Gewehrgranate: 200 g of leaflets, scattered after about 9 seconds, out to 460 m | A funny round for the Schiessbecher: no damage, just a burst of leaflets |
 
-Left out for now: **CS gas** (the US M651 makes a 120 m² cloud for about 25 seconds) is non-lethal but would need its own gas effect, and **sponge and rubber-ball rounds** (M1006, M1029) can still kill under 10 m, so they'd count as damage rounds.
+Left out for now: **CS gas** (the US M651 makes a 120 m² cloud for about 25 seconds) is non-lethal but needs its own gas effect, so it comes later, once gas is in the game (owner, 2026-11-22), and **sponge and rubber-ball rounds** (M1006, M1029) can still kill under 10 m, so they'd count as damage rounds.
 
 ### Crate rounds: lethal
 

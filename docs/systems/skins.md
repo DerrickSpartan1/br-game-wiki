@@ -33,6 +33,7 @@ The player character has its own wardrobe slots too, like PUBG's, and more can b
 
 - **In a match:** players arrive wearing their outfit and nothing else, and can take clothes off like in PUBG. The pads and underwear always stay on.
 - **No clothing loot:** clothes never drop as loot during a match; outfits are set in the wardrobe only.
+- **Armored garment looks (owner's idea, 2026-11-22):** the US Army's pelvic outer garment and ballistic underwear could be clothing skins, with no armor value ([Leg armor](armor.md#leg-armor-idea)).
 
 ## Your character
 

@@ -13,7 +13,7 @@ Vests and helmets both come in three tiers, like PUBG's three levels, which keep
 | 3 | 5–6 | Heavy rifle plates and full-face assault helmets | 55% |
 
 - **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers are PUBG's 2018 values for levels 1 to 3, as a starting point to tune. There are no loose plates to find or swap.
-- **Legs:** no leg armor, since it mostly doesn't exist in real life.
+- **Legs:** leg armor has its own slot (owner, 2026-11-22; [Leg armor](#leg-armor-idea)).
 - **Makeshift upgrades:** armor can be upgraded half a tier, like a tier 1 helmet to a makeshift tier 1.5 or a tier 2 vest to a makeshift tier 2.5. Makeshift tiers have lower durability but can take one extra bullet. Upgrades are crafted in-match from scrap.
 - Players recover by [healing](healing.md).
 
@@ -186,10 +186,11 @@ The owner's idea (2026-11-22): armor for the hips, groin, and thighs, worn with 
 - **Real examples:** in 2025 Ukraine bought its first full-body fragmentation suits, about 2 kg, with "pteruges": a skirt-like belt of seven soft ballistic sections over the pelvis and upper thighs, made for drone and artillery fragments. The US Army's Pelvic Protection System (2011) paired Kevlar underwear covering the groin and inner thighs with a stiffer outer layer as strong as the soft parts of its vest. Medieval armor had tassets, plates hanging from the waist over the thighs.
 - **More kinds found (2026-11-22), for the owner to pick from:** groin protectors that hang from the vest, like Russia's 6B45 flap; ballistic underwear; pelvic outer garments, armored shorts over the pants; ballistic skirts; inner thigh modules and full thigh modules that strap to a vest, like UARM's ITAM and TAM; femoral plates, soft or hard; fragmentation trousers, as in Ukraine's full-body suit; riot leg guards against melee and thrown things; arterial stab protection, prison-guard gear that stops knives at the inner thighs; bomb suit trousers, very heavy; and historic tassets, cuisses, and samurai thigh guards.
 - **Its own slot (owner, 2026-11-22):** leg armor is found as its own loot and worn in its own slot, like a helmet or vest, with a small slowdown like every other piece.
-- **No stacking:** where a vest and leg armor both cover the groin, only the better one protects.
+- **No doubling up (owner, 2026-11-22):** two pieces that cover the same spot can't be worn together, like a vest with a groin flap and a battle skirt.
 - **Tiers 1 to 3,** like vests: soft panels at tiers 1 and 2, which stop fragments, buckshot, and pistol rounds, and hard thigh plates at tier 3. The numbers are TBD.
-- **Kinds so far:** the ballistic skirt is in, and ballistic underwear is out. The owner is still picking the rest.
-- **Wearing rules (owner's idea):** a vest or chest rig with a groin protector is fine, but some pairs may not be wearable together, like a vest with a groin flap and a battle skirt. Whether that's a loot rule or a wearing rule is open.
+- **Kinds (owner, 2026-11-22):** in are the ballistic skirt, groin flaps, inner thigh modules, thigh modules, femoral plates, fragmentation trousers, arterial stab protection, bomb suit trousers (crate-only or a rare, funny find), and historic tassets (a rare or event find). Out are ballistic underwear, pelvic outer garments, and riot leg guards. The garments are hardly armor, but they might make good clothing skins ([Skins](skins.md#wardrobe)).
+- **Groin flaps that take a plate:** the hard plate comes separately, found as its own loot (owner, 2026-11-22). That's unlike vests, whose plates come with them.
+- **The real 6B45 (to check, owner):** it comes in three setups. Light has no hard plates (NIJ II). Medium adds Granit plates front and back, with soft side and shoulder armor (NIJ III). Heavy, for assault troops, carries two plates front and back plus soft neck and groin protection (NIJ IV). Our [6B45](#fixed-vests) is one tier 3 vest without groin cover; whether it rolls its real setups is open.
 
 ## Helmets
 
@@ -251,6 +252,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 ## Sources
 
 - [United24: Ukraine's full-body protective suit (2025)](https://united24media.com/defense-tech/ukraine-develops-full-body-protective-armor-that-nato-armies-do-not-currently-field-23518) · [US Army: "Kevlar underpants" protect pelvic region (2012)](https://www.army.mil/article/74306/) · [UARM: TAM thigh armor module](https://uarmprotection.com/product/thight-armor-module/) · [UARM: ITAM inner thigh armor module](https://uarmprotection.com/product/inner-thigh-armor-module/) · [Ukrainian Armor: thigh protectors](https://ukrainianarmor.com/en/?p=2504) · [Med-Eng: EOD 10 bomb suit](https://med-eng.com/product/eod-10-suit-helmet)
+- [Wikipedia: 6B45 ballistic vest](https://en.wikipedia.org/wiki/6B45_ballistic_vest)
 - [Tarkov Forge: Armor chart](https://tarkovforge.com/armor) (vest classes, coverage, and penalties)
 - [Tarkov Forge: Helmet chart](https://tarkovforge.com/helmets) (helmet classes)
 - [Escape from Tarkov Wiki: Armor plates](https://escapefromtarkov.fandom.com/wiki/Armor_plates) (plate weights and penalties)

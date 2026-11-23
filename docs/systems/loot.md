@@ -82,7 +82,7 @@ Backpacks, scopes, and mag tiers follow the same idea: common low tiers everywhe
 Guns that came in a real carry case, like the [AS Val](../weapons/assault-rifles/as-val.md), [VSS Vintorez](../weapons/battle-rifles/vss.md), and [OTs-14 Groza](../weapons/assault-rifles/ots-14-groza.md), can spawn as a briefcase find (owner, 2026-11-22).
 
 - **Rare,** and locked: you pick the briefcase open to get the gun (owner's idea).
-- How long picking takes, and which other guns qualify, are TBD.
+- **The screwdriver** picks small locks ([Built-in tools](gameplay.md#built-in-tools)), so it's what opens a briefcase (our pick). How long picking takes, and which other guns qualify, are TBD.
 
 ## Sources
 

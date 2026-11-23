@@ -5,32 +5,23 @@ Everything still undecided or still to look up. When one is settled, it moves to
 ## Balance
 
 - **In-game range:** TBD on every gun page. Damage has a first pass on every version ([Starting damage](../systems/starting-damage.md)), to tune in play testing.
-- **CS gas rounds:** whether launchers get tear gas later, which would need a gas effect of its own ([Grenade launchers](../systems/attachments.md#ground-rounds-smoke-and-other-non-lethal-rounds)).
 - **Handling numbers:** a first pass per category, from PUBG's numbers, is on [Handling](../systems/handling.md). ADS times aren't in PUBG's data, so those are our picks; all of it gets tuned in play testing.
 - **Mag tiers:** every gun's current numbers are best guesses, to review later ([Attachments](../systems/attachments.md)).
-- **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, lethal grenade launchers and launcher rounds, and belt-fed guns too fast for the ground, but other guns' spots are undecided, and crate balancing comes later (the MG 42 / MG3 family could earn back some of its cut damage then). Every crate already comes with attachments that fit its gun; one idea is that a crate gun could also be a normal gun dropped fully kitted ([Crate weapons](../weapons/crate/index.md)).
+- **Crate weapons:** the crate rule covers anti-vehicle and heavy snipers, rocket launchers, lethal grenade launchers and launcher rounds, and belt-fed guns too fast for the ground, but other guns' spots are undecided, and crate balancing comes later (the MG 42 / MG3 family could earn back some of its cut damage then). Every crate comes with attachments that fit its gun ([Crate weapons](../weapons/crate/index.md)).
 
 ## Systems
 
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **Shields:** the first pass is approved; whether the flash shield really uses the class slot ([Shields](../systems/class-items.md#shields)).
-- **LMG family splits:** the RPK, RPK-74, and RPK-16 share one LMG page, split by cartridge, while the AKM and AK-74 are separate rifle families; the Bren and ZB vz. 26 also share one page, since the Bren is a licensed ZB ([RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md)).
-- **Game names:** our words for the red zone, blue zone, and boost bar ([Game names](game-names.md), [PUBG look and feel](legal-review.md#pubg-look-and-feel)).
-- **Match flow numbers:** plane altitude and speed, care packages per match, and each red zone's size, warning, length, and odds ([Match flow](../systems/match-flow.md)).
+- **Match flow numbers:** plane altitude and speed, each red zone's size, warning, and length, and whether every red zone form should be equally likely ([Match flow](../systems/match-flow.md)).
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
-- **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match; what scrap buys out of game ([Crafting](../systems/crafting.md#workbenches)).
-- **Victory line:** the game's own line for a win ([Gameplay](../systems/gameplay.md#match-setup)).
+- **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match ([Crafting](../systems/crafting.md#workbenches)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
-- **Vehicles per map:** which vehicles each map gets ([Gameplay](../systems/gameplay.md#vehicles-and-water)).
-- **Melee and tools:** the melee, pan, and breaching tool numbers look good to the owner but need play testing; check the numbers for throwing knives and nailing doors shut, and mortars' range and blast; what the screwdriver does ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
-- **PvE:** robot guards in vaults are the first form ([Robot guards](../systems/match-flow.md#robot-guards-idea)); what else PvE could be, and the guards' numbers.
-- **New class items:** how gas, the gas trap, and the gas mask balance ([More class items](../systems/class-items.md#more-class-items)).
-- **Taking things out of a match:** how many minutes before quest items count, and how skin-crafting items come out ([Crafting](../systems/crafting.md)).
-- **Comeback duel:** the underground arena's layout ([Comeback fight](../systems/gameplay.md#comeback-fight)).
-- **Leg armor (pants armor):** which of the other kinds make it in, whether some pairs can't be worn together, and its numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
-- **Animals:** how birds and other animals give players away ([Gameplay](../systems/gameplay.md#tracks-and-animals)).
-- **Match details:** radar station cost and spots, how many care packages drop, and how wanted-player contracts and moving loot work ([Match flow](../systems/match-flow.md)).
-- **Wire fences:** a possibility, not decided: drive through them, or cut a quiet gap with the built-in wire cutters or the Galil ARM's bipod ([Gameplay](../systems/gameplay.md#built-in-tools)).
+- **Melee and tools:** the melee, pan, and breaching tool numbers look good to the owner but need play testing; check the numbers for throwing knives and nailing doors shut, and mortars' range and blast ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
+- **PvE:** robot guards in vaults, sentries at radar stations, and patrols ([Robot guards](../systems/match-flow.md#robot-guards-idea)); their numbers.
+- **Gas:** gas damage, and the tear gas trap's numbers ([More class items](../systems/class-items.md#more-class-items)).
+- **Leg armor (pants armor):** whether the 6B45 rolls its real light, medium, and heavy setups, and leg armor numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).
+- **Match details:** how wanted contracts work beyond the scrap reward, which vehicles the vehicle drops bring, and the supply truck's numbers ([Match flow](../systems/match-flow.md)).
 
 ## Lookups
 

@@ -1665,6 +1665,7 @@ Approved 2026-11-22. The first map is **Teplov** (from *teplo*, warm, for its ho
 | Jailbreak (Warzone) | Breakout |
 | Most Wanted (Warzone) | Wanted |
 | StatTrak (Counter-Strike) | Kill counter |
-| "Winner winner chicken dinner" (PUBG) | Our own victory line, TBD |
-| Red zone, blue zone (PUBG) | Common phrases; kept for now, for the lawyer to check |
+| "Winner winner chicken dinner" (PUBG) | "The island is yours," with other variants to come (owner, 2026-11-22) |
+| Red zone, blue zone (PUBG) | Strike zone and the edge (owner, 2026-11-22) |
+| Boost bar (PUBG) | Stim (owner, 2026-11-22) |
 | Vault (Apex Legends), care package | Common words; kept |

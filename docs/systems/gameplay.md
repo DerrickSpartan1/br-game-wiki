@@ -87,7 +87,7 @@ Warzone-style 1v1 duels (owner, 2026-11-22):
 - **One redeploy:** each player gets one comeback per match. Winning, redeploying, and dying again ends your match, unless you've made another comeback at a [workbench](crafting.md#what-a-workbench-makes) with scrap.
 - **Only early:** the arena is open for the first couple of circles (first pass: until phase 2 ends). When it closes, anyone still waiting or fighting there redeploys for free.
 - **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.
-- **The arena** is hidden underground, so it never gets in the way of the match (owner). Its layout is TBD.
+- **The arena** is hidden underground, so it never gets in the way of the match (owner). It has several small layouts, and each duel rolls one (owner, 2026-11-22).
 - **Timer:** after 60 seconds a capture point opens, and whoever takes it wins (owner), like the flag in Warzone's Gulag.
 
 **Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
@@ -131,7 +131,7 @@ The lineup (owner, 2026-11-22): each PUBG vehicle gets a stand-in based on a sim
 | **Pakhar** (new) | Belarus-style farm tractor | — | — | — |
 | **Mamont** (new) | Ural-style 6x6 army truck: slow but tough | — | — | — |
 
-Dashes are numbers the sources checked don't give. Which vehicles each map gets is TBD; snow vehicles fit snow maps, for example.
+Dashes are numbers the sources checked don't give. Each map gets the vehicles that fit it (owner, 2026-11-22): boats on the coast, cars in towns, police vehicles near the police station, and so on. Snow vehicles fit snow maps.
 
 
 - **Fuel and tires:** like PUBG, vehicles run out of fuel and need refilling, and their tires can be shot out.
@@ -188,7 +188,7 @@ Every player carries a few small tools for in-game actions. They aren't items or
 - **Wire cutters:** cut a gap in a wire fence quietly, in about 3 seconds (our pick). Driving through a fence is fast but loud.
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
 - **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is left for later (owner, 2026-11-22). It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
-- **Screwdriver (idea):** what it does is TBD. Ideas: open electrical boxes to switch a building's lights off at night ([Time of day](match-flow.md#time-of-day-and-weather)), or unscrew vent covers for a quiet way in.
+- **Screwdriver (owner, 2026-11-22):** switches a building's lights off at its fuse box at night ([Time of day](match-flow.md#time-of-day-and-weather)), unscrews vent covers for a quiet way in, and picks small locks, like a [briefcase](loot.md#briefcases)'s.
 - **More tools** can come later.
 
 ### Nailing doors shut
@@ -211,14 +211,14 @@ Every player wears dog tags that can't be taken off.
 ## Tracks and animals
 
 - **Footprints** show in snow, mud, and similar ground, and **tire tracks** show where vehicles went.
-- **Animals that give you away (idea, to refine):** birds in trees and on buildings fly off when players get close, like Hunt: Showdown's crows, so a flock taking off tells others someone's there.
+- **Birds give you away (owner, 2026-11-22):** birds in trees and on buildings fly off when players get close, like Hunt: Showdown's crows, so a flock taking off tells others someone's there. Birds are the only animals for now: no farm dogs or livestock, since the owner isn't sure other animals belong.
 - **Noise makers:** the birds, [robot guards](match-flow.md#robot-guards-idea), and other things that react to players are player locators more than threats, like Hunt's crows, barking dogs, and spooked horses.
 
 ## Buildings & materials
 
 Buildings are semi-destructible, kept simple: doors, windows, and specific walls can break. Materials matter too.
 
-Wire fences (possibility): drive straight through them like PUBG, or cut a gap quietly for a stealthier approach. Every player carries wire cutters to cut a gap quietly ([Built-in tools](#built-in-tools)), while driving through is fast but loud.
+Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but loud, or cut a quiet gap with the wire cutters every player carries ([Built-in tools](#built-in-tools)).
 
 - Wood can be shot through.
 - Thin metal can be shot through by some weapons.
@@ -229,7 +229,7 @@ Wire fences (possibility): drive straight through them like PUBG, or cut a gap q
 - **Ranked:** a separate ranked playlist.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
-- **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." The wording is TBD.
+- **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22), with other variants to come.
 - **Player count:** set by each map's size; 100 on the first map ([Maps](maps.md)).
 - **Zone:** works like PUBG's, with damage that grows the deeper outside you are, so zone camping doesn't pay ([Match flow](match-flow.md#the-zone)).
 - **Red zones:** PUBG's red zone in several forms (bombardment, smoke, gas, and more to come), each announced by an air raid siren ([Match flow](match-flow.md#red-zones)).

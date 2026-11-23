@@ -2,7 +2,7 @@
 
 An exclusive pool of guns too powerful or special for the ground pool. They arrive by air drop.
 
-Every crate holds one crate weapon, its ammo, attachments that fit it, one tier 3 vest, one tier 3 helmet, and one class item ([Loot and spawning](../../systems/loot.md#changes-from-pubg)). Heavy and anti-materiel sniper rifles, like .50-caliber ones, go here, not in [snipers](../snipers/index.md).
+Every crate holds one crate weapon (never a normal gun, even fully kitted; owner, 2026-11-22), its ammo, attachments that fit it, one tier 3 vest, one tier 3 helmet, and one class item ([Loot and spawning](../../systems/loot.md#changes-from-pubg)). Heavy and anti-materiel sniper rifles, like .50-caliber ones, go here, not in [snipers](../snipers/index.md).
 
 What goes here: anti-vehicle and heavy sniper rifles (a head shot kills through any helmet, like PUBG's AWM), lethal grenade launchers and lethal launcher rounds, and belt-fed guns too fast for the ground ([Weapon pool](../../systems/weapon-pool.md#how-the-randomness-works)). The flash shield and rocket launchers are crate-only too, as [class items](../../systems/class-items.md).
 

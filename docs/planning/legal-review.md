@@ -66,8 +66,8 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | PUBG's name in marketing | Never used | Decided |
 | Erangel's zone phase numbers | Placeholders to test in game; our own numbers come from play tests | Later |
 | PUBG's 2017–2018 HUD | Our own look; the layout can stay similar where it's practical | To do with the HUD mockups |
-| Boost bar | Its own name and look | To do |
-| "Red zone," "blue zone," and the victory line | Our own words | Open |
+| Boost bar | Its own name and look | Named Stim (owner, 2026-11-22); look to do |
+| "Red zone," "blue zone," and the victory line | Our own words | Named: strike zone, the edge, and "The island is yours" (owner, 2026-11-22) |
 
 ## Copyright and AI
 

@@ -4,6 +4,14 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-22 | The RPK family and the Bren / ZB vz. 26 each stay on one page | [RPK](../weapons/lmgs/rpk.md), [Bren / ZB vz. 26](../weapons/lmgs/bren.md) |
+| 2026-11-22 | A quest item counts 5 minutes after pickup; skin-crafting items come out like scrap; outside matches, scrap only buys looks | [Crafting](../systems/crafting.md) |
+| 2026-11-22 | The screwdriver switches off lights, opens vents, and picks small locks; robot sentries at radar stations and robot patrols join the vault guards | [Built-in tools](../systems/gameplay.md#built-in-tools), [Robot guards](../systems/match-flow.md#robot-guards-idea) |
+| 2026-11-22 | Birds are the only animals for now; wire fences can be driven through or cut; each map gets the vehicles that fit it; the comeback arena rolls one of several layouts | [Tracks and animals](../systems/gameplay.md#tracks-and-animals), [Vehicles](../systems/gameplay.md#vehicles-and-water), [Comeback fight](../systems/gameplay.md#comeback-fight) |
+| 2026-11-22 | About 5 care packages a match plus 1 or 2 vehicle drops; one supply truck; wanted contracts pay scrap; radar stations are random, single-use, from 5 spots; red zone odds 40/20/10/10/10/10; crates only drop crate guns | [Care packages](../systems/match-flow.md#care-packages), [Red zones](../systems/match-flow.md#red-zones), [Radar stations](../systems/match-flow.md#radar-stations) |
+| 2026-11-22 | Our words: strike zone, the edge, Stim, and "The island is yours" | [Game names](../planning/game-names.md#other-games-terms) |
+| 2026-11-22 | The gas mask gets its own slot, goes on by itself in gas, and blocks aiming down sights; the tear gas trap stays; tear gas rounds come later; the flash shield uses the class slot | [Class items](../systems/class-items.md) |
+| 2026-11-22 | Leg armor kinds picked; pieces that cover the same spot can't be worn together; a groin flap's hard plate comes separately | [Leg armor](../systems/armor.md#leg-armor-idea) |
 | 2026-11-22 | Night is day for night with a locked exposure and shade never black; five rules keep dark and foggy matches fair; the watch sits on the inside of the left wrist (our pick) | [Night look](../systems/match-flow.md#night-look), [Fair in the dark](../systems/match-flow.md#fair-in-the-dark), [Wrist watch](../systems/match-flow.md#wrist-watch) |
 | 2026-11-22 | First-pass sun, moonlight, brightness-cheat, weather, and watch numbers for the lead (our pick) | [Time of day and weather](../systems/match-flow.md#time-of-day-and-weather) |
 | 2026-11-22 | The standard M14 is semi only; the other real gas cut-offs (military FALs, MAS-49/56, M59/66, BM 59, Tavor 7) go on the selector key like the Mondragón's | [Fixed triggers](../rules.md#fixed-triggers), [M14](../weapons/battle-rifles/m14.md) |

@@ -54,7 +54,15 @@ The planner's scheduled tasks follow these steps each time, so changing them her
 
 ### Lead check-in steps
 
-The lead's recurring task runs this prompt in its own session:
+The lead couldn't start its own recurring task (2026-11-24), so you start it: on the PC, type this one line into the lead's session (in its terminal, not from the phone). `30m` runs it every half hour, on the hour and the half hour:
+
+```text
+/loop 30m Lead check-in: pull the wiki and follow the "Lead check-in steps" on docs/planning/ai-team.md exactly.
+```
+
+It stops when that session closes and after 7 days, so type it again after a restart and every Monday. As a backstop either way, the lead pulls the wiki and reads the To-do page at the start of every task and after every step it finishes.
+
+The check-in runs this:
 
 ```text
 Lead check-in. Pull the wiki (DerrickSpartan1/br-game-wiki), then read its

@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | The edge's look: amber, see-through, static that sweeps inward while it moves, a tint at the screen's edges inside it, the white circle on the map and minimap only (our pick, owner asked) | [The edge: how it looks](../systems/match-flow.md#the-edge-how-it-looks) |
+| 2026-11-24 | Weather and hazard timing and sight: every heavy spell gets a warning, roll-in, hold, and clear-out; sight per weather, night, and hazard; a 30 s strike zone warning; gas lasts one gas mask; the smoke grenade holds 40 s (our pick, owner asked) | [Match flow](../systems/match-flow.md#hazards-timing-and-sight) |
 | 2026-11-23 | More curves on the map, not everything square: curved taxiway loops, paths, rounded grounds, quarry benches, field edges, and gentle road bends in the mock (owner); runways, quays, barracks rows, and prison walls stay straight (our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-23 | Spot layouts in full: Object 7 is a fenced airbase across the plateau with towers, its bunker linked underground to the road tunnel, and the school a big Soviet campus (owner); the other spots laid out the same way and the Zhuravl spawning at the airfield (our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-23 | First-person camera at the body's eyes; shots and pickups trace from it (our pick) | [Gameplay](../systems/gameplay.md) |

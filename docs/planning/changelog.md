@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | Playtest round 5 answers: [The edge: how it looks](../systems/match-flow.md#the-edge-how-it-looks), weather timing and [How far you can see](../systems/match-flow.md#how-far-you-can-see), and [Hazards: timing and sight](../systems/match-flow.md#hazards-timing-and-sight), with a picks page for the owner |
 | 2026-11-23 | A curves pass on [Our own spots](../systems/maps.md#our-own-spots) and [The full-map mock](../systems/maps.md#the-full-map-mock): Object 7's dispersal loops and wandering fence, the sanatorium split by the coast road, organic quarry benches, bent field edges and roads |
 | 2026-11-23 | Full layouts for every spot outside the towns on [Our own spots](../systems/maps.md#our-own-spots): Object 7's airbase, bunker, and passage to the tunnel, the school campus, and the rest; the full-map mock updated to 1,052 buildings |
 | 2026-11-23 | Answered the lead's round 4 questions: thrown melee aim, flight, and pickup, the inspect key, and eye height on [Gameplay](../systems/gameplay.md) |

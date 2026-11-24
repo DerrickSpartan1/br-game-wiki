@@ -51,6 +51,21 @@ Damage is a percent of full health, so armor doesn't change it.
 
 **Circles stay over land (planner's pick, 2026-11-22):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
 
+### The edge: how it looks
+
+The owner asked for the wall's look (2026-11-24). First pass, our pick; the color and the rest are on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) for the owner:
+
+- **Color:** amber, like heat haze over a road, not PUBG's blue. PUBG's maker has sued over a copied color scheme ([Legal review](../planning/legal-review.md#pubg-look-and-feel)), and amber can't be mixed up with the white safe circle or a red strike zone.
+- **See-through:** a tall curtain you see through like tinted glass. Players, buildings, and land behind it show, dimmed by about a third. Thin bright lines of static crawl up it.
+- **Height:** from the ground and the sea up past the highest hill, fading out about 600 m up, so it shows from a parachute and from the Zhuravl.
+- **From far away:** a faint amber band on the horizon from anywhere on the map. The static shows within about 300 m, and you hear it within about 50 m.
+- **Moving or not:** while it shrinks, the static sweeps toward the center, so you can tell at a glance that it's moving. Between shrinks it hangs still.
+- **Where it cuts through things:** a thin glowing line where it meets the ground, walls, and water. It passes through buildings and rocks and never stops shots, sound, or movement.
+- **Inside the edge:** a light amber tint and faint grain at the screen's edges, stronger the deeper you are, with a short pulse on each damage tick. How far you can see doesn't change, so a fight across the edge stays fair.
+- **Sound:** a low electric hum near it on the safe side. Inside, a dry crackle like a radio between stations, and a soft thump on each damage tick. When a shrink starts, a short low tone plays and the HUD says "The edge is moving".
+- **Night and fog:** it glows enough to see across the map at night but doesn't light the ground. In fog it shows through to 500 m, so nobody walks into it blind.
+- **The white circle:** the next safe area shows only on the map and minimap, as a thin white ring, never in the world. While you're outside it, a dashed white line on the minimap runs from you to its nearest edge, with the distance. The HUD shows the countdown to the next shrink.
+
 ### No zone camping
 
 Damage grows with how deep you are outside the zone and with how far into the match it is, so hiding in the blue to heal or flank doesn't pay. PUBG did this too: since October 2017, every circle after the first hurts more the farther outside you are. PUBG doesn't publish its formula; ours:
@@ -93,9 +108,24 @@ PUBG's red zone, in several forms. One at a time, at a random spot on the map on
 | **EMP** | Vehicles stall and electronics stop working inside the circle for a while: drones, scopes with batteries, and radars, like the [EMP grenade](weapon-pool.md#throwables) idea | Leave, or fight on iron sights until it passes | 1 in 6 |
 | **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave, or put on a [gas mask](class-items.md) | 1 in 6 |
 
-The circle's size, warning time, and how long each form lasts are TBD. Gas damage starts at 5 health a second (our pick).
+The circle's size is TBD. The warning, how long each form lasts, and how far you can see in it are under [Hazards: timing and sight](#hazards-timing-and-sight) (our pick, 2026-11-24). Gas damage starts at 5 health a second (our pick).
 
 **Odds (owner, 2026-11-22):** every form is equally likely, 1 in 6 each.
+
+### Hazards: timing and sight
+
+The owner asked how long each hazard lasts, how it comes and goes, and what you can see in it (2026-11-24). First pass, our pick. Every strike zone gives a 30-second warning first: the siren sounds and the circle shows on the map.
+
+| Hazard | Comes in | Lasts | Goes | How far you can see in it |
+| --- | --- | --- | --- | --- |
+| Bombardment | Shells start after the warning | 60 s of shelling | At once | Each shell's dust hides about 10 m around it for 5 s |
+| Smoke | 15 s, spreading from the center | 2 min | 30 s | About 10 m inside, thinning over the last 30 m to the circle's edge |
+| Firebombing | The bombers' pass takes about 10 s | The fires burn 60 s | Their smoke drifts 20 s more | About 30 m in the smoke downwind of the fires |
+| Creeping barrage | Shells start after the warning | The line takes 60 s to cross the circle | At once | A moving wall of dust, about 10 m deep |
+| EMP | At once, with a crackle and a flicker | 60 s | At once | Unchanged; scopes with batteries and drones go dark |
+| Gas | 20 s, spreading from the center | 2 min, the same as one [gas mask](class-items.md) lasts | 20 s | About 60 m, in a yellow-green haze |
+| Smoke grenade | 3 s | 40 s | 10 s | About 2 m inside a cloud about 8 m across. A real M18 smokes for 50 to 90 s; ours is shorter so one grenade covers a crossing or a revive, not a whole fight |
+| Inside the edge | — | — | — | Unchanged ([The edge](#the-edge-how-it-looks)) |
 
 ## Care packages
 
@@ -211,10 +241,33 @@ First-pass numbers (our pick):
 | Clear | 60% of matches start clear | Full sun, sharp shadows |
 | Overcast | 40% start overcast | Sunlight about half as bright, soft shadows |
 | Rain | 50% of heavy spells | Footsteps carry 25% less far |
-| Fog | 30% of heavy spells | Sight fades from 250 m and is about 150 m at its thickest |
+| Fog | 30% of heavy spells | Sight closes in from 1,000 m to about 150 m at its thickest |
 | Thunderstorm | 20% of heavy spells | Rain, plus a lightning strike every 20 to 60 seconds; each rumble lasts about 3 seconds and halves how far gunshots carry. Lightning lights up a night match for a moment |
 
-- **Heavy spells:** one match in three gets one. It rolls in over about a minute at a random time in zone phases 2 to 5, lasts 4 to 8 minutes, then clears over about a minute.
+- **Heavy spells:** one match in three gets one, at a random time in zone phases 2 to 5. Each one gives a warning, rolls in, holds, and clears, so nobody is caught by a wall of fog all at once (owner asked, 2026-11-24; numbers our pick):
+
+| Spell | Warning | Rolls in | Holds | Clears |
+| --- | --- | --- | --- | --- |
+| Rain | The light flattens and the clouds darken for 60 s | 90 s, from drizzle to full rain | 4 to 8 min | 90 s; puddles and wet shine stay 2 min more |
+| Fog | Mist gathers in the valleys and over the sea for 60 s | 2 min | 3 to 6 min | 2 min |
+| Thunderstorm | Distant thunder with no rain for 60 s | 2 min: wind and dark clouds, then heavy rain | 5 to 8 min | 90 s, the thunder moving away |
+
+#### How far you can see
+
+How far you can make out a standing player in the open (our pick, 2026-11-24). Players draw out to 1 km in every weather, so the weather sets the limit, not the draw distance.
+
+| Condition | Sight | How it looks |
+| --- | --- | --- |
+| Clear | 1 km | A light haze past 1.5 km |
+| Overcast | 1 km | Flat light, haze past 1 km |
+| Rain | 600 m at full rain | A gray veil from 300 m, wet shine on the ground |
+| Thunderstorm | 400 m in the downpour | A heavy veil from 200 m; each lightning flash lights everything for about a fifth of a second |
+| Fog | 150 m at its thickest, closing in from 1,000 m as it rolls in | White-gray from 60 m, flat light, no shadows |
+| Dusk and dawn | 300 m for about 5 minutes around sunset and sunrise | Low sun glare in one direction, long shadows |
+| Moonlit night | 100 m ([Moonlight](#time-passes)) | Lamps, flashlights, muzzle flashes, and fires show from 1 km; a night scope sees about 300 m |
+| Night with rain, fog, or a storm | The shorter of the two | |
+
+For scale, weather services call fog with about 200 m of sight thick fog, and under 50 m dense fog. Gas and smoke are under [Hazards: timing and sight](#hazards-timing-and-sight).
 
 **PUBG's lesson:** in 2017, an Erangel match could be cloudy, clear, sunset, rainy, or foggy. In January 2018, PUBG removed rain and fog because too many players quit those matches. Weather came back in August 2019 as dynamic weather that changes during a round. So no match starts in thick fog: heavy weather rolls in and clears during the match.
 
@@ -231,6 +284,7 @@ Every player wears a watch on the left wrist, visible in first person whenever t
 - [Gamepressure: PUBG red zone](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136) · [PUBG support: What is the red zone?](https://support.pubg.com/hc/en-us/articles/115004198974-What-is-the-red-zone) · [Samurai Gamers: PUBG battle area](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/pubg-battle-area-intro/)
 - [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop)
 - [PC Gamer: Apex Legends vault keys (2019)](https://www.pcgamer.com/how-to-open-apex-legends-vaults-locations-key) · [GameSpot: Apex Legends vaults](https://www.gamespot.com/articles/apex-legends-golden-vaults-where-to-find-keys-and-/1100-6470435/) · [Apex Legends Wiki: Vault Key](https://apexlegends.wiki.gg/wiki/Vault_Key)
+- [Met Office: How fog affects travel](https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/travel/how-fog-affects-travel) (thick fog about 200 m, dense fog under 50 m) · [FAS: M18 colored smoke grenade](https://man.fas.org/dod-101/sys/land/m18.htm) (50 to 90 seconds of smoke)
 - [PUBG Wiki: Weather](https://pubg.wiki.gg/wiki/Weather) · [Thumbsticks: PUBG removes rain and fog (2018)](https://www.thumbsticks.com/pubg-lost-rain-fog-conditions-01032018/)
 - [Wikipedia: Day for night](https://en.wikipedia.org/wiki/Day_for_night) · [Player.One: PlayerUnknown on parity between low and high settings (2017)](https://www.player.one/playerunknown-interview-parity-low-high-graphics-battlegrounds-121445) · [PC Gamer: PUBG settings guide](https://www.pcgamer.com/best-pubg-settings/) · [Unreal forums: stopping players changing ini files](https://forums.unrealengine.com/t/can-we-prevent-users-from-changing-ini-config-files/467236)
 - [Charlie Intel: Modern Warfare watches show real-world time](https://www.charlieintel.com/modern-warfare/watches-in-game-in-call-of-duty-modern-warfare-showcase-real-world-time-55492/)

@@ -148,6 +148,12 @@ When you tell the lead "check the planner's list," it works through this section
     - Bombardment: any solid building over your head shelters you, doorways and windows included, and wooden houses never give way yet (no building materials). OK for now?
     - At the placeholder rates a player standing in the open through a whole bombardment has about a 1% chance of a direct hit (90 shells, 3 m kill radius, 500 m circle). The creeping barrage moves at about 6.7 m/s, a bit faster than a sprint. Threatening enough? Circle sizes per form are TBD on the page.
     - Smoke has timing but no look yet. Its look and how it blocks sight?
+- **Weather and care packages now read from the page (lead, 2026-11-24).** Open points:
+    - **Distant thunder:** the thunderstorm's warning rumbles too. Should distant thunder also halve how far gunshots carry, or only the storm itself?
+    - **Dusk sight:** is "300 m for about 5 minutes around sunset" real or in-game minutes? And does night's 100 m start at sunset (20:28) or at full dark?
+    - **Heavy spells:** must a spell end by the end of phase 5 (how it's built), or only start somewhere in phases 2 to 5?
+    - **Care packages:** late phases are short (90–160 s), so a crate can arrive a phase late. OK? And the med kit's chance (30% placeholder)?
+    - **How much of a spell shows during its warning** (placeholder 15%)?
 
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:

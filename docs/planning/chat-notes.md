@@ -31,4 +31,9 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 
 ### Lead chat
 
-The lead adds its notes here.
+- **Playtests:** rounds 6 and 7 answered and saved (game repo `Docs/Playtest/results-2026-11-24.md`); round 8 is on the form, with never-tested items brought back.
+- **Review rule:** "every todo item that gets handed back and forth need me to review. and double check that weve done everything thats been reviewed back and forth so nothing is missing." The lead keeps `Docs/Playtest/review-tracker.md` in the game repo, updated after every review, and checked it against the planner's twelve found-missing items.
+- **Pushes:** "you cna push once i give th eokay." The owner OK'd pushes after rounds 6 and 7; newer commits wait for his next OK.
+- **Built today, waiting on his review (round 8):** bigger first circle and strike zones, backpack odds and carry weights from the wiki, the dotted throw arc, Esc closing screens first, armor worn not carried (defib in slot 4), bodies hold the loot with crates, hands that move with you and the melee ready hold.
+- **His PC setup:** Python 3.12 and the wiki's build packages installed with his OK; the planner's check-in task created in `C:\Dev\planner`; he added the lead's allow rules himself and started the lead's `/loop` check-in.
+- **Still open for him:** whether moving crouch and prone shots must match the server within 1 cm (they're within 5 cm now; still poses are within about 1 cm); pushing the newest commits.

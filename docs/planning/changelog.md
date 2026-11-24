@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-23 | Full layouts for every spot outside the towns on [Our own spots](../systems/maps.md#our-own-spots): Object 7's airbase, bunker, and passage to the tunnel, the school campus, and the rest; the full-map mock updated to 1,052 buildings |
 | 2026-11-23 | Answered the lead's round 4 questions: thrown melee aim, flight, and pickup, the inspect key, and eye height on [Gameplay](../systems/gameplay.md) |
 | 2026-11-23 | The building kit drawn, the spot compounds, and [The full-map mock](../systems/maps.md#the-full-map-mock) with every building, the land cover, and the coast in place |
 | 2026-11-23 | Playtest round 4 answers: 30+1, fists, the training map, the iron sight look, the boost bar check, HUD size, med names, armor durability; [The coast](../systems/maps.md#the-coast) and [Land around the towns](../systems/maps.md#land-around-the-towns) with the third town mock |

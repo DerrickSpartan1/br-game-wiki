@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | Spot layouts in full: Object 7 is a fenced airbase across the plateau with towers, its bunker linked underground to the road tunnel, and the school a big Soviet campus (owner); the other spots laid out the same way and the Zhuravl spawning at the airfield (our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-23 | First-person camera at the body's eyes; shots and pickups trace from it (our pick) | [Gameplay](../systems/gameplay.md) |
 | 2026-11-23 | No separate inspect key: hold X with melee out (our pick) | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-23 | Thrown melee: right mouse to aim with an arc, left mouse to throw, 20 m/s with gravity (about 40 m), only the thrower picks it up (our pick) | [Gameplay](../systems/gameplay.md#melee) |

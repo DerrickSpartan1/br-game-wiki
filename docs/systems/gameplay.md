@@ -137,7 +137,7 @@ The lineup (owner, 2026-11-22): each PUBG vehicle gets a stand-in based on a sim
 | **Pakhar** (new) | Belarus-style farm tractor | — | — | — |
 | **Mamont** (new) | Ural-style 6x6 army truck: slow but tough | — | — | — |
 
-Dashes are numbers the sources checked don't give. Each map gets the vehicles that fit it (owner, 2026-11-22): boats on the coast, cars in towns, police vehicles near the police station, and so on. Snow vehicles fit snow maps.
+Dashes are numbers the sources checked don't give. Each map gets the vehicles that fit it (owner, 2026-11-22): boats on the coast, cars in towns, police vehicles near the police station, and so on. Snow vehicles fit snow maps. On Teplov, the Zhuravl motor gliders spawn at Object 7's airfield, by its glider hangars and on the apron (our pick, 2026-11-23; [Our own spots](maps.md#our-own-spots)).
 
 
 - **Fuel and tires:** like PUBG, vehicles run out of fuel and need refilling, and their tires can be shot out.

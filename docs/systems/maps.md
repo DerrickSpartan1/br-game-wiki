@@ -67,8 +67,8 @@ Approved on the v3 mockup.
 
 | Spot | Where | Notes |
 | --- | --- | --- |
-| Military Outpost | The plateau's center | A bunker underneath holds one of the [vaults](match-flow.md#vaults-and-keys) |
-| Tunnel | About 1.7 km under the plateau's east edge, from Casamicciola's road to the south road | A shortcut and an ambush spot. The last circles can't end underground; bombardment shells can't reach it, but a gas red zone fills it |
+| Military Outpost | The plateau's center | An airbase across the plateau, fenced, with watchtowers (owner, 2026-11-23). A bunker underneath holds one of the [vaults](match-flow.md#vaults-and-keys), and a passage runs from it to the Tunnel |
+| Tunnel | About 1.7 km under the plateau's east edge, from Casamicciola's road to the south road | A shortcut and an ambush spot. The last circles can't end underground; bombardment shells can't reach it, but a gas red zone fills it. A blast door in its west wall opens onto the passage from the Military Outpost's bunker |
 | Prison | Alone in the southwest, past Panza | Cut off, like Erangel's |
 | Port | Ischia Porto, the real ferry harbor | Containers, cranes, and a ferry, like Georgopol's docks |
 | Fishing Dock | Forio's harbor | A small pier and boats |
@@ -76,23 +76,37 @@ Approved on the v3 mockup.
 | Quarry | The south slopes above the coast | — |
 | Thermal Spa | Just west of Casamicciola Terme | Ischia is known for its hot springs |
 | Hospital | East of Lacco Ameno | — |
-| School | Between Barano and Ischia | — |
+| School | Between Barano and Ischia | A big Soviet school campus (owner, 2026-11-23) |
 | Farm | The fields near Cuotto | — |
 
-**Spot compounds (first pass, our pick, 2026-11-23):** the full-map mock lays each spot out from 15 spot building types (barracks, headquarters, vehicle hangar, guard tower, cell block, prison gatehouse, gantry crane, container stack, ferry terminal, stone crusher, cow shed, silo, sanatorium, hospital, gym):
+**Spot layouts (first pass, our pick, 2026-11-23):** the owner wanted the spots outside the towns laid out properly: an airfield at the military base, fences and towers, the bunker linked underground to the tunnel, and the school as a big Soviet campus. The planner's building canvas draws each spot as a site plan with a numbered key, and the [full-map mock](#the-full-map-mock) places them. Coordinates are meters from the map's north-west corner, x east and y south.
+
+**Object 7, the airbase:**
+
+- **Fence:** a double fence about 1.7 × 1.2 km around the plateau, from (2960, 2880) to (4640, 4030), with a watchtower every 230 m. Roads and farm tracks stop at it.
+- **Gates:** the main gate checkpoint on the road up from Verkhovye at (3850, 4030), with a jet on a plinth outside, and the north gate on the track to Gribovo at (3925, 2880).
+- **Airfield, the north half:** a 1,500 × 36 m concrete runway (09/27) along y 3000 from x 3050 to 4550, and a 15 m taxiway beside it at y 3110 with three links. Six hardened aircraft shelters, 30 × 20 m concrete arches in earth berms. An apron with two 40 × 30 m glider hangars, where the [Zhuravl](gameplay.md#vehicles-and-water) motor gliders spawn. A four-floor control tower with the flight operations block, the airfield fire station, a fenced fuel depot with four tanks, and a radar dome with a 60 m mast.
+- **Ammunition area, the west side:** six earth-covered bunkers inside their own double fence, with towers.
+- **Base, the south half:** the headquarters facing the parade ground, four three-floor barracks, the mess hall, a medical post, the motor pool, the boiler house and water tower, three warehouses, officers' housing, an obstacle course, a 350 m shooting range, two helipads, the bathhouse, the guardhouse by the main gate, kennels, garages, and the soldiers' club.
+- **Underground (owner, 2026-11-23):** the bunker entrance stands on the vault point at (3758, 3742): a concrete block with a ramp and blast doors down to the bunker, about 18 m down, which holds the vault. From it a passage about 3 m wide and high runs 845 m east, nearly level, to a blast door in the road tunnel's west wall at (4603, 3768). A ladder shaft halfway, at (4180, 3762), is the escape hatch. That makes the tunnel a back way into the base.
+
+**The other spots:**
 
 | Spot | Layout |
 | --- | --- |
-| Object 7 | A fenced 240 × 185 m compound on the plateau: headquarters, three barracks, two vehicle hangars, a parade ground, a helipad, a guard tower at each corner, and the bunker entrance on the vault point |
-| Ostrog | A walled 270 × 180 m prison with corner towers and an inner fence: three cell blocks, the administration block, the canteen, the exercise yard, the gatehouse, and the armory on the vault point |
-| Gavansk Port | A 300 × 110 m quay with container stacks, two gantry cranes over the water, two warehouses, the ferry terminal, and the ferry at its berth |
-| Vetrovo Pier | A 110 m pier with boats, and two boathouses at its root |
-| Krepost | The castle keep, a ruined cathedral, and two houses on the islet |
-| Kamenolom | A terraced pit about 280 × 190 m, with the stone crusher and its conveyor, sheds, and gravel piles |
-| Sanatorium | The 70 m sanatorium block, two pools, two guest houses, and a park |
-| Hospital | The four-story hospital with a wing, a car park, ambulance garages, and a helipad |
-| School | The school and its gym, a sports field, and a fence |
-| Kolkhoz | Three cow sheds, three silos, a barn, a machine shed, and the farm office around a dirt yard |
+| School | A fenced campus about 540 × 395 m: the Soviet Ш-shaped main school (three floors, a long front with three wings behind), the assembly hall and canteen, a gym with a 25 m pool, workshops, three four-floor boarding houses for pupils from the villages, a four-floor technical college with a small observatory dome, five-floor teachers' apartments, a stadium with a 400 m track, sports courts, a 50 m rifle range, a greenhouse and garden, the boiler house, the front square with a flagpole and monument, the gate, a primary school, a kindergarten, the library and pioneer house, an old tank on a plinth, a car park and bus stop, garages, and an orchard |
+| Ostrog | A walled colony about 340 × 240 m: a 6 m wall, an inner fence, and a raked strip between, with watchtowers every 60 m. Inside, the living zone has four two-floor dormitory blocks in fenced yards, the canteen, bathhouse, club, chapel, and a punishment block; the work zone, behind its own wall, has the sawmill, sewing shop, timber yard, and boiler house. The checkpoint is the only gate. Outside the east wall: the administration, the guard barracks and armory (the vault), the visitors' building, and kennels |
+| Gavansk Port | A 500 m quay with two gantry cranes on rails, a container yard stacked one to three high, three 60 × 24 m warehouses, the ferry terminal and ramp with the ferry, the three-floor port office, a fuel depot, the customs post and gate, a truck park, and a breakwater with a small lighthouse sheltering the fishing boats and tugs |
+| Kamenolom | An open pit of five benches, each about 6 m deep, with a pond at the bottom and a haul road spiraling down. At the top: the 16 m stone crusher, conveyors and the screening plant, stockpiles, truck loading bins, the workshop, office and canteen, a weighbridge, an excavator and dump trucks, and a fenced, earth-covered explosives magazine off to the side |
+| Sanatorium | A four-floor neoclassical main building with a columned portico and two wings, thermal baths over the hot springs, three outdoor pools stepping down the slope, the dining hall, six guest cottages, a club and cinema, a park with radial alleys, a fountain, and a rotunda, a promenade and stairs down to the beach, a sports ground, the boiler house, and the gate on the coast road |
+| Hospital | A five-floor ward block with a three-floor surgical wing, the outpatient clinic on the road, a maternity building, an infectious diseases pavilion behind its own fence, the morgue, kitchen and laundry, the boiler house, ambulance garages, a helipad, two staff housing blocks, and a park between them. No Red Cross emblem |
+| Kolkhoz | Four 72 × 12 m cow sheds, the milking block and calf shed, three silage trenches, a steel water tower on a column, three silos, the machine yard, a grain yard with its drying tower, an earth-covered vegetable store, the office with a board of honor and a worker statue, a club, a short street of workers' houses, and a pond with haystacks |
+| Krepost | The causeway and gatehouse at the rock's foot, the covered ramp cut up through the rock, the keep at the top, the roofless cathedral, the convent and cloister, the castle prison cut into the rock, a chapel, terraced olive groves, gun platforms along the walls, and a café terrace |
+| Vetrovo Pier | A breakwater with a small lighthouse, a 110 m fishing pier, the fish market, a boat repair yard with a slipway, boathouses, net sheds and drying racks, an ice plant, a fuel point, the harbor master, and fishing boats |
+
+- **New building types:** the layouts add about 30 types the kit doesn't draw yet, such as hardened aircraft shelters, the control tower, ammunition bunkers, boarding houses, the prison dormitories, the lighthouse, and the thermal baths. They're plain blocks in the mock, sized on the canvas.
+- **Access roads:** Ostrog gets a short paved road, about 150 m, from its admin area east to the nearest farmstead track, and the Kolkhoz farm track arrives at the admin area. Kamenolom gets a new dirt road, about 1.4 km, north-west to the nearest local road. Neither is in the [layout file](#layout-coordinates) yet.
+- **Looks:** the shelters follow Soviet hardened aircraft shelters in earth berms; the colony follows the Soviet corrective colony's zones; the sanatorium follows spa towns like Tskaltubo in Georgia; the Kolkhoz water tower is a Rozhnovsky tower, the steel tank on a column seen on Soviet farms.
 
 ### Marina, farms, and vaults
 
@@ -206,9 +220,9 @@ Not everything is farmland (owner, 2026-11-23): some of it is trees, woods, and 
 
 ### The full-map mock
 
-**Everything together (2026-11-23):** the planner's building canvas puts the whole island on one 10 × 8 km map: the 12 towns from the third town mock, the 67 farmsteads where the graybox's farm tracks end (1 to 4 buildings each), the spot compounds above, every road, the river, the lake, and the tunnel from the [layout file](#layout-coordinates), the coast from [The coast](#the-coast), and land cover across the whole island. That's 958 buildings: 754 in the towns, 155 on farmsteads, and 49 at the spots, plus 20 containers.
+**Everything together (2026-11-23):** the planner's building canvas puts the whole island on one 10 × 8 km map: the 12 towns from the third town mock, the 67 farmsteads where the graybox's farm tracks end (1 to 4 buildings each), the [spot layouts](#our-own-spots) above, every road, the river, the lake, and the tunnel from the [layout file](#layout-coordinates), the coast from [The coast](#the-coast), and land cover across the whole island. That's 1,052 buildings: 745 in the towns, 155 on farmsteads, and 152 at the spots, plus 27 containers. Town buildings that fell inside the spots' new grounds were taken out.
 
-- **Land between the towns (our pick):** it follows [Land around the towns](#land-around-the-towns) by height: bare rock, scrub, and meadow on the plateau; chestnut and oak woods on the upper slopes; vineyards with woods lower down; and vineyards, fields, and orchards near the coast. Scrub thickens toward the cliffs, and pine woods grow on the lava flows by Gavansk. Across the island that comes to vineyards 28%, chestnut and oak woods 25%, scrub 18%, meadow 10%, orchards 8%, fields 7%, pine 3%, and bare rock 2%.
+- **Land between the towns (our pick):** it follows [Land around the towns](#land-around-the-towns) by height: bare rock, scrub, and meadow on the plateau; chestnut and oak woods on the upper slopes; vineyards with woods lower down; and vineyards, fields, and orchards near the coast. Scrub thickens toward the cliffs, and pine woods grow on the lava flows by Gavansk. Across the island that comes to vineyards 25%, chestnut and oak woods 25%, meadow and grass 19%, scrub 12%, orchards 8%, fields 7%, pine 2%, and bare rock 1%, with Object 7's grounds now taking much of the plateau.
 - **Coast:** about 37.5 km around: cliffs 12.6 km, low rocky shore 15.1 km, beaches 4.9 km, and harbors 4.8 km.
 
 ### Layout coordinates
@@ -264,6 +278,7 @@ Idea for night maps where flashlights and stealth matter. Night scopes like the 
 
 - [Berardi and others, wildfire forecasting on Ischia (2025, PDF)](https://iris.uniroma1.it/bitstream/11573/1732770/1/Berardi_Forecasting-of-wildfire_2025.pdf) (land cover by hectare) · [Ischia.it: the Falanga wood](https://ischia.it/en/falanga-wood) · [Ischia.it: the Maddalena wood](https://ischia.it/en/maddalena-wood) · [Ischia.it: the Mirtina pine wood](https://ischia.it/en/pineta-mirtina) · [Ischia.it: the pine woods](https://booking.ischia.it/en/tour-services/in-the-green-of-the-pine-forests-2)
 - [Geosciences (2023): the Maronti cliffs and beach](https://www.mdpi.com/2076-3263/13/10/313) (cliffs 50 to 120 m) · [EMODnet bathymetry, 2024 release](https://emodnet.ec.europa.eu/en/emodnet-bathymetry-dtm-2024-release) (about a 115 m grid)
+- [Wikipedia: Hardened aircraft shelter](https://en.wikipedia.org/wiki/Hardened_aircraft_shelter) · [Air Power Australia: hardening air bases](https://www.ausairpower.net/APA-2008-02.html) · [Wikiwand: Corrective colony](https://www.wikiwand.com/en/articles/Corrective_colony) · [Atlas Obscura: Tskaltubo](https://www.atlasobscura.com/places/tskaltubo-abandoned-soviet-sanatorium-town) · [FB.ru: the Rozhnovsky water tower (Russian)](https://fb.ru/article/339172)
 - [PUBG's official map images (GitHub: pubg/api-assets)](https://github.com/pubg/api-assets) · [PUBG Interactive Map: map comparison](https://pubgmap.io/compare.html) · [Beebom: Erangel's building types](https://beebom.com/everything-you-need-to-know-pubg-locations/amp/)
 
 - [PUBG Wiki: Erangel (Classic)](https://pubg.wiki.gg/wiki/Erangel_(Classic))

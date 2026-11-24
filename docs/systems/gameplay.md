@@ -32,6 +32,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 The view and the way guns are held look like PUBG's first person (owner, 2026-11-22). Two PUBG screenshots are in the game repo at `Art/Reference/FirstPerson/`, for reference only.
 
 - **Field of view:** a slider from 80 to 103, with 90 as the default, like PUBG's first person. Both are horizontal, measured on a 16:9 screen, so the numbers carry straight over to Unreal's camera. Parachuting is third person, with a fixed view.
+- **Eye height (our pick, 2026-11-23):** the first-person camera sits at the player body's eyes, not below them. Shots and pickups trace from the camera, so they come from the eyes too. When the body changes, the camera moves with its eyes and the hip hold is retuned to match.
 - **The gun's own view:** the gun draws with its own field of view and scale, so it never pokes through walls and stays the same size whatever the slider says (our pick). That's Unreal's First Person Rendering, already set up from the template ([Animation](../planning/art-and-sound.md#animation)).
 
 ### At the hip
@@ -164,7 +165,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
     | Ready time | 0.5 s | PUBG's melee ready delay |
     | Run speed with it out | 6.3 m/s | PUBG's unarmed and melee speed ([Handling](handling.md)) |
 
-- **Inspects:** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder.
+- **Inspects:** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X; no separate inspect key, our pick 2026-11-23), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder.
 - **The roster:** all sorts, with plain names and no brands. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list:
 
     | Kind | Weapons |
@@ -187,6 +188,9 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Bayonets:** a version that really had a bayonet lug has a chance to spawn with a bayonet fitted, for a quicker melee: a stab with the gun still up, instead of switching to your melee. Same damage as any melee hit. First pass (our pick): a 1 in 4 chance, rolled when the gun spawns. The gun pages will need to mark which versions had a lug.
 - **Throwing knives** are a throwable you pick back up ([Throwables](weapon-pool.md#throwing-knives)).
 - **Throwing your melee (owner, 2026-11-23):** every melee weapon can be thrown for the same damage, like PUBG's thrown melee. It lands where it hits, and you go pick it back up; until then you fight with your fists. Fists can't be thrown (our pick).
+    - **How to throw (our pick, 2026-11-23):** with the melee weapon out, hold right mouse to aim, which shows an arc like a grenade's, and press left mouse to throw. This is PUBG's way ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)).
+    - **Flight (our pick, 2026-11-23):** thrown at 20 m/s with normal gravity, which carries about 40 m at most, PUBG's longest melee throw ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)). PUBG cuts thrown damage past 15 m; ours keeps the same damage at any range, as the owner set.
+    - **Who picks it up (our pick, 2026-11-23, waiting on the owner):** only the player who threw it. Your melee is something you own, so nobody else walks off with it. If you die before picking it up, it stays where it landed.
 
 ## Built-in tools
 

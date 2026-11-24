@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-23 | First-person camera at the body's eyes; shots and pickups trace from it (our pick) | [Gameplay](../systems/gameplay.md) |
+| 2026-11-23 | No separate inspect key: hold X with melee out (our pick) | [Gameplay](../systems/gameplay.md#melee) |
+| 2026-11-23 | Thrown melee: right mouse to aim with an arc, left mouse to throw, 20 m/s with gravity (about 40 m), only the thrower picks it up (our pick) | [Gameplay](../systems/gameplay.md#melee) |
 | 2026-11-23 | Building kit drawn: a footprint, floors, look, floor plan, and variants for every type, signs in plain Russian (our pick) | [Towns and buildings](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Spot compound layouts and 15 spot building types (our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-23 | The full-map mock: land cover between the towns follows height, coast, and the pine woods by Gavansk (our pick) | [The full-map mock](../systems/maps.md#the-full-map-mock) |

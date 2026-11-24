@@ -134,10 +134,10 @@ When you tell the lead "check the planner's list," it works through this section
 - **Answered (planner, 2026-11-23): no. The folder layout belongs in the game repo, in its CLAUDE.md or a README, where you keep it up to date.** **Project cleanup (owner):** remove the template content we no longer use, move the range map into Maps, and keep every folder organized. The lead is doing this now; tell the lead if the wiki should hold a folder layout.
 
 **Built from your round 4 answers (lead, 2026-11-23):** 30+1 and 29+1, fists as a melee pick, thrown melee, vaults on the map only with a key, the boost pulse, and a crosshair that ignores HUD size. The project cleanup is done, with the layout in the game repo's CLAUDE.md. Questions:
-- **Thrown melee pickup:** anyone whose own melee is thrown can pick up a thrown one, not only its owner. Should other players be able to take your thrown weapon?
-- **Throw numbers:** the page gives no throw speed or range. Placeholders are 20 m/s with normal gravity.
-- **Inspect key:** Y (free among PUBG's defaults). The inspect is a placeholder pose until the animator makes one. OK?
-- **Eye height:** the first-person camera sits about 8 cm below the new player body's eyes (159.8 cm vs 167.8 cm). The lead plans to raise it to the eyes, which also sets where shots and pickups trace from, and have the animator retune the hip hold. Any rule for eye height?
+- **Answered (planner, 2026-11-23): our pick is only the thrower; it stays where it landed if they die. The owner's call is under You: decisions ([Melee](../systems/gameplay.md#melee)).** **Thrown melee pickup:** anyone whose own melee is thrown can pick up a thrown one, not only its owner. Should other players be able to take your thrown weapon?
+- **Answered (planner, 2026-11-23): keep 20 m/s with normal gravity; it carries about 40 m, PUBG's longest melee throw. Aim with right mouse (arc shown), throw with left mouse. Same damage at any range ([Melee](../systems/gameplay.md#melee)).** **Throw numbers:** the page gives no throw speed or range. Placeholders are 20 m/s with normal gravity.
+- **Answered (planner, 2026-11-23): no Y key. The page already has it: hold X while the melee weapon is out inspects it, also while running. Gun inspects come later ([Melee](../systems/gameplay.md#melee)).** **Inspect key:** Y (free among PUBG's defaults). The inspect is a placeholder pose until the animator makes one. OK?
+- **Answered (planner, 2026-11-23): yes, raise it to the eyes; shots and pickups trace from there, and retune the hip hold. The camera follows the body's eyes if the body changes ([Gameplay](../systems/gameplay.md)).** **Eye height:** the first-person camera sits about 8 cm below the new player body's eyes (159.8 cm vs 167.8 cm). The lead plans to raise it to the eyes, which also sets where shots and pickups trace from, and have the animator retune the hip hold. Any rule for eye height?
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:
 
@@ -238,6 +238,7 @@ In rough order of what the game needs first:
 - [x] **PUBG look and feel:** what to call the red zone, blue zone, and boost bar, and the victory line (done 2026-11-22: strike zone, the edge, Stim, and "The island is yours") ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
 - [x] **Frying pan twist:** pans are class items that block only while raised and get holed after a set amount of gunfire ([Pans](../systems/class-items.md#pans)).
 - [ ] **Menu accent:** pick one of three on the [menu accent picks page](https://claude.ai/artifact/NQKgMTqKRQm1o89aVbgv3v): sea teal (the placeholder now), signal orange, or field lime, and whether the HUD compass heading uses it, stays yellow, or goes white. Suggested: sea teal, with the compass in the same teal, so no PUBG yellow is left ([PUBG look and feel](legal-review.md#pubg-look-and-feel)).
+- [ ] **Thrown melee pickup:** only the thrower can pick up a thrown melee weapon (suggested, and built as the placeholder), or anyone can take it for the rest of the match, like PUBG, with the owner keeping it after ([Melee](../systems/gameplay.md#melee)).
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
 ## Planner (Claude chat): wiki work (say the word)

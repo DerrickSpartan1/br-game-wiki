@@ -110,7 +110,7 @@ PUBG's red zone, in several forms. One at a time, at a random spot on the map on
 | **EMP** | Vehicles stall and electronics stop working inside the circle for a while: drones, scopes with batteries, and radars, like the [EMP grenade](weapon-pool.md#throwables) idea | Leave, or fight on iron sights until it passes | 1 in 6 |
 | **Gas** | Gas fills the circle and does damage every second, through armor and indoors | Leave, or put on a [gas mask](class-items.md) | 1 in 6 |
 
-The circle's size is TBD. The warning, how long each form lasts, and how far you can see in it are under [Hazards: timing and sight](#hazards-timing-and-sight) (our pick, 2026-11-24). Gas damage starts at 5 health a second (our pick).
+The warning, how long each form lasts, and how far you can see in it are under [Hazards: timing and sight](#hazards-timing-and-sight) (our pick, 2026-11-24). Gas damage starts at 5 health a second (our pick).
 
 **Odds (owner, 2026-11-22):** every form is equally likely, 1 in 6 each.
 
@@ -130,6 +130,8 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 | Inside the edge | — | — | — | Unchanged ([The edge](#the-edge-how-it-looks)) |
 
 **Owner's picks (2026-11-24):** every timing and sight above as suggested, except the warning, which is 20 seconds instead of 30.
+
+**The barrage's dust (our pick, 2026-11-24):** its shells fall in a band about 30 m deep ([Sizes and damage](#hazards-timing-and-sight) below); inside that band the dust hides all but about 10 m, and each shell's dust hangs 5 s, as in a bombardment.
 
 **Sizes and damage (our pick, 2026-11-24, answering the lead; the bigger sizes owner, 2026-11-24):**
 
@@ -163,6 +165,7 @@ Random, like PUBG's:
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
 - **Late phases (our pick, 2026-11-24):** packages are timed by the match clock, so in the short late phases one can land a phase after the one it's counted for. That's fine, but the last one lands before phase 7 starts.
+- **Landing early (our pick, 2026-11-24):** a phase early is fine too. A package plane takes about 5 minutes from take-off to a landed crate, so the phase 5 and 6 packages land around phases 4 and 5. What counts is about one package per phase from 2 to 6, all landed before phase 7.
 - **Med kit chance (our pick, 2026-11-24):** 30%, about one package in three.
 - **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner): armored or special vehicles only, since gliders and the rest spawn normally. For now that's the [Ezh](gameplay.md#vehicles-and-water) armored scout car (owner, 2026-11-22).
 
@@ -278,7 +281,7 @@ First-pass numbers (our pick):
 | --- | --- | --- | --- | --- |
 | Rain | The light flattens and the clouds darken for 60 s | 90 s, from drizzle to full rain | 4 to 8 min | 90 s; puddles and wet shine stay 2 min more |
 | Fog | Mist gathers in the valleys and over the sea for 60 s | 2 min | 3 to 6 min | 2 min |
-| Thunderstorm | Distant thunder with no rain for 60 s | 2 min: wind and dark clouds, then heavy rain | 5 to 8 min | 90 s, the thunder moving away |
+| Thunderstorm | Distant thunder with no rain for 60 s | 2 min: wind and dark clouds, then heavy rain | 5 to 8 min | 90 s; puddles and wet shine stay 2 min more |
 
 #### How far you can see
 
@@ -297,8 +300,9 @@ How far you can make out a standing player in the open (our pick, 2026-11-24). P
 
 **Owner's picks (2026-11-24):** every spell, sight, and dusk choice as suggested.
 
-- **The warning:** the sky and the light change about 15% of the way, but no rain falls and sight doesn't shrink until the spell rolls in. A fog warning's mist lies only in valleys and over the sea (our pick, 2026-11-24).
+- **The warning:** the sky and the light change about 15% of the way, but no rain falls and sight doesn't shrink until the spell rolls in. A fog warning's mist lies only in valleys and over the sea (our pick, 2026-11-24). For now the low height fog thickening is enough, since it collects low anyway; true valley-only mist waits for an art effect.
 - **When a spell can run (our pick, 2026-11-24):** it starts in phases 2 to 5 and can run past phase 5, but it has cleared before phase 7 starts, shortening its hold if it must, so the last circles are fought in normal sight.
+- **The spell's clock (our pick, 2026-11-24):** "starts" means the warning starts. A storm clears with the thunder moving away, and leaves the same 2 minutes of puddles and wet shine as rain.
 - **Distant thunder (our pick, 2026-11-24):** only the storm's own thunder halves how far gunshots carry. The distant rumble of its warning doesn't.
 - **Rain and vehicles (owner, 2026-11-24):** rain changes how vehicles handle. Our numbers: on wet roads tires grip about 20% less and braking takes about 30% longer; on wet dirt and grass, grip drops about 35%. It lasts while it rains and 2 minutes after, while the ground is still wet. Thunderstorms count as rain ([Vehicles and water](gameplay.md#vehicles-and-water)).
 

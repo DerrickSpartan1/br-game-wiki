@@ -251,7 +251,7 @@ Backpacks work like armor (owner, 2026-11-24): three tiers, like PUBG's three le
 - **Capacity (owner, 2026-11-24):** the tier sets about how much a pack holds, PUBG's 150, 200, and 250, with a small spread inside it: each pack is within 10% of its tier's number, the smallest pack lowest and the biggest highest (spread by size, our pick). So balancing stays simple, the way a vest's tier sets its damage reduction ([Carry weight](#carry-weight)).
 - **No slowdown (owner, 2026-11-24):** like PUBG, a pack only changes how much you carry. It doesn't slow running or aiming, whatever its size.
 - **Looks:** the model shows the pack you found, so two tier 2 packs in one match can look different.
-- **Spawning:** loot rolls a tier first, by area, like armor ([Loot](loot.md)), then a random pack of that tier. Vaults hold tier 3 ([Vaults and keys](match-flow.md#vaults-and-keys)).
+- **Spawning:** loot rolls a tier first, by area, from its own table ([Loot](loot.md#starting-weights)), then a random pack of that tier. Each vault holds 2 tier 3 packs, so a duo can both leave with one; crates hold none (our pick, 2026-11-24; [Vaults and keys](match-flow.md#vaults-and-keys)).
 - **Left out:** Tarkov's fictional and boss bags, such as the Scav backpack, Sanitar's and Partisan's bags, Santa's bag, the LolKek 3F Transfer, and the Transformer bag. Color variants are skins.
 
 | Backpack | Tier | Size | Holds | Notes |
@@ -308,8 +308,8 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | Gear | Capacity | Basis |
 | --- | --- | --- |
 | Backpack, tiers 1, 2, 3 | 135 to 165, 180 to 220, 225 to 275 | PUBG's 150, 200, and 250, with a spread by size ([Backpacks](#backpacks)) |
-| Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 150, about 96 for an average rig | Decided: a third of a frag grenade per slot |
-| No gear | TBD | — |
+| Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 156, about 96 for an average rig | Decided: a third of a frag grenade per slot |
+| No gear | 20 | Our pick (2026-11-24): pockets for a few dozen rounds and a bandage or two, so the first pack or vest you find matters |
 
 | Item | Weight | Basis |
 | --- | --- | --- |
@@ -320,6 +320,33 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | Other throwables | TBD | [Throwables](weapon-pool.md#throwables) |
 | Med kits, adrenaline | 20 each | PUBG ([Healing](healing.md#the-items)) |
 | Ammo | Per round, by energy | [Ammo](ammo.md#weight) |
+
+Attachments and the rest (our pick, 2026-11-24; attachment weights are PUBG's from 2017, [Samurai Gamers](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/attachments-list)):
+
+| Other item | Weight | Basis |
+| --- | --- | --- |
+| Red dot or holographic sight | 10 | PUBG |
+| Scope, 2x to 4x | 15 | PUBG |
+| Scope, 6x and up | 20 | PUBG |
+| Suppressor | 10 pistol, 15 SMG, 20 rifle, 23 sniper | PUBG |
+| Flash hider, compensator, or muzzle brake | 8 SMG, 10 rifle, 12 sniper | PUBG |
+| Shotgun choke or duckbill | 5 | PUBG's choke |
+| Grip | 10 | PUBG |
+| Stock | 12 | PUBG's tactical stock |
+| Cheek pad | 17 | PUBG |
+| Bullet loops | 15 | PUBG |
+| Mag tier | 10 pistol, 15 everything else | PUBG's extended and quickdraw mags, rounded |
+| Laser or light | 8 | Our pick |
+| Vault key | 1 | Our pick |
+| Crafting scrap | 0 | Our pick: scrap is a counter, like money, not an item in the bag |
+| Armor, helmets, leg armor, class items | — | Our pick: worn in their own slots, never carried in the bag, like PUBG's vests and helmets. Picking up another swaps it and drops the old one |
+
+**How capacity adds up (our pick, 2026-11-24):** no gear + the vest's or rig's pouches + the pack, added together.
+
+- **Over capacity:** you can't pick anything up until you're under it again. Nothing slows you down.
+- **Taking off a vest, rig, or pack** that would leave you over capacity is refused, with a message saying how much to drop first, the same for all three.
+- **Rounds coming back to you** (a reload's leftovers, an en bloc clip ejected early) always go in, even over capacity, so nothing lands on the ground in a fight.
+- **A carrier with a range of slots** (the LV-119's 24–28, the ANA M1 / M2's 18–20) uses the middle: 26 slots, 156, for the LV-119. That's why the rig row's top is 156, not the biggest chest rig's 150.
 
 **Why 6 per slot:** a rig stands in for PUBG's vest and utility belt, which added 50 each in 2017, so the average rig (16 slots) should carry about 100. One slot per frag grenade (18) would give the average rig 288 and the biggest 450, more than PUBG's best backpack. At 6, a slot is a third of a grenade, and backpacks stay the main storage.
 

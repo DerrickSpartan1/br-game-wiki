@@ -33,6 +33,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
     - **Marker wheel:** hold right click for a wheel of six quick markers (attack, danger, defend, loot, regroup, vehicle), the way PUBG added them later. They replace your one marker.
     - **Route:** Shift and right click add up to five route points, drawn as a line from you through them, for your squad to see. Shift and right click on a point removes it.
     - **What it shows:** the plane's path before and during the jump, the blue and white circles, strike zones, your squad with their numbers and colors, vehicles your squad is in, and vaults you hold a key for. Never enemies, care packages, or loot.
+    - **Colors (our pick, 2026-11-24):** the edge is a solid ring in the wall's bottom teal, the next safe circle a thin white ring, and strike zones red, so none of them look alike ([The edge](match-flow.md#the-edge-how-it-looks)).
     - **Minimap:** bottom right, turned with you, with your squad, markers, circles, and strike zones. N zooms it between about 400 m and 1 km across.
 - **Inventory (Tab):** vicinity, backpack, gear (helmet, vest, backpack, and outfit slots for skins), and the weapons with their attachment slots. Hovering a gun shows its version: cartridge, fire modes, rate, and mag. You can still move with it open.
 

@@ -4,6 +4,9 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Lag compensation planned: the server rewinds targets up to 200 ms to where the shooter saw them; a bullet that hits a held gun passes through to the body (our pick) | [Servers](../systems/servers.md#hits-and-lag) |
+| 2026-11-24 | Backpacks: their own tier odds by area, 2 tier 3 packs per vault, none in crates; no-gear capacity 20; attachment weights from PUBG; armor and class items never in the bag; capacity adds up, taking off gear over capacity is refused, returning rounds always fit; slot ranges use the middle (our pick) | [Loot](../systems/loot.md#starting-weights), [Carry weight](../systems/armor.md#carry-weight) |
+| 2026-11-24 | Weather and hazard details (our pick): a spell's window counts from its warning; storms leave 2 min of wet like rain; the barrage's 30 m band has 10 m dust sight for 5 s a shell; fog's warning mist is the low height fog for now; packages may land a phase early; the edge is a teal ring on the map | [Match flow](../systems/match-flow.md), [The map](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-24 | Round 6 picks confirmed: green care package smoke for 60 s, the throw arc on with a switch, 600 m strike zones (gas 400 m) inside the white 7 times in 10, the first circle scaled to Teplov, and hands moving about 2 cm at a run (owner) | [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md) |
 | 2026-11-24 | Picks pages: once answered and filed, their answers are copied to the Picks archive and the page is deleted; new pages hold only open questions (owner) | [Picks archive](picks-archive.md) |
 | 2026-11-24 | Melee is held ready to use with the watch showing, except while free-looking (owner) | [Melee](../systems/gameplay.md#melee) |

@@ -75,6 +75,18 @@ Battle rifles and DMRs sit higher than PUBG's DMRs did, since the category inclu
 
 Tier 2 took in what used to be tiers 2 and 3, so its odds are the two added together.
 
+**Backpack tiers, by area (our pick, 2026-11-24):** a little more generous than armor, since a bigger pack carries more but doesn't win a fight on its own ([Backpacks](armor.md#backpacks)).
+
+| Backpacks by area | Tier 1 | Tier 2 | Tier 3 |
+| --- | --- | --- | --- |
+| Low | 60% | 35% | 5% |
+| Medium | 45% | 45% | 10% |
+| High | 35% | 50% | 15% |
+| Military | 25% | 50% | 25% |
+| Vaults | — | — | 100% |
+
+Crates hold no backpack: their set stays the same every time (see Crates above), and PUBG's care packages didn't carry backpacks either.
+
 Backpacks, scopes, and mag tiers follow the same idea: common low tiers everywhere, better ones in better areas, and the best in crates. Makeshift armor tiers are crafted, never spawned ([Crafting](crafting.md)).
 
 ## Briefcases

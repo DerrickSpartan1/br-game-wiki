@@ -26,6 +26,14 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 - **Reloads keep their progress:** a cancelled reload picks up where it stopped next time, and if the old mag was already out, the gun stays without one until you finish ([Staged reloads](handling.md#staged-reloads)).
 - **Safe is for stowing only:** there's no safe on the fire-mode key. A gun goes to safe only when it's stowed, such as when you hold X for melee, and goes back to the last fire mode you picked when you draw it. The draw animation will show the selector coming off safe later (owner, 2026-11-22).
 - **Ping:** middle mouse marks enemies, loot, and places for your squad, and means different things depending on what you aim at, like Apex's.
+- **Taking damage (owner asked, 2026-11-24; numbers our pick):** the screen shows each hit without hiding the fight. As far as we found, PUBG's 2017–2018 damage effects aren't written down anywhere to copy, so these are ours.
+    - **Every hit:** a red tint at the screen's edges comes in at once and fades over half a second. It's stronger the more damage the hit did, so a 5-health tick is a faint blush and a 50-health hit is a strong flash.
+    - **Where it came from:** bullets, melee, and explosions also show a short red arc around the crosshair, pointing at the source, for 2 seconds.
+    - **Inside the edge:** the edge's own tint stays, and each damage tick makes it swell for about a third of a second and ease back, with a faint red flash and the soft thump on [The edge](../systems/match-flow.md#the-edge-how-it-looks).
+    - **Fire and gas:** the same flash on each tick, with an orange flicker while you're burning.
+    - **Falls:** the flash, with no arc.
+    - **Low health:** under 20 health, a faint red stays at the edges until you heal above it.
+    - **A setting:** damage flash strength from 0 to 100% in Settings > Gameplay, for players who find it too much.
 - **The map (owner asked for it to work like PUBG's, 2026-11-24; details our pick):** M opens the full map over the game, which keeps running.
     - **Zoom and pan:** the scroll wheel zooms toward the cursor, from the whole island to about 200 m across the screen. Drag with the left mouse to pan. Space centers it on you.
     - **The grid:** 1 km squares with letters across the top (A to J for Teplov's 10 km) and numbers down the side (1 to 8), so a call like "D5" means one square. Lines every 100 m fade in as you zoom, and a scale bar in the corner shows distance.
@@ -86,7 +94,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 ## Knockdowns & revives
 
-1. At zero health you're knocked down. You can crawl, but you leave a blood trail.
+1. At zero health you're knocked down. You can crawl, but you leave a blood trail. You crawl at 0.8 m/s, two thirds of a prone crawl (our pick, 2026-11-24). PUBG publishes no number for it; [its wiki](https://pubg.wiki.gg/wiki/DBNO) only notes that a 2022 update made it 10% faster.
 2. A teammate can pick you up while you're knocked. This is slow without an adrenaline syringe.
 3. If you bleed out, you can still be revived with a defib, or slowly with CPR.
 
@@ -258,6 +266,13 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
 
 ## Match setup
 
+- **Parties (owner asked, 2026-11-24; details our pick):** you build your squad in the menu before you press Play, the way PUBG's lobby does ([PUBG support](https://support.pubg.com/hc/en-us/articles/115004169853-How-do-I-play-in-Duo-or-Squad-modes)).
+    - **Inviting:** a plus button next to your squad in the menu opens your friends list (who's online first) and a search by player name. Invites show as a pop-up with Accept and Decline, and run out after 60 seconds.
+    - **In the menu:** everyone in your party stands beside you in the middle of the menu, with their name, their squad color, and a Ready tick. The one who made the party leads it (a crown by their name); they pick the mode, region, and fill, and only they can press Play.
+    - **Queuing together:** Play works once everyone has ticked Ready. The matchmaker puts the whole party in one squad. If the party is smaller than the mode, Fill adds strangers to make it up, and No fill plays short. A party bigger than the mode can't press Play for it.
+    - **In the match:** the party is one squad, in the pre-match lobby too, with its colors and numbers on the map.
+    - **After a match:** everyone goes back to the menu still in the party. Anyone can leave; the leader can remove someone, and if the leader leaves, the next to join leads.
+    - **For the backend:** parties live in the backend (create, invite, accept, leave, remove, hand over the lead, ready), and the matchmaker takes a party as one ticket. A match server gets each squad's members at join. Until then, the `Squad` test command stands in.
 - **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22).
 - **Ranked:** a separate ranked playlist.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
@@ -290,7 +305,7 @@ Sound is a major focus.
 - **Proximity chat:** nearby players, enemies included, can hear each other talk, like PUBG.
 - **No suppression effect (owner, 2026-11-22):** near misses only make noise, like PUBG's, with no blur or shake.
 
-How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound).
+How gun sounds are layered and sourced is on [Gun art and sound](../planning/art-and-sound.md#sound). Every sound the game needs, and how far each carries, is on the [Sound list](../planning/sound-list.md) (owner asked, 2026-11-24).
 
 ## Death cam and replays
 

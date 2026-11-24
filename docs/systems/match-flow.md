@@ -28,6 +28,14 @@ Like PUBG, in third person, the one part of the game that is ([Gameplay](gamepla
 
 - **Freefall:** up to about 126 km/h forward, or about 232 km/h diving straight down.
 - **Opening:** the chute opens on its own at a set height above the ground, earlier over high ground. You can open it sooner by hand.
+- **Opening height (our pick, 2026-11-24):** 150 m above the ground under you, as in the game now. PUBG's is a set height too; one guide puts it at 300 m ([Appuals](https://appuals.com/playerunknowns-battlegrounds-skydiving-parachuting-guide/)), and it opens earlier over hills.
+- **Turning automatic opening off (owner asked, 2026-11-24; details our pick):** a switch in Settings > Gameplay, "Open my parachute automatically," on by default. With it off, the chute doesn't open at 150 m, so you can fall lower and land sooner. You open it by hand any time down to 40 m, the last moment. If you never pull, a reserve opens by itself at 40 m with a hard landing: you roll on landing and lose 20 health. The switch only changes your own jump.
+- **The freefall readout (owner asked, 2026-11-24; details our pick):** like PUBG's, which shows your height above the ground with a white line where the chute will open, and your speed ([PC Gamer](https://www.pcgamer.com/uk/pubg-how-to-land-fast-battlegrounds), [PUBG fandom wiki](https://pubg.fandom.com/wiki/Parachute)).
+    - **Height gauge:** a tall bar on the lower left, with your height above the ground under you in meters as a number beside it. It counts the ground, not the sea, so it drops fast over hills.
+    - **Marks on it:** a white line where the chute opens by itself (150 m, or not shown with automatic opening off) and an amber line at 40 m, the last moment to pull.
+    - **Speed:** your speed in km/h under the gauge: up to 126 forward, 232 diving, and 18 to 64 under the canopy.
+    - **Where you're headed:** your squad's map markers show on screen and on the compass with their distance in meters, and so do your squadmates, so you can steer to them.
+    - **Under the canopy:** the gauge and speed stay up until you land.
 - **Under the canopy:** about 18 to 27 km/h forward, and up to about 64 km/h spiralling down.
 - **Distance vs. speed:** opening the chute at the first chance covers the most ground; diving straight at a close target lands first. Both work like PUBG's.
 

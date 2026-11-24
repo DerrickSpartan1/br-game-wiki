@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | Playtest round 7 answers on [Gameplay](../systems/gameplay.md) and [Match flow](../systems/match-flow.md#parachutes), and a new [Sound list](sound-list.md) page |
 | 2026-11-24 | [Check-ins](ai-team.md#check-ins) on AI team: the schedule, the planner's and lead's check-in steps, and the setup message for the planner's task on the owner's PC |
 | 2026-11-24 | [To-do](to-do.md): the owner-review rule, a status on every build item from the planner's check against the commits and playtests, and twelve items found missing |
 | 2026-11-24 | Answers to the lead's overnight questions: weather, hazard, and care package details on [Match flow](../systems/match-flow.md), map colors on [The map](../systems/gameplay.md#hud-and-inventory), backpack tiers by area on [Loot](../systems/loot.md#starting-weights), item weights and capacity rules on [Carry weight](../systems/armor.md#carry-weight), and a new Hits and lag section on [Servers](../systems/servers.md#hits-and-lag); the red zone TBD size line is gone |

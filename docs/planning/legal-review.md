@@ -44,6 +44,7 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Guns | Every gun page | Maker names (Colt, Glock, Heckler & Koch, FN, SIG Sauer, Beretta, Steyr, IWI, and others) and trademarked model names | Our own makers and designations ([Game names](game-names.md#gun-makers)) | All 625 versions named ([Gun names](game-names.md#gun-names)) |
 | Attachments | [Attachments](../systems/attachments.md) | Brand and model names such as ACOG, Leupold, and PSO-1 | Plain descriptions: 2x scope, vertical foregrip | Rule set |
 | Armor | [Armor](../systems/armor.md) | Brand names such as Crye Precision and Ops-Core | Our own names ([Armor](game-names.md#armor)) | Done |
+| Backpacks | [Backpacks](../systems/armor.md#backpacks) | Brand names such as Mystery Ranch, Eberlestock, 5.11, and Oakley, and Tarkov's own bags | Bird names ([Backpacks](game-names.md#backpacks)); Tarkov's own bags left out | Our pick, for the owner's OK |
 | Breaching tools | [Class items](../systems/class-items.md#breaching-tools) | The Halligan bar is named after a person | Entry bar | Done |
 | Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Our own names ([Vehicles](game-names.md#vehicles)) | Named |
 | Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Caliber only ([Cartridges](game-names.md#cartridges)) | Done; two sizes still TBD |

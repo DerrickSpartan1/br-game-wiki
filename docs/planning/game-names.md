@@ -1507,6 +1507,55 @@ Our own names for every armor piece on [Armor](../systems/armor.md), approved by
 | Kolpak-1S | Skullcap |
 | TSh-4M-L | Tanker Cap |
 
+### Backpacks
+
+Birds by size: small birds for tier 1, middling birds for tier 2, and big birds for tier 3, so the name hints at the size (our pick, 2026-11-24, for the owner's OK). Names that are also gear or brand names were skipped.
+
+| Real | Game name |
+| --- | --- |
+| Tactical sling bag | Wren pack |
+| VKBO army bag | Sparrow pack |
+| RD-54 | Swallow pack |
+| Duffle bag | Bunting pack |
+| Veshmeshok (sidor) | Redstart pack |
+| Mystery Ranch NICE COMM 3 BVS | Linnet pack |
+| Vertx Ready Pack | Finch pack |
+| Flyye MBSS | Siskin pack |
+| Czechoslovak M60 backpack | Martin pack |
+| Hazard 4 Pillbox | Pipit pack |
+| LBT-8005A Day Pack | Robin pack |
+| WARTECH Berkut BB-102 | Lark pack |
+| Hazard 4 Takedown sling | Snipe pack |
+| Direct Action Dragon Egg Mk II | Cuckoo pack |
+| Tehinkom RK-PT-25 | Thrush pack |
+| LBT-1476A 3Day Pack | Plover pack |
+| Gruppa 99 T20 | Starling pack |
+| Hazard 4 Drawbridge | Lapwing pack |
+| Mystery Ranch 2 Day Assault | Jay pack |
+| Mystery Ranch Terraframe | Woodpecker pack |
+| Gruppa 99 T30 | Magpie pack |
+| Eberlestock F5 Switchblade | Nightjar pack |
+| ANA Tactical Beta 2 | Quail pack |
+| CamelBak Tri-Zip | Wagtail pack |
+| Oakley Mechanism | Partridge pack |
+| Mystery Ranch NICE Frame Load Sling | Kite pack |
+| Tasmanian Tiger Trooper 35 | Buzzard pack |
+| Eberlestock G2 Gunslinger II | Pheasant pack |
+| 3V Gear Paratus 3-Day | Egret pack |
+| SSO Attack 2 | Rook pack |
+| Pilgrim tourist backpack | Bittern pack |
+| Mystery Ranch SATL Bridger | Owl pack |
+| Medium ALICE pack | Swan pack |
+| Tasmanian Tiger Modular Pack 45 Plus | Cormorant pack |
+| Eberlestock F4 Terminator | Gannet pack |
+| Mystery Ranch Blackjack 50 | Heron pack |
+| 5.11 RUSH100 | Stork pack |
+| LBT-2670 Slim Field Med Pack | Spoonbill pack |
+| 6Sh118 raid backpack | Capercaillie pack |
+| MOLLE II large rucksack | Albatross pack |
+| Kolobok | Bustard pack |
+| Ermak | Vulture pack |
+
 ## Cartridges
 
 Approved by the owner: ammo is called by its caliber, with no company or person's name attached. Where dropping the name leaves two rounds with the same caliber, the metric size tells them apart (.32 ACP becomes 7.65×17mm, since there are other .32s). Words that aren't names stay: Auto, Magnum, Special, Long, Largo, and gauge.

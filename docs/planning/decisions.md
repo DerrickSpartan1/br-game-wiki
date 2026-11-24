@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Backpacks like armor: three tiers that set capacity (150, 200, 250, PUBG's), real packs from Tarkov plus Soviet and US ones sorted into tiers by size, each with Tarkov's slowdown (owner; tiers by size and the rest our pick) | [Backpacks](../systems/armor.md#backpacks) |
 | 2026-11-24 | Gavansk Port redone as a round harbor basin like Ischia's, plus a straight container quay; Vetrovo Pier redone as a fishing harbor behind a curved breakwater (owner asked for another pass; our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-24 | Weather and hazard picks confirmed as suggested, except a 20-second strike zone warning; the edge's color still open, blue ruled out for PUBG's claim (owner) | [Hazards: timing and sight](../systems/match-flow.md#hazards-timing-and-sight) |
 | 2026-11-24 | Rain makes vehicles grip less and brake longer (owner); about 20% less grip on roads, 35% on dirt, 30% longer braking, until 2 minutes after the rain (our pick) | [Weather](../systems/match-flow.md#weather) |

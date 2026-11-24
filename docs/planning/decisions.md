@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Check-ins every half hour: the lead at :00 and :30 in its own session, the planner at :15 and :45 as a local task on the owner's PC, and the cloud planner twice a day for picks pages; check-ins never ask the owner anything (owner) | [Check-ins](ai-team.md#check-ins) |
 | 2026-11-24 | Nothing handed between the planner and the lead counts as done until the owner reviews it; every open To-do item says where it stands (owner) | [To-do](to-do.md), [AI team](ai-team.md#how-work-flows) |
 | 2026-11-24 | Lag compensation planned: the server rewinds targets up to 200 ms to where the shooter saw them; a bullet that hits a held gun passes through to the body (our pick) | [Servers](../systems/servers.md#hits-and-lag) |
 | 2026-11-24 | Backpacks: their own tier odds by area, 2 tier 3 packs per vault, none in crates; no-gear capacity 20; attachment weights from PUBG; armor and class items never in the bag; capacity adds up, taking off gear over capacity is refused, returning rounds always fit; slot ranges use the middle (our pick) | [Loot](../systems/loot.md#starting-weights), [Carry weight](../systems/armor.md#carry-weight) |

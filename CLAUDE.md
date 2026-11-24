@@ -15,7 +15,7 @@ This repo is the design wiki for a PC battle royale (2017–2018 PUBG feel, rota
 
 Claude in chat is the planner: design, research, and this wiki. Claude Code on the owner's PC is the lead, with subagent workers ([AI team](docs/planning/ai-team.md)). Work for the lead goes in the To-do page's "For the lead" section, with a prompt where one helps. The planner reads the game repo but never changes it.
 
-At the start of every session, pull this repo and the game repo, then read the To-do page for the lead's reports and planner questions. Do the planner's items without waiting to be asked: answer what the planner can (research, wiki fixes, first-pass picks marked "our pick"), file the answers, and mark each question answered on the To-do page.
+The planner and the lead check in every half hour (planner at :15 and :45, lead at :00 and :30); a scheduled planner check-in follows the "Planner check-in steps" on `docs/planning/ai-team.md`, and never asks the owner anything: questions for him are queued for the next picks page. At the start of every session, pull this repo and the game repo, then read the To-do page for the lead's reports and planner questions. Do the planner's items without waiting to be asked: answer what the planner can (research, wiki fixes, first-pass picks marked "our pick"), file the answers, and mark each question answered on the To-do page.
 
 ## Adding a gun
 

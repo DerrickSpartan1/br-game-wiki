@@ -20,6 +20,76 @@ Workers are Claude Code subagents: files in the game repo's `.claude/agents/` fo
 6. **You review it.** Built work comes to you on the lead's playtest checklist; the planner's first passes ("our pick") come on a review page. Nothing counts as done until you've reviewed it (owner, 2026-11-24).
 7. **Tell the planner** what you reviewed. The planner checks the game repo's commits and your playtest results, then updates the To-do list: an item is ticked only once you've said it's good, and anything that needs work goes back to the lead or the planner with your note.
 
+## Check-ins
+
+The planner and the lead check in every half hour, taking turns, so each one works from the other's latest notes (owner, 2026-11-24). A check-in only keeps them up to date with decisions, questions, and notes. It never asks you anything. Your input comes from two places only:
+
+- **The planner's picks and review pages,** for design decisions and notes.
+- **The lead's playtest checklist,** for testing and notes.
+
+| Who | When | Where it runs | What it does |
+| --- | --- | --- | --- |
+| **Lead** | :00 and :30 | Inside the lead's own session, as a recurring task (`0,30 * * * *`) | Reads the planner's new answers and statuses on the To-do page, files its own questions and reports there, and puts anything built on the playtest checklist |
+| **Planner** | :15 and :45 | A local scheduled task in the Claude desktop app on your PC, in its own folder (`C:\Dev\planner`) | Answers the lead's questions, updates the statuses and the review rule's ticks, and queues anything that needs you for the next picks page |
+| **Planner (cloud)** | 12:43 PM and 9:43 PM | A cloud scheduled task | The same, plus the picks pages: files your answers, archives and deletes answered pages, and posts a new page when questions are queued |
+
+- **Why two kinds of planner check-in:** a cloud task can run at most once an hour, and a plan allows only 5 to 25 cloud runs a day, so the half-hourly ones run on your PC, which is on for the lead anyway. Only the cloud planner can make picks pages, so it handles those twice a day.
+- **Why the lead's check-in runs inside its own session:** a separate session would work in the same folder and the same Unreal editor at the same time as the lead. A recurring task in the lead's session fires between its turns instead, and keeps what the lead already knows. It may start up to 15 minutes late, and it stops when the session closes and after 7 days, so the lead recreates it after a restart and every Monday.
+- **Questions for you wait in a queue:** the planner adds them under the To-do page's You: decisions, marked "for the next picks page"; the lead adds testing questions to its playtest checklist. Neither check-in waits for an answer.
+- **Staying in step:** each check-in pulls first and pulls again (`git pull --rebase`) right before it pushes. A check-in that finds nothing new changes nothing and makes no commit.
+- **Never in each other's folders:** the planner's check-in keeps its own clones of both repos in `C:\Dev\planner` and never touches the lead's folder. The game repo clone there skips the big art files (`GIT_LFS_SKIP_SMUDGE=1`), since the planner only reads code, docs, and data.
+
+### Planner check-in steps
+
+The planner's scheduled tasks follow these steps each time, so changing them here changes every later check-in.
+
+1. **Get up to date.** In the check-in's own folder, pull the wiki, and fetch and fast-forward the read-only game repo clone. Read the wiki's `CLAUDE.md` and follow it exactly, including the "Before pushing" steps.
+2. **See what's new** since the last commit whose message starts with "Planner check-in" (or the last 24 hours if there isn't one): new commits in both repos, new playtest results in the game repo's `Docs/Playtest/`, and new reports and questions on the To-do page. If nothing is new and no planner question is unanswered, stop and say so in one line.
+3. **Answer the lead's questions** that you can: research (open and cite every page you take numbers from), wiki fixes, data the lead needs, and first passes marked "our pick". File each on its page, add rows to the decision log and changelog, and mark the question answered on the To-do page.
+4. **Keep the review rule:** update each item's status on the To-do page from the commits and the playtest results. Tick an item only once the owner has said it's good. Give anything raised in a playtest or report that has no item one.
+5. **Queue what needs the owner:** any call that's truly his goes under You: decisions as a short line marked "for the next picks page", with the choices and our suggestion. Never ask him anything during a check-in, and never wait for an answer.
+6. **Push:** build with `mkdocs build --strict`, pull with rebase, commit with a message starting "Planner check-in:", and push. Never change the game repo, never commit secrets, and never delete anything.
+7. **Cloud check-in only, picks pages:** read the answers on each open picks or review page linked under You: decisions, file them, and once a page is fully answered, archive it as `CLAUDE.md` says and delete it (if the delete needs a confirmation nobody can give, leave it and note on the To-do page that it's archived and ready to delete). If questions are queued, post them on one new page with only open questions, link it under You: decisions, and start the summary with "New picks page".
+8. **Finish** with a short summary: what you answered, filed, and queued.
+
+### Lead check-in steps
+
+The lead's recurring task runs this prompt in its own session:
+
+```text
+Lead check-in. Pull the wiki (DerrickSpartan1/br-game-wiki), then read its
+To-do page: new planner answers in For the lead, each item's status, and the
+Review status. Update your plan from them. File any new question for the
+planner under your latest report on the To-do page, and put anything built
+since your last check-in on the playtest checklist for the owner. Push your
+wiki notes (pull --rebase first). Don't ask the owner anything here and don't
+start new build work in the check-in itself, unless the owner told you to keep
+working through the list. If nothing changed, say so in one line.
+```
+
+### Setting up the planner's check-in on your PC
+
+Once, in the Claude desktop app's Code tab, start a session and paste this:
+
+```text
+Set up a local scheduled task for me (only on this computer):
+- Name: planner-check-in
+- Folder: C:\Dev\planner. Create it if needed, and clone
+  https://github.com/DerrickSpartan1/br-game-wiki into it as br-game-wiki.
+  Also clone https://github.com/DerrickSpartan1/br-game into it as br-game
+  with GIT_LFS_SKIP_SMUDGE=1 set, so the big art files aren't downloaded.
+  Don't use the lead's own folders.
+- Schedule: custom cron 15,45 * * * * (every half hour at :15 and :45, my time).
+- Permission mode: auto, so it never stops to ask me.
+- Instructions: "You are the planner's half-hourly check-in for Derrick's
+  battle royale. Work only in C:\Dev\planner. Pull br-game-wiki, fetch and
+  fast-forward br-game, then follow the 'Planner check-in steps' in
+  br-game-wiki/docs/planning/ai-team.md exactly. Skip step 7, which is for the
+  cloud check-in."
+Then check that Python 3 is installed (the wiki's build needs it), click
+Run now once, and allow anything it asks for so later runs don't stop.
+```
+
 ## The workers
 
 | Worker | Job | Tools | Owns |

@@ -1,0 +1,612 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Teplov Decision Batch 4</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a requisition sheet. Each question is a numbered line with its options as stampable choices. */
+:root {
+  --paper: #e9e7df; --sheet: #f6f5f0; --ink: #23271f; --muted: #5d6356; --rule: #cfcdc2;
+  --olive: #4a5a2c; --olive-soft: #dfe4d2; --pick: #2f6b3a; --pick-soft: #d8eadb; --focus: #4a5a2c;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+    --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+  --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 64px;
+}
+.wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+header.top { display: flex; flex-direction: column; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.05; margin: 0; letter-spacing: .01em; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding-block: 10px; display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid var(--rule); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.progress-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.count { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.meter { flex: 1 1 160px; height: 8px; background: var(--rule); border-radius: 4px; overflow: hidden; min-width: 120px; }
+.meter span { display: block; height: 100%; background: var(--pick); width: 0; }
+.save { font-size: 13px; color: var(--muted); }
+.save.warn { color: #a3322a; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font: 500 13px var(--font-body); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--olive); border-color: var(--olive); color: var(--sheet); }
+.group { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.group h2 { margin: 0; padding: 10px 16px; font-family: var(--font-display); font-weight: 600; font-size: 21px; letter-spacing: .04em; text-transform: uppercase; background: var(--olive-soft); color: var(--olive); border-bottom: 1px solid var(--rule); }
+.group .intro { margin: 0; padding: 10px 16px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--rule); }
+.q { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 6px 14px; padding: 14px 16px; border-bottom: 1px solid var(--rule); }
+.q:last-child { border-bottom: 0; }
+.q[data-done="yes"] { box-shadow: inset 4px 0 0 var(--pick); }
+.code { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 2px; }
+.body { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.ask { font-weight: 600; }
+.ctx { font-size: 13.5px; color: var(--muted); margin: -4px 0 0; }
+.opts { display: flex; flex-direction: column; gap: 6px; }
+.opt { display: flex; gap: 10px; align-items: flex-start; text-align: left; width: 100%; font: 14px var(--font-body); color: var(--ink); background: transparent; border: 1.5px solid var(--rule); border-radius: 5px; padding: 8px 10px; cursor: pointer; }
+.opt:hover { border-color: var(--muted); }
+.opt .dot { flex: 0 0 16px; height: 16px; margin-top: 2px; border-radius: 50%; border: 2px solid var(--muted); }
+.opt[aria-checked="true"] { border-color: var(--pick); background: var(--pick-soft); }
+.opt[aria-checked="true"] .dot { border-color: var(--pick); background: var(--pick); box-shadow: inset 0 0 0 3px var(--pick-soft); }
+.tag { display: inline-block; margin-left: 6px; font: 600 11px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--olive); border: 1px solid var(--olive); border-radius: 3px; padding: 0 5px; vertical-align: 1px; }
+.ctoggle { align-self: flex-start; font: 500 13px var(--font-body); color: var(--olive); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: 14px var(--font-body); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.copy { font: 600 14px var(--font-body); background: var(--olive); color: var(--sheet); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+.src { font-size: 13px; color: var(--muted); }
+.src a { color: var(--olive); }
+.refs { font-size: 13px; color: var(--muted); margin: -2px 0 0; }
+.refs a { color: var(--olive); }
+.empty-filter { padding: 14px 16px; color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) { .q { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: no-preference) { .opt, .chip { transition: background .12s, border-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Teplov battle royale · decision batch 4, 2026-11-22</div>
+    <h1>Armor's real setups, and the leftovers</h1>
+    <p class="lede">Pick one option on each question, and add a comment where you want to. "Suggested" marks the planner's pick. Tap a pick again to clear it. Your answers save as you go, and Claude reads them from this page when you say you're done.</p>
+  </header>
+
+  <div class="bar" role="region" aria-label="Progress">
+    <div class="progress-row">
+      <span class="count" id="count">0 of 0 answered</span>
+      <div class="meter" aria-hidden="true"><span id="meter"></span></div>
+      <span class="save" id="save" aria-live="polite">Loading saved answers</span>
+    </div>
+    <div class="filters" role="group" aria-label="Show">
+      <button class="chip" id="f-all" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip" id="f-open" data-filter="open" aria-pressed="false">Not answered</button>
+      <button class="chip" id="f-done" data-filter="done" aria-pressed="false">Answered</button>
+    </div>
+  </div>
+
+  <main id="sheet" style="display:flex;flex-direction:column;gap:20px"></main>
+
+  <div class="foot">
+    <button class="copy" id="copy">Copy my answers</button>
+    <span id="copy-status">Copies a short list you can paste into the chat.</span>
+  </div>
+
+  <p class="src">Each question links its own references and photos, opening in a new tab. Everything decided so far is on the <a href="https://derrickspartan1.github.io/br-game-wiki/" target="_blank" rel="noopener noreferrer">design wiki</a>.</p>
+</div>
+
+<script>
+const GROUPS = [
+ {
+  "name": "Vests: their real setups",
+  "intro": "Our armor list came from Escape from Tarkov, where each vest is one item. Several are really families with lighter and heavier setups. Our tiers follow Russia's armor classes: class 1 and 2 are tier 1, 3 and 4 are tier 2, and 5 and 6 are tier 3.",
+  "qs": [
+   [
+    "av-6b45",
+    "The 6B45 comes three ways: light (soft armor only), medium (hard plates front and back), and heavy (two plates front and back, plus soft neck and groin armor, for assault troops)",
+    "Ours is one tier 3 vest with no groin cover.",
+    [
+     [
+      "roll",
+      "Roll all three: light at tier 1, medium at tier 2, heavy at tier 3 with groin cover",
+      true
+     ],
+     [
+      "one",
+      "Keep one tier 3 vest"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: 6B45",
+      "https://en.wikipedia.org/wiki/6B45_ballistic_vest"
+     ]
+    ]
+   ],
+   [
+    "av-6b23",
+    "The 6B23: the plain vest is soft armor only (class 2, 4 kg). The 6B23-1 adds a steel chest plate (class 3, 7.9 kg), and the 6B23-2 a ceramic one (class 4, 7.2 kg)",
+    "Ours is tier 2 and covers the two plated ones.",
+    [
+     [
+      "add",
+      "Add the plain one as a tier 1 version; the plated ones stay tier 2",
+      true
+     ],
+     [
+      "keep",
+      "Keep it as it is"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: 6B23",
+      "https://en.wikipedia.org/wiki/6B23_ballistic_vest"
+     ]
+    ]
+   ],
+   [
+    "av-6b13",
+    "The 6B13 is the assault vest of the Zabralo family, with ceramic plates front and back. The family also has the 6B11 (soft armor only) and the 6B12 (one front plate, in steel, ceramic, or titanium)",
+    "Ours is the 6B13 alone, at tier 2 or 3.",
+    [
+     [
+      "family",
+      "Roll the family: 6B11 at tier 1, 6B12 at tier 2, 6B13 at tier 3",
+      true
+     ],
+     [
+      "keep",
+      "Keep the 6B13 only"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: Zabralo vests",
+      "https://en.wikipedia.org/wiki/Zabralo_ballistic_vests"
+     ]
+    ]
+   ],
+   [
+    "av-6b3",
+    "The 6B3, the first Soviet vest that stopped rifle rounds: the early 6B3T and 6B3TM had thick titanium plates all round (12.2 kg); the common 6B3TM-01 has thick front plates and thin back ones (8.2 kg)",
+    "Ours is the 6B3TM-01.",
+    [
+     [
+      "keep",
+      "Keep only the 6B3TM-01; the game doesn't rate front and back separately, so the older ones would just be heavier",
+      true
+     ],
+     [
+      "add",
+      "Add the older all-round version as a heavier one"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: 6B3",
+      "https://en.wikipedia.org/wiki/6B3_ballistic_vest"
+     ]
+    ]
+   ]
+  ]
+ },
+ {
+  "name": "Helmets: their real setups",
+  "intro": "The Altyn's versions (R1, R2M, and the K6-3 copy) stay one helmet, since they differ only in small details.",
+  "qs": [
+   [
+    "ah-tiers",
+    "Our helmet tiers came from Tarkov, which rates the Altyn, Maska, and Vulkan-5 well above the real ones. The real Altyn and Maska are class 2: they stop pistol rounds",
+    "Real helmets rarely stop rifle rounds, so real ratings would leave almost no tier 3 helmets.",
+    [
+     [
+      "tarkov",
+      "Keep Tarkov's tiers for the game",
+      true
+     ],
+     [
+      "real",
+      "Use the real ratings"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: Altyn",
+      "https://en.wikipedia.org/wiki/Altyn_(helmet)"
+     ],
+     [
+      "Equipment Wiki: Maska",
+      "https://equipment.fandom.com/wiki/MASKA"
+     ]
+    ]
+   ],
+   [
+    "ah-ssh68",
+    "The SSh-68: the plain steel helmet stops fragments but not bullets. The SSh-68M and SSh-68N add an aramid liner and stop pistol rounds (class 1)",
+    "Ours is one tier 2 SSh-68.",
+    [
+     [
+      "two",
+      "Two versions: the plain SSh-68 at tier 1, the SSh-68M and N at tier 2",
+      true
+     ],
+     [
+      "one",
+      "Keep one tier 2 SSh-68"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: SSh-68",
+      "https://en.wikipedia.org/wiki/SSh-68"
+     ]
+    ]
+   ],
+   [
+    "ah-sfera",
+    "The Sfera: the 1981 STSh-81 is titanium (2.3 kg); its successor, the SSSh-94, is steel (3.3 kg). Both are class 2",
+    "",
+    [
+     [
+      "two",
+      "Two versions with the same protection; the titanium one is lighter",
+      true
+     ],
+     [
+      "one",
+      "Keep one"
+     ]
+    ],
+    [
+     [
+      "Wikipedia: Sfera",
+      "https://en.wikipedia.org/wiki/Sfera_(helmet)"
+     ]
+    ]
+   ],
+   [
+    "ah-maska",
+    "The Maska: the Maska-1 has a clear bulletproof glass visor; the Maska-1SCh has a steel visor with a slit",
+    "Ours is the Maska-1SCh.",
+    [
+     [
+      "add",
+      "Add the Maska-1: the same protection, but easier to see through",
+      true
+     ],
+     [
+      "keep",
+      "Keep the Maska-1SCh only"
+     ]
+    ],
+    [
+     [
+      "Equipment Wiki: Maska",
+      "https://equipment.fandom.com/wiki/MASKA"
+     ]
+    ]
+   ],
+   [
+    "ah-bump",
+    "Bump helmets: the FAST and EXFIL also come as non-ballistic bump helmets, for knocks, not bullets",
+    "",
+    [
+     [
+      "tier1",
+      "Add them at tier 1, like the riot helmets",
+      true
+     ],
+     [
+      "skin",
+      "Looks only, as skins"
+     ],
+     [
+      "skip",
+      "Skip them"
+     ]
+    ],
+    [
+     [
+      "TNVC: FAST Bump (non-ballistic)",
+      "https://tnvc.com/shop/ops-core-helmet-fast-bump-sf-super-high-cut-helmet-non-ballistic/"
+     ],
+     [
+      "Gentex: FAST Bump spec sheet",
+      "https://shop.gentexcorp.com/content/20230515_FAST_Bump_Spec_Sheet.pdf"
+     ],
+     [
+      "Soldier Systems: EXFIL Carbon",
+      "https://soldiersystems.net/2012/09/17/team-wendy-exfil-carbon-fiber-helmet-in-stock-now-at-gss-gear/"
+     ]
+    ]
+   ]
+  ]
+ },
+ {
+  "name": "Leftovers",
+  "intro": "",
+  "qs": [
+   [
+    "lo-redodds",
+    "Red zone odds",
+    "",
+    [
+     [
+      "split",
+      "The split you picked: bombardment 40%, smoke 20%, and 10% each for gas, firebombing, the barrage, and EMP",
+      true
+     ],
+     [
+      "equal",
+      "Every form equally likely, about 17% each"
+     ]
+    ],
+    [
+     [
+      "Wiki: Red zones",
+      "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#red-zones"
+     ]
+    ]
+   ],
+   [
+    "lo-radar",
+    "Radar stations: you said to start with 5",
+    "",
+    [
+     [
+      "spots",
+      "5 possible spots; each match 2 or 3 of them get a station",
+      true
+     ],
+     [
+      "five",
+      "5 stations every match, each at a random spot"
+     ]
+    ],
+    [
+     [
+      "Wiki: Radar stations",
+      "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#radar-stations"
+     ]
+    ]
+   ],
+   [
+    "lo-mask",
+    "How long a gas mask lasts in gas",
+    "",
+    [
+     [
+      "60",
+      "1 minute"
+     ],
+     [
+      "120",
+      "2 minutes",
+      true
+     ],
+     [
+      "180",
+      "3 minutes"
+     ]
+    ],
+    [
+     [
+      "Wiki: Class items",
+      "https://derrickspartan1.github.io/br-game-wiki/systems/class-items/"
+     ]
+    ]
+   ],
+   [
+    "lo-vdrop",
+    "Which vehicles the 1 or 2 vehicle drops bring",
+    "",
+    [
+     [
+      "roll",
+      "Rolled from the Ezh armored scout car, the Zhuravl glider, and the Molniya GT sports coupe",
+      true
+     ],
+     [
+      "ezh",
+      "Only the Ezh armored scout car"
+     ]
+    ],
+    [
+     [
+      "Wiki: Vehicles",
+      "https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#vehicles-and-water"
+     ]
+    ]
+   ],
+   [
+    "lo-win",
+    "How the victory line varies",
+    "",
+    [
+     [
+      "roll",
+      "Rolled from a few lines, like \"The island is yours\" and \"Last one standing\"",
+      true
+     ],
+     [
+      "map",
+      "One line per map"
+     ],
+     [
+      "mode",
+      "Different lines for solo and squads"
+     ]
+    ],
+    [
+     [
+      "Wiki: Match setup",
+      "https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#match-setup"
+     ]
+    ]
+   ]
+  ]
+ }
+];
+
+const QS = [];
+GROUPS.forEach(g => g.qs.forEach(([id, ask, ctx, opts]) => QS.push({ id, ask, opts })));
+const answers = {};
+let filter = "all";
+let db = null;
+const queues = {};
+const $ = id => document.getElementById(id);
+
+function enqueue(key, fn) { const next = (queues[key] || Promise.resolve()).catch(() => {}).then(fn); queues[key] = next; return next; }
+function setSave(text, warn) { const el = $("save"); el.textContent = text; el.classList.toggle("warn", !!warn); }
+
+function build() {
+  let n = 0;
+  GROUPS.forEach(g => {
+    const box = document.createElement("section"); box.className = "group";
+    const h = document.createElement("h2"); h.textContent = g.name; box.appendChild(h);
+    if (g.intro) { const p = document.createElement("p"); p.className = "intro"; p.textContent = g.intro; box.appendChild(p); }
+    g.qs.forEach(([id, ask, ctx, opts, refs]) => {
+      n += 1;
+      const row = document.createElement("div"); row.className = "q"; row.dataset.id = id;
+      const code = document.createElement("div"); code.className = "code"; code.textContent = "Q-" + String(n).padStart(2, "0");
+      const body = document.createElement("div"); body.className = "body";
+      const a = document.createElement("div"); a.className = "ask"; a.id = "ask-" + id; a.textContent = ask; body.appendChild(a);
+      if (ctx) { const c = document.createElement("p"); c.className = "ctx"; c.textContent = ctx; body.appendChild(c); }
+      if (refs && refs.length) {
+        const r = document.createElement("p"); r.className = "refs"; r.append("References: ");
+        refs.forEach(([lab, url], i) => { if (i) r.append(" · "); const l = document.createElement("a"); l.href = url; l.textContent = lab; l.target = "_blank"; l.rel = "noopener noreferrer"; r.appendChild(l); });
+        body.appendChild(r);
+      }
+      const list = document.createElement("div"); list.className = "opts"; list.setAttribute("role", "radiogroup"); list.setAttribute("aria-labelledby", "ask-" + id);
+      opts.forEach(([oid, label, sug]) => {
+        const b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.id = "o-" + id + "-" + oid;
+        b.setAttribute("role", "radio"); b.setAttribute("aria-checked", "false"); b.dataset.opt = oid;
+        const dot = document.createElement("span"); dot.className = "dot"; dot.setAttribute("aria-hidden", "true");
+        const t = document.createElement("span"); t.textContent = label;
+        if (sug) { const tg = document.createElement("span"); tg.className = "tag"; tg.textContent = "Suggested"; t.appendChild(tg); }
+        b.append(dot, t);
+        b.addEventListener("click", () => choose(id, answers[id] === oid ? null : oid));
+        list.appendChild(b);
+      });
+      body.appendChild(list);
+      const tog = document.createElement("button"); tog.type = "button"; tog.className = "ctoggle"; tog.id = "c-" + id + "-toggle"; tog.textContent = "Add a comment"; tog.setAttribute("aria-expanded", "false");
+      const cbox = document.createElement("div"); cbox.hidden = true;
+      const ta = document.createElement("textarea"); ta.id = "c-" + id; ta.setAttribute("aria-label", "Comment on " + ask); ta.placeholder = "Your comment";
+      ta.addEventListener("input", () => commentChanged(id));
+      cbox.appendChild(ta);
+      tog.addEventListener("click", () => { const open = cbox.hidden; cbox.hidden = !open; tog.setAttribute("aria-expanded", String(open)); if (open) ta.focus(); });
+      body.append(tog, cbox);
+      row.append(code, body);
+      box.appendChild(row);
+    });
+    const empty = document.createElement("div"); empty.className = "empty-filter"; empty.hidden = true; empty.textContent = "Nothing here for this filter."; box.appendChild(empty);
+    $("sheet").appendChild(box);
+  });
+}
+
+function render() {
+  const total = QS.length; let done = 0;
+  document.querySelectorAll(".q").forEach(row => {
+    const id = row.dataset.id; const a = answers[id];
+    if (a) done++;
+    row.dataset.done = a ? "yes" : "";
+    row.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-checked", String(b.dataset.opt === a)));
+    row.hidden = !(filter === "all" || (filter === "open" ? !a : !!a));
+  });
+  document.querySelectorAll(".group").forEach(g => { g.querySelector(".empty-filter").hidden = [...g.querySelectorAll(".q")].some(r => !r.hidden); });
+  $("count").textContent = done + " of " + total + " answered";
+  $("meter").style.width = (done / total * 100) + "%";
+}
+
+function labelFor(id, oid) { const q = QS.find(x => x.id === id); const o = q && q.opts.find(x => x[0] === oid); return o ? o[1] : oid; }
+
+function choose(id, oid) {
+  if (oid) answers[id] = oid; else delete answers[id];
+  render();
+  if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  setSave("Saving");
+  const ref = db.doc("answers/" + id);
+  enqueue(id, () => oid ? ref.set({ choice: oid, label: labelFor(id, oid), question: QS.find(x => x.id === id).ask }) : ref.delete())
+    .then(() => setSave("Saved"))
+    .catch(() => setSave("Couldn't save that answer. Use Copy my answers when you're done.", true));
+}
+
+const timers = {};
+function showComment(id, text) {
+  const ta = $("c-" + id), tog = $("c-" + id + "-toggle"); if (!ta) return;
+  if (document.activeElement !== ta && ta.value !== text) ta.value = text;
+  tog.textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  if (ta.value.trim() && ta.parentElement.hidden) { ta.parentElement.hidden = false; tog.setAttribute("aria-expanded", "true"); }
+}
+function commentChanged(id) {
+  const ta = $("c-" + id);
+  $("c-" + id + "-toggle").textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  clearTimeout(timers[id]);
+  timers[id] = setTimeout(() => {
+    if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+    const text = ta.value.trim(); const ref = db.doc("comments/" + id);
+    setSave("Saving");
+    enqueue("c-" + id, () => text ? ref.set({ text, question: QS.find(x => x.id === id).ask }) : ref.delete())
+      .then(() => setSave("Saved"))
+      .catch(() => setSave("Couldn't save that comment. Use Copy my answers when you're done.", true));
+  }, 800);
+}
+
+function summary() {
+  return QS.map((q, i) => {
+    const a = answers[q.id]; const ta = $("c-" + q.id); const c = ta && ta.value.trim();
+    return "Q-" + String(i + 1).padStart(2, "0") + " " + q.ask + ": " + (a ? labelFor(q.id, a) : "not answered") + (c ? " (" + c + ")" : "");
+  }).join("\n");
+}
+$("copy").addEventListener("click", () => {
+  const text = summary();
+  const fallback = () => {
+    $("copy-status").textContent = "Copy didn't work here. Select the text below and copy it.";
+    let pre = $("fallback");
+    if (!pre) { pre = document.createElement("textarea"); pre.id = "fallback"; pre.readOnly = true; document.querySelector(".foot").after(pre); }
+    pre.value = text; pre.focus(); pre.select();
+  };
+  try { navigator.clipboard.writeText(text).then(() => { $("copy-status").textContent = "Copied. Paste it into the chat."; }, fallback); } catch (e) { fallback(); }
+});
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  filter = c.dataset.filter;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+  render();
+}));
+
+build(); render();
+
+(async () => {
+  const timer = setTimeout(() => setSave("Can't reach saved answers yet. You can still pick; copy them when done.", true), 10000);
+  try { db = window.claude ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { clearTimeout(timer); setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  db.collection("answers").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    const seen = {};
+    snap.docs.forEach(d => { const v = d.data() && d.data().choice; if (typeof v === "string") seen[d.id] = v; });
+    if (!snap.metadata.hasPendingWrites) Object.keys(answers).forEach(k => { if (!seen[k]) delete answers[k]; });
+    Object.assign(answers, seen);
+    render();
+    if (!snap.metadata.fromCache) setSave("Answers save as you go");
+  }, () => { clearTimeout(timer); setSave("Can't load saved answers. Use Copy my answers when you're done.", true); });
+  db.collection("comments").onSnapshot(snap => {
+    const seen = {};
+    snap.docs.forEach(d => { const t = d.data() && d.data().text; if (typeof t === "string") seen[d.id] = t; });
+    QS.forEach(q => showComment(q.id, seen[q.id] || ""));
+  }, () => {});
+})();
+</script>
+
+</body></html>

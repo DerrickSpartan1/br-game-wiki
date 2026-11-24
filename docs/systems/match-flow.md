@@ -49,13 +49,13 @@ The playzone (blue) shrinks toward the next safe circle (white) in phases, and a
 
 Damage is a percent of full health, so armor doesn't change it.
 
-**Scaled to Teplov (owner asked, 2026-11-24; our pick):** PUBG's first circle is 4,565 m across on Erangel's 8 × 8 km map, about a quarter of its area. Teplov's play area is 10 × 8 km, a quarter bigger, so phases 1 and 2 grow by the same factor (about 1.12) to 5,100 and 3,315 m, and phase 3 on keeps PUBG's sizes. The shrink speeds are worked out from the new sizes: shrink speed is how fast the circle's diameter closes while it shrinks, as on PUBG's table, and the first blue circle starts round the whole 10 × 8 km play area (12.8 km across).
+**Scaled to Teplov (owner, 2026-11-24):** PUBG's first circle is 4,565 m across on Erangel's 8 × 8 km map, about a quarter of its area. Teplov's play area is 10 × 8 km, a quarter bigger, so phases 1 and 2 grow by the same factor (about 1.12) to 5,100 and 3,315 m, and phase 3 on keeps PUBG's sizes. The shrink speeds are worked out from the new sizes: shrink speed is how fast the circle's diameter closes while it shrinks, as on PUBG's table, and the first blue circle starts round the whole 10 × 8 km play area (12.8 km across).
 
 **Circles stay over land (planner's pick, 2026-11-22):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
 
 ### The edge: how it looks
 
-The owner asked for the wall's look and picked everything here on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) (2026-11-24):
+The owner asked for the wall's look and picked everything here on a picks page (2026-11-24; his answers are on the [Picks archive](../planning/picks-archive.md)):
 
 - **Color: aurora (owner, 2026-11-24):** like northern lights, teal at the bottom shifting to violet at the top, not PUBG's blue ([Legal review](../planning/legal-review.md#pubg-look-and-feel)). It can't be mixed up with the white safe circle or a red strike zone, and no shooter we know of uses it.
 - **See-through:** a tall curtain you see through like tinted glass. Players, buildings, and land behind it show, dimmed by about a third. Thin bright lines of static crawl up it.
@@ -131,7 +131,7 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 
 **Owner's picks (2026-11-24):** every timing and sight above as suggested, except the warning, which is 20 seconds instead of 30.
 
-**Sizes and damage (our pick, 2026-11-24; answers to the lead's questions; bigger, owner asked):**
+**Sizes and damage (our pick, 2026-11-24, answering the lead; the bigger sizes owner, 2026-11-24):**
 
 | Strike zone | Circle across | Details |
 | --- | --- | --- |
@@ -142,8 +142,8 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 | EMP | 600 m | |
 | Gas | 400 m | |
 
-- **Bigger, and shrinking with the zone (owner asked for bigger, 2026-11-24):** the sizes above are for phases 1 to 3. They're twice as wide as before, with four times the shells, so a spot in a bombardment is shelled as hard as it was. Gas stays smaller than the rest: at a sprint you get out from the middle in about 32 s, inside the warning and the roll-in. A strike zone is never wider than half the current white circle, so in phase 4 it's about 370 m, with shells and fire cut down in the same proportion. No new strike zones start from phase 5 on, when the white circle is under 400 m.
-- **Where they land (owner, 2026-11-24; odds our pick):** the owner remembered them landing in the white circle. PUBG's could land anywhere, even outside the white circle and far from players ([Gamepressure](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136)). Ours aim at the fight: 7 times in 10 the center is inside the current white circle, otherwise anywhere in the blue, and never outside the blue.
+- **Bigger, and shrinking with the zone (owner, 2026-11-24):** the sizes above are for phases 1 to 3. They're twice as wide as before, with four times the shells, so a spot in a bombardment is shelled as hard as it was. Gas stays smaller than the rest: at a sprint you get out from the middle in about 32 s, inside the warning and the roll-in. A strike zone is never wider than half the current white circle, so in phase 4 it's about 370 m, with shells and fire cut down in the same proportion. No new strike zones start from phase 5 on, when the white circle is under 400 m.
+- **Where they land (owner, 2026-11-24):** the owner remembered them landing in the white circle. PUBG's could land anywhere, even outside the white circle and far from players ([Gamepressure](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136)). Ours aim at the fight: 7 times in 10 the center is inside the current white circle, otherwise anywhere in the blue, and never outside the blue.
 - **Fire:** standing in firebombing's flames burns like a Molotov or dragon's breath: 10 health a second through armor, and you keep burning 4 seconds after you step out ([Dragon's breath](starting-damage.md)).
 - **Gas coming and going:** gas hurts at half its rate while it rolls in and while it thins out, and at the full rate while it holds. It stops when it's gone.
 - **Shelter from shells:** for now any solid roof over your head shelters you, doorways and windows included, and wooden houses never give way. Both wait for building materials, when doorways and windows should count as outside for a shell landing within about 5 m.
@@ -154,7 +154,7 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 Random, like PUBG's:
 
 - **When and where:** a plane flies over at random times and drops a crate at a random point along its path. You hear the plane before the drop.
-- **The crate** comes down on a parachute and is marked with smoke once it lands. It can land on a roof, in water, or somewhere hard to reach. Our own look and signal, not PUBG's (owner asked, 2026-11-24; details our pick):
+- **The crate** comes down on a parachute and is marked with smoke once it lands. It can land on a roof, in water, or somewhere hard to reach. Our own look and signal, not PUBG's (owner, 2026-11-24, including the green smoke and how long it lasts; the plane, crate, and parachute details are our pick):
     - **The plane:** a four-engine turboprop cargo plane, like a Soviet An-12, flying low, about 300 m up. You hear its deep drone from about 1.5 km away, loudest straight overhead, so you can tell which way it's going before you see it. A thump and a rush of air when the crate falls out the back.
     - **The crate:** an olive-drab military crate about 1.2 m on each side, with steel corners, stenciled numbers, and no emblems. A small green strobe blinks on top while it falls, so you can follow it against the sky.
     - **Its parachute:** one big round cargo parachute in olive and white panels. It opens a moment after the drop and brings the crate down at about 5 m/s, about a minute from the plane to the ground. It collapses over the crate when it lands.

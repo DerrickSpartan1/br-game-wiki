@@ -1,0 +1,154 @@
+{
+ "answers": {
+  "bp_capacity": {
+   "choice": "spread",
+   "label": "The tier, with a small spread",
+   "question": "What sets how much a backpack holds"
+  },
+  "bp_names": {
+   "choice": "birds",
+   "label": "Birds by size",
+   "question": "Game names for backpacks"
+  },
+  "bp_slow": {
+   "choice": "none",
+   "label": "No, like PUBG",
+   "question": "Do backpacks slow you down?"
+  },
+  "compass": {
+   "choice": "accent",
+   "label": "Same as the menu accent",
+   "question": "The HUD compass heading"
+  },
+  "cp_smoke": {
+   "choice": "green",
+   "label": "Signal green",
+   "question": "Care package smoke color"
+  },
+  "cp_smoke_time": {
+   "choice": "60",
+   "label": "60 s",
+   "question": "How long the crate's smoke lasts"
+  },
+  "dusk": {
+   "choice": "dip",
+   "label": "300 m for about 5 minutes around sunset and sunrise",
+   "question": "Dusk and dawn"
+  },
+  "edge_circle": {
+   "choice": "map",
+   "label": "Map and minimap, with a guide line",
+   "question": "How the next safe circle shows"
+  },
+  "edge_color2": {
+   "choice": "aurora",
+   "label": "Aurora",
+   "question": "Color of the edge, second try"
+  },
+  "edge_inside": {
+   "choice": "edges",
+   "label": "Tint at the screen's edges, stronger the deeper you are",
+   "question": "What you see while you're in the edge"
+  },
+  "edge_see": {
+   "choice": "glass",
+   "label": "Like tinted glass",
+   "question": "How see-through the wall is"
+  },
+  "edge_sound": {
+   "choice": "hum",
+   "label": "Hum near it, crackle inside",
+   "question": "How the edge sounds"
+  },
+  "emp": {
+   "choice": "60",
+   "label": "60 s",
+   "question": "EMP"
+  },
+  "fire": {
+   "choice": "60",
+   "label": "Fires burn 60 s",
+   "question": "Firebombing fires"
+  },
+  "first_circle": {
+   "choice": "scaled",
+   "label": "5,100 m, scaled to Teplov",
+   "question": "First circle size"
+  },
+  "fog_thick": {
+   "choice": "150",
+   "label": "150 m",
+   "question": "How far you can see in fog at its thickest"
+  },
+  "fog_time": {
+   "choice": "mid",
+   "label": "2 min in, 3 to 6 min, 2 min out",
+   "question": "How long fog lasts"
+  },
+  "gas": {
+   "choice": "mid",
+   "label": "20 s in, 2 min, 20 s out; 60 m sight",
+   "question": "Gas strike zone"
+  },
+  "hands_bob": {
+   "choice": "mid",
+   "label": "About 2 cm up and down at a run",
+   "question": "How much the hands move"
+  },
+  "menu_accent": {
+   "choice": "lime",
+   "label": "Field lime",
+   "question": "Menu and button accent"
+  },
+  "rain_sight": {
+   "choice": "600",
+   "label": "600 m",
+   "question": "How far you can see in full rain"
+  },
+  "smoke_nade": {
+   "choice": "40",
+   "label": "Holds 40 s",
+   "question": "Smoke grenade"
+  },
+  "smoke_zone": {
+   "choice": "mid",
+   "label": "15 s in, 2 min, 30 s out; 10 m sight",
+   "question": "Smoke strike zone"
+  },
+  "storm": {
+   "choice": "400",
+   "label": "400 m in the downpour",
+   "question": "Thunderstorms"
+  },
+  "strike_size": {
+   "choice": "600",
+   "label": "600 m, gas 400 m",
+   "question": "Strike zone size in phases 1 to 3"
+  },
+  "strike_where": {
+   "choice": "mostly",
+   "label": "Inside the white circle 7 times in 10",
+   "question": "Where strike zones land"
+  },
+  "throw_arc": {
+   "choice": "on",
+   "label": "On, with a switch to turn it off",
+   "question": "The throw arc"
+  },
+  "warning": {
+   "choice": "20",
+   "label": "20 s",
+   "question": "Strike zone warning"
+  }
+ },
+ "comments": {
+  "edge_color": {
+   "question": "Color of the edge",
+   "text": "hmm blue is a classic but dont want that pubjg claim, any other suggestions?"
+  },
+  "rain_sight": {
+   "question": "How far you can see in full rain",
+   "text": "rain should efefect vehicle handling too"
+  }
+ }
+}

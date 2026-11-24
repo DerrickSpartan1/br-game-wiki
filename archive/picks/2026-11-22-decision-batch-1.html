@@ -1,0 +1,409 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Teplov Decision Batch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a requisition sheet. Each question is a numbered line with its options as stampable choices. */
+:root {
+  --paper: #e9e7df; --sheet: #f6f5f0; --ink: #23271f; --muted: #5d6356; --rule: #cfcdc2;
+  --olive: #4a5a2c; --olive-soft: #dfe4d2; --pick: #2f6b3a; --pick-soft: #d8eadb; --focus: #4a5a2c;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+    --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+  --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 64px;
+}
+.wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+header.top { display: flex; flex-direction: column; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.05; margin: 0; letter-spacing: .01em; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding-block: 10px; display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid var(--rule); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.progress-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.count { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.meter { flex: 1 1 160px; height: 8px; background: var(--rule); border-radius: 4px; overflow: hidden; min-width: 120px; }
+.meter span { display: block; height: 100%; background: var(--pick); width: 0; }
+.save { font-size: 13px; color: var(--muted); }
+.save.warn { color: #a3322a; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font: 500 13px var(--font-body); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--olive); border-color: var(--olive); color: var(--sheet); }
+.group { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.group h2 { margin: 0; padding: 10px 16px; font-family: var(--font-display); font-weight: 600; font-size: 21px; letter-spacing: .04em; text-transform: uppercase; background: var(--olive-soft); color: var(--olive); border-bottom: 1px solid var(--rule); }
+.group .intro { margin: 0; padding: 10px 16px; font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--rule); }
+.q { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 6px 14px; padding: 14px 16px; border-bottom: 1px solid var(--rule); }
+.q:last-child { border-bottom: 0; }
+.q[data-done="yes"] { box-shadow: inset 4px 0 0 var(--pick); }
+.code { font-family: var(--font-mono); font-size: 12px; color: var(--muted); padding-top: 2px; }
+.body { min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.ask { font-weight: 600; }
+.ctx { font-size: 13.5px; color: var(--muted); margin: -4px 0 0; }
+.opts { display: flex; flex-direction: column; gap: 6px; }
+.opt { display: flex; gap: 10px; align-items: flex-start; text-align: left; width: 100%; font: 14px var(--font-body); color: var(--ink); background: transparent; border: 1.5px solid var(--rule); border-radius: 5px; padding: 8px 10px; cursor: pointer; }
+.opt:hover { border-color: var(--muted); }
+.opt .dot { flex: 0 0 16px; height: 16px; margin-top: 2px; border-radius: 50%; border: 2px solid var(--muted); }
+.opt[aria-checked="true"] { border-color: var(--pick); background: var(--pick-soft); }
+.opt[aria-checked="true"] .dot { border-color: var(--pick); background: var(--pick); box-shadow: inset 0 0 0 3px var(--pick-soft); }
+.tag { display: inline-block; margin-left: 6px; font: 600 11px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--olive); border: 1px solid var(--olive); border-radius: 3px; padding: 0 5px; vertical-align: 1px; }
+.ctoggle { align-self: flex-start; font: 500 13px var(--font-body); color: var(--olive); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: 14px var(--font-body); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.copy { font: 600 14px var(--font-body); background: var(--olive); color: var(--sheet); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+.src { font-size: 13px; color: var(--muted); }
+.src a { color: var(--olive); }
+.empty-filter { padding: 14px 16px; color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) { .q { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: no-preference) { .opt, .chip { transition: background .12s, border-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Teplov battle royale · decision batch, 2026-11-22</div>
+    <h1>Reloads, sway, characters, settings, bots, healing, comebacks, and the lead's new questions</h1>
+    <p class="lede">Pick one option on each question, and add a comment where you want to. "Suggested" marks the planner's pick. Tap a pick again to clear it. Your answers save as you go, and Claude reads them from this page when you say you're done.</p>
+  </header>
+
+  <div class="bar" role="region" aria-label="Progress">
+    <div class="progress-row">
+      <span class="count" id="count">0 of 0 answered</span>
+      <div class="meter" aria-hidden="true"><span id="meter"></span></div>
+      <span class="save" id="save" aria-live="polite">Loading saved answers</span>
+    </div>
+    <div class="filters" role="group" aria-label="Show">
+      <button class="chip" id="f-all" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip" id="f-open" data-filter="open" aria-pressed="false">Not answered</button>
+      <button class="chip" id="f-done" data-filter="done" aria-pressed="false">Answered</button>
+    </div>
+  </div>
+
+  <main id="sheet" style="display:flex;flex-direction:column;gap:20px"></main>
+
+  <div class="foot">
+    <button class="copy" id="copy">Copy my answers</button>
+    <span id="copy-status">Copies a short list you can paste into the chat.</span>
+  </div>
+
+  <p class="src">Sources: <a href="https://support.pubg.com/hc/en-us/articles/115004170793-How-do-I-hold-my-breath-when-I-aim">PUBG Support: holding breath</a> · <a href="https://sites.google.com/view/pubgguide/quick-tips/tips-for-aiming">PUBG guide: aiming tips</a> · <a href="https://mein-mmo.de/en/pubg-the-developer-explains-the-bots-they-are-intentionally-that-dumb,511991">Mein-MMO: PUBG's bots</a> · <a href="https://beebom.com/pubg-training-mode-walkthrough/">Beebom: PUBG Training Mode</a> · <a href="https://community.adobe.com/t5/mixamo-discussions/mixamo-faq-licensing-royalties-ownership-eula-and-tos/m-p/13234775">Adobe: Mixamo licensing FAQ</a> · <a href="https://prosettings.net/guides/pubg-options/">ProSettings: PUBG options</a> · <a href="https://pubg.com/en/news/1740">PUBG: Update 12.2 (Comeback BR)</a> · <a href="https://www.pcgamesn.com/call-of-duty-warzone/buy-stations-killstreaks-prices">PCGamesN: Warzone buy stations</a> · <a href="https://gamertagmythras.com/blog/pubg-battlegrounds/pubg-care-package-guide">PUBG care package guide</a></p>
+</div>
+
+<script>
+const GROUPS = [
+  { name: "Reloads (the lead's questions)", intro: "Only the Janz is a revolver in the roster so far, and it has a swing-out cylinder. Future revolvers like the Nagant, Single Action Army, LeMat, and Apache are gate-loaded: real ones load through a side gate one round at a time.", qs: [
+    ["rl-revolver", "How should revolvers reload?", "", [
+      ["two", "Two styles: gate-loaded revolvers load one round at a time; swing-out and break-top ones use the staged reload", true],
+      ["staged", "Every revolver uses the staged reload (cylinder out, rounds in, closed)"],
+      ["single", "Every revolver loads one round at a time"]]],
+    ["rl-belt", "How does a belt reload from empty split up?", "The page says the last 15% is charging the gun. The lead read that as three stages.", [
+      ["404515", "40% cover up and old belt out, 45% new belt in and cover down, 15% charging (the lead's reading)", true],
+      ["longer", "Keep 40% and 60% as with rounds left, and add charging on top, so empty reloads take longer"]]]
+  ]},
+  { name: "Weapon sway", intro: "PUBG 2017–2018: aiming sways, more with bigger scopes. Shift holds your breath to steady the aim (and zooms red dots and holos slightly); a breath gauge drains and takes 5 s to refill once empty. Crouching and prone steady the aim. The tactical stock cuts sway 10% and the cheek pad 15%. Hip fire uses spread rather than visible sway.", qs: [
+    ["sw-ads", "Sway when aiming down sights?", "", [
+      ["pubg", "Like PUBG: always a little, more with more zoom", true],
+      ["scopes", "Only with magnified scopes"],
+      ["none", "No sway"]]],
+    ["sw-breath", "Holding your breath?", "", [
+      ["gauge", "Like PUBG: Shift steadies the aim, with a breath gauge that runs out", true],
+      ["free", "Shift steadies the aim, with no gauge"],
+      ["none", "No holding breath"]]],
+    ["sw-stance", "Does stance or moving change sway?", "", [
+      ["pubg", "Like PUBG: crouch and prone steady it, moving makes it worse", true],
+      ["none", "Sway is the same in every stance"]]],
+    ["sw-hip", "Sway at the hip?", "", [
+      ["spread", "Like PUBG: spread only, no visible sway", true],
+      ["some", "A little visible sway at the hip too"]]]
+  ]},
+  { name: "Player character", intro: "The white mannequin makes the gun hold hard to judge. Mixamo's free characters and animations can be used in games with no fees, but their raw files can't be shared or sold.", qs: [
+    ["pc-first", "What goes in first?", "", [
+      ["arms", "First-person arms: low-poly arms with sleeves and gloves that follow the outfit, then the full bodies", true],
+      ["bodies", "The full low-poly male and female bodies first; the arms come from them"],
+      ["mixamo", "A free Mixamo character as a stand-in while ours are made"]]],
+    ["pc-who", "How are ours made?", "", [
+      ["own", "Our own in Blender, on Unreal's mannequin skeleton so every animation works on them", true],
+      ["mixamo", "Start from a Mixamo body and tweak it by hand"],
+      ["meta", "Unreal's MetaHuman: realistic and heavy, maybe for the final look later"]]]
+  ]},
+  { name: "Settings menu", intro: "PUBG's settings have graphics, controls with general, aim, ADS, and per-scope sensitivity plus a vertical multiplier, key bindings, and audio. The field of view slider (80 to 103, default 90) is already decided.", qs: [
+    ["st-tabs", "Which tabs first?", "", [
+      ["two", "Gameplay (field of view) and Controls (sensitivity, keys) first; Graphics and Audio after", true],
+      ["all", "All four tabs from the start"]]],
+    ["st-sens", "How detailed is sensitivity?", "", [
+      ["pubg", "Like PUBG: general, aim, ADS, one per scope (2x to 15x), and a vertical multiplier", true],
+      ["simple", "One sensitivity plus one aiming multiplier"]]],
+    ["st-keys", "Can every key be changed?", "", [
+      ["all", "Yes, every key can be rebound", true],
+      ["fixed", "Fixed keys for now"]]]
+  ]},
+  { name: "Bots and the test arena", intro: "PUBG added bots in 2020, kept them easy on purpose to help new players, used more of them at low ranks, and kept ranked human-only. PUBG's Training Mode has an equipment table, ranges out to 800 m, a throwables range, a close-quarters area, and vehicles.", qs: [
+    ["bt-where", "Where do bots play?", "", [
+      ["fill", "They fill the lobby and empty slots in our matches, so games feel full", true],
+      ["pubg", "Like PUBG: more for new players, fewer as they improve"],
+      ["arena", "Only in the test arena, never in real matches"]]],
+    ["bt-skill", "How good are bots?", "", [
+      ["levels", "Three levels (easy, normal, hard), set per match", true],
+      ["easy", "Easy on purpose, like PUBG's"],
+      ["hard", "As good as we can make them"]]],
+    ["bt-mark", "Are bots marked?", "", [
+      ["after", "Marked once you've killed or been killed by one (kill feed and death screen)", true],
+      ["never", "Never marked, like PUBG"],
+      ["always", "Marked everywhere, even their name tags"]]],
+    ["ar-entry", "How do you get into the test arena?", "", [
+      ["menu", "From the menu, like PUBG's Training Mode", true],
+      ["range", "From the range, with a console command"]]],
+    ["ar-layout", "What is the test arena?", "", [
+      ["small", "A small walled arena with cover: you against one bot, with gun, armor, and med tables; a round restarts when someone dies", true],
+      ["big", "A training map like PUBG's Camp Jackal: ranges, driving, parachute practice, and a close-quarters area"]]],
+    ["ar-bot", "What does the arena bot do?", "", [
+      ["modes", "Three modes: stand still, strafe, or fight back", true],
+      ["fight", "Always fights back"]]]
+  ]},
+  { name: "Healing (the lead's placeholders)", intro: "The game uses these until the wiki sets them. The weights are PUBG's.", qs: [
+    ["hl-weight", "Weights: bandage 2, first aid kit 10, energy drink 4, painkillers 10", "", [
+      ["keep", "Keep them (PUBG's)", true], ["change", "Change them (say how in a comment)"]]],
+    ["hl-spawn", "Ground med mix: bandages 30, first aid 24, med kits 5, energy drinks 22, painkillers 16, adrenaline 3; bandages in stacks of 5", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-crate", "Care packages hold 1 adrenaline-slot item", "PUBG's care packages can also hold a med kit.", [
+      ["medkit", "1 adrenaline-slot item, plus a chance of a med kit", true], ["keep", "Just the 1 adrenaline-slot item"]]],
+    ["hl-vault", "Vault meds: 2 first aid kits, 1 med kit, 1 adrenaline", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-knock", "Getting knocked empties the boost bar and stops healing", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-cap", "A heal item can't be used at its cap, even if it also boosts", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-adr", "Adrenaline used for a quick teammate pickup is used up, and the teammate gets its boost", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-pocket", "The pocket first aid kit heals 70, still capped at 80", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-cancel", "What cancels healing?", "The lead's build: firing, getting knocked, the parachute, and vaulting.", [
+      ["pubg", "Those, plus reloading, aiming, switching weapons, and jumping, as in PUBG", true],
+      ["keep", "Just the lead's four"]]],
+    ["hl-walk", "Moving while healing?", "", [
+      ["slow", "A slow walk, like PUBG", true], ["normal", "Normal walking speed"], ["none", "You can't move"]]],
+    ["hl-run", "Boost's speed bonus counts only when running", "", [
+      ["keep", "Keep it", true], ["change", "Change it"]]],
+    ["hl-gas", "Does the blood substitute injector also cut gas damage?", "", [
+      ["no", "No, it only does what its slot does", true], ["yes", "Yes, a small cut"]]]
+  ]},
+  { name: "Your decisions", intro: "FRAG-12 and dragon's breath weigh 2 each, so 10 rounds weigh about as much as a frag grenade. PUBG's crate P90 comes with 200 rounds.", qs: [
+    ["cr-shells", "Crate FRAG-12 and dragon's breath rounds per crate", "", [
+      ["10", "10"], ["20", "20", true], ["30", "30"]]],
+    ["cr-launch", "Lethal launcher rounds per crate", "", [
+      ["3", "3"], ["5", "5", true], ["8", "8"]]],
+    ["cr-veh", "FRAG-12 against vehicles", "", [
+      ["strong", "Strong: about 5 hits wreck a car", true], ["light", "Light: a little more than buckshot"]]],
+    ["cb-form", "What is the comeback?", "Warzone's Gulag is 1v1 duels. PUBG's Comeback BR on Taego sends everyone who dies early to one arena to loot and fight; survivors fly back by helicopter in phase 3 with their gear. Ours on the wiki is random team fights with random guns.", [
+      ["teams", "Keep ours: random team fights, winners redeploy"],
+      ["gulag", "Warzone style: 1v1 duels, the winner redeploys"],
+      ["taego", "PUBG Taego style: one arena for everyone out early, survivors fly back in", true],
+      ["scrap", "Buy squadmates back with scrap at a radio tower"]]],
+    ["cb-when", "When is the comeback open?", "", [
+      ["early", "Only for players out before a set phase, like Taego's first phase", true],
+      ["late", "Until the late game"],
+      ["squad", "Only while a squadmate is still alive"]]],
+    ["setup", "Tick off the setup checklist on the to-do page?", "The lead is running, so it looks done.", [
+      ["yes", "Yes, it's done", true], ["no", "Not yet"]]]
+  ]},
+  { name: "New from the lead: reloads, names, kills, menus", intro: "The lead added these after the page went up.", qs: [
+    ["ld-done", "When does a reload count as done?", "The server counts it at the very end, but the animation seats the new mag earlier (60% in third person, 82% in first person), so sprinting right after the mag seats makes it vanish again.", [
+      ["seat", "Once the new mag seats, then a short back-to-ready stage you can cancel for free, like PUBG", true],
+      ["end", "Only at the very end; the lead retimes the animations so the mag seats at the end"]]],
+    ["ld-family", "Gun cards show a family label like \"AK-47 / AKM\", but only versions have game names", "", [
+      ["version", "Show only the version's game name", true],
+      ["family", "Give each family its own game name too"]]],
+    ["ld-buran", "\"Oka Buran\" (the SR-3 Vikhr) uses Buran, a real snowmobile brand our rules avoid", "", [
+      ["rename", "Rename it, for example Oka Metel (another word for a snowstorm)", true],
+      ["keep", "Keep it"]]],
+    ["ld-pichler", "\"Pichler P-19\" and \"P-20\" (the Glock 17 and 18) use real Glock model numbers", "", [
+      ["rename", "Rename them, for example Pichler PK-17 and PK-18 (real number, new letters, like our other names)", true],
+      ["keep", "Keep them"]]],
+    ["ld-liberator", "\"Northway NW-45 Liberator\" keeps the FP-45's real nickname", "It's a plain word, not a brand.", [
+      ["keep", "Keep it", true],
+      ["rename", "Rename it, for example Northway NW-45 Partisan"]]],
+    ["ld-keys", "Real gun and armor names stay as hidden keys inside the game's data tables (never on screen)", "", [
+      ["ok", "OK for the private build, with a note for the lawyer", true],
+      ["rename", "Rename the hidden keys now too"]]],
+    ["ld-accent", "Menu accent color", "The lead swapped PUBG-like yellow buttons for a placeholder; the HUD compass heading stays yellow.", [
+      ["mock", "Show me three mockups to pick from", true],
+      ["red", "Muted red, like old Soviet signs"],
+      ["olive", "Olive drab green"],
+      ["steel", "Steel blue"]]]
+  ]},
+  { name: "New from the lead: graybox map", intro: "The lead started Teplov's graybox from a heightmap tool, tracing Ischia by hand. I'll put the mockup's coordinates on the wiki, fix Pizzi Bianchi's location, and suggest the farm tracks myself; these are the calls for you.", qs: [
+    ["gm-krepost", "Krepost, the fortress rock: about 45 m tall after squashing, with cliffs. How do you get up?", "", [
+      ["causeway", "Only over the causeway and a ramp", true],
+      ["climb", "The causeway, plus a climbing spot or two"]]],
+    ["gm-height", "The next terrain pass", "", [
+      ["real", "Use Ischia's real elevation data, squashed to 40%, as the wiki planned", true],
+      ["formula", "Keep the lead's shape formula"]]],
+    ["gm-bends", "The ring road: about 22 km as a straight line through the towns, the real one about 30 km of bends", "", [
+      ["bends", "Keep the real bends", true],
+      ["straight", "Keep it straighter and shorter"]]],
+    ["gm-ovsyanka", "The ring road goes through Ovsyanka, and Kholmy gets a short side road", "", [
+      ["ok", "That's fine", true],
+      ["swap", "Run the ring road through Kholmy instead"]]]
+  ]}
+];
+
+const QS = [];
+GROUPS.forEach(g => g.qs.forEach(([id, ask, ctx, opts]) => QS.push({ id, ask, opts })));
+const answers = {};
+let filter = "all";
+let db = null;
+const queues = {};
+const $ = id => document.getElementById(id);
+
+function enqueue(key, fn) { const next = (queues[key] || Promise.resolve()).catch(() => {}).then(fn); queues[key] = next; return next; }
+function setSave(text, warn) { const el = $("save"); el.textContent = text; el.classList.toggle("warn", !!warn); }
+
+function build() {
+  let n = 0;
+  GROUPS.forEach(g => {
+    const box = document.createElement("section"); box.className = "group";
+    const h = document.createElement("h2"); h.textContent = g.name; box.appendChild(h);
+    if (g.intro) { const p = document.createElement("p"); p.className = "intro"; p.textContent = g.intro; box.appendChild(p); }
+    g.qs.forEach(([id, ask, ctx, opts]) => {
+      n += 1;
+      const row = document.createElement("div"); row.className = "q"; row.dataset.id = id;
+      const code = document.createElement("div"); code.className = "code"; code.textContent = "Q-" + String(n).padStart(2, "0");
+      const body = document.createElement("div"); body.className = "body";
+      const a = document.createElement("div"); a.className = "ask"; a.id = "ask-" + id; a.textContent = ask; body.appendChild(a);
+      if (ctx) { const c = document.createElement("p"); c.className = "ctx"; c.textContent = ctx; body.appendChild(c); }
+      const list = document.createElement("div"); list.className = "opts"; list.setAttribute("role", "radiogroup"); list.setAttribute("aria-labelledby", "ask-" + id);
+      opts.forEach(([oid, label, sug]) => {
+        const b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.id = "o-" + id + "-" + oid;
+        b.setAttribute("role", "radio"); b.setAttribute("aria-checked", "false"); b.dataset.opt = oid;
+        const dot = document.createElement("span"); dot.className = "dot"; dot.setAttribute("aria-hidden", "true");
+        const t = document.createElement("span"); t.textContent = label;
+        if (sug) { const tg = document.createElement("span"); tg.className = "tag"; tg.textContent = "Suggested"; t.appendChild(tg); }
+        b.append(dot, t);
+        b.addEventListener("click", () => choose(id, answers[id] === oid ? null : oid));
+        list.appendChild(b);
+      });
+      body.appendChild(list);
+      const tog = document.createElement("button"); tog.type = "button"; tog.className = "ctoggle"; tog.id = "c-" + id + "-toggle"; tog.textContent = "Add a comment"; tog.setAttribute("aria-expanded", "false");
+      const cbox = document.createElement("div"); cbox.hidden = true;
+      const ta = document.createElement("textarea"); ta.id = "c-" + id; ta.setAttribute("aria-label", "Comment on " + ask); ta.placeholder = "Your comment";
+      ta.addEventListener("input", () => commentChanged(id));
+      cbox.appendChild(ta);
+      tog.addEventListener("click", () => { const open = cbox.hidden; cbox.hidden = !open; tog.setAttribute("aria-expanded", String(open)); if (open) ta.focus(); });
+      body.append(tog, cbox);
+      row.append(code, body);
+      box.appendChild(row);
+    });
+    const empty = document.createElement("div"); empty.className = "empty-filter"; empty.hidden = true; empty.textContent = "Nothing here for this filter."; box.appendChild(empty);
+    $("sheet").appendChild(box);
+  });
+}
+
+function render() {
+  const total = QS.length; let done = 0;
+  document.querySelectorAll(".q").forEach(row => {
+    const id = row.dataset.id; const a = answers[id];
+    if (a) done++;
+    row.dataset.done = a ? "yes" : "";
+    row.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-checked", String(b.dataset.opt === a)));
+    row.hidden = !(filter === "all" || (filter === "open" ? !a : !!a));
+  });
+  document.querySelectorAll(".group").forEach(g => { g.querySelector(".empty-filter").hidden = [...g.querySelectorAll(".q")].some(r => !r.hidden); });
+  $("count").textContent = done + " of " + total + " answered";
+  $("meter").style.width = (done / total * 100) + "%";
+}
+
+function labelFor(id, oid) { const q = QS.find(x => x.id === id); const o = q && q.opts.find(x => x[0] === oid); return o ? o[1] : oid; }
+
+function choose(id, oid) {
+  if (oid) answers[id] = oid; else delete answers[id];
+  render();
+  if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  setSave("Saving");
+  const ref = db.doc("answers/" + id);
+  enqueue(id, () => oid ? ref.set({ choice: oid, label: labelFor(id, oid), question: QS.find(x => x.id === id).ask }) : ref.delete())
+    .then(() => setSave("Saved"))
+    .catch(() => setSave("Couldn't save that answer. Use Copy my answers when you're done.", true));
+}
+
+const timers = {};
+function showComment(id, text) {
+  const ta = $("c-" + id), tog = $("c-" + id + "-toggle"); if (!ta) return;
+  if (document.activeElement !== ta && ta.value !== text) ta.value = text;
+  tog.textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  if (ta.value.trim() && ta.parentElement.hidden) { ta.parentElement.hidden = false; tog.setAttribute("aria-expanded", "true"); }
+}
+function commentChanged(id) {
+  const ta = $("c-" + id);
+  $("c-" + id + "-toggle").textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  clearTimeout(timers[id]);
+  timers[id] = setTimeout(() => {
+    if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+    const text = ta.value.trim(); const ref = db.doc("comments/" + id);
+    setSave("Saving");
+    enqueue("c-" + id, () => text ? ref.set({ text, question: QS.find(x => x.id === id).ask }) : ref.delete())
+      .then(() => setSave("Saved"))
+      .catch(() => setSave("Couldn't save that comment. Use Copy my answers when you're done.", true));
+  }, 800);
+}
+
+function summary() {
+  return QS.map((q, i) => {
+    const a = answers[q.id]; const ta = $("c-" + q.id); const c = ta && ta.value.trim();
+    return "Q-" + String(i + 1).padStart(2, "0") + " " + q.ask + ": " + (a ? labelFor(q.id, a) : "not answered") + (c ? " (" + c + ")" : "");
+  }).join("\n");
+}
+$("copy").addEventListener("click", () => {
+  const text = summary();
+  const fallback = () => {
+    $("copy-status").textContent = "Copy didn't work here. Select the text below and copy it.";
+    let pre = $("fallback");
+    if (!pre) { pre = document.createElement("textarea"); pre.id = "fallback"; pre.readOnly = true; document.querySelector(".foot").after(pre); }
+    pre.value = text; pre.focus(); pre.select();
+  };
+  try { navigator.clipboard.writeText(text).then(() => { $("copy-status").textContent = "Copied. Paste it into the chat."; }, fallback); } catch (e) { fallback(); }
+});
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  filter = c.dataset.filter;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+  render();
+}));
+
+build(); render();
+
+(async () => {
+  const timer = setTimeout(() => setSave("Can't reach saved answers yet. You can still pick; copy them when done.", true), 10000);
+  try { db = window.claude ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { clearTimeout(timer); setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  db.collection("answers").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    const seen = {};
+    snap.docs.forEach(d => { const v = d.data() && d.data().choice; if (typeof v === "string") seen[d.id] = v; });
+    if (!snap.metadata.hasPendingWrites) Object.keys(answers).forEach(k => { if (!seen[k]) delete answers[k]; });
+    Object.assign(answers, seen);
+    render();
+    if (!snap.metadata.fromCache) setSave("Answers save as you go");
+  }, () => { clearTimeout(timer); setSave("Can't load saved answers. Use Copy my answers when you're done.", true); });
+  db.collection("comments").onSnapshot(snap => {
+    const seen = {};
+    snap.docs.forEach(d => { const t = d.data() && d.data().text; if (typeof t === "string") seen[d.id] = t; });
+    QS.forEach(q => showComment(q.id, seen[q.id] || ""));
+  }, () => {});
+})();
+</script>
+
+</body></html>

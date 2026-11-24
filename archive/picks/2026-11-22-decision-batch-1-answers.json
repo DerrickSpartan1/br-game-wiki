@@ -1,0 +1,253 @@
+{
+ "answers": {
+  "ar-bot": {
+   "choice": "fight",
+   "label": "Always fights back",
+   "question": "What does the arena bot do?"
+  },
+  "ar-entry": {
+   "choice": "menu",
+   "label": "From the menu, like PUBG's Training Mode",
+   "question": "How do you get into the test arena?"
+  },
+  "ar-layout": {
+   "choice": "big",
+   "label": "A training map like PUBG's Camp Jackal: ranges, driving, parachute practice, and a close-quarters area",
+   "question": "What is the test arena?"
+  },
+  "bt-mark": {
+   "choice": "never",
+   "label": "Never marked, like PUBG",
+   "question": "Are bots marked?"
+  },
+  "bt-skill": {
+   "choice": "levels",
+   "label": "Three levels (easy, normal, hard), set per match",
+   "question": "How good are bots?"
+  },
+  "bt-where": {
+   "choice": "fill",
+   "label": "They fill the lobby and empty slots in our matches, so games feel full",
+   "question": "Where do bots play?"
+  },
+  "cb-form": {
+   "choice": "gulag",
+   "label": "Warzone style: 1v1 duels, the winner redeploys",
+   "question": "What is the comeback?"
+  },
+  "cb-when": {
+   "choice": "early",
+   "label": "Only for players out before a set phase, like Taego's first phase",
+   "question": "When is the comeback open?"
+  },
+  "cr-launch": {
+   "choice": "3",
+   "label": "3",
+   "question": "Lethal launcher rounds per crate"
+  },
+  "cr-shells": {
+   "choice": "20",
+   "label": "20",
+   "question": "Crate FRAG-12 and dragon's breath rounds per crate"
+  },
+  "cr-veh": {
+   "choice": "strong",
+   "label": "Strong: about 5 hits wreck a car",
+   "question": "FRAG-12 against vehicles"
+  },
+  "gm-bends": {
+   "choice": "bends",
+   "label": "Keep the real bends",
+   "question": "The ring road: about 22 km as a straight line through the towns, the real one about 30 km of bends"
+  },
+  "gm-height": {
+   "choice": "real",
+   "label": "Use Ischia's real elevation data, squashed to 40%, as the wiki planned",
+   "question": "The next terrain pass"
+  },
+  "gm-ovsyanka": {
+   "choice": "ok",
+   "label": "That's fine",
+   "question": "The ring road goes through Ovsyanka, and Kholmy gets a short side road"
+  },
+  "hl-adr": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Adrenaline used for a quick teammate pickup is used up, and the teammate gets its boost"
+  },
+  "hl-cancel": {
+   "choice": "pubg",
+   "label": "Those, plus reloading, aiming, switching weapons, and jumping, as in PUBG",
+   "question": "What cancels healing?"
+  },
+  "hl-cap": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "A heal item can't be used at its cap, even if it also boosts"
+  },
+  "hl-crate": {
+   "choice": "medkit",
+   "label": "1 adrenaline-slot item, plus a chance of a med kit",
+   "question": "Care packages hold 1 adrenaline-slot item"
+  },
+  "hl-gas": {
+   "choice": "no",
+   "label": "No, it only does what its slot does",
+   "question": "Does the blood substitute injector also cut gas damage?"
+  },
+  "hl-knock": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Getting knocked empties the boost bar and stops healing"
+  },
+  "hl-pocket": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "The pocket first aid kit heals 70, still capped at 80"
+  },
+  "hl-run": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Boost's speed bonus counts only when running"
+  },
+  "hl-spawn": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Ground med mix: bandages 30, first aid 24, med kits 5, energy drinks 22, painkillers 16, adrenaline 3; bandages in stacks of 5"
+  },
+  "hl-vault": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Vault meds: 2 first aid kits, 1 med kit, 1 adrenaline"
+  },
+  "hl-walk": {
+   "choice": "slow",
+   "label": "A slow walk, like PUBG",
+   "question": "Moving while healing?"
+  },
+  "hl-weight": {
+   "choice": "keep",
+   "label": "Keep them (PUBG's)",
+   "question": "Weights: bandage 2, first aid kit 10, energy drink 4, painkillers 10"
+  },
+  "ld-accent": {
+   "choice": "mock",
+   "label": "Show me three mockups to pick from",
+   "question": "Menu accent color"
+  },
+  "ld-buran": {
+   "choice": "rename",
+   "label": "Rename it, for example Oka Metel (another word for a snowstorm)",
+   "question": "\"Oka Buran\" (the SR-3 Vikhr) uses Buran, a real snowmobile brand our rules avoid"
+  },
+  "ld-done": {
+   "choice": "seat",
+   "label": "Once the new mag seats, then a short back-to-ready stage you can cancel for free, like PUBG",
+   "question": "When does a reload count as done?"
+  },
+  "ld-keys": {
+   "choice": "ok",
+   "label": "OK for the private build, with a note for the lawyer",
+   "question": "Real gun and armor names stay as hidden keys inside the game's data tables (never on screen)"
+  },
+  "ld-liberator": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "\"Northway NW-45 Liberator\" keeps the FP-45's real nickname"
+  },
+  "ld-pichler": {
+   "choice": "rename",
+   "label": "Rename them, for example Pichler PK-17 and PK-18 (real number, new letters, like our other names)",
+   "question": "\"Pichler P-19\" and \"P-20\" (the Glock 17 and 18) use real Glock model numbers"
+  },
+  "pc-first": {
+   "choice": "bodies",
+   "label": "The full low-poly male and female bodies first; the arms come from them",
+   "question": "What goes in first?"
+  },
+  "pc-who": {
+   "choice": "own",
+   "label": "Our own in Blender, on Unreal's mannequin skeleton so every animation works on them",
+   "question": "How are ours made?"
+  },
+  "rl-revolver": {
+   "choice": "single",
+   "label": "Every revolver loads one round at a time",
+   "question": "How should revolvers reload?"
+  },
+  "setup": {
+   "choice": "yes",
+   "label": "Yes, it's done",
+   "question": "Tick off the setup checklist on the to-do page?"
+  },
+  "st-keys": {
+   "choice": "all",
+   "label": "Yes, every key can be rebound",
+   "question": "Can every key be changed?"
+  },
+  "st-sens": {
+   "choice": "pubg",
+   "label": "Like PUBG: general, aim, ADS, one per scope (2x to 15x), and a vertical multiplier",
+   "question": "How detailed is sensitivity?"
+  },
+  "st-tabs": {
+   "choice": "two",
+   "label": "Gameplay (field of view) and Controls (sensitivity, keys) first; Graphics and Audio after",
+   "question": "Which tabs first?"
+  },
+  "sw-ads": {
+   "choice": "pubg",
+   "label": "Like PUBG: always a little, more with more zoom",
+   "question": "Sway when aiming down sights?"
+  },
+  "sw-breath": {
+   "choice": "gauge",
+   "label": "Like PUBG: Shift steadies the aim, with a breath gauge that runs out",
+   "question": "Holding your breath?"
+  },
+  "sw-hip": {
+   "choice": "some",
+   "label": "A little visible sway at the hip too",
+   "question": "Sway at the hip?"
+  },
+  "sw-stance": {
+   "choice": "pubg",
+   "label": "Like PUBG: crouch and prone steady it, moving makes it worse",
+   "question": "Does stance or moving change sway?"
+  }
+ },
+ "comments": {
+  "ar-layout": {
+   "question": "What is the test arena?",
+   "text": "it can be a training map with teh small arena you can go into to practice round, set how many rounds outside the arena, arena ends if you die tho"
+  },
+  "cb-when": {
+   "question": "When is the comeback open?",
+   "text": "you get one redeploy, yyou can use scrap to make another if youwina nd redeploy and get teh chance too but the comeback duel arena only last for teh tfirst couple circles then is closed and anyone still in gets a free deploy"
+  },
+  "gm-krepost": {
+   "question": "Krepost, the fortress rock: about 45 m tall after squashing, with cliffs. How do you get up?",
+   "text": "For map stuff i need maybe reference photos and more detail?"
+  },
+  "hl-gas": {
+   "question": "Does the blood substitute injector also cut gas damage?",
+   "text": "maybe gas doesnt stop a bosts healing tho? for all boosts. but flames do stop healing"
+  },
+  "ld-family": {
+   "question": "Gun cards show a family label like \"AK-47 / AKM\", but only versions have game names",
+   "text": "need more detail on this"
+  },
+  "ld-keys": {
+   "question": "Real gun and armor names stay as hidden keys inside the game's data tables (never on screen)",
+   "text": "Add reminder to review and to replace later if need be"
+  },
+  "rl-belt": {
+   "question": "How does a belt reload from empty split up?",
+   "text": "You always get the ammo back from the previous magazine like pubg that includes belt fed. You ar ebasically doing a rull reload on a belt fed and anything magazine fed would only full reload if the chambers empy if not then you just chnage mags"
+  },
+  "rl-revolver": {
+   "question": "How should revolvers reload?",
+   "text": "It should reload realistically however that may be which should be one at a time and then if they can use a speed loader we have that as an attachment that only soawns when a revolver that cannuse it spawns"
+  }
+ }
+}

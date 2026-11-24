@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Round 6 picks confirmed: green care package smoke for 60 s, the throw arc on with a switch, 600 m strike zones (gas 400 m) inside the white 7 times in 10, the first circle scaled to Teplov, and hands moving about 2 cm at a run (owner) | [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md) |
+| 2026-11-24 | Picks pages: once answered and filed, their answers are copied to the Picks archive and the page is deleted; new pages hold only open questions (owner) | [Picks archive](picks-archive.md) |
 | 2026-11-24 | Melee is held ready to use with the watch showing, except while free-looking (owner) | [Melee](../systems/gameplay.md#melee) |
 | 2026-11-24 | Round 6 answers (our picks, owner asked): phases 1 and 2 scaled to Teplov (5,100 and 3,315 m); strike zones 600 m (gas 400 m), shrinking with the zone and landing inside the white 7 times in 10; care packages with a turboprop drone, olive crate, green strobe, round parachute, and 60 s of green smoke; hands that move with you; the throw arc; an interactive map like PUBG's; a suggested project layout | [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md), [Project layout](../planning/project-layout.md) |
 | 2026-11-24 | Menu accent is field lime, and the HUD compass heading uses it too (owner) | [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |

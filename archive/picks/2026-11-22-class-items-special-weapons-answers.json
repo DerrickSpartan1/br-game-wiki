@@ -1,0 +1,214 @@
+{
+ "comments": {
+  "ci-camera": {
+   "name": "Sticky camera",
+   "text": "You can have only one or two deployed. They can be picked up but has limited battery"
+  },
+  "ci-claymore": {
+   "name": "Claymore",
+   "text": "Yes this is extremely powerful same with a bouncing betty and other mines."
+  },
+  "ci-gastrap": {
+   "name": "Tear gas trap",
+   "text": "If the gas mask is an item it seems anl bit less useful. We will need to balance that all more hut i like the gas trap and grenade and gas zone ideas"
+  },
+  "ci-grapple": {
+   "name": "Grappling hook",
+   "text": "Combine the grabbling and rappel as one. You can place it at the too of a building to grapple down or enter a window on the side of the building"
+  },
+  "ci-jammer": {
+   "name": "Signal jammer",
+   "text": "Idk how useful this is unless someones using things? Might need some balancing to be as good as other things"
+  },
+  "ci-motion": {
+   "name": "Motion sensor",
+   "text": "Likited battery"
+  },
+  "ci-pack": {
+   "name": "Tactical pack",
+   "text": "I wanna saybyes but idk it might need to be something else? Or how could this fit our stuff more?"
+  },
+  "ci-radar": {
+   "name": "Through-wall radar",
+   "text": "It should be similar to the heart beat sensor screen from rainbow six"
+  },
+  "ci-spotter": {
+   "name": "Spotter scope",
+   "text": "This should also have likited battery"
+  },
+  "cw-punt": {
+   "name": "Punt gun",
+   "text": "Ill need more info on this can it be carried by a person?"
+  },
+  "sw-aps": {
+   "name": "APS underwater rifle",
+   "text": "These are good the water wepaons should be saved for a map with more water. But i like the idea"
+  }
+ },
+ "picks": {
+  "ci-ammobag": {
+   "choice": "yes",
+   "name": "Ammo bag"
+  },
+  "ci-camera": {
+   "choice": "yes",
+   "name": "Sticky camera"
+  },
+  "ci-charge": {
+   "choice": "yes",
+   "name": "Breaching charge"
+  },
+  "ci-chute": {
+   "choice": "yes",
+   "name": "Emergency parachute"
+  },
+  "ci-claymore": {
+   "choice": "yes",
+   "name": "Claymore"
+  },
+  "ci-decoy": {
+   "choice": "yes",
+   "name": "Decoy dummy"
+  },
+  "ci-gastrap": {
+   "choice": "yes",
+   "name": "Tear gas trap"
+  },
+  "ci-grapple": {
+   "choice": "yes",
+   "name": "Grappling hook"
+  },
+  "ci-jammer": {
+   "choice": "yes",
+   "name": "Signal jammer"
+  },
+  "ci-legtrap": {
+   "choice": "yes",
+   "name": "Leg trap"
+  },
+  "ci-medic": {
+   "choice": "yes",
+   "name": "Field medic bag"
+  },
+  "ci-motion": {
+   "choice": "yes",
+   "name": "Motion sensor"
+  },
+  "ci-pack": {
+   "choice": "yes",
+   "name": "Tactical pack"
+  },
+  "ci-radar": {
+   "choice": "yes",
+   "name": "Through-wall radar"
+  },
+  "ci-rappel": {
+   "choice": "yes",
+   "name": "Rappel rope"
+  },
+  "ci-repair": {
+   "choice": "yes",
+   "name": "Vehicle repair kit"
+  },
+  "ci-selfrevive": {
+   "choice": "yes",
+   "name": "Self-revive kit"
+  },
+  "ci-spikes": {
+   "choice": "yes",
+   "name": "Spike strip"
+  },
+  "ci-spotter": {
+   "choice": "yes",
+   "name": "Spotter scope"
+  },
+  "ci-torch": {
+   "choice": "yes",
+   "name": "Cutting torch"
+  },
+  "ci-wire": {
+   "choice": "yes",
+   "name": "Barbed wire roll"
+  },
+  "cw-flamer": {
+   "choice": "yes",
+   "name": "Flamethrower"
+  },
+  "cw-minigun": {
+   "choice": "yes",
+   "name": "Minigun"
+  },
+  "cw-punt": {
+   "choice": "yes",
+   "name": "Punt gun"
+  },
+  "sw-apache": {
+   "choice": "yes",
+   "name": "Apache revolver"
+  },
+  "sw-aps": {
+   "choice": "yes",
+   "name": "APS underwater rifle"
+  },
+  "sw-ar7": {
+   "choice": "yes",
+   "name": "AR-7"
+  },
+  "sw-blunderbuss": {
+   "choice": "yes",
+   "name": "Blunderbuss"
+  },
+  "sw-brownbess": {
+   "choice": "yes",
+   "name": "Brown Bess"
+  },
+  "sw-drilling": {
+   "choice": "yes",
+   "name": "Drilling"
+  },
+  "sw-duckfoot": {
+   "choice": "yes",
+   "name": "Duck's foot pistol"
+  },
+  "sw-flintpistol": {
+   "choice": "yes",
+   "name": "Flintlock pistol"
+  },
+  "sw-girardoni": {
+   "choice": "yes",
+   "name": "Girardoni air rifle"
+  },
+  "sw-gyrojet": {
+   "choice": "yes",
+   "name": "Gyrojet"
+  },
+  "sw-harmonica": {
+   "choice": "yes",
+   "name": "Harmonica pistol"
+  },
+  "sw-kentucky": {
+   "choice": "yes",
+   "name": "Kentucky long rifle"
+  },
+  "sw-lemat": {
+   "choice": "yes",
+   "name": "LeMat revolver"
+  },
+  "sw-m6": {
+   "choice": "yes",
+   "name": "M6 aircrew survival gun"
+  },
+  "sw-merge": {
+   "choice": "yes",
+   "name": "Put spearguns in this group"
+  },
+  "sw-nock": {
+   "choice": "yes",
+   "name": "Nock volley gun"
+  },
+  "sw-spp1": {
+   "choice": "yes",
+   "name": "SPP-1 underwater pistol"
+  }
+ }
+}

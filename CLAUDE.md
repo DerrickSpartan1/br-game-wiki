@@ -29,7 +29,7 @@ At the start of every session, pull this repo and the game repo, then read the T
 - A decision goes on its rules or systems page and gets a dated row in `docs/planning/decisions.md` (newest first).
 - A new idea goes on the page it fits, or in `docs/planning/idea-inbox.md` if it fits nowhere yet. The owner wants every game idea shared in chat filed without being asked.
 - Settled open questions come off `docs/planning/open-questions.md`.
-- Calls that need the owner, when there are more than a few, go on a picks page: an artifact with a choice and a comment box on each item. The answers are read back from the page and filed.
+- Calls that need the owner, when there are more than a few, go on a picks page: an artifact with a choice and a comment box on each item. The answers are read back from the page and filed. Once a page is answered and filed, copy its answers to `docs/planning/picks-archive.md`, save the page's HTML and its saved answers in `archive/picks/`, and delete the page; the next batch goes on a new page with only the questions still open (owner, 2026-11-24).
 
 ## Legal review
 

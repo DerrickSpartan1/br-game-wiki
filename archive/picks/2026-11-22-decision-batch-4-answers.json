@@ -1,0 +1,78 @@
+{
+ "answers": {
+  "ah-bump": {
+   "choice": "tier1",
+   "label": "Add them at tier 1, like the riot helmets",
+   "question": "Bump helmets: the FAST and EXFIL also come as non-ballistic bump helmets, for knocks, not bullets"
+  },
+  "ah-maska": {
+   "choice": "add",
+   "label": "Add the Maska-1: the same protection, but easier to see through",
+   "question": "The Maska: the Maska-1 has a clear bulletproof glass visor; the Maska-1SCh has a steel visor with a slit"
+  },
+  "ah-sfera": {
+   "choice": "two",
+   "label": "Two versions with the same protection; the titanium one is lighter",
+   "question": "The Sfera: the 1981 STSh-81 is titanium (2.3 kg); its successor, the SSSh-94, is steel (3.3 kg). Both are class 2"
+  },
+  "ah-ssh68": {
+   "choice": "two",
+   "label": "Two versions: the plain SSh-68 at tier 1, the SSh-68M and N at tier 2",
+   "question": "The SSh-68: the plain steel helmet stops fragments but not bullets. The SSh-68M and SSh-68N add an aramid liner and stop pistol rounds (class 1)"
+  },
+  "av-6b13": {
+   "choice": "family",
+   "label": "Roll the family: 6B11 at tier 1, 6B12 at tier 2, 6B13 at tier 3",
+   "question": "The 6B13 is the assault vest of the Zabralo family, with ceramic plates front and back. The family also has the 6B11 (soft armor only) and the 6B12 (one front plate, in steel, ceramic, or titanium)"
+  },
+  "av-6b23": {
+   "choice": "add",
+   "label": "Add the plain one as a tier 1 version; the plated ones stay tier 2",
+   "question": "The 6B23: the plain vest is soft armor only (class 2, 4 kg). The 6B23-1 adds a steel chest plate (class 3, 7.9 kg), and the 6B23-2 a ceramic one (class 4, 7.2 kg)"
+  },
+  "av-6b3": {
+   "choice": "keep",
+   "label": "Keep only the 6B3TM-01; the game doesn't rate front and back separately, so the older ones would just be heavier",
+   "question": "The 6B3, the first Soviet vest that stopped rifle rounds: the early 6B3T and 6B3TM had thick titanium plates all round (12.2 kg); the common 6B3TM-01 has thick front plates and thin back ones (8.2 kg)"
+  },
+  "av-6b45": {
+   "choice": "roll",
+   "label": "Roll all three: light at tier 1, medium at tier 2, heavy at tier 3 with groin cover",
+   "question": "The 6B45 comes three ways: light (soft armor only), medium (hard plates front and back), and heavy (two plates front and back, plus soft neck and groin armor, for assault troops)"
+  },
+  "lo-mask": {
+   "choice": "120",
+   "label": "2 minutes",
+   "question": "How long a gas mask lasts in gas"
+  },
+  "lo-radar": {
+   "choice": "five",
+   "label": "5 stations every match, each at a random spot",
+   "question": "Radar stations: you said to start with 5"
+  },
+  "lo-redodds": {
+   "choice": "equal",
+   "label": "Every form equally likely, about 17% each",
+   "question": "Red zone odds"
+  },
+  "lo-win": {
+   "choice": "mode",
+   "label": "Different lines for solo and squads",
+   "question": "How the victory line varies"
+  }
+ },
+ "comments": {
+  "ah-tiers": {
+   "question": "Our helmet tiers came from Tarkov, which rates the Altyn, Maska, and Vulkan-5 well above the real ones. The real Altyn and Maska are class 2: they stop pistol rounds",
+   "text": "Fit things in the three tiers of armor like chest pieces. We will do the same for all 3 pieces or armor, heD armor chest and arms, and legs/groin"
+  },
+  "lo-vdrop": {
+   "question": "Which vehicles the 1 or 2 vehicle drops bring",
+   "text": "It should be armored or special vehicles gliders can spawn normally so i think only like armored cars would drop unless you have suggestions"
+  },
+  "lo-win": {
+   "question": "How the victory line varies",
+   "text": "I like answer 1 and 3"
+  }
+ }
+}

@@ -1,0 +1,415 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Class and Special Picks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a requisition sheet. One column of numbered request lines, grouped by section, each stamped yes or no. */
+:root {
+  --paper: #e9e7df;
+  --sheet: #f6f5f0;
+  --ink: #23271f;
+  --muted: #5d6356;
+  --rule: #cfcdc2;
+  --olive: #4a5a2c;
+  --olive-soft: #dfe4d2;
+  --yes: #2f6b3a;
+  --yes-soft: #d8eadb;
+  --no: #a3322a;
+  --no-soft: #f1d9d6;
+  --focus: #4a5a2c;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+    --olive: #a9bd7c; --olive-soft: #2d3524; --yes: #7fc98b; --yes-soft: #1f3523;
+    --no: #ee8d84; --no-soft: #3f2220; --focus: #a9bd7c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+  --olive: #a9bd7c; --olive-soft: #2d3524; --yes: #7fc98b; --yes-soft: #1f3523;
+  --no: #ee8d84; --no-soft: #3f2220; --focus: #a9bd7c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 64px;
+}
+.wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+header.top { display: flex; flex-direction: column; gap: 10px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.05; margin: 0; letter-spacing: .01em; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding-block: 10px; display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid var(--rule); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.progress-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.count { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.meter { flex: 1 1 160px; height: 8px; background: var(--rule); border-radius: 4px; overflow: hidden; display: flex; min-width: 120px; }
+.meter span { display: block; height: 100%; }
+.meter .m-yes { background: var(--yes); }
+.meter .m-no { background: var(--no); }
+.save { font-size: 13px; color: var(--muted); }
+.save.warn { color: var(--no); }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font: 500 13px var(--font-body); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--olive); border-color: var(--olive); color: var(--sheet); }
+.part { display: flex; flex-direction: column; gap: 14px; }
+.part > h2 { font-family: var(--font-display); font-weight: 700; font-size: 28px; margin: 12px 0 0; letter-spacing: .02em; }
+.part > p { margin: 0; color: var(--muted); max-width: 62ch; }
+.group { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.group h3 { margin: 0; padding: 10px 16px; font-family: var(--font-display); font-weight: 600; font-size: 19px; letter-spacing: .04em; text-transform: uppercase; background: var(--olive-soft); color: var(--olive); border-bottom: 1px solid var(--rule); }
+.item { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.item:last-child { border-bottom: 0; }
+.item[data-choice="yes"] { box-shadow: inset 4px 0 0 var(--yes); }
+.item[data-choice="no"] { box-shadow: inset 4px 0 0 var(--no); }
+.code { font-family: var(--font-mono); font-size: 12px; color: var(--muted); align-self: start; padding-top: 3px; }
+.body { min-width: 0; }
+.name { font-weight: 600; }
+.from { font-size: 12.5px; color: var(--muted); }
+.desc { margin: 2px 0 0; font-size: 14px; }
+.ctoggle { font: 500 13px var(--font-body); color: var(--olive); background: none; border: 0; padding: 4px 0 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.cbox { grid-column: 2 / -1; }
+.cbox textarea { min-height: 64px; font-size: 14px; }
+.vote { display: flex; gap: 6px; }
+.vote button { font: 700 15px var(--font-display); letter-spacing: .08em; text-transform: uppercase; min-width: 64px; padding: 7px 12px; border-radius: 4px; border: 1.5px solid var(--rule); background: transparent; color: var(--muted); cursor: pointer; }
+.vote button.y[aria-pressed="true"] { border-color: var(--yes); background: var(--yes); color: var(--sheet); }
+.vote button.n[aria-pressed="true"] { border-color: var(--no); background: var(--no); color: var(--sheet); }
+.vote button:hover { border-color: var(--muted); }
+button:focus-visible, textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.notes { display: flex; flex-direction: column; gap: 8px; }
+.notes label { font-family: var(--font-display); font-weight: 600; font-size: 19px; letter-spacing: .04em; text-transform: uppercase; }
+textarea { width: 100%; min-height: 110px; resize: vertical; font: 15px var(--font-body); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; }
+.foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.copy { font: 600 14px var(--font-body); background: var(--olive); color: var(--sheet); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+.empty-filter { padding: 14px 16px; color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) {
+  .item { grid-template-columns: minmax(0, 1fr); }
+  .cbox { grid-column: 1 / -1; }
+  .code { padding-top: 0; }
+  .vote button { flex: 1 1 0; }
+}
+@media (prefers-reduced-motion: no-preference) { .vote button, .chip { transition: background .12s, border-color .12s, color .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Teplov battle royale · ideas for review</div>
+    <h1>Class items and special weapons</h1>
+    <p class="lede">Pick yes or no on each idea, and add a comment where you want to. Tap a pick again to clear it. Your picks save as you go, and Claude reads them from this page when you say you're done.</p>
+  </header>
+
+  <div class="bar" role="region" aria-label="Progress">
+    <div class="progress-row">
+      <span class="count" id="count">0 of 0 picked</span>
+      <div class="meter" aria-hidden="true"><span class="m-yes" id="m-yes"></span><span class="m-no" id="m-no"></span></div>
+      <span class="save" id="save" aria-live="polite">Loading saved picks</span>
+    </div>
+    <div class="filters" role="group" aria-label="Show">
+      <button class="chip" id="f-all" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip" id="f-open" data-filter="open" aria-pressed="false">Not picked</button>
+      <button class="chip" id="f-yes" data-filter="yes" aria-pressed="false">Yes</button>
+      <button class="chip" id="f-no" data-filter="no" aria-pressed="false">No</button>
+    </div>
+  </div>
+
+  <main id="sheet"></main>
+
+  <section class="notes">
+    <label for="note">Anything else?</label>
+    <textarea id="note" placeholder="Changes to an idea, or new ones to add"></textarea>
+  </section>
+
+  <div class="foot">
+    <button class="copy" id="copy">Copy my picks</button>
+    <span id="copy-status">Copies a short list you can paste into the chat.</span>
+  </div>
+</div>
+
+<script>
+const PARTS = [
+  { title: "Class items", note: "Found as loot for the class slot. Each is something real, inspired by an ability in another game.", groups: [
+    { name: "Scouting", items: [
+      ["ci-radar", "Through-wall radar", "Rainbow Six Pulse; police use real ones", "Shows movement behind a wall within about 15 m. Short battery, and it beeps."],
+      ["ci-spotter", "Spotter scope", "PUBG's Spotter Scope", "Our rangefinder binoculars become a 4x scope that also marks enemies for your squad, range to 600 m."],
+      ["ci-camera", "Sticky camera", "Rainbow Six Valkyrie", "Throw a small camera onto a wall and watch it later."],
+      ["ci-motion", "Motion sensor", "Call of Duty and Battlefield", "Put it on the ground; it pings when someone walks past."],
+      ["ci-jammer", "Signal jammer", "Rainbow Six Mute", "Blocks drones, cameras, and radars nearby."]
+    ]},
+    { name: "Traps", items: [
+      ["ci-wire", "Barbed wire roll", "Rainbow Six barbed wire", "Slows anyone crossing it, and it rattles."],
+      ["ci-spikes", "Spike strip", "PUBG's Spike Trap", "Pops the tires of anything that drives over it."],
+      ["ci-legtrap", "Leg trap", "Rainbow Six Frost", "A hidden trap that holds a player for a few seconds, with a loud snap."],
+      ["ci-gastrap", "Tear gas trap", "Apex Caustic", "Lets out gas when someone gets close. The gas mask counters it."],
+      ["ci-claymore", "Claymore", "Rainbow Six claymore", "Lethal, so probably crate-only."]
+    ]},
+    { name: "Getting around", items: [
+      ["ci-grapple", "Grappling hook", "Apex Pathfinder; real grapnel launchers", "Pulls you up to a roof or a high window."],
+      ["ci-rappel", "Rappel rope", "Rainbow Six rappelling", "Climb down a building's side, or hang at a window."],
+      ["ci-chute", "Emergency parachute", "PUBG's Haven map", "Jump from somewhere high safely, but you're easy to spot."]
+    ]},
+    { name: "Support", items: [
+      ["ci-medic", "Field medic bag", "PUBG's EMT Gear", "Faster healing and revives, and you can heal squadmates."],
+      ["ci-selfrevive", "Self-revive kit", "PUBG's Self-AED", "Pick yourself up once when knocked."],
+      ["ci-pack", "Tactical pack", "PUBG's Tactical Pack", "Four extra storage slots."],
+      ["ci-ammobag", "Ammo bag", "Battlefield's support class", "Refills your squad's guns once, whatever the caliber."],
+      ["ci-repair", "Vehicle repair kit", "Many games", "Fixes a damaged vehicle."]
+    ]},
+    { name: "Breaching and tricks", items: [
+      ["ci-charge", "Breaching charge", "Rainbow Six breach charge and Thermite", "Blows a hole in a breakable wall or door, very loudly."],
+      ["ci-torch", "Cutting torch", "Rainbow Six Maverick", "Cuts a hole slowly and fairly quietly, metal doors included."],
+      ["ci-decoy", "Decoy dummy", "Apex Mirage; WWII inflatable decoys", "An inflatable dummy wearing your outfit."]
+    ]}
+  ]},
+  { title: "Special weapons", note: "New special groups for the oddball guns the main categories don't cover. They follow every gun rule, and each needs its round on the Ammo page.", groups: [
+    { name: "Black powder", items: [
+      ["sw-brownbess", "Brown Bess", "British flintlock musket", "Slow ramrod reload and a big smoke puff."],
+      ["sw-kentucky", "Kentucky long rifle", "American flintlock rifle", "More accurate than a musket, just as slow to load."],
+      ["sw-blunderbuss", "Blunderbuss", "Flintlock with a flared muzzle", "A short-range spray of shot."],
+      ["sw-nock", "Nock volley gun", "1780s British naval gun", "Seven barrels fired at once."],
+      ["sw-duckfoot", "Duck's foot pistol", "Multi-barrel flintlock pistol", "Several barrels fanned out, fired together."],
+      ["sw-flintpistol", "Flintlock pistol", "Single-shot flintlock", "One shot, then a long reload."]
+    ]},
+    { name: "Underwater guns", items: [
+      ["sw-aps", "APS underwater rifle", "Soviet, fires darts", "Strong underwater, weak in air."],
+      ["sw-spp1", "SPP-1 underwater pistol", "Soviet, four barrels, fires darts", "Strong underwater, weak in air."],
+      ["sw-merge", "Put spearguns in this group", "Group change", "Spearguns join the underwater guns instead of being their own group."]
+    ]},
+    { name: "Air guns", items: [
+      ["sw-girardoni", "Girardoni air rifle", "1780, carried by Lewis and Clark", "A quiet repeater with no smoke."]
+    ]},
+    { name: "Survival and combination guns", items: [
+      ["sw-ar7", "AR-7", "Survival rifle", "Comes apart and stows inside its own stock, which floats."],
+      ["sw-m6", "M6 aircrew survival gun", "US air crew survival gun", "A rifle barrel over a shotgun barrel."],
+      ["sw-drilling", "Drilling", "German hunting gun", "Two shotgun barrels and a rifle barrel."]
+    ]},
+    { name: "Oddities", items: [
+      ["sw-gyrojet", "Gyrojet", "1960s rocket pistol", "Fires small rockets that speed up after leaving the barrel. Already on the add-later list."],
+      ["sw-harmonica", "Harmonica pistol", "Jarre, France", "A sliding bar of chambers."],
+      ["sw-apache", "Apache revolver", "France, 1800s", "A revolver, knuckle duster, and folding knife in one."],
+      ["sw-lemat", "LeMat revolver", "1850s revolver", "A revolver with a shotgun barrel under it."]
+    ]},
+    { name: "Crate weapons instead", items: [
+      ["cw-punt", "Punt gun", "Huge boat-mounted shotgun", "Too big for the ground, so crate-only."],
+      ["cw-minigun", "Minigun", "Electric rotary machine gun", "Crate-only."],
+      ["cw-flamer", "Flamethrower", "Backpack flamethrower", "Crate-only."]
+    ]}
+  ]}
+];
+
+const ITEMS = [];
+PARTS.forEach(p => p.groups.forEach(g => g.items.forEach(([id, name, from, desc]) => ITEMS.push({ id, name, from, desc, part: p.title, group: g.name }))));
+
+const picks = {};
+let filter = "all";
+let db = null;
+let saveError = false;
+const queues = {};
+
+const $ = id => document.getElementById(id);
+
+function build() {
+  const sheet = $("sheet");
+  let n = 0;
+  PARTS.forEach((p, pi) => {
+    const part = document.createElement("section");
+    part.className = "part";
+    const h2 = document.createElement("h2"); h2.textContent = p.title; part.appendChild(h2);
+    const note = document.createElement("p"); note.textContent = p.note; part.appendChild(note);
+    p.groups.forEach(g => {
+      const box = document.createElement("div"); box.className = "group";
+      const h3 = document.createElement("h3"); h3.textContent = g.name; box.appendChild(h3);
+      g.items.forEach(([id, name, from, desc]) => {
+        n += 1;
+        const row = document.createElement("div"); row.className = "item"; row.dataset.id = id;
+        const code = document.createElement("div"); code.className = "code";
+        code.textContent = (pi === 0 ? "CI-" : "SW-") + String(n).padStart(2, "0");
+        const body = document.createElement("div"); body.className = "body";
+        const nm = document.createElement("div"); nm.className = "name"; nm.textContent = name;
+        const fr = document.createElement("div"); fr.className = "from"; fr.textContent = from;
+        const ds = document.createElement("p"); ds.className = "desc"; ds.textContent = desc;
+        const tog = document.createElement("button");
+        tog.type = "button"; tog.className = "ctoggle"; tog.id = "c-" + id + "-toggle";
+        tog.textContent = "Add a comment"; tog.setAttribute("aria-expanded", "false");
+        body.append(nm, fr, ds, tog);
+        const cbox = document.createElement("div"); cbox.className = "cbox"; cbox.hidden = true;
+        const cta = document.createElement("textarea");
+        cta.id = "c-" + id; cta.placeholder = "Comment on " + name; cta.setAttribute("aria-label", "Comment on " + name);
+        cta.addEventListener("input", () => commentChanged(id));
+        cbox.appendChild(cta);
+        tog.addEventListener("click", () => {
+          const open = cbox.hidden;
+          cbox.hidden = !open; tog.setAttribute("aria-expanded", String(open));
+          if (open) cta.focus();
+        });
+        const vote = document.createElement("div"); vote.className = "vote"; vote.setAttribute("role", "group"); vote.setAttribute("aria-label", name);
+        [["y", "yes", "Yes"], ["n", "no", "No"]].forEach(([cls, val, label]) => {
+          const b = document.createElement("button");
+          b.className = cls; b.type = "button"; b.id = "v-" + id + "-" + val;
+          b.textContent = label; b.setAttribute("aria-pressed", "false");
+          b.addEventListener("click", () => choose(id, picks[id] === val ? null : val));
+          vote.appendChild(b);
+        });
+        row.append(code, body, vote, cbox);
+        box.appendChild(row);
+      });
+      const empty = document.createElement("div"); empty.className = "empty-filter"; empty.hidden = true;
+      empty.textContent = "Nothing here for this filter."; box.appendChild(empty);
+      part.appendChild(box);
+    });
+    sheet.appendChild(part);
+    n = pi === 0 ? 0 : n;
+  });
+}
+
+function render() {
+  let yes = 0, no = 0;
+  ITEMS.forEach(it => { if (picks[it.id] === "yes") yes++; else if (picks[it.id] === "no") no++; });
+  const total = ITEMS.length;
+  $("count").textContent = (yes + no) + " of " + total + " picked · " + yes + " yes · " + no + " no";
+  $("m-yes").style.width = (yes / total * 100) + "%";
+  $("m-no").style.width = (no / total * 100) + "%";
+  document.querySelectorAll(".item").forEach(row => {
+    const c = picks[row.dataset.id] || "";
+    row.dataset.choice = c;
+    row.querySelector(".y").setAttribute("aria-pressed", String(c === "yes"));
+    row.querySelector(".n").setAttribute("aria-pressed", String(c === "no"));
+    const show = filter === "all" || (filter === "open" ? !c : c === filter);
+    row.hidden = !show;
+  });
+  document.querySelectorAll(".group").forEach(g => {
+    const any = [...g.querySelectorAll(".item")].some(r => !r.hidden);
+    g.querySelector(".empty-filter").hidden = any;
+  });
+}
+
+function setSave(text, warn) {
+  const el = $("save"); el.textContent = text; el.classList.toggle("warn", !!warn);
+}
+
+function enqueue(key, fn) {
+  const prev = queues[key] || Promise.resolve();
+  const next = prev.catch(() => {}).then(fn);
+  queues[key] = next;
+  return next;
+}
+
+function choose(id, val) {
+  if (val) picks[id] = val; else delete picks[id];
+  render();
+  if (!db) { setSave("Not saving here. Use Copy my picks when you're done.", true); return; }
+  setSave("Saving");
+  enqueue(id, () => val ? db.doc("picks/" + id).set({ choice: val, name: ITEMS.find(i => i.id === id).name }) : db.doc("picks/" + id).delete())
+    .then(() => { saveError = false; setSave("Saved"); })
+    .catch(() => { saveError = true; setSave("Couldn't save that pick. Use Copy my picks when you're done.", true); });
+}
+
+const commentTimers = {};
+function showComment(id, text) {
+  const ta = $("c-" + id), tog = $("c-" + id + "-toggle");
+  if (!ta) return;
+  if (document.activeElement !== ta && ta.value !== text) ta.value = text;
+  tog.textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  if (ta.value.trim() && ta.parentElement.hidden) { ta.parentElement.hidden = false; tog.setAttribute("aria-expanded", "true"); }
+}
+function commentChanged(id) {
+  const ta = $("c-" + id);
+  $("c-" + id + "-toggle").textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  clearTimeout(commentTimers[id]);
+  commentTimers[id] = setTimeout(() => {
+    if (!db) { setSave("Not saving here. Use Copy my picks when you're done.", true); return; }
+    const text = ta.value.trim();
+    const ref = db.doc("comments/" + id);
+    setSave("Saving");
+    enqueue("comment-" + id, () => text ? ref.set({ text, name: ITEMS.find(i => i.id === id).name }) : ref.delete())
+      .then(() => setSave("Saved"))
+      .catch(() => setSave("Couldn't save that comment. Use Copy my picks when you're done.", true));
+  }, 800);
+}
+
+let noteTimer = null;
+function noteChanged() {
+  clearTimeout(noteTimer);
+  noteTimer = setTimeout(() => {
+    if (!db) return;
+    const text = $("note").value;
+    setSave("Saving");
+    enqueue("note", () => db.doc("notes/general").set({ text }))
+      .then(() => setSave("Saved"))
+      .catch(() => setSave("Couldn't save the note. Copy it into the chat instead.", true));
+  }, 800);
+}
+
+function summary() {
+  const lines = [];
+  const by = v => ITEMS.filter(i => (picks[i.id] || "") === v).map(i => i.name);
+  lines.push("Yes: " + (by("yes").join(", ") || "none"));
+  lines.push("No: " + (by("no").join(", ") || "none"));
+  const open = by("");
+  if (open.length) lines.push("Not picked: " + open.join(", "));
+  ITEMS.forEach(i => { const ta = $("c-" + i.id); if (ta && ta.value.trim()) lines.push(i.name + ": " + ta.value.trim()); });
+  const note = $("note").value.trim();
+  if (note) lines.push("Notes: " + note);
+  return lines.join("\n");
+}
+
+$("copy").addEventListener("click", () => {
+  const text = summary();
+  const done = () => { $("copy-status").textContent = "Copied. Paste it into the chat."; };
+  try {
+    navigator.clipboard.writeText(text).then(done, () => fallbackCopy(text));
+  } catch (e) { fallbackCopy(text); }
+});
+function fallbackCopy(text) {
+  const ta = $("note");
+  const keep = ta.value;
+  $("copy-status").textContent = "Copy didn't work here. Your picks are below; select and copy them.";
+  let pre = document.getElementById("fallback");
+  if (!pre) { pre = document.createElement("textarea"); pre.id = "fallback"; pre.readOnly = true; pre.style.marginTop = "8px"; document.querySelector(".foot").after(pre); }
+  pre.value = text; pre.focus(); pre.select();
+  ta.value = keep;
+}
+
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  filter = c.dataset.filter;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+  render();
+}));
+$("note").addEventListener("input", noteChanged);
+
+build();
+render();
+
+(async () => {
+  const timer = setTimeout(() => setSave("Can't reach saved picks yet. You can still pick; copy them when done.", true), 10000);
+  try {
+    db = window.claude ? await window.claude.use("db") : null;
+  } catch (e) { db = null; }
+  if (!db) { clearTimeout(timer); setSave("Not saving here. Use Copy my picks when you're done.", true); return; }
+  db.collection("picks").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    const seen = {};
+    snap.docs.forEach(d => { const v = d.data() && d.data().choice; if (v === "yes" || v === "no") seen[d.id] = v; });
+    Object.keys(picks).forEach(k => { if (!seen[k] && !snap.metadata.hasPendingWrites) delete picks[k]; });
+    Object.assign(picks, seen);
+    render();
+    if (!saveError && !snap.metadata.fromCache) setSave("Picks save as you go");
+  }, () => { clearTimeout(timer); setSave("Can't load saved picks. Use Copy my picks when you're done.", true); });
+  db.collection("comments").onSnapshot(snap => {
+    const seen = {};
+    snap.docs.forEach(d => { const t = d.data() && d.data().text; if (typeof t === "string") seen[d.id] = t; });
+    ITEMS.forEach(i => showComment(i.id, seen[i.id] || ""));
+  }, () => {});
+  db.doc("notes/general").onSnapshot(s => {
+    const t = s.exists ? (s.data().text || "") : "";
+    if (document.activeElement !== $("note") && $("note").value !== t) $("note").value = t;
+  }, () => {});
+})();
+</script>
+
+</body></html>

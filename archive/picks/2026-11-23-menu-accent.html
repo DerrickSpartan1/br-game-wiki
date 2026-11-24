@@ -1,0 +1,261 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Menu Accent Picks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: the same requisition sheet as the decision batches, with a live menu mockup on each choice. */
+:root {
+  --paper: #e9e7df; --sheet: #f6f5f0; --ink: #23271f; --muted: #5d6356; --rule: #cfcdc2;
+  --olive: #4a5a2c; --olive-soft: #dfe4d2; --pick: #2f6b3a; --pick-soft: #d8eadb; --focus: #4a5a2c; --warn: #a3322a;
+  /* The mockup is the game's own dark menu, the same in both page themes. */
+  --m-bg: #14171a; --m-panel: #1e2328; --m-line: #2e353c; --m-text: #e8ebee; --m-dim: #8e979f;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+    --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; --warn: #e0786f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+  --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; --warn: #e0786f; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 64px; }
+.wrap { max-width: 920px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 64ch; }
+header { display: flex; flex-direction: column; gap: 10px; }
+.save { font-size: 13px; color: var(--muted); }
+.save.warn { color: var(--warn); }
+.group { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.group h2 { margin: 0; padding: 10px 16px; font-family: var(--font-display); font-weight: 600; font-size: 21px; letter-spacing: .04em; text-transform: uppercase; background: var(--olive-soft); color: var(--olive); border-bottom: 1px solid var(--rule); }
+.q { display: flex; flex-direction: column; gap: 10px; padding: 14px 16px; }
+.q + .q { border-top: 1px solid var(--rule); }
+.ask { font-weight: 600; }
+.ctx { font-size: 13.5px; color: var(--muted); margin: -4px 0 0; }
+.opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+.opts.small { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.opt { display: flex; flex-direction: column; gap: 8px; text-align: left; width: 100%; font: 14px var(--font-body); color: var(--ink); background: transparent; border: 1.5px solid var(--rule); border-radius: 6px; padding: 10px; cursor: pointer; min-width: 0; }
+.opt:hover { border-color: var(--muted); }
+.opt[aria-checked="true"] { border-color: var(--pick); background: var(--pick-soft); }
+.line { display: flex; gap: 10px; align-items: flex-start; }
+.dot { flex: 0 0 16px; height: 16px; margin-top: 2px; border-radius: 50%; border: 2px solid var(--muted); }
+.opt[aria-checked="true"] .dot { border-color: var(--pick); background: var(--pick); box-shadow: inset 0 0 0 3px var(--pick-soft); }
+.name { font-weight: 600; }
+.hex { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.why { font-size: 13px; color: var(--muted); }
+.tag { display: inline-block; margin-left: 6px; font: 600 11px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--olive); border: 1px solid var(--olive); border-radius: 3px; padding: 0 5px; vertical-align: 1px; }
+/* Menu mockup */
+.mock { --acc: #2bb3a3; --on-acc: #0c1412; background: var(--m-bg); border-radius: 4px; overflow: hidden; aspect-ratio: 16 / 9; max-width: 100%; display: grid; grid-template-rows: auto 1fr auto; font-family: var(--font-display); color: var(--m-text); }
+.m-tabs { display: flex; gap: 8px; padding: 6px 8px; background: var(--m-panel); border-bottom: 1px solid var(--m-line); font-size: 11px; letter-spacing: .06em; white-space: nowrap; overflow: hidden; }
+.m-tabs span { color: var(--m-dim); padding-bottom: 2px; }
+.m-tabs span.on { color: var(--m-text); box-shadow: inset 0 -2px 0 var(--acc); }
+.m-body { display: grid; grid-template-columns: 38% 1fr 24%; gap: 6px; padding: 8px; min-height: 0; }
+.m-left { display: flex; flex-direction: column; gap: 5px; }
+.m-play { background: var(--acc); color: var(--on-acc); font-weight: 700; font-size: 18px; letter-spacing: .08em; text-align: center; padding: 6px 0; border-radius: 2px; }
+.m-mode { background: var(--m-panel); border: 1px solid var(--m-line); font-size: 10px; letter-spacing: .05em; padding: 3px 5px; color: var(--m-dim); }
+.m-mode b { color: var(--acc); font-weight: 600; }
+.m-left { min-width: 0; } .m-right { min-width: 0; overflow: hidden; }
+.m-fill { display: flex; align-items: center; gap: 4px; font-size: 10px; color: var(--m-dim); }
+.m-fill i { width: 12px; height: 7px; border-radius: 4px; background: var(--acc); display: inline-block; }
+.m-squad { display: flex; align-items: flex-end; justify-content: center; gap: 6%; }
+.m-squad svg { height: 88%; max-height: 120px; }
+.m-right { display: flex; flex-direction: column; gap: 3px; font-size: 9px; color: var(--m-dim); }
+.m-right div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: var(--m-panel); padding: 2px 4px; border-left: 2px solid var(--m-line); }
+.m-right div.live { border-left-color: var(--acc); color: var(--m-text); }
+.m-foot { display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; background: var(--m-panel); border-top: 1px solid var(--m-line); font-size: 10px; color: var(--m-dim); letter-spacing: .05em; }
+.m-comp { font-family: var(--font-mono); font-size: 10px; display: flex; gap: 8px; }
+.m-comp .hd { color: var(--head, #f2c94c); font-weight: 600; }
+.ctoggle { align-self: flex-start; font: 500 13px var(--font-body); color: var(--olive); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: 14px var(--font-body); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.copy { font: 600 14px var(--font-body); background: var(--olive); color: var(--sheet); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+.src { font-size: 13px; color: var(--muted); }
+.src a { color: var(--olive); }
+@media (prefers-reduced-motion: no-preference) { .opt { transition: background .12s, border-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Teplov battle royale · menu accent, 2026-11-23</div>
+    <h1>Pick the menu accent</h1>
+    <p class="lede">The menus now use a placeholder teal, because a big yellow Play button on dark panels looked too much like PUBG's lobby. Here are three accents on the same menu layout from the wiki. Tap one, and add a comment if you want a shade lighter or darker. "Suggested" marks the planner's pick. Your answers save as you go.</p>
+    <span class="save" id="save" aria-live="polite">Loading saved answers</span>
+  </header>
+
+  <main id="sheet" style="display:flex;flex-direction:column;gap:20px"></main>
+
+  <div class="foot">
+    <button class="copy" id="copy">Copy my answers</button>
+    <span id="copy-status">Copies a short list you can paste into the chat.</span>
+  </div>
+  <p class="src">Layout from <a href="https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#hud-and-inventory" target="_blank" rel="noopener noreferrer">Gameplay: HUD and inventory</a>. Why yellow is out: <a href="https://derrickspartan1.github.io/br-game-wiki/planning/legal-review/#pubg-look-and-feel" target="_blank" rel="noopener noreferrer">Legal review: PUBG look and feel</a>.</p>
+</div>
+
+<script>
+const ACCENTS = {
+  teal:   { acc: "#2bb3a3", on: "#08201d" },
+  orange: { acc: "#e8622c", on: "#1f0d05" },
+  lime:   { acc: "#a8c34b", on: "#151a06" }
+};
+const QS = [
+  { id: "accent", ask: "Menu and button accent", ctx: "Used for the Play button, the open tab, toggles, selected items, and your squad's highlights. Warnings and damage keep their own red.", big: true, opts: [
+    ["teal", "Sea teal", "#2BB3A3", "The placeholder in the game now. Fits an island map, and no big shooter of the era used it as its main color.", true],
+    ["orange", "Signal orange", "#E8622C", "Marker-panel orange. Warm and loud, but closest of the three to PUBG's yellow."],
+    ["lime", "Field lime", "#A8C34B", "A military olive pushed bright enough to read on dark panels. Quieter than the others."]
+  ]},
+  { id: "compass", ask: "The HUD compass heading", ctx: "The wiki has it in yellow, as in PUBG. Shown here on the bottom strip of each mockup.", big: false, opts: [
+    ["accent", "Same as the menu accent", "", "One color across menus and HUD, and PUBG's yellow is gone from the screen.", true],
+    ["yellow", "Keep it yellow", "#F2C94C", "Easy to read on any sky, but it's the one PUBG color left."],
+    ["white", "Plain white", "#FFFFFF", "Neutral, but harder to see against bright sky and fog."]
+  ]}
+];
+const answers = {};
+let db = null;
+const queues = {};
+const $ = id => document.getElementById(id);
+function enqueue(k, fn) { const n = (queues[k] || Promise.resolve()).catch(() => {}).then(fn); queues[k] = n; return n; }
+function setSave(t, w) { const el = $("save"); el.textContent = t; el.classList.toggle("warn", !!w); }
+
+const SVGNS = "http://www.w3.org/2000/svg";
+function figure(color) {
+  const s = document.createElementNS(SVGNS, "svg"); s.setAttribute("viewBox", "0 0 40 100"); s.setAttribute("aria-hidden", "true");
+  const parts = [["circle", {cx: 20, cy: 12, r: 8}], ["rect", {x: 9, y: 22, width: 22, height: 36, rx: 4}], ["rect", {x: 11, y: 58, width: 8, height: 40, rx: 3}], ["rect", {x: 21, y: 58, width: 8, height: 40, rx: 3}]];
+  parts.forEach(([t, a]) => { const e = document.createElementNS(SVGNS, t); Object.entries(a).forEach(([k, v]) => e.setAttribute(k, v)); e.setAttribute("fill", color); s.appendChild(e); });
+  return s;
+}
+function mock(acc, on, head) {
+  const m = document.createElement("div"); m.className = "mock"; m.style.setProperty("--acc", acc); m.style.setProperty("--on-acc", on); m.style.setProperty("--head", head);
+  const tabs = document.createElement("div"); tabs.className = "m-tabs";
+  ["PLAY", "WARDROBE", "CAREER", "REPLAYS", "SETTINGS"].forEach((t, i) => { const s = document.createElement("span"); s.textContent = t; if (!i) s.className = "on"; tabs.appendChild(s); });
+  const body = document.createElement("div"); body.className = "m-body";
+  const left = document.createElement("div"); left.className = "m-left";
+  const play = document.createElement("div"); play.className = "m-play"; play.textContent = "PLAY";
+  const mode = document.createElement("div"); mode.className = "m-mode"; mode.append("MODE "); const b = document.createElement("b"); b.textContent = "SQUAD · TEPLOV"; mode.appendChild(b);
+  const reg = document.createElement("div"); reg.className = "m-mode"; reg.textContent = "REGION  NA EAST";
+  const fill = document.createElement("div"); fill.className = "m-fill"; const i = document.createElement("i"); fill.append(i, " FILL SQUAD");
+  left.append(play, mode, fill);
+  const squad = document.createElement("div"); squad.className = "m-squad";
+  squad.append(figure("#5b636b"), figure("#c9ced3"), figure("#5b636b"));
+  const right = document.createElement("div"); right.className = "m-right";
+  [["FRIENDS", false], ["Kostya", true], ["Mara", false], ["Vik", true]].forEach(([t, live]) => { const d = document.createElement("div"); d.textContent = t; if (live) d.className = "live"; right.appendChild(d); });
+  body.append(left, squad, right);
+  const foot = document.createElement("div"); foot.className = "m-foot";
+  const comp = document.createElement("span"); comp.className = "m-comp";
+  ["255", "270", "285"].forEach(n => { const s = document.createElement("span"); s.textContent = n; comp.appendChild(s); });
+  const hd = document.createElement("span"); hd.className = "hd"; hd.textContent = "W 270"; comp.insertBefore(hd, comp.children[1]);
+  const ver = document.createElement("span"); ver.textContent = "PRIVATE BUILD";
+  foot.append(comp, ver);
+  m.append(tabs, body, foot);
+  return m;
+}
+function headFor(oid) {
+  const a = ACCENTS[answers.accent || "teal"].acc;
+  return { accent: a, yellow: "#f2c94c", white: "#ffffff" }[oid] || a;
+}
+function labelFor(id, oid) { const q = QS.find(x => x.id === id); const o = q.opts.find(x => x[0] === oid); return o ? o[1] : oid; }
+
+function build() {
+  const box = document.createElement("section"); box.className = "group";
+  const h = document.createElement("h2"); h.textContent = "Colors"; box.appendChild(h);
+  QS.forEach(q => {
+    const row = document.createElement("div"); row.className = "q"; row.dataset.id = q.id;
+    const a = document.createElement("div"); a.className = "ask"; a.id = "ask-" + q.id; a.textContent = q.ask;
+    const c = document.createElement("p"); c.className = "ctx"; c.textContent = q.ctx;
+    const list = document.createElement("div"); list.className = q.big ? "opts" : "opts small"; list.setAttribute("role", "radiogroup"); list.setAttribute("aria-labelledby", "ask-" + q.id);
+    q.opts.forEach(([oid, name, hex, why, sug]) => {
+      const btn = document.createElement("button"); btn.type = "button"; btn.className = "opt"; btn.id = "o-" + q.id + "-" + oid; btn.dataset.opt = oid;
+      btn.setAttribute("role", "radio"); btn.setAttribute("aria-checked", "false");
+      const slot = document.createElement("div"); slot.className = "mslot"; btn.appendChild(slot);
+      const line = document.createElement("div"); line.className = "line";
+      const dot = document.createElement("span"); dot.className = "dot"; dot.setAttribute("aria-hidden", "true");
+      const txt = document.createElement("div");
+      const nm = document.createElement("span"); nm.className = "name"; nm.textContent = name; txt.appendChild(nm);
+      if (sug) { const tg = document.createElement("span"); tg.className = "tag"; tg.textContent = "Suggested"; txt.appendChild(tg); }
+      if (hex) { const hx = document.createElement("div"); hx.className = "hex"; hx.textContent = hex; txt.appendChild(hx); }
+      const w = document.createElement("div"); w.className = "why"; w.textContent = why; txt.appendChild(w);
+      line.append(dot, txt); btn.appendChild(line);
+      btn.addEventListener("click", () => choose(q.id, answers[q.id] === oid ? null : oid));
+      list.appendChild(btn);
+    });
+    const tog = document.createElement("button"); tog.type = "button"; tog.className = "ctoggle"; tog.id = "c-" + q.id + "-toggle"; tog.textContent = "Add a comment"; tog.setAttribute("aria-expanded", "false");
+    const cbox = document.createElement("div"); cbox.hidden = true;
+    const ta = document.createElement("textarea"); ta.id = "c-" + q.id; ta.placeholder = "Your comment"; ta.setAttribute("aria-label", "Comment on " + q.ask);
+    ta.addEventListener("input", () => commentChanged(q.id)); cbox.appendChild(ta);
+    tog.addEventListener("click", () => { const open = cbox.hidden; cbox.hidden = !open; tog.setAttribute("aria-expanded", String(open)); if (open) ta.focus(); });
+    row.append(a, c, list, tog, cbox); box.appendChild(row);
+  });
+  $("sheet").appendChild(box);
+}
+function render() {
+  document.querySelectorAll(".q").forEach(row => {
+    const id = row.dataset.id;
+    row.querySelectorAll(".opt").forEach(b => {
+      b.setAttribute("aria-checked", String(b.dataset.opt === answers[id]));
+      const slot = b.querySelector(".mslot"); slot.textContent = "";
+      if (id === "accent") { const A = ACCENTS[b.dataset.opt]; slot.appendChild(mock(A.acc, A.on, headFor(answers.compass || "accent").replace(ACCENTS[answers.accent || "teal"].acc, A.acc))); }
+      else { const A = ACCENTS[answers.accent || "teal"]; slot.appendChild(mock(A.acc, A.on, headFor(b.dataset.opt))); }
+    });
+  });
+}
+function choose(id, oid) {
+  if (oid) answers[id] = oid; else delete answers[id];
+  render();
+  if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  setSave("Saving");
+  const ref = db.doc("answers/" + id);
+  enqueue(id, () => oid ? ref.set({ choice: oid, label: labelFor(id, oid), question: QS.find(x => x.id === id).ask }) : ref.delete())
+    .then(() => setSave("Saved")).catch(() => setSave("Couldn't save that answer. Use Copy my answers when you're done.", true));
+}
+const timers = {};
+function showComment(id, text) {
+  const ta = $("c-" + id), tog = $("c-" + id + "-toggle"); if (!ta) return;
+  if (document.activeElement !== ta && ta.value !== text) ta.value = text;
+  tog.textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  if (ta.value.trim() && ta.parentElement.hidden) { ta.parentElement.hidden = false; tog.setAttribute("aria-expanded", "true"); }
+}
+function commentChanged(id) {
+  const ta = $("c-" + id); $("c-" + id + "-toggle").textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  clearTimeout(timers[id]);
+  timers[id] = setTimeout(() => {
+    if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+    const text = ta.value.trim(); const ref = db.doc("comments/" + id); setSave("Saving");
+    enqueue("c-" + id, () => text ? ref.set({ text, question: QS.find(x => x.id === id).ask }) : ref.delete())
+      .then(() => setSave("Saved")).catch(() => setSave("Couldn't save that comment. Use Copy my answers when you're done.", true));
+  }, 800);
+}
+$("copy").addEventListener("click", () => {
+  const text = QS.map(q => { const ta = $("c-" + q.id); const c = ta && ta.value.trim(); return q.ask + ": " + (answers[q.id] ? labelFor(q.id, answers[q.id]) : "not answered") + (c ? " (" + c + ")" : ""); }).join("\n");
+  const fallback = () => { $("copy-status").textContent = "Copy didn't work here. Select the text below and copy it."; let pre = $("fallback"); if (!pre) { pre = document.createElement("textarea"); pre.id = "fallback"; pre.readOnly = true; document.querySelector(".foot").after(pre); } pre.value = text; pre.focus(); pre.select(); };
+  try { navigator.clipboard.writeText(text).then(() => { $("copy-status").textContent = "Copied. Paste it into the chat."; }, fallback); } catch (e) { fallback(); }
+});
+build(); render();
+(async () => {
+  const timer = setTimeout(() => setSave("Can't reach saved answers yet. You can still pick; copy them when done.", true), 10000);
+  try { db = window.claude ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { clearTimeout(timer); setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  db.collection("answers").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    const seen = {};
+    snap.docs.forEach(d => { const v = d.data() && d.data().choice; if (typeof v === "string") seen[d.id] = v; });
+    if (!snap.metadata.hasPendingWrites) Object.keys(answers).forEach(k => { if (!seen[k]) delete answers[k]; });
+    Object.assign(answers, seen); render();
+    if (!snap.metadata.fromCache) setSave("Answers save as you go");
+  }, () => { clearTimeout(timer); setSave("Can't load saved answers. Use Copy my answers when you're done.", true); });
+  db.collection("comments").onSnapshot(snap => {
+    const seen = {}; snap.docs.forEach(d => { const t = d.data() && d.data().text; if (typeof t === "string") seen[d.id] = t; });
+    QS.forEach(q => showComment(q.id, seen[q.id] || ""));
+  }, () => {});
+})();
+</script>
+
+</body></html>

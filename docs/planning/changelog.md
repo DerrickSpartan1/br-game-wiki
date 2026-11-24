@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | New [Picks archive](picks-archive.md) with every answer from the seven picks pages, which were then deleted; round 6 picks filed as the owner's |
 | 2026-11-24 | Playtest round 6 answers on [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md), and [Handling](../systems/handling.md#movement), and a new [Project layout](../planning/project-layout.md) page |
 | 2026-11-24 | The owner's last pick: the menus and the compass heading are field lime |
 | 2026-11-24 | The owner's picks: the edge is aurora, and backpacks hold about their tier's amount with a spread by size, with no slowdown and bird names |
@@ -18,7 +19,7 @@ Every update to the wiki, newest first.
 | 2026-11-23 | Second town mock: dense cores, fields, and farmsteads; core sizes on [Maps](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | First town layout mock: the building kit and the comparison with Erangel on [Maps](../systems/maps.md#towns-and-buildings) |
 | 2026-11-23 | Filed the lead's lobby rules and the siren's reach on [Match flow](../systems/match-flow.md) |
-| 2026-11-23 | Made the [menu accent picks page](https://claude.ai/artifact/NQKgMTqKRQm1o89aVbgv3v) (three accents and the compass heading color) for the owner; added it to [PUBG look and feel](legal-review.md#pubg-look-and-feel) and the To-do page |
+| 2026-11-23 | Made the menu accent picks page (now deleted; answers on the [Picks archive](picks-archive.md)) (three accents and the compass heading color) for the owner; added it to [PUBG look and feel](legal-review.md#pubg-look-and-feel) and the To-do page |
 | 2026-11-22 | Filed the owner's fourth picks page: armor's real setups (new 6B45, Zabralo, 6B23, SSh-68, Sfera, Maska, and bump rows), equal red zone odds, 5 radar stations, the gas mask's 2 minutes, vehicle drops, and victory lines |
 | 2026-11-22 | Gas mask: worn on pickup and never shown on the character ([Class items](../systems/class-items.md)) |
 | 2026-11-22 | Filed the owner's third picks page: leg armor kinds and wearing rule, the gas mask, our words for PUBG's terms, care packages, vehicle drops, the supply truck, radar stations, red zone odds, birds, fences, vehicles, the comeback arena, the screwdriver, more PvE, scrap, and gun families; noted the 6B45's real setups |

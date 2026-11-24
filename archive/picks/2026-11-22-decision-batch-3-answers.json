@@ -1,0 +1,241 @@
+{
+ "answers": {
+  "an-birds": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Birds in trees and on roofs fly off when players get close"
+  },
+  "an-dogs": {
+   "choice": "no",
+   "label": "No",
+   "question": "Chained farm dogs bark when players come near a farmstead"
+  },
+  "an-stock": {
+   "choice": "no",
+   "label": "No",
+   "question": "Farm animals (cows, goats, chickens) that scatter and make noise when players run past"
+  },
+  "cb-layout": {
+   "choice": "several",
+   "label": "Several small layouts, one rolled per duel",
+   "question": "The underground comeback arena"
+  },
+  "ci-flash": {
+   "choice": "class",
+   "label": "The class slot, like the normal shield",
+   "question": "Where the flash shield goes (Blitz's in Rainbow Six has 4 flashes, 7 seconds apart, blinding out to about 4 m)"
+  },
+  "ex-minutes": {
+   "choice": "5",
+   "label": "5 minutes",
+   "question": "How long before quest items count"
+  },
+  "ex-skin": {
+   "choice": "scrap",
+   "label": "Come out like scrap: their own pocket, no weight, kept win or lose",
+   "question": "Skin-crafting items"
+  },
+  "gf-bren": {
+   "choice": "keep",
+   "label": "Keep them on one page",
+   "question": "The Bren and the ZB vz. 26 share one page, since the Bren is a licensed ZB"
+  },
+  "gf-rpk": {
+   "choice": "keep",
+   "label": "Keep them on one page",
+   "question": "The RPK, RPK-74, and RPK-16 share one LMG page, split into versions by cartridge (the AKM and AK-74 rifles are separate families)"
+  },
+  "gs-cs": {
+   "choice": "later",
+   "label": "Yes, later, once gas is in the game",
+   "question": "Tear gas rounds for the non-lethal grenade launchers"
+  },
+  "gs-trap": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Keep the tear gas trap (gas comes out when someone walks close, like Caustic's traps in Apex)?"
+  },
+  "la-eod": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Bomb suit trousers: full legs against blasts and fragments, very heavy; crate-only or a funny find"
+  },
+  "la-femoral": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Femoral plates: plates strapped over the thighs, pistol-rated (IIIA) or rifle-rated (III+)"
+  },
+  "la-groin": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Groin flap as a leg armor piece of its own (Russia's 6B45 vest has one that hangs from the front)"
+  },
+  "la-inner": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Inner thigh modules: a narrow panel hanging from the vest over the inside of each thigh, where the big arteries are"
+  },
+  "la-pairs": {
+   "choice": "block",
+   "label": "Can't be worn together",
+   "question": "Two pieces that cover the same spot, like a vest with a groin flap plus a battle skirt"
+  },
+  "la-pog": {
+   "choice": "no",
+   "label": "No",
+   "question": "Pelvic outer garment: stiffer armored shorts worn over the pants, groin and upper thighs (US Army, 2011)"
+  },
+  "la-riot": {
+   "choice": "no",
+   "label": "No",
+   "question": "Riot leg guards: hard thigh and shin guards against melee and thrown things, not bullets"
+  },
+  "la-stab": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Arterial stab protection: prison-guard gear that stops knives at the inner thighs, so it's good against melee"
+  },
+  "la-tassets": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Historic tassets: steel plates hanging from the waist over the thighs, from old plate armor; a rare or event find"
+  },
+  "la-thigh": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Thigh modules: a wide panel over the whole outer thigh and the side of the groin; soft, stops pistol rounds and fragments"
+  },
+  "la-trousers": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Fragmentation trousers: light armor over the whole legs, from Ukraine's 2025 full-body suit (about 2 kg for the whole suit)"
+  },
+  "md-kitted": {
+   "choice": "no",
+   "label": "No, crate guns only",
+   "question": "Can a crate drop a normal gun fully kitted, instead of a crate-only gun?"
+  },
+  "md-packages": {
+   "choice": "phase",
+   "label": "One per zone phase from phase 2 to 6, about 5",
+   "question": "Care packages per match"
+  },
+  "md-redodds": {
+   "choice": "split",
+   "label": "Bombardment 40%, smoke 20%, gas 10%, firebombing 10%, barrage 10%, EMP 10%",
+   "question": "Red zone odds now that firebombing, the creeping barrage, and EMP are in"
+  },
+  "md-truck": {
+   "choice": "one",
+   "label": "Yes, one per match",
+   "question": "A supply truck that drives the ring road, like PUBG's Sanhok loot truck: hard to stop, full of guns with attachments"
+  },
+  "md-wanted": {
+   "choice": "scrap",
+   "label": "Yes, scrap only",
+   "question": "Wanted contracts, like Warzone's Most Wanted: you're marked on everyone's map, and surviving the timer pays off"
+  },
+  "mp-fences": {
+   "choice": "both",
+   "label": "Both: drive through, fast and loud, or cut a quiet gap with the wire cutters",
+   "question": "Wire fences"
+  },
+  "nm-blue": {
+   "choice": "edge",
+   "label": "The edge",
+   "question": "Our word for the blue zone"
+  },
+  "nm-boost": {
+   "choice": "stim",
+   "label": "Stim",
+   "question": "Our word for the boost bar"
+  },
+  "nm-red": {
+   "choice": "strike",
+   "label": "Strike zone",
+   "question": "Our word for the red zone (it covers every form: shelling, smoke, gas, fire, EMP)"
+  },
+  "nm-win": {
+   "choice": "island",
+   "label": "The island is yours",
+   "question": "Our victory line"
+  },
+  "pve-more": {
+   "choice": "radar",
+   "label": "Robot sentries at the radar stations",
+   "question": "More PvE besides the vault guards"
+  },
+  "sc-buys": {
+   "choice": "looks",
+   "label": "Skins, quests, and other looks only; never anything that helps in a fight",
+   "question": "What scrap buys outside matches"
+  },
+  "tl-screw": {
+   "choice": "both",
+   "label": "Both: switch a building's lights off at its fuse box at night, and open vent covers for a quiet way in",
+   "question": "What the screwdriver does"
+  }
+ },
+ "comments": {
+  "an-dogs": {
+   "question": "Chained farm dogs bark when players come near a farmstead",
+   "text": "Outside of birds idk if we should involve other animals"
+  },
+  "ex-minutes": {
+   "question": "How long before quest items count",
+   "text": "5 minutes after its been picked up"
+  },
+  "gs-cost": {
+   "question": "What wearing a gas mask costs you",
+   "text": "You cant ads thats it"
+  },
+  "gs-mask": {
+   "question": "The gas mask",
+   "text": "Another option, its its own slot automatically put on if you have it like warzone"
+  },
+  "la-groin": {
+   "question": "Groin flap as a leg armor piece of its own (Russia's 6B45 vest has one that hangs from the front)",
+   "text": "Yes we should make ones that have the attachable plate have the playe come seperately. Also we need to check this 6b45 has variants of different levels"
+  },
+  "la-pog": {
+   "question": "Pelvic outer garment: stiffer armored shorts worn over the pants, groin and upper thighs (US Army, 2011)",
+   "text": "The garments might be nice skins but this is not evem armor"
+  },
+  "md-kitted": {
+   "question": "Can a crate drop a normal gun fully kitted, instead of a crate-only gun?",
+   "text": "But it will have attachments for the crate weapon if the crate gun takes them"
+  },
+  "md-packages": {
+   "question": "Care packages per match",
+   "text": "And we should do 1-2 extra fly ins but theybare special vehicles instead of carepackage"
+  },
+  "md-radar": {
+   "question": "Where radar stations sit (50 scrap to see the next circle early)",
+   "text": "It should be a few places andnrandom every time no place gurantees it and once its used no one else can use it. We will start woth 5"
+  },
+  "md-redodds": {
+   "question": "Red zone odds now that firebombing, the creeping barrage, and EMP are in",
+   "text": "Maybe it should just be fully random"
+  },
+  "md-wanted": {
+   "question": "Wanted contracts, like Warzone's Most Wanted: you're marked on everyone's map, and surviving the timer pays off",
+   "text": "We will look into it more later"
+  },
+  "mp-vehicles": {
+   "question": "Which vehicles Teplov gets",
+   "text": "Everything that makes sense? Boats on the coast, cars in towns police stuff near police etc etc. whatever fits the theme"
+  },
+  "nm-win": {
+   "question": "Our victory line",
+   "text": "We should have different variants"
+  },
+  "pve-more": {
+   "question": "More PvE besides the vault guards",
+   "text": "Both robot senteies at radar stations andnthenpatrols"
+  },
+  "tl-screw": {
+   "question": "What the screwdriver does",
+   "text": "Picking small locks too"
+  }
+ }
+}

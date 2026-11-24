@@ -1,0 +1,194 @@
+{
+ "answers": {
+  "cb-load": {
+   "choice": "same",
+   "label": "Both players get the same random gun from the match's pool",
+   "question": "Duel loadouts"
+  },
+  "cb-timer": {
+   "choice": "flag",
+   "label": "After 60 seconds a capture point opens; whoever takes it wins",
+   "question": "A duel that drags on"
+  },
+  "ch-color": {
+   "choice": "picker",
+   "label": "A full color picker",
+   "question": "Hair, eye, and skin colors"
+  },
+  "ch-free": {
+   "choice": "basic",
+   "label": "A good basic set is free; more styles unlock through seasons and challenges",
+   "question": "What's free?"
+  },
+  "ch-saves": {
+   "choice": "several",
+   "label": "Several saved characters, like The Finals' six",
+   "question": "Saved characters"
+  },
+  "ci-boxes": {
+   "choice": "later",
+   "label": "Leave it for later",
+   "question": "Where are the wooden boxes the small crowbar opens?"
+  },
+  "ci-jammer": {
+   "choice": "map",
+   "label": "It also scrambles nearby enemies' minimap and compass while they're close",
+   "question": "How does the signal jammer earn its slot?"
+  },
+  "ci-wedge": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Keep the door wedge, now that doors can be nailed?"
+  },
+  "ex-keep": {
+   "choice": "timer",
+   "label": "Everything, but quest items only count once you've survived a few minutes",
+   "question": "What comes out of a match with you?"
+  },
+  "gn-gas": {
+   "choice": "yes",
+   "label": "They get the Mondragón's manual mode on the selector key too",
+   "question": "Other guns with a real gas cut-off (FAL, MAS-49/56, M59/66, BM 59, Tavor 7)"
+  },
+  "gn-m14": {
+   "choice": "semi",
+   "label": "Semi only, like most issued rifles",
+   "question": "The standard M14's selector"
+  },
+  "gn-twins": {
+   "choice": "split",
+   "label": "Keep them separate",
+   "question": "Twin guns in different categories (SCAR-L and SCAR-H, AS Val and VSS)"
+  },
+  "gn-wear": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Items that wear out: the makeshift suppressor and the StG 44's curved barrel (about 300 rounds in real life)"
+  },
+  "la-briefs": {
+   "choice": "no",
+   "label": "No",
+   "question": "Ballistic underwear: Kevlar shorts worn under the pants, covering the groin and inner thighs; light (US Army, 2011)"
+  },
+  "la-skirt": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Ballistic skirt: a belt of soft panels around the hips and upper thighs (Ukraine, 2025)"
+  },
+  "la-slot": {
+   "choice": "slot",
+   "label": "Its own slot, like a helmet or vest, found as its own loot",
+   "question": "How does leg armor work in the game?"
+  },
+  "la-stack": {
+   "choice": "best",
+   "label": "The better one protects; they don't add up",
+   "question": "A vest that covers the groin plus leg armor that covers it too"
+  },
+  "la-tiers": {
+   "choice": "tiers",
+   "label": "Tiers 1 to 3 like vests: soft panels at tiers 1 and 2, hard thigh plates at tier 3",
+   "question": "Tiers"
+  },
+  "md-barrage": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "New red zone: a creeping barrage that walks across the map"
+  },
+  "md-body": {
+   "choice": "crate",
+   "label": "It turns into a loot crate right away",
+   "question": "A body nobody can revive anymore, while its player is still watching"
+  },
+  "md-brief": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "Briefcase finds: guns that came in real carry cases (AS Val, Groza) spawn as a briefcase"
+  },
+  "md-dragon": {
+   "choice": "6",
+   "label": "6 seconds",
+   "question": "How long do dragon's breath ground fires burn?"
+  },
+  "md-emp": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "New red zone: EMP that kills vehicles, drones, scopes with batteries, and radars"
+  },
+  "md-fire": {
+   "choice": "yes",
+   "label": "Yes",
+   "question": "New red zone: firebombing"
+  },
+  "md-loot-revive": {
+   "choice": "yes",
+   "label": "Yes, with whatever is left on it",
+   "question": "Can a looted body still be revived?"
+  },
+  "md-supp": {
+   "choice": "none",
+   "label": "Sound only, like PUBG",
+   "question": "Near misses (suppression)"
+  },
+  "mp-krepost": {
+   "choice": "stairs",
+   "label": "Causeway, rock ramp, then paths up",
+   "question": "Krepost: the real castle rock is reached over a stone causeway, then a ramp cut into the rock, then a lift or winding paths up"
+  },
+  "nm-family": {
+   "choice": "version",
+   "label": "Only the version's name, like Zavod-7 AV-47M",
+   "question": "Gun cards: the AK page's versions are Zavod-7 AV-47, AV-47M, AV-47 Short, AV-103, and so on. What label shows?"
+  }
+ },
+ "comments": {
+  "cb-arena": {
+   "question": "The duel arena",
+   "text": "Probably hidden under ground so that it doesnt interfere with the normal game"
+  },
+  "cb-load": {
+   "question": "Duel loadouts",
+   "text": "And they keep it when redeployed."
+  },
+  "ch-saves": {
+   "question": "Saved characters",
+   "text": "This is not a priority"
+  },
+  "ci-wedge": {
+   "question": "Keep the door wedge, now that doors can be nailed?",
+   "text": "Yes as it can be used on metal doors? Or maybe make it quicker?"
+  },
+  "gn-season": {
+   "question": "Season challenges for a gun that may not roll for a while",
+   "text": "Goals are on a guns category so for example ak kill count for that whol ak family same with m4 family or the 1911 family"
+  },
+  "gn-wear": {
+   "question": "Items that wear out: the makeshift suppressor and the StG 44's curved barrel (about 300 rounds in real life)",
+   "text": "Yeah and other supressor wear out too but at a slower rate."
+  },
+  "la-groin": {
+   "question": "Groin protector: a flap that hangs from the vest (like Russia's 6B45), soft or hard",
+   "text": "If a chest rig has a groun protector thats fine. We may need to put in loot spawning rules or wearing armor rules where you cant where say something with groin protection and a battle skirt from ukrain kinda deal"
+  },
+  "la-inner": {
+   "question": "Inner thigh modules that strap to a vest and cover the femoral arteries",
+   "text": "Show an example?"
+  },
+  "la-pog": {
+   "question": "Pelvic outer garment: stiffer armored shorts over the pants, groin and upper thighs (US Army, 2011)",
+   "text": "Can you show an example?"
+  },
+  "la-thigh": {
+   "question": "Thigh armor modules: the whole outer thigh and the side of the groin; soft, stops pistols and fragments",
+   "text": "Show examples?"
+  },
+  "md-body": {
+   "question": "A body nobody can revive anymore, while its player is still watching",
+   "text": "If they cant be revived anymore then yes it becomes a crate however if it has teammates that can revive them alove still its a body. But if they say get put in the 1v1 it becomes a crate"
+  },
+  "md-brief": {
+   "question": "Briefcase finds: guns that came in real carry cases (AS Val, Groza) spawn as a briefcase",
+   "text": "Make it rare and something you need to pick open?"
+  }
+ }
+}

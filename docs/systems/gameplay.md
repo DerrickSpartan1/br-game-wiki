@@ -141,6 +141,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 
 
 - **Fuel and tires:** like PUBG, vehicles run out of fuel and need refilling, and their tires can be shot out.
+- **Rain (owner, 2026-11-24):** vehicles grip less and take longer to stop on wet ground, during rain and for 2 minutes after ([Weather](match-flow.md#weather)).
 - **Swimming:** players can swim and dive underwater to break line of sight, like PUBG.
 
 ## Melee

@@ -53,9 +53,9 @@ Damage is a percent of full health, so armor doesn't change it.
 
 ### The edge: how it looks
 
-The owner asked for the wall's look (2026-11-24). First pass, our pick; the color and the rest are on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) for the owner:
+The owner asked for the wall's look and confirmed everything here except the color, which is still on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) (2026-11-24):
 
-- **Color:** amber, like heat haze over a road, not PUBG's blue. PUBG's maker has sued over a copied color scheme ([Legal review](../planning/legal-review.md#pubg-look-and-feel)), and amber can't be mixed up with the white safe circle or a red strike zone.
+- **Color:** still open. The owner likes blue as the classic but not PUBG's claim to it (2026-11-24; [Legal review](../planning/legal-review.md#pubg-look-and-feel)). Second try on the picks page: sea teal (our pick: closest to the classic feel and matches the menu placeholder), aurora (teal shifting to violet), static (no color, like TV static), or amber. Whatever it is, it can't be mixed up with the white safe circle or a red strike zone.
 - **See-through:** a tall curtain you see through like tinted glass. Players, buildings, and land behind it show, dimmed by about a third. Thin bright lines of static crawl up it.
 - **Height:** from the ground and the sea up past the highest hill, fading out about 600 m up, so it shows from a parachute and from the Zhuravl.
 - **From far away:** a faint amber band on the horizon from anywhere on the map. The static shows within about 300 m, and you hear it within about 50 m.
@@ -114,7 +114,7 @@ The circle's size is TBD. The warning, how long each form lasts, and how far you
 
 ### Hazards: timing and sight
 
-The owner asked how long each hazard lasts, how it comes and goes, and what you can see in it (2026-11-24). First pass, our pick. Every strike zone gives a 30-second warning first: the siren sounds and the circle shows on the map.
+The owner asked how long each hazard lasts, how it comes and goes, and what you can see in it (2026-11-24). First pass, our pick. Every strike zone gives a 20-second warning first (owner, 2026-11-24): the siren sounds and the circle shows on the map.
 
 | Hazard | Comes in | Lasts | Goes | How far you can see in it |
 | --- | --- | --- | --- | --- |
@@ -127,6 +127,24 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 | Smoke grenade | 3 s | 40 s | 10 s | About 2 m inside a cloud about 8 m across. A real M18 smokes for 50 to 90 s; ours is shorter so one grenade covers a crossing or a revive, not a whole fight |
 | Inside the edge | — | — | — | Unchanged ([The edge](#the-edge-how-it-looks)) |
 
+**Owner's picks (2026-11-24):** every timing and sight above as suggested, except the warning, which is 20 seconds instead of 30.
+
+**Sizes and damage (our pick, 2026-11-24; answers to the lead's questions):**
+
+| Strike zone | Circle across | Details |
+| --- | --- | --- |
+| Bombardment | 300 m | 150 shells over the 60 s. A shell kills within 3 m, and its blast falls off to 20 health at 8 m. Someone standing in the open through all of it has about a 1 in 16 chance of a direct hit and about a 1 in 3 chance of being wounded, so staying out in it is a real risk but not certain death |
+| Smoke | 250 m | |
+| Firebombing | 300 m | One line of fire about 300 m long and 20 m wide across the circle |
+| Creeping barrage | 300 m | A band about 30 m deep walking across at 5 m/s, so it crosses in 60 s. That's slower than a sprint (6.3 m/s), so you can outrun it if you see it coming |
+| EMP | 300 m | |
+| Gas | 250 m | |
+
+- **Fire:** standing in firebombing's flames burns like a Molotov or dragon's breath: 10 health a second through armor, and you keep burning 4 seconds after you step out ([Dragon's breath](starting-damage.md)).
+- **Gas coming and going:** gas hurts at half its rate while it rolls in and while it thins out, and at the full rate while it holds. It stops when it's gone.
+- **Shelter from shells:** for now any solid roof over your head shelters you, doorways and windows included, and wooden houses never give way. Both wait for building materials, when doorways and windows should count as outside for a shell landing within about 5 m.
+- **Smoke's look:** thick white-gray banks about 15 to 20 m tall that roll slowly. From outside it looks like a solid wall of smoke; inside you see about 10 m, and it thins over the last 30 m to the edge. At night it's dark gray and catches lamps, flashlights, and flares. It's drawn the same on every setting, like fog ([Fair in the dark](#fair-in-the-dark)).
+
 ## Care packages
 
 Random, like PUBG's:
@@ -136,6 +154,8 @@ Random, like PUBG's:
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
+- **Late phases (our pick, 2026-11-24):** packages are timed by the match clock, so in the short late phases one can land a phase after the one it's counted for. That's fine, but the last one lands before phase 7 starts.
+- **Med kit chance (our pick, 2026-11-24):** 30%, about one package in three.
 - **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner): armored or special vehicles only, since gliders and the rest spawn normally. For now that's the [Ezh](gameplay.md#vehicles-and-water) armored scout car (owner, 2026-11-22).
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.
@@ -263,9 +283,16 @@ How far you can make out a standing player in the open (our pick, 2026-11-24). P
 | Rain | 600 m at full rain | A gray veil from 300 m, wet shine on the ground |
 | Thunderstorm | 400 m in the downpour | A heavy veil from 200 m; each lightning flash lights everything for about a fifth of a second |
 | Fog | 150 m at its thickest, closing in from 1,000 m as it rolls in | White-gray from 60 m, flat light, no shadows |
-| Dusk and dawn | 300 m for about 5 minutes around sunset and sunrise | Low sun glare in one direction, long shadows |
-| Moonlit night | 100 m ([Moonlight](#time-passes)) | Lamps, flashlights, muzzle flashes, and fires show from 1 km; a night scope sees about 300 m |
+| Dusk and dawn | 300 m from sunset to full dark (20:28 to 21:00), and from first light to sunrise (05:02 to 05:35). Each is about 5 real minutes | Low sun glare in one direction, long shadows |
+| Moonlit night | 100 m from full dark to first light ([Moonlight](#time-passes)) | Lamps, flashlights, muzzle flashes, and fires show from 1 km; a night scope sees about 300 m |
 | Night with rain, fog, or a storm | The shorter of the two | |
+
+**Owner's picks (2026-11-24):** every spell, sight, and dusk choice as suggested.
+
+- **The warning:** the sky and the light change about 15% of the way, but no rain falls and sight doesn't shrink until the spell rolls in. A fog warning's mist lies only in valleys and over the sea (our pick, 2026-11-24).
+- **When a spell can run (our pick, 2026-11-24):** it starts in phases 2 to 5 and can run past phase 5, but it has cleared before phase 7 starts, shortening its hold if it must, so the last circles are fought in normal sight.
+- **Distant thunder (our pick, 2026-11-24):** only the storm's own thunder halves how far gunshots carry. The distant rumble of its warning doesn't.
+- **Rain and vehicles (owner, 2026-11-24):** rain changes how vehicles handle. Our numbers: on wet roads tires grip about 20% less and braking takes about 30% longer; on wet dirt and grass, grip drops about 35%. It lasts while it rains and 2 minutes after, while the ground is still wet. Thunderstorms count as rain ([Vehicles and water](gameplay.md#vehicles-and-water)).
 
 For scale, weather services call fog with about 200 m of sight thick fog, and under 50 m dense fog. Gas and smoke are under [Hazards: timing and sight](#hazards-timing-and-sight).
 

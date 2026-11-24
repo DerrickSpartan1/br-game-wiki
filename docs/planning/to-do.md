@@ -167,7 +167,9 @@ When you tell the lead "check the planner's list," it works through this section
     - **Vaults:** how many packs a vault holds, and which tier?
     - **Weights the page doesn't give:** attachments, armor carried in the bag, class items, scrap, keys, and the no-gear capacity. All placeholders for now.
     - **Capacity:** is it no gear + vest + pack added together? That's how the lead reads the Carry weight table.
-    - **Taking off a vest or rig** when you'd be over capacity: refused, like dropping a pack, or allowed with the overflow dropping to the ground?
+    - **Taking off a vest or rig** when you'd be over capacity: refused, like dropping a pack, or allowed with the overflow dropping to the ground? Refused for now.
+    - **Rounds coming back when you're full** (a reload's leftover rounds, an en bloc clip ejected early): let them go over capacity, or drop the extra on the ground? They go over for now, so nothing is lost.
+    - **The range has no carry limit** (lead's pick, for testing); only real matches enforce it.
     - **The armor tables' "fourth picks"** (6B45 split in three, 6B11/12/13, new helmets) are on the page but not in the game yet; the lead will pick them up as their own step.
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 

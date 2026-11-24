@@ -54,7 +54,7 @@ The planner's scheduled tasks follow these steps each time, so changing them her
 
 ### Lead check-in steps
 
-The lead couldn't start its own recurring task (2026-11-24), so you start it: on the PC, type this one line into the lead's session (in its terminal, not from the phone). `30m` runs it every half hour, on the hour and the half hour:
+The lead couldn't start its own recurring task (2026-11-24), so you start it. First ask the lead to add the allow rules its check-in needs to its `.claude/settings.json` (pulling, committing, and pushing the wiki at `C:/Dev/br-game-wiki`, and editing files there), so the check-in never stops to ask you. Then on the PC, type this one line into the lead's session (in its terminal, not from the phone). `30m` runs it every half hour, on the hour and the half hour:
 
 ```text
 /loop 30m Lead check-in: pull the wiki and follow the "Lead check-in steps" on docs/planning/ai-team.md exactly.
@@ -76,6 +76,10 @@ working through the list. If nothing changed, say so in one line.
 ```
 
 ### Setting up the planner's check-in on your PC
+
+**If runs stop to ask you for approval (2026-11-24):** the task is in Manual mode, where every tool it hasn't been allowed stops the run until you answer. Fix it once: in the Claude desktop app's Code tab, click **Scheduled**, open **planner-check-in**, click the pencil (Edit), and in the instructions box's toolbar change the permission mode from **Manual** to **Auto**, then save. Click **Run now**, and if anything still asks, choose **Always allow**, which the task remembers ([Claude Code docs](https://code.claude.com/docs/en/desktop-scheduled-tasks.md#permissions-for-scheduled-tasks)). If Auto isn't in the list, pick **Accept edits** and use Always allow the same way.
+
+The first setup:
 
 Once, in the Claude desktop app's Code tab, start a session and paste this:
 

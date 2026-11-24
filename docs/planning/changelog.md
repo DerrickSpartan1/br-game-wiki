@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | New [Coding practices](coding-practices.md) page, with the reviewer's checklist and the planner's check of the current code |
 | 2026-11-24 | Answered the lead's afternoon questions on [Carry weight](../systems/armor.md#carry-weight), [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives), and [Comeback fight](../systems/gameplay.md#comeback-fight) |
 | 2026-11-24 | Freefall readout and the full map's look updated from the owner's PUBG screenshots |
 | 2026-11-24 | Playtest round 7 answers on [Gameplay](../systems/gameplay.md) and [Match flow](../systems/match-flow.md#parachutes), and a new [Sound list](sound-list.md) page |

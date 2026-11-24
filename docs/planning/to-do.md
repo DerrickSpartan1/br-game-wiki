@@ -300,6 +300,7 @@ In rough order of what the game needs first:
 - [ ] **Thrown melee pickup:** only the thrower can pick up a thrown melee weapon (suggested, and built as the placeholder), or anyone can take it for the rest of the match, like PUBG, with the owner keeping it after ([Melee](../systems/gameplay.md#melee)).
 - [x] **The edge's color, second try:** aurora, teal shifting to violet (owner, 2026-11-24; [The edge](../systems/match-flow.md#the-edge-how-it-looks)).
 - [x] **Backpacks:** the tier sets about how much a pack holds, with a small spread by size; no slowdown, like PUBG; bird names (owner, 2026-11-24; [Backpacks](../systems/armor.md#backpacks)).
+- [ ] **Playtest round 6 picks:** the care package smoke color and how long it lasts, the throw arc, strike zone size and where they land, the first circle, and how much the hands move, in the Round 6 group on the [picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3). The planner's picks are on the wiki until then.
 - [ ] **Server hosting,** once the game runs ([Servers](../systems/servers.md)).
 
 ## Planner (Claude chat): wiki work (say the word)

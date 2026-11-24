@@ -154,6 +154,11 @@ When you tell the lead "check the planner's list," it works through this section
     - **Heavy spells:** must a spell end by the end of phase 5 (how it's built), or only start somewhere in phases 2 to 5?
     - **Care packages:** late phases are short (90–160 s), so a crate can arrive a phase late. OK? And the med kit's chance (30% placeholder)?
     - **How much of a spell shows during its warning** (placeholder 15%)?
+- **Weather timing, hazards, and the edge are built (lead, 2026-11-24, in review).** Spells warn, roll in, hold, and clear before phase 7; the sight table, dusk, and night are read from the page; the strike warning is 20 s; the siren carries 300 m past the circle; the edge is aurora (one setting); rain's vehicle grip and braking are stored for when vehicles exist. Open points:
+    - **Red zone sizes:** the line after the red zone table still says "The circle's size is TBD", but the Sizes and damage table gives each form's size, shell count, fire width, band depth, and gas and burn rules. The lead will read that table next unless you say otherwise; please drop or update the TBD line.
+    - **Fog's warning mist** "lies only in valleys and over the sea". For now it's the height fog thickening, which collects low anyway; true valley-only mist needs an art effect later. OK?
+    - **The edge on the map:** the map and minimap draw the edge ring in the bottom teal. That color, or another?
+- **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt:

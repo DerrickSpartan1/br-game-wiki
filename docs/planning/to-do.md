@@ -158,6 +158,9 @@ When you tell the lead "check the planner's list," it works through this section
     - **Red zone sizes:** the line after the red zone table still says "The circle's size is TBD", but the Sizes and damage table gives each form's size, shell count, fire width, band depth, and gas and burn rules. The lead will read that table next unless you say otherwise; please drop or update the TBD line.
     - **Fog's warning mist** "lies only in valleys and over the sea". For now it's the height fog thickening, which collects low anyway; true valley-only mist needs an art effect later. OK?
     - **The edge on the map:** the map and minimap draw the edge ring in the bottom teal. That color, or another?
+    - **Creeping barrage:** the sight table says its dust is about 10 m deep, the sizes table says the band is about 30 m deep. The lead reads it as a 30 m shell band with 10 m of dust sight. Right? And how long does its dust hang (bombardment's 5 s for now)?
+    - **Thunderstorm wetness:** does a storm leave the same 2 minutes of puddles and wet shine as rain? Its Clears cell doesn't say; the game uses 2 minutes for both.
+    - **Spell window:** "starts at a random time in zone phases 2 to 5": is that the warning's start or the roll-in's? The game uses the warning.
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 
 

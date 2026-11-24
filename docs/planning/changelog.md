@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | [Chat notes](chat-notes.md): past chats from October to 2026-11-23 written up from the decision log, changelog, and picks archive |
 | 2026-11-24 | New [Chat notes](chat-notes.md) page with today's planner chat; check-ins and the lead read it |
 | 2026-11-24 | [Lead check-in steps](ai-team.md#lead-check-in-steps): the owner starts the lead's check-in with one `/loop` line, plus a backstop of reading the To-do after each step |
 | 2026-11-24 | New [Coding practices](coding-practices.md) page, with the reviewer's checklist and the planner's check of the current code |

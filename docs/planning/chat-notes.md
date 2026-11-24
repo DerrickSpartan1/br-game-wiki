@@ -8,7 +8,8 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Game only.** Nothing personal goes here, only what's about the game and how the team works.
 - **Who writes them:** the planner after each chat with the owner, under **Planner chat**; the lead after each chat with the owner (phone or PC), under **Lead chat**. Playtest results stay in the game repo's `Docs/Playtest/`, and decisions still get their row on the [Decision log](decisions.md).
 - **Who reads them:** every check-in reads the newest entries ([Check-ins](ai-team.md#check-ins)), and a new chat starts by reading the last few days.
-- **Earlier chats** aren't written up here; the [Decision log](decisions.md) and [Changelog](changelog.md) cover them.
+- **Earlier chats** (before 2026-11-24) are written up below from the [Decision log](decisions.md), the [Changelog](changelog.md), and the [Picks archive](picks-archive.md), not from the chats themselves, so they carry no quotes. October is one entry.
+- **Read only what you need:** the newest day or two at a check-in; older entries when a topic comes back.
 
 ## 2026-11-24
 
@@ -37,3 +38,69 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Built today, waiting on his review (round 8):** bigger first circle and strike zones, backpack odds and carry weights from the wiki, the dotted throw arc, Esc closing screens first, armor worn not carried (defib in slot 4), bodies hold the loot with crates, hands that move with you and the melee ready hold.
 - **His PC setup:** Python 3.12 and the wiki's build packages installed with his OK; the planner's check-in task created in `C:\Dev\planner`; he added the lead's allow rules himself and started the lead's `/loop` check-in.
 - **Still open for him:** whether moving crouch and prone shots must match the server within 1 cm (they're within 5 cm now; still poses are within about 1 cm); pushing the newest commits.
+
+## 2026-11-23
+
+### Planner chat (rebuilt from the logs)
+
+- **The map, in detail:** towns are dense cores like Erangel's (large towns about 550 to 600 m across) with fields and farmsteads around them; each town's layout gets mocked first, then a building kit of 25 types; the land between towns mixes vineyards, fields, orchards, woods, pine, scrub, and meadow from Ischia's real land cover (owner; the mix our pick); the coast gets cliffs, rocky shore, beaches, and harbor walls ([Maps](../systems/maps.md)).
+- **Our own spots in full:** Object 7 is a fenced airbase across the plateau with its bunker linked underground to the road tunnel; the school, prison, port, quarry, spa, hospital, and farm got compound layouts and 15 building types. Then a pass for more curves, so not everything is square (owner asked).
+- **Playtest rounds 3 and 4 answered** (his notes are in the game repo's `Docs/Playtest/results-2026-11-23.md`): 29+1 from empty and 30+1 with a round chambered for closed-bolt guns with detachable mags (owner); fists are a melee pick like the others (owner); every melee weapon can be thrown and picked back up (owner), aimed with right mouse and an arc (our pick); a HUD size slider (owner; 75% to 125% our pick); med names start with their slot (owner); iron sights sized like PUBG's M416's, armor durability from PUBG 2018, the boost pulse, the camera at the body's eyes, and the training map write-up (our picks).
+- **Also:** the red zone siren carries about 300 m past the circle; lobby rules until bots exist.
+
+## 2026-11-22
+
+### Planner chat (rebuilt from the logs)
+
+- **Four decision batches and the class items page** were answered on picks pages; every answer is on the [Picks archive](picks-archive.md). The big ones below.
+- **The first map is named Teplov**, with our own Eastern European town and spot names; real elevation data and real road bends; the v4 mockup became a coordinates file for the lead's map tool.
+- **Reloads:** revolvers load one round at a time with speed loaders as attachments; every belt reload is the full reload; mag-fed guns do the full reload only with an empty chamber; a cancelled reload keeps its progress; the old mag drops and disappears after about 10 seconds.
+- **Guns:** weapon sway like PUBG's; safe isn't on the fire-mode key; the standard M14 is semi only, and real gas cut-offs go on the selector key; suppressors and the Krummlauf wear out; handling moved back to PUBG's numbers.
+- **The comeback:** Warzone-style 1v1 duels, one redeploy (more with scrap), open for the first couple of circles, an underground arena, the same random gun for both, a capture point after 60 seconds. Bodies turn into crates once nobody can revive them.
+- **Scrap and crafting:** one kind of scrap and in-match workbenches; everything you carry comes out of a match; quest items count after a few minutes.
+- **Class items and special weapons:** twenty more class items approved; pans and breaching tools are class items; rocket launchers and mortars are crate-only class items; new special groups (black powder, underwater, air guns, survival guns, oddities).
+- **Hazards and match:** red zone forms 1 in 6 each, including firebombing, creeping barrage, and EMP; a gas mask slot; about 5 care packages and 1 or 2 vehicle drops a match; 5 radar stations.
+- **Armor:** leg armor gets its own slot and tiers; vests and helmets roll their real setups.
+- **Our own words:** strike zone, the edge, Stim, and "The island is yours".
+- **Look and feel:** first person like PUBG's; matte gun materials and plain lighting; low poly is for testing, the final game looks closer to PUBG with our own art; characters are humans you dress up (the robots are saved for something else).
+- **Night and sky:** day for night with a locked exposure; five rules keep dark matches fair; the watch sits on the inside of the left wrist.
+- **The vehicle lineup:** an Eastern Bloc stand-in for each PUBG vehicle, plus a tractor and a 6x6 truck.
+- **Playtest round 1** (his notes in the game repo): the M4A1 squared up, pedestal version picker, Colors A.
+
+## 2026-11-21
+
+### Planner chat (rebuilt from the logs)
+
+- **The AI team was set up:** Claude chat is the planner, Claude Code on his PC is the lead, with subagent workers ([AI team](ai-team.md)).
+- **The first map:** Ischia's layout at true scale, 10 × 8 km with ocean around it, heights squashed to 40% and Monte Epomeo flattened to a plateau; a river from a crater lake; a new coastal town (Marina) and farm huts; vaults (4 to 6 a map, the Prison armory the fifth) and 2 or 3 keys a match.
+- **Matches like PUBG's:** a random plane path, PUBG-style parachutes, Erangel's zone phases as placeholders, random care packages, red zones in several forms with an air raid siren, a pre-match lobby on the match's map, and time and weather that change during a match.
+- **Armor:** three tiers at PUBG's 30%, 40%, and 55%; the crate line is one head shot through a tier 3 helmet, so the .300 Win Mag snipers and the MG 42 family are crate-only.
+- **Healing like PUBG's:** six slots with Tarkov's real medical items as variants, bandages and first aid kits up to 80, slow fill.
+- **Melee:** owned melee weapons brought into every match, all with the same numbers, lots of kinds; tap X to hit, hold X to run with it.
+- **Names and legal:** all 625 gun versions got game names; 49 made-up gun makers approved; anything that could cause legal trouble gets a generic name; no Red Cross emblem; moving away from PUBG specifics in looks and marketing.
+- **Art:** low poly for now, shapes from real photos, one model per version on a shared kit; the M4A1's colors approved.
+- **Lots of features filed:** dog tags, outfits like PUBG's, ping, proximity chat, death cam, Easy Anti-Cheat, footprints, vehicles and ziplines, radar stations, wanted contracts, self-revive kits, keys and controls like PUBG's with X for melee.
+- **The game stays private** for him and friends for now; he wants chances to make things by hand.
+
+## 2026-11-20
+
+### Planner chat (rebuilt from the logs)
+
+- **The engine is Unreal Engine 5.8** in C++, moving to Unreal 6 later; Unity and Godot were compared and passed over.
+- **Damage and fire rates follow PUBG:** damage set per gun version from PUBG anchors, real cyclic rates for automatics and PUBG's fixed rates for semi-autos, real bullet speeds and drop, shotguns from PUBG's 2018 pumps, and crate weapons decided by damage.
+- **Reloads and ammo like PUBG's:** loose rounds in the backpack; every version gets Reload and Mag columns; tubes load one round at a time; stripper clips like the Kar98k's.
+- **Loot like PUBG's,** but only the match's pool spawns; vests roll as combos of carrier, tier, plate, and rig; armor and helmets from Escape from Tarkov's real pieces.
+- **Attachments:** PUBG's set, built-in parts stay on, bipods on cover or prone.
+- **HUD and inventory** follow PUBG's 2017–2018 layout with our own look; slot 4 is the class item, slot 5 throwables, melee its own button.
+- **Sound:** real sound speed and bullet cracks.
+- **Art and tuning:** "good enough to get the feel down" for now, free tools first, and gun tuning waits for real models; the target is PUBG's gun feel from 2017–2018.
+
+## October 2026
+
+### Planner chats (rebuilt from the logs)
+
+- **The ideas doc** came first (early October); the wiki was built from it and moved to GitHub (2026-10-12 to 10-14), starting with 67 gun pages, rules, systems, the ammo index, and planning pages.
+- **Core gun rules:** no jamming and no overheating (flavor text only); recoil is random every time, with each gun's own personality; versions keep their real fire modes, semi-auto-only ones included; real conversion kits count as versions; en bloc clips ping and can't be topped off; the AUG's progressive trigger and the Mondragón's gas cut-off go on the selector key.
+- **Family calls:** the Galil ACE stays with the Galil; the AK-107, AK-108, and AK-109 fold into the AK families; the HK416, AK-12, and CETME stay their own families.
+- **Assault rifles were finished** (SCAR-L, HK416, ACR, SIG MCX, AK-12), then **battle rifles and DMRs became one category** and were added through the month: Mondragón, M1 Garand, SVT-40, FG 42, Gewehr 43, SKS, MAS-49, FN FAL, AR-10, SG 510, CETME, M14, HK G3, BM 59, SVD, Mini-14, VSS, SR-25 / M110, QBU-88, Mk 12, SCAR-H, and HK417.
+- **Ideas filed:** a robot player character concept (later saved for something else) and wire fences with wire cutters.

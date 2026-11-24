@@ -107,6 +107,12 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 **Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. While a squadmate could still revive them, it stays a body: anyone can loot it straight from the body, and a looted body can still be revived, with whatever is left on it (owner, 2026-11-22). Once nobody can revive them anymore, or they go to the [comeback duel](#comeback-fight), the body turns into a loot crate right away, like PUBG's. It does the same if the player leaves the match.
 
+- **Crates stay all match (our pick, 2026-11-24):** emptied ones too, shown open and empty, so they still mark where a fight happened. On the range, a crate clears after 2 minutes.
+- **A living player who quits** for good drops everything as a crate where they stood. A dropped connection is different: the character stays where it is for 2 minutes so the player can come back, and it can be shot meanwhile; after that, it's a crate (our pick).
+- **A body shows what it still holds (our pick):** its vest, helmet, backpack, and guns stay visible until someone takes them, and each disappears as it's taken.
+- **Swapping from a body or crate (our pick):** taking a vest, helmet, or backpack from a body or crate puts your old one into that body or crate, so the loot stays in one place. Swapping from the ground drops your old one on the ground, as on [Carry weight](armor.md#carry-weight).
+- **Looting a squadmate's body (our pick):** tap F opens its loot, and hold F revives them (with your defib if you carry one, CPR if not). A knocked squadmate is still alive, so F on them only picks them up; they can't be looted.
+
 **Self-revive kits** let you get up on your own, like PUBG's. They spawn more often in solos and less often in duos, trios, and quads.
 
 **No knockdown shields.**
@@ -123,6 +129,7 @@ Warzone-style 1v1 duels (owner, 2026-11-22):
 - **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.
 - **The arena** is hidden underground, so it never gets in the way of the match (owner). It has several small layouts, and each duel rolls one (owner, 2026-11-22).
 - **Timer:** after 60 seconds a capture point opens, and whoever takes it wins (owner), like the flag in Warzone's Gulag.
+- **Your body when you go:** going to the duel turns your body into a loot crate at once, as on [Bodies hold the loot](#knockdowns-revives). If you win, you redeploy with only the duel's gun and what the arena gives you.
 
 **Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 

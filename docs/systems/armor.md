@@ -327,19 +327,24 @@ Attachments and the rest (our pick, 2026-11-24; attachment weights are PUBG's fr
 | --- | --- | --- |
 | Red dot or holographic sight | 10 | PUBG |
 | Scope, 2x to 4x | 15 | PUBG |
-| Scope, 6x and up | 20 | PUBG |
-| Suppressor | 10 pistol, 15 SMG, 20 rifle, 23 sniper | PUBG |
-| Flash hider, compensator, or muzzle brake | 8 SMG, 10 rifle, 12 sniper | PUBG |
+| Scope, 6x and up | 20 | PUBG. A variable scope goes by its top power, so a 3–6x is 20 (our pick, 2026-11-24) |
+| Thermal scope | 20 | Our pick (2026-11-24): heavier than a 2x–4x for its battery and housing |
+| Canted iron sights | 5 | Our pick (2026-11-24) |
+| Suppressor | 15 pistol and SMG, 20 rifle, 23 DMR and sniper, 15 shotgun | PUBG's, one item per attachment family (our pick, 2026-11-24; below) |
+| Flash hider, compensator, or muzzle brake | 8 pistol and SMG, 10 rifle, 12 DMR and sniper | PUBG's, one item per attachment family (our pick, 2026-11-24) |
 | Shotgun choke or duckbill | 5 | PUBG's choke |
 | Grip | 10 | PUBG |
+| Bipod (as an attachment) | 10 | Our pick (2026-11-24): the same as a grip, since it takes the foregrip slot |
 | Stock | 12 | PUBG's tactical stock |
 | Cheek pad | 17 | PUBG |
 | Bullet loops | 15 | PUBG |
-| Mag tier | 10 pistol, 15 everything else | PUBG's extended and quickdraw mags, rounded |
+| Mag tier | 10 pistol and SMG, 15 everything else | PUBG's extended and quickdraw mags, rounded; one item per attachment family (our pick, 2026-11-24) |
 | Laser or light | 8 | Our pick |
 | Vault key | 1 | Our pick |
 | Crafting scrap | 0 | Our pick: scrap is a counter, like money, not an item in the bag |
 | Armor, helmets, leg armor, class items | — | Our pick: worn in their own slots, never carried in the bag, like PUBG's vests and helmets. Picking up another swaps it and drops the old one |
+
+**Weights go by attachment family (our pick, 2026-11-24):** attachments are one item per family ([Universal attachments](attachments.md#universal-attachments)): pistol and SMG, rifle (assault rifles, LMGs, and battle rifles), DMR and sniper, and shotgun. Each item weighs its family's number above, whatever gun it ends up on. Pistols and SMGs share one family, so their mag tier and suppressor are one item each, at 10 and 15.
 
 **How capacity adds up (our pick, 2026-11-24):** no gear + the vest's or rig's pouches + the pack, added together.
 

@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Nothing handed between the planner and the lead counts as done until the owner reviews it; every open To-do item says where it stands (owner) | [To-do](to-do.md), [AI team](ai-team.md#how-work-flows) |
 | 2026-11-24 | Lag compensation planned: the server rewinds targets up to 200 ms to where the shooter saw them; a bullet that hits a held gun passes through to the body (our pick) | [Servers](../systems/servers.md#hits-and-lag) |
 | 2026-11-24 | Backpacks: their own tier odds by area, 2 tier 3 packs per vault, none in crates; no-gear capacity 20; attachment weights from PUBG; armor and class items never in the bag; capacity adds up, taking off gear over capacity is refused, returning rounds always fit; slot ranges use the middle (our pick) | [Loot](../systems/loot.md#starting-weights), [Carry weight](../systems/armor.md#carry-weight) |
 | 2026-11-24 | Weather and hazard details (our pick): a spell's window counts from its warning; storms leave 2 min of wet like rain; the barrage's 30 m band has 10 m dust sight for 5 s a shell; fog's warning mist is the low height fog for now; packages may land a phase early; the edge is a teal ring on the map | [Match flow](../systems/match-flow.md), [The map](../systems/gameplay.md#hud-and-inventory) |

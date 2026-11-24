@@ -17,7 +17,8 @@ Workers are Claude Code subagents: files in the game repo's `.claude/agents/` fo
 3. **The lead reads the wiki,** splits the task into steps, and hands each step to a worker.
 4. **The reviewer checks each result.** Anything judged by eye or ear comes to your phone as a question.
 5. **The lead commits each step** and tells you what's done.
-6. **Tell the planner** what the lead finished. The planner checks the game repo's commits and ticks the To-do list.
+6. **You review it.** Built work comes to you on the lead's playtest checklist; the planner's first passes ("our pick") come on a review page. Nothing counts as done until you've reviewed it (owner, 2026-11-24).
+7. **Tell the planner** what you reviewed. The planner checks the game repo's commits and your playtest results, then updates the To-do list: an item is ticked only once you've said it's good, and anything that needs work goes back to the lead or the planner with your note.
 
 ## The workers
 
@@ -40,6 +41,7 @@ Workers are Claude Code subagents: files in the game repo's `.claude/agents/` fo
 - **Don't do the workers' jobs,** except trivial ones.
 - **Write for a phone:** short status messages, with the one thing that needs an answer up top.
 - **"Check the planner's list"** means: read the wiki's [To-do](to-do.md) page, work through its For the lead section in order, and say which items are done.
+- **Built is not done.** Every finished item goes on the playtest checklist for the owner, and stays open on the To-do page until he says it's good (owner, 2026-11-24). Anything said in a playtest or a report that isn't on a list gets an item, so nothing is lost.
 
 ## Setup
 

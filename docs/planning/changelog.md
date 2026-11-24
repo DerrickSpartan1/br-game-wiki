@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | [To-do](to-do.md): the owner-review rule, a status on every build item from the planner's check against the commits and playtests, and twelve items found missing |
 | 2026-11-24 | Answers to the lead's overnight questions: weather, hazard, and care package details on [Match flow](../systems/match-flow.md), map colors on [The map](../systems/gameplay.md#hud-and-inventory), backpack tiers by area on [Loot](../systems/loot.md#starting-weights), item weights and capacity rules on [Carry weight](../systems/armor.md#carry-weight), and a new Hits and lag section on [Servers](../systems/servers.md#hits-and-lag); the red zone TBD size line is gone |
 | 2026-11-24 | New [Picks archive](picks-archive.md) with every answer from the seven picks pages, which were then deleted; round 6 picks filed as the owner's |
 | 2026-11-24 | Playtest round 6 answers on [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md), and [Handling](../systems/handling.md#movement), and a new [Project layout](../planning/project-layout.md) page |

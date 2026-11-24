@@ -162,6 +162,13 @@ When you tell the lead "check the planner's list," it works through this section
     - **Thunderstorm wetness:** does a storm leave the same 2 minutes of puddles and wet shine as rain? Its Clears cell doesn't say; the game uses 2 minutes for both.
     - **Spell window:** "starts at a random time in zone phases 2 to 5": is that the warning's start or the roll-in's? The game uses the warning.
     - **Care packages landing early:** a package plane needs about 5 minutes from take-off to a landed crate, so for every crate to land before phase 7, the phase 5 and 6 packages now land around phases 4 and 5. The page says a phase late is fine; is a phase early fine too?
+- **Backpacks in tiers are built (lead, 2026-11-24, in review).** 42 packs read from [Backpacks](../systems/armor.md#backpacks) with their bird names; loot rolls the tier, then a pack of that tier; carrying now has a limit (no gear + vest or rig pouches + the pack's Holds). Open points:
+    - **Backpack tier odds by area,** and whether crates hold a pack at all. The Loot page says only "the same idea" as armor, so the game copies the armor tier odds for now.
+    - **Vaults:** how many packs a vault holds, and which tier?
+    - **Weights the page doesn't give:** attachments, armor carried in the bag, class items, scrap, keys, and the no-gear capacity. All placeholders for now.
+    - **Capacity:** is it no gear + vest + pack added together? That's how the lead reads the Carry weight table.
+    - **Taking off a vest or rig** when you'd be over capacity: refused, like dropping a pack, or allowed with the overflow dropping to the ground?
+    - **The armor tables' "fourth picks"** (6B45 split in three, 6B11/12/13, new helmets) are on the page but not in the game yet; the lead will pick them up as their own step.
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 
 

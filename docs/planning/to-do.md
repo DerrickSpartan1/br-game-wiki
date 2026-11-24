@@ -170,6 +170,7 @@ When you tell the lead "check the planner's list," it works through this section
     - **Taking off a vest or rig** when you'd be over capacity: refused, like dropping a pack, or allowed with the overflow dropping to the ground? Refused for now.
     - **Rounds coming back when you're full** (a reload's leftover rounds, an en bloc clip ejected early): let them go over capacity, or drop the extra on the ground? They go over for now, so nothing is lost.
     - **The range has no carry limit** (lead's pick, for testing); only real matches enforce it.
+    - **LV-119 vs the rig range:** its 24–28 Tarkov slots average 26, which at 6 per slot is 156, over the Carry weight table's 36 to 150 top. Raise the top, or set the LV-119's number?
     - **The armor tables' "fourth picks"** (6B45 split in three, 6B11/12/13, new helmets) are on the page but not in the game yet; the lead will pick them up as their own step.
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-23 | A curves pass on [Our own spots](../systems/maps.md#our-own-spots) and [The full-map mock](../systems/maps.md#the-full-map-mock): Object 7's dispersal loops and wandering fence, the sanatorium split by the coast road, organic quarry benches, bent field edges and roads |
 | 2026-11-23 | Full layouts for every spot outside the towns on [Our own spots](../systems/maps.md#our-own-spots): Object 7's airbase, bunker, and passage to the tunnel, the school campus, and the rest; the full-map mock updated to 1,052 buildings |
 | 2026-11-23 | Answered the lead's round 4 questions: thrown melee aim, flight, and pickup, the inspect key, and eye height on [Gameplay](../systems/gameplay.md) |
 | 2026-11-23 | The building kit drawn, the spot compounds, and [The full-map mock](../systems/maps.md#the-full-map-mock) with every building, the land cover, and the coast in place |

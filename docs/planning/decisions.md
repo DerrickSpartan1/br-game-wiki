@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Menu accent is field lime, and the HUD compass heading uses it too (owner) | [HUD and inventory](../systems/gameplay.md#hud-and-inventory) |
 | 2026-11-24 | The edge is aurora: teal shifting to violet, like northern lights (owner) | [The edge: how it looks](../systems/match-flow.md#the-edge-how-it-looks) |
 | 2026-11-24 | Backpacks: the tier sets about how much a pack holds, with a 10% spread by size; no slowdown, like PUBG; bird names (owner) | [Backpacks](../systems/armor.md#backpacks) |
 | 2026-11-24 | Backpacks like armor: three tiers that set capacity (150, 200, 250, PUBG's), real packs from Tarkov plus Soviet and US ones sorted into tiers by size, each with Tarkov's slowdown (owner; tiers by size and the rest our pick) | [Backpacks](../systems/armor.md#backpacks) |

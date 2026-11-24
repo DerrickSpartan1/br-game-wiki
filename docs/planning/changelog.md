@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | The owner's last pick: the menus and the compass heading are field lime |
 | 2026-11-24 | The owner's picks: the edge is aurora, and backpacks hold about their tier's amount with a spread by size, with no slowdown and bird names |
 | 2026-11-24 | [Backpacks](../systems/armor.md#backpacks): three tiers and 42 real packs, with game names on [Game names](../planning/game-names.md#backpacks) |
 | 2026-11-24 | The two harbors redone on [Our own spots](../systems/maps.md#our-own-spots), the owner's weather picks, rain on vehicles, and answers to the lead's red zone, weather, and care package questions on [Match flow](../systems/match-flow.md) |

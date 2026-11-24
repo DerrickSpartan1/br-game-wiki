@@ -67,7 +67,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | PUBG's name in marketing | Never used | Decided |
 | Erangel's zone phase numbers | Placeholders to test in game; our own numbers come from play tests | Later |
 | PUBG's 2017–2018 HUD | Our own look; the layout can stay similar where it's practical | To do with the HUD mockups |
-| PUBG's yellow accent on dark menus and the yellow compass heading | Our own accent: three to pick from on the [picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3), placeholder teal until then | Owner to pick |
+| PUBG's yellow accent on dark menus and the yellow compass heading | Our own accent: field lime, the compass heading too (owner, 2026-11-24; [HUD and inventory](../systems/gameplay.md#hud-and-inventory)) | Done |
 | Boost bar | Its own name and look | Named Stim (owner, 2026-11-22); look to do |
 | "Red zone," "blue zone," and the victory line | Our own words | Named: strike zone, the edge, and "The island is yours" (owner, 2026-11-22) |
 

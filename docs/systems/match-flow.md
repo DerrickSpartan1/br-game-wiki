@@ -55,7 +55,7 @@ Damage is a percent of full health, so armor doesn't change it.
 
 The owner asked for the wall's look and picked everything here on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) (2026-11-24):
 
-- **Color: aurora (owner, 2026-11-24):** like northern lights, teal at the bottom shifting to violet at the top, not PUBG's blue ([Legal review](../planning/legal-review.md#pubg-look-and-feel)). It can't be mixed up with the white safe circle or a red strike zone, and no shooter we know of uses it. Teal is the menu placeholder too.
+- **Color: aurora (owner, 2026-11-24):** like northern lights, teal at the bottom shifting to violet at the top, not PUBG's blue ([Legal review](../planning/legal-review.md#pubg-look-and-feel)). It can't be mixed up with the white safe circle or a red strike zone, and no shooter we know of uses it.
 - **See-through:** a tall curtain you see through like tinted glass. Players, buildings, and land behind it show, dimmed by about a third. Thin bright lines of static crawl up it.
 - **Height:** from the ground and the sea up past the highest hill, fading out about 600 m up, so it shows from a parachute and from the Zhuravl.
 - **From far away:** a faint teal and violet band on the horizon from anywhere on the map. The static shows within about 300 m, and you hear it within about 50 m.

@@ -161,6 +161,7 @@ When you tell the lead "check the planner's list," it works through this section
     - **Creeping barrage:** the sight table says its dust is about 10 m deep, the sizes table says the band is about 30 m deep. The lead reads it as a 30 m shell band with 10 m of dust sight. Right? And how long does its dust hang (bombardment's 5 s for now)?
     - **Thunderstorm wetness:** does a storm leave the same 2 minutes of puddles and wet shine as rain? Its Clears cell doesn't say; the game uses 2 minutes for both.
     - **Spell window:** "starts at a random time in zone phases 2 to 5": is that the warning's start or the roll-in's? The game uses the warning.
+    - **Care packages landing early:** a package plane needs about 5 minutes from take-off to a landed crate, so for every crate to land before phase 7, the phase 5 and 6 packages now land around phases 4 and 5. The page says a phase late is fine; is a phase early fine too?
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 
 

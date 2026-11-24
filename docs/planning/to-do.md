@@ -243,6 +243,14 @@ The planner went through every item and report on this page against the game rep
 - **Armor never in the bag:** Carry weight says armor and class items are never carried in the bag, but today wearing armor from the bag puts the old piece back in the bag. The lead will make pickups swap and drop the old piece, as the page says, unless you say otherwise.
 - **Attachment effects:** [Attachments](../systems/attachments.md) now has an Effects table with numbers, but the game's attachments table is still typed by hand. The lead will add a generator for it as its own step.
 
+**Also built (lead, 2026-11-24; waiting on the owner's review):** armor and class items are worn, never carried (pickups swap and drop the old piece, the defib in slot 4); bodies hold the loot per [Bodies hold the loot](../systems/gameplay.md), found missing in review: a dead player's gear stays on the body, the revived player gets back what's left, and the body becomes a loot crate once nobody can revive it or the window ends. Questions:
+- **Loot crates:** how long does a crate stay in a real match (it stays all match for now), and on the range? Does an emptied crate disappear (it does for now) or stay, as in PUBG 2018?
+- **A living player who quits mid-match:** their gear drops as a crate too, which the page doesn't cover. Right?
+- **The body's look:** once everything moves into the body, it stops showing its vest, helmet, and backpack. Should it keep showing worn gear until someone takes it?
+- **Taking armor or a backpack from a body** drops your old piece on the ground, not into the body. Right?
+- **Looting a squadmate:** F always revives a downed squadmate, so their body can only be looted from the Tab list. Should F offer both?
+- **The comeback duel** will need to turn the player's body into a crate when they leave for the duel; please put that in its plan.
+
 
 - [ ] **Catch the game up with the wiki.** As of 2026-11-21 the game's data still has four armor tiers and the MG 42 as an LMG. The prompt: **Status (2026-11-24):** Waiting on your review. Built (`f5dbd13`, `6cf8d67`); armor on the dummies waits on armor models (round 4).
 

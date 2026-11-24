@@ -109,6 +109,10 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 - **Crates stay all match (our pick, 2026-11-24):** emptied ones too, shown open and empty, so they still mark where a fight happened. On the range, a crate clears after 2 minutes.
 - **A living player who quits** for good drops everything as a crate where they stood. A dropped connection is different: the character stays where it is for 2 minutes so the player can come back, and it can be shot meanwhile; after that, it's a crate (our pick).
+    - **The 2 minutes count from when the server notices the drop (our pick, 2026-11-24),** not from the last packet, so the player really gets 2 minutes to come back whatever the engine's own timeout is.
+    - **Coming back after the character died (our pick, 2026-11-24):** the player is out, the same as any dead player: the death screen, then spectating as under [Death cam and replays](#death-cam-and-replays) (squadmates first, then enemies once the squad is out), or the menu if they choose.
+    - **A returning player keeps their kills and damage (our pick, 2026-11-24)** in the match results, whether or not their character survived the hold.
+    - **Coming back after a crash (our pick, 2026-11-24):** logging in again while held in a match takes over the old session instead of being refused as already online, and sends the player straight back to that match server. Once the hold is over, a login goes to the menu as usual.
 - **A body shows what it still holds (our pick):** its vest, helmet, backpack, and guns stay visible until someone takes them, and each disappears as it's taken.
 - **Swapping from a body or crate (our pick):** taking a vest, helmet, or backpack from a body or crate puts your old one into that body or crate, so the loot stays in one place. Swapping from the ground drops your old one on the ground, as on [Carry weight](armor.md#carry-weight).
 - **Looting a squadmate's body (our pick):** tap F opens its loot, and hold F revives them (with your defib if you carry one, CPR if not). A knocked squadmate is still alive, so F on them only picks them up; they can't be looted.

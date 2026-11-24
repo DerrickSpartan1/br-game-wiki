@@ -340,6 +340,8 @@ Attachments and the rest (our pick, 2026-11-24; attachment weights are PUBG's fr
 | Bullet loops | 15 | PUBG |
 | Mag tier | 10 pistol and SMG, 15 everything else | PUBG's extended and quickdraw mags, rounded; one item per attachment family (our pick, 2026-11-24) |
 | Laser or light | 8 | Our pick |
+| Shotgun tube extension | 15 | Our pick (2026-11-24): the same as a mag tier for long guns, which it stands in for on tube-fed shotguns |
+| Revolver speed loader | 10 | Our pick (2026-11-24): the same as a pistol mag tier, which it stands in for on revolvers |
 | Vault key | 1 | Our pick |
 | Crafting scrap | 0 | Our pick: scrap is a counter, like money, not an item in the bag |
 | Armor, helmets, leg armor, class items | — | Our pick: worn in their own slots, never carried in the bag, like PUBG's vests and helmets. Picking up another swaps it and drops the old one |

@@ -26,11 +26,28 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
 - **Reloads keep their progress:** a cancelled reload picks up where it stopped next time, and if the old mag was already out, the gun stays without one until you finish ([Staged reloads](handling.md#staged-reloads)).
 - **Safe is for stowing only:** there's no safe on the fire-mode key. A gun goes to safe only when it's stowed, such as when you hold X for melee, and goes back to the last fire mode you picked when you draw it. The draw animation will show the selector coming off safe later (owner, 2026-11-22).
 - **Ping:** middle mouse marks enemies, loot, and places for your squad, and means different things depending on what you aim at, like Apex's.
+- **The map (owner asked for it to work like PUBG's, 2026-11-24; details our pick):** M opens the full map over the game, which keeps running.
+    - **Zoom and pan:** the scroll wheel zooms toward the cursor, from the whole island to about 200 m across the screen. Drag with the left mouse to pan. Space centers it on you.
+    - **The grid:** 1 km squares with letters across the top (A to J for Teplov's 10 km) and numbers down the side (1 to 8), so a call like "D5" means one square. Lines every 100 m fade in as you zoom, and a scale bar in the corner shows distance.
+    - **Your marker:** right click places your marker, and right click on it or Delete removes it; Insert marks where you're standing. One marker each, in your squad color, like PUBG. Squadmates see it on their map, minimap, and compass with the distance, and as a small marker on screen.
+    - **Marker wheel:** hold right click for a wheel of six quick markers (attack, danger, defend, loot, regroup, vehicle), the way PUBG added them later. They replace your one marker.
+    - **Route:** Shift and right click add up to five route points, drawn as a line from you through them, for your squad to see. Shift and right click on a point removes it.
+    - **What it shows:** the plane's path before and during the jump, the blue and white circles, strike zones, your squad with their numbers and colors, vehicles your squad is in, and vaults you hold a key for. Never enemies, care packages, or loot.
+    - **Minimap:** bottom right, turned with you, with your squad, markers, circles, and strike zones. N zooms it between about 400 m and 1 km across.
 - **Inventory (Tab):** vicinity, backpack, gear (helmet, vest, backpack, and outfit slots for skins), and the weapons with their attachment slots. Hovering a gun shows its version: cartridge, fire modes, rate, and mag. You can still move with it open.
 
 ## First person
 
 The view and the way guns are held look like PUBG's first person (owner, 2026-11-22). Two PUBG screenshots are in the game repo at `Art/Reference/FirstPerson/`, for reference only.
+
+- **Hands that move with you (owner, 2026-11-24, like Call of Duty's fists; numbers our pick):** empty hands, fists, and melee weapons sit in view and move with your body, the same way a held gun does:
+    - **Standing still:** raised near the bottom of the view at chest height, with a slow breathing rise and fall of about 0.5 cm every 4 seconds.
+    - **Walking and running:** a figure-eight bob in step with the footsteps: about 1 cm up and down and 0.6 cm side to side when walking, about 2 cm and 1.2 cm at a run.
+    - **Sprinting:** the arms pump, swinging forward and back in turn with the strides, and drop a little lower so they don't block the view.
+    - **Turning:** the hands lag a little behind the view and catch up in about a tenth of a second, so turning feels heavy, not glued on.
+    - **Jumping and landing:** they lift on the jump, float in the air, and dip about 4 cm on landing before settling, more after a long fall.
+    - **Crouching and prone:** lower and closer to the body when crouched. Prone, they're out of view while crawling and come up when you stop.
+    - **Free look (Alt):** they stay where they are while the view turns.
 
 - **Field of view:** a slider from 80 to 103, with 90 as the default, like PUBG's first person. Both are horizontal, measured on a 16:9 screen, so the numbers carry straight over to Unreal's camera. Parachuting is third person, with a fixed view.
 - **Eye height (our pick, 2026-11-23):** the first-person camera sits at the player body's eyes, not below them. Shots and pickups trace from the camera, so they come from the eyes too. When the body changes, the camera moves with its eyes and the hip hold is retuned to match.
@@ -150,6 +167,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
 - **Quick hit timing (planner's pick, 2026-11-22):** the hit lands 0.3 s after the tap, faster than pulling the melee weapon out (0.5 s), then the gun comes back with its own ready time. A gun with a bayonet stabs at once, without putting the gun away.
 - **Empty hands:** running with nothing out is the same 6.3 m/s as melee out, PUBG's unarmed speed.
+- **How melee is held (owner, 2026-11-24):** ready to use, raised in front of you with the watch showing, like you're about to swing. The one exception is free look (Alt), when the hands stay where they were while you look around. Inspect animations can wait.
 - **Fists (owner, 2026-11-23):** a melee pick like all the others, with the same numbers. They're for players who just want to punch and show off their gloves and watch: the inspect holds up both hands to show the gloves from your wardrobe and the wrist watch ([Wrist watch](match-flow.md#wrist-watch)). With no melee weapon in hand, such as after throwing yours, you fight with your fists the same way.
 - **Your own melee:** every player brings their own melee weapon into every match, so landings start as knife fights, not fist fights. Players pick it like an outfit and unlock new ones through seasons, challenges, and mastery ([Skins and mastery](skins.md#melee-weapons)), so they can be katana people, scythe people, or knife people. Melee is rarely used in PUBG; owning one gives players something of their own.
 - **All the same in a fight:** every owned melee weapon has the same damage, reach, swing speed, and run speed. They differ only in look, sound, and animations, including the inspect, so owning one never gives an edge. First pass (our pick, from PUBG's machete, sickle, and crowbar):
@@ -191,6 +209,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Throwing knives** are a throwable you pick back up ([Throwables](weapon-pool.md#throwing-knives)).
 - **Throwing your melee (owner, 2026-11-23):** every melee weapon can be thrown for the same damage, like PUBG's thrown melee. It lands where it hits, and you go pick it back up; until then you fight with your fists. Fists can't be thrown (our pick).
     - **How to throw (our pick, 2026-11-23):** with the melee weapon out, hold right mouse to aim, which shows an arc like a grenade's, and press left mouse to throw. This is PUBG's way ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)).
+    - **The throw arc (owner asked, 2026-11-24; our pick):** while you aim a throw (right mouse with a melee weapon or a throwable out), a thin dotted white line shows the path the throw will take, from your hand to where it lands, and a small flat ring marks the landing spot on whatever it hits first. The line stops there, so a wall or a ceiling in the way is plain to see. It updates as you look around, fades out toward the far end, and only you see it. Grenades use the same arc; their bounces aren't shown. As far as we found, PUBG on PC didn't draw an arc in 2017–2018 (throws were learned by feel); PUBG Mobile and later shooters do. It's on by default, with a switch in Settings > Gameplay for players who want it off.
     - **Flight (our pick, 2026-11-23):** thrown at 20 m/s with normal gravity, which carries about 40 m at most, PUBG's longest melee throw ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)). PUBG cuts thrown damage past 15 m; ours keeps the same damage at any range, as the owner set.
     - **Who picks it up (our pick, 2026-11-23, waiting on the owner):** only the player who threw it. Your melee is something you own, so nobody else walks off with it. If you die before picking it up, it stays where it landed.
 

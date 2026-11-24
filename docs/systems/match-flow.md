@@ -37,9 +37,9 @@ The playzone (blue) shrinks toward the next safe circle (white) in phases, and a
 
 | Phase | Wait before shrinking | White circle diameter | Shrink speed | Base damage per second | Ends at (match clock) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 2 min (after the plane), then 5 min | 4,565 m | 22.8 m/s | 0.4% | 12:00 |
-| 2 | 3 min 20 s | 2,967 m | 11.4 m/s | 0.6% | 17:40 |
-| 3 | 2 min 30 s | 1,484 m | 16.5 m/s | 0.8% | 21:40 |
+| 1 | 2 min (after the plane), then 5 min | 5,100 m | 25.7 m/s | 0.4% | 12:00 |
+| 2 | 3 min 20 s | 3,315 m | 12.8 m/s | 0.6% | 17:40 |
+| 3 | 2 min 30 s | 1,484 m | 20.3 m/s | 0.8% | 21:40 |
 | 4 | 2 min | 742 m | 12.4 m/s | 1% | 24:40 |
 | 5 | 2 min | 371 m | 9.3 m/s | 3% | 27:20 |
 | 6 | 1 min 30 s | 185 m | 6.2 m/s | 5% | 29:20 |
@@ -48,6 +48,8 @@ The playzone (blue) shrinks toward the next safe circle (white) in phases, and a
 | 9 | 3 min, then a 15 s countdown | Closes completely | — | 11% | Starts closing at 36:05 |
 
 Damage is a percent of full health, so armor doesn't change it.
+
+**Scaled to Teplov (owner asked, 2026-11-24; our pick):** PUBG's first circle is 4,565 m across on Erangel's 8 × 8 km map, about a quarter of its area. Teplov's play area is 10 × 8 km, a quarter bigger, so phases 1 and 2 grow by the same factor (about 1.12) to 5,100 and 3,315 m, and phase 3 on keeps PUBG's sizes. The shrink speeds are worked out from the new sizes: shrink speed is how fast the circle's diameter closes while it shrinks, as on PUBG's table, and the first blue circle starts round the whole 10 × 8 km play area (12.8 km across).
 
 **Circles stay over land (planner's pick, 2026-11-22):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
 
@@ -121,7 +123,7 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 | Bombardment | Shells start after the warning | 60 s of shelling | At once | Each shell's dust hides about 10 m around it for 5 s |
 | Smoke | 15 s, spreading from the center | 2 min | 30 s | About 10 m inside, thinning over the last 30 m to the circle's edge |
 | Firebombing | The bombers' pass takes about 10 s | The fires burn 60 s | Their smoke drifts 20 s more | About 30 m in the smoke downwind of the fires |
-| Creeping barrage | Shells start after the warning | The line takes 60 s to cross the circle | At once | A moving wall of dust, about 10 m deep |
+| Creeping barrage | Shells start after the warning | The line takes 2 min to cross the circle | At once | A moving wall of dust, about 10 m deep |
 | EMP | At once, with a crackle and a flicker | 60 s | At once | Unchanged; scopes with batteries and drones go dark |
 | Gas | 20 s, spreading from the center | 2 min, the same as one [gas mask](class-items.md) lasts | 20 s | About 60 m, in a yellow-green haze |
 | Smoke grenade | 3 s | 40 s | 10 s | About 2 m inside a cloud about 8 m across. A real M18 smokes for 50 to 90 s; ours is shorter so one grenade covers a crossing or a revive, not a whole fight |
@@ -129,17 +131,19 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 
 **Owner's picks (2026-11-24):** every timing and sight above as suggested, except the warning, which is 20 seconds instead of 30.
 
-**Sizes and damage (our pick, 2026-11-24; answers to the lead's questions):**
+**Sizes and damage (our pick, 2026-11-24; answers to the lead's questions; bigger, owner asked):**
 
 | Strike zone | Circle across | Details |
 | --- | --- | --- |
-| Bombardment | 300 m | 150 shells over the 60 s. A shell kills within 3 m, and its blast falls off to 20 health at 8 m. Someone standing in the open through all of it has about a 1 in 16 chance of a direct hit and about a 1 in 3 chance of being wounded, so staying out in it is a real risk but not certain death |
-| Smoke | 250 m | |
-| Firebombing | 300 m | One line of fire about 300 m long and 20 m wide across the circle |
-| Creeping barrage | 300 m | A band about 30 m deep walking across at 5 m/s, so it crosses in 60 s. That's slower than a sprint (6.3 m/s), so you can outrun it if you see it coming |
-| EMP | 300 m | |
-| Gas | 250 m | |
+| Bombardment | 600 m | 600 shells over the 60 s. A shell kills within 3 m, and its blast falls off to 20 health at 8 m. Someone standing in the open through all of it has about a 1 in 16 chance of a direct hit and about a 1 in 3 chance of being wounded, so staying out in it is a real risk but not certain death |
+| Smoke | 600 m | |
+| Firebombing | 600 m | One line of fire about 600 m long and 20 m wide across the circle |
+| Creeping barrage | 600 m | A band about 30 m deep walking across at 5 m/s, so it crosses in 120 s. That's slower than a sprint (6.3 m/s), so you can outrun it if you see it coming |
+| EMP | 600 m | |
+| Gas | 400 m | |
 
+- **Bigger, and shrinking with the zone (owner asked for bigger, 2026-11-24):** the sizes above are for phases 1 to 3. They're twice as wide as before, with four times the shells, so a spot in a bombardment is shelled as hard as it was. Gas stays smaller than the rest: at a sprint you get out from the middle in about 32 s, inside the warning and the roll-in. A strike zone is never wider than half the current white circle, so in phase 4 it's about 370 m, with shells and fire cut down in the same proportion. No new strike zones start from phase 5 on, when the white circle is under 400 m.
+- **Where they land (owner, 2026-11-24; odds our pick):** the owner remembered them landing in the white circle. PUBG's could land anywhere, even outside the white circle and far from players ([Gamepressure](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136)). Ours aim at the fight: 7 times in 10 the center is inside the current white circle, otherwise anywhere in the blue, and never outside the blue.
 - **Fire:** standing in firebombing's flames burns like a Molotov or dragon's breath: 10 health a second through armor, and you keep burning 4 seconds after you step out ([Dragon's breath](starting-damage.md)).
 - **Gas coming and going:** gas hurts at half its rate while it rolls in and while it thins out, and at the full rate while it holds. It stops when it's gone.
 - **Shelter from shells:** for now any solid roof over your head shelters you, doorways and windows included, and wooden houses never give way. Both wait for building materials, when doorways and windows should count as outside for a shell landing within about 5 m.
@@ -150,7 +154,11 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 Random, like PUBG's:
 
 - **When and where:** a plane flies over at random times and drops a crate at a random point along its path. You hear the plane before the drop.
-- **The crate** comes down on a parachute and is marked once it lands, with our own look and signal (TBD), not PUBG's flashing light and red smoke. It can land on a roof, in water, or somewhere hard to reach.
+- **The crate** comes down on a parachute and is marked with smoke once it lands. It can land on a roof, in water, or somewhere hard to reach. Our own look and signal, not PUBG's (owner asked, 2026-11-24; details our pick):
+    - **The plane:** a four-engine turboprop cargo plane, like a Soviet An-12, flying low, about 300 m up. You hear its deep drone from about 1.5 km away, loudest straight overhead, so you can tell which way it's going before you see it. A thump and a rush of air when the crate falls out the back.
+    - **The crate:** an olive-drab military crate about 1.2 m on each side, with steel corners, stenciled numbers, and no emblems. A small green strobe blinks on top while it falls, so you can follow it against the sky.
+    - **Its parachute:** one big round cargo parachute in olive and white panels. It opens a moment after the drop and brings the crate down at about 5 m/s, about a minute from the plane to the ground. It collapses over the crate when it lands.
+    - **The smoke:** green signal smoke, starting when it lands and lasting 60 seconds, about as long as a real signal smoke grenade burns (50 to 90 s). Green can't be mixed up with PUBG's red, a red strike zone, or the aurora edge. After the smoke, the strobe keeps blinking until the crate is opened.
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
@@ -312,6 +320,7 @@ Every player wears a watch on the left wrist, visible in first person whenever t
 - [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop)
 - [PC Gamer: Apex Legends vault keys (2019)](https://www.pcgamer.com/how-to-open-apex-legends-vaults-locations-key) · [GameSpot: Apex Legends vaults](https://www.gamespot.com/articles/apex-legends-golden-vaults-where-to-find-keys-and-/1100-6470435/) · [Apex Legends Wiki: Vault Key](https://apexlegends.wiki.gg/wiki/Vault_Key)
 - [Met Office: How fog affects travel](https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/travel/how-fog-affects-travel) (thick fog about 200 m, dense fog under 50 m) · [FAS: M18 colored smoke grenade](https://man.fas.org/dod-101/sys/land/m18.htm) (50 to 90 seconds of smoke)
+- [PUBG fandom wiki: Blue Zone](https://pubg.fandom.com/wiki/Blue_Zone) (Erangel's phases) · [Gamepressure: Red zone](https://www.gamepressure.com/playerunknowns-battlegrounds/red-zone/zba136) · [PUBG Wiki: Airdrop](https://pubg.wiki.gg/wiki/Airdrop) (the C-130's sound, the parachute, the flashing light, and the red smoke)
 - [PUBG Wiki: Weather](https://pubg.wiki.gg/wiki/Weather) · [Thumbsticks: PUBG removes rain and fog (2018)](https://www.thumbsticks.com/pubg-lost-rain-fog-conditions-01032018/)
 - [Wikipedia: Day for night](https://en.wikipedia.org/wiki/Day_for_night) · [Player.One: PlayerUnknown on parity between low and high settings (2017)](https://www.player.one/playerunknown-interview-parity-low-high-graphics-battlegrounds-121445) · [PC Gamer: PUBG settings guide](https://www.pcgamer.com/best-pubg-settings/) · [Unreal forums: stopping players changing ini files](https://forums.unrealengine.com/t/can-we-prevent-users-from-changing-ini-config-files/467236)
 - [Charlie Intel: Modern Warfare watches show real-world time](https://www.charlieintel.com/modern-warfare/watches-in-game-in-call-of-duty-modern-warfare-showcase-real-world-time-55492/)

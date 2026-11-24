@@ -150,7 +150,7 @@ From pubgmap.io's data (PUBG version 5.0, 2019). "Tactical" is with rounds left;
 
 ### Movement
 
-PUBG's speeds by stance, and by what's in your hands while sprinting.
+PUBG's speeds by stance, and by what's in your hands while sprinting. Checked against PUBG again (owner asked, 2026-11-24): these are PUBG's own numbers, in meters a second ([PUBG Wiki: Movement Speed](https://pubg.wiki.gg/wiki/Movement_Speed), [Samurai Gamers: Movement speed](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/movement-speed/)). Run is the normal speed with no key held; Shift sprints and Ctrl walks. Crawl is prone. Throwables in hand sprint at 6.29 m/s. The stance table is the one to read for the character's speeds.
 
 | Stance | Speed |
 | --- | --- |

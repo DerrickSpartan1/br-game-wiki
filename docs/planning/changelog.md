@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | Playtest round 6 answers on [Match flow](../systems/match-flow.md), [Gameplay](../systems/gameplay.md), and [Handling](../systems/handling.md#movement), and a new [Project layout](../planning/project-layout.md) page |
 | 2026-11-24 | The owner's last pick: the menus and the compass heading are field lime |
 | 2026-11-24 | The owner's picks: the edge is aurora, and backpacks hold about their tier's amount with a spread by size, with no slowdown and bird names |
 | 2026-11-24 | [Backpacks](../systems/armor.md#backpacks): three tiers and 42 real packs, with game names on [Game names](../planning/game-names.md#backpacks) |

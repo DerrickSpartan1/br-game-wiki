@@ -13,7 +13,7 @@ Everything still undecided or still to look up. When one is settled, it moves to
 
 - **LMG handling:** how much slower LMGs move, aim, and reload belts; the direction (slowest ADS and movement, steady only on a bipod, slow belt reloads) is on [Roles by category](../systems/ttk.md#roles-by-category). Bipods are decided ([Attachments](../systems/attachments.md#bipods)), and reloads already top off like PUBG ([Ammo](../systems/ammo.md#how-ammo-and-reloading-work), [LMGs](../weapons/lmgs/index.md)).
 - **Shields:** the first pass is approved; whether the flash shield really uses the class slot ([Shields](../systems/class-items.md#shields)).
-- **Match flow numbers:** plane altitude and speed, each red zone's size, warning, and length ([Match flow](../systems/match-flow.md)).
+- **Match flow numbers:** the jump plane's altitude and speed ([Match flow](../systems/match-flow.md)). Strike zone sizes, warnings, and lengths are set.
 - **Server hosting:** not decided ([Servers](../systems/servers.md)).
 - **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match ([Crafting](../systems/crafting.md#workbenches)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).

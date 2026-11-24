@@ -173,7 +173,7 @@ When you tell the lead "check the planner's list," it works through this section
     - **LV-119 vs the rig range:** its 24–28 Tarkov slots average 26, which at 6 per slot is 156, over the Carry weight table's 36 to 150 top. Raise the top, or set the LV-119's number?
     - **The armor tables' "fourth picks"** (6B45 split in three, 6B11/12/13, new helmets) are on the page but not in the game yet; the lead will pick them up as their own step.
 - **Hits follow the body's pose (lead, 2026-11-24).** Bullets now hit the body's real pose on the server (crouched heads above the old box can be hit; shots over a prone back miss) and pass through dropped loot, stopping on a player's body only, not their gun. Open points:
-    - **Lag compensation:** there's none yet, so at real ping a shot that looks on a moving head can miss. Should the wiki plan it (PUBG 2017 used client-side hit reports checked by the server)?
+    - **Lag compensation:** there's none yet, so at real ping a shot that looks on a moving head can miss. Should the wiki plan it, and how does PUBG 2017–2018 handle it?
     - **Guns on a player:** should a bullet that hits a player's held gun stop there (no damage) or pass through to the body? It stops for now.
 - **Body colors (lead, 2026-11-24):** the player body's colors in Unreal match its Blender file exactly; it only looks paler because the range's locked exposure is bright. The owner picks by eye on his next form whether to darken the range's exposure or the body colors.
 

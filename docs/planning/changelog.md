@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | New [Chat notes](chat-notes.md) page with today's planner chat; check-ins and the lead read it |
 | 2026-11-24 | [Lead check-in steps](ai-team.md#lead-check-in-steps): the owner starts the lead's check-in with one `/loop` line, plus a backstop of reading the To-do after each step |
 | 2026-11-24 | New [Coding practices](coding-practices.md) page, with the reviewer's checklist and the planner's check of the current code |
 | 2026-11-24 | Answered the lead's afternoon questions on [Carry weight](../systems/armor.md#carry-weight), [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives), and [Comeback fight](../systems/gameplay.md#comeback-fight) |

@@ -44,7 +44,7 @@ The planner and the lead check in every half hour, taking turns, so each one wor
 The planner's scheduled tasks follow these steps each time, so changing them here changes every later check-in.
 
 1. **Get up to date.** In the check-in's own folder, pull the wiki, and fetch and fast-forward the read-only game repo clone. Read the wiki's `CLAUDE.md` and follow it exactly, including the "Before pushing" steps.
-2. **See what's new** since the last commit whose message starts with "Planner check-in" (or the last 24 hours if there isn't one): new commits in both repos, new playtest results in the game repo's `Docs/Playtest/`, and new reports and questions on the To-do page. If nothing is new and no planner question is unanswered, stop and say so in one line.
+2. **See what's new** since the last commit whose message starts with "Planner check-in" (or the last 24 hours if there isn't one): new commits in both repos, new playtest results in the game repo's `Docs/Playtest/`, and new reports and questions on the To-do page, and new entries on [Chat notes](chat-notes.md). If nothing is new and no planner question is unanswered, stop and say so in one line.
 3. **Answer the lead's questions** that you can: research (open and cite every page you take numbers from), wiki fixes, data the lead needs, and first passes marked "our pick". File each on its page, add rows to the decision log and changelog, and mark the question answered on the To-do page.
 4. **Keep the review rule:** update each item's status on the To-do page from the commits and the playtest results. Tick an item only once the owner has said it's good. Give anything raised in a playtest or report that has no item one.
 5. **Queue what needs the owner:** any call that's truly his goes under You: decisions as a short line marked "for the next picks page", with the choices and our suggestion. Never ask him anything during a check-in, and never wait for an answer.
@@ -66,8 +66,8 @@ The check-in runs this:
 
 ```text
 Lead check-in. Pull the wiki (DerrickSpartan1/br-game-wiki), then read its
-To-do page: new planner answers in For the lead, each item's status, and the
-Review status. Update your plan from them. File any new question for the
+To-do page (new planner answers in For the lead, each item's status, and the
+Review status) and the newest entries on its Chat notes page. Update your plan from them. File any new question for the
 planner under your latest report on the To-do page, and put anything built
 since your last check-in on the playtest checklist for the owner. Push your
 wiki notes (pull --rebase first). Don't ask the owner anything here and don't

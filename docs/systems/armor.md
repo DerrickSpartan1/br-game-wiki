@@ -240,64 +240,64 @@ Left out: Tarkov's fictional and joke pieces, like the UNTAR gear, boss editions
 
 ## Backpacks
 
-Backpacks work like armor (owner, 2026-11-24): three tiers, like PUBG's three levels, and every pack is a real one from Escape from Tarkov's list, plus a few more we found, sorted into its tier by size. First pass, our pick; the open choices are on the [picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3).
+Backpacks work like armor (owner, 2026-11-24): three tiers, like PUBG's three levels, and every pack is a real one from Escape from Tarkov's list, plus a few more we found, sorted into its tier by size. The owner's picks (2026-11-24): the tier sets about how much a pack holds, with a small spread inside it; no slowdown; bird names.
 
-| Tier | Holds | Tarkov size | What's in it |
+| Tier | Holds, about | Tarkov size | What's in it |
 | --- | --- | --- | --- |
 | 1 | 150 | Up to 20 slots, or about 20 L | Sling bags, kit bags, and small day packs |
 | 2 | 200 | 24 to 32 slots | Assault packs, about 25 to 35 L |
 | 3 | 250 | 35 slots and up | Big raid packs and frame rucksacks |
 
-- **Capacity:** the tier sets how much a pack holds, PUBG's 150, 200, and 250, so balancing stays simple, the same way a vest's tier sets its damage reduction. A pack's size only decides its tier ([Carry weight](#carry-weight)).
-- **Slowdown:** each pack has its own movement and ADS slowdown, Tarkov's speed and ergonomics penalties, as a starting point to tune, like vests ([Debuffs](#debuffs)). Big frame packs cost the most. Packs that aren't in Tarkov get numbers from the Tarkov packs most like them.
+- **Capacity (owner, 2026-11-24):** the tier sets about how much a pack holds, PUBG's 150, 200, and 250, with a small spread inside it: each pack is within 10% of its tier's number, the smallest pack lowest and the biggest highest (spread by size, our pick). So balancing stays simple, the way a vest's tier sets its damage reduction ([Carry weight](#carry-weight)).
+- **No slowdown (owner, 2026-11-24):** like PUBG, a pack only changes how much you carry. It doesn't slow running or aiming, whatever its size.
 - **Looks:** the model shows the pack you found, so two tier 2 packs in one match can look different.
 - **Spawning:** loot rolls a tier first, by area, like armor ([Loot](loot.md)), then a random pack of that tier. Vaults hold tier 3 ([Vaults and keys](match-flow.md#vaults-and-keys)).
 - **Left out:** Tarkov's fictional and boss bags, such as the Scav backpack, Sanitar's and Partisan's bags, Santa's bag, the LolKek 3F Transfer, and the Transformer bag. Color variants are skins.
 
-| Backpack | Tier | Size | Movement (%) | ADS (%) | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Tactical sling bag | 1 | 6 slots | 0 | 2 |  |
-| VKBO army bag | 1 | 8 slots | 1 | 1 | Russian army kit bag |
-| RD-54 | 1 | about 10 L | 0 | 1 | Soviet paratroopers' assault pack, worn on the webbing. Not in Tarkov; slowdown our pick |
-| Duffle bag | 1 | 12 slots | 4 | 3 |  |
-| Veshmeshok (sidor) | 1 | small | 2 | 2 | The Soviet soldier's canvas sack, a 19th-century design; small and uncomfortable. Not in Tarkov; slowdown our pick |
-| Mystery Ranch NICE COMM 3 BVS | 1 | 14 slots | 6 | 5 | A radio frame: small but heavy |
-| Vertx Ready Pack | 1 | 16 slots | 1 | 1 |  |
-| Flyye MBSS | 1 | 16 slots | 1 | 1 |  |
-| Czechoslovak M60 backpack | 1 | about 20 L | 1 | 2 | Warsaw Pact day pack. Not in Tarkov; slowdown our pick |
-| Hazard 4 Pillbox | 1 | 20 slots | 3 | 4 |  |
-| LBT-8005A Day Pack | 1 | 20 slots | 1 | 2 |  |
-| WARTECH Berkut BB-102 | 1 | 20 slots | 0 | 2 |  |
-| Hazard 4 Takedown sling | 2 | 24 slots | 3 | 3 | A long sling pack that can carry a rifle |
-| Direct Action Dragon Egg Mk II | 2 | 25 slots | 1 | 1 |  |
-| Tehinkom RK-PT-25 | 2 | 25 slots | 1 | 2 | Russian patrol pack |
-| LBT-1476A 3Day Pack | 2 | 25 slots | 1 | 2 |  |
-| Gruppa 99 T20 | 2 | 25 slots | 1 | 1 |  |
-| Hazard 4 Drawbridge | 2 | 25 slots | 2 | 2 |  |
-| Mystery Ranch 2 Day Assault | 2 | 30 slots | 3 | 4 |  |
-| Mystery Ranch Terraframe | 2 | 30 slots | 3 | 5 |  |
-| Gruppa 99 T30 | 2 | 30 slots | 2 | 2 |  |
-| Eberlestock F5 Switchblade | 2 | 30 slots | 3 | 3 |  |
-| ANA Tactical Beta 2 | 2 | 30 slots | 2 | 6 |  |
-| CamelBak Tri-Zip | 2 | 30 slots | 3 | 4 |  |
-| Oakley Mechanism | 2 | 32 slots | 2 | 3 |  |
-| Mystery Ranch NICE Frame Load Sling | 3 | 35 slots | 4 | 6 |  |
-| Tasmanian Tiger Trooper 35 | 3 | 35 slots | 4 | 5 |  |
-| Eberlestock G2 Gunslinger II | 3 | 35 slots | 4 | 3 | Carries a rifle in its own sleeve |
-| 3V Gear Paratus 3-Day | 3 | 35 slots | 3 | 5 |  |
-| SSO Attack 2 | 3 | 35 slots | 5 | 7 | Russian raid pack |
-| Pilgrim tourist backpack | 3 | 35 slots | 7 | 8 | A big old civilian hiking pack |
-| Mystery Ranch SATL Bridger | 3 | 36 slots | 5 | 6 |  |
-| Medium ALICE pack | 3 | about 40 L | 4 | 5 | US Army, 1970s on, with its frame; 2,412 cubic inches with its pouches. Not in Tarkov; slowdown our pick |
-| Tasmanian Tiger Modular Pack 45 Plus | 3 | 40 slots | 4 | 6 |  |
-| Eberlestock F4 Terminator | 3 | 40 slots | 5 | 4 |  |
-| Mystery Ranch Blackjack 50 | 3 | 42 slots | 4 | 6 |  |
-| 5.11 RUSH100 | 3 | 45 slots | 5 | 7 |  |
-| LBT-2670 Slim Field Med Pack | 3 | 48 slots | 4 | 6 |  |
-| 6Sh118 raid backpack | 3 | 48 slots | 5 | 7 | The Russian Ratnik kit's raid pack |
-| MOLLE II large rucksack | 3 | about 65 L, 80 with its side pouches | 5 | 7 | US Army, 2000s. Not in Tarkov; slowdown our pick |
-| Kolobok | 3 | about 80 L | 6 | 8 | Soviet rucksack of the Afghan war, huge by Soviet standards. Not in Tarkov; slowdown our pick |
-| Ermak | 3 | large | 5 | 5 | Soviet frame rucksack on a light aluminum frame. Not in Tarkov; slowdown our pick |
+| Backpack | Tier | Size | Holds | Notes |
+| --- | --- | --- | --- | --- |
+| Tactical sling bag | 1 | 6 slots | 135 |  |
+| VKBO army bag | 1 | 8 slots | 140 | Russian army kit bag |
+| RD-54 | 1 | about 10 L | 145 | Soviet paratroopers' assault pack, worn on the webbing. Not in Tarkov |
+| Duffle bag | 1 | 12 slots | 150 |  |
+| Veshmeshok (sidor) | 1 | small | 145 | The Soviet soldier's canvas sack, a 19th-century design; small and uncomfortable. Not in Tarkov |
+| Mystery Ranch NICE COMM 3 BVS | 1 | 14 slots | 150 | A radio frame |
+| Vertx Ready Pack | 1 | 16 slots | 155 |  |
+| Flyye MBSS | 1 | 16 slots | 155 |  |
+| Czechoslovak M60 backpack | 1 | about 20 L | 165 | Warsaw Pact day pack. Not in Tarkov |
+| Hazard 4 Pillbox | 1 | 20 slots | 165 |  |
+| LBT-8005A Day Pack | 1 | 20 slots | 165 |  |
+| WARTECH Berkut BB-102 | 1 | 20 slots | 165 |  |
+| Hazard 4 Takedown sling | 2 | 24 slots | 180 | A long sling pack that can carry a rifle |
+| Direct Action Dragon Egg Mk II | 2 | 25 slots | 185 |  |
+| Tehinkom RK-PT-25 | 2 | 25 slots | 185 | Russian patrol pack |
+| LBT-1476A 3Day Pack | 2 | 25 slots | 185 |  |
+| Gruppa 99 T20 | 2 | 25 slots | 185 |  |
+| Hazard 4 Drawbridge | 2 | 25 slots | 185 |  |
+| Mystery Ranch 2 Day Assault | 2 | 30 slots | 210 |  |
+| Mystery Ranch Terraframe | 2 | 30 slots | 210 |  |
+| Gruppa 99 T30 | 2 | 30 slots | 210 |  |
+| Eberlestock F5 Switchblade | 2 | 30 slots | 210 |  |
+| ANA Tactical Beta 2 | 2 | 30 slots | 210 |  |
+| CamelBak Tri-Zip | 2 | 30 slots | 210 |  |
+| Oakley Mechanism | 2 | 32 slots | 220 |  |
+| Mystery Ranch NICE Frame Load Sling | 3 | 35 slots | 225 |  |
+| Tasmanian Tiger Trooper 35 | 3 | 35 slots | 225 |  |
+| Eberlestock G2 Gunslinger II | 3 | 35 slots | 225 | Carries a rifle in its own sleeve |
+| 3V Gear Paratus 3-Day | 3 | 35 slots | 225 |  |
+| SSO Attack 2 | 3 | 35 slots | 225 | Russian raid pack |
+| Pilgrim tourist backpack | 3 | 35 slots | 225 | A big old civilian hiking pack |
+| Mystery Ranch SATL Bridger | 3 | 36 slots | 230 |  |
+| Medium ALICE pack | 3 | about 40 L | 235 | US Army, 1970s on, with its frame; 2,412 cubic inches with its pouches. Not in Tarkov |
+| Tasmanian Tiger Modular Pack 45 Plus | 3 | 40 slots | 240 |  |
+| Eberlestock F4 Terminator | 3 | 40 slots | 240 |  |
+| Mystery Ranch Blackjack 50 | 3 | 42 slots | 245 |  |
+| 5.11 RUSH100 | 3 | 45 slots | 255 |  |
+| LBT-2670 Slim Field Med Pack | 3 | 48 slots | 265 |  |
+| 6Sh118 raid backpack | 3 | 48 slots | 265 | The Russian Ratnik kit's raid pack |
+| MOLLE II large rucksack | 3 | about 65 L, 80 with its side pouches | 270 | US Army, 2000s. Not in Tarkov |
+| Kolobok | 3 | about 80 L | 275 | Soviet rucksack of the Afghan war, huge by Soviet standards. Not in Tarkov |
+| Ermak | 3 | large | 270 | Soviet frame rucksack on a light aluminum frame. Not in Tarkov |
 
 Sizes in slots are Tarkov's grid; the rest are the real pack's volume.
 
@@ -307,7 +307,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 
 | Gear | Capacity | Basis |
 | --- | --- | --- |
-| Backpack, tiers 1, 2, 3 | 150, 200, 250 | PUBG's backpacks ([Backpacks](#backpacks)) |
+| Backpack, tiers 1, 2, 3 | 135 to 165, 180 to 220, 225 to 275 | PUBG's 150, 200, and 250, with a spread by size ([Backpacks](#backpacks)) |
 | Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 150, about 96 for an average rig | Decided: a third of a frag grenade per slot |
 | No gear | TBD | — |
 
@@ -334,7 +334,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 - [Escape from Tarkov Wiki: Armor plates](https://escapefromtarkov.fandom.com/wiki/Armor_plates) (plate weights and penalties)
 - [Tarkov Forge: Chest rigs](https://tarkovforge.com/rigs) (carry space and rig penalties)
 - [Escape from Tarkov Wiki (Bilibili): Headwear](https://wiki.biligame.com/eft/Headwear) (helmet coverage and penalties, older patch)
-- [Tarkov Forge: Backpacks](https://tarkovforge.com/backpacks) (slots and penalties) · [Equipment Wiki: RD-54](https://equipment.fandom.com/wiki/RD-54_Airborne_Assault_Backpack) · [Equipment Wiki: Veshmeshok](https://equipment.fandom.com/wiki/Veshmeshok) · [Safar Publishing: Soviet backpacks of the Afghan war](https://www.safar-publishing.com/post/top-5-backpacks-used-by-soviet-army-in-soviet-afghan-war) (veshmeshok, RD-54, Kolobok, Ermak) · [AllOutdoor: medium ALICE](https://www.alloutdoor.com/?p=167258) · [AllOutdoor: large ALICE and MOLLE II](https://www.alloutdoor.com/?p=164377) · [Varusteleka: Czechoslovak M60 backpack](https://varusteleka.com/en/product/czechoslovakian-m60-backpack-with-straps-surplus/76751)
+- [Tarkov Forge: Backpacks](https://tarkovforge.com/backpacks) (slots) · [Equipment Wiki: RD-54](https://equipment.fandom.com/wiki/RD-54_Airborne_Assault_Backpack) · [Equipment Wiki: Veshmeshok](https://equipment.fandom.com/wiki/Veshmeshok) · [Safar Publishing: Soviet backpacks of the Afghan war](https://www.safar-publishing.com/post/top-5-backpacks-used-by-soviet-army-in-soviet-afghan-war) (veshmeshok, RD-54, Kolobok, Ermak) · [AllOutdoor: medium ALICE](https://www.alloutdoor.com/?p=167258) · [AllOutdoor: large ALICE and MOLLE II](https://www.alloutdoor.com/?p=164377) · [Varusteleka: Czechoslovak M60 backpack](https://varusteleka.com/en/product/czechoslovakian-m60-backpack-with-straps-surplus/76751)
 - [Samurai Gamers: PUBG equipment list](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/equipment-list/) (backpack, vest, and belt capacity)
 - [PUBG Wiki: Grenades](https://pubg.wiki.gg/wiki/Grenades) (throwable weights)
 - [PUBG Wiki: Ammunition](https://pubg.wiki.gg/wiki/Ammunition) (ammo weights)

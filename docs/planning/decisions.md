@@ -4,6 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | The edge is aurora: teal shifting to violet, like northern lights (owner) | [The edge: how it looks](../systems/match-flow.md#the-edge-how-it-looks) |
+| 2026-11-24 | Backpacks: the tier sets about how much a pack holds, with a 10% spread by size; no slowdown, like PUBG; bird names (owner) | [Backpacks](../systems/armor.md#backpacks) |
 | 2026-11-24 | Backpacks like armor: three tiers that set capacity (150, 200, 250, PUBG's), real packs from Tarkov plus Soviet and US ones sorted into tiers by size, each with Tarkov's slowdown (owner; tiers by size and the rest our pick) | [Backpacks](../systems/armor.md#backpacks) |
 | 2026-11-24 | Gavansk Port redone as a round harbor basin like Ischia's, plus a straight container quay; Vetrovo Pier redone as a fishing harbor behind a curved breakwater (owner asked for another pass; our pick) | [Our own spots](../systems/maps.md#our-own-spots) |
 | 2026-11-24 | Weather and hazard picks confirmed as suggested, except a 20-second strike zone warning; the edge's color still open, blue ruled out for PUBG's claim (owner) | [Hazards: timing and sight](../systems/match-flow.md#hazards-timing-and-sight) |

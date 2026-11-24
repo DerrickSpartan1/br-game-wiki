@@ -1509,7 +1509,7 @@ Our own names for every armor piece on [Armor](../systems/armor.md), approved by
 
 ### Backpacks
 
-Birds by size: small birds for tier 1, middling birds for tier 2, and big birds for tier 3, so the name hints at the size (our pick, 2026-11-24, for the owner's OK). Names that are also gear or brand names were skipped.
+Birds by size: small birds for tier 1, middling birds for tier 2, and big birds for tier 3, so the name hints at the size (owner, 2026-11-24). Names that are also gear or brand names were skipped.
 
 | Real | Game name |
 | --- | --- |

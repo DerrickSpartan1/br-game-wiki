@@ -53,15 +53,15 @@ Damage is a percent of full health, so armor doesn't change it.
 
 ### The edge: how it looks
 
-The owner asked for the wall's look and confirmed everything here except the color, which is still on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) (2026-11-24):
+The owner asked for the wall's look and picked everything here on the [weather and edge picks page](https://claude.ai/artifact/WswstEqLaAxf85cYT38Ao3) (2026-11-24):
 
-- **Color:** still open. The owner likes blue as the classic but not PUBG's claim to it (2026-11-24; [Legal review](../planning/legal-review.md#pubg-look-and-feel)). Second try on the picks page: sea teal (our pick: closest to the classic feel and matches the menu placeholder), aurora (teal shifting to violet), static (no color, like TV static), or amber. Whatever it is, it can't be mixed up with the white safe circle or a red strike zone.
+- **Color: aurora (owner, 2026-11-24):** like northern lights, teal at the bottom shifting to violet at the top, not PUBG's blue ([Legal review](../planning/legal-review.md#pubg-look-and-feel)). It can't be mixed up with the white safe circle or a red strike zone, and no shooter we know of uses it. Teal is the menu placeholder too.
 - **See-through:** a tall curtain you see through like tinted glass. Players, buildings, and land behind it show, dimmed by about a third. Thin bright lines of static crawl up it.
 - **Height:** from the ground and the sea up past the highest hill, fading out about 600 m up, so it shows from a parachute and from the Zhuravl.
-- **From far away:** a faint amber band on the horizon from anywhere on the map. The static shows within about 300 m, and you hear it within about 50 m.
+- **From far away:** a faint teal and violet band on the horizon from anywhere on the map. The static shows within about 300 m, and you hear it within about 50 m.
 - **Moving or not:** while it shrinks, the static sweeps toward the center, so you can tell at a glance that it's moving. Between shrinks it hangs still.
 - **Where it cuts through things:** a thin glowing line where it meets the ground, walls, and water. It passes through buildings and rocks and never stops shots, sound, or movement.
-- **Inside the edge:** a light amber tint and faint grain at the screen's edges, stronger the deeper you are, with a short pulse on each damage tick. How far you can see doesn't change, so a fight across the edge stays fair.
+- **Inside the edge:** a light teal-to-violet tint and faint grain at the screen's edges, stronger the deeper you are, with a short pulse on each damage tick. How far you can see doesn't change, so a fight across the edge stays fair.
 - **Sound:** a low electric hum near it on the safe side. Inside, a dry crackle like a radio between stations, and a soft thump on each damage tick. When a shrink starts, a short low tone plays and the HUD says "The edge is moving".
 - **Night and fog:** it glows enough to see across the map at night but doesn't light the ground. In fog it shows through to 500 m, so nobody walks into it blind.
 - **The white circle:** the next safe area shows only on the map and minimap, as a thin white ring, never in the world. While you're outside it, a dashed white line on the minimap runs from you to its nearest edge, with the distance. The HUD shows the countdown to the next shrink.

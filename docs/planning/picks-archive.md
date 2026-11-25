@@ -4,6 +4,14 @@ Every answer the owner gave on a picks page, copied here before the page was del
 
 New picks pages hold only questions that are still open. Once they are answered and filed, their answers are added here and the page is deleted. A full copy of each deleted page, with every option it offered, and its saved answers is kept in the repo's [`archive/picks`](https://github.com/DerrickSpartan1/br-game-wiki/tree/main/archive/picks) folder.
 
+## Round 11 (2026-11-25)
+
+One call: how many big heists are live. Posted by the planner's picks check-in; answered on the page on 2026-11-25 and filed by the planner in chat. Saved copy: `archive/picks/2026-11-25-round11.html`.
+
+### Mini heists
+
+- **How many big heists are live each match:** About half, 6 to 8 a match (our suggestion).
+
 ## Round 12 (2026-11-25)
 
 First-person references, the round 9 first passes, and the contributor setup. Posted by the planner's picks check-in with 13 calls; answered on the page on 2026-11-25 and filed by the planner in chat. Saved copy: `archive/picks/2026-11-25-round12.html`.

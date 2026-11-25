@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): the speed readout shows total speed, W in freefall, and the canopy placeholders (answers to the lead's questions, our picks) |
 | 2026-11-25 | Round 11 picks filed: about half the big heists live, 6 to 8 a match ([Mini heists](../systems/match-flow.md#mini-heists)); page archived in the [Picks archive](picks-archive.md#round-11-2026-11-25) |
 | 2026-11-25 | Round 12 picks filed: the round 9 first passes marked OK'd on [Gameplay](../systems/gameplay.md), [Attachments](../systems/attachments.md), [Armor](../systems/armor.md#backpacks), [Cash](../systems/crafting.md#cash), and [Maps](../systems/maps.md); [First person](../systems/gameplay.md#first-person) references from the movement footage; [Contributors](contributors.md): agreement before access, Claude PR reviews now; answers on the [Picks archive](picks-archive.md#round-12-2026-11-25), page saved in `archive/picks/` |
 | 2026-11-25 | [To-do](to-do.md#you-decisions): round 12 picks page posted (first-person references, round 9 first passes, contributor setup); [Contributors](contributors.md#open) links it |

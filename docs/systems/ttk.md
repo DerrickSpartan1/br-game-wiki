@@ -104,6 +104,7 @@ The extra zones must never make a stray hit end someone, as in Tarkov. So:
 - **No dice:** armor cuts damage by a flat percentage every time. There are no penetration rolls and no random critical hits.
 - **The neck is 0.7 of the head, not PUBG's 0.75,** so no automatic gun on the ground kills with one neck hit, even with no helmet. At 0.75, thirty full-power automatic versions (the M60, BAR, G3, and others) would.
 - **With any helmet on,** the only ground guns that kill with one head shot are snipers, shotguns up close, the [Janz](../weapons/pistols/janz.md) magnum revolvers, and the rare SVDK [SVD](../weapons/battle-rifles/svd.md) (61, like PUBG's Mk14, which also one-shot level 1 helmets). All of them are slow, aimed shots. With no helmet, most rifles kill with one head shot, as in PUBG; that's what helmets are for.
+- **The M4 with no helmet (checked 2026-11-24, playtest round 8):** in PUBG in 2018 the M416 did 43 with a 2.35 head multiplier, 101 to an unhelmeted head, so it killed with one head shot ([table](#pubg-in-2018-for-reference)). Ours is the same: our M4 versions do 43 × 2.35 = 101, one head shot up close. Past about 50 m, falloff (0.95 at 100 m) brings it under 100, so it takes two. With any helmet, it takes two.
 
 ## How damage is set
 

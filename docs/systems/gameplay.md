@@ -58,6 +58,11 @@ The view and the way guns are held look like PUBG's first person (owner, 2026-11
     - **Jumping and landing:** they lift on the jump, float in the air, and dip about 4 cm on landing before settling, more after a long fall.
     - **Crouching and prone:** lower and closer to the body when crouched. Prone, they're out of view while crawling and come up when you stop.
     - **Free look (Alt):** they stay where they are while the view turns.
+- **Where the hands sit (our pick, 2026-11-24, from playtest round 8):** lower than now, like Call of Duty's unarmed view. The owner is sending a screenshot of where they should be; tune to it when it comes.
+    - **Empty hands and fists:** the forearms come in from the bottom corners, with the fists in the bottom fifth of the screen, about a hand's width either side of the center. Only the fists, wrists, and the watch show; the elbows stay off screen.
+    - **Melee weapons:** held in the right hand in the same low spot, with the blade or head angled up and in, so its tip ends about a third of the way up from the bottom, well clear of the crosshair. The left fist stays low on the left.
+    - **They follow your view like a held gun (owner):** the hands are fixed to the camera, not to the body, so looking up or down keeps them in the same place on screen, and turning only gives the short lag above. Free look is the one exception.
+- **Guns sit lower and further off screen at the hip (owner, 2026-11-24, like PUBG):** see [At the hip](#at-the-hip).
 
 - **Field of view:** a slider from 80 to 103, with 90 as the default, like PUBG's first person. Both are horizontal, measured on a 16:9 screen, so the numbers carry straight over to Unreal's camera. Parachuting is third person, with a fixed view.
 - **Eye height (our pick, 2026-11-23):** the first-person camera sits at the player body's eyes, not below them. Shots and pickups trace from the camera, so they come from the eyes too. When the body changes, the camera moves with its eyes and the hip hold is retuned to match.
@@ -66,6 +71,7 @@ The view and the way guns are held look like PUBG's first person (owner, 2026-11
 ### At the hip
 
 - **Low and right:** the gun sits in the lower right of the screen, angled in toward the center, with the stock at the shoulder.
+- **Lower and further off screen than now (owner, 2026-11-24; the placement is our pick):** at the default field of view of 90, the top of the gun sits about a quarter of the screen's height below the crosshair, the stock and the right hand mostly off the bottom right edge, and the muzzle ends about a sixth of the screen's width right of the center. Match it by eye to the PUBG screenshots in `Art/Reference/FirstPerson/` with `GunView`.
 - **Hands:** the right hand on the grip, and the left hand under the handguard from below.
 - **Clear center:** the top of the gun stays below the crosshair, so the middle of the screen is open.
 - **Hip fire** goes toward the crosshair, with the category's hip spread ([Handling](handling.md#first-pass)).
@@ -105,13 +111,14 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 - **A player brought back is a live player again:** killing them a second time counts as a new kill for whoever does it.
 - **A knocker who leaves the match** still gets the kill in the match results.
 
-**Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. While a squadmate could still revive them, it stays a body: anyone can loot it straight from the body, and a looted body can still be revived, with whatever is left on it (owner, 2026-11-22). Once nobody can revive them anymore, or they go to the [comeback duel](#comeback-fight), the body turns into a loot crate right away, like PUBG's. It does the same if the player leaves the match.
+**Bodies hold the loot:** a dead player's body stays where it fell and holds everything they carried. While a squadmate could still revive them, it stays a body: anyone can loot it straight from the body, and a looted body can still be revived, with whatever is left on it (owner, 2026-11-22). Once nobody can revive them anymore, or they go to the [comeback duel](#comeback-fight), the body stays where it fell for 30 more seconds (owner, 2026-11-24), then turns into a loot crate with whatever is left on it. It does the same if the player leaves the match. A solo player's body does this too, since nobody can revive them. During those 30 seconds anyone can loot it straight from the body, the same as a revivable one (our pick).
 
 - **Crates stay all match (our pick, 2026-11-24):** emptied ones too, shown open and empty, so they still mark where a fight happened. On the range, a crate clears after 2 minutes.
 - **A living player who quits** for good drops everything as a crate where they stood. A dropped connection is different: the character stays where it is for 2 minutes so the player can come back, and it can be shot meanwhile; after that, it's a crate (our pick).
     - **The 2 minutes count from when the server notices the drop (our pick, 2026-11-24),** not from the last packet, so the player really gets 2 minutes to come back whatever the engine's own timeout is.
     - **Coming back after the character died (our pick, 2026-11-24):** the player is out, the same as any dead player: the death screen, then spectating as under [Death cam and replays](#death-cam-and-replays) (squadmates first, then enemies once the squad is out), or the menu if they choose.
     - **A returning player keeps their kills and damage (our pick, 2026-11-24)** in the match results, whether or not their character survived the hold.
+    - **Track damage now (our pick, 2026-11-24; the owner left it to the planner):** the match server counts each player's damage dealt, kills, knocks, and place from now on, so the results screen and the end-of-match report to the backend have it when they're built. It's cheap to count and hard to add later.
     - **A squad player whose held character went down for good but can still be revived (our pick, 2026-11-24):** the body stays a body, not a crate, the same as any squadmate's. A returning player waits on it like any dead squad player: the death screen, then spectating their squad, and back in the body if a squadmate revives them. It turns into a crate only once nobody can revive them.
     - **A held body revived after its 2 minutes ran out (our pick, 2026-11-24)** gets a fresh 2 minutes from the revive, since a player brought back is a live player again. If they still aren't back by then, it's a crate.
     - **Quitting and losing the connection get different menu lines (our pick, 2026-11-24):** a player who quits on purpose sees "You left the match"; one who was lost sees "Connection lost", with the option to rejoin while the hold lasts.
@@ -139,7 +146,7 @@ Warzone-style 1v1 duels (owner, 2026-11-22):
 - **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.
 - **The arena** is hidden underground, so it never gets in the way of the match (owner). It has several small layouts, and each duel rolls one (owner, 2026-11-22).
 - **Timer:** after 60 seconds a capture point opens, and whoever takes it wins (owner), like the flag in Warzone's Gulag.
-- **Your body when you go:** going to the duel turns your body into a loot crate at once, as on [Bodies hold the loot](#knockdowns-revives). If you win, you redeploy with only the duel's gun and what the arena gives you.
+- **Your body when you go:** going to the duel leaves your body for 30 seconds, then turns it into a loot crate, as on [Bodies hold the loot](#knockdowns-revives). If you win, you redeploy with only the duel's gun and what the arena gives you.
 
 **Breakout (rare event):** in duos, trios, and quads only, a rare event brings every eliminated player back into the match at once, like Warzone's Jailbreak.
 
@@ -207,11 +214,12 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
     | Arms and legs | 36 (×0.6) | Our pick |
     | Armor | Cuts melee like bullets: 60 becomes 42, 36, or 27 through tier 1, 2, or 3 vests | PUBG: vests cut melee the same as bullets |
     | Hits to kill to the body | 2 with no vest, 3 through tier 1 or 2, 4 through tier 3 | Same as PUBG's machete |
-    | Time between swings | 0.8 s | Our pick |
+    | Time between swings | 0.8 s, shared by swings and quick hits | Our pick |
     | Reach | 1.5 m | Our pick |
     | Ready time | 0.5 s | PUBG's melee ready delay |
     | Run speed with it out | 6.3 m/s | PUBG's unarmed and melee speed ([Handling](handling.md)) |
 
+- **No melee spam (our pick, 2026-11-24, from playtest round 8):** the 0.8 s between swings is checked on the server and counted from the start of the last swing, so clicking faster does nothing. Swings and quick hits (tap X) share the one timer, so mixing them can't beat it. Holding or spamming the button queues at most one more swing. Each hit takes 0.3 s to land after the swing starts, so the fastest kill on a player with no vest is two hits 0.8 s apart. Being hit doesn't stagger or slow you, like PUBG; the damage flash shows the hit.
 - **Inspects:** every melee weapon gets its own inspect animation, and you can inspect while running with it out (hold X; no separate inspect key, our pick 2026-11-23), like flipping a butterfly knife open, spinning a karambit, or resting a scythe on your shoulder.
 - **The roster:** all sorts, with plain names and no brands. The owner's picks are scythes, knives of different kinds, machetes, and brass knuckles. A starting list:
 

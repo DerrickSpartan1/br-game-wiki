@@ -66,7 +66,7 @@ A reload keeps its progress (owner, 2026-11-22). Each reload is split into stage
 | --- | --- | --- |
 | `box mag`, `grip mag`, `bullpup mag`, `side mag`, `top mag`, `pan` | Old mag out (40%), new mag in (60%). From empty: old mag out (30%), new mag in (45%), bolt or charging handle (25%) | With the mag out, only a round already in the chamber fires. Open-bolt guns have none, so they can't |
 | `belt` | Always the full reload (owner, 2026-11-22): cover up and old belt out (40%), new belt in and cover down (45%), charging the gun (15%), with rounds left or not | No, while the cover is up |
-| `tube`, `single rounds` | Each round is its own stage, as now | Yes; pressing fire already stops the reload |
+| `tube`, `single rounds` | Each round is its own stage, as now | Yes; the first click stops the reload, the next one fires |
 | `stripper clip` | A full clip from empty is one stage; topping off is one round at a time | Yes, between rounds |
 | `en bloc` | Partial clip out (35%), new clip in (65%). It can't be topped off ([Rules](../rules.md#en-bloc-clips)) | No, with the clip out |
 | `break action`, `single shot` | Open and empties out (35%), new rounds in (45%), closed (20%) | No, while it's open |
@@ -74,9 +74,10 @@ A reload keeps its progress (owner, 2026-11-22). Each reload is split into stage
 
 - **When a reload counts (owner, 2026-11-22):** once the new mag, belt, or clip seats, like PUBG. A short back-to-ready stage follows, which can be cancelled for free.
 - **Mags and belts (owner, 2026-11-22):** a mag-fed gun does the full reload only when its chamber is empty; otherwise it just changes mags. A belt-fed gun always does the full reload. An open-bolt mag gun never has a round chambered, but its bolt stays back while it has rounds, so with rounds left it just changes mags; the full reload with the charge is only from empty.
-- **Revolver timing (planner's pick, 2026-11-22):** a swing-out cylinder takes 0.6 s to open and dump the empties and 0.3 s to close. A gate-loaded revolver takes 0.3 s to open the gate, 0.4 s to push out each spent case, and 0.2 s to close. Each round loads in 0.75 s. Pressing fire partway through closes the cylinder or gate first, then fires.
+- **Revolver timing (planner's pick, 2026-11-22):** a swing-out cylinder takes 0.6 s to open and dump the empties and 0.3 s to close. A gate-loaded revolver takes 0.3 s to open the gate, 0.4 s to push out each spent case, and 0.2 s to close. Each round loads in 0.75 s. Pressing fire partway through stops the load and closes the cylinder or gate; the next click fires.
 - **Where pulled rounds go:** like PUBG, back to the backpack as loose rounds when the old mag or belt comes out, since mags aren't items ([Ammo](ammo.md#how-ammo-and-reloading-work)).
 - **The old mag drops (owner, 2026-11-22):** the empty or partial mag falls to the ground and disappears after about 10 seconds. It's only for looks, so other players see the reload; you can't pick it up. Spent casings also stay on the ground about 10 seconds.
+- **Stopping a one-at-a-time reload (owner, 2026-11-24):** "when you click to stop the reload, that should stop it but you need another click to actually shoot." The first click only stops the load, keeping the rounds already in; the gun fires on the next click. The same goes for tubes, single-round mags, stripper-clip top-offs, and revolvers. A round that's partway in finishes first (our pick).
 - **What cancels a reload:** switching weapons, sprinting, holding X for melee or tapping it for a quick hit, getting knocked, vaulting or climbing, getting in a vehicle, starting a heal, and dropping the gun. Pressing fire only stops one-at-a-time loads ([Reloads work like PUBG](#reload-times)).
 - **The saved stage stays with the gun:** a gun dropped with its mag out lies on the ground with no mag, and whoever picks it up starts from "new mag in."
 - **The HUD** shows a gun with no mag as the chambered round only, like 0+1.

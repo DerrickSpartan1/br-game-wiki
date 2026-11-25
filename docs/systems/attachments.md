@@ -46,7 +46,7 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 - **Tactical stock:** less recoil and sway. It fits both the pistol/SMG family and the AR/LMG/battle rifle family, as in PUBG, where it went on ARs (M416, M16A4), SMGs (Vector, MP5K), and the M249 ([PUBG Wiki: Attachments](https://pubg.wiki.gg/wiki/Attachments)). A gun takes it only if its page lists it: stockless guns take add-on stocks instead, and DMRs and snipers take the cheek pad (our pick, 2026-11-25).
 - **Cheek pad:** DMRs and snipers; steadier aim.
 - **Add-on stocks:** for stockless guns, like the [Uzi](../weapons/smgs/uzi.md) or [Skorpion](../weapons/pistols/skorpion-vz61.md), and the [C96](../weapons/pistols/c96.md)'s shoulder stock (see below). A pistol with an add-on stock stays in the pistol / 3rd slot ([Rules](../rules.md#3rd-slot)).
-- **Ammo loops:** faster one-round-at-a-time reloads, for tubes and stripper-clip guns ([Ammo](ammo.md#how-ammo-and-reloading-work)).
+- **Ammo loops:** faster one-round-at-a-time reloads, for tubes and stripper-clip guns ([Ammo](ammo.md#how-ammo-and-reloading-work)). They sit on the right side of the gun, the hand that works the bolt and loads (owner, 2026-11-25).
 
 **Magazine:** the four tiers below.
 

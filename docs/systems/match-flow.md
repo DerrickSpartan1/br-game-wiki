@@ -198,7 +198,7 @@ First pass (our pick, for the owner's review):
 | Heist | Where | How it goes | Pays |
 | --- | --- | --- | --- |
 | Jewelry store | A shop in a big town or town | Smash the display cases (loud glass) and grab what's inside. An alarm rings for 60 s. In and out in under a minute | Valuables |
-| Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quietly and fast, or with the drill that waits in the manager's office: about 2 minutes, loud, and it stops twice and has to be restarted by hand. Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
+| Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quick and quiet, or with a [vault drill](crafting.md#what-a-workbench-makes) made from scrap at a workbench: about 90 seconds, loud, and it stops twice and has to be restarted by hand (owner, 2026-11-24: the key or the drill is the trade-off). Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
 | Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a workbench-made saw, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
 | Armored van | Broken down on a road, rolled each match | Blow or cut the back doors (a breaching charge or 60 s of cutting), then grab the cash sacks. The van's alarm wails the whole time | Cash |
 | Exchange office | A storefront in a big town | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
@@ -206,7 +206,7 @@ First pass (our pick, for the owner's review):
 
 - **How many:** each match rolls 2 or 3 heists to be live; the rest stay locked and dark. Live ones aren't marked on the map, so finding one is part of it (our pick).
 - **The alarm:** starting a heist trips an alarm heard about 300 m away, so it draws players in. The drill and the van's alarm keep it loud until the heist is done.
-- **The drill stopping** is part of the heist, like Payday's: it's a tool, not a gun, so the no-jamming rule doesn't touch it.
+- **The drill stopping** is part of the heist, like Payday's: it's a tool, not a gun, so the no-jamming rule doesn't touch it. Drills are made from scrap, never found (owner, 2026-11-24).
 - **Getting away:** a drop-off is never right next to a heist, so the loot has to be carried a little way in the open.
 - **The map needs** these places in the building kit: a jewelry store, a bank interior with a vault, a post office with deposit boxes, an exchange office, and the armored van ([Buildings](maps.md)).
 
@@ -218,7 +218,8 @@ Ours:
 
 - **Vaults:** 4 to 6 per map, spread out. On the first map, five: one under the Military Outpost, one in each big town (Ischia Porto and Forio), one on the coast (Marina's waterfront), and the Prison armory ([Maps](maps.md#marina-farms-and-vaults)).
 - **Keys:** only 2 or 3 per match, spawning at random, so most vaults stay shut in any given match.
-- **Opening:** 3 seconds. The key is used up, the door stays open, and an alarm sounds nearby, so others know.
+- **Opening:** 3 seconds with a key. The key is used up, the door stays open, and an alarm sounds nearby, so others know.
+- **Or drill it (owner, 2026-11-24):** "we use scrap to make the drills for a vault heist. or you have a key thats the trade off." A [vault drill](crafting.md#what-a-workbench-makes) made from 100 scrap at a workbench opens any vault without a key, in about 90 seconds of noise, stopping twice to be restarted, so every vault can be a heist.
 - **Inside:** like Apex, no weapons: tier 3 armor and helmets, the best backpacks, scopes, and mag tiers, meds, and throwables. Crate weapons stay crate-only.
 
 **How keys work:**

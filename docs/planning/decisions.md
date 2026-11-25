@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Vaults open with a key or a vault drill made from scrap at a workbench, the trade-off; drills are never found (owner) | [Vaults and keys](../systems/match-flow.md#vaults-and-keys), [Workbenches](../systems/crafting.md#what-a-workbench-makes) |
 | 2026-11-24 | The 5-minute quest timer is gone; drop-offs are decently easy to reach (owner). Mini heists from Payday: six first-pass heists queued for the owner's review | [Cash](../systems/crafting.md#cash), [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Quest items go in the cash bag and count only once stashed at a drop-off, replacing the 5-minute rule (owner; replacing it is our reading) | [Cash](../systems/crafting.md#cash) |
 | 2026-11-24 | The cash bag has no limit, so carrying a big haul unbanked is the risk; jewelry and other valuables are loot too (owner) | [Cash](../systems/crafting.md#cash) |

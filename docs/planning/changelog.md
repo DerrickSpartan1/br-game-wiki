@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Contributors](contributors.md): the task board and its guards OK'd; a lead item to set them up |
 | 2026-11-25 | New page: [Contributors](contributors.md), a first pass at invited contributors with their own Claude and no overlapping work |
 | 2026-11-25 | [Skins](../systems/skins.md): same hitbox for both bodies confirmed; [Attachments](../systems/attachments.md): ammo loops on the right side (both from the round 9 playtest) |
 | 2026-11-25 | Answered the lead's round 9 playtest questions: [Parachutes](../systems/match-flow.md#parachutes) (no-chute knockdown in squads), [Rules](../rules.md) and [Handling](../systems/handling.md) (no recoil settling), [Gameplay](../systems/gameplay.md) (boost icons, first-person pass, melee swing time and two-handed list, range menu), [Attachments](../systems/attachments.md) (angled grip, canted irons with scopes), [Backpacks](../systems/armor.md#backpacks), [Cash](../systems/crafting.md#cash), [Maps](../systems/maps.md) (stairs) |

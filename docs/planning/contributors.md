@@ -13,7 +13,7 @@ Status: first pass by the planner (2026-11-25). The owner's calls are marked; th
 
 ## No overlapping work
 
-The owner's rule: nobody does work someone else is already doing. Seven guards, from the board down to single files (our pick):
+The owner's rule: nobody does work someone else is already doing. Seven guards, from the board down to single files, all OK'd by the owner (2026-11-25: "yes do your task board suggestions"):
 
 1. **One board.** Every task is a GitHub issue in the game repo, shown on a GitHub Project board (both free). An issue with someone assigned to it is taken. The lead turns the wiki To-do's items into issues and keeps them in step; the To-do stays the planner's and lead's list. Issues rather than the wiki, because claiming has to be instant and one person at a time, and the wiki is public.
 2. **Claim before you start.** Assign yourself the issue first, then start. Each person holds at most 2 claims at once. A claim with no commits for 3 days goes back on the board, after a note to the person.
@@ -53,7 +53,10 @@ The owner's rule: nobody does work someone else is already doing. Seven guards, 
 | Lead (Claude Code on the owner's PC) | Turns tasks into issues, reviews pull requests with its reviewer, watches for overlap, and merges once the owner approves |
 | Contributor and their Claude | One claimed issue at a time, in its own branch, following `CLAUDE.md`, [Coding practices](coding-practices.md), and the reviewer's checklist, then a pull request |
 
-## For the lead, when the owner says go
+## For the lead
+
+The board can be set up now (owner, 2026-11-25); branch protection waits on the owner's Pro or Team call.
+
 
 - A `CONTRIBUTING.md` in the game repo that sums up this page.
 - A `contributor` agent file in `.claude/agents/`: works only on its claimed issue, never pushes to the main branch, checks the board, locks, and open pull requests at the start of each session.
@@ -64,9 +67,9 @@ The owner's rule: nobody does work someone else is already doing. Seven guards, 
 
 The owner's calls, for the next picks page:
 
-1. The board: GitHub Issues and a Project board (our pick), or the wiki To-do.
-2. GitHub Pro (our pick), an organization on Team, or staying on Free.
-3. A contributor agreement before anyone gets access (our pick: yes).
-4. Claims: at most 2 at once, and back on the board after 3 quiet days (our pick).
-5. Claude reviewing pull requests on GitHub: later (our pick) or now.
-6. An LFS budget, or Team's bigger storage, before the first invite.
+Settled: the board and the claim rules (owner, 2026-11-25). Still open:
+
+1. GitHub Pro (our pick), an organization on Team, or staying on Free.
+2. A contributor agreement before anyone gets access (our pick: yes).
+3. Claude reviewing pull requests on GitHub: later (our pick) or now.
+4. An LFS budget, or Team's bigger storage, before the first invite.

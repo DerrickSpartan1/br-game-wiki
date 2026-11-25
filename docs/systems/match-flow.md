@@ -189,6 +189,27 @@ Loot that moves around the map, like PUBG's loot truck or Apex's train: a supply
 
 Contracts like Warzone's Most Wanted: a player gets marked on the map, and if they survive a set time, their team gets a reward. The reward is scrap only (owner, 2026-11-22); the rest gets worked out later.
 
+## Mini heists
+
+Small themed heists on the map, taking ideas from Payday 2 (owner asked, 2026-11-24): "we can look at payday for like mini themed heist on the map." Payday 2's heists are "get in, get out, get paid": crack something that takes time (a drill that has to be restarted when it stops, thermite through a floor), grab the loot, and get it to the getaway while the police keep coming ([Nintendo Life](https://www.nintendolife.com/news/2018/02/guide_payday_2_heist_tips_-_how_to_grab_loot_escape_and_get_paid), [Payday Wiki: First World Bank](https://payday.fandom.com/wiki/First_World_Bank/Walkthrough)). In a battle royale the police are the other players: a heist is loud, takes time, and pays well, so it pulls a fight to you. The loot goes in the [cash bag](crafting.md#cash) and only counts once it's banked at a drop-off. Nothing is named after Payday; the ideas are generic.
+
+First pass (our pick, for the owner's review):
+
+| Heist | Where | How it goes | Pays |
+| --- | --- | --- | --- |
+| Jewelry store | A shop in a big town or town | Smash the display cases (loud glass) and grab what's inside. An alarm rings for 60 s. In and out in under a minute | Valuables |
+| Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quietly and fast, or with the drill that waits in the manager's office: about 2 minutes, loud, and it stops twice and has to be restarted by hand. Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
+| Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a workbench-made saw, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
+| Armored van | Broken down on a road, rolled each match | Blow or cut the back doors (a breaching charge or 60 s of cutting), then grab the cash sacks. The van's alarm wails the whole time | Cash |
+| Exchange office | A storefront in a big town | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
+| Marked container | Gavansk Port's container quay | Cut the seal with your wire cutters and open it; which container is the marked one changes each match | Valuables, sometimes a crate weapon |
+
+- **How many:** each match rolls 2 or 3 heists to be live; the rest stay locked and dark. Live ones aren't marked on the map, so finding one is part of it (our pick).
+- **The alarm:** starting a heist trips an alarm heard about 300 m away, so it draws players in. The drill and the van's alarm keep it loud until the heist is done.
+- **The drill stopping** is part of the heist, like Payday's: it's a tool, not a gun, so the no-jamming rule doesn't touch it.
+- **Getting away:** a drop-off is never right next to a heist, so the loot has to be carried a little way in the open.
+- **The map needs** these places in the building kit: a jewelry store, a bank interior with a vault, a post office with deposit boxes, an exchange office, and the armored van ([Buildings](maps.md)).
+
 ## Vaults and keys
 
 Apex Legends added locked vaults to World's Edge in 2019. Keys came from roaming cargo drones; holding one marked every vault on your map; opening took 3 seconds, and the doors stayed open for anyone after. Vaults held top-tier armor, backpacks, attachments, and heals, but no weapons or ammo.

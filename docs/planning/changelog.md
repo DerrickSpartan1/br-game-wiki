@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Coding practices](coding-practices.md): shared Python helpers marked done (the lead's report) |
 | 2026-11-25 | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives): a one-team match gives no place or win (filed the lead's decision from round 10) |
 | 2026-11-25 | [To-do](to-do.md#you-decisions): round 11 picks page posted with the 1 queued item (how many heists are live) |
 | 2026-11-25 | Round 10 picks filed across [Mini heists](../systems/match-flow.md#mini-heists), [Aircraft](../systems/match-flow.md#aircraft), [Normal and ranked](../systems/gameplay.md#ranked), [Melee](../systems/gameplay.md#melee), [Hits and lag](../systems/servers.md#hits-and-lag), and [Attachments](../systems/attachments.md); page archived in the [Picks archive](picks-archive.md#round-10-2026-11-25) |

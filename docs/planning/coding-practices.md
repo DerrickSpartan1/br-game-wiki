@@ -60,7 +60,7 @@ The base is Epic's own C++ coding standard ([Epic](https://dev.epicgames.com/doc
 
 ## The Python tools
 
-- **Shared helpers in one module.** The table-reading helpers (`split_row` and friends) are copied into nine scripts today; they go in one shared file the readers import.
+- **Shared helpers in one module.** The table-reading helpers (`split_row` and friends) live in one shared file the readers import, not copied into each script (done by the lead, 2026-11-25).
 - **Fail loudly, with the wiki section's name,** as they do now, and never guess a number.
 - **Plain Python style** (PEP 8), short functions, and a docstring at the top of each script saying which wiki pages it reads and what it writes.
 
@@ -101,7 +101,7 @@ The planner read the game repo's source (it can't build it), so the lead should 
 1. **Template leftovers:** the Horror template's code (`Variant_Horror`, 569 lines) is still compiled though nothing uses it, and the template's AI enemies (`Variant_Shooter/AI`) aren't used outside their own folder either. Check no Blueprint uses them, then delete them.
 2. **Log categories:** `LogTemp` is used 38 times; give each system its own category.
 3. **Tests:** there are no automation tests yet. Start with damage, reloads, and carry capacity.
-4. **Shared Python helpers:** move the table helpers copied into nine readers into one module.
+4. **Shared Python helpers:** move the table helpers copied into nine readers into one module. Done (lead, 2026-11-25).
 5. **Raw pointers:** 23 object properties still use raw pointers; switch them to `TObjectPtr`.
 6. **Asset paths:** 23 hard-coded `/Game/...` paths in C++ (most in constructors); move them into settings or Blueprint defaults as each file is touched.
 7. **Big files:** `BRGun.cpp` (2,255 lines), `ShooterPlayerController.cpp` (2,196), `BRInventoryComponent.cpp` (1,234), `BRSky.cpp` (1,218), and the character (`ShooterCharacter.h` is 1,170 lines on its own). Split them into components as they're worked on, not all at once.

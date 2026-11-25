@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): every aircraft in a match, with its look, sound, and job; the comeback helicopter; aircraft on the [Legal review](legal-review.md) and [Sound list](sound-list.md) |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): the plane limit is on planes out at once; the 6-a-match cap is gone |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): cutting the line takes about 10 s |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): add your cash or cut the line; a limit on pickup planes |

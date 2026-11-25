@@ -47,6 +47,7 @@ Decided: our own makers and designations, so guns feel real without using real n
 | Backpacks | [Backpacks](../systems/armor.md#backpacks) | Brand names such as Mystery Ranch, Eberlestock, 5.11, and Oakley, and Tarkov's own bags | Bird names ([Backpacks](game-names.md#backpacks)); Tarkov's own bags left out | Done (owner, 2026-11-24) |
 | Breaching tools | [Class items](../systems/class-items.md#breaching-tools) | The Halligan bar is named after a person | Entry bar | Done |
 | Vehicles | [Gameplay](../systems/gameplay.md#vehicles-and-water) | Real makes (Dacia, UAZ) and PUBG's own vehicle names | Our own names ([Vehicles](game-names.md#vehicles)) | Named |
+| Aircraft | [Aircraft](../systems/match-flow.md#aircraft) | Looks taken from real aircraft (Il-76, An-12, An-2, Mi-8, Su-24) | Our own models and plain names, no maker names, markings, or designations | Rule set (2026-11-25) |
 | Cartridges | [Ammo](../systems/ammo.md) | Names with a company or person in them, like .338 Lapua Magnum, .308 Winchester, and 7.62×25mm Tokarev | Caliber only ([Cartridges](game-names.md#cartridges)) | Done; two sizes still TBD |
 | Other games' terms | [Gameplay](../systems/gameplay.md), [Match flow](../systems/match-flow.md), [Skins](../systems/skins.md#kill-counters) | Gulag, Jailbreak, Most Wanted, StatTrak, and PUBG's "Winner winner chicken dinner" | Our own names ([Game names](game-names.md#other-games-terms)) | First pass |
 | First map | [Maps](../systems/maps.md) | Real island and town names | Teplov and our own place names ([Places](game-names.md#places)) | Done |

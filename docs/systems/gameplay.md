@@ -142,7 +142,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 Warzone-style 1v1 duels (owner, 2026-11-22):
 
-- **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match.
+- **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match by helicopter, like PUBG's on Taego (owner, 2026-11-25), jumping out over the safe area with a parachute (our pick; [Aircraft](match-flow.md#aircraft)).
 - **One redeploy:** each player gets one comeback per match. Winning, redeploying, and dying again ends your match, unless you've made another comeback at a [workbench](crafting.md#what-a-workbench-makes) with scrap.
 - **Only early:** the arena is open for the first couple of circles (first pass: until phase 2 ends). When it closes, anyone still waiting or fighting there redeploys for free.
 - **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.

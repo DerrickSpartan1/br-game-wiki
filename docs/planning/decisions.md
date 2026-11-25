@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | How to read the attachment Effects table (pattern multiplies climb and sideways, kick is each shot's visual jump, ADS speed divides time, suppressor cuts all spread, loops speed each round, pistols get SMG numbers); vertical grip cuts climb not sideways; the choke doesn't change pellet speed; the extended quick mag reloads 15% faster; canted irons switch on Alt + right mouse with a 45° roll; the defib rides on the back of the right hip (our picks, from the lead's questions) | [Effects](../systems/attachments.md#effects-first-pass-from-pubg), [Class items](../systems/class-items.md) |
 | 2026-11-25 | The tactical stock fits the pistol/SMG and AR/LMG/battle rifle families, like PUBG, on guns whose page lists it (our pick, from the lead's question) | [Attachment slots](../systems/attachments.md#attachment-slots) |
 | 2026-11-25 | Landing with no chute open is out for good even in a squad: no knockdown, no defib or revive (our pick, from the lead's review) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Bots backfill normal matches only; ranked has no bots and may search longer, maybe with a cutoff to start short (owner) | [Normal and ranked](../systems/gameplay.md#ranked) |

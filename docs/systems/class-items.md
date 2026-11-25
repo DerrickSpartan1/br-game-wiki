@@ -2,7 +2,7 @@
 
 A 4th slot holds class items: limited-use gadgets found randomly as loot during a match. There are no player classes.
 
-- **Defibs:** uses limited by batteries or something similar.
+- **Defibs:** uses limited by batteries or something similar. When it isn't in your hands, it's clipped on the back of your right hip, so others see it on your third-person body (our pick, 2026-11-25, from the lead's question).
 - **Bulletproof barricade:** a deployable cover piece, like the one in Rainbow Six Siege ([Shields](#shields)).
 - **Rangefinder binoculars:** spot enemies at a distance and read the range for bullet drop. The [spotter scope](#more-class-items) builds on them.
 - **Door wedge or door alarm:** lock down a building while you loot it. The wedge stays now that anyone can [nail a door shut](gameplay.md#nailing-doors-shut) (owner, 2026-11-22): it works on metal doors too, where nails only go into wood, and it could be quicker than nailing.

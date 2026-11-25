@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Effects](../systems/attachments.md#effects-first-pass-from-pubg): how to read the table, vertical grip and choke rows fixed, extended quick mag row, canted irons switching; [Class items](../systems/class-items.md): where the defib is worn (answered the lead's questions) |
 | 2026-11-25 | [Attachment slots](../systems/attachments.md#attachment-slots): the tactical stock fits pistols/SMGs and ARs/LMGs (answered the lead's question) |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): a no-chute landing skips the knockdown, out for good (answered the lead's question) |
 | 2026-11-25 | [Hits and lag](../systems/servers.md#hits-and-lag): how Counter-Strike, Valorant, Apex, and Overwatch rewind and cap it; the rewind cap and thrown melee after the match queued for the owner |

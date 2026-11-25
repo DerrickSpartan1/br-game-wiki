@@ -61,9 +61,9 @@ The owner's call (2026-11-22): PUBG's attachment effects are the base. These are
 | Compensator (DMRs and snipers) | Recoil pattern −25%, sideways −20%, climb −20% | |
 | Flash hider | Recoil pattern −10%, sideways −10%, climb −10% | Hides your muzzle flash |
 | Suppressor | Spread −5% | Quieter shots and no flash |
-| Choke | Pellet spread −18.2%, pellet speed +15.4% | Shotguns |
+| Choke | Pellet spread −18.2% | Shotguns. It doesn't change pellet speed: PUBG's choke page lists only spread ([PUBG Wiki: Choke](https://pubg.wiki.gg/wiki/Choke_(SG))) (our pick, 2026-11-25) |
 | Duckbill | Narrower up and down, wider side to side | Shotguns; PUBG gives no numbers |
-| Vertical grip | Sideways −20%, recoil pattern −15% | |
+| Vertical grip | Climb −15%, recoil pattern −20% | Fixed 2026-11-25: PUBG's vertical grip cuts vertical recoil, not sideways ([PUBG Wiki: Vertical Foregrip](https://pubg.wiki.gg/wiki/Vertical_Foregrip)) |
 | Angled grip | Sideways −20%, recoil pattern −20%, aim down sights 10% faster | |
 | Half grip | Less climb and drift, settles faster | PUBG gives no numbers; TBD |
 | Thumb grip | Less climb, more drift, settles slower | PUBG gives no numbers; TBD |
@@ -73,7 +73,20 @@ The owner's call (2026-11-22): PUBG's attachment effects are the base. These are
 | Cheek pad | Kick −20%, sway −15%, climb −20% | DMRs and snipers |
 | Add-on stock (Uzi-style) | Climb −20%, recoil pattern −20%, settles 15% faster | From PUBG's Micro Uzi stock |
 | Ammo loops | Reload −30% | Kar98k-style loops also cut base spread 50% in PUBG |
-| Quick mag tiers | Reload −30% | ([Handling](handling.md#reload-times)) |
+| Quick mag | Reload −30% | ([Handling](handling.md#reload-times)) |
+| Extended quick mag | Reload −15% | Half the quick mag's cut, since it's the middle ground between the quick and extended mags ([Magazines](#universal-attachments)) (our pick, 2026-11-25) |
+
+**Reading the table (our picks, 2026-11-25, from the lead's questions):**
+
+- **Recoil pattern** scales how strong the gun's random climb and drift are overall. A row that also names climb or sideways multiplies them: the rifle compensator's climb is 0.75 × 0.85 = 0.6375 of the gun's own.
+- **Kick** is the size of each shot's visual jump of the gun and view, which then settles back. It isn't the random climb and drift, and it doesn't change how long settling takes ("settles faster" does that). PUBG calls it "Animation Kick" and calls its cheek pad's effect a weaker "recoil animation" ([PUBG Wiki: Tactical Stock](https://pubg.wiki.gg/wiki/Tactical_Stock), [PUBG Wiki: Cheek Pad](https://pubg.wiki.gg/wiki/Cheek_Pad_(DMR,_SR))).
+- **"Aim down sights 10% faster"** means 10% more speed, so the time is divided by 1.1, as PUBG's "+10% ADS Speed" ([PUBG Wiki: Angled Foregrip](https://pubg.wiki.gg/wiki/Angled_Foregrip)).
+- **Suppressor "Spread −5%"** cuts all spread, hip and aimed: PUBG's stat is plain "Deviation" ([PUBG Wiki: Suppressor](https://pubg.wiki.gg/wiki/Suppressor_(AR,_DMR,_S12K))).
+- **Ammo loops "Reload −30%"** makes each round load 30% faster, since loops only fit one-at-a-time reloads.
+- **Pistols:** pistols and SMGs share one attachment family ([Universal attachments](#universal-attachments)), so a pistol whose page lists a compensator gets the SMG compensator's numbers. PUBG later merged its pistol and SMG attachments the same way ([PUBG Wiki: Attachments](https://pubg.wiki.gg/wiki/Attachments)).
+- **Rows marked TBD** (half, thumb, and light grips, the laser, the duckbill) and numbers the table doesn't give (suppressor loudness, scope aim-down-sights times) stay named placeholders until the owner sets them.
+
+**Canted iron sights (our pick, 2026-11-25):** a separate key switches between the main sight and the canted irons while aiming, Alt + right mouse by default like PUBG, and rebindable. Aiming through them rolls the gun 45° so the side sight lines up; shooting works the same ([PUBG Wiki: Canted sight](https://pubg.wiki.gg/wiki/Canted_sight)). Build it now, with the attachments.
 
 ## Wear
 

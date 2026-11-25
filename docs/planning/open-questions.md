@@ -18,7 +18,6 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **Workbenches and scrap:** test the first-pass costs, craft times, bench count, and scrap per match ([Crafting](../systems/crafting.md#workbenches)).
 - **Throwable weights:** PUBG's weights for the sticky bomb, C4, decoy, and blue zone grenade ([Throwables](../systems/weapon-pool.md#throwables)).
 - **Melee and tools:** the melee, pan, and breaching tool numbers look good to the owner but need play testing; check the numbers for throwing knives and nailing doors shut, and mortars' range and blast ([Melee](../systems/gameplay.md#melee), [Class items](../systems/class-items.md#pans), [Breaching tools](../systems/class-items.md#breaching-tools), [Nailing doors shut](../systems/gameplay.md#nailing-doors-shut)).
-- **Gold bar carriers:** whether picking up a gold bar marks you on everyone's map; the owner wasn't sure, our pick is no ([Gold bars](../systems/match-flow.md#gold-bars)).
 - **PvE:** robot guards in vaults, sentries at radar stations, and patrols ([Robot guards](../systems/match-flow.md#robot-guards-idea)); their numbers.
 - **Gas:** gas damage, and the tear gas trap's numbers ([More class items](../systems/class-items.md#more-class-items)).
 - **Leg armor (pants armor):** its numbers ([Leg armor](../systems/armor.md#leg-armor-idea)).

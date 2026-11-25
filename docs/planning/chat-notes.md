@@ -16,7 +16,8 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 ### Planner chat
 
 - **Heist picks (00:05):** "i like cash balloon, yes i like gold bars being like extra valuable, those should slow you down but are a big payout. idk if it should show everyone on the map your position, but any sort of heist that shows alarm should show it on the map, i like castle museum and the moving convoy, i like farm, and yeah the robot response makes sense, maybe they come down in like a drop pod and climb out, one drop pod one drone kinda deal." New ideas: "also what about paintings?" and "we can do a diamond store or anything else." He asked to look at ROB RUN for more heistables; eight more ideas drafted from it and our own ([Mini heists](../systems/match-flow.md#mini-heists)).
-- **Still open:** whether a gold bar carrier shows on the map (our pick no), the Exchange office's name, tip-offs, the ferry, and the new ideas, all for the next picks page.
+- **Follow-up (00:12):** "i like your eight ideas, you can close the gold carrier on the map thats a no and maybe we want to up the cost of the cash balloon? that way it cant be spammed? that feels too safe." The eight are kept, carriers stay off the map, and the balloon went from 50 to 150 scrap, with a 45 s rise shown on the map and one a match as our pick.
+- **Still open:** the Exchange office's name, tip-offs, the ferry, the balloon's new numbers, and the heist details, all for the next picks page.
 
 ## 2026-11-24
 

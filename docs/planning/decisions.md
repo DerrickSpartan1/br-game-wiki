@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Heists: all eight new heist ideas kept; a gold bar carrier is never shown on the map; the cash balloon costs more so it can't be spammed (owner); 150 scrap, a 45 s rise on the map, one a match (our pick) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-25 | Heists: yes to the cash balloon, castle museum, moving convoy, farm payroll, and robot response; robots come down in drop pods, one to a pod; gold bars slow you and pay big; any heist with an alarm shows on the map (owner). Paintings and a diamond store added (owner's ideas) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Port heists open several sealed containers, most with gear; the armored van holds gear and cash (owner). Eight more heist ideas from Plunder, Getaway, and Payday queued for review | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Melee follow-ups: a swing already started lands even if the swinger dies or is knocked in the 0.3 s; holding left mouse swings every 0.8 s; melee shows right under the pistol on the HUD and inventory, between 3 and 2 on the HUD (our picks; melee under the pistol is the owner's) | [Melee](../systems/gameplay.md#melee) |

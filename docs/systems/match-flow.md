@@ -199,8 +199,8 @@ First pass (our pick, for the owner's review):
 | --- | --- | --- | --- |
 | Jewelry store | A shop in a big town or town | Smash the display cases (loud glass) and grab what's inside. An alarm rings for 60 s. In and out in under a minute | Valuables |
 | Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quick and quiet, or with a [vault drill](crafting.md#what-a-workbench-makes) made from scrap at a workbench: about 90 seconds, loud, and it stops twice and has to be restarted by hand (owner, 2026-11-24: the key or the drill is the trade-off). Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
-| Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a workbench-made saw, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
-| Armored van | Broken down on a road, rolled each match | Blow or cut the back doors (a breaching charge or 60 s of cutting), then grab the cash sacks. The van's alarm wails the whole time | Cash |
+| Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a [box saw](crafting.md#what-a-workbench-makes) made from scrap, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
+| Armored van | Broken down on a road, rolled each match | Blow the back doors with a breaching charge, or cut them in about 60 s with a [cutting torch](crafting.md#what-a-workbench-makes) made from scrap, then grab the cash sacks. The van's alarm wails the whole time | Cash |
 | Exchange office | A storefront in a big town | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
 | Marked container | Gavansk Port's container quay | Cut the seal with your wire cutters and open it; which container is the marked one changes each match | Valuables, sometimes a crate weapon |
 

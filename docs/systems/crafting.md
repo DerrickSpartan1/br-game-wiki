@@ -2,6 +2,7 @@
 
 Crafting takes inspiration from Super People's system: finding stuff and building with it. It happens both during matches and back at your hub.
 
+- **Scrap is the scavenger's money inside a match** (owner, 2026-11-24): "scrap to make makeshift stuff or heist stuff or pay for other things in the game for scavenger feel." It makes makeshift gear and heist tools at workbenches and pays for things during the match (radar stations, another comeback). [Cash](#cash) is what you take home.
 - **Scrap is the crafting material** (owner, 2026-11-22; no longer the currency since 2026-11-24): there's one kind of scrap. You spend it at [workbenches](#workbenches) during a match, and whatever you haven't spent turns into cash when the match ends ([Cash](#cash)). Every scrap spent in a match is cash you don't take home, so spending is a real choice.
 - **Out-of-game crafting:** scrap and quest items brought back to your hub, or to drop-off points, craft skins or turn in for quests. They go in their own pocket and don't add weight. Outside matches, scrap only buys looks: skins, quests, and other cosmetics, never anything that helps in a fight (owner, 2026-11-22).
 - **Winning:** a win earns bonus scrap on top of whatever you brought out (our pick; the amount is TBD).
@@ -62,6 +63,8 @@ First pass (our pick, 2026-11-22), scaled from Apex Legends' replicators and War
 | Molotov | 15 | 6 s | |
 | Noisemaker decoy | 10 | 4 s | Draws players toward a sound |
 | Comeback | 75 | 10 s | Another redeploy from the [comeback duel](gameplay.md#comeback-fight) (owner's idea; the cost is our pick) |
+| Box saw | 30 | 8 s | Cuts deposit boxes open, about 5 s each ([Mini heists](match-flow.md#mini-heists)); our pick |
+| Cutting torch | 50 | 10 s | Cuts an armored van's back doors in about 60 s, or a sealed container in 10 s ([Mini heists](match-flow.md#mini-heists)); our pick |
 | Vault drill | 100 | 15 s | The other way into a [vault](match-flow.md#vaults-and-keys): a key is quick and quiet, a drill costs scrap and makes a heist of it (owner, 2026-11-24). It takes about 90 seconds, loud the whole time, and stops twice, so someone has to restart it by hand (our pick). Single use, carried in the backpack |
 
 The cheapest item to the most expensive is 10 to 100 scrap, close to Warzone's buy stations ($1,500 to $10,000). [Radar stations](match-flow.md#radar-stations) charge 50 scrap.

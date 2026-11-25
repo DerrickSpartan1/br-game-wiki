@@ -10,6 +10,9 @@ How the AI helpers split the work, and how to set them up. You talk to two of th
 
 Workers are Claude Code subagents: files in the game repo's `.claude/agents/` folder, each with its own instructions, tools, and memory. They report back to the lead, not to each other. If the team later needs workers that talk to each other or run side by side for long stretches, Claude Code's experimental agent teams are the next step ([AI team idea](idea-inbox.md#ai-team-of-workers)).
 
+
+Other people can help too, each with their own Claude, by invitation only ([Contributors](contributors.md), first pass, 2026-11-25).
+
 ## How work flows
 
 1. **You and the planner settle a design.** The planner writes it on the wiki and puts anything the lead should do in the To-do page's [For the lead](to-do.md#for-the-lead-claude-code) section, with a prompt where one helps.

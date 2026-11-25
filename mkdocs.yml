@@ -219,6 +219,7 @@ nav:
   - Planning:
       - To-do: planning/to-do.md
       - AI team: planning/ai-team.md
+      - Contributors: planning/contributors.md
       - Getting started: planning/getting-started.md
       - First steps in Unreal: planning/first-steps.md
       - Gun art and sound: planning/art-and-sound.md

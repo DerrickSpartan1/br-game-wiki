@@ -22,6 +22,7 @@ There's no separate lobby island: players spawn on the match's own map and wait 
 - **Jumping:** jump any time along the path. Anyone still aboard is pushed out near the end.
 - **Squads:** teammates can follow one player's jump and land together (our pick).
 - **Altitude and speed:** TBD.
+- **PUBG's, for reference:** one guide says you leave the plane at 1,500 m above sea level on its 8 × 8 km maps ([PUBG Intel: How to land first](https://www.pubgintel.com/tips/how-to-land-first-in-pubg)).
 
 ## Parachutes
 
@@ -40,6 +41,7 @@ Like PUBG, in third person, the one part of the game that is ([Gameplay](gamepla
 - **Under the canopy:** about 23 to 34 km/h forward, and up to about 80 km/h spiralling down.
 - **Holding W pushes you down (owner, 2026-11-25):** "and parachuting when holding w pushes you down like the dive holding w pushes downwards". In freefall, holding W is the dive. Under the canopy, holding W tips you forward and down, so you come down faster and land sooner, like PUBG; letting go levels you out, and holding S slows you for the longest glide (our pick, PUBG's way). The fastest way down under the canopy is the 80 km/h above.
 - **Level flight goes farther (owner, 2026-11-25):** "and the free fall should let you move horizontally more than the dive, same with the normal parachute". Not pushing down trades speed down for distance across, in freefall and under the canopy alike: the dive and W get you down; level flight gets you far. Our pick, as glide (meters forward for each meter down): level freefall about 1 to 1, the dive about 1 to 4, a level canopy about 3 to 1, and the canopy with W held about 1 to 1.
+    - **PUBG's glide (owner asked, 2026-11-25: "do we have pubgs glide ratio?"):** not published. Guides give speeds, not how fast you fall, so PUBG's glide can't be worked out from them. The nearest numbers: one guide says you leave the plane at 1,500 m above sea level on PUBG's 8 × 8 km maps, the chute opens at 250 m above sea level over flat ground, you drop about 75 to 100 m after it opens, a glide tops out at 54 km/h, and to land first you jump 700 to 750 m from your spot ([PUBG Intel: How to land first](https://www.pubgintel.com/tips/how-to-land-first-in-pubg)). The lead can measure the real glide from PUBG footage, timing the fall and the distance covered, the way it measured movement.
 - **Distance vs. speed:** opening the chute at the first chance covers the most ground; diving straight at a close target lands first. Both work like PUBG's.
 - **How far you can reach:** PUBG's guides give speeds but no distance from the path, so it's not published. The lead can measure it from PUBG footage the way it measured movement ([Measured from PUBG footage](handling.md#measured-from-pubg-footage)); ours should come out about a quarter farther.
 

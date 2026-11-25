@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): PUBG's glide isn't published; the nearest numbers from a guide, and a measuring item for the lead. Minimap playtest note for the lead |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): level flight goes farther, with first-pass glide ratios |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): holding W pushes you down under the canopy |
 | 2026-11-25 | [The plane](../systems/match-flow.md#the-plane): land rule without the middle; [Parachutes](../systems/match-flow.md#parachutes): a quarter faster than PUBG |

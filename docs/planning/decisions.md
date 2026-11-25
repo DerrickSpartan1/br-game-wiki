@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Level flight moves you across more than the dive, in freefall and under the canopy (owner); glide ratios our pick | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Holding W under the canopy pushes you down, like the dive in freefall (owner) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Plane paths: at least 5 km over land; parachute speeds a quarter above PUBG's (owner OK'd) | [The plane](../systems/match-flow.md#the-plane), [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Plane paths needn't pass the middle, only cross enough land (owner); at least 5 km (our pick). Parachuting works like PUBG's but faster and farther (owner); every speed a quarter above PUBG's (our pick) | [The plane](../systems/match-flow.md#the-plane), [Parachutes](../systems/match-flow.md#parachutes) |

@@ -29,6 +29,7 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Check-in problems:** the lead couldn't start its own check-in, so he types one `/loop` line after the lead adds its allow rules. The planner's task kept stopping for approval; the fix is Auto mode on the task.
 - **This page:** "we should also have a section for where these chats are saved to file for you guys rto reference."
 - **Still open:** the review page of 42 first passes; the never-pull choice; the planner task's Auto mode; the lead's allow rules and the `/loop` line.
+- **Evening status check (23:07):** "alright how ar things?" Both check-ins are running and answering each other within minutes. The cloud check-in that makes picks pages was found switched off (since about 15:10), so the queued questions haven't become a page yet; asked him whether to turn it back on. Nothing on the review page is answered yet.
 
 ### Lead chat
 

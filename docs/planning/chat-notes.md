@@ -66,7 +66,7 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
   - the female body's fixes;
   - all 28 melee looks and the defib;
   - the player parachute.
-- **In review at 08:00:** canted irons aiming (Alt + right mouse), both planes (the jump plane is a jet and the package plane a turboprop, per the Aircraft table), and the class item models.
+- **Also passed review and committed by 08:05:** canted irons aiming (Alt + right mouse), both planes (the jump plane is a jet and the package plane a turboprop, per the Aircraft table), and the class item models. All workers stopped, nothing locked, 53 game commits waiting on his push OK.
 - **Waiting on him:** round 9 on the form; the combat knife's in-hand pictures (a re-render over committed files was refused by the permission check, so it waits for his OK); pushing everything since the last push.
 
 ## 2026-11-23

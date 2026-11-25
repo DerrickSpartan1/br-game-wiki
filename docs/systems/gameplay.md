@@ -367,7 +367,7 @@ PUBG's Casual Mode (patch 13.2, 2022) is close: about 10 real players dropped in
 - **The match (owner, 2026-11-25):** the normal maps and rules: the zone, loot, heists, care packages, and the rest.
 - **Bot skill (owner, 2026-11-25):** you pick easy, normal, or hard before you press Play ([Bots](#bots)).
 - **Rewards (owner, 2026-11-25):** "yes but we would allow more or less cash and xp based on the difficulty. and the kills for gun mastery will count as 1/4 so you have to kill 4x the amount of bots to get those sorts of things done. scrap is still normal rate since its only used in game. and yes on the rules and maps are the same, and you can pick what you want. yes a key switch perspectives and aiming down sights is first person"
-    - **Cash and XP** scale with the bot skill you pick: more on hard, less on easy. Our pick: easy 50%, normal 75%, hard 100% of a normal match.
+    - **Cash and XP** scale with the bot skill you pick: more on hard, less on easy. Easy 50%, normal 75%, hard 100% of a normal match, kept for now (owner, 2026-11-25: "we will keep those percentages for now, depends on how cracked the hard bots are"); retune once the hard bots have been played against.
     - **Gun mastery:** a bot kill counts as a quarter of a kill, so mastery and other kill challenges take four times the bots ([Weapon mastery](skins.md#weapon-mastery)).
     - **Scrap** comes at the normal rate, since it's only used in the match.
     - **Our pick:** quests scale with the bot skill like cash, there's no ranked progress, and there's no daily limit.

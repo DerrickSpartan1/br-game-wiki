@@ -18,27 +18,28 @@ There's no separate lobby island: players spawn on the match's own map and wait 
 ## The plane
 
 - **Random path:** every match, the plane flies in from off the map and crosses it in a straight line between two random edges, like PUBG. The path shows on the map before the doors open.
-- **Over the island (owner, 2026-11-25, from a playtest):** "also just tested a match of our game and it gave me this drop, we will need a fix for this". In that match the plane ran east to west along the south edge, over open sea below Rybatsk, and crossed only the tip of its headland. A path has to cross the island, not skirt it. Our pick: it passes within 1.5 km of the island's middle and crosses at least 5 km of land; any other path is rolled again. Every plane that uses a random path follows this rule.
+- **Over the island (owner, 2026-11-25, from a playtest):** "also just tested a match of our game and it gave me this drop, we will need a fix for this". In that match the plane ran east to west along the south edge, over open sea below Rybatsk, and crossed only the tip of its headland. A path has to cross enough land, though not through the middle (owner, 2026-11-25: "it doesnt need to go through the middle but yes it needs some form amount of land, check pubgs info if there is any"). PUBG doesn't publish a rule; its support page only says "The direction of the plane is decided randomly" ([PUBG support](https://support.pubg.com/hc/en-us/articles/115004171353-Why-does-the-plane-come-from-different-directions-How-is-it-decided)). Erangel's island fills most of its square, so a random line there crosses plenty of land anyway; Teplov has more sea around it. Our pick: at least 5 km of the path over land, anywhere along it; any other path is rolled again. Every plane that uses a random path follows this rule.
 - **Jumping:** jump any time along the path. Anyone still aboard is pushed out near the end.
 - **Squads:** teammates can follow one player's jump and land together (our pick).
 - **Altitude and speed:** TBD.
 
 ## Parachutes
 
-Like PUBG, in third person, the one part of the game that is ([Gameplay](gameplay.md)).
+Like PUBG, in third person, the one part of the game that is ([Gameplay](gameplay.md)). It works like PUBG's, but faster and farther (owner, 2026-11-25: "we need parachuting to be like pubgs but i think you should be able to fly further and faster with our parachuting"). Our pick: every speed a quarter above PUBG's, so you also reach about a quarter farther from the path. PUBG's own numbers, for comparison: up to 126 km/h forward and 232 km/h diving in freefall, and 18 to 27 km/h forward and up to 64 km/h spiralling under the canopy ([PUBG fandom wiki: Parachute](https://pubg.fandom.com/wiki/Parachute), [PC Gamer](https://www.pcgamer.com/pubg-how-to-land-fast-battlegrounds)).
 
-- **Freefall:** up to about 126 km/h forward, or about 232 km/h diving straight down.
+- **Freefall:** up to about 158 km/h forward, or about 290 km/h diving straight down.
 - **Opening:** the chute opens on its own at a set height above the ground, earlier over high ground. You can open it sooner by hand.
 - **Opening height (owner, 2026-11-24):** 150 m above the ground under you, as in the game now. PUBG's is a set height too; one guide puts it at 300 m ([Appuals](https://appuals.com/playerunknowns-battlegrounds-skydiving-parachuting-guide/)), and it opens earlier over hills.
 - **Turning automatic opening off (owner, 2026-11-24):** a switch in Settings > Gameplay, "Open my parachute automatically," on by default. With it off, the chute doesn't open at 150 m, so you can fall lower and land sooner. You open it by hand any time down to 40 m, the last moment. If you never pull, you hit the ground at freefall speed and die (owner, 2026-11-24). That death is out for good even in a squad: you skip the knockdown, so no defib or revive, and your body holds your loot like any other (our pick, 2026-11-25, from the lead's review). The switch only changes your own jump.
 - **The freefall readout (owner, 2026-11-24; laid out like his PUBG screenshot of the same day):** two thin gauges either side of the middle of the screen, the way PUBG shows them now. PUBG's 2017–2018 version was a single height bar in the lower left with a white line where the chute would open; a later update split it into a height gauge and a speed gauge ([PC Gamer](https://www.pcgamer.com/uk/pubg-how-to-land-fast-battlegrounds), [PUBG fandom wiki](https://pubg.fandom.com/wiki/Parachute)). Ours uses our own lines, font, and colors.
     - **Height, on the left:** a tall scale labeled ALT, with a marker at your height above the ground under you and the number in meters in a box beside it ("1103 m"). It counts the ground, not the sea, so it drops fast over hills, and a small wave mark at the foot of the scale shows when you're over water.
     - **Marks on it:** a white line where the chute opens by itself (150 m, or not shown with automatic opening off) and an amber line at 40 m, the last moment to pull.
-    - **Speed, on the right:** a scale labeled SPD, with a tick every 10 km/h and numbers every 100, and your speed in km/h beside its marker ("147 km/h"): up to 126 forward, 232 diving, and 18 to 64 under the canopy.
+    - **Speed, on the right:** a scale labeled SPD, with a tick every 10 km/h and numbers every 100, and your speed in km/h beside its marker ("147 km/h"): up to 158 forward, 290 diving, and 23 to 80 under the canopy.
     - **Where you're headed:** your squad's map markers show on screen and on the compass with their distance in meters, and so do your squadmates, so you can steer to them.
     - **Under the canopy:** the gauge and speed stay up until you land.
-- **Under the canopy:** about 18 to 27 km/h forward, and up to about 64 km/h spiralling down.
+- **Under the canopy:** about 23 to 34 km/h forward, and up to about 80 km/h spiralling down.
 - **Distance vs. speed:** opening the chute at the first chance covers the most ground; diving straight at a close target lands first. Both work like PUBG's.
+- **How far you can reach:** PUBG's guides give speeds but no distance from the path, so it's not published. The lead can measure it from PUBG footage the way it measured movement ([Measured from PUBG footage](handling.md#measured-from-pubg-footage)); ours should come out about a quarter farther.
 
 ## Aircraft
 

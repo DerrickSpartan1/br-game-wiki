@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | Answered the lead's menu-line and leg armor questions on [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) and [Armor](../systems/armor.md) |
 | 2026-11-24 | Answered the lead's reconnect review questions on [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) |
 | 2026-11-24 | [Chat notes](chat-notes.md): past chats from October to 2026-11-23 written up from the decision log, changelog, and picks archive |
 | 2026-11-24 | New [Chat notes](chat-notes.md) page with today's planner chat; check-ins and the lead read it |

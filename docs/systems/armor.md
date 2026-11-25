@@ -13,7 +13,7 @@ Vests, helmets, and leg armor all come in the same three tiers, like PUBG's thre
 | 3 | 5–6 | Heavy rifle plates and full-face assault helmets | 55% |
 
 - **Damage reduction:** like PUBG: a piece's tier sets how much damage it stops. The numbers are PUBG's 2018 values for levels 1 to 3, as a starting point to tune. There are no loose plates to find or swap.
-- **Durability (planner's pick, 2026-11-23):** PUBG's 2018 numbers as a starting point: vests 200, 220, and 250 for tiers 1, 2, and 3; helmets 80, 150, and 230; leg armor 100, 110, and 125, half a vest's. Each hit takes the damage it would have done with no armor off the piece's durability (our pick). A piece stops its full share until it reaches 0, like PUBG's, then it breaks and stops nothing.
+- **Durability (planner's pick, 2026-11-23):** PUBG's 2018 numbers as a starting point: vests 200, 220, and 250 for tiers 1, 2, and 3; helmets 80, 150, and 230; leg armor 100, 110, and 125, half a vest's (the game reads the leg numbers once leg armor has its own slot; until then they wait, our pick, 2026-11-24). Each hit takes the damage it would have done with no armor off the piece's durability (our pick). A piece stops its full share until it reaches 0, like PUBG's, then it breaks and stops nothing.
 - **Legs:** leg armor has its own slot (owner, 2026-11-22; [Leg armor](#leg-armor-idea)).
 - **Makeshift upgrades:** armor can be upgraded half a tier, like a tier 1 helmet to a makeshift tier 1.5 or a tier 2 vest to a makeshift tier 2.5. Makeshift tiers have lower durability but can take one extra bullet. Upgrades are crafted in-match from scrap.
 - Players recover by [healing](healing.md).

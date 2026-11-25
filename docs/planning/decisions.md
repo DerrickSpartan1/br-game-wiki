@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Lead's menu-line questions (our picks): "Connection lost (too late to rejoin)" after the hold; a dead player who leaves sees their result, not "You left the match"; the Esc menu gets "Leave match" with a confirm for living players, counted as quitting; leg armor durability waits for the leg armor slot | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives), [Armor](../systems/armor.md) |
 | 2026-11-24 | Every chat with the owner gets a short dated note on Chat notes (not a transcript), written by the planner or the lead and read at every check-in (owner asked) | [Chat notes](chat-notes.md) |
 | 2026-11-24 | The game's code follows the Coding practices page (Epic's C++ standard plus our rules on comments, settings, server checks, logging, and tests), and the reviewer checks each code step against its checklist (owner asked) | [Coding practices](coding-practices.md) |
 | 2026-11-24 | Lead's reconnect review questions (our picks): a revivable squad body of a held player stays a body and the returning player spectates until revived; a held body revived after its hold ran out gets a fresh 2 minutes; quitting and losing the connection get different menu lines | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) |

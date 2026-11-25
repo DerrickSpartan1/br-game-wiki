@@ -57,6 +57,17 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Built today, waiting on his review (round 8):** bigger first circle and strike zones, backpack odds and carry weights from the wiki, the dotted throw arc, Esc closing screens first, armor worn not carried (defib in slot 4), bodies hold the loot with crates, hands that move with you and the melee ready hold.
 - **His PC setup:** Python 3.12 and the wiki's build packages installed with his OK; the planner's check-in task created in `C:\Dev\planner`; he added the lead's allow rules himself and started the lead's `/loop` check-in.
 - **Still open for him:** whether moving crouch and prone shots must match the server within 1 cm (they're within 5 cm now; still poses are within about 1 cm); pushing the newest commits.
+- **Overnight (owner's go-ahead):** "keep working through the night till 9am ish", "such as like other item models and stuff or map stuff", and "every time theres an update aslong as its before 9am EST/EDT youre good to work". He also said "sorry i had to close the programs they are open now" when Blender and Unreal were closed mid-run.
+- **Built overnight, reviewed and committed:**
+  - attachment models on the M4A1, with open sight tubes and no flash when suppressed;
+  - attachment effects from the wiki's table, with the planner's readings;
+  - a cosmetic gun kick per shot;
+  - first-person placement to the wiki (fists in the bottom fifth, gun lower at the hip);
+  - the female body's fixes;
+  - all 28 melee looks and the defib;
+  - the player parachute.
+- **In review at 08:00:** canted irons aiming (Alt + right mouse), both planes (the jump plane is a jet and the package plane a turboprop, per the Aircraft table), and the class item models.
+- **Waiting on him:** round 9 on the form; the combat knife's in-hand pictures (a re-render over committed files was refused by the permission check, so it waits for his OK); pushing everything since the last push.
 
 ## 2026-11-23
 

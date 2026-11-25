@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Shared flights: up to 3 loads a flight, dropped at least 800 m apart (owner OK'd) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | The money drop and vehicle drops can ride the care package plane with other drops, each dropped at its own point along the path (owner); up to 3 loads a flight, 800 m apart (our pick) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | More than one pickup biplane can be out at once (owner); up to 3 (our pick) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | Each kind of aircraft flies at its own height, so different kinds can be out at the same time, but only one of each kind (owner) | [Aircraft](../systems/match-flow.md#aircraft) |

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): silent, on the map, picked up by a plane |
 | 2026-11-25 | [Mini heists](../systems/match-flow.md#mini-heists): eight more heists kept, gold carriers off the map, the [cash balloon](../systems/crafting.md#what-a-workbench-makes) at 150 scrap |
 | 2026-11-25 | [Mini heists](../systems/match-flow.md#mini-heists): the owner's picks, [gold bars](../systems/match-flow.md#gold-bars), [paintings](../systems/match-flow.md#paintings), the diamond store, alarms on the map, robot drop pods, the cash balloon at workbenches, and more ideas from ROB RUN |
 | 2026-11-24 | [Mini heists](../systems/match-flow.md#mini-heists): sealed containers, the van's gear, and eight more ideas |

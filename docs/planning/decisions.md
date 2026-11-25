@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | The tactical stock fits the pistol/SMG and AR/LMG/battle rifle families, like PUBG, on guns whose page lists it (our pick, from the lead's question) | [Attachment slots](../systems/attachments.md#attachment-slots) |
 | 2026-11-25 | Landing with no chute open is out for good even in a squad: no knockdown, no defib or revive (our pick, from the lead's review) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Bots backfill normal matches only; ranked has no bots and may search longer, maybe with a cutoff to start short (owner) | [Normal and ranked](../systems/gameplay.md#ranked) |
 | 2026-11-25 | Casual mode: quests scale with bot skill, no ranked progress, no daily limit. Matchmaking: normal mode is random players with no SBMM; ranked mode uses SBMM (owner) | [Casual mode](../systems/gameplay.md#casual-mode), [Modes](../systems/gameplay.md#ranked) |

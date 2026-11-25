@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Attachment slots](../systems/attachments.md#attachment-slots): the tactical stock fits pistols/SMGs and ARs/LMGs (answered the lead's question) |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): a no-chute landing skips the knockdown, out for good (answered the lead's question) |
 | 2026-11-25 | [Hits and lag](../systems/servers.md#hits-and-lag): how Counter-Strike, Valorant, Apex, and Overwatch rewind and cap it; the rewind cap and thrown melee after the match queued for the owner |
 | 2026-11-25 | [Normal and ranked](../systems/gameplay.md#ranked): bot backfill in normal only; the ranked cutoff idea |

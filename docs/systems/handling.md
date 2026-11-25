@@ -186,7 +186,7 @@ The lead measured PUBG's movement frame by frame from Training Mode recordings (
 | Walk | 1.77 m/s | 1.7 m/s | 0.37 |
 | Prone | 1.2 m/s | 1.2 m/s | 0.25 |
 
-The two agree within about 3%; the footage reads a little faster at sprint and jog. The game keeps the published table (owner, 2026-11-25: "okay if our numbers are right good. i am trying to recreate the feel"). Two separate sources agreeing that closely says the numbers are right, and 30 fps footage can't split a few percent. The goal is PUBG's feel, so playtests tune toward it, and the footage covers everything the published numbers don't:
+The two agree within about 3%; the footage reads a little faster at sprint and jog. The game keeps the published table (owner, 2026-11-25: "okay if our numbers are right good. i am trying to recreate the feel"). Two separate sources agreeing that closely says the numbers are right, and 30 fps footage can't split a few percent. The goal is PUBG's feel, recreated from the outside, without decompiling the game (owner, 2026-11-25; [Legal review](../planning/legal-review.md#pubg-look-and-feel)), so playtests tune toward it, and the footage covers everything the published numbers don't:
 
 - **Speeding up and stopping:** about 0.4 s to full sprint. Stopping from a sprint takes about 0.5 s, with a lean-back braking animation. Walking starts and stops instantly.
 - **Stance changes:** standing to crouched takes about 0.4 s each way; crouched to prone about 0.7 s each way, so going prone is a commitment. The first-person camera glides between heights rather than snapping.

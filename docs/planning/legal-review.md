@@ -67,6 +67,7 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | Care package with a flashing light and red smoke | Our own look and signal | Decided |
 | Every PUBG vehicle | Our own vehicles, picked per map; PUBG's lineup is an idea list | Decided |
 | PUBG's name in marketing | Never used | Decided |
+| PUBG's feel (movement, handling, timings) | Recreated from outside only: published community numbers and our own measurements of gameplay footage, never by decompiling, datamining, or copying PUBG's files or code (owner, 2026-11-25: "without decompiling the game lol"; [Measured from PUBG footage](../systems/handling.md#measured-from-pubg-footage)) | Decided |
 | Erangel's zone phase numbers | Placeholders to test in game; our own numbers come from play tests | Later |
 | PUBG's 2017–2018 HUD | Our own look; the layout can stay similar where it's practical | To do with the HUD mockups |
 | PUBG's yellow accent on dark menus and the yellow compass heading | Our own accent: field lime, the compass heading too (owner, 2026-11-24; [HUD and inventory](../systems/gameplay.md#hud-and-inventory)) | Done |

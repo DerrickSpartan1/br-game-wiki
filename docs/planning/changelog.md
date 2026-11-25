@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): canopy speed and hands-off canopy time reworded to match the gauge retune (answer to the lead); [To-do](to-do.md#for-the-lead-claude-code): the retune commit not on GitHub yet |
 | 2026-11-25 | [To-do](to-do.md#for-the-lead-claude-code): statuses from the game repo: the minimap and the melee swing time and two-handed looks built, waiting on review; the parachute commit on GitHub, its retune still with the lead |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): the speed readout shows total speed, W in freefall, and the canopy placeholders (answers to the lead's questions, our picks) |
 | 2026-11-25 | Round 11 picks filed: about half the big heists live, 6 to 8 a match ([Mini heists](../systems/match-flow.md#mini-heists)); page archived in the [Picks archive](picks-archive.md#round-11-2026-11-25) |

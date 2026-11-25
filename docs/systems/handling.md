@@ -22,7 +22,7 @@ Per category. Each version uses its category's numbers until play testing says o
 - **Ready time** is the time from pressing the slot key until the gun can fire. PUBG's ready delay was 0.4 s for the AKM, Groza, SKS, Mk14, and DP-28 and 0.5 s for everything else in the table, pistols included.
 - **ADS time** isn't in PUBG's data. These are our picks, ordered by the roles: pistols and SMGs fastest, LMGs slowest.
 - **Sprint speed** is with that gun in hand, before [armor](armor.md#vests) slowdown. Running, walking, crouching, and crawling scale the same way as PUBG's (table below).
-- **Recoil** stays random every shot ([Rules](../rules.md)); each gun's climb, drift, and settle speed come later, gun by gun.
+- **Recoil** stays random every shot ([Rules](../rules.md)); each gun's climb and drift come later, gun by gun. There's no settling back after a burst, and kicks are strong, like PUBG (owner, 2026-11-25, [Rules](../rules.md)).
 
 ### Weapon sway
 

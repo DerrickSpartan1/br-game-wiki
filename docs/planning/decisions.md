@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | A no-chute landing knocks you down in a squad instead of killing you (owner). Recoil doesn't settle back by itself and kicks are strong, like PUBG (owner). Canted irons fit scopes from 4x up (owner). Our picks from the round 9 playtest: boost icons left of the health bar, one shared melee swing time up to 1.0 s, the two-handed melee list, real-size packs with the cash bag under them, the angled grip's facing, no scope zoom through canted irons, one range item menu, stairs by building type | [Parachutes](../systems/match-flow.md#parachutes), [Rules](../rules.md), [Attachments](../systems/attachments.md), [Gameplay](../systems/gameplay.md), [Armor](../systems/armor.md#backpacks), [Maps](../systems/maps.md) |
 | 2026-11-25 | Level flight moves you across more than the dive, in freefall and under the canopy (owner); glide ratios our pick | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Holding W under the canopy pushes you down, like the dive in freefall (owner) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Plane paths: at least 5 km over land; parachute speeds a quarter above PUBG's (owner OK'd) | [The plane](../systems/match-flow.md#the-plane), [Parachutes](../systems/match-flow.md#parachutes) |

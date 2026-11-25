@@ -28,7 +28,7 @@ Sustained fire never costs accuracy. The G36's real overheating problem is flavo
 
 No fixed, learnable spray patterns. Each gun's recoil is randomized so it's felt rather than memorized.
 
-The randomness sits inside each gun's own personality: every gun has tendencies (how hard it climbs, how far it drifts sideways, how fast it settles), but the exact path is random every time. Real details like the AK-74's muzzle brake, the AK-107's balanced action, or the AN-94's tight first two shots shape those tendencies.
+The randomness sits inside each gun's own personality: every gun has tendencies (how hard it climbs and how far it drifts sideways), but the exact path is random every time. The view doesn't settle back down by itself after shooting: you pull it down, and kicks are strong, like PUBG (owner, 2026-11-25, round 9 playtest: "shouldnt settle by itself", "much stronger like pubg"). Each gun's kick sizes are tuned by eye to PUBG footage, since PUBG doesn't publish them. Real details like the AK-74's muzzle brake, the AK-107's balanced action, or the AN-94's tight first two shots shape those tendencies.
 
 ## Open-bolt delay
 

@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | Answered the lead's round 9 playtest questions: [Parachutes](../systems/match-flow.md#parachutes) (no-chute knockdown in squads), [Rules](../rules.md) and [Handling](../systems/handling.md) (no recoil settling), [Gameplay](../systems/gameplay.md) (boost icons, first-person pass, melee swing time and two-handed list, range menu), [Attachments](../systems/attachments.md) (angled grip, canted irons with scopes), [Backpacks](../systems/armor.md#backpacks), [Cash](../systems/crafting.md#cash), [Maps](../systems/maps.md) (stairs) |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): PUBG's glide isn't published; the nearest numbers from a guide, and a measuring item for the lead. Minimap playtest note for the lead |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): level flight goes farther, with first-pass glide ratios |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): holding W pushes you down under the canopy |

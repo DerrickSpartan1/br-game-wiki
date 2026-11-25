@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Each kind of aircraft flies at its own height, so different kinds can be out at the same time, but only one of each kind (owner) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | The cash balloon's pickup plane is a small plane; comeback winners come back by helicopter, like PUBG's on Taego; every aircraft in a match is listed in one place (owner) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | Cutting a cash balloon's line takes about 10 s (owner) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-25 | Anyone who reaches someone else's cash balloon can put their own cash in it or cut the line and take it all; pickup planes get a limit on how many are out at once, with no cap a match (owner); one at a time (our pick) | [Mini heists](../systems/match-flow.md#mini-heists) |

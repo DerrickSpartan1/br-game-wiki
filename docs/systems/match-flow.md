@@ -55,7 +55,8 @@ Everything that flies over a match, in one place (owner, 2026-11-25): "we need t
 | [Zhuravl](gameplay.md#vehicles-and-water) | The motor glider, a player vehicle | A two-seat motor glider | Like a vehicle | Like any vehicle |
 
 - **On the map:** the jump plane's path shows before the doors open; cash balloons show like alarms (owner). The other aircraft don't show; you hear them and see where they drop (our pick).
-- **One at a time where it matters:** only the pickup plane has a limit on how many are out at once (owner). The match times the others so two never fly over at once (our pick).
+- **One of each (owner, 2026-11-25):** "im assuming since the different planes fly at different levels they can be out at the same time but only one of each?" Each kind flies at its own height, so different kinds can be out at the same time, but never two of the same kind. A drop or balloon that needs a kind already in the sky waits for it to leave. The money drop shares the package plane, and the emergency redeploy shares the pickup plane, so each waits its turn behind the other.
+- **Heights (our pick), top to bottom:** the jump plane highest (its exact height is still TBD on [The plane](#the-plane)), the bombers about 600 m, the package plane about 300 m (owner OK'd), the helicopter about 200 m, and the pickup plane about 100 m, low enough to snag a balloon's line.
 - **Names and looks:** shapes only, from real aircraft. No maker names, markings, or real designations in the game ([Legal review](../planning/legal-review.md)).
 
 ## The zone

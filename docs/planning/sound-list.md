@@ -146,12 +146,12 @@ Every family gets its own set. The shot itself is layered (mechanical, report, t
 | Jumping out, freefall wind (by speed), the chute opening, canopy flapping | You (the chute opening: 50 m) |
 | The care package plane: a deep four-engine drone ([Care packages](../systems/match-flow.md#care-packages)) | 1,500 m |
 | The crate falling out, landing, and its green smoke hissing | 300 m (landing), 30 m (smoke) |
-| The pickup plane: a small biplane's rattling radial engine, a low pass, and the snag of the line; the balloon itself is silent (owner, 2026-11-25; [Aircraft](../systems/match-flow.md#aircraft)) | 1,000 m (our pick) |
-| The comeback helicopter: rotor thump and turbine whine ([Aircraft](../systems/match-flow.md#aircraft)) | 1,000 m (our pick) |
-| The firebombing jets' pass | Across the circle (our pick) |
+| The pickup plane: a small biplane's rattling radial engine, a low pass, and the snag of the line; the balloon itself is silent (owner, 2026-11-25; [Aircraft](../systems/match-flow.md#aircraft)) | 1,000 m (owner OK'd) |
+| The comeback helicopter: rotor thump and turbine whine ([Aircraft](../systems/match-flow.md#aircraft)) | 1,000 m (owner OK'd) |
+| The firebombing jets' pass | Across the circle (owner OK'd) |
 | Heist alarms: shop bells, the bank's alarm, the vans' sirens (each also shows on the map) | 300 m |
 | The vault drill running, and its stop | 300 m (our pick) |
-| Robot drop pods coming down and opening | 300 m (our pick) |
+| Robot drop pods coming down and opening | 300 m (owner OK'd) |
 | The edge: a hum near it, a crackle inside, a soft thump on each damage tick, a low tone when a shrink starts ([The edge](../systems/match-flow.md#the-edge-how-it-looks)) | Hum 50 m; the tick and the tone, you |
 | Strike zones: the air raid siren ([Red zones](../systems/match-flow.md#red-zones)) | The circle and 300 m past it |
 | Strike zones: shell whistle and explosion, the creeping barrage, the bombers' pass, fire, gas hissing, and the EMP crackle | 1,000 m (shells and bombers), 50 m (fire, gas, EMP) |

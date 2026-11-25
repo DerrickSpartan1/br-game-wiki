@@ -1,0 +1,1500 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Planner Picks Round 10</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: the same requisition sheet as the earlier picks pages: grouped questions, option cards, a comment box on each. */
+:root {
+  --paper: #e9e7df; --sheet: #f6f5f0; --ink: #23271f; --muted: #5d6356; --rule: #cfcdc2;
+  --olive: #4a5a2c; --olive-soft: #dfe4d2; --pick: #2f6b3a; --pick-soft: #d8eadb; --focus: #4a5a2c; --warn: #a3322a;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+    --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; --warn: #e0786f; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #171a14; --sheet: #20241c; --ink: #e6e8df; --muted: #a3a998; --rule: #353a2e;
+  --olive: #a9bd7c; --olive-soft: #2d3524; --pick: #7fc98b; --pick-soft: #1f3523; --focus: #a9bd7c; --warn: #e0786f; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 64px; }
+.wrap { max-width: 920px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 6vw, 44px); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 64ch; }
+header { display: flex; flex-direction: column; gap: 10px; }
+.bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.save { font-size: 13px; color: var(--muted); }
+.save.warn { color: var(--warn); }
+.group { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.group h2 { margin: 0; padding: 10px 16px; font-family: var(--font-display); font-weight: 600; font-size: 21px; letter-spacing: .04em; text-transform: uppercase; background: var(--olive-soft); color: var(--olive); border-bottom: 1px solid var(--rule); }
+.q { display: flex; flex-direction: column; gap: 10px; padding: 14px 16px; }
+.q + .q { border-top: 1px solid var(--rule); }
+.ask { font-weight: 600; }
+.ctx { font-size: 13.5px; color: var(--muted); margin: -4px 0 0; max-width: 72ch; }
+.ctx a { color: var(--olive); white-space: nowrap; }
+.opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.opts.tight { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.opt { display: flex; gap: 10px; align-items: flex-start; text-align: left; width: 100%; font: 14px var(--font-body); color: var(--ink); background: transparent; border: 1.5px solid var(--rule); border-radius: 6px; padding: 10px; cursor: pointer; min-width: 0; }
+.opts.tight .opt { padding: 10px 8px; }
+.opt:hover { border-color: var(--muted); }
+.opt[aria-checked="true"] { border-color: var(--pick); background: var(--pick-soft); }
+.dot { flex: 0 0 16px; height: 16px; margin-top: 2px; border-radius: 50%; border: 2px solid var(--muted); }
+.opt[aria-checked="true"] .dot { border-color: var(--pick); background: var(--pick); box-shadow: inset 0 0 0 3px var(--pick-soft); }
+.txt { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.name { font-weight: 600; }
+.why { font-size: 13px; color: var(--muted); }
+.tag { display: inline-block; margin-left: 6px; font: 600 11px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--olive); border: 1px solid var(--olive); border-radius: 3px; padding: 0 5px; vertical-align: 1px; }
+.ctoggle { align-self: flex-start; font: 500 13px var(--font-body); color: var(--olive); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: 14px var(--font-body); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; }
+button:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.copy { font: 600 14px var(--font-body); background: var(--olive); color: var(--sheet); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+.copy.ghost { background: transparent; color: var(--olive); border: 1.5px solid var(--olive); }
+#fallback { width: 100%; min-height: 160px; }
+@media (max-width: 480px) { .opts.tight { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: no-preference) { .opt { transition: background .12s, border-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Teplov battle royale · picks, 2026-11-25</div>
+    <h1>Heists, aircraft, and a few loose ends</h1>
+    <p class="lede">43 calls queued since the last page: shared first place, ranked, the rewind cap, thrown melee, attachment numbers, the mini heists' details, and the aircraft. Our suggestion is marked on each. Tap a choice, and for Change it, say what in the comment box. Answers save as you go. Each question links to its wiki section; the aircraft ones also link reference photos.</p>
+    <div class="bar">
+      <button class="copy ghost" id="okall" type="button">OK every suggestion I haven't answered</button>
+      <span class="save" id="save" aria-live="polite">Loading saved answers</span>
+    </div>
+  </header>
+
+  <main id="sheet" style="display:flex;flex-direction:column;gap:20px"></main>
+
+  <div class="foot">
+    <button class="copy" id="copy" type="button">Copy my answers</button>
+    <span id="copy-status">Copies a short list you can paste into the chat.</span>
+  </div>
+</div>
+
+<script>
+const GROUPS = [
+ {
+  "title": "End of a match, ranked, and hits",
+  "qs": [
+   {
+    "id": "shared_first",
+    "ask": "Shared first place",
+    "ctx": "If the last two squads go out in the same moment (one strike zone shell, a grenade trade), they share first place. What does that count as?",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#knockdowns-revives",
+    "opts": [
+     [
+      "both",
+      "A win for both",
+      "",
+      "Both squads get the win, the end screen, and win stats.",
+      true
+     ],
+     [
+      "none",
+      "No winner",
+      "",
+      "Both get second place; nobody wins that match.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "ranked_cutoff",
+    "ask": "Ranked: start a short lobby after a wait?",
+    "ctx": "Normal games fill empty spots with bots and ranked never does (your call). Should a ranked search that can't fill start anyway after a while?",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#ranked",
+    "opts": [
+     [
+      "3min64",
+      "Yes, after 3 minutes with at least 64 players",
+      "",
+      "Keeps ranked queues moving at quiet hours without bots.",
+      true
+     ],
+     [
+      "never",
+      "No, ranked always waits for a full lobby",
+      "",
+      "Fair, but slow when few people are on.",
+      false
+     ],
+     [
+      "other",
+      "Yes, with another time or count",
+      "",
+      "Say which in the comment box.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "rewind_cap",
+    "ask": "Lag rewind cap",
+    "ctx": "How far back the server rewinds to check a hit. You OK'd 200 ms. Valorant launched with 200 ms and cut it to 140 ms in 2023 so players stop getting hit after reaching cover; Counter-Strike uses 200 ms.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/servers/#hits-and-lag",
+    "opts": [
+     [
+      "200",
+      "Keep 200 ms, as a setting to tune",
+      "",
+      "A battle royale has a wider spread of pings; tune after internet playtests.",
+      true
+     ],
+     [
+      "140",
+      "Go to 140 ms",
+      "",
+      "Fewer hits behind cover; high-ping players have to lead more.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Melee and attachments",
+  "qs": [
+   {
+    "id": "thrown_after",
+    "ask": "Someone else's thrown melee: keep it after the match?",
+    "ctx": "Anyone who picks up a thrown melee weapon keeps it for that match. Owned melee is unlocked through seasons, challenges, and mastery.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/gameplay/#melee",
+    "opts": [
+     [
+      "match",
+      "Only for the rest of that match",
+      "",
+      "Next match everyone has their own pick again; nobody gains or loses an unlock.",
+      true
+     ],
+     [
+      "forever",
+      "They own it for good",
+      "",
+      "Picking up someone's rare melee unlocks it for you.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "attach_numbers",
+    "ask": "Attachment numbers PUBG doesn't give",
+    "ctx": "The half, thumb, and light grips, the laser's hip spread, the duckbill's spread, suppressor loudness, and scope aim times. The lead's placeholders: a suppressor at a quarter of the shot's loudness (0.3 on shotguns); scopes from 1.1x the iron-sight aim time at 2x up to 1.4x at 15x.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/attachments/#effects-first-pass-from-pubg",
+    "opts": [
+     [
+      "keep",
+      "Keep the placeholders and tune by feel",
+      "",
+      "Set them from the first playtests.",
+      true
+     ],
+     [
+      "own",
+      "I'll set my own",
+      "",
+      "Put your numbers in the comment box.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Mini heists: the first-pass heists",
+  "qs": [
+   {
+    "id": "h_jewelry",
+    "ask": "Jewelry store",
+    "ctx": "A shop in a big town or town. Smash the display cases (loud glass) and grab the valuables. The alarm rings 60 s. In and out in under a minute.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_diamond",
+    "ask": "Diamond store details",
+    "ctx": "Gavansk's main street, one store (your idea). Smash the front cases for loose stones, then cut the back room's safe in about 30 s with a cutting torch. The alarm rings from the first broken case. Diamonds weigh nothing, unlike gold bars, and are the most valuable loot for their size.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_bank",
+    "ask": "Bank job details",
+    "ctx": "Gavansk and Vetrovo's banks. Vault key: quick and quiet. Vault drill (made from scrap): about 45 s, loud, stops once and has to be restarted by hand. Robot guards inside. Pays the most cash and valuables, the gold bars, and a small chance of a crate weapon.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_deposit",
+    "ask": "Deposit boxes",
+    "ctx": "The post office in each big town. Cut boxes open one at a time with a breaching tool or a box saw, about 5 s each, loud. Each box rolls cash, valuables, quest items, or rarely a vault key.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_van",
+    "ask": "Armored van",
+    "ctx": "Broken down on a road, rolled each match. Blow the back doors with a breaching charge or cut them in about 30 s with a cutting torch. The alarm wails the whole time. Pays cash sacks and the guards' locker of guns and armor.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_exchange",
+    "ask": "Exchange office details",
+    "ctx": "A storefront in a big town. Cash registers ring open; the back-room safe takes about 10 s with your built-in tools. Quiet. Pays cash.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_exchange_name",
+    "ask": "Exchange office: its name in the game",
+    "ctx": "PUBG's Payday mode has a heist called The Exchange, so we'd rather not lean on that word.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "changer",
+      "Money changer",
+      "",
+      "Plain, and nothing like PUBG's name.",
+      true
+     ],
+     [
+      "exchange",
+      "Exchange office",
+      "",
+      "Generic, but close to PUBG's The Exchange.",
+      false
+     ],
+     [
+      "other",
+      "Something else",
+      "",
+      "Say what in the comment box.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_containers",
+    "ask": "Sealed containers",
+    "ctx": "Gavansk Port's container quay. Cut a seal with your wire cutters in about 5 s. 5 containers a match, 1 or 2 with valuables; the rest hold gear (guns, armor, attachments), sometimes a crate weapon.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Mini heists: how they run",
+  "qs": [
+   {
+    "id": "h_count",
+    "ask": "3 or 4 big heists live a match",
+    "ctx": "Each match rolls 3 or 4 of the big heists to be live; the rest stay locked and dark. The small scores (ATMs, the courier car, villas, the farm payroll) are always there. A live heist isn't on the map until its alarm goes off.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_alarms",
+    "ask": "Which heists ring, and for how long",
+    "ctx": "Loud: the jewelry and diamond stores, the bank with a drill, the museum, deposit boxes, both vans, the police evidence room, ATMs, the show car. Quiet: a vault opened with a key, the exchange office safe, the farm payroll, sealed containers, the courier car, the yacht safe, the paymaster's safe, villas. The drill's and the vans' alarms ring until the heist is done; the rest ring 60 s from the last loud thing. Heard about 300 m away, and shown on the map while ringing (your call).",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_robots",
+    "ask": "Robot pods",
+    "ctx": "The bank job, the diamond store, and the museum call robots about 60 s after the alarm starts. 2 pods for the bank, 1 for the others, one robot to a pod (your call).",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_gold",
+    "ask": "Gold bar numbers",
+    "ctx": "4 bars in each bank vault. Each makes you 5% slower, so all four is 20% slower. Banking or dropping a bar takes its slowdown off.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#gold-bars",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "h_paintings",
+    "ask": "Paintings and the utility knife",
+    "ctx": "In the castle museum and a few villas. Cut one out in about 5 s with the utility knife every player carries; it rolls into the cash bag with no weight. Each rolls its worth; the museum's masterpiece is worth about a gold bar. Cutting is quiet.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#paintings",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Mini heists: the cash balloon",
+  "qs": [
+   {
+    "id": "b_cost",
+    "ask": "The balloon costs 150 scrap",
+    "ctx": "You wanted it to cost more so it can't be spammed. 150 makes it the most expensive thing at a workbench (it was 50).",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "b_timing",
+    "ask": "About 15 s to rise, the plane 30 s later",
+    "ctx": "So it can be shot down for about 45 s in all. Silent, shown on the map like an alarm (your call); the plane is what everyone hears.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "b_one",
+    "ask": "One balloon per player a match",
+    "ctx": "Each player can send up one cash balloon a match.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "b_planes",
+    "ask": "Up to 3 pickup planes out at once",
+    "ctx": "No cap on pickups a match, only on planes in the sky together. A balloon set up while all 3 are out waits its turn, and the wait shows at the workbench and on the balloon.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "b_banks_to",
+    "ask": "Each player's cash banks to whoever put it in",
+    "ctx": "When someone adds their cash to another player's balloon, each player's cash banks to them, not to the balloon's owner.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#mini-heists",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Mini heists: the eight new ideas' details",
+  "qs": [
+   {
+    "id": "i_evidence",
+    "ask": "Police evidence room",
+    "ctx": "Each big town's police station keeps confiscated guns and armor behind a cage: cut it in about 20 s with a cutting torch, and its alarm rings. Pays gear, sometimes a crate weapon.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_atm",
+    "ask": "ATMs",
+    "ctx": "Cash machines on town streets: blow one open with a breaching charge for a small stack of cash. Loud, with an alarm.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_courier",
+    "ask": "Courier car",
+    "ctx": "A parked car, rolled each match, with a locked case in the trunk: pry the trunk and crack the case in about 10 s. Quiet.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_showcar",
+    "ask": "Show car",
+    "ctx": "Later, with vehicles: a rare car on display in the Sanatorium's main hall. Break the glass and drive it out; leaving it at a drop-off banks a big payout.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_yacht",
+    "ask": "Yacht safe",
+    "ctx": "A yacht moored at Marina's pier with a wall safe and a painting or two, reached only from the pier or the water.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_paymaster",
+    "ask": "Paymaster's safe",
+    "ctx": "Object 7's headquarters keeps the base's payroll. Quiet, but deep inside the fence and towers.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_villas",
+    "ask": "Villas",
+    "ctx": "A few hillside villas with a wall safe and paintings; the safe opens with a box saw.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_moneydrop",
+    "ask": "Money drop",
+    "ctx": "A match event like the care package: the package plane drops a crate of cash and valuables with its own smoke color. Everyone sees it fall.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_tipoffs",
+    "ask": "Tip-offs",
+    "ctx": "Notes found as loot that mark one live heist on your map, like Payday's intel.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "keep",
+      "Keep them",
+      "",
+      "Gives a reason to loot paper and a head start on a heist.",
+      true
+     ],
+     [
+      "drop",
+      "Drop them",
+      "",
+      "Finding live heists stays all on foot.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "i_ferry",
+    "ask": "Ferry strongroom",
+    "ctx": "The ferry at Gavansk's ferry quay has a purser's strongroom: a safe and the passengers' valuables lockers. Needs a ferry in the building kit.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#more-ideas",
+    "opts": [
+     [
+      "keep",
+      "Keep it",
+      "",
+      "One more water-side heist, like the yacht.",
+      true
+     ],
+     [
+      "drop",
+      "Drop it",
+      "",
+      "One less big model to build.",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Aircraft",
+  "qs": [
+   {
+    "id": "a_jump",
+    "ask": "Jump plane looks like a four-engine jet transport",
+    "ctx": "Like an Il-76: high and fast, a different shape from the package plane so nobody mixes them up. Shapes only, no real names or markings.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ],
+    "ref": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
+    "reflabel": "Il-76 photos"
+   },
+   {
+    "id": "a_package",
+    "ask": "Package plane looks like a four-engine turboprop",
+    "ctx": "Like an An-12, about 300 m up (height already OK'd).",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ],
+    "ref": "https://en.wikipedia.org/wiki/Antonov_An-12",
+    "reflabel": "An-12 photos"
+   },
+   {
+    "id": "a_pickup",
+    "ask": "Pickup plane is a single-engine biplane",
+    "ctx": "Like an An-2: slow and low, with a rattling radial engine. It snags cash balloons (your small plane).",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ],
+    "ref": "https://en.wikipedia.org/wiki/Antonov_An-2",
+    "reflabel": "An-2 photos"
+   },
+   {
+    "id": "a_heli",
+    "ask": "Comeback helicopter looks like a twin-engine transport helicopter",
+    "ctx": "Like a Mi-8, with a rotor thump you feel more than hear.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ],
+    "ref": "https://en.wikipedia.org/wiki/Mil_Mi-8",
+    "reflabel": "Mi-8 photos"
+   },
+   {
+    "id": "a_bombers",
+    "ask": "Bombers are a pair of low, fast jets",
+    "ctx": "Like the Su-24. They fly the firebombing strike zone's pass, after the siren.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ],
+    "ref": "https://en.wikipedia.org/wiki/Sukhoi_Su-24",
+    "reflabel": "Su-24 photos"
+   },
+   {
+    "id": "a_heard",
+    "ask": "How far each aircraft is heard",
+    "ctx": "The jump plane by everyone near its path; the package plane 1,500 m; the pickup plane and the helicopter 1,000 m; the bombers across the circle; robot drop pods 300 m.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "a_redeploy",
+    "ask": "The pickup plane also takes the emergency redeploy balloon",
+    "ctx": "It shares the limit of 3 pickup planes out at once, so a redeploy waits its turn behind cash balloons.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "a_heli_jump",
+    "ask": "Comeback winners jump from the helicopter with parachutes",
+    "ctx": "It flies over the safe area and they jump out, as from the jump plane.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "a_map",
+    "ask": "Which aircraft show on the map",
+    "ctx": "The jump plane's path shows before the doors open, and cash balloons show like alarms (your calls). The others don't show: you hear them and see where they drop.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   },
+   {
+    "id": "a_heights",
+    "ask": "Flying heights",
+    "ctx": "Top to bottom: the jump plane highest (exact height still TBD), the bombers about 600 m, the package plane about 300 m (OK'd), the helicopter about 200 m, the pickup plane about 100 m, low enough to snag a balloon's line.",
+    "link": "https://derrickspartan1.github.io/br-game-wiki/systems/match-flow/#aircraft",
+    "opts": [
+     [
+      "ok",
+      "OK",
+      "",
+      "",
+      true
+     ],
+     [
+      "change",
+      "Change it",
+      "",
+      "",
+      false
+     ],
+     [
+      "later",
+      "Decide later",
+      "",
+      "",
+      false
+     ]
+    ]
+   }
+  ]
+ }
+];
+const QS = GROUPS.flatMap(g => g.qs);
+const answers = {};
+let db = null;
+const queues = {};
+const $ = id => document.getElementById(id);
+function enqueue(k, fn) { const n = (queues[k] || Promise.resolve()).catch(() => {}).then(fn); queues[k] = n; return n; }
+function setSave(t, w) { const el = $("save"); el.textContent = t; el.classList.toggle("warn", !!w); }
+function labelFor(id, oid) { const q = QS.find(x => x.id === id); const o = q && q.opts.find(x => x[0] === oid); return o ? o[1] : oid; }
+
+function build() {
+  GROUPS.forEach(g => {
+    const box = document.createElement("section"); box.className = "group";
+    const h = document.createElement("h2"); h.textContent = g.title; box.appendChild(h);
+    g.qs.forEach(q => {
+      const row = document.createElement("div"); row.className = "q"; row.dataset.id = q.id;
+      const a = document.createElement("div"); a.className = "ask"; a.id = "ask-" + q.id; a.textContent = q.ask; row.appendChild(a);
+      const c = document.createElement("p"); c.className = "ctx"; c.textContent = q.ctx + " ";
+      if (q.link) { const l = document.createElement("a"); l.href = q.link; l.target = "_blank"; l.rel = "noopener noreferrer"; l.textContent = "On the wiki"; c.appendChild(l); }
+      if (q.ref) { c.appendChild(document.createTextNode(" · ")); const r = document.createElement("a"); r.href = q.ref; r.target = "_blank"; r.rel = "noopener noreferrer"; r.textContent = q.reflabel || "Reference"; c.appendChild(r); }
+      row.appendChild(c);
+      const list = document.createElement("div"); list.className = "opts" + (q.opts.every(o => !o[3]) ? " tight" : ""); list.setAttribute("role", "radiogroup"); list.setAttribute("aria-labelledby", "ask-" + q.id);
+      q.opts.forEach(([oid, name, num, why, sug]) => {
+        const btn = document.createElement("button"); btn.type = "button"; btn.className = "opt"; btn.id = "o-" + q.id + "-" + oid; btn.dataset.opt = oid;
+        btn.setAttribute("role", "radio"); btn.setAttribute("aria-checked", "false");
+        const dot = document.createElement("span"); dot.className = "dot"; dot.setAttribute("aria-hidden", "true");
+        const txt = document.createElement("div"); txt.className = "txt";
+        const nm = document.createElement("span"); nm.className = "name"; nm.textContent = name;
+        if (sug) { const tg = document.createElement("span"); tg.className = "tag"; tg.textContent = "Suggested"; nm.appendChild(tg); }
+        txt.appendChild(nm);
+        if (why) { const w = document.createElement("span"); w.className = "why"; w.textContent = why; txt.appendChild(w); }
+        btn.append(dot, txt);
+        btn.addEventListener("click", () => choose(q.id, answers[q.id] === oid ? null : oid));
+        list.appendChild(btn);
+      });
+      const tog = document.createElement("button"); tog.type = "button"; tog.className = "ctoggle"; tog.id = "c-" + q.id + "-toggle"; tog.textContent = "Add a comment"; tog.setAttribute("aria-expanded", "false");
+      const cbox = document.createElement("div"); cbox.hidden = true;
+      const ta = document.createElement("textarea"); ta.id = "c-" + q.id; ta.placeholder = "Your comment"; ta.setAttribute("aria-label", "Comment on " + q.ask);
+      ta.addEventListener("input", () => commentChanged(q.id)); cbox.appendChild(ta);
+      tog.addEventListener("click", () => { const open = cbox.hidden; cbox.hidden = !open; tog.setAttribute("aria-expanded", String(open)); if (open) ta.focus(); });
+      row.append(list, tog, cbox); box.appendChild(row);
+    });
+    $("sheet").appendChild(box);
+  });
+}
+function render() {
+  document.querySelectorAll(".q").forEach(row => {
+    const id = row.dataset.id;
+    row.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-checked", String(b.dataset.opt === answers[id])));
+  });
+}
+function choose(id, oid) {
+  if (oid) answers[id] = oid; else delete answers[id];
+  render();
+  if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  setSave("Saving");
+  const ref = db.doc("answers/" + id);
+  enqueue(id, () => oid ? ref.set({ choice: oid, label: labelFor(id, oid), question: QS.find(x => x.id === id).ask }) : ref.delete())
+    .then(() => setSave("Saved")).catch(() => setSave("Couldn't save that answer. Use Copy my answers when you're done.", true));
+}
+$("okall").addEventListener("click", () => {
+  QS.forEach(q => { if (!answers[q.id]) { const s = q.opts.find(o => o[4]); if (s) choose(q.id, s[0]); } });
+});
+const timers = {};
+function showComment(id, text) {
+  const ta = $("c-" + id), tog = $("c-" + id + "-toggle"); if (!ta) return;
+  if (document.activeElement !== ta && ta.value !== text) ta.value = text;
+  tog.textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  if (ta.value.trim() && ta.parentElement.hidden) { ta.parentElement.hidden = false; tog.setAttribute("aria-expanded", "true"); }
+}
+function commentChanged(id) {
+  const ta = $("c-" + id); $("c-" + id + "-toggle").textContent = ta.value.trim() ? "Comment" : "Add a comment";
+  clearTimeout(timers[id]);
+  timers[id] = setTimeout(() => {
+    if (!db) { setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+    const text = ta.value.trim(); const ref = db.doc("comments/" + id); setSave("Saving");
+    enqueue("c-" + id, () => text ? ref.set({ text, question: QS.find(x => x.id === id).ask }) : ref.delete())
+      .then(() => setSave("Saved")).catch(() => setSave("Couldn't save that comment. Use Copy my answers when you're done.", true));
+  }, 800);
+}
+$("copy").addEventListener("click", () => {
+  const text = QS.map(q => { const ta = $("c-" + q.id); const c = ta && ta.value.trim(); return q.ask + ": " + (answers[q.id] ? labelFor(q.id, answers[q.id]) : "not answered") + (c ? " (" + c + ")" : ""); }).join("\n");
+  const fallback = () => { $("copy-status").textContent = "Copy didn't work here. Select the text below and copy it."; let pre = $("fallback"); if (!pre) { pre = document.createElement("textarea"); pre.id = "fallback"; pre.readOnly = true; document.querySelector(".foot").after(pre); } pre.value = text; pre.focus(); pre.select(); };
+  try { navigator.clipboard.writeText(text).then(() => { $("copy-status").textContent = "Copied. Paste it into the chat."; }, fallback); } catch (e) { fallback(); }
+});
+build(); render();
+(async () => {
+  const timer = setTimeout(() => setSave("Can't reach saved answers yet. You can still pick; copy them when done.", true), 10000);
+  try { db = window.claude ? await window.claude.use("db") : null; } catch (e) { db = null; }
+  if (!db) { clearTimeout(timer); setSave("Not saving here. Use Copy my answers when you're done.", true); return; }
+  db.collection("answers").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) clearTimeout(timer);
+    const seen = {};
+    snap.docs.forEach(d => { const v = d.data() && d.data().choice; if (typeof v === "string") seen[d.id] = v; });
+    if (!snap.metadata.hasPendingWrites) Object.keys(answers).forEach(k => { if (!seen[k]) delete answers[k]; });
+    Object.assign(answers, seen); render();
+    if (!snap.metadata.fromCache) setSave("Answers save as you go");
+  }, () => { clearTimeout(timer); setSave("Can't load saved answers. Use Copy my answers when you're done.", true); });
+  db.collection("comments").onSnapshot(snap => {
+    const seen = {}; snap.docs.forEach(d => { const t = d.data() && d.data().text; if (typeof t === "string") seen[d.id] = t; });
+    QS.forEach(q => showComment(q.id, seen[q.id] || ""));
+  }, () => {});
+})();
+</script>
+
+
+</body></html>

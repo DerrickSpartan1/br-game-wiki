@@ -119,7 +119,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
     - **Coming back after the character died (our pick, 2026-11-24):** the player is out, the same as any dead player: the death screen, then spectating as under [Death cam and replays](#death-cam-and-replays) (squadmates first, then enemies once the squad is out), or the menu if they choose.
     - **A returning player keeps their kills and damage (our pick, 2026-11-24)** in the match results, whether or not their character survived the hold.
     - **Track damage now (owner, 2026-11-24):** the match server counts each player's damage dealt, kills, knocks, and place from now on, so the results screen and the end-of-match report to the backend have it when they're built. It's cheap to count and hard to add later.
-        - **Places go by who went out first (our pick, 2026-11-25):** a squad's place is set when its last player is out for good (dead, or bled out with nobody left to revive). Squads that go out in the same server frame, say the last two to one red zone strike, share the better place. If they were the last squads, they share first place; whether that counts as a win for both is the owner's call.
+        - **Places go by who went out first (our pick, 2026-11-25):** a squad's place is set when its last player is out for good (dead, or bled out with nobody left to revive). Squads that go out in the same server frame, say the last two to one red zone strike, share the better place. If they were the last squads, they share first place, and it counts as a win for both: both squads get the win, the end screen, and win stats (owner, 2026-11-25, [round 10](../planning/picks-archive.md#round-10-2026-11-25)).
         - **Damage to a knocked enemy counts (our pick, 2026-11-25)** toward damage dealt, as the match server does now. Finishing a knocked player is part of the fight. The lead says PUBG counts it too; we couldn't find a source that says so either way.
     - **A squad player whose held character went down for good but can still be revived (our pick, 2026-11-24):** the body stays a body, not a crate, the same as any squadmate's. A returning player waits on it like any dead squad player: the death screen, then spectating their squad, and back in the body if a squadmate revives them. It turns into a crate only once nobody can revive them.
     - **A held body revived after its 2 minutes ran out (our pick, 2026-11-24)** gets a fresh 2 minutes from the revive, since a player brought back is a live player again. If they still aren't back by then, it's a crate.
@@ -142,7 +142,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 
 Warzone-style 1v1 duels (owner, 2026-11-22):
 
-- **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match by helicopter, like PUBG's on Taego (owner, 2026-11-25), jumping out over the safe area with a parachute (our pick; [Aircraft](match-flow.md#aircraft)).
+- **The duel:** when you're out, you go to the comeback arena and fight another player 1v1. The winner redeploys into the match by helicopter, like PUBG's on Taego (owner, 2026-11-25), jumping out over the safe area with a parachute (owner OK'd, 2026-11-25; [Aircraft](match-flow.md#aircraft)).
 - **One redeploy:** each player gets one comeback per match. Winning, redeploying, and dying again ends your match, unless you've made another comeback at a [workbench](crafting.md#what-a-workbench-makes) with scrap.
 - **Only early:** the arena is open for the first couple of circles (first pass: until phase 2 ends). When it closes, anyone still waiting or fighting there redeploys for free.
 - **Loadouts (owner, 2026-11-22):** both players get the same random gun from the match's pool, and the winner keeps it when they redeploy.
@@ -252,7 +252,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
     - **How to throw (our pick, 2026-11-23):** with the melee weapon out, hold right mouse to aim, which shows an arc like a grenade's, and press left mouse to throw. This is PUBG's way ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)).
     - **The throw arc (owner, 2026-11-24):** while you aim a throw (right mouse with a melee weapon or a throwable out), a thin dotted white line shows the path the throw will take, from your hand to where it lands, and a small flat ring marks the landing spot on whatever it hits first. The line stops there, so a wall or a ceiling in the way is plain to see. It updates as you look around, fades out toward the far end, and only you see it. Grenades use the same arc; their bounces aren't shown. As far as we found, PUBG on PC didn't draw an arc in 2017–2018 (throws were learned by feel); PUBG Mobile and later shooters do. It's on by default, with a switch in Settings > Gameplay for players who want it off.
     - **Flight (owner OK'd, 2026-11-24):** thrown at 20 m/s with normal gravity, which carries about 40 m at most, PUBG's longest melee throw ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)). PUBG cuts thrown damage past 15 m; ours keeps the same damage at any range, as the owner set.
-    - **Who picks it up (owner, 2026-11-24):** anyone, like PUBG. Once it lands, any player can pick it up and use it for the rest of the match, and whoever ends up with it keeps it after. Picking one up while you already carry a melee weapon swaps them: yours drops where you stand, like PUBG (our pick, 2026-11-25, the lead's question).
+    - **Who picks it up (owner, 2026-11-24):** anyone, like PUBG. Once it lands, any player can pick it up and use it for the rest of the match, and only that match: next match everyone has their own pick again, and nobody gains or loses an unlock (owner, 2026-11-25, [round 10](../planning/picks-archive.md#round-10-2026-11-25)). Picking one up while you already carry a melee weapon swaps them: yours drops where you stand, like PUBG (our pick, 2026-11-25, the lead's question).
 
 ## Built-in tools
 
@@ -262,7 +262,7 @@ Every player carries a few small tools for in-game actions. They aren't items or
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
 - **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is left for later (owner, 2026-11-22). It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
 - **Screwdriver (owner, 2026-11-22):** switches a building's lights off at its fuse box at night ([Time of day](match-flow.md#time-of-day-and-weather)), unscrews vent covers for a quiet way in, and picks small locks, like a [briefcase](loot.md#briefcases)'s.
-- **Utility knife (our pick, 2026-11-25):** cuts a painting out of its frame in about 5 s ([Paintings](match-flow.md#paintings)). It's not a melee weapon.
+- **Utility knife (owner OK'd, 2026-11-25):** cuts a painting out of its frame in about 5 s ([Paintings](match-flow.md#paintings)). It's not a melee weapon.
 - **More tools** can come later.
 
 ### Nailing doors shut
@@ -310,7 +310,14 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
 - **Normal and ranked (owner, 2026-11-25):** "there will be a normal mode and a ranked mode for that, normal mode is just random people no SBMM, then ranked is SBMM."
     - **Normal:** random players, with no skill-based matchmaking. Bots backfill any empty slots, just to fill the match (owner, 2026-11-25).
     - <a id="ranked"></a>**Ranked:** a separate playlist with skill-based matchmaking (SBMM), where ranked progress is earned. No bots: only real players, so searches may take longer (owner, 2026-11-25: "bots back fill on normal just to fill, but on ranked there is no fill but potentially longer search times, tho we may make a cutoff for filling games so that it can start and play").
-    - **Ranked cutoff (maybe, owner):** so a ranked match can still start and play, a search could stop waiting after a while and start with the players it has. Our pick: after 3 minutes, start with at least 64 players, still no bots.
+    - **Ranked cutoff (owner, 2026-11-25):** a ranked search that can't fill starts anyway after a wait, with no bots, and the longer the wait, the fewer players it needs (owner: "we should have tiers like if 20 people are waiting for 10 minutes, 60 for 5 etc etc"). The owner's tiers are at least 64 players after 3 minutes, 60 after 5, and 20 after 10; our pick fills the gap with 40 after 7.
+
+        | Waiting | Starts with at least |
+        | --- | --- |
+        | 3 minutes | 64 players (owner) |
+        | 5 minutes | 60 players (owner) |
+        | 7 minutes | 40 players (our pick) |
+        | 10 minutes | 20 players (owner) |
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
 - **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22). The line is rolled from a few, with different lines for solo and squads (owner). First lines (our pick): solo gets "The island is yours" or "Last one standing", and squads "The island is yours" or "Last squad standing".

@@ -1,0 +1,237 @@
+{
+ "answers": {
+  "a_bombers": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Bombers are a pair of low, fast jets"
+  },
+  "a_heard": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "How far each aircraft is heard"
+  },
+  "a_heights": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Flying heights"
+  },
+  "a_heli": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Comeback helicopter looks like a twin-engine transport helicopter"
+  },
+  "a_heli_jump": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Comeback winners jump from the helicopter with parachutes"
+  },
+  "a_jump": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Jump plane looks like a four-engine jet transport"
+  },
+  "a_map": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Which aircraft show on the map"
+  },
+  "a_package": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Package plane looks like a four-engine turboprop"
+  },
+  "a_pickup": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Pickup plane is a single-engine biplane"
+  },
+  "a_redeploy": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The pickup plane also takes the emergency redeploy balloon"
+  },
+  "attach_numbers": {
+   "choice": "keep",
+   "label": "Keep the placeholders and tune by feel",
+   "question": "Attachment numbers PUBG doesn't give"
+  },
+  "b_banks_to": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Each player's cash banks to whoever put it in"
+  },
+  "b_cost": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The balloon costs 150 scrap"
+  },
+  "b_one": {
+   "choice": "change",
+   "label": "Change it",
+   "question": "One balloon per player a match"
+  },
+  "b_planes": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Up to 3 pickup planes out at once"
+  },
+  "b_timing": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "About 15 s to rise, the plane 30 s later"
+  },
+  "h_alarms": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Which heists ring, and for how long"
+  },
+  "h_bank": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Bank job details"
+  },
+  "h_containers": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Sealed containers"
+  },
+  "h_count": {
+   "choice": "change",
+   "label": "Change it",
+   "question": "3 or 4 big heists live a match"
+  },
+  "h_deposit": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Deposit boxes"
+  },
+  "h_diamond": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Diamond store details"
+  },
+  "h_exchange": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Exchange office details"
+  },
+  "h_exchange_name": {
+   "choice": "other",
+   "label": "Something else",
+   "question": "Exchange office: its name in the game"
+  },
+  "h_gold": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Gold bar numbers"
+  },
+  "h_jewelry": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Jewelry store"
+  },
+  "h_paintings": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Paintings and the utility knife"
+  },
+  "h_robots": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Robot pods"
+  },
+  "h_van": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Armored van"
+  },
+  "i_atm": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "ATMs"
+  },
+  "i_courier": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Courier car"
+  },
+  "i_evidence": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Police evidence room"
+  },
+  "i_ferry": {
+   "choice": "keep",
+   "label": "Keep it",
+   "question": "Ferry strongroom"
+  },
+  "i_moneydrop": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Money drop"
+  },
+  "i_paymaster": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Paymaster's safe"
+  },
+  "i_showcar": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Show car"
+  },
+  "i_tipoffs": {
+   "choice": "keep",
+   "label": "Keep them",
+   "question": "Tip-offs"
+  },
+  "i_villas": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Villas"
+  },
+  "i_yacht": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Yacht safe"
+  },
+  "ranked_cutoff": {
+   "choice": "3min64",
+   "label": "Yes, after 3 minutes with at least 64 players",
+   "question": "Ranked: start a short lobby after a wait?"
+  },
+  "rewind_cap": {
+   "choice": "200",
+   "label": "Keep 200 ms, as a setting to tune",
+   "question": "Lag rewind cap"
+  },
+  "shared_first": {
+   "choice": "both",
+   "label": "A win for both",
+   "question": "Shared first place"
+  },
+  "thrown_after": {
+   "choice": "match",
+   "label": "Only for the rest of that match",
+   "question": "Someone else's thrown melee: keep it after the match?"
+  }
+ },
+ "comments": {
+  "b_one": {
+   "question": "One balloon per player a match",
+   "text": "they can send as many as they want but he scrap cost is expensive"
+  },
+  "h_count": {
+   "question": "3 or 4 big heists live a match",
+   "text": "yeah we would probably want to have a good amount of heists live im not sure how many though"
+  },
+  "h_exchange_name": {
+   "question": "Exchange office: its name in the game",
+   "text": "Currency Exchange office?"
+  },
+  "ranked_cutoff": {
+   "question": "Ranked: start a short lobby after a wait?",
+   "text": "we should have tiers like if 20 people are waiting for 10 minutes, 60 for 5 etc etc"
+  }
+ }
+}

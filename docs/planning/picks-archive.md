@@ -4,6 +4,74 @@ Every answer the owner gave on a picks page, copied here before the page was del
 
 New picks pages hold only questions that are still open. Once they are answered and filed, their answers are added here and the page is deleted. A full copy of each deleted page, with every option it offered, and its saved answers is kept in the repo's [`archive/picks`](https://github.com/DerrickSpartan1/br-game-wiki/tree/main/archive/picks) folder.
 
+## Round 10 (2026-11-25)
+
+Heists, the cash balloon, aircraft, ranked, and the lead's questions. Posted by the planner's picks check-in with 43 calls; answered on the page on 2026-11-25 and filed by the planner in chat. Saved copy: `archive/picks/2026-11-25-round10.html`.
+
+### End of a match, ranked, and hits
+
+- **Shared first place** A win for both.
+- **Ranked: start a short lobby after a wait?** Yes, after 3 minutes with at least 64 players. Comment: "we should have tiers like if 20 people are waiting for 10 minutes, 60 for 5 etc etc"
+- **Lag rewind cap** Keep 200 ms, as a setting to tune.
+
+### Melee and attachments
+
+- **Someone else's thrown melee: keep it after the match?** Only for the rest of that match.
+- **Attachment numbers PUBG doesn't give** Keep the placeholders and tune by feel.
+
+### Mini heists: the first-pass heists
+
+- **Jewelry store** OK.
+- **Diamond store details** OK.
+- **Bank job details** OK.
+- **Deposit boxes** OK.
+- **Armored van** OK.
+- **Exchange office details** OK.
+- **Exchange office: its name in the game** Something else. Comment: "Currency Exchange office?"
+- **Sealed containers** OK.
+
+### Mini heists: how they run
+
+- **3 or 4 big heists live a match** Change it. Comment: "yeah we would probably want to have a good amount of heists live im not sure how many though"
+- **Which heists ring, and for how long** OK.
+- **Robot pods** OK.
+- **Gold bar numbers** OK.
+- **Paintings and the utility knife** OK.
+
+### Mini heists: the cash balloon
+
+- **The balloon costs 150 scrap** OK.
+- **About 15 s to rise, the plane 30 s later** OK.
+- **One balloon per player a match** Change it. Comment: "they can send as many as they want but he scrap cost is expensive"
+- **Up to 3 pickup planes out at once** OK.
+- **Each player's cash banks to whoever put it in** OK.
+
+### Mini heists: the eight new ideas' details
+
+- **Police evidence room** OK.
+- **ATMs** OK.
+- **Courier car** OK.
+- **Show car** OK.
+- **Yacht safe** OK.
+- **Paymaster's safe** OK.
+- **Villas** OK.
+- **Money drop** OK.
+- **Tip-offs** Keep them.
+- **Ferry strongroom** Keep it.
+
+### Aircraft
+
+- **Jump plane looks like a four-engine jet transport** OK.
+- **Package plane looks like a four-engine turboprop** OK.
+- **Pickup plane is a single-engine biplane** OK.
+- **Comeback helicopter looks like a twin-engine transport helicopter** OK.
+- **Bombers are a pair of low, fast jets** OK.
+- **How far each aircraft is heard** OK.
+- **The pickup plane also takes the emergency redeploy balloon** OK.
+- **Comeback winners jump from the helicopter with parachutes** OK.
+- **Which aircraft show on the map** OK.
+- **Flying heights** OK.
+
 ## Review page: the planner's first passes (2026-11-24)
 
 Posted for the owner's review of 36 "our pick" answers; answered on the page and filed by the hourly picks check-in. Saved copy: `archive/picks/2026-11-24-review-first-passes.html`.

@@ -186,7 +186,7 @@ The lead measured PUBG's movement frame by frame from Training Mode recordings (
 | Walk | 1.77 m/s | 1.7 m/s | 0.37 |
 | Prone | 1.2 m/s | 1.2 m/s | 0.25 |
 
-The two agree within about 3%; the footage reads a little faster at sprint and jog. Which set the game uses is open: our pick is to keep the published table, since 30 fps footage can't split a few percent, and use the footage for everything the published numbers don't cover:
+The two agree within about 3%; the footage reads a little faster at sprint and jog. The game keeps the published table (owner, 2026-11-25: "okay if our numbers are right good. i am trying to recreate the feel"). Two separate sources agreeing that closely says the numbers are right, and 30 fps footage can't split a few percent. The goal is PUBG's feel, so playtests tune toward it, and the footage covers everything the published numbers don't:
 
 - **Speeding up and stopping:** about 0.4 s to full sprint. Stopping from a sprint takes about 0.5 s, with a lean-back braking animation. Walking starts and stops instantly.
 - **Stance changes:** standing to crouched takes about 0.4 s each way; crouched to prone about 0.7 s each way, so going prone is a commitment. The first-person camera glides between heights rather than snapping.
@@ -202,6 +202,6 @@ The two agree within about 3%; the footage reads a little faster at sprint and j
 
 - **Lean:** about 0.25 to 0.3 s each way. In first person it's mostly a sideways slide of the camera, with little tilt.
 - **Not measured yet:** walking while aiming down sights, strafing and backpedaling speeds, other weapon types, first-person camera heights, and fall damage.
-- **The lead's starting values in Unreal:** jog 484 cm/s; sprint ×1.34 unarmed and ×1.27 with a rifle; walk 177 cm/s; crouch 345 cm/s; prone 120 cm/s; a jump of about 300 cm/s upward; and sprint braking tuned so a full sprint stops in about 0.5 s. These are the measured speeds; if the published table is kept, jog is 470 cm/s, walk 170, crouch 340, and sprint 630 unarmed.
+- **Starting values in Unreal:** the published speeds: jog 470 cm/s, sprint 630 unarmed (each gun's sprint speed from the category table), walk 170, crouch 340, prone 120. From the footage: a jump of about 300 cm/s upward, and sprint braking tuned so a full sprint stops in about 0.5 s. The lead's measured speeds (jog 484, sprint ×1.34 unarmed and ×1.27 with a rifle, walk 177, crouch 345) stay in its write-up for comparison.
 
 Sources: [PUBG fandom wiki: Weapon stats](https://pubg.fandom.com/wiki/Weapon_Stats_for_PLAYERUNKNOWN%27s_BATTLEGROUNDS) · [PUBG Map: Rifles](https://pubgmap.io/weapons/rifles.html) · [PUBG Map: SMGs](https://pubgmap.io/weapons/smg.html) · [PUBG Map: DMRs](https://pubgmap.io/weapons/dmr.html) · [PUBG Map: Sniper rifles](https://pubgmap.io/weapons/sniper.html) · [PUBG Map: Pistols](https://pubgmap.io/weapons/pistols.html) · [PUBG Map: Shotguns](https://pubgmap.io/weapons/shotguns.html) · [PUBG Map: LMGs](https://pubgmap.io/weapons/lmg.html) · [PUBG Wiki: Kar98k](https://pubg.wiki.gg/wiki/Kar98K) · [PUBG Wiki: M249](https://pubg.wiki.gg/wiki/M249) · [PUBG Wiki: Movement speed](https://pubg.wiki.gg/wiki/Movement_Speed) · [Samurai Gamers: PUBG shotguns](https://samurai-gamers.com/playerunknowns-battlegrounds-pubg/shotgun-stats-guide/)

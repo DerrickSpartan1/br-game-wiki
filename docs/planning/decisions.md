@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Plane paths: at least 5 km over land; parachute speeds a quarter above PUBG's (owner OK'd) | [The plane](../systems/match-flow.md#the-plane), [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Plane paths needn't pass the middle, only cross enough land (owner); at least 5 km (our pick). Parachuting works like PUBG's but faster and farther (owner); every speed a quarter above PUBG's (our pick) | [The plane](../systems/match-flow.md#the-plane), [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Melee is PUBG's stowed weapons: holding X puts your melee in hand, or fists if you have none; there's no empty-handed state. The plane's path has to cross the island (owner); within 1.5 km of the middle and at least 5 km of land (our pick) | [Melee](../systems/gameplay.md#melee), [The plane](../systems/match-flow.md#the-plane) |
 | 2026-11-25 | Crate guns roll with plain odds, no cartridge weighting (our pick, from the lead's question) | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |

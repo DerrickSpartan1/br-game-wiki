@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-24 | Round 9 picks filed and archived; first passes marked as the owner's across Gameplay, Match flow, Handling, Ammo, Armor, Healing, and the Sound list |
 | 2026-11-24 | Posted [picks page, round 9](https://claude.ai/artifact/WpR2sdGmhADow72pXXkXHA): the parachute "never pull" choice and the 21 newer first passes, linked under You: decisions on the [To-do](to-do.md) |
 | 2026-11-24 | Answered playtest round 8's planner questions on [First person](../systems/gameplay.md#first-person), [Carry weight](../systems/armor.md#carry-weight), [Hit zones](../systems/ttk.md#hit-zones), [Boost bar](../systems/healing.md#boost-bar), [Melee](../systems/gameplay.md#melee), [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives), [Staged reloads](../systems/handling.md#staged-reloads), and [Ammo](../systems/ammo.md#how-ammo-and-reloading-work) |
 | 2026-11-24 | Answered the lead's menu-line and leg armor questions on [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) and [Armor](../systems/armor.md) |

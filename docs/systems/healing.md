@@ -60,7 +60,7 @@ PUBG's boost bar, as is. Boosts fill a bar of 100 points that drains over time. 
 - **Stacking:** boosts add up, to a cap of 100.
 - **Checked against PUBG (2026-11-23):** the numbers above are PUBG's, from 2017 guides, and the game's code matches them. One energy drink puts you in part 2, so its first heal is 2 health, 8 s after you drink, then 2 more every 8 s. That's slow to notice, in PUBG too. The fourth part heals the most and runs the fastest, but it's the shortest, at 30 s.
 - **Showing the heal (our pick):** the health bar pulses briefly each time a boost heal lands, so it's easy to see the boost working.
-- **Boost icons (owner asked, 2026-11-24; the look is our pick):** "a small icon at the very bottom ... a sprinting symbol when you have the stamina boost and when you have the healing boost." Two small flat white icons sit at the very bottom of the screen, just under the left end of the health bar, about the height of the HUD's ammo numbers:
+- **Boost icons (owner, 2026-11-24):** "a small icon at the very bottom ... a sprinting symbol when you have the stamina boost and when you have the healing boost." Two small flat white icons sit at the very bottom of the screen, just under the left end of the health bar, about the height of the HUD's ammo numbers:
     - **Healing boost:** a heart with a plus, shown whenever the bar has points. It pulses with the health bar each time a boost heal lands.
     - **Speed boost:** a running figure, shown only while the bar is in part 3 or 4, when you run faster. It sits right of the heart.
     - **Running low:** each icon blinks slowly in its last 10 seconds, so you know the speed or the heal is about to stop. Both are gone when the bar is empty.

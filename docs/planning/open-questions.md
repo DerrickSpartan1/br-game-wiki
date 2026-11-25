@@ -47,3 +47,4 @@ Everything still undecided or still to look up. When one is settled, it moves to
 - **C96:** the Astra F and E, which Royal MM31s were semi-auto or select-fire, the 15-round Royal machine pistols, and Finland's 7.65mm C96s ([C96](../weapons/pistols/c96.md)).
 - **Garrucha:** which makers used the rarer chamberings ([Garrucha](../weapons/pistols/garrucha.md)).
 - **Attachments TBD:** the Glock 17 / 18, M1911, Ithaca 37 Stakeout, AA-12, and Winchester 1887 pages have no attachment list yet.
+- **The starting belt:** what customizing it covers (looks only, or pouch layouts too), and whether it can be taken off or dropped ([Carry weight](../systems/armor.md#carry-weight)).

@@ -309,7 +309,7 @@ Like PUBG, every item has a weight and your gear sets how much you can carry. PU
 | --- | --- | --- |
 | Backpack, tiers 1, 2, 3 | 135 to 165, 180 to 220, 225 to 275 | PUBG's 150, 200, and 250, with a spread by size ([Backpacks](#backpacks)) |
 | Rig, or a carrier's own pouches | 6 per Tarkov slot: 36 to 156, about 96 for an average rig | Decided: a third of a frag grenade per slot |
-| No gear | 70 | PUBG's 20 for pockets plus the 50 of the utility belt every PUBG player starts with ([PUBG Wiki: Utility Belt](https://pubg.wiki.gg/wiki/Utility_Belt)) (our pick, 2026-11-24, raised from 20 after playtest round 8). It holds 60 rounds of 5.56 (30) and a few meds, such as 5 bandages, a first aid kit, and an energy drink (24), as the owner remembers from PUBG |
+| No gear | 70 | PUBG's 20 for pockets plus the 50 of the utility belt every PUBG player starts with ([PUBG Wiki: Utility Belt](https://pubg.wiki.gg/wiki/Utility_Belt)) (owner, 2026-11-24, raised from 20 after playtest round 8; the 50 comes from the starting belt below). It holds 60 rounds of 5.56 (30) and a few meds, such as 5 bandages, a first aid kit, and an energy drink (24), as the owner remembers from PUBG |
 
 | Item | Weight | Basis |
 | --- | --- | --- |
@@ -346,7 +346,9 @@ Attachments and the rest (our pick, 2026-11-24; attachment weights are PUBG's fr
 | Crafting scrap | 0 | Our pick: scrap is a counter, like money, not an item in the bag |
 | Armor, helmets, leg armor, class items | — | Our pick: worn in their own slots, never carried in the bag, like PUBG's vests and helmets. Picking up another swaps it and drops the old one |
 
-**Weights go by attachment family (our pick, 2026-11-24):** attachments are one item per family ([Universal attachments](attachments.md#universal-attachments)): pistol and SMG, rifle (assault rifles, LMGs, and battle rifles), DMR and sniper, and shotgun. Each item weighs its family's number above, whatever gun it ends up on. Pistols and SMGs share one family, so their mag tier and suppressor are one item each, at 10 and 15.
+**Weights go by attachment family (owner, 2026-11-24):** attachments are one item per family ([Universal attachments](attachments.md#universal-attachments)): pistol and SMG, rifle (assault rifles, LMGs, and battle rifles), DMR and sniper, and shotgun. Each item weighs its family's number above, whatever gun it ends up on. Pistols and SMGs share one family, so their mag tier and suppressor are one item each, at 10 and 15.
+
+**A starting belt (owner, 2026-11-24):** "we will have a belt item thats customizable and all players get at the start." Every player starts each match wearing a belt, and it's where the 50 of the no-gear 70 comes from, like PUBG's utility belt. It's customizable; what that covers (its look, or pouch layouts too), and whether it can be taken off or dropped, is still open.
 
 **How capacity adds up (our pick, 2026-11-24):** no gear + the vest's or rig's pouches + the pack, added together.
 

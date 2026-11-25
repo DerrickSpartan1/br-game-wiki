@@ -1,0 +1,128 @@
+{
+ "answers": {
+  "attach_weights": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Attachment weights by family"
+  },
+  "body_swaps": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Swaps from a body or crate go into it"
+  },
+  "boost_icons": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Boost icons"
+  },
+  "capacity70": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "No-gear capacity 70"
+  },
+  "chute_150": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The chute opens itself at 150 m, with a switch to turn that off"
+  },
+  "crates_stay": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Crates stay all match"
+  },
+  "crawl": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Knocked players crawl at 0.8 m/s"
+  },
+  "damage_flash": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The damage flash"
+  },
+  "f_key": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Tap F to loot a squadmate's body, hold F to revive"
+  },
+  "fp_hands": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Where hands, melee, and guns sit in first person"
+  },
+  "freefall": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The freefall readout: two gauges either side of the screen's middle"
+  },
+  "loot_30s": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "A body can be looted during its 30 s"
+  },
+  "map_wash": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The full map: teal wash outside the edge, and a match log tab"
+  },
+  "melee_timer": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "One server-checked 0.8 s melee timer, no stagger"
+  },
+  "net_readout": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "An optional network readout"
+  },
+  "never_pull": {
+   "choice": "die",
+   "label": "You hit the ground and die",
+   "question": "If you never pull the parachute (automatic opening off)"
+  },
+  "partial_round": {
+   "choice": "change",
+   "label": "Change it",
+   "question": "A part-loaded round finishes before the stop"
+  },
+  "parties": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Parties from the menu"
+  },
+  "quitters": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Quitters drop a crate; a lost connection holds 2 minutes"
+  },
+  "sound_list": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The Sound list and how far each sound carries"
+  },
+  "track_damage": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Track damage now"
+  },
+  "worn_gear": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Bodies show the gear they wore"
+  }
+ },
+ "comments": {
+  "capacity70": {
+   "question": "No-gear capacity 70",
+   "text": "And we will have a belt item thats customizable and all players get at the start to fix this"
+  },
+  "partial_round": {
+   "question": "A part-loaded round finishes before the stop",
+   "text": "No if youre part way through it defaults to the last saved reload whether that be the last buller or srep in reloading a mag"
+  },
+  "worn_gear": {
+   "question": "Bodies show the gear they wore",
+   "text": "Yes hntil the body disappears"
+  }
+ }
+}

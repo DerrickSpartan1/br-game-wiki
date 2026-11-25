@@ -1,8 +1,8 @@
 # Sound list
 
-Every sound the game needs, for the sound worker to work from (owner asked, 2026-11-24). How sounds are found, licensed, and layered is on [Gun art and sound](art-and-sound.md#sound); the rules for how sound behaves in a match are on [Gameplay](../systems/gameplay.md#sound). Each line needs several takes, so nothing repeats.
+Every sound the game needs, for the sound worker to work from (owner asked, and OK'd the list and its ranges, 2026-11-24). How sounds are found, licensed, and layered is on [Gun art and sound](art-and-sound.md#sound); the rules for how sound behaves in a match are on [Gameplay](../systems/gameplay.md#sound). Each line needs several takes, so nothing repeats.
 
-**Heard by others** is how far away another player can hear it, before walls. "You" means only the player making it hears it. Footstep ranges are PUBG's from before its 2019 footstep change, the 2017–2018 feel ([Mein-MMO](https://mein-mmo.de/en/enemies-can-hear-your-steps-in-pubg-from-this-distance,307161)); gunshot ranges follow PUBG's own design (sniper shots up to about 1 km, shotguns 700 m, handguns 400 m; [PUBG, Getting a Sense of PUBG Pt. 4](https://devtrackers.gg/pubg/p/b2a9efd9-getting-a-sense-of-pubg-pt-4)). Every other range is our pick.
+**Heard by others** is how far away another player can hear it, before walls. "You" means only the player making it hears it. Footstep ranges are PUBG's from before its 2019 footstep change, the 2017–2018 feel ([Mein-MMO](https://mein-mmo.de/en/enemies-can-hear-your-steps-in-pubg-from-this-distance,307161)); gunshot ranges follow PUBG's own design (sniper shots up to about 1 km, shotguns 700 m, handguns 400 m; [PUBG, Getting a Sense of PUBG Pt. 4](https://devtrackers.gg/pubg/p/b2a9efd9-getting-a-sense-of-pubg-pt-4)). Every other range started as our pick, and the owner OK'd them all (2026-11-24).
 
 ## How far sounds carry
 

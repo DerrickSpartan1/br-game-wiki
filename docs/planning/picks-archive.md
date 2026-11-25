@@ -4,6 +4,33 @@ Every answer the owner gave on a picks page, copied here before the page was del
 
 New picks pages hold only questions that are still open. Once they are answered and filed, their answers are added here and the page is deleted. A full copy of each deleted page, with every option it offered, and its saved answers is kept in the repo's [`archive/picks`](https://github.com/DerrickSpartan1/br-game-wiki/tree/main/archive/picks) folder.
 
+## Round 9: the parachute choice and the newer first passes (2026-11-24)
+
+Posted by the hourly picks check-in; the owner pasted his answers into the chat too.
+
+- **If you never pull the parachute (automatic opening off)** You hit the ground and die.
+- **The chute opens itself at 150 m, with a switch to turn that off** OK.
+- **The freefall readout: two gauges either side of the screen's middle** OK.
+- **The damage flash** OK.
+- **The full map: teal wash outside the edge, and a match log tab** OK.
+- **An optional network readout** OK.
+- **Boost icons** OK.
+- **Knocked players crawl at 0.8 m/s** OK.
+- **Crates stay all match** OK.
+- **Quitters drop a crate; a lost connection holds 2 minutes** OK.
+- **Bodies show the gear they wore** OK. Comment: "Yes hntil the body disappears"
+- **Swaps from a body or crate go into it** OK.
+- **Tap F to loot a squadmate's body, hold F to revive** OK.
+- **A body can be looted during its 30 s** OK.
+- **Track damage now** OK.
+- **Where hands, melee, and guns sit in first person** OK.
+- **One server-checked 0.8 s melee timer, no stagger** OK.
+- **A part-loaded round finishes before the stop** Change it. Comment: "No if youre part way through it defaults to the last saved reload whether that be the last buller or srep in reloading a mag"
+- **No-gear capacity 70** OK. Comment: "And we will have a belt item thats customizable and all players get at the start to fix this"
+- **Attachment weights by family** OK.
+- **Parties from the menu** OK.
+- **The Sound list and how far each sound carries** OK.
+
 ## Weather, hazards, the edge, backpacks, and playtest round 6 (2026-11-24)
 
 The menu accent and compass questions moved here from the separate menu accent page, which had no answers of its own.

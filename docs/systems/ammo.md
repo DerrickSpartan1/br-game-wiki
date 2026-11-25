@@ -10,7 +10,7 @@ There are three kinds of exceptions. Each version's reload style is in the Reloa
 - **Tubes and single-round mags** load one round at a time, like PUBG's shotguns, so a reload adds rounds until the gun is full or the backpack runs out. Single-round mags are fixed mags loaded without clips, like the [M24](../weapons/snipers/remington-700.md)'s.
 - **Stripper clips** work like PUBG's Kar98k: from empty, a full clip goes in at once, fast and easy; topping off a partly full gun loads one round at a time.
 
-Pressing fire stops any reload that loads one round at a time (tubes, single-round mags, and stripper-clip guns topping off). The rounds already loaded stay in, so you can shoot with only a few loaded. That first click only stops the reload; the next click fires (owner, 2026-11-24; [Staged reloads](handling.md#staged-reloads)).
+Pressing fire stops any reload that loads one round at a time (tubes, single-round mags, and stripper-clip guns topping off). The rounds already fully loaded stay in, so you can shoot with only a few loaded; a round partway in goes back to the last saved step ([Staged reloads](handling.md#staged-reloads)). That first click only stops the reload; the next click fires (owner, 2026-11-24; [Staged reloads](handling.md#staged-reloads)).
 
 **The chambered round (owner, 2026-11-23):** a closed-bolt gun with a detachable mag can hold one more than its mag. Reloading from empty fills the mag and charges the gun, so a 30-round mag shows 29+1. Reloading with a round still in the chamber fills the mag and keeps that round, so it shows 30+1, and the reload takes one more round from the backpack. Which guns get it is on [Staged reloads](handling.md#staged-reloads).
 

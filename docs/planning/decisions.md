@@ -4,11 +4,8 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
-<<<<<<< Updated upstream
-| 2026-11-25 | The cash balloon is silent and shows on the map like an alarm; it takes a little while to rise, then a plane comes to get it, and the plane is the noise (owner) | [Mini heists](../systems/match-flow.md#mini-heists) |
-=======
 | 2026-11-25 | A squad's place is set when its last player is out for good; squads out in the same server frame share the better place (first, if they were the last; a win for both is the owner's call); damage to a knocked enemy counts toward damage dealt (our picks, the lead's questions) | [Bodies hold the loot](../systems/gameplay.md#knockdowns-revives) |
->>>>>>> Stashed changes
+| 2026-11-25 | The cash balloon is silent and shows on the map like an alarm; it takes a little while to rise, then a plane comes to get it, and the plane is the noise (owner) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-25 | Heists: all eight new heist ideas kept; a gold bar carrier is never shown on the map; the cash balloon costs more so it can't be spammed (owner); 150 scrap, a 45 s rise on the map, one a match (our pick) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-25 | Heists: yes to the cash balloon, castle museum, moving convoy, farm payroll, and robot response; robots come down in drop pods, one to a pod; gold bars slow you and pay big; any heist with an alarm shows on the map (owner). Paintings and a diamond store added (owner's ideas) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Port heists open several sealed containers, most with gear; the armored van holds gear and cash (owner). Eight more heist ideas from Plunder, Getaway, and Payday queued for review | [Mini heists](../systems/match-flow.md#mini-heists) |

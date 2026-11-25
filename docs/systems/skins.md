@@ -82,7 +82,7 @@ A weapon skin can carry a kill counter, like Counter-Strike's StatTrak: it count
 
 ## Weapon mastery
 
-Each gun family levels up through challenges, such as specific kills, unlocking cosmetics. Progress counts toward the whole family, so any version works; every C96 version counts toward C96 mastery, for example.
+Each gun family levels up through challenges, such as specific kills, unlocking cosmetics. In [casual mode](gameplay.md#casual-mode), a bot kill counts as a quarter of a kill (owner, 2026-11-25). Progress counts toward the whole family, so any version works; every C96 version counts toward C96 mastery, for example.
 
 **Twin guns stay separate (owner, 2026-11-22):** twins that sit in different categories each keep their own mastery track and cosmetics, like the [AS Val](../weapons/assault-rifles/as-val.md) and [VSS Vintorez](../weapons/battle-rifles/vss.md), the [FN SCAR-L](../weapons/assault-rifles/scar-l.md) and [FN SCAR-H](../weapons/battle-rifles/scar-h.md), and the [HK416](../weapons/assault-rifles/hk416.md) and [HK417](../weapons/battle-rifles/hk417.md).
 

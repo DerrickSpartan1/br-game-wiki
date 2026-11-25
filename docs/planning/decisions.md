@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Casual mode: cash and XP scale with bot skill; a bot kill counts as a quarter toward gun mastery; scrap at the normal rate; normal maps and rules; bot skill picked before Play; a key switches perspective and aiming is first person (owner) | [Casual mode](../systems/gameplay.md#casual-mode) |
 | 2026-11-25 | Casual mode: you or your squad against a lobby of bots, the one mode where third person is allowed (owner) | [Casual mode](../systems/gameplay.md#casual-mode) |
 | 2026-11-25 | Shared flights: up to 3 loads a flight, dropped at least 800 m apart (owner OK'd) | [Aircraft](../systems/match-flow.md#aircraft) |
 | 2026-11-25 | The money drop and vehicle drops can ride the care package plane with other drops, each dropped at its own point along the path (owner); up to 3 loads a flight, 800 m apart (our pick) | [Aircraft](../systems/match-flow.md#aircraft) |

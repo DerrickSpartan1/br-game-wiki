@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Casual mode](../systems/gameplay.md#casual-mode): rewards by bot skill, quarter kills for mastery |
 | 2026-11-25 | [Casual mode](../systems/gameplay.md#casual-mode) added |
 | 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): shared flights for care packages, vehicle drops, and the money drop |
 | 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): up to 3 pickup biplanes at once |

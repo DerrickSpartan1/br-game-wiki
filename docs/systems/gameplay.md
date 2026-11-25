@@ -363,10 +363,14 @@ Our own casual mode (owner, 2026-11-25): "another thing i want to make note of i
 PUBG's Casual Mode (patch 13.2, 2022) is close: about 10 real players dropped into a match mostly filled with bots, the rest of the match as normal, and up to three casual games a day ([Dot Esports: Casual Mode](https://dotesports.com/pubg/news/what-is-casual-mode-in-pubg)). Ours goes further: only your squad is real.
 
 - **Who's in it (owner):** you or your squad, and bots in every other slot.
-- **Third person (owner):** allowed. Our pick: a key switches between first and third person at any time, like PUBG's third-person modes, and aiming down sights is always first person.
-- **The match:** the normal map and rules: the zone, loot, heists, care packages, and the rest (our pick).
-- **Bot skill (our pick):** you pick easy, normal, or hard before you press Play ([Bots](#bots)).
-- **Rewards (our pick):** cash, scrap, and quests count at half, and there's no ranked progress, so it's for fun and practice, not the fastest way to earn. No daily limit.
+- **Third person (owner):** allowed. A key switches between first and third person at any time, like PUBG's third-person modes, and aiming down sights is always first person (owner, 2026-11-25).
+- **The match (owner, 2026-11-25):** the normal maps and rules: the zone, loot, heists, care packages, and the rest.
+- **Bot skill (owner, 2026-11-25):** you pick easy, normal, or hard before you press Play ([Bots](#bots)).
+- **Rewards (owner, 2026-11-25):** "yes but we would allow more or less cash and xp based on the difficulty. and the kills for gun mastery will count as 1/4 so you have to kill 4x the amount of bots to get those sorts of things done. scrap is still normal rate since its only used in game. and yes on the rules and maps are the same, and you can pick what you want. yes a key switch perspectives and aiming down sights is first person"
+    - **Cash and XP** scale with the bot skill you pick: more on hard, less on easy. Our pick: easy 50%, normal 75%, hard 100% of a normal match.
+    - **Gun mastery:** a bot kill counts as a quarter of a kill, so mastery and other kill challenges take four times the bots ([Weapon mastery](skins.md#weapon-mastery)).
+    - **Scrap** comes at the normal rate, since it's only used in the match.
+    - **Our pick:** quests scale with the bot skill like cash, there's no ranked progress, and there's no daily limit.
 - **On the menu:** a Casual mode next to the others on the Play tab (our pick).
 
 ## Training map

@@ -42,7 +42,7 @@ Shields are for advancing and breaching: crossing open ground, pushing a doorway
 ### Ballistic shield
 
 - **Guns:** only the 3rd slot ([Rules](../rules.md#3rd-slot)), fired one-handed around the shield's edge.
-- **Cover:** from the front, head to knees while standing and everything while crouched. Sides and back are open.
+- **Cover:** from the front, head to knees while standing and everything while crouched. Sides and back are open. The model is made tall enough to reach the knees on the test body, a little bigger than a real one, since what blocks is always what you see: no invisible cover past the model's edge (our pick, 2026-11-25).
 - **Movement:** no sprinting while it's raised; walking and running at 80% speed (our pick). Lowered, it hangs on your back, covers your back, and you can sprint and use any gun.
 - **Breaching:** the melee key bashes, knocking a door open or staggering a player, with no damage (our pick).
 - **Sound:** bullets hitting it clang loudly, so everyone nearby knows a shield is pushing.
@@ -57,7 +57,7 @@ PUBG's Folded Shield is the first pass: 1,800 gunfire damage or 200 from explosi
 Pans are class items: small shields you can also fight with. They're the only pans in the game; they're not melee weapons ([Melee](gameplay.md#melee)).
 
 - **Rare:** pans show up in about 1 match in 5. In those matches one kind is rolled, like healing items, and about 20 spawn on the first map, in kitchens and houses, more in the towns (our pick).
-- **Raise it to block:** it stops bullets only while held up, which also sets it apart from PUBG's pan. While raised it covers your head and upper chest (our pick). Like the [ballistic shield](#ballistic-shield), the other hand can fire a 3rd-slot gun around it.
+- **Raise it to block:** it stops bullets only while held up, which also sets it apart from PUBG's pan. While raised, held up in front of the face, it covers only what the pan itself covers: pans stay real size, and the block area follows the model, so there's no invisible cover (our pick, 2026-11-25; see the table). Like the [ballistic shield](#ballistic-shield), the other hand can fire a 3rd-slot gun around it.
 - **Ours, not PUBG's:** our own models and sounds ([Legal review](../planning/legal-review.md#pubg-look-and-feel)).
 - **The trade-off:** carrying a pan means giving up the class slot, so it blocks more than a quick bullet or two.
 
@@ -67,10 +67,12 @@ Like the shields, a pan takes a set amount of gunfire before it's holed, counted
 
 | Pan | Gunfire it takes | What holes it | Covers when raised |
 | --- | --- | --- | --- |
-| Frying pan | 350 | About 8 [M4](../weapons/assault-rifles/m16-m4.md) hits (43), 6 from an [SR-25](../weapons/battle-rifles/sr-25.md) (58), or 2 full buckshot blasts (216) | Head and upper chest |
-| Cast-iron skillet | 500 | About 12 M4 hits | Head and upper chest; heavier to carry |
-| Wok | 250 | About 6 M4 hits | A wider area, down to the stomach |
-| Saucepan | 300 | About 7 M4 hits | The head only |
+| Frying pan | 350 | About 8 [M4](../weapons/assault-rifles/m16-m4.md) hits (43), 6 from an [SR-25](../weapons/battle-rifles/sr-25.md) (58), or 2 full buckshot blasts (216) | The face |
+| Cast-iron skillet | 500 | About 12 M4 hits | The face; heavier to carry |
+| Wok | 250 | About 6 M4 hits | The widest, head and neck down to the collarbone |
+| Saucepan | 300 | About 7 M4 hits | The smallest, most of the face |
+
+The "Covers when raised" column is what each real-size model covers on the test body, so it follows the model if a model changes (our pick, 2026-11-25, from the lead's measurements).
 
 For scale, the [ballistic shield](#shields) takes 2,900.
 

@@ -420,4 +420,5 @@ In rough order of what the game needs first:
 
 - [ ] Epic Online Services (free): matchmaking, voice, and Easy Anti-Cheat.
 - [ ] A Steam page ($100 through Steam Direct).
+- [ ] [Casual mode](../systems/gameplay.md#casual-mode): you or your squad against a lobby of bots, with third person allowed (owner, 2026-11-25). It needs bots and a third-person camera first. The details are our pick, for a later picks page: the camera key, bot skill picked in the menu, and half rewards with no ranked progress.
 - [ ] The robots as PvE enemies, starting with vault guards ([Robot guards](../systems/match-flow.md#robot-guards-idea)).

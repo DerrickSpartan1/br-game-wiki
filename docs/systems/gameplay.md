@@ -2,7 +2,7 @@
 
 Matches favor scavenging and a slower pace over fast action, in a classic battle royale format.
 
-- **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part.
+- **Camera:** the game is played in first person, including driving. Parachuting is the only third-person part, except in [casual mode](#casual-mode), where third person is allowed (owner, 2026-11-25).
 - **Hit zones:** six zones: head, neck, chest and stomach (one zone), groin, arms, and legs, with no lucky one-shots ([Hit zones](ttk.md#hit-zones)).
 - **Handling:** spread, ready and ADS times, reloads, and movement speed per category are on [Handling](handling.md).
 - **Healing:** PUBG's healing items and boost bar, with six slots filled by Escape from Tarkov's meds, drinks, and stimulants, each a little better or worse than PUBG's numbers, and one item per slot each match ([Healing](healing.md)).
@@ -305,7 +305,7 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
     - **In the match:** the party is one squad, in the pre-match lobby too, with its colors and numbers on the map.
     - **After a match:** everyone goes back to the menu still in the party. Anyone can leave; the leader can remove someone, and if the leader leaves, the next to join leads.
     - **For the backend:** parties live in the backend (create, invite, accept, leave, remove, hand over the lead, ready), and the matchmaker takes a party as one ticket. A match server gets each squad's members at join. Until then, the `Squad` test command stands in.
-- **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22).
+- **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22). [Casual mode](#casual-mode) puts you or your squad against a lobby of bots, with third person allowed (owner, 2026-11-25).
 - **Ranked:** a separate ranked playlist.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
@@ -351,10 +351,23 @@ How gun sounds are layered and sourced is on [Gun art and sound](../planning/art
 
 The owner's picks (2026-11-22). First pass for how they play (our pick):
 
-- **Where:** bots fill the lobby and any empty slots in a match, so games feel full ([Pre-match lobby](match-flow.md#pre-match-lobby)).
+- **Where:** bots fill the lobby and any empty slots in a match, so games feel full ([Pre-match lobby](match-flow.md#pre-match-lobby)). In [casual mode](#casual-mode), every slot but your squad's is a bot.
 - **Not marked:** like PUBG, nothing shows that a player is a bot.
 - **Skill:** three levels, easy, normal, and hard, set per match. The level sets how fast they react, how far away they notice players, and how well they aim and control recoil.
 - **How they play (our pick):** they jump from the plane like players, loot the buildings near where they land, move in with the zone, heal when hurt, and fight players they see or hear.
+
+## Casual mode
+
+Our own casual mode (owner, 2026-11-25): "another thing i want to make note of is our own casual mode which is you or your team vs a lobby of AI, where 3rd person is allowed". A match where you, or your squad, play against a full lobby of [bots](#bots). It's the one mode where third person is allowed.
+
+PUBG's Casual Mode (patch 13.2, 2022) is close: about 10 real players dropped into a match mostly filled with bots, the rest of the match as normal, and up to three casual games a day ([Dot Esports: Casual Mode](https://dotesports.com/pubg/news/what-is-casual-mode-in-pubg)). Ours goes further: only your squad is real.
+
+- **Who's in it (owner):** you or your squad, and bots in every other slot.
+- **Third person (owner):** allowed. Our pick: a key switches between first and third person at any time, like PUBG's third-person modes, and aiming down sights is always first person.
+- **The match:** the normal map and rules: the zone, loot, heists, care packages, and the rest (our pick).
+- **Bot skill (our pick):** you pick easy, normal, or hard before you press Play ([Bots](#bots)).
+- **Rewards (our pick):** cash, scrap, and quests count at half, and there's no ranked progress, so it's for fun and practice, not the fastest way to earn. No daily limit.
+- **On the menu:** a Casual mode next to the others on the Play tab (our pick).
 
 ## Training map
 

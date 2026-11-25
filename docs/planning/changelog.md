@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Casual mode](../systems/gameplay.md#casual-mode) added |
 | 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): shared flights for care packages, vehicle drops, and the money drop |
 | 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): up to 3 pickup biplanes at once |
 | 2026-11-25 | [Aircraft](../systems/match-flow.md#aircraft): one of each kind at a time, each at its own height |

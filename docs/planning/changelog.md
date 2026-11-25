@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): the plane limit is on planes out at once; the 6-a-match cap is gone |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): cutting the line takes about 10 s |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): add your cash or cut the line; a limit on pickup planes |
 | 2026-11-25 | Answered the lead's round 8 questions on [Gameplay](../systems/gameplay.md#knockdowns-revives): shared places and damage to knocked enemies |

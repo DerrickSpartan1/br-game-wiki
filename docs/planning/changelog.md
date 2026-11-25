@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [To-do](to-do.md#you-decisions): round 10 picks page posted with the 7 queued items (43 calls) |
 | 2026-11-25 | [Class items](../systems/class-items.md#pans): shield and pan cover follows the model; the pans' cover column set from real sizes (answered the lead's question) |
 | 2026-11-25 | [Effects](../systems/attachments.md#effects-first-pass-from-pubg): ammo loops are time × 0.7, and the gun kicks while aiming (answered the lead's questions) |
 | 2026-11-25 | [Effects](../systems/attachments.md#effects-first-pass-from-pubg): how to read the table, vertical grip and choke rows fixed, extended quick mag row, canted irons switching; [Class items](../systems/class-items.md): where the defib is worn (answered the lead's questions) |

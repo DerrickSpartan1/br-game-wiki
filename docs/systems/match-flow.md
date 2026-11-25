@@ -6,7 +6,7 @@ How a match runs, from the lobby to the last circle: the pre-match lobby, the pl
 
 There's no separate lobby island: players spawn on the match's own map and wait there.
 
-- **Filling up:** the lobby fills with bots, and real players take their places as they join. Bots stay in the match to fill any empty slots.
+- **Filling up:** the lobby fills with bots, and real players take their places as they join. Bots stay in the match to fill any empty slots. Ranked lobbies have no bots and wait for real players ([Normal and ranked](gameplay.md#ranked), owner, 2026-11-25).
 - **Countdown:** once 10 players have joined, a 60-second countdown starts.
 - **Until bots exist (lead, owner OK, 2026-11-21):** the countdown starts once everyone the matchmaker sent has joined, or after a 60-second wait for no-shows. A running countdown keeps going if players leave.
 - **No damage** in the lobby, before the plane.

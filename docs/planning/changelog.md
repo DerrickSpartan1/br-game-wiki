@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Normal and ranked](../systems/gameplay.md#ranked): bot backfill in normal only; the ranked cutoff idea |
 | 2026-11-25 | [Normal and ranked](../systems/gameplay.md#ranked): no SBMM in normal, SBMM in ranked; casual mode's rewards settled |
 | 2026-11-25 | Answered the lead's melee and carry questions on [Melee](../systems/gameplay.md#melee) and [Carry weight](../systems/armor.md#carry-weight): melee pickup swaps, what drops when you take gear off, swaps cancel a swing |
 | 2026-11-25 | [Casual mode](../systems/gameplay.md#casual-mode): rewards by bot skill, quarter kills for mastery |

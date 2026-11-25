@@ -308,8 +308,9 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
     - **For the backend:** parties live in the backend (create, invite, accept, leave, remove, hand over the lead, ready), and the matchmaker takes a party as one ticket. A match server gets each squad's members at join. Until then, the `Squad` test command stands in.
 - **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22). [Casual mode](#casual-mode) puts you or your squad against a lobby of bots, with third person allowed (owner, 2026-11-25).
 - **Normal and ranked (owner, 2026-11-25):** "there will be a normal mode and a ranked mode for that, normal mode is just random people no SBMM, then ranked is SBMM."
-    - **Normal:** random players, with no skill-based matchmaking.
-    - <a id="ranked"></a>**Ranked:** a separate playlist with skill-based matchmaking (SBMM), where ranked progress is earned.
+    - **Normal:** random players, with no skill-based matchmaking. Bots backfill any empty slots, just to fill the match (owner, 2026-11-25).
+    - <a id="ranked"></a>**Ranked:** a separate playlist with skill-based matchmaking (SBMM), where ranked progress is earned. No bots: only real players, so searches may take longer (owner, 2026-11-25: "bots back fill on normal just to fill, but on ranked there is no fill but potentially longer search times, tho we may make a cutoff for filling games so that it can start and play").
+    - **Ranked cutoff (maybe, owner):** so a ranked match can still start and play, a search could stop waiting after a while and start with the players it has. Our pick: after 3 minutes, start with at least 64 players, still no bots.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
 - **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22). The line is rolled from a few, with different lines for solo and squads (owner). First lines (our pick): solo gets "The island is yours" or "Last one standing", and squads "The island is yours" or "Last squad standing".
@@ -354,7 +355,7 @@ How gun sounds are layered and sourced is on [Gun art and sound](../planning/art
 
 The owner's picks (2026-11-22). First pass for how they play (our pick):
 
-- **Where:** bots fill the lobby and any empty slots in a match, so games feel full ([Pre-match lobby](match-flow.md#pre-match-lobby)). In [casual mode](#casual-mode), every slot but your squad's is a bot.
+- **Where:** bots fill the lobby and any empty slots in a match, so games feel full ([Pre-match lobby](match-flow.md#pre-match-lobby)). Normal matches only: ranked never has bots (owner, 2026-11-25; [Normal and ranked](#ranked)). In [casual mode](#casual-mode), every slot but your squad's is a bot.
 - **Not marked:** like PUBG, nothing shows that a player is a bot.
 - **Skill:** three levels, easy, normal, and hard, set per match. The level sets how fast they react, how far away they notice players, and how well they aim and control recoil.
 - **How they play (our pick):** they jump from the plane like players, loot the buildings near where they land, move in with the zone, heal when hurt, and fight players they see or hear.

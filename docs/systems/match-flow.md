@@ -18,6 +18,7 @@ There's no separate lobby island: players spawn on the match's own map and wait 
 ## The plane
 
 - **Random path:** every match, the plane flies in from off the map and crosses it in a straight line between two random edges, like PUBG. The path shows on the map before the doors open.
+- **Over the island (owner, 2026-11-25, from a playtest):** "also just tested a match of our game and it gave me this drop, we will need a fix for this". In that match the plane ran east to west along the south edge, over open sea below Rybatsk, and crossed only the tip of its headland. A path has to cross the island, not skirt it. Our pick: it passes within 1.5 km of the island's middle and crosses at least 5 km of land; any other path is rolled again. Every plane that uses a random path follows this rule.
 - **Jumping:** jump any time along the path. Anyone still aboard is pushed out near the end.
 - **Squads:** teammates can follow one player's jump and land together (our pick).
 - **Altitude and speed:** TBD.

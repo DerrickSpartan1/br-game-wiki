@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Melee](../systems/gameplay.md#melee): stowed means melee; [The plane](../systems/match-flow.md#the-plane): paths must cross the island |
 | 2026-11-25 | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works): crate picks use plain odds (answered the lead's question) |
 | 2026-11-25 | [Legal review](legal-review.md#pubg-look-and-feel): PUBG isn't open source; what its license notices, Developer API, and Rules of Conduct allow |
 | 2026-11-25 | [Measured from PUBG footage](../systems/handling.md#measured-from-pubg-footage): published speeds kept |

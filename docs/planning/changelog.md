@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [To-do](to-do.md#you-decisions): round 12 picks page posted (first-person references, round 9 first passes, contributor setup); [Contributors](contributors.md#open) links it |
 | 2026-11-25 | [Contributors](contributors.md): the task board and its guards OK'd; a lead item to set them up |
 | 2026-11-25 | New page: [Contributors](contributors.md), a first pass at invited contributors with their own Claude and no overlapping work |
 | 2026-11-25 | [Skins](../systems/skins.md): same hitbox for both bodies confirmed; [Attachments](../systems/attachments.md): ammo loops on the right side (both from the round 9 playtest) |

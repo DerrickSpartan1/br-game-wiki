@@ -65,7 +65,7 @@ The board can be set up now (owner, 2026-11-25); branch protection waits on the 
 
 ## Open
 
-The owner's calls, for the next picks page:
+The owner's calls, on the [round 12 picks page](https://claude.ai/artifact/8rzpgFdLztv3dS3NPAntUx):
 
 Settled: the board and the claim rules (owner, 2026-11-25). Still open:
 

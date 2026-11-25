@@ -200,16 +200,29 @@ First pass (our pick, for the owner's review):
 | Jewelry store | A shop in a big town or town | Smash the display cases (loud glass) and grab what's inside. An alarm rings for 60 s. In and out in under a minute | Valuables |
 | Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quick and quiet, or with a [vault drill](crafting.md#what-a-workbench-makes) made from scrap at a workbench: about 45 seconds, loud, and it stops once and has to be restarted by hand (owner, 2026-11-24: the key or the drill is the trade-off). Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
 | Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a [box saw](crafting.md#what-a-workbench-makes) made from scrap, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
-| Armored van | Broken down on a road, rolled each match | Blow the back doors with a breaching charge, or cut them in about 30 s with a [cutting torch](crafting.md#what-a-workbench-makes) made from scrap, then grab the cash sacks. The van's alarm wails the whole time | Cash |
+| Armored van | Broken down on a road, rolled each match | Blow the back doors with a breaching charge, or cut them in about 30 s with a [cutting torch](crafting.md#what-a-workbench-makes) made from scrap, then grab what's inside. The van's alarm wails the whole time | Cash and gear: cash sacks and the guards' locker of guns and armor (owner, 2026-11-24) |
 | Exchange office | A storefront in a big town | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
-| Marked container | Gavansk Port's container quay | Cut the seal with your wire cutters and open it; which container is the marked one changes each match | Valuables, sometimes a crate weapon |
+| Sealed containers | Gavansk Port's container quay | Several sealed containers can be opened each match (owner, 2026-11-24): cut a seal with your wire cutters in about 5 s and open the doors. Each one rolls its contents, so most hold gear and a few hold the real prize (our pick: 5 a match, 1 or 2 with valuables) | Gear (guns, armor, attachments), sometimes valuables or a crate weapon |
 
 - **Timed to the circle (owner, 2026-11-24):** "we gotta think about the circle with these times too so 90 seconds might be too long." Every heist step stays under a minute (the drill about 45 s, the van about 30 s, a deposit box about 5 s), so a heist fits inside a zone phase's wait even late on: phase 3 waits 2 min 30 s and phase 4 waits 2 min ([The zone](#the-zone)). Early on, a heist is a safe bet; late, one outside the next circle is a gamble against the edge (our pick).
 - **How many:** each match rolls 2 or 3 heists to be live; the rest stay locked and dark. Live ones aren't marked on the map, so finding one is part of it (our pick).
 - **The alarm:** starting a heist trips an alarm heard about 300 m away, so it draws players in. The drill and the van's alarm keep it loud until the heist is done.
 - **The drill stopping** is part of the heist, like Payday's: it's a tool, not a gun, so the no-jamming rule doesn't touch it. Drills are made from scrap, never found (owner, 2026-11-24).
 - **Getting away:** a drop-off is never right next to a heist, so the loot has to be carried a little way in the open.
-- **The map needs** these places in the building kit: a jewelry store, a bank interior with a vault, a post office with deposit boxes, an exchange office, and the armored van ([Buildings](maps.md)).
+**More ideas (our picks, 2026-11-24, for the owner's review).** The owner asked for more heist ideas ("feel free to look through other heist stuff or think of other stuff"). These borrow from other games' cash and heist modes, always under our own names: Warzone's Plunder (cash from loot, bank vaults whose alarms alert nearby squads, deposit balloons that can be shot down, players dropping cash on death), Fortnite's Getaway (jewels in slow safes, the carrier revealed for 30 seconds), and PUBG's own PvE Payday mode of May 2026 (Diamond District, The Exchange, Nightclub, and Road Rage, on its own map) ([Activision: Plunder](https://blog.activision.com/call-of-duty/2020-03/Warzone-Mode-Recon-Plunder), [Mein-MMO: Getaway](https://mein-mmo.de/en/fortnite-neue-spielmodus-flucht,266716), [PUBG: New Mode: PAYDAY](https://pubg.com/news/10009)).
+
+| Idea | What it is |
+| --- | --- |
+| Tip-offs | Notes found as loot that mark one live heist on your map, like Payday's intel. Live heists are otherwise unmarked |
+| Cash balloon | Made from scrap at a workbench (50): banks your whole bag from anywhere, but it rises for 30 s where everyone can see it, and if it's shot down the bag lands where it falls. From Warzone's deposit balloons |
+| The big score | The bank job's gold bars mark their carrier on everyone's map for 30 s when picked up, like Fortnite's jewel carrier |
+| Moving convoy | Later, with vehicles: an armored van drives the ring road during one phase. Stop it (shoot the tires), then open it like the broken-down one |
+| Castle museum | Krepost's castle holds a small museum: smash the cases for antique silver, medals, and old jewelry. One causeway in and out makes it easy to hold and hard to leave |
+| Farm payroll | The Kolkhoz office keeps the farm's payroll in a safe. A quiet, small score in the middle of nowhere |
+| Ferry strongroom | The ferry at Gavansk's ferry quay has a purser's strongroom: a safe and the passengers' valuables lockers |
+| Robot response | Starting the bank job or the museum calls a robot patrol after 60 s, like Payday's police, easy to fight but loud (PvE) |
+
+- **The map needs** these places in the building kit: a jewelry store, a bank interior with a vault, a post office with deposit boxes, an exchange office, the armored van, the sealed containers, and, if the ideas above are kept, a castle museum, a farm office, and the ferry ([Buildings](maps.md)).
 
 ## Vaults and keys
 

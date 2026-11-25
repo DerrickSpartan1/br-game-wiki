@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Port heists open several sealed containers, most with gear; the armored van holds gear and cash (owner). Eight more heist ideas from Plunder, Getaway, and Payday queued for review | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Melee follow-ups: a swing already started lands even if the swinger dies or is knocked in the 0.3 s; holding left mouse swings every 0.8 s; melee shows right under the pistol on the HUD and inventory, between 3 and 2 on the HUD (our picks; melee under the pistol is the owner's) | [Melee](../systems/gameplay.md#melee) |
 | 2026-11-24 | Heist steps stay under a minute so they fit the circle: the vault drill about 45 s with one stop, the van about 30 s (owner raised the circle; numbers our pick) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Scrap stays the scavenger's money inside a match: makeshift gear, heist tools (vault drill, box saw, cutting torch), and paying for things in the match; cash is what you take home (owner; the box saw and torch our pick) | [Crafting](../systems/crafting.md) |

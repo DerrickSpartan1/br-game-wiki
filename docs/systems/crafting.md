@@ -2,10 +2,25 @@
 
 Crafting takes inspiration from Super People's system: finding stuff and building with it. It happens both during matches and back at your hub.
 
-- **Scrap is the one currency** (owner, 2026-11-22): there's one kind of scrap. You spend it at [workbenches](#workbenches) during a match, and whatever you haven't spent comes out of the match with you as the game's main currency. Every scrap spent in a match is scrap you don't take home, so spending is a real choice.
+- **Scrap is the crafting material** (owner, 2026-11-22; no longer the currency since 2026-11-24): there's one kind of scrap. You spend it at [workbenches](#workbenches) during a match, and whatever you haven't spent turns into cash when the match ends ([Cash](#cash)). Every scrap spent in a match is cash you don't take home, so spending is a real choice.
 - **Out-of-game crafting:** scrap and quest items brought back to your hub, or to drop-off points, craft skins or turn in for quests. They go in their own pocket and don't add weight. Outside matches, scrap only buys looks: skins, quests, and other cosmetics, never anything that helps in a fight (owner, 2026-11-22).
 - **Winning:** a win earns bonus scrap on top of whatever you brought out (our pick; the amount is TBD).
 - **Taking things out of a match (owner, 2026-11-22):** everything you carry comes out with you, win or lose, but a quest item only counts once you've survived 5 minutes after picking it up. Skin-crafting items come out like scrap: in their own pocket, with no weight, kept win or lose (owner, 2026-11-22).
+
+## Cash
+
+Cash is the game's main currency, not scrap (owner, 2026-11-24): "instead of scrap being the main currency cash is, scrap held at end of match gets converted to cash, but cash can be found in vaults and safes and cash registers and other places for people to loot. this way you can give a heisty type feel to things."
+
+- **Scrap converts:** any scrap you still hold when the match ends turns into cash. The rate is TBD.
+- **Cash is loot:** found in vaults, safes, cash registers, and other places worth breaking into, so a match can be played as a heist.
+- **What it buys:** looks only, the way scrap did: skins, quests, and other cosmetics, never anything that helps in a fight (owner, 2026-11-22, carried over). It can't be bought with real money or turned into real money (our pick), which keeps it clear of gambling rules.
+
+First pass, queued for the owner's next picks page (our picks):
+
+- **Where it's found:** cash registers in shops, cafes, and gas stations (a little, opened at once with a ring of the drawer); safes in offices, the bank, the port's office, the prison, and better houses (more, cracked with your built-in tools in about 10 seconds, loud enough to hear about 40 m away); ATMs (broken open with a breaching tool, very loud); vaults (the big hauls); and bodies, which hold whatever cash their player carried. Amounts to tune.
+- **Losing it:** the heist needs a risk. Cash you carry drops with your body when you die, for anyone to take; you keep it by getting it out. Two ways out: win, or bank it at a cash drop-off on the way (a few around each map, where depositing takes a few seconds in the open). Banked cash is yours even if you die later.
+- **Weight:** bundles of cash take a little backpack space, so a big vault haul means choosing between gear and money.
+- **In the match:** wanted contracts pay cash; radar stations and workbenches still take scrap.
 
 ## In-match crafting
 
@@ -27,7 +42,7 @@ First pass (our pick, 2026-11-22), scaled from Apex Legends' replicators and War
 - **Bodies** keep the scrap their player carried.
 - **Vaults** hold 50 scrap, and care packages 25.
 - **What a match is worth:** a player who loots steadily should finish with roughly 100 to 200 scrap if they spend none (a target to test).
-- **Carrying it:** scrap goes in its own pocket with no weight, since it's now a currency (changed from taking backpack space).
+- **Carrying it:** scrap goes in its own pocket with no weight (changed from taking backpack space when it was the currency).
 
 ### What a workbench makes
 

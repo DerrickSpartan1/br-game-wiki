@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Cash first pass OK'd: it drops with your body unless you win or bank it at a drop-off, wanted contracts pay it, and it rides in a gym bag under the backpack that doesn't count against carry weight (owner) | [Cash](../systems/crafting.md#cash) |
 | 2026-11-24 | Cash is the main currency, not scrap: scrap held at the end converts to cash, and cash is loot in vaults, safes, cash registers, and more, for a heist feel (owner) | [Cash](../systems/crafting.md#cash) |
 | 2026-11-24 | Round 9 picks (owner): never pulling with automatic opening off means you die; a part-loaded round doesn't finish when you stop a reload, which goes back to the last saved step; a customizable starting belt gives the no-gear 50; all the other first passes on the page OK'd | [Picks archive](picks-archive.md) |
 | 2026-11-24 | The cloud planner check-in does picks pages only, hourly from 9 AM to 11 PM; the half-hourly check-ins on the owner's PC do everything else (owner) | [Check-ins](ai-team.md#check-ins) |

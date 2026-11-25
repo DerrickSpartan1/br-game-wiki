@@ -15,12 +15,12 @@ Cash is the game's main currency, not scrap (owner, 2026-11-24): "instead of scr
 - **Cash is loot:** found in vaults, safes, cash registers, and other places worth breaking into, so a match can be played as a heist.
 - **What it buys:** looks only, the way scrap did: skins, quests, and other cosmetics, never anything that helps in a fight (owner, 2026-11-22, carried over). It can't be bought with real money or turned into real money (our pick), which keeps it clear of gambling rules.
 
-First pass, queued for the owner's next picks page (our picks):
+The owner liked all of the first pass below (2026-11-24); details marked "our pick" are still to tune:
 
-- **Where it's found:** cash registers in shops, cafes, and gas stations (a little, opened at once with a ring of the drawer); safes in offices, the bank, the port's office, the prison, and better houses (more, cracked with your built-in tools in about 10 seconds, loud enough to hear about 40 m away); ATMs (broken open with a breaching tool, very loud); vaults (the big hauls); and bodies, which hold whatever cash their player carried. Amounts to tune.
-- **Losing it:** the heist needs a risk. Cash you carry drops with your body when you die, for anyone to take; you keep it by getting it out. Two ways out: win, or bank it at a cash drop-off on the way (a few around each map, where depositing takes a few seconds in the open). Banked cash is yours even if you die later.
-- **Weight:** bundles of cash take a little backpack space, so a big vault haul means choosing between gear and money.
-- **In the match:** wanted contracts pay cash; radar stations and workbenches still take scrap.
+- **Where it's found (our pick, amounts to tune):** cash registers in shops, cafes, and gas stations (a little, opened at once with a ring of the drawer); safes in offices, the bank, the port's office, the prison, and better houses (more, cracked with your built-in tools in about 10 seconds, loud enough to hear about 40 m away); ATMs (broken open with a breaching tool, very loud); vaults (the big hauls); and bodies, which hold whatever cash their player carried. Amounts to tune.
+- **Losing it (owner, 2026-11-24):** the heist needs a risk. Cash you carry drops with your body when you die, for anyone to take; you keep it by getting it out. Two ways out: win, or bank it at a cash drop-off on the way (a few around each map, where depositing takes a few seconds in the open). Banked cash is yours even if you die later.
+- **The cash bag (owner, 2026-11-24):** "maybe they have like a little gym bag they carry on their back under their backpack and you dont have to worry about carry weight." Cash goes in a small gym bag worn on your back under the backpack, with its own space, so it never counts against carry weight or crowds out gear. For balance (our pick): the bag holds a set amount, about one vault's haul, and once it's full you bank it at a drop-off before you can carry more, so a big heist means trips to a drop-off. It looks fuller as it fills, so other players can see who's worth chasing, and it drops with your body like the cash in it.
+- **In the match (owner, 2026-11-24):** wanted contracts pay cash; radar stations and workbenches still take scrap.
 
 ## In-match crafting
 

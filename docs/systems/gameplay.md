@@ -306,7 +306,9 @@ Wire fences (owner, 2026-11-22): drive straight through them like PUBG, fast but
     - **After a match:** everyone goes back to the menu still in the party. Anyone can leave; the leader can remove someone, and if the leader leaves, the next to join leads.
     - **For the backend:** parties live in the backend (create, invite, accept, leave, remove, hand over the lead, ready), and the matchmaker takes a party as one ticket. A match server gets each squad's members at join. Until then, the `Squad` test command stands in.
 - **Modes:** official matchmaking is solos, duos, trios, and quads. Custom game lobbies can have bigger squads, and so can special game modes that need them (owner, 2026-11-22). [Casual mode](#casual-mode) puts you or your squad against a lobby of bots, with third person allowed (owner, 2026-11-25).
-- **Ranked:** a separate ranked playlist.
+- **Normal and ranked (owner, 2026-11-25):** "there will be a normal mode and a ranked mode for that, normal mode is just random people no SBMM, then ranked is SBMM."
+    - **Normal:** random players, with no skill-based matchmaking.
+    - <a id="ranked"></a>**Ranked:** a separate playlist with skill-based matchmaking (SBMM), where ranked progress is earned.
 - **Custom matches and fun modes:** private custom matches for friends, streamers, and tournaments, plus rotating fun modes. Later, a full custom rules set ([Custom games and mods](#custom-games-and-mods-later)).
 - **Practice lobby:** a private lobby where a player can try every gun, version, and vehicle.
 - **Victory line:** the game gets its own line for a win, like PUBG's "Winner winner chicken dinner." Ours is "The island is yours" (owner, 2026-11-22). The line is rolled from a few, with different lines for solo and squads (owner). First lines (our pick): solo gets "The island is yours" or "Last one standing", and squads "The island is yours" or "Last squad standing".
@@ -370,7 +372,9 @@ PUBG's Casual Mode (patch 13.2, 2022) is close: about 10 real players dropped in
     - **Cash and XP** scale with the bot skill you pick: more on hard, less on easy. Easy 50%, normal 75%, hard 100% of a normal match, kept for now (owner, 2026-11-25: "we will keep those percentages for now, depends on how cracked the hard bots are"); retune once the hard bots have been played against.
     - **Gun mastery:** a bot kill counts as a quarter of a kill, so mastery and other kill challenges take four times the bots ([Weapon mastery](skins.md#weapon-mastery)).
     - **Scrap** comes at the normal rate, since it's only used in the match.
-    - **Our pick:** quests scale with the bot skill like cash, there's no ranked progress, and there's no daily limit.
+    - **Quests** scale with the bot skill, like cash (owner, 2026-11-25).
+    - **No ranked progress** (owner, 2026-11-25); that's what [ranked](#ranked) is for.
+    - **No daily limit (owner, 2026-11-25):** it's for people who just want to play and still progress. The owner: "yes we dont want a daily limit this for the people who just wanna game but still progress, and yeah quests should scale with bots yeah, no ranked progress, there will be a normal mode and a ranked mode for that, normal mode is just random people no SBMM, then ranked is SBMM"
 - **On the menu:** a Casual mode next to the others on the Play tab (our pick).
 
 ## Training map

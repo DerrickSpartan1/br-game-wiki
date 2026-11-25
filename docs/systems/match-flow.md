@@ -38,6 +38,7 @@ Like PUBG, in third person, the one part of the game that is ([Gameplay](gamepla
     - **Where you're headed:** your squad's map markers show on screen and on the compass with their distance in meters, and so do your squadmates, so you can steer to them.
     - **Under the canopy:** the gauge and speed stay up until you land.
 - **Under the canopy:** about 23 to 34 km/h forward, and up to about 80 km/h spiralling down.
+- **Holding W pushes you down (owner, 2026-11-25):** "and parachuting when holding w pushes you down like the dive holding w pushes downwards". In freefall, holding W is the dive. Under the canopy, holding W tips you forward and down, so you come down faster and land sooner, like PUBG; letting go levels you out, and holding S slows you for the longest glide (our pick, PUBG's way). The fastest way down under the canopy is the 80 km/h above.
 - **Distance vs. speed:** opening the chute at the first chance covers the most ground; diving straight at a close target lands first. Both work like PUBG's.
 - **How far you can reach:** PUBG's guides give speeds but no distance from the path, so it's not published. The lead can measure it from PUBG footage the way it measured movement ([Measured from PUBG footage](handling.md#measured-from-pubg-footage)); ours should come out about a quarter farther.
 

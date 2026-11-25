@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): add your cash or cut the line; a limit on pickup planes |
 | 2026-11-25 | Answered the lead's round 8 questions on [Gameplay](../systems/gameplay.md#knockdowns-revives): shared places and damage to knocked enemies |
 | 2026-11-25 | [Cash balloon](../systems/match-flow.md#mini-heists): silent, on the map, picked up by a plane |
 | 2026-11-25 | [Mini heists](../systems/match-flow.md#mini-heists): eight more heists kept, gold carriers off the map, the [cash balloon](../systems/crafting.md#what-a-workbench-makes) at 150 scrap |

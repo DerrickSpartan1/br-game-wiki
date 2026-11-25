@@ -40,7 +40,7 @@ Lots of throwables, starting with every one PUBG has ([Throwables](#throwables))
 
 Special never repeats a subcategory in one match: the 2 special slots always come from different subcategories, like a bow and a musket, never two bows ([Special weapons](#special-weapons)). Mortars are class items ([Mortars](class-items.md#mortars)).
 
-Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. The cartridge weighting might still apply to crate picks. What goes in crates:
+Crate weapons come from an exclusive list of guns too powerful or special for the ground pool. Crate picks use plain odds, with no cartridge weighting, since crate guns are special finds (our pick, from the lead's question, 2026-11-25). What goes in crates:
 
 - **Anti-vehicle and heavy snipers:** anti-materiel rifles like .50-caliber ones, and other heavy sniper rifles. Like PUBG's crate AWM, which one-shot level 3 helmets, a crate sniper's head shot kills through any helmet, tier 3 included. Any version whose starting damage crosses that line is crate-only, like the .300 Winchester Magnum and .338 Lapua snipers ([Starting damage](starting-damage.md#baselines-and-crate-lines)).
 - **Rocket launchers,** like the RPG, as crate-only class items: they take the class slot, not a primary (owner, 2026-11-22). They're heavy and slow ([Class items](class-items.md)).

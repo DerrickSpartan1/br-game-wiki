@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Crate guns roll with plain odds, no cartridge weighting (our pick, from the lead's question) | [Weapon pool](../systems/weapon-pool.md#how-the-randomness-works) |
 | 2026-11-25 | PUBG's feel is recreated from outside only: published numbers and footage measurements, never decompiling or datamining (owner) | [Legal review](legal-review.md#pubg-look-and-feel) |
 | 2026-11-25 | Movement speeds stay PUBG's published table; the lead's footage (within 3%) is the feel target for everything else (owner) | [Measured from PUBG footage](../systems/handling.md#measured-from-pubg-footage) |
 | 2026-11-25 | A match with only one team gives no place and no win, so solo tests don't add win stats (the lead's call while coding round 10) | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) |

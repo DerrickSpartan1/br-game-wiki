@@ -5,6 +5,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 | Date | Decision | Page |
 | --- | --- | --- |
 | 2026-11-25 | Casual mode: quests scale with bot skill, no ranked progress, no daily limit. Matchmaking: normal mode is random players with no SBMM; ranked mode uses SBMM (owner) | [Casual mode](../systems/gameplay.md#casual-mode), [Modes](../systems/gameplay.md#ranked) |
+| 2026-11-25 | Lead's review questions: picking up a thrown melee weapon while carrying one swaps them; taking off or downsizing a vest, rig, or pack drops only that piece's share of the overflow; helmets drop nothing; putting melee away or drawing a gun before the hit calls the swing off (our picks) | [Melee](../systems/gameplay.md#melee), [Carry weight](../systems/armor.md#carry-weight) |
 | 2026-11-25 | Casual mode rewards: easy 50%, normal 75%, hard 100% for now, retuned once the hard bots are tested (owner) | [Casual mode](../systems/gameplay.md#casual-mode) |
 | 2026-11-25 | Casual mode: cash and XP scale with bot skill; a bot kill counts as a quarter toward gun mastery; scrap at the normal rate; normal maps and rules; bot skill picked before Play; a key switches perspective and aiming is first person (owner) | [Casual mode](../systems/gameplay.md#casual-mode) |
 | 2026-11-25 | Casual mode: you or your squad against a lobby of bots, the one mode where third person is allowed (owner) | [Casual mode](../systems/gameplay.md#casual-mode) |

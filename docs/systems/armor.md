@@ -354,6 +354,7 @@ Attachments and the rest (owner OK'd, 2026-11-24; attachment weights are PUBG's 
 
 - **Over capacity:** you can't pick anything up until you're under it again. Nothing slows you down.
 - **Taking off a vest, rig, or pack** that would leave you over capacity is allowed, the same for all three (owner, 2026-11-24): what no longer fits drops on the ground, ammo first, then whatever else it takes to get under capacity. So when your rig's armor is broken and you just need some armor, you can take it off without sorting your bag first.
+    - **What drops (our picks, 2026-11-25, the lead's questions):** only what the piece you took off was holding, its share of the capacity. If you were already over before (say from a reload's leftovers), you keep that part. Swapping to a smaller vest, rig, or pack works the same way: allowed, and the overflow drops. Helmets hold nothing, so taking one off never drops anything.
 - **Rounds coming back to you** (a reload's leftovers, an en bloc clip ejected early) always go in, even over capacity, so nothing lands on the ground in a fight.
 - **A carrier with a range of slots** (the LV-119's 24–28, the ANA M1 / M2's 18–20) uses the middle: 26 slots, 156, for the LV-119. That's why the rig row's top is 156, not the biggest chest rig's 150 (owner OK'd, 2026-11-24).
 

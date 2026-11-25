@@ -64,8 +64,8 @@ First pass (our pick, 2026-11-22), scaled from Apex Legends' replicators and War
 | Noisemaker decoy | 10 | 4 s | Draws players toward a sound |
 | Comeback | 75 | 10 s | Another redeploy from the [comeback duel](gameplay.md#comeback-fight) (owner's idea; the cost is our pick) |
 | Box saw | 30 | 8 s | Cuts deposit boxes open, about 5 s each ([Mini heists](match-flow.md#mini-heists)); our pick |
-| Cutting torch | 50 | 10 s | Cuts an armored van's back doors in about 60 s, or a sealed container in 10 s ([Mini heists](match-flow.md#mini-heists)); our pick |
-| Vault drill | 100 | 15 s | The other way into a [vault](match-flow.md#vaults-and-keys): a key is quick and quiet, a drill costs scrap and makes a heist of it (owner, 2026-11-24). It takes about 90 seconds, loud the whole time, and stops twice, so someone has to restart it by hand (our pick). Single use, carried in the backpack |
+| Cutting torch | 50 | 10 s | Cuts an armored van's back doors in about 30 s, or a sealed container in 10 s ([Mini heists](match-flow.md#mini-heists)); our pick |
+| Vault drill | 100 | 15 s | The other way into a [vault](match-flow.md#vaults-and-keys): a key is quick and quiet, a drill costs scrap and makes a heist of it (owner, 2026-11-24). It takes about 45 seconds, loud the whole time, and stops once, so someone has to restart it by hand: short enough to fit inside a late phase's wait (our pick, shortened from 90 s for the circle, owner, 2026-11-24). Single use, carried in the backpack |
 
 The cheapest item to the most expensive is 10 to 100 scrap, close to Warzone's buy stations ($1,500 to $10,000). [Radar stations](match-flow.md#radar-stations) charge 50 scrap.
 

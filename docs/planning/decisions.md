@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-24 | Heist steps stay under a minute so they fit the circle: the vault drill about 45 s with one stop, the van about 30 s (owner raised the circle; numbers our pick) | [Mini heists](../systems/match-flow.md#mini-heists) |
 | 2026-11-24 | Scrap stays the scavenger's money inside a match: makeshift gear, heist tools (vault drill, box saw, cutting torch), and paying for things in the match; cash is what you take home (owner; the box saw and torch our pick) | [Crafting](../systems/crafting.md) |
 | 2026-11-24 | Vaults open with a key or a vault drill made from scrap at a workbench, the trade-off; drills are never found (owner) | [Vaults and keys](../systems/match-flow.md#vaults-and-keys), [Workbenches](../systems/crafting.md#what-a-workbench-makes) |
 | 2026-11-24 | The 5-minute quest timer is gone; drop-offs are decently easy to reach (owner). Mini heists from Payday: six first-pass heists queued for the owner's review | [Cash](../systems/crafting.md#cash), [Mini heists](../systems/match-flow.md#mini-heists) |

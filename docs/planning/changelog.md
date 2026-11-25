@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Legal review](legal-review.md#pubg-look-and-feel): PUBG isn't open source; what its license notices, Developer API, and Rules of Conduct allow |
 | 2026-11-25 | [Measured from PUBG footage](../systems/handling.md#measured-from-pubg-footage): published speeds kept |
 | 2026-11-25 | [Measured from PUBG footage](../systems/handling.md#measured-from-pubg-footage): the lead's movement measurements (speeds, speeding up and stopping, stances, jumps, vaults, lean) |
 | 2026-11-25 | [Coding practices](coding-practices.md): shared Python helpers marked done (the lead's report) |

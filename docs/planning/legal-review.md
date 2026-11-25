@@ -74,6 +74,13 @@ Battle royale basics (a plane drop, parachutes, a shrinking zone, airdrops, loot
 | Boost bar | Its own name and look | Named Stim (owner, 2026-11-22); look to do |
 | "Red zone," "blue zone," and the victory line | Our own words | Named: strike zone, the edge, and "The island is yours" (owner, 2026-11-22) |
 
+**Is PUBG open source? No (planner, 2026-11-25, the owner's question).** PUBG is Krafton's own closed game. What gets mistaken for an open license:
+
+- **"Open Source License" pages** list other people's software inside the game, such as Unreal Engine, as the game's license notices; they don't open PUBG's own code or assets ([BGMI help: Open Source License](https://help.battlegroundsmobileindia.com/hc/en/6-bgmi/section/54-open-source-license/)).
+- **The official PUBG Developer API** gives match data and telemetry. Its FAQ allows commercial use under its Terms of Service and lets you "derive any information you'd like from the data", but it's meant for tools and sites about PUBG and says nothing about using it to build another game ([PUBG Developer: FAQ](https://developer.pubg.com/faq?locale=en), [PUBG API docs: Telemetry](https://documentation.pubg.com/en/telemetry.html)).
+- **The API's art and data repo** (`pubg/api-assets`: item icons, dictionaries, enums) has no open license; its README says everything in it must be used under PUBG's Terms of Use and Player-created Content policy, so none of it goes in our game ([GitHub: pubg/api-assets](https://github.com/pubg/api-assets)).
+- **PUBG's Rules of Conduct** ban modifying the client, servers, or game data (5.2), and section 4.6 says you may not use "the information obtained through Game such as copying, duplication, modification, translation, publishing" or pass it on without Krafton's consent ([PUBG: Rules of Conduct](https://pubg.com/en/clause/rules_of_conduct)). Game rules and numbers aren't protected by copyright, but that clause is a contract term, so before release a lawyer should look at how we used footage measurements and published numbers. Until then: no decompiling, no datamining, no PUBG files, and every number keeps its source.
+
 ## Copyright and AI
 
 Not legal advice; background for when the owner talks to a lawyer.

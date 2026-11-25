@@ -4,6 +4,47 @@ Every answer the owner gave on a picks page, copied here before the page was del
 
 New picks pages hold only questions that are still open. Once they are answered and filed, their answers are added here and the page is deleted. A full copy of each deleted page, with every option it offered, and its saved answers is kept in the repo's [`archive/picks`](https://github.com/DerrickSpartan1/br-game-wiki/tree/main/archive/picks) folder.
 
+## Review page: the planner's first passes (2026-11-24)
+
+Posted for the owner's review of 36 "our pick" answers; answered on the page and filed by the hourly picks check-in. Saved copy: `archive/picks/2026-11-24-review-first-passes.html`.
+
+- **A brought-back player killed again is a new kill** OK.
+- **The knocker gets the kill if a squadmate finishes you** OK.
+- **The kill still counts if the knocker leaves** OK.
+- **Who can pick up a thrown melee weapon** Anyone, like PUBG.
+- **Quick melee lands 0.3 s after the tap** OK.
+- **Throws fly at 20 m/s with normal gravity** OK.
+- **Revolver open and close times** OK.
+- **Calibers and cartridge names the lead asked about** OK.
+- **Night is day for night** OK.
+- **Five rules so nobody can cheat the dark** OK.
+- **Ischia's sun on June 1, and bright moonlit nights** OK.
+- **The watch: inside of the left wrist, analog face, no zone timer** OK.
+- **Fire burns through armor at 10 health a second** OK.
+- **Gas hurts at half its rate while it rolls in and thins out** OK.
+- **Any solid roof shelters you from shells, for now** OK.
+- **How dangerous a bombardment is** OK.
+- **The creeping barrage walks at 5 m/s** OK.
+- **Only the storm itself covers gunshots** OK.
+- **Dusk and night sight** OK.
+- **Heavy spells: when they start and end** OK.
+- **Care packages can land a phase early or late** OK.
+- **The air raid siren carries 300 m past the strike zone** OK.
+- **Late zone circles stay over land** OK.
+- **HUD size from 75% to 125%** OK.
+- **Vaults are hidden on the map until you hold a key** OK.
+- **Test tools stay test tools** OK.
+- **Iron sights the size of PUBG's M416's** OK.
+- **The training map write-up** OK.
+- **Backpack tiers by area** OK.
+- **Carry weights the lead asked for** OK.
+- **Capacity rules** Change it. Comment: "if you go over capacity put it ont he ground, this would help in cases where if your armor rig breaks and you jsut need some sort of armor you can take it off, it drops ammo first but itlly drop whatever i needs"
+- **The LV-119 rig holds 156** OK.
+- **Lag compensation: the server rewinds up to 200 ms** OK. Comment: "how do other game shandle this?"
+- **The full map's controls** OK.
+- **The care package's plane, crate, and parachute** OK.
+- **The suggested project layout** OK.
+
 ## Round 9: the parachute choice and the newer first passes (2026-11-24)
 
 Posted by the hourly picks check-in; the owner pasted his answers into the chat too.

@@ -1,0 +1,194 @@
+{
+ "answers": {
+  "barrage": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The creeping barrage walks at 5 m/s"
+  },
+  "bombardment": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "How dangerous a bombardment is"
+  },
+  "bp_odds": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Backpack tiers by area"
+  },
+  "calibers": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Calibers and cartridge names the lead asked about"
+  },
+  "capacity_rules": {
+   "choice": "change",
+   "label": "Change it",
+   "question": "Capacity rules"
+  },
+  "cp_look": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The care package's plane, crate, and parachute"
+  },
+  "dusk_night": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Dusk and night sight"
+  },
+  "fair_dark": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Five rules so nobody can cheat the dark"
+  },
+  "fire": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Fire burns through armor at 10 health a second"
+  },
+  "gas_rate": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Gas hurts at half its rate while it rolls in and thins out"
+  },
+  "hud_size": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "HUD size from 75% to 125%"
+  },
+  "iron_sights": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Iron sights the size of PUBG's M416's"
+  },
+  "kill_again": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "A brought-back player killed again is a new kill"
+  },
+  "kill_knocker": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The knocker gets the kill if a squadmate finishes you"
+  },
+  "kill_left": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The kill still counts if the knocker leaves"
+  },
+  "lag_comp": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Lag compensation: the server rewinds up to 200 ms"
+  },
+  "lv119": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The LV-119 rig holds 156"
+  },
+  "map_controls": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The full map's controls"
+  },
+  "melee_pickup": {
+   "choice": "anyone",
+   "label": "Anyone, like PUBG",
+   "question": "Who can pick up a thrown melee weapon"
+  },
+  "night_look": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Night is day for night"
+  },
+  "over_land": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Late zone circles stay over land"
+  },
+  "packages_timing": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Care packages can land a phase early or late"
+  },
+  "project_layout": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The suggested project layout"
+  },
+  "quick_melee": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Quick melee lands 0.3 s after the tap"
+  },
+  "revolver_times": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Revolver open and close times"
+  },
+  "shelter": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Any solid roof shelters you from shells, for now"
+  },
+  "siren": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The air raid siren carries 300 m past the strike zone"
+  },
+  "spells": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Heavy spells: when they start and end"
+  },
+  "sun_moon": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Ischia's sun on June 1, and bright moonlit nights"
+  },
+  "test_tools": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Test tools stay test tools"
+  },
+  "throw_numbers": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Throws fly at 20 m/s with normal gravity"
+  },
+  "thunder": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Only the storm itself covers gunshots"
+  },
+  "training_map": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The training map write-up"
+  },
+  "vaults_map": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Vaults are hidden on the map until you hold a key"
+  },
+  "watch": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The watch: inside of the left wrist, analog face, no zone timer"
+  },
+  "weights": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Carry weights the lead asked for"
+  }
+ },
+ "comments": {
+  "capacity_rules": {
+   "question": "Capacity rules",
+   "text": "if you go over capacity put it ont he ground, this would help in cases where if your armor rig breaks and you jsut need some sort of armor you can take it off, it drops ammo first but itlly drop whatever i needs"
+  },
+  "lag_comp": {
+   "question": "Lag compensation: the server rewinds up to 200 ms",
+   "text": "how do other game shandle this?"
+  }
+ }
+}

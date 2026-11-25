@@ -59,7 +59,7 @@ Damage is a percent of full health, so armor doesn't change it.
 
 **Scaled to Teplov (owner, 2026-11-24):** PUBG's first circle is 4,565 m across on Erangel's 8 × 8 km map, about a quarter of its area. Teplov's play area is 10 × 8 km, a quarter bigger, so phases 1 and 2 grow by the same factor (about 1.12) to 5,100 and 3,315 m, and phase 3 on keeps PUBG's sizes. The shrink speeds are worked out from the new sizes: shrink speed is how fast the circle's diameter closes while it shrinks, as on PUBG's table, and the first blue circle starts round the whole 10 × 8 km play area (12.8 km across).
 
-**Circles stay over land (planner's pick, 2026-11-22):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
+**Circles stay over land (owner OK'd, 2026-11-24):** from phase 4 on, each new white circle's center is on land, and the last circles keep at least about three quarters of their area on land, so a match can't end on open water.
 
 ### The edge: how it looks
 
@@ -107,7 +107,7 @@ Spend scrap at a radar station to see the next circle early. It costs 50 scrap (
 
 PUBG's red zone, in several forms. One at a time, at a random spot on the map once the match starts, including outside the safe circle. Each one rolls its form:
 
-- **Air raid siren:** before any form starts, an air raid siren sounds over the area through the warning, and the circle shows on the map, so nobody nearby is caught by surprise. It plays from the circle's center and carries through the circle and about 300 m past its edge (our pick).
+- **Air raid siren:** before any form starts, an air raid siren sounds over the area through the warning, and the circle shows on the map, so nobody nearby is caught by surprise. It plays from the circle's center and carries through the circle and about 300 m past its edge (owner OK'd, 2026-11-24).
 
 | Form | What happens | How to survive | Odds (our pick) |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ The warning, how long each form lasts, and how far you can see in it are under [
 
 ### Hazards: timing and sight
 
-The owner asked how long each hazard lasts, how it comes and goes, and what you can see in it (2026-11-24). First pass, our pick. Every strike zone gives a 20-second warning first (owner, 2026-11-24): the siren sounds and the circle shows on the map.
+The owner asked how long each hazard lasts, how it comes and goes, and what you can see in it (2026-11-24). First pass, our pick; the owner OK'd the bombardment, barrage, fire, gas, and shelter rules below (2026-11-24). Every strike zone gives a 20-second warning first (owner, 2026-11-24): the siren sounds and the circle shows on the map.
 
 | Hazard | Comes in | Lasts | Goes | How far you can see in it |
 | --- | --- | --- | --- | --- |
@@ -139,7 +139,7 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 
 **Owner's picks (2026-11-24):** every timing and sight above as suggested, except the warning, which is 20 seconds instead of 30.
 
-**The barrage's dust (our pick, 2026-11-24):** its shells fall in a band about 30 m deep ([Sizes and damage](#hazards-timing-and-sight) below); inside that band the dust hides all but about 10 m, and each shell's dust hangs 5 s, as in a bombardment.
+**The barrage's dust (owner OK'd, 2026-11-24):** its shells fall in a band about 30 m deep ([Sizes and damage](#hazards-timing-and-sight) below); inside that band the dust hides all but about 10 m, and each shell's dust hangs 5 s, as in a bombardment.
 
 **Sizes and damage (our pick, 2026-11-24, answering the lead; the bigger sizes owner, 2026-11-24):**
 
@@ -164,7 +164,7 @@ The owner asked how long each hazard lasts, how it comes and goes, and what you 
 Random, like PUBG's:
 
 - **When and where:** a plane flies over at random times and drops a crate at a random point along its path. You hear the plane before the drop.
-- **The crate** comes down on a parachute and is marked with smoke once it lands. It can land on a roof, in water, or somewhere hard to reach. Our own look and signal, not PUBG's (owner, 2026-11-24, including the green smoke and how long it lasts; the plane, crate, and parachute details are our pick):
+- **The crate** comes down on a parachute and is marked with smoke once it lands. It can land on a roof, in water, or somewhere hard to reach. Our own look and signal, not PUBG's (owner, 2026-11-24, including the green smoke and how long it lasts; the plane, crate, and parachute details owner OK'd, 2026-11-24):
     - **The plane:** a four-engine turboprop cargo plane, like a Soviet An-12, flying low, about 300 m up. You hear its deep drone from about 1.5 km away, loudest straight overhead, so you can tell which way it's going before you see it. A thump and a rush of air when the crate falls out the back.
     - **The crate:** an olive-drab military crate about 1.2 m on each side, with steel corners, stenciled numbers, and no emblems. A small green strobe blinks on top while it falls, so you can follow it against the sky.
     - **Its parachute:** one big round cargo parachute in olive and white panels. It opens a moment after the drop and brings the crate down at about 5 m/s, about a minute from the plane to the ground. It collapses over the crate when it lands.
@@ -172,9 +172,9 @@ Random, like PUBG's:
 - **Inside:** crate weapons with attachments that fit them, tier 3 armor, crate ammo, 1 adrenaline-slot item, and a chance of a med kit ([Crate weapons](../weapons/crate/index.md), [Healing rules](healing.md#rules)).
 - **Crate ammo (owner, 2026-11-22):** 20 FRAG-12 or dragon's breath rounds with a shotgun that takes them, and 3 rounds for a lethal launcher. FRAG-12 is strong against vehicles: about 5 hits wreck a car.
 - **How many (owner, 2026-11-22):** one per zone phase from phase 2 to 6, about 5 a match.
-- **Late phases (our pick, 2026-11-24):** packages are timed by the match clock, so in the short late phases one can land a phase after the one it's counted for. That's fine, but the last one lands before phase 7 starts.
-- **Landing early (our pick, 2026-11-24):** a phase early is fine too. A package plane takes about 5 minutes from take-off to a landed crate, so the phase 5 and 6 packages land around phases 4 and 5. What counts is about one package per phase from 2 to 6, all landed before phase 7.
-- **Med kit chance (our pick, 2026-11-24):** 30%, about one package in three.
+- **Late phases (owner OK'd, 2026-11-24):** packages are timed by the match clock, so in the short late phases one can land a phase after the one it's counted for. That's fine, but the last one lands before phase 7 starts.
+- **Landing early (owner OK'd, 2026-11-24):** a phase early is fine too. A package plane takes about 5 minutes from take-off to a landed crate, so the phase 5 and 6 packages land around phases 4 and 5. What counts is about one package per phase from 2 to 6, all landed before phase 7.
+- **Med kit chance (owner OK'd, 2026-11-24):** 30%, about one package in three.
 - **Vehicle drops:** 1 or 2 more fly-ins a match drop a special vehicle instead of a crate (owner): armored or special vehicles only, since gliders and the rest spawn normally. For now that's the [Ezh](gameplay.md#vehicles-and-water) armored scout car (owner, 2026-11-22).
 
 **Flare gun (idea):** PUBG's later flare gun called a bigger drop when fired straight up inside the safe zone, and an armored car when fired outside it.
@@ -255,15 +255,15 @@ Every match rolls a time of day, and the sky moves through it, about four in-gam
 | Night | 23:00 to 03:00 | 15% |
 | Night into morning | 03:30 to 07:30 | 15% |
 
-**The sun (our pick):** the sky follows Ischia's sun on June 1, in summer time (UTC+2): sunrise at 05:35, sunset at 20:28, and highest at 13:01, about 71° up. First light (civil dawn) is at 05:02 and full dark (civil dusk) at 21:00, so both dusk and dawn matches cross from light to dark. Worked out from NOAA's sun equations for 40.7° N, 13.9° E, and close to Gaisma's Naples table (05:31 and 20:38 at the June solstice).
+**The sun (owner OK'd, 2026-11-24):** the sky follows Ischia's sun on June 1, in summer time (UTC+2): sunrise at 05:35, sunset at 20:28, and highest at 13:01, about 71° up. First light (civil dawn) is at 05:02 and full dark (civil dusk) at 21:00, so both dusk and dawn matches cross from light to dark. Worked out from NOAA's sun equations for 40.7° N, 13.9° E, and close to Gaisma's Naples table (05:31 and 20:38 at the June solstice).
 
 Night is where flashlights, night scopes like the StG 44's Vampir, and star rounds earn their place ([Maps](maps.md)). A dark match needs rules against brightness and gamma cheats, which PUBG's developers raised when they prototyped night in 2017 ([Fair in the dark](#fair-in-the-dark)).
 
-- **Moonlight (our pick):** every night is a bright moonlit night. In the open you can make out a standing player to about 100 m without a night scope; inside buildings it's dark enough to need a light.
+- **Moonlight (owner OK'd, 2026-11-24):** every night is a bright moonlit night. In the open you can make out a standing player to about 100 m without a night scope; inside buildings it's dark enough to need a light.
 
 #### Night look
 
-Night uses day for night, the film trick: the same scene shot darker with a cool blue tint, rather than a real night that a screen shows as black (our pick). It's the night version of the [Lighting look](../planning/art-and-sound.md#lighting-look) rule that shade is never black. First pass for the lead, to tune by eye:
+Night uses day for night, the film trick: the same scene shot darker with a cool blue tint, rather than a real night that a screen shows as black (owner OK'd, 2026-11-24). It's the night version of the [Lighting look](../planning/art-and-sound.md#lighting-look) rule that shade is never black. First pass for the lead, to tune by eye:
 
 | What | Night look (our pick) |
 | --- | --- |
@@ -278,7 +278,7 @@ Night uses day for night, the film trick: the same scene shot darker with a cool
 
 #### Fair in the dark
 
-Night and fog are drawn on each player's own machine, so a cheat or a setting could turn them off. The rules (our pick):
+Night and fog are drawn on each player's own machine, so a cheat or a setting could turn them off. The rules (owner OK'd, 2026-11-24):
 
 1. **Same picture on every setting.** No graphics setting turns off or thins fog, night darkness, the grade, shadows, or the grass and bushes near players. In 2017 PUBG's players ran low settings because some foliage didn't show there, and PUBG raised shadows to 450 m on Low to keep low and high fair. Settings only change how sharp things look.
 2. **No gamma slider or filters.** Only a small brightness range for setting up the screen. Nvidia's game filters aren't supported, as in ARC Raiders, where they could turn dark rooms close to gray. Programs that inject their own color tables, like DWM_lut, are banned, as Escape from Tarkov did.
@@ -305,7 +305,7 @@ First-pass numbers (our pick):
 | Fog | 30% of heavy spells | Sight closes in from 1,000 m to about 150 m at its thickest |
 | Thunderstorm | 20% of heavy spells | Rain, plus a lightning strike every 20 to 60 seconds; each rumble lasts about 3 seconds and halves how far gunshots carry. Lightning lights up a night match for a moment |
 
-- **Heavy spells:** one match in three gets one, at a random time in zone phases 2 to 5. Each one gives a warning, rolls in, holds, and clears, so nobody is caught by a wall of fog all at once (owner asked, 2026-11-24; numbers our pick):
+- **Heavy spells:** one match in three gets one, at a random time in zone phases 2 to 5. Each one gives a warning, rolls in, holds, and clears, so nobody is caught by a wall of fog all at once (owner asked, 2026-11-24; numbers owner OK'd, 2026-11-24):
 
 | Spell | Warning | Rolls in | Holds | Clears |
 | --- | --- | --- | --- | --- |
@@ -324,16 +324,16 @@ How far you can make out a standing player in the open (our pick, 2026-11-24). P
 | Rain | 600 m at full rain | A gray veil from 300 m, wet shine on the ground |
 | Thunderstorm | 400 m in the downpour | A heavy veil from 200 m; each lightning flash lights everything for about a fifth of a second |
 | Fog | 150 m at its thickest, closing in from 1,000 m as it rolls in | White-gray from 60 m, flat light, no shadows |
-| Dusk and dawn | 300 m from sunset to full dark (20:28 to 21:00), and from first light to sunrise (05:02 to 05:35). Each is about 5 real minutes | Low sun glare in one direction, long shadows |
+| Dusk and dawn | 300 m from sunset to full dark (20:28 to 21:00), and from first light to sunrise (05:02 to 05:35). Each is about 5 real minutes (owner OK'd, 2026-11-24) | Low sun glare in one direction, long shadows |
 | Moonlit night | 100 m from full dark to first light ([Moonlight](#time-passes)) | Lamps, flashlights, muzzle flashes, and fires show from 1 km; a night scope sees about 300 m |
 | Night with rain, fog, or a storm | The shorter of the two | |
 
 **Owner's picks (2026-11-24):** every spell, sight, and dusk choice as suggested.
 
-- **The warning:** the sky and the light change about 15% of the way, but no rain falls and sight doesn't shrink until the spell rolls in. A fog warning's mist lies only in valleys and over the sea (our pick, 2026-11-24). For now the low height fog thickening is enough, since it collects low anyway; true valley-only mist waits for an art effect.
-- **When a spell can run (our pick, 2026-11-24):** it starts in phases 2 to 5 and can run past phase 5, but it has cleared before phase 7 starts, shortening its hold if it must, so the last circles are fought in normal sight.
-- **The spell's clock (our pick, 2026-11-24):** "starts" means the warning starts. A storm clears with the thunder moving away, and leaves the same 2 minutes of puddles and wet shine as rain.
-- **Distant thunder (our pick, 2026-11-24):** only the storm's own thunder halves how far gunshots carry. The distant rumble of its warning doesn't.
+- **The warning:** the sky and the light change about 15% of the way, but no rain falls and sight doesn't shrink until the spell rolls in. A fog warning's mist lies only in valleys and over the sea (owner OK'd, 2026-11-24). For now the low height fog thickening is enough, since it collects low anyway; true valley-only mist waits for an art effect.
+- **When a spell can run (owner OK'd, 2026-11-24):** it starts in phases 2 to 5 and can run past phase 5, but it has cleared before phase 7 starts, shortening its hold if it must, so the last circles are fought in normal sight.
+- **The spell's clock (owner OK'd, 2026-11-24):** "starts" means the warning starts. A storm clears with the thunder moving away, and leaves the same 2 minutes of puddles and wet shine as rain.
+- **Distant thunder (owner OK'd, 2026-11-24):** only the storm's own thunder halves how far gunshots carry. The distant rumble of its warning doesn't.
 - **Rain and vehicles (owner, 2026-11-24):** rain changes how vehicles handle. Our numbers: on wet roads tires grip about 20% less and braking takes about 30% longer; on wet dirt and grass, grip drops about 35%. It lasts while it rains and 2 minutes after, while the ground is still wet. Thunderstorms count as rain ([Vehicles and water](gameplay.md#vehicles-and-water)).
 
 For scale, weather services call fog with about 200 m of sight thick fog, and under 50 m dense fog. Gas and smoke are under [Hazards: timing and sight](#hazards-timing-and-sight).
@@ -342,7 +342,7 @@ For scale, weather services call fog with about 200 m of sight thick fog, and un
 
 ## Wrist watch
 
-Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. The default face is analog (our pick), and digital faces can come as skins. Every face shows only the in-game time, never the zone timer, so a watch skin never gives an edge. It sits on the inside of the left wrist, military style, so the face points up at you while the support hand is palm-up under the handguard (our pick; the lead's call). On the back of the wrist it would face the ground. Watch faces can be skins later ([Skins and mastery](skins.md)).
+Every player wears a watch on the left wrist, visible in first person whenever the left hand is on the gun, like Modern Warfare's. Modern Warfare's (2019) read the time from your console or PC; ours shows the in-game time, so you can tell when night is coming without the HUD. The default face is analog (owner OK'd, 2026-11-24), and digital faces can come as skins. Every face shows only the in-game time, never the zone timer, so a watch skin never gives an edge. It sits on the inside of the left wrist, military style, so the face points up at you while the support hand is palm-up under the handguard (owner OK'd, 2026-11-24). On the back of the wrist it would face the ground. Watch faces can be skins later ([Skins and mastery](skins.md)).
 
 ## Sources
 

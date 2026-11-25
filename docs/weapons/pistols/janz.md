@@ -28,8 +28,8 @@ Revolver reload attachments (speedloaders and similar); caliber cylinders and ba
 
 | # | Version | What's different | Cartridge | Made | Merged from | Fire modes | RPM | Open bolt | Reload | Mag | Damage |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | EM frame | Small frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels from .22 LR up to .44 Magnum in real life; spawns in .357 Magnum (planner's pick, 2026-11-22) | .357 Magnum | Unknown | EM, EM-S quick change | revolver | 240 | No | revolver | TBD | TBD |
-| 2 | E frame | Medium frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels (.22 LR, .32, .38, 9mm Para, .357 Magnum, .44 Magnum, up to .454 Casull). Merged difference: the sport models have adjustable sights; spawns in .44 Magnum (planner's pick, 2026-11-22)| .44 Magnum | Unknown | E, E-S quick change, sport revolvers (.357 and .44 Magnum) | revolver | 240 | No | revolver | TBD | TBD |
+| 1 | EM frame | Small frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels from .22 LR up to .44 Magnum in real life; spawns in .357 Magnum (owner OK'd, 2026-11-24) | .357 Magnum | Unknown | EM, EM-S quick change | revolver | 240 | No | revolver | TBD | TBD |
+| 2 | E frame | Medium frame; 2.5 to 12 in barrels; can swap caliber cylinders and barrels (.22 LR, .32, .38, 9mm Para, .357 Magnum, .44 Magnum, up to .454 Casull). Merged difference: the sport models have adjustable sights; spawns in .44 Magnum (owner OK'd, 2026-11-24)| .44 Magnum | Unknown | E, E-S quick change, sport revolvers (.357 and .44 Magnum) | revolver | 240 | No | revolver | TBD | TBD |
 | 3 | MA frame | Large frame; 4 to 12 in barrels | .460 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 83 |
 | 4 | MA frame | Same | .500 S&W | Unknown | — | revolver | 240 | No | revolver | TBD | 83 |
 

@@ -5,6 +5,7 @@ Every update to the wiki, newest first.
 | Date | Change |
 | --- | --- |
 | 2026-11-24 | [Mini heists](../systems/match-flow.md#mini-heists) first pass from Payday 2, and the cash drop-offs on [Cash](../systems/crafting.md#cash) |
+| 2026-11-24 | Review page of the planner's first passes filed and archived: 34 OK'd and marked as the owner's on Gameplay, Match flow, Handling, Loot, Servers, Armor, the Janz page, and Project layout; thrown melee is anyone's to pick up, and taking off gear over capacity drops the overflow, ammo first |
 | 2026-11-24 | [Cash](../systems/crafting.md#cash): the owner's heist idea, with first passes queued for the next picks page |
 | 2026-11-24 | Round 9 picks filed and archived; first passes marked as the owner's across Gameplay, Match flow, Handling, Ammo, Armor, Healing, and the Sound list |
 | 2026-11-24 | Posted [picks page, round 9](https://claude.ai/artifact/WpR2sdGmhADow72pXXkXHA): the parachute "never pull" choice and the 21 newer first passes, linked under You: decisions on the [To-do](to-do.md) |

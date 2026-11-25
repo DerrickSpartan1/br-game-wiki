@@ -1,6 +1,6 @@
 # Project layout
 
-How to organize the game's Unreal project, researched for the owner (2026-11-24). The current layout is in the game repo's `CLAUDE.md` (Content folders). This is the planner's suggestion; the lead decides how and when to move things.
+How to organize the game's Unreal project, researched for the owner (2026-11-24). The current layout is in the game repo's `CLAUDE.md` (Content folders). This is the planner's suggestion, owner OK'd, 2026-11-24; the lead decides how and when to move things.
 
 ## What the guides say
 

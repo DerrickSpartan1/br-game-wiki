@@ -17,7 +17,7 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
     - **Wardrobe:** your character, outfit, gun and gear skins, melee weapon, and emotes ([Skins](skins.md)).
     - **Career:** stats, weapon mastery, and good fight thumbs up ([Good fight](#good-fight)).
     - **Replays** ([Death cam and replays](#death-cam-and-replays)).
-    - **Settings (owner, 2026-11-22):** Gameplay (the field of view slider, [First person](#first-person)) and Controls first; Graphics and Audio after. Sensitivity works like PUBG's: general, aim, ADS, one per scope from 2x to 15x, and a vertical multiplier. Every key can be rebound. HUD size (owner, 2026-11-23): a slider in Gameplay from 75% to 125%, 100% by default (our pick). It scales the compass, health and boost, ammo, slots, minimap, and kill feed together; the crosshair stays the same size.
+    - **Settings (owner, 2026-11-22):** Gameplay (the field of view slider, [First person](#first-person)) and Controls first; Graphics and Audio after. Sensitivity works like PUBG's: general, aim, ADS, one per scope from 2x to 15x, and a vertical multiplier. Every key can be rebound. HUD size (owner, 2026-11-23): a slider in Gameplay from 75% to 125%, 100% by default (owner OK'd, 2026-11-24). It scales the compass, health and boost, ammo, slots, minimap, and kill feed together; the crosshair stays the same size.
     - **No store** while the game is private.
 - **Accent (owner, 2026-11-24):** field lime (#A8C34B), a military olive bright enough to read on dark panels, for the Play button, the open tab, toggles, selected items, your squad's highlights, and the HUD compass heading. Warnings and damage keep their own red, and no PUBG yellow is left ([PUBG look and feel](../planning/legal-review.md#pubg-look-and-feel)).
 - **HUD:** a compass at the top with the heading in the lime accent; players alive and kills at the top right ("1 killed"); an optional network readout at the top left (packets a second and packet loss, like PUBG's; off by default, turned on in Settings; owner, 2026-11-24); the crosshair; health, boost, stance, gear durability, ammo, and fire mode at the bottom center; the five slots as weapon silhouettes beside the minimap at the bottom right.
@@ -34,13 +34,13 @@ The layout follows PUBG's from 2017 and 2018, with the game's own look (no PUBG 
     - **Falls:** the flash, with no arc.
     - **Low health:** under 20 health, a faint red stays at the edges until you heal above it.
     - **A setting:** damage flash strength from 0 to 100% in Settings > Gameplay, for players who find it too much.
-- **The map (owner asked for it to work like PUBG's, 2026-11-24; details our pick):** M opens the full map over the game, which keeps running.
+- **The map (owner asked for it to work like PUBG's, 2026-11-24; details owner OK'd, 2026-11-24):** M opens the full map over the game, which keeps running.
     - **Zoom and pan:** the scroll wheel zooms toward the cursor, from the whole island to about 200 m across the screen. Drag with the left mouse to pan. Space centers it on you.
     - **The grid:** 1 km squares with letters across the top (A to J for Teplov's 10 km) and numbers down the side (1 to 8), so a call like "D5" means one square. Lines every 100 m fade in as you zoom, and a scale bar in the corner shows distance.
     - **Your marker:** right click places your marker, and right click on it or Delete removes it; Insert marks where you're standing. One marker each, in your squad color, like PUBG. Squadmates see it on their map, minimap, and compass with the distance, and as a small marker on screen.
     - **Marker wheel:** hold right click for a wheel of six quick markers (attack, danger, defend, loot, regroup, vehicle), the way PUBG added them later. They replace your one marker.
     - **Route:** Shift and right click add up to five route points, drawn as a line from you through them, for your squad to see. Shift and right click on a point removes it.
-    - **What it shows:** the plane's path before and during the jump, the blue and white circles, strike zones, your squad with their numbers and colors, vehicles your squad is in, and vaults you hold a key for. Never enemies, care packages, or loot.
+    - **What it shows:** the plane's path before and during the jump, the blue and white circles, strike zones, your squad with their numbers and colors, vehicles your squad is in, and every vault once you hold a key (owner OK'd, 2026-11-24). Never enemies, care packages, or loot.
     - **How it looks (from the owner's PUBG screenshot, OK'd by him, 2026-11-24; our own art):** everything outside the edge is washed in see-through teal, so the safe area stands out; the next safe circle is a thin white ring; strike zones are see-through red discs; the plane's path is a thin straight line from a dot where it comes in. Tabs along the top switch between the map and a match log (your kills, knocks, and damage this match, in order). PUBG letters both its grid's columns and rows; ours keeps numbers for the rows, so a call like "D5" can't be misheard.
     - **Colors (our pick, 2026-11-24):** the edge is a solid ring in the wall's bottom teal, the next safe circle a thin white ring, and strike zones red, so none of them look alike ([The edge](match-flow.md#the-edge-how-it-looks)).
     - **Minimap:** bottom right, turned with you, with your squad, markers, circles, and strike zones. N zooms it between about 400 m and 1 km across.
@@ -85,7 +85,7 @@ The view and the way guns are held look like PUBG's first person (owner, 2026-11
     - **PUBG, the M416 at 100 m zeroing:** the rear sight sits low and fairly small, across about the middle third of the screen's width and mostly below the center. The front post's tip is exactly at the center, and most of the screen around the sight stays clear.
     - **A recent Call of Duty:** the rear ring is big and close, about 40% of the screen's width, with the front post inside it.
     - **Call of Duty: Modern Warfare 2 (2009):** in between, with a compact rear sight and the front sight's round hood at the center.
-- **The target (our pick):** PUBG's look, the first one: a small, low sight with the front post at the center and a clear view around it, at the default field of view of 90. The Call of Duty shots show how big is too big.
+- **The target (owner OK'd, 2026-11-24):** PUBG's look, the first one: a small, low sight with the front post at the center and a clear view around it, at the default field of view of 90. The Call of Duty shots show how big is too big.
 
 ### Arms and sleeves
 
@@ -105,7 +105,7 @@ Both bodies share one skeleton, one hitbox, and the same first-person arm setup,
 2. A teammate can pick you up while you're knocked. This is slow without an adrenaline syringe.
 3. If you bleed out, you can still be revived with a defib, or slowly with CPR.
 
-**Kill credit (planner's picks, 2026-11-22, for the lead):**
+**Kill credit (planner's picks, 2026-11-22; owner OK'd, 2026-11-24):**
 
 - **The knocker gets the kill** when a knocked player bleeds out, finishes themselves, or is finished by their own squadmate.
 - **A player brought back is a live player again:** killing them a second time counts as a new kill for whoever does it.
@@ -199,7 +199,7 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 ## Melee
 
 - **Key:** tap X for a quick melee attack. Hold X to stow your guns and pull out your melee weapon, which lets you run faster.
-- **Quick hit timing (planner's pick, 2026-11-22):** the hit lands 0.3 s after the tap, faster than pulling the melee weapon out (0.5 s), then the gun comes back with its own ready time. A gun with a bayonet stabs at once, without putting the gun away.
+- **Quick hit timing (owner OK'd, 2026-11-24):** the hit lands 0.3 s after the tap, faster than pulling the melee weapon out (0.5 s), then the gun comes back with its own ready time. A gun with a bayonet stabs at once, without putting the gun away.
 - **Empty hands:** running with nothing out is the same 6.3 m/s as melee out, PUBG's unarmed speed.
 - **How melee is held (owner, 2026-11-24):** ready to use, raised in front of you with the watch showing, like you're about to swing. The one exception is free look (Alt), when the hands stay where they were while you look around. Inspect animations can wait.
 - **Fists (owner, 2026-11-23):** a melee pick like all the others, with the same numbers. They're for players who just want to punch and show off their gloves and watch: the inspect holds up both hands to show the gloves from your wardrobe and the wrist watch ([Wrist watch](match-flow.md#wrist-watch)). With no melee weapon in hand, such as after throwing yours, you fight with your fists the same way.
@@ -245,8 +245,8 @@ Dashes are numbers the sources checked don't give. Each map gets the vehicles th
 - **Throwing your melee (owner, 2026-11-23):** every melee weapon can be thrown for the same damage, like PUBG's thrown melee. It lands where it hits, and you go pick it back up; until then you fight with your fists. Fists can't be thrown (our pick).
     - **How to throw (our pick, 2026-11-23):** with the melee weapon out, hold right mouse to aim, which shows an arc like a grenade's, and press left mouse to throw. This is PUBG's way ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)).
     - **The throw arc (owner, 2026-11-24):** while you aim a throw (right mouse with a melee weapon or a throwable out), a thin dotted white line shows the path the throw will take, from your hand to where it lands, and a small flat ring marks the landing spot on whatever it hits first. The line stops there, so a wall or a ceiling in the way is plain to see. It updates as you look around, fades out toward the far end, and only you see it. Grenades use the same arc; their bounces aren't shown. As far as we found, PUBG on PC didn't draw an arc in 2017–2018 (throws were learned by feel); PUBG Mobile and later shooters do. It's on by default, with a switch in Settings > Gameplay for players who want it off.
-    - **Flight (our pick, 2026-11-23):** thrown at 20 m/s with normal gravity, which carries about 40 m at most, PUBG's longest melee throw ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)). PUBG cuts thrown damage past 15 m; ours keeps the same damage at any range, as the owner set.
-    - **Who picks it up (our pick, 2026-11-23, waiting on the owner):** only the player who threw it. Your melee is something you own, so nobody else walks off with it. If you die before picking it up, it stays where it landed.
+    - **Flight (owner OK'd, 2026-11-24):** thrown at 20 m/s with normal gravity, which carries about 40 m at most, PUBG's longest melee throw ([ComicBook.com](https://comicbook.com/gaming/news/pubg-throw-items-weapons)). PUBG cuts thrown damage past 15 m; ours keeps the same damage at any range, as the owner set.
+    - **Who picks it up (owner, 2026-11-24):** anyone, like PUBG. Once it lands, any player can pick it up and use it for the rest of the match, and whoever ends up with it keeps it after.
 
 ## Built-in tools
 
@@ -352,7 +352,7 @@ The owner's picks (2026-11-22). First pass for how they play (our pick):
 
 ## Training map
 
-A practice map, like PUBG's Training Mode (owner, 2026-11-22). PUBG added it in 2018 on its own 2 × 2 km map for 5 to 20 players, and later added a list of stations you teleport between. The owner's screenshot of the current one is the reference; it's described here and not kept. Write-up for the lead (2026-11-23), first pass (our pick):
+A practice map, like PUBG's Training Mode (owner, 2026-11-22). PUBG added it in 2018 on its own 2 × 2 km map for 5 to 20 players, and later added a list of stations you teleport between. The owner's screenshot of the current one is the reference; it's described here and not kept. Write-up for the lead (2026-11-23; owner OK'd, 2026-11-24):
 
 - **Getting in:** a Training button on the menu's Play tab, next to the modes. It puts you straight into a training server, with no queue and no plane. Up to 20 players, solo or with your squad.
 - **The map:** its own small island, about 2 × 2 km, in the game's look. Players can't hurt each other outside the arena, there's no zone, and ammo and meds are free from the tables.
@@ -373,7 +373,7 @@ A practice map, like PUBG's Training Mode (owner, 2026-11-22). PUBG added it in 
     | Arena | Fights against a bot that always fights back ([Bots](#bots)), or one on one against another player. You set how many rounds outside the arena; a run against the bot ends if you die |
 
 - **The training panel:** a key (T, our pick) opens a panel to spawn any item or vehicle at your feet, set the time of day and weather, and reset the targets. It's the lead's test bench and sky panel, built for players.
-- **For now:** the lead's range map is the start of it. The test bench, sky panel, and fly mode stay test tools, refused on real match servers like the other test commands.
+- **For now:** the lead's range map is the start of it. The test bench, sky panel, and fly mode stay test tools, refused on real match servers like the other test commands (owner OK'd, 2026-11-24).
 
 ## Good fight
 

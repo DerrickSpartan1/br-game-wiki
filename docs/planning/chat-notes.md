@@ -11,6 +11,13 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Earlier chats** (before 2026-11-24) are written up below from the [Decision log](decisions.md), the [Changelog](changelog.md), and the [Picks archive](picks-archive.md), not from the chats themselves, so they carry no quotes. October is one entry.
 - **Read only what you need:** the newest day or two at a check-in; older entries when a topic comes back.
 
+## 2026-11-25
+
+### Planner chat
+
+- **Heist picks (00:05):** "i like cash balloon, yes i like gold bars being like extra valuable, those should slow you down but are a big payout. idk if it should show everyone on the map your position, but any sort of heist that shows alarm should show it on the map, i like castle museum and the moving convoy, i like farm, and yeah the robot response makes sense, maybe they come down in like a drop pod and climb out, one drop pod one drone kinda deal." New ideas: "also what about paintings?" and "we can do a diamond store or anything else." He asked to look at ROB RUN for more heistables; eight more ideas drafted from it and our own ([Mini heists](../systems/match-flow.md#mini-heists)).
+- **Still open:** whether a gold bar carrier shows on the map (our pick no), the Exchange office's name, tip-offs, the ferry, and the new ideas, all for the next picks page.
+
 ## 2026-11-24
 
 ### Planner chat

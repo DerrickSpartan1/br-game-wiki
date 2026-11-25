@@ -259,6 +259,7 @@ Every player carries a few small tools for in-game actions. They aren't items or
 - **Small hammer:** nails doors shut, so anyone coming in has to shoot or breach their way through, or use a window ([Nailing doors shut](#nailing-doors-shut)). It can't break doors or walls; that takes a [breaching tool](class-items.md#breaching-tools).
 - **Small crowbar (idea):** pries open wooden boxes. Where wooden boxes show up is left for later (owner, 2026-11-22). It's not the crowbar melee look or the entry bar breaching tool, and it can't open doors.
 - **Screwdriver (owner, 2026-11-22):** switches a building's lights off at its fuse box at night ([Time of day](match-flow.md#time-of-day-and-weather)), unscrews vent covers for a quiet way in, and picks small locks, like a [briefcase](loot.md#briefcases)'s.
+- **Utility knife (our pick, 2026-11-25):** cuts a painting out of its frame in about 5 s ([Paintings](match-flow.md#paintings)). It's not a melee weapon.
 - **More tools** can come later.
 
 ### Nailing doors shut

@@ -193,36 +193,63 @@ Contracts like Warzone's Most Wanted: a player gets marked on the map, and if th
 
 Small themed heists on the map, taking ideas from Payday 2 (owner asked, 2026-11-24): "we can look at payday for like mini themed heist on the map." Payday 2's heists are "get in, get out, get paid": crack something that takes time (a drill that has to be restarted when it stops, thermite through a floor), grab the loot, and get it to the getaway while the police keep coming ([Nintendo Life](https://www.nintendolife.com/news/2018/02/guide_payday_2_heist_tips_-_how_to_grab_loot_escape_and_get_paid), [Payday Wiki: First World Bank](https://payday.fandom.com/wiki/First_World_Bank/Walkthrough)). In a battle royale the police are the other players: a heist is loud, takes time, and pays well, so it pulls a fight to you. The loot goes in the [cash bag](crafting.md#cash) and only counts once it's banked at a drop-off. Nothing is named after Payday; the ideas are generic.
 
-First pass (our pick, for the owner's review):
+The heists (first pass, our pick, with the owner's calls marked):
 
 | Heist | Where | How it goes | Pays |
 | --- | --- | --- | --- |
 | Jewelry store | A shop in a big town or town | Smash the display cases (loud glass) and grab what's inside. An alarm rings for 60 s. In and out in under a minute | Valuables |
-| Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quick and quiet, or with a [vault drill](crafting.md#what-a-workbench-makes) made from scrap at a workbench: about 45 seconds, loud, and it stops once and has to be restarted by hand (owner, 2026-11-24: the key or the drill is the trade-off). Robot guards stand inside | The most cash and valuables, a small chance of a crate weapon |
+| Diamond store | Gavansk's main street, one store (owner's idea, 2026-11-25: "we can do a diamond store") | A step up from the jewelry store: smash the front cases for loose stones, then cut the back room's safe in about 30 s with a [cutting torch](crafting.md#what-a-workbench-makes). The alarm rings from the first broken case. Diamonds are tiny and weigh nothing, unlike gold bars (our pick) | The most valuable loot for its size |
+| Bank job | Gavansk and Vetrovo's banks | The vault opens with a vault key, quick and quiet, or with a [vault drill](crafting.md#what-a-workbench-makes) made from scrap at a workbench: about 45 seconds, loud, and it stops once and has to be restarted by hand (owner, 2026-11-24: the key or the drill is the trade-off). Robot guards stand inside | The most cash and valuables, including the [gold bars](#gold-bars), and a small chance of a crate weapon |
+| Castle museum | Krepost's keep (owner OK, 2026-11-25) | Smash the glass cases for antique silver, medals, and old jewelry, and cut the [paintings](#paintings) out of their frames. One causeway in and out makes it easy to hold and hard to leave | Valuables and paintings |
 | Deposit boxes | The post office in each big town | Cut boxes open one at a time with a breaching tool or a [box saw](crafting.md#what-a-workbench-makes) made from scrap, about 5 s each, loud. Each box rolls something | Cash, valuables, quest items, rarely a vault key |
 | Armored van | Broken down on a road, rolled each match | Blow the back doors with a breaching charge, or cut them in about 30 s with a [cutting torch](crafting.md#what-a-workbench-makes) made from scrap, then grab what's inside. The van's alarm wails the whole time | Cash and gear: cash sacks and the guards' locker of guns and armor (owner, 2026-11-24) |
-| Exchange office | A storefront in a big town | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
+| Moving convoy | Later, with vehicles (owner OK, 2026-11-25): an armored van drives the ring road during one zone phase | Stop it by shooting its tires, then open it like the broken-down van. Its alarm starts when it stops | Cash and gear, like the van |
+| Farm payroll | The Kolkhoz office (owner OK, 2026-11-25) | The farm's payroll safe: crack it in about 10 s with your built-in tools. Quiet and small, in the middle of nowhere | A little cash |
+| Exchange office | A storefront in a big town (name open: PUBG's Payday mode has a heist called The Exchange) | Cash registers ring open; the back-room safe takes about 10 s to crack with your built-in tools | Cash |
 | Sealed containers | Gavansk Port's container quay | Several sealed containers can be opened each match (owner, 2026-11-24): cut a seal with your wire cutters in about 5 s and open the doors. Each one rolls its contents, so most hold gear and a few hold the real prize (our pick: 5 a match, 1 or 2 with valuables) | Gear (guns, armor, attachments), sometimes valuables or a crate weapon |
 
 - **Timed to the circle (owner, 2026-11-24):** "we gotta think about the circle with these times too so 90 seconds might be too long." Every heist step stays under a minute (the drill about 45 s, the van about 30 s, a deposit box about 5 s), so a heist fits inside a zone phase's wait even late on: phase 3 waits 2 min 30 s and phase 4 waits 2 min ([The zone](#the-zone)). Early on, a heist is a safe bet; late, one outside the next circle is a gamble against the edge (our pick).
-- **How many:** each match rolls 2 or 3 heists to be live; the rest stay locked and dark. Live ones aren't marked on the map, so finding one is part of it (our pick).
-- **The alarm:** starting a heist trips an alarm heard about 300 m away, so it draws players in. The drill and the van's alarm keep it loud until the heist is done.
+- **How many:** each match rolls 3 or 4 heists to be live, up from 2 or 3 now that there are ten (our pick); the rest stay locked and dark. A live heist isn't marked on the map until its alarm goes off, so finding one is part of it.
+- **Alarms show on the map (owner, 2026-11-25):** "any sort of heist that shows alarm should show it on the map." While a heist's alarm rings, its spot shows on everyone's map, and the alarm is heard about 300 m away. The loud heists ring: the jewelry and diamond stores, the bank job with a drill, the museum, the deposit boxes, and both vans. The quiet ones don't: a vault opened with a key, the exchange office's safe, the farm payroll, and the sealed containers (our pick), so a key stays the quiet way in. How long: the drill's and the vans' alarms ring until the heist is done; the others ring 60 s from the last loud thing (our pick).
+- **Robot response (owner OK, 2026-11-25):** the big loud heists (the bank job, the diamond store, and the museum, our pick) call robots about 60 s after the alarm starts. They come down in drop pods and climb out, one robot to a pod (owner: "maybe they come down in like a drop pod and climb out, one drop pod one drone kinda deal"). Like the [robot guards](#robot-guards-idea) they're easy to fight but loud, and the pods coming down tell everyone nearby where the heist is. Our pick: 2 pods for the bank, 1 for the others.
 - **The drill stopping** is part of the heist, like Payday's: it's a tool, not a gun, so the no-jamming rule doesn't touch it. Drills are made from scrap, never found (owner, 2026-11-24).
-- **Getting away:** a drop-off is never right next to a heist, so the loot has to be carried a little way in the open.
-**More ideas (our picks, 2026-11-24, for the owner's review).** The owner asked for more heist ideas ("feel free to look through other heist stuff or think of other stuff"). These borrow from other games' cash and heist modes, always under our own names: Warzone's Plunder (cash from loot, bank vaults whose alarms alert nearby squads, deposit balloons that can be shot down, players dropping cash on death), Fortnite's Getaway (jewels in slow safes, the carrier revealed for 30 seconds), and PUBG's own PvE Payday mode of May 2026 (Diamond District, The Exchange, Nightclub, and Road Rage, on its own map) ([Activision: Plunder](https://blog.activision.com/call-of-duty/2020-03/Warzone-Mode-Recon-Plunder), [Mein-MMO: Getaway](https://mein-mmo.de/en/fortnite-neue-spielmodus-flucht,266716), [PUBG: New Mode: PAYDAY](https://pubg.com/news/10009)).
+- **Getting away:** a drop-off is never right next to a heist, so the loot has to be carried a little way in the open, or sent up in a cash balloon.
+- **Cash balloon (owner OK, 2026-11-25):** made from scrap at a [workbench](crafting.md#what-a-workbench-makes): it banks your whole cash bag from anywhere, but it rises for 30 s where everyone can see it, and if it's shot down the bag drops where it falls, for anyone to take. From Warzone's deposit balloons. Numbers are our pick.
+
+### Gold bars
+
+The owner, 2026-11-25: gold bars are "extra valuable, those should slow you down but are a big payout." They're the bank vault's top prize and the most valuable loot in the game. They go in the cash bag like other valuables, but they're the one valuable with weight: each bar slows you while you carry it, so a carrier is easy to chase and has to choose between more gold and getting away.
+
+- **How many and how slow (our pick):** 4 bars in each bank vault; each makes you 5% slower, so all four is 20% slower. Banking a bar, or dropping it, takes the slowdown off.
+- **Marked on the map? Open.** The owner wasn't sure: "idk if it should show everyone on the map your position." Our pick: no. The bank's alarm already shows where the gold is, and a slowed carrier is easy to find.
+
+### Paintings
+
+The owner's idea, 2026-11-25: "also what about paintings?" Paintings hang in the castle museum, and in a few villas if those are kept (below). Cut one out of its frame in about 5 s with the utility knife every player carries ([Built-in tools](gameplay.md#built-in-tools)), and it rolls up into the cash bag with no weight. Each painting rolls its worth; the museum's best one is the masterpiece, worth about as much as a gold bar (our pick). Cutting is quiet; the museum's alarm comes from its glass cases.
+
+### More ideas
+
+Still open (our picks, 2026-11-24 and 2026-11-25, for the owner's review). The owner asked for more ("feel free to look through other heist stuff or think of other stuff"; "look at rob run game any other heistables?"). These borrow from other games, always under our own names:
+
+- **Warzone's Plunder:** cash from loot, bank vaults whose alarms alert nearby squads, deposit balloons that can be shot down, and players dropping cash on death ([Activision: Plunder](https://blog.activision.com/call-of-duty/2020-03/Warzone-Mode-Recon-Plunder)).
+- **Fortnite's Getaway:** jewels in slow safes, the carrier revealed for 30 seconds ([Mein-MMO: Getaway](https://mein-mmo.de/en/fortnite-neue-spielmodus-flucht,266716)).
+- **ROB RUN** (PC, 2026), set in a city called Looty Bay. Its gold vault opens with a slow, loud drill that alerts the whole city, and there's a police station armory of confiscated gear, an exhibition car at a hotel, and an art gallery robbed with a glass cutter and a vault keycard. ATMs and car trunks hold smaller scores. Every heist is announced to the whole city when it starts and when it succeeds ([Wikily: ROB RUN heists](https://wikily.gg/rob-run/heists), [PowerUp Gaming: beginner guide](https://powerupgaming.co.uk/2026/11/05/rob-run-beginner-guide-survive-your-first-hour/)).
+- **PUBG's own PvE Payday mode** of May 2026 had Diamond District, The Exchange, Nightclub, and Road Rage, on its own map ([PUBG: New Mode: PAYDAY](https://pubg.com/news/10009)). Our diamond store keeps its plain name, never "Diamond District".
 
 | Idea | What it is |
 | --- | --- |
-| Tip-offs | Notes found as loot that mark one live heist on your map, like Payday's intel. Live heists are otherwise unmarked |
-| Cash balloon | Made from scrap at a workbench (50): banks your whole bag from anywhere, but it rises for 30 s where everyone can see it, and if it's shot down the bag lands where it falls. From Warzone's deposit balloons |
-| The big score | The bank job's gold bars mark their carrier on everyone's map for 30 s when picked up, like Fortnite's jewel carrier |
-| Moving convoy | Later, with vehicles: an armored van drives the ring road during one phase. Stop it (shoot the tires), then open it like the broken-down one |
-| Castle museum | Krepost's castle holds a small museum: smash the cases for antique silver, medals, and old jewelry. One causeway in and out makes it easy to hold and hard to leave |
-| Farm payroll | The Kolkhoz office keeps the farm's payroll in a safe. A quiet, small score in the middle of nowhere |
+| Tip-offs | Notes found as loot that mark one live heist on your map, like Payday's intel |
 | Ferry strongroom | The ferry at Gavansk's ferry quay has a purser's strongroom: a safe and the passengers' valuables lockers |
-| Robot response | Starting the bank job or the museum calls a robot patrol after 60 s, like Payday's police, easy to fight but loud (PvE) |
+| Police evidence room | Each big town's police station keeps confiscated guns and armor behind a cage: cut it in about 20 s with a cutting torch, and its alarm rings. Pays gear, sometimes a crate weapon. From ROB RUN's police armory |
+| ATMs | Cash machines on town streets: blow one open with a breaching charge for a small stack of cash. Loud, with an alarm. Many small scores instead of one big one. From ROB RUN |
+| Courier car | A parked car, rolled each match, with a locked case in the trunk: pry the trunk open and crack the case in about 10 s. Quiet. From ROB RUN's trunk cargo |
+| Show car | Later, with vehicles: a rare car on display in the Sanatorium's main hall. Break the glass and drive it out; leaving it at a drop-off banks it as a big payout. From ROB RUN's exhibition car |
+| Yacht safe | A yacht moored at Marina's pier with its owner's wall safe and a painting or two, reached only from the pier or the water |
+| Paymaster's safe | Object 7's headquarters keeps the base's payroll. Quiet, but deep inside the fence and towers |
+| Villas | A few hillside villas with a wall safe and paintings, the safe opened with a [box saw](crafting.md#what-a-workbench-makes) |
+| Money drop | A match event like the care package: a plane drops a crate of cash and valuables, with its own smoke color. Everyone sees it fall |
 
-- **The map needs** these places in the building kit: a jewelry store, a bank interior with a vault, a post office with deposit boxes, an exchange office, the armored van, the sealed containers, and, if the ideas above are kept, a castle museum, a farm office, and the ferry ([Buildings](maps.md)).
+- **The map needs** these places in the building kit: a jewelry store, a diamond store, a bank interior with a vault, the castle museum in Krepost's keep, a post office with deposit boxes, the Kolkhoz office, an exchange office, the armored van, and the sealed containers; and, if the ideas above are kept, a police evidence room, ATMs, the ferry, a yacht, and villas ([Buildings](maps.md)).
 
 ## Vaults and keys
 
@@ -253,6 +280,7 @@ PvE for the vaults (owner, 2026-11-22): a robot guard inside each vault, from th
 - **A noise maker:** when it sees or hears a player it calls out and fires, so everyone nearby knows someone is at the vault, like Hunt: Showdown's crows ([Tracks and animals](gameplay.md#tracks-and-animals)).
 - **Loot:** nothing of its own (our pick); the vault is the prize.
 - **More PvE (owner, 2026-11-22):** robot sentries at the [radar stations](#radar-stations), and robot patrols too, like ones guarding a loot room at the Military Outpost.
+- **Drop pods (owner, 2026-11-25):** robots called to a loud heist come down in drop pods and climb out, one robot to a pod ([Robot response](#mini-heists)).
 
 **Later:** a drill that opens any vault in about 45 seconds, but loudly. It's an expensive item at [workbenches](crafting.md#what-a-workbench-makes).
 

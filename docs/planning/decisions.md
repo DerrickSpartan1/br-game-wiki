@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | A match with only one team gives no place and no win, so solo tests don't add win stats (the lead's call while coding round 10) | [Knockdowns & revives](../systems/gameplay.md#knockdowns-revives) |
 | 2026-11-25 | Round 10: shared first place is a win for both; ranked starts short in tiers (64 after 3 minutes, 60 after 5, 20 after 10); the rewind cap stays 200 ms as a setting; someone else's thrown melee is theirs only for that match; attachment placeholders stay, tuned by feel; more heists live than 3 or 4; no balloon limit per player; the Currency exchange office; tip-offs and the ferry strongroom kept; every other heist, balloon, and aircraft detail OK'd (owner) | [Round 10](picks-archive.md#round-10-2026-11-25) |
 | 2026-11-25 | Shield and pan cover follows the model, with no invisible block area: the ballistic shield model grows to reach the knees; pans stay real size and cover what they cover (frying pan and skillet the face, wok to the collarbone, saucepan most of the face) (our pick, from the lead's question) | [Class items](../systems/class-items.md#pans) |
 | 2026-11-25 | Ammo loops cut each round's load time 30% (time × 0.7, PUBG's "−30% Reload Duration"); the gun visibly kicks while aiming too, never moving shots (our picks, from the lead's questions) | [Effects](../systems/attachments.md#effects-first-pass-from-pubg) |

@@ -4,6 +4,32 @@ Every answer the owner gave on a picks page, copied here before the page was del
 
 New picks pages hold only questions that are still open. Once they are answered and filed, their answers are added here and the page is deleted. A full copy of each deleted page, with every option it offered, and its saved answers is kept in the repo's [`archive/picks`](https://github.com/DerrickSpartan1/br-game-wiki/tree/main/archive/picks) folder.
 
+## Round 12 (2026-11-25)
+
+First-person references, the round 9 first passes, and the contributor setup. Posted by the planner's picks check-in with 13 calls; answered on the page on 2026-11-25 and filed by the planner in chat. Saved copy: `archive/picks/2026-11-25-round12.html`.
+
+### First person
+
+- **Your first-person hold references** No choice. Comment: "can you grab them from the movement thing? theya re in there" (they're in the lead's PUBG movement footage; the lead pulls the frames).
+
+### Round 9 first passes to check
+
+- **Boost icons next to the health bar** OK.
+- **One swing time for all melee, up to 1.0 s** OK.
+- **The two-handed melee list** OK.
+- **Real-size packs, the cash bag under them** OK.
+- **Angled grip: tall end at the front** OK.
+- **Canted irons only with 4x and up, no scope zoom** OK.
+- **One range menu instead of melee pedestals** OK.
+- **Stairs by building type** OK.
+
+### Contributors
+
+- **GitHub plan for the game repo** Decide later.
+- **A contributor agreement before access** Yes, before anyone gets access.
+- **Claude reviewing pull requests on GitHub** Now.
+- **Git LFS before the first invite** Decide later.
+
 ## Round 10 (2026-11-25)
 
 Heists, the cash balloon, aircraft, ranked, and the lead's questions. Posted by the planner's picks check-in with 43 calls; answered on the page on 2026-11-25 and filed by the planner in chat. Saved copy: `archive/picks/2026-11-25-round10.html`.

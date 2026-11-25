@@ -30,17 +30,17 @@ The owner's rule: nobody does work someone else is already doing. Seven guards, 
 - **The bigger option, an organization on GitHub Team ($4 per person a month):** moving the repo into a GitHub organization adds roles (read, triage, write) and teams, even on the free plan; Team adds the same protections as Pro and 250 GB of LFS storage and downloads instead of 10 ([GitHub's plans](https://docs.github.com/en/get-started/learning-about-github/githubs-plans), [GitHub pricing](https://github.com/pricing)). Worth it once there are several regular contributors.
 - **Two-factor sign-in for everyone,** the least access each person needs, and access removed the day someone stops.
 - **No secrets in the repo.** Each contributor's Unreal MCP server stays on their own PC and is never opened to the network, the same rule as the lead's.
-- **Claude reviewing pull requests on GitHub (later):** Claude Code GitHub Actions can review every pull request or answer `@claude` in issues and pull requests. It follows the repo's `CLAUDE.md`, only runs for people with write access, and costs GitHub Actions minutes plus a Claude API key or a subscription token ([Claude Code docs: GitHub Actions](https://code.claude.com/docs/en/github-actions)). Our pick: not yet; the lead's reviewer checks pull requests for now.
+- **Claude reviewing pull requests on GitHub (now, owner, 2026-11-25):** Claude Code GitHub Actions can review every pull request or answer `@claude` in issues and pull requests. It follows the repo's `CLAUDE.md`, only runs for people with write access, and costs GitHub Actions minutes plus a Claude API key or a subscription token ([Claude Code docs: GitHub Actions](https://code.claude.com/docs/en/github-actions)). The owner wants it set up now, with the board: Claude reviews every pull request on GitHub against the reviewer's checklist, alongside the lead's reviewer, and the owner still approves each one.
 
 ## Storage
 
 - **Git LFS limits:** GitHub Free and Pro include 10 GB of LFS storage and 10 GB of downloads a month; Team includes 250 GB of each. Contributors' downloads count against the repository owner. Over the limit with no payment method set, LFS stops until the next month ([GitHub docs: Git LFS billing](https://docs.github.com/en/billing/concepts/product-billing/git-lfs)).
 - **What that means now:** the files in LFS today come to about 1.2 GB (1,236 files), so each new contributor's first download uses about 1.2 GB. About 8 fresh downloads a month fit in 10 GB, fewer as the game grows.
-- **Our pick:** before inviting anyone, set a small monthly budget on LFS, or move to Team, so nobody is cut off mid-month.
+- **Our pick:** before inviting anyone, set a small monthly budget on LFS, or move to Team, so nobody is cut off mid-month. The owner will decide later, with the GitHub plan (2026-11-25); it has to be settled before the first invite.
 
 ## Legal
 
-- **A contributor agreement before access (our pick):** everything a contributor makes belongs to, or is licensed to, the owner, so he can ship and sell the game; the private repo stays confidential; and contributors are credited. A lawyer should write it; it ties into [Copyright and AI](legal-review.md#copyright-and-ai). We're not lawyers.
+- **A contributor agreement before access (owner, 2026-11-25):** everything a contributor makes belongs to, or is licensed to, the owner, so he can ship and sell the game; the private repo stays confidential; and contributors are credited. Nobody gets access until they've signed it. A lawyer should write it; it ties into [Copyright and AI](legal-review.md#copyright-and-ai). We're not lawyers.
 - **Unreal Engine:** each contributor accepts Epic's license themselves, and links their own Epic and GitHub accounts if they need the engine source for the dedicated server.
 - **Same rules as ours:** no real brands, nothing copied from PUBG or other games, and every number keeps its source ([Legal review](legal-review.md)).
 
@@ -61,15 +61,12 @@ The board can be set up now (owner, 2026-11-25); branch protection waits on the 
 - A `CONTRIBUTING.md` in the game repo that sums up this page.
 - A `contributor` agent file in `.claude/agents/`: works only on its claimed issue, never pushes to the main branch, checks the board, locks, and open pull requests at the start of each session.
 - Issue templates (task, bug, playtest note), area labels, the Project board, and a pull request template with the reviewer's checklist.
+- Claude reviewing pull requests on GitHub (owner, 2026-11-25): Claude Code GitHub Actions reviewing every pull request against the reviewer's checklist. The owner adds the key or token as a repository secret himself; never commit it.
 - Branch protection and code owners, if the owner moves to Pro or Team.
 
 ## Open
 
-The owner's calls, on the [round 12 picks page](https://claude.ai/artifact/8rzpgFdLztv3dS3NPAntUx):
-
-Settled: the board and the claim rules (owner, 2026-11-25). Still open:
+Settled on the round 12 picks page (owner, 2026-11-25): a contributor agreement before access, and Claude reviewing pull requests now. Settled earlier: the board and the claim rules. Still open, for the owner to decide later:
 
 1. GitHub Pro (our pick), an organization on Team, or staying on Free.
-2. A contributor agreement before anyone gets access (our pick: yes).
-3. Claude reviewing pull requests on GitHub: later (our pick) or now.
-4. An LFS budget, or Team's bigger storage, before the first invite.
+2. An LFS budget, or Team's bigger storage, before the first invite.

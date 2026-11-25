@@ -254,7 +254,7 @@ Backpacks work like armor (owner, 2026-11-24): three tiers, like PUBG's three le
 - **Spawning:** loot rolls a tier first, by area, from its own table ([Loot](loot.md#starting-weights)), then a random pack of that tier. Each vault holds 2 tier 3 packs, so a duo can both leave with one; crates hold none (owner OK'd, 2026-11-24; [Vaults and keys](match-flow.md#vaults-and-keys)).
 - **Left out:** Tarkov's fictional and boss bags, such as the Scav backpack, Sanitar's and Partisan's bags, Santa's bag, the LolKek 3F Transfer, and the Transformer bag. Color variants are skins.
 
-**How big they look (our pick, 2026-11-25, round 9 playtest):** the owner said "backpacks look big". Models are real size for their listed volume or slots, never wider than the shoulders, and sit high enough on the back to leave the small of the back free for the [cash bag](crafting.md#cash). A tier 3 pack looks like a big hiking pack, not bigger.
+**How big they look (our pick, OK'd by the owner on the round 12 picks page, 2026-11-25):** the owner said "backpacks look big". Models are real size for their listed volume or slots, never wider than the shoulders, and sit high enough on the back to leave the small of the back free for the [cash bag](crafting.md#cash). A tier 3 pack looks like a big hiking pack, not bigger.
 
 | Backpack | Tier | Size | Holds | Notes |
 | --- | --- | --- | --- | --- |

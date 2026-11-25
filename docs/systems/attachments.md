@@ -25,7 +25,7 @@ Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. Th
 **Foregrip.** Grips shift a gun's recoil tendencies from the [Rules](../rules.md#random-recoil): climb, sideways drift, and how fast it settles.
 
 - **Vertical grip:** less climb.
-- **Angled grip:** less drift and faster aim down sights. It faces like the real angled fore grips PUBG's is modeled on: the tall end is at the front, toward the muzzle, as a stop for the hand, and the slope runs up and back to the rail toward the shooter, with the support hand's palm on the slope (our pick, 2026-11-25; the owner thought the model was reversed in the round 9 playtest). Check the model against photos of a real angled fore grip.
+- **Angled grip:** less drift and faster aim down sights. It faces like the real angled fore grips PUBG's is modeled on: the tall end is at the front, toward the muzzle, as a stop for the hand, and the slope runs up and back to the rail toward the shooter, with the support hand's palm on the slope (our pick, OK'd by the owner on the round 12 picks page, 2026-11-25; he thought the model was reversed in the round 9 playtest). Check the model against photos of a real angled fore grip.
 - **Half grip:** less climb and drift, and settles faster.
 - **Thumb grip:** less climb, but more drift and slower settling.
 - **Light grip:** settles faster, but kicks harder.
@@ -89,8 +89,8 @@ The owner's call (2026-11-22): PUBG's attachment effects are the base. These are
 
 **Canted iron sights (our pick, 2026-11-25):** a separate key switches between the main sight and the canted irons while aiming, Alt + right mouse by default like PUBG, and rebindable. Aiming through them rolls the gun 45° so the side sight lines up; shooting works the same ([PUBG Wiki: Canted sight](https://pubg.wiki.gg/wiki/Canted_sight)). Build it now, with the attachments.
 
-- **With scopes (owner, 2026-11-25, round 9 playtest):** "scopes from 4x upward should allow a canted with them". Canted irons fit with any scope from 4x up; red dots, holographic sights, 2x and 3x don't take them (our pick: those are close-range sights already).
-- **A realistic hold (owner, 2026-11-25):** aiming through the canted irons doesn't zoom like the scope. It uses the small iron-sight zoom, with the gun rolled 45 degrees and the side sight brought to the eye (our pick).
+- **With scopes (owner, 2026-11-25, round 9 playtest):** "scopes from 4x upward should allow a canted with them". Canted irons fit with any scope from 4x up; red dots, holographic sights, 2x and 3x don't take them (our pick, OK'd by the owner, 2026-11-25: those are close-range sights already).
+- **A realistic hold (owner, 2026-11-25):** aiming through the canted irons doesn't zoom like the scope. It uses the small iron-sight zoom, with the gun rolled 45 degrees and the side sight brought to the eye (our pick, OK'd by the owner, 2026-11-25).
 
 ## Wear
 

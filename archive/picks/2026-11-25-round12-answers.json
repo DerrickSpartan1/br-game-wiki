@@ -1,0 +1,70 @@
+{
+ "answers": {
+  "agreement": {
+   "choice": "yes",
+   "label": "Yes, before anyone gets access",
+   "question": "A contributor agreement before access"
+  },
+  "angled_grip": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Angled grip: tall end at the front"
+  },
+  "boost_icons": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Boost icons next to the health bar"
+  },
+  "canted_irons": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Canted irons only with 4x and up, no scope zoom"
+  },
+  "claude_review": {
+   "choice": "now",
+   "label": "Now",
+   "question": "Claude reviewing pull requests on GitHub"
+  },
+  "gh_plan": {
+   "choice": "later",
+   "label": "Decide later",
+   "question": "GitHub plan for the game repo"
+  },
+  "lfs_budget": {
+   "choice": "later",
+   "label": "Decide later",
+   "question": "Git LFS before the first invite"
+  },
+  "melee_swing": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "One swing time for all melee, up to 1.0 s"
+  },
+  "pack_size": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Real-size packs, the cash bag under them"
+  },
+  "range_menu": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "One range menu instead of melee pedestals"
+  },
+  "stairs": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "Stairs by building type"
+  },
+  "two_handed": {
+   "choice": "ok",
+   "label": "OK",
+   "question": "The two-handed melee list"
+  }
+ },
+ "comments": {
+  "fp_refs": {
+   "question": "Your first-person hold references",
+   "text": "can you grab them from the movement thing? theya re in there"
+  }
+ }
+}

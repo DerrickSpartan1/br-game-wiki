@@ -44,7 +44,7 @@ The planner went through every item and report on this page against the game rep
 
 - **Done, reviewed by you:** game names in the game; and from the playtests, the squared M4A1, its colors, guns on the ground, the pedestal picker, the M4 hold and watch, the test bench, fly mode and the full map, cancelling a reload, knockdowns and revives, the new body and its colors, eye height, crouch and prone, 30+1, range lighting, aiming down sights, the moving parts, recoil, flash, shells, and reloads with rounds left.
 - **Waiting on your review in game (round 7 of the lead's checklist):** hits on the body's pose, the red zones (never tested yet), weather rolling in and out, brighter dusk and night, med names and HUD size, vaults on the map, outfit layers, and the carry limit at the range.
-- **Waiting on your review on paper:** 42 of the planner's first passes ("our pick") that you haven't OK'd yet, on the [review page](https://claude.ai/artifact/XpjKmf5o3A7qrAAa2c7i5h).
+- **Waiting on your review on paper:** 36 of the planner's first passes ("our pick") that you haven't OK'd yet, on the [review page](https://claude.ai/artifact/XpjKmf5o3A7qrAAa2c7i5h).
 - **Needs work, being fixed by the lead (round 6):** knocked players crawling in `Squad 1`, the throw arc not showing, a softer tint inside the edge, the edge wall's material, the local match skipping the menu and lobby, and floating houses. Later: the hand's fit on the grip and the parachute's material.
 - **With the lead, not built yet:** most of the owner's picks of 2026-11-22 (second to fourth batches), the map passes (town cores, coast, land cover, harbors, spot layouts, buildings, real terrain), the female test body, and the round 6 and overnight answers.
 
@@ -377,7 +377,7 @@ In rough order of what the game needs first:
 - [x] **Frying pan twist:** pans are class items that block only while raised and get holed after a set amount of gunfire ([Pans](../systems/class-items.md#pans)).
 - [x] **Menu accent:** field lime, with the HUD compass heading in the same lime (owner, 2026-11-24; [HUD and inventory](../systems/gameplay.md#hud-and-inventory)).
 - [ ] **Thrown melee pickup:** only the thrower can pick up a thrown melee weapon (suggested, and built as the placeholder), or anyone can take it for the rest of the match, like PUBG, with the owner keeping it after ([Melee](../systems/gameplay.md#melee)). On the [review page](https://claude.ai/artifact/XpjKmf5o3A7qrAAa2c7i5h).
-- [ ] **Review the planner's first passes:** 42 "our pick" answers you haven't OK'd yet, on the [review page](https://claude.ai/artifact/XpjKmf5o3A7qrAAa2c7i5h).
+- [ ] **Review the planner's first passes:** 36 "our pick" answers you haven't OK'd yet (six dropped on 2026-11-24 because you'd already OK'd them in playtests or changed them), on the [review page](https://claude.ai/artifact/XpjKmf5o3A7qrAAa2c7i5h).
 - [x] **The edge's color, second try:** aurora, teal shifting to violet (owner, 2026-11-24; [The edge](../systems/match-flow.md#the-edge-how-it-looks)).
 - [x] **Backpacks:** the tier sets about how much a pack holds, with a small spread by size; no slowdown, like PUBG; bird names (owner, 2026-11-24; [Backpacks](../systems/armor.md#backpacks)).
 - [x] **Playtest round 6 picks:** green smoke for 60 s on care packages, the throw arc on with a switch, strike zones 600 m (gas 400 m) landing inside the white circle 7 times in 10, the first circle scaled to Teplov (5,100 m), and hands that move about 2 cm at a run (owner, 2026-11-24; [Picks archive](picks-archive.md)).

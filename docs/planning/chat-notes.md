@@ -32,6 +32,7 @@ Short dated notes from each chat with the owner, so the planner, the lead, and e
 - **Evening status check (23:07):** "alright how ar things?" Both check-ins are running and answering each other within minutes. The cloud check-in that makes picks pages was found switched off (since about 15:10), so the queued questions haven't become a page yet; asked him whether to turn it back on. Nothing on the review page is answered yet.
 - **The cloud check-in:** he'd turned it off because "i thought its functions would be covered in the twice hourly". It's back on for picks pages only, as he asked: "maybe that one should be hourly?" It runs at :52 every hour from 9 AM to 11 PM.
 - **Round 9 picks (23:31):** he ran the picks check-in by hand, and it posted a page with the parachute choice and the newer first passes. He OK'd them all but two. If you never pull: "You hit the ground and die." A part-loaded round: "No if youre part way through it defaults to the last saved reload whether that be the last buller or srep in reloading a mag." On no-gear capacity 70: "we will have a belt item thats customizable and all players get at the start to fix this." Bodies show worn gear "until the body disappears." Filed, archived, and the page deleted.
+- **The review page (23:36):** "okay give me those 42." Six were dropped first, already settled: the revolver stop (changed today), med names, the boost pulse, armor durability, and eye height (all good in playtests), and the map colors (OK'd in round 9). 36 are left.
 
 ### Lead chat
 

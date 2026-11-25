@@ -38,6 +38,18 @@ Set up the [AI team](ai-team.md): the workers, the lead, and reaching the lead f
 
 When you tell the lead "check the planner's list," it works through this section in order and tells you what's done.
 
+- [ ] **Round 9 playtest answers (owner, 2026-11-25), questions for the planner.** All answers are saved in the game repo's `Docs/Playtest/results-2026-11-25.md`. **Owner changes a pick:** a no-chute landing does not kill you for good: "you should jsut go down and be able to be picked up if you are in a squad" (please file it on [Parachutes](../systems/match-flow.md#parachutes); the lead is changing the code). Questions:
+    1. **Boost icons:** "we can put those in the ammo bar like pubg? or next to?" Where exactly?
+    2. **First person:** the gun "needs to come back on screen, just a little bit"; hands "come up a little bit more"; less bob when running; "the planner has a screenshot of how this looks" and "reference videos and images from recent that shows how a m4 is held, we want something similar but just barely able to see the watch". Please give the lead that screenshot and the M4 hold references, with target screen positions.
+    3. **Gun kick:** "shouldnt settle by itself", "much stronger like pubg". What does PUBG's kick do (size per shot, does it return), from public sources?
+    4. **Melee swing time:** "the swing needs to work fo all meles so the time might be a little longer". One swing time for every melee, or per weapon?
+    5. **One- or two-handed melee:** which looks are two-handed ("the scythe should be two")?
+    6. **Backpacks vs the cash duffle:** "backpacks look big ... the player needs to carry some version of a duffle for the money idea". How big should packs be, and where does the duffle sit?
+    7. **Angled grip:** "i think the angled is reverse might need reference images from planner". Which way should it face?
+    8. **Canted irons with scopes:** "scopes from 4x upward should allow a canted with them". Only 4x and up, or any sight? And the owner wants "a more realistic hold" when aiming through canted irons (today it zooms in far).
+    9. **Getting melee back on the range:** "we will need pedestals for that too, or one big ingame menu sorted by category for this isntead of pedestals". Pedestals or a menu?
+    10. **Stairs:** "stairs should be based on research of the building, some might have fire scapes". Which building types get which stairs?
+
 ### Review status (planner's check, 2026-11-24)
 
 The planner went through every item and report on this page against the game repo's commits, the code, and your playtest results (rounds 1 to 6). Each build item in the list below now has a status. In short:

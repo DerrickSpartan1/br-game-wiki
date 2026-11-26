@@ -4,6 +4,7 @@ Every design decision, newest first. The decision itself lives on the page linke
 
 | Date | Decision | Page |
 | --- | --- | --- |
+| 2026-11-25 | Canted irons get their own sixth slot, shown only with a 4x-or-up scope; dropping to a smaller scope or none moves them to the pack or the ground; none on plain irons; they mount on a spot on the scope's right side (our picks, from the lead's questions) | [Attachments](../systems/attachments.md#attachment-slots) |
 | 2026-11-25 | Under the canopy the gauge reads 23 to 34 km/h (about 22 to 27 forward) and a hands-off canopy takes about 60 s from 150 m, after the gauge retune (our pick, from the lead's question) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | Parachute readout shows total speed, like PUBG's gauge, and the page's speeds are gauge readings; W looking level flies forward in freefall, W looking down dives; hands-off canopy 28.5 km/h and S's glide 3.75 to 1 (our picks, from the lead's questions) | [Parachutes](../systems/match-flow.md#parachutes) |
 | 2026-11-25 | About half the big heists are live each match, 6 to 8 once all are built, tuned after a playtest (owner, round 11 picks) | [Mini heists](../systems/match-flow.md#mini-heists), [Picks archive](picks-archive.md#round-11-2026-11-25) |

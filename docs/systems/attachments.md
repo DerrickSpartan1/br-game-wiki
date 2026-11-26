@@ -12,7 +12,7 @@ Mounts never depend on crafting.
 
 ## Attachment slots
 
-Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. The set below comes from PUBG. Each attachment fits by family (see [Universal attachments](#universal-attachments)), and each gun page lists what it can take. How much each one helps starts from PUBG's numbers ([Effects](#effects-first-pass-from-pubg)).
+Every gun has up to five slots: muzzle, foregrip, sight, stock, and magazine. A gun with a scope of 4x or more also shows a sixth slot, canted, for canted iron sights (our pick, 2026-11-25). The set below comes from PUBG. Each attachment fits by family (see [Universal attachments](#universal-attachments)), and each gun page lists what it can take. How much each one helps starts from PUBG's numbers ([Effects](#effects-first-pass-from-pubg)).
 
 **Muzzle** (the "barrel attachments" in the families below):
 
@@ -89,7 +89,7 @@ The owner's call (2026-11-22): PUBG's attachment effects are the base. These are
 
 **Canted iron sights (our pick, 2026-11-25):** a separate key switches between the main sight and the canted irons while aiming, Alt + right mouse by default like PUBG, and rebindable. Aiming through them rolls the gun 45° so the side sight lines up; shooting works the same ([PUBG Wiki: Canted sight](https://pubg.wiki.gg/wiki/Canted_sight)). Build it now, with the attachments.
 
-- **With scopes (owner, 2026-11-25, round 9 playtest):** "scopes from 4x upward should allow a canted with them". Canted irons fit with any scope from 4x up; red dots, holographic sights, 2x and 3x don't take them (our pick, OK'd by the owner, 2026-11-25: those are close-range sights already).
+- **With scopes (owner, 2026-11-25, round 9 playtest):** "scopes from 4x upward should allow a canted with them". Canted irons fit with any scope from 4x up; red dots, holographic sights, 2x and 3x don't take them (our pick, OK'd by the owner, 2026-11-25: those are close-range sights already). They go in their own canted slot, never on a gun's own irons or on a smaller sight. Swapping the scope for one under 4x, or taking it off, moves the canted irons to the pack, or the ground if the pack is full, like PUBG; the swap is never refused. On the model they sit on a mount spot on the scope's right side at 45 degrees, so they follow the scope and never clip into it (our picks, 2026-11-25, from the lead's questions).
 - **A realistic hold (owner, 2026-11-25):** aiming through the canted irons doesn't zoom like the scope. It uses the small iron-sight zoom, with the gun rolled 45 degrees and the side sight brought to the eye (our pick, OK'd by the owner, 2026-11-25).
 
 ## Wear

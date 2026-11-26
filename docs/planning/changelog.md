@@ -4,6 +4,7 @@ Every update to the wiki, newest first.
 
 | Date | Change |
 | --- | --- |
+| 2026-11-25 | [Attachments](../systems/attachments.md#attachment-slots): the canted slot, swapping scopes, and the canted mount spot (answers to the lead); [To-do](to-do.md#for-the-lead-claude-code): canted irons on 4x and up gets its own item |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): canopy speed and hands-off canopy time reworded to match the gauge retune (answer to the lead); [To-do](to-do.md#for-the-lead-claude-code): the retune commit not on GitHub yet |
 | 2026-11-25 | [To-do](to-do.md#for-the-lead-claude-code): statuses from the game repo: the minimap and the melee swing time and two-handed looks built, waiting on review; the parachute commit on GitHub, its retune still with the lead |
 | 2026-11-25 | [Parachutes](../systems/match-flow.md#parachutes): the speed readout shows total speed, W in freefall, and the canopy placeholders (answers to the lead's questions, our picks) |
